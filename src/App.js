@@ -30,7 +30,7 @@ const App = () => (
   <MemoryRouter>
     <Container>
 
-        <Navbar fixed="top" bg="light" expand="lg">
+        <Navbar sticky="top" bg="light" expand="lg">
           <Navbar.Brand to="/">JAEMINKIM.COM</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

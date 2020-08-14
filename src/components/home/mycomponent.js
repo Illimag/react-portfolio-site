@@ -4,8 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
+import Carousel from 'react-bootstrap/Carousel';
 
-import Banner from '../../assets/img/aerial-cityscape-view-of-san-francisco-and-the-bay-2FPCNKG.jpg';
+import Banner from '../../assets/img/african-man-holding-a-white-sneaker-PTQSAWM.jpg';
 import Pg1Img from '../../assets/img/african-man-holding-a-white-sneaker-PTQSAWM.jpg';
 import Pg2Img from '../../assets/img/aerial-view-of-san-francisco-skyline-with-city-lig-T7T2SBP.jpg';
 import Pg3Img from '../../assets/img/businesswoman-planning-with-adhesive-notes-on-glas-JX7K3ZV.jpg';
@@ -23,12 +24,35 @@ export const Home = () => (
   <Card.Body>Home</Card.Body>
 </Card>
 
+<Container fluid>
+    <Carousel>
+      <Carousel.Item>
+      <Image src={Banner} fluid className="pg1Img" />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <Image src={Banner} fluid className="pg1Img" />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <Image src={Banner} fluid className="pg1Img" />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+</Container>
+
   <Container fluid>
-    <Row>
-      <Col sm>
-      <Image src={Banner} fluid className="banner" />
-      </Col>
-    </Row>
+
+
     <Row>
     <Col sm>
     <Image src={Pg1Img} fluid className="pg1Img" />
