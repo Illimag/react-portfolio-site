@@ -7,7 +7,10 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
 import Pg1Img from '../../assets/img/african-man-holding-a-white-sneaker-PTQSAWM.jpg';
+import Vid0 from '../../assets/vids/a51-black.mp4';
+import Vid1 from '../../assets/vids/videotest.mp4';
 
+import Codepen from "react-codepen-embed";
 
 export const Pg1 = () => (
     /* Start of JSX Fragment*/ 
@@ -24,6 +27,7 @@ export const Pg1 = () => (
     </Col>
     </Row>
 
+
     <Row>
     <Col sm>
       <h1>test</h1>
@@ -31,6 +35,17 @@ export const Pg1 = () => (
     <Image src={Pg1Img} fluid className="pg1Img" />
     </Col>
     </Row>
+
+    <Row>
+        <Col sm>
+        <Codepen
+        hash="WNrqqqe"
+        user="jaemnkm"
+        defaultTab="result"
+        preview="false"
+      />
+        </Col>
+      </Row>
 
     <Row>
     <Col sm>
@@ -41,6 +56,17 @@ export const Pg1 = () => (
     <Image src={Pg1Img} fluid className="pg1Img" />
     </Col>
     </Row>
+
+    <Row>
+    <Col sm>
+    <video autoPlay preload="true" loop playsInline muted>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+      </Col>
+      </Row>
+
+
+
     <Row>
     <Col sm>
     <Image src={Pg1Img} fluid className="pg1Img" />
@@ -50,6 +76,18 @@ export const Pg1 = () => (
       <h3>test</h3>
     </Col>
     </Row>
+
+
+      
+    <Row>
+    <Col sm>
+    <video autoPlay preload="true" loop playsInline muted>
+      <source src={Vid0} type="video/mp4" />
+    </video>
+    </Col>
+    </Row>
+
+
     </Container>
 
     </>

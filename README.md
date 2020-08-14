@@ -144,3 +144,22 @@ Create the compnent and export the component
 - Portfolio Page 5
 
 - Portfolio Page 6
+
+## Embed Codepen to react with tool
+
+    npm install --save react-codepen-embed
+
+Usage
+
+    import React from "react";
+    import Codepen from "react-codepen-embed";
+
+    const CodepenEmbedded = () => {
+    return <Codepen hash="JyxeVP" user="shettypuneeth" />;
+    };
+
+    <Codepen
+  hash="JyxeVP"
+  user="shettypuneeth"
+  loader={() => <div>Loading...</div>}
+/>
