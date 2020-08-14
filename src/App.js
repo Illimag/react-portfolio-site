@@ -30,8 +30,8 @@ const App = () => (
   <MemoryRouter>
     <Container>
 
-        <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">JAEMINKIM.COM</Navbar.Brand>
+        <Navbar fixed="top" bg="light" expand="lg">
+          <Navbar.Brand to="/">JAEMINKIM.COM</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
