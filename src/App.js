@@ -13,7 +13,6 @@ const App = () => (
  <Navigation></Navigation>
  <ScrollUpButton></ScrollUpButton>
  <Footer></Footer>
-
   </>
 );
 
