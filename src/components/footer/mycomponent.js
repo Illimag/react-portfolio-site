@@ -11,6 +11,9 @@ import Github from '../../assets/github.png';
 import Linkedin from '../../assets/linkedin.png';
 import Dribbble from '../../assets/dribbble.png';
 
+import Bootstrap from '../../assets/img/bootstrap.png';
+import ReactImg from '../../assets/img/react.png';
+
 const Footer = () => (
 /* Start of JSX Fragment*/
 <>
@@ -25,7 +28,23 @@ const Footer = () => (
     2020
     </p>
 
-    <Container>
+<h5>Made with <span><p>
+<Row>
+<Col xs={4} md={4}>
+<Image src={Bootstrap} roundedCircle />
+</Col>
+<Col xs={4} md={4}>
+<Image src={ReactImg} roundedCircle />
+</Col>
+</Row>
+</p> in San Francisco Bay Area/Silicon Valley.</span></h5>
+
+<h5>Hosted with <span><p>&hearts; &hearts; &hearts; &hearts; &hearts;</p></span> Github</h5>
+
+  </Container>
+
+
+  <Container>
   <Row>
     <Col xs={4} md={4}>
     <a href="https://www.google.com/">
@@ -44,14 +63,9 @@ const Footer = () => (
     </Col>
   </Row>
 </Container>
-
-
-
-
-<h5>Made with <span><p>&hearts; &hearts; &hearts; &hearts; &hearts;</p> in San Francisco Bay Area/Silicon Valley.</span></h5>
-
-  </Container>
 </Jumbotron>
+
+
 
 </>
 /* End of JSX Fragment*/
