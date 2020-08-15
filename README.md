@@ -323,3 +323,27 @@ This is when the user selects something in the top nav it to scroll the user bac
     </Link>
     </Container>
     </Jumbotron>
+
+## Using Localized Scope Module CSS Files
+
+To modulate the CSS of each component need to use Modules.
+
+So for example first create the correct file
+
+    test.module.css
+
+Now import it into the js file of the component test
+
+In test.js
+
+    import styles from 'test.module.css';
+
+Now in the component test
+
+    export const test =() => (
+
+        <div className={styles.test}></div>
+
+    )
+
+This will allow each component to have modulated CSS.

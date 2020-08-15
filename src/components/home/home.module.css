@@ -1,0 +1,30 @@
+.colsm{
+    padding-right: 0px  !important;
+    padding-left: 0px !important;
+    overflow:hidden;
+}
+
+.containerfluid{
+    padding-right: 0px  !important;
+    padding-left: 0px !important;
+}
+
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.pg1Img{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.carousel-indicators{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.carouselcaption{
+    right: 0% !important;
+    left: 0% !important;
+}
