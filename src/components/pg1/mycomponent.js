@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom'
+
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -184,6 +186,25 @@ Arts (CCA).</p>
 
 
     </Container>
+
+    <Jumbotron fluid>
+  <Container>
+    <Row>
+    <Col sm={6}>
+    <h1>Home</h1>
+    <Link to={'/home'}>
+      <p > Go Home </p>
+    </Link>
+    </Col>
+    <Col sm={6}>
+    <h1>DasDasDigital</h1>
+    <Link to={'/pg2'}>
+      <p > View Next </p>
+    </Link>
+    </Col>
+    </Row>
+  </Container>
+</Jumbotron>
 
     </>
       /* End of JSX Fragment*/

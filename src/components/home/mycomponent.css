@@ -1,6 +1,7 @@
 .col-sm{
     padding-right: 0px  !important;
     padding-left: 0px !important;
+    overflow:hidden;
 }
 
 .container-fluid{
@@ -19,7 +20,7 @@
 }
 
 .pg1Img{
-    height: 30em !important;
+    height: 100% !important;
     width: 100% !important;
 }
 

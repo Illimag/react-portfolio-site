@@ -289,3 +289,37 @@ Then add it to as a jsx tag within the router
 
     <ScrollToTop></ScrollToTop>
 
+This is when the user selects something in the top nav it to scroll the user back to the top of the page.
+
+## Installing scroll to top when user scroll down page
+
+    npm install react-scroll-up-button
+
+    import React from "react";
+    import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
+    
+    export default class Index extends React.Component {
+        render() {
+            return (
+                <div>
+                    <ScrollUpButton />
+                    //This is all you need to get the default view working
+                </div>
+            );
+        }
+    }
+    
+
+## Using Link to redirect route onclick of element
+
+    import { Link } from 'react-router-dom'
+
+        <Jumbotron fluid>
+    <Container>
+        <h1>DasDasDigital</h1>
+
+    <Link to={'/pg2'}>
+    <button > Click Me </button>
+    </Link>
+    </Container>
+    </Jumbotron>

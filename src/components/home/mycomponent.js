@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -20,10 +19,6 @@ import './mycomponent.css';
 export const Home = () => (
   /* Start of JSX Fragment*/ 
   <>
-
-<Card>
-  <Card.Body>Home</Card.Body>
-</Card>
 
 <Container fluid>
     <Carousel>

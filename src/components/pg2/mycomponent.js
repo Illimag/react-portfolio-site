@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom'
+
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -155,6 +157,25 @@ have enough funding.</p>
         </Row>
 
     </Container>
+
+    <Jumbotron fluid>
+  <Container>
+    <Row>
+    <Col sm={6}>
+    <h1>Uguru, INC</h1>
+    <Link to={'/pg1'}>
+      <p > View Previous </p>
+    </Link>
+    </Col>
+    <Col sm={6}>
+    <h1>Sanchez Coffee Co.</h1>
+    <Link to={'/pg3'}>
+      <p > View Next </p>
+    </Link>
+    </Col>
+    </Row>
+  </Container>
+</Jumbotron>
 
     </>
       /* End of JSX Fragment*/

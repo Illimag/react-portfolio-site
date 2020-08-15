@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom'
+
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -169,6 +171,26 @@ would follow somewhat what was for React.JS.</p>
            
 
     </Container>
+
+
+    <Jumbotron fluid>
+  <Container>
+    <Row>
+    <Col sm={6}>
+    <h1>Stepsaver</h1>
+    <Link to={'/pg5'}>
+      <p > View Previous </p>
+    </Link>
+    </Col>
+    <Col sm={6}>
+    <h1>Questions or just want to say hi?</h1>
+    <Link to={'/contact'}>
+      <p > Contact Now </p>
+    </Link>
+    </Col>
+    </Row>
+  </Container>
+</Jumbotron>
 
     </>
       /* End of JSX Fragment*/

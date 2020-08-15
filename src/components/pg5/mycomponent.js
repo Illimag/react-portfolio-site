@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom'
+
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -157,6 +159,25 @@ on the designs and take it to the next level..</p>
     </Row>
 
     </Container>
+
+    <Jumbotron fluid>
+  <Container>
+    <Row>
+    <Col sm={6}>
+    <h1>Domino's App Demo</h1>
+    <Link to={'/pg4'}>
+      <p > View Previous </p>
+    </Link>
+    </Col>
+    <Col sm={6}>
+    <h1>Nike Rate</h1>
+    <Link to={'/pg6'}>
+      <p > View Next </p>
+    </Link>
+    </Col>
+    </Row>
+  </Container>
+</Jumbotron>
 
     </>
       /* End of JSX Fragment*/
