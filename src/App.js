@@ -26,8 +26,16 @@ import { Pg5 } from './components/pg5/mycomponent'
 
 import { Pg6 } from './components/pg6/mycomponent'
 
+
+
+import ScrollToTop from 'react-router-scroll-top'
+
 const App = () => (
+  <>
   <MemoryRouter>
+
+  <ScrollToTop>
+
     <Container>
 
         <Navbar sticky="top" bg="light" expand="lg">
@@ -45,22 +53,22 @@ const App = () => (
             </LinkContainer>
 
             <LinkContainer to="/pg1">
-              <Nav.Link>Pg1</Nav.Link>
+              <Nav.Link>Uguru, INC</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg2">
-              <Nav.Link>Pg2</Nav.Link>
+              <Nav.Link>DasDasDigital</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg3">
-              <Nav.Link>Pg3</Nav.Link>
+              <Nav.Link>Sanchez Coffee Co.</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg4">
-              <Nav.Link>Pg4</Nav.Link>
+              <Nav.Link>Domino's App Demo</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg5">
-              <Nav.Link>Pg5</Nav.Link>
+              <Nav.Link>Stepsaver</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg6">
-              <Nav.Link>Pg6</Nav.Link>
+              <Nav.Link>Nike Rate</Nav.Link>
             </LinkContainer>
 
             </Nav>
@@ -96,9 +104,11 @@ const App = () => (
 
 
     </Container>
-  </MemoryRouter>
 
-  
+    </ScrollToTop>
+
+  </MemoryRouter>
+  </>
 );
 
 export default App;

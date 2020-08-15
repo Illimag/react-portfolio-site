@@ -6,7 +6,7 @@ export const Contact = () => (
     <>
 
     <Card>
-      <Card.Body>pg1</Card.Body>
+      <Card.Body>Contact</Card.Body>
     </Card>
 
     </>

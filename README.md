@@ -158,8 +158,134 @@ Usage
     return <Codepen hash="JyxeVP" user="shettypuneeth" />;
     };
 
-    <Codepen
-  hash="JyxeVP"
-  user="shettypuneeth"
-  loader={() => <div>Loading...</div>}
-/>
+    s<Codepen
+    hash="JyxeVP"
+    user="shettypuneeth"
+    loader={() => <div>Loading...</div>}
+    />
+
+
+## Component 
+
+Put all parts inside the container jsx tag
+
+    export const Pg1 = () => (
+        /* Start of JSX Fragment*/ 
+        <>
+
+        <Container fluid>
+        </Container>
+
+        </>
+        /* End of JSX Fragment*/
+    )
+
+
+
+## Case Study Part
+
+    <Jumbotron fluid>
+        <Container>
+        <h5>Case Study</h5>
+        <h1>Uguru, INC</h1>
+        <p>
+        Mobile Application for College Students
+        </p>
+        <h5>Project Date:</h5>
+        <p>
+        October 2016 - January 2017
+        </p>
+        <h5>Role:</h5>
+        <p>
+        Graphic UI/UX Intern to creating High-Fidelity User Interfaces and Rapid prototypes
+        </p>
+
+        </Container>
+    </Jumbotron>
+
+## Video  
+
+    {/* Video */}
+        <Row>
+    <Col sm>
+    <video autoPlay preload="true" loop playsInline muted>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+      </Col>
+      </Row>
+
+## img with text
+
+        {/* img with text */}
+        <Row>
+    <Col sm>
+      <h3>test</h3>
+      <p>test</p>
+    <Image src={Pg1Img} fluid className="pg1Img" />
+    </Col>
+    </Row>
+    
+## left text right img
+
+                {/* left text right img */}
+            <Row>
+        <Col sm>
+        <h3>test</h3>
+        <p>test</p>
+        </Col>
+        <Col sm>
+        <Image src={Pg1Img} fluid className="pg1Img" />
+        </Col>
+        </Row>
+
+
+## left img right text
+
+        {/* left img right text */}
+        <Row>
+    <Col sm>
+    <Image src={Pg1Img} fluid className="pg1Img" />
+    </Col>
+    <Col sm>
+      <h1>test</h1>
+      <h3>test</h3>
+    </Col>
+    </Row>
+
+## img without text
+
+    {/* img without text */}
+        <Row>
+        <Col sm>
+        <Image src={Pg1Img} fluid className="pg1Img" />
+        </Col>
+        </Row>
+
+## codepen
+
+
+    {/* codepen*/}
+    <Row>
+            <Col sm>
+            <Codepen
+            hash="WNrqqqe"
+            user="jaemnkm"
+            defaultTab="result"
+            preview="false"
+        />
+            </Col>
+        </Row>
+
+
+## Installing scroll to top
+
+    npm install react-router-scroll-top --save
+
+Then import it 
+
+    import ScrollToTop from 'react-router-scroll-top'
+
+Then add it to as a jsx tag within the router
+
+    <ScrollToTop></ScrollToTop>
+
