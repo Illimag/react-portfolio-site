@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
-import Vid1 from '../../assets/vids/sf.mp4';
+import Vid1 from '../../assets/vids/compress_sf.mp4';
 import Img01 from '../../assets/img/0.jpg';
 
 export const Contact = () => (

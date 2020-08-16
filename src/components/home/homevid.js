@@ -5,14 +5,16 @@ import Row from 'react-bootstrap/Row';
 import Carousel from 'react-bootstrap/Carousel';
 import { LinkContainer } from 'react-router-bootstrap';
 
-import Vid1 from '../../assets/vids/videotest.mp4';
+import BannerVid0 from '../../assets/vids/compress_vid6.mp4';
+import BannerVid1 from '../../assets/vids/compress_vid0.mp4';
+import BannerVid2 from '../../assets/vids/compress_sf.mp4';
 
-import Vid01 from '../../assets/vids/vid.mp4';
-import Vid02 from '../../assets/vids/vid0.mp4';
-import Vid03 from '../../assets/vids/vid1.mp4';
-import Vid04 from '../../assets/vids/vid2.mp4';
-import Vid05 from '../../assets/vids/vid3.mp4';
-import Vid06 from '../../assets/vids/vid4.mp4';
+import Vid01 from '../../assets/vids/compress_vid1.mp4';
+import Vid02 from '../../assets/vids/compress_vid2.mp4';
+import Vid03 from '../../assets/vids/compress_vid3.mp4';
+import Vid04 from '../../assets/vids/compress_vid4.mp4';
+import Vid05 from '../../assets/vids/compress_vid5.mp4';
+import Vid06 from '../../assets/vids/compress_vid0.mp4';
 
 import styles from './home.module.css';
 import './home.css';
@@ -25,7 +27,7 @@ export const Home = () => (
     <Carousel>
       <Carousel.Item>
       <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid1} type="video/mp4" />
+      <source src={BannerVid0} type="video/mp4" />
     </video>
         <Carousel.Caption className={styles.carouselcaption}>
           <h3>First slide label</h3>
@@ -34,7 +36,7 @@ export const Home = () => (
       </Carousel.Item>
       <Carousel.Item>
       <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid1} type="video/mp4" />
+      <source src={BannerVid1} type="video/mp4" />
     </video>
         <Carousel.Caption className={styles.carouselcaption}>
           <h3>Second slide label</h3>
@@ -43,7 +45,7 @@ export const Home = () => (
       </Carousel.Item>
       <Carousel.Item>
       <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid1} type="video/mp4" />
+      <source src={BannerVid2} type="video/mp4" />
     </video>
         <Carousel.Caption className={styles.carouselcaption}>
           <h3>Third slide label</h3>

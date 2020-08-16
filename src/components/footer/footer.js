@@ -23,6 +23,7 @@ const Footer = () => (
 
 <Jumbotron fluid>
   <Container>
+
 <h5>Made with <span>
 <Row>
 <Col xs={4} md={4}>
@@ -57,6 +58,13 @@ const Footer = () => (
     </a>
     </Col>
   </Row>
+
+  <p>
+      Jaeminkim.com
+    </p>
+    <p>
+    2020
+    </p>
 </Container>
 </Jumbotron>
 

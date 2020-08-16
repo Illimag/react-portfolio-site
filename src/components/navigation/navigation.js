@@ -26,7 +26,8 @@ import { Pg6 } from '../pg6/pg6'
 
 import ScrollToTop from 'react-router-scroll-top'
 
-import styles from './navigation.module.css';
+import styles from './navigation.module.css'
+import './navigation.css'
 
 const Navigation = () => (
 
@@ -41,8 +42,8 @@ const Navigation = () => (
         <Navbar bg="light" expand="lg">
           <Navbar.Brand to="/">JAEMINKIM.COM</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto" >
+          <Navbar.Collapse id="basic-navbar-nav" >
+            <Nav className="ml-auto">
 
             <LinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
