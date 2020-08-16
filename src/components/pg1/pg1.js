@@ -116,14 +116,14 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
     <Image src={Img03} fluid className="pg1Img" />
     </Col>
     <Col sm>
-      <h1>Graphic & UI/UX Design</h1>
-      <h3>I was the graphic & UI/UX Designer Intern at the 
+      <h3>Graphic & UI/UX Design</h3>
+      <p>I was the graphic & UI/UX Designer Intern at the 
 company, and later there was a lead designer that 
 came in to help with moving the designs forward faster.
 This was a very great to learn from this individual 
 and while working with the whole team it really 
 showed me how a team would be able to create 
-a production product.</h3>
+a production product.</p>
     </Col>
     </Row>
 

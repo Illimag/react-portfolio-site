@@ -62,8 +62,8 @@ export const Pg6 = () => (
     <Image src={Img01} fluid className="pg1Img" />
     </Col>
     <Col sm>
-      <h1>React Web Application</h1>
-      <h3>This was a personal personal project because
+      <h3>React Web Application</h3>
+      <p>This was a personal personal project because
 I wanted to really go indepth into the React.JS
 framework. Understanding what was going on.
 I decided to recreate the React.JS web app
@@ -75,7 +75,7 @@ interested in Nike shoes. They can go on the
 platform and then they can start to figure out
 what types of shoes they are interested in
 and they can start ranking the shoes based 
-on who gets the most clicks.</h3>
+on who gets the most clicks.</p>
     </Col>
     </Row>
 
@@ -153,8 +153,8 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
     <Image src={Img05} fluid className="pg1Img" />
     </Col>
     <Col sm>
-      <h1>Designing the User Interface</h1>
-      <h3>Can I design a better User Interface based on the
+      <h3>Designing the User Interface</h3>
+      <p>Can I design a better User Interface based on the
 React.JS source code and then can I develop it from
 scratch based on the docs. They project is a
 React.JS Web app that is custom designed and
@@ -164,7 +164,7 @@ who has an interest in Nike shoes.
 
 With the web app they can rate a show up or down
 depending on what they think of the shoes in
-relation to other shoes on the application.</h3>
+relation to other shoes on the application.</p>
     </Col>
     </Row>
 

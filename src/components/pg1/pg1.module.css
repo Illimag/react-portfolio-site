@@ -1,5 +1,7 @@
 .test{
     background-color: #1E2F97 !important;
+
+    margin-bottom: 0px !important;
 }
 
 .test1{
@@ -22,3 +24,4 @@
     height: 100% !important;
     width: 100% !important;
 }
+

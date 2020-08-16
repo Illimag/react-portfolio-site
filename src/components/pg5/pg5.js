@@ -105,12 +105,12 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
     <Image src={Img04} fluid className="pg1Img" />
     </Col>
     <Col sm>
-      <h1>Technical Requirements</h1>
-      <h3>There were alot of technical requirements
+      <h3>Technical Requirements</h3>
+      <p>There were alot of technical requirements
 of the application. There wasent much to work
 with. So it was free form, but there were a 
 couple of functionality that needed to be
-designed.</h3>
+designed.</p>
     </Col>
     </Row>
 

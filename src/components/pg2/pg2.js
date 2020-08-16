@@ -61,8 +61,11 @@ export const Pg2 = () => (
         {/* img with text */}
         <Row>
     <Col sm>
-      <h3>test</h3>
-      <p>test</p>
+      <h3>High-Fidelity UI Design</h3>
+      <p>Series of various UI designs, Initially I designed some low level mockups that were
+brought into the fold to be sued on the production application. It was a growing experience.
+I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
     <Image src={Img01} fluid className="pg1Img" />
     </Col>
     </Row>

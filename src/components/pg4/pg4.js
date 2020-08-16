@@ -219,12 +219,12 @@ assistant.</p>
     <Image src={Img08} fluid className="pg1Img" />
     </Col>
     <Col sm>
-      <h1>Completion of the
-Prototype</h1>
-      <h3>The prototype was created and I was able
+      <h3>Completion of the
+Prototype</h3>
+      <p>The prototype was created and I was able
 to present it in class, and I think based
 on the case files it could be a possible
-solution for user.</h3>
+solution for user.</p>
     </Col>
     </Row>
 
@@ -235,9 +235,9 @@ solution for user.</h3>
     <Image src={Img09} fluid className="pg1Img" />
     </Col>
     <Col sm>
-      <h1>Designing and
-Implementing</h1>
-      <h3>Designing and implementing this prototype
+      <h3>Designing and
+Implementing</h3>
+      <p>Designing and implementing this prototype
 gave me a sense of happiness, knowing
 that I was designing something that would
 help a Personas that needs more care
@@ -245,7 +245,7 @@ than others. Im happy to see people being
 helped, and I think that after I was able to 
 create this interface using code it really opened
 up more possiblities for a solution that would
-be possible for user.</h3>
+be possible for user.</p>
     </Col>
     </Row> 
 

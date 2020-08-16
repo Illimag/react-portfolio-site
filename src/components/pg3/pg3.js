@@ -119,9 +119,9 @@ merchant account.</p>
     <Image src={Img04} fluid className="pg1Img" />
     </Col>
     <Col sm>
-      <h1>Online Payment 
-Infrastructure</h1>
-      <h3>Sanchez Coffee Co. were looking for sales
+      <h3>Online Payment 
+Infrastructure</h3>
+      <p>Sanchez Coffee Co. were looking for sales
 online and they gave us the responsibility
 of controlling their entire payment 
 infrasturcture online. We were working with
@@ -133,7 +133,7 @@ website. Then I was developing the website
 with WordPress. I created the website using
 1and1 for hosting services. After the WordPress
 website was hosted, I implemented the various
-plugins that would be used to accept payments.</h3>
+plugins that would be used to accept payments.</p>
     </Col>
     </Row>
 

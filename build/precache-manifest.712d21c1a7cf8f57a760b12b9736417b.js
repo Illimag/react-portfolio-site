@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d1798a0f35ca3d668700894205e5e19",
+    "revision": "6fe15156b5e91934635d997a803be6d8",
     "url": "/react-portfolio-site/index.html"
   },
   {
-    "revision": "4df42118e3a818f8381f",
+    "revision": "87d7f31643a788d4b799",
     "url": "/react-portfolio-site/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "44a603e386ee18e22bcf",
-    "url": "/react-portfolio-site/static/css/main.c28e5ed9.chunk.css"
+    "revision": "0af3bc0638b0afad8ebf",
+    "url": "/react-portfolio-site/static/css/main.67fa7416.chunk.css"
   },
   {
-    "revision": "4df42118e3a818f8381f",
-    "url": "/react-portfolio-site/static/js/2.12e6fb92.chunk.js"
+    "revision": "87d7f31643a788d4b799",
+    "url": "/react-portfolio-site/static/js/2.decbce77.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-portfolio-site/static/js/2.12e6fb92.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio-site/static/js/2.decbce77.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44a603e386ee18e22bcf",
-    "url": "/react-portfolio-site/static/js/main.cdba8dc7.chunk.js"
+    "revision": "0af3bc0638b0afad8ebf",
+    "url": "/react-portfolio-site/static/js/main.2ba5ed1f.chunk.js"
   },
   {
     "revision": "f13e73f3df1f5d35012b",
@@ -230,6 +230,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef2a47c80d5e5fec914f83d55f0923c6",
     "url": "/react-portfolio-site/static/media/1-09.ef2a47c8.jpg"
+  },
+  {
+    "revision": "7854f4285f11e0c27fc697fb13586f63",
+    "url": "/react-portfolio-site/static/media/banner-01.7854f428.jpg"
+  },
+  {
+    "revision": "f03cab0d7332a64c9d603a694a9e75ce",
+    "url": "/react-portfolio-site/static/media/banner-02.f03cab0d.jpg"
+  },
+  {
+    "revision": "2217de5184b434676786a0d27891901e",
+    "url": "/react-portfolio-site/static/media/banner-03.2217de51.jpg"
+  },
+  {
+    "revision": "dddeaa4c538506e172b9c8bff97b03de",
+    "url": "/react-portfolio-site/static/media/banner-04.dddeaa4c.jpg"
+  },
+  {
+    "revision": "ef931f2640ad7d24cdf1955882962ec7",
+    "url": "/react-portfolio-site/static/media/banner-05.ef931f26.jpg"
+  },
+  {
+    "revision": "d6699a740e5ad56abd4d8f88db1e01e0",
+    "url": "/react-portfolio-site/static/media/banner-06.d6699a74.jpg"
   },
   {
     "revision": "bec01cd64f2b6adc206c1ce5e32bb124",

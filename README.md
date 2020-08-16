@@ -347,3 +347,18 @@ Now in the component test
     )
 
 This will allow each component to have modulated CSS.
+
+
+## Install webfrontloader
+
+    npm install webfontloader --save
+
+Installing
+
+    import WebFont from 'webfontloader';
+
+    WebFont.load({
+    google: {
+        families: ['Titillium Web:300,400,700', 'sans-serif']
+    }
+    });
