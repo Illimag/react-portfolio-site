@@ -1,3 +1,30 @@
 .test{
-    background-color: forestgreen !important;
+    background-color: #0D0745 !important;
+}
+
+.test1{
+    background-color: #5E72ED !important;
+}
+
+.test2{
+    background-color: #FF9190 !important;
+}
+
+.test3{
+    background-color: #FA897B !important;
+}
+
+.fonttest{
+    color: #fff;
+}
+
+.colsm{
+    padding-right: 0px  !important;
+    padding-left: 0px !important;
+    overflow:hidden;
+}
+
+.vid{
+    height: 100% !important;
+    width: 100% !important;
 }

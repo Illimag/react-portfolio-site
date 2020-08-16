@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
+import Banner from '../../assets/img/uguru/banner-01.jpg';
 import Img01 from '../../assets/img/uguru/1-01.jpg';
 import Img02 from '../../assets/img/uguru/1-02.jpg';
 import Img03 from '../../assets/img/uguru/1-03.jpg';
@@ -21,13 +22,23 @@ import Img09 from '../../assets/img/uguru/1-09.jpg';
 import Vid1 from '../../assets/vids/videotest.mp4';
 
 import styles from './pg1.module.css';
+import './pg1.css';
 
 export const Pg1 = () => (
     /* Start of JSX Fragment*/ 
     <>
 
+<Container fluid>
+    {/* img without text */}
+    <Row>
+    <Col sm fluid>
+    <Image src={Banner} fluid className="pg1Img" />
+    </Col>
+    </Row>
+  </Container>
+
   <Jumbotron fluid className={styles.test}>
-    <Container>
+    <Container className={styles.fonttest}>
       <h5>Case Study</h5>
       <h1>Uguru, INC</h1>
       <p>
@@ -48,8 +59,8 @@ export const Pg1 = () => (
     <Container fluid>
 
     {/* Video */}
-        <Row>
-    <Col sm className={styles.colsm}>
+        <Row fluid>
+    <Col sm>
     <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
       <source src={Vid1} type="video/mp4" />
     </video>
@@ -84,6 +95,17 @@ application that would be deployed and used.</p>
     </Col>
     <Col sm>
     <Image src={Img02} fluid className="pg1Img" />
+    </Col>
+    </Row>
+
+       {/* text */}
+       <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
+      <h3>High-Fidelity UI Design</h3>
+      <p>Series of various UI designs, Initially I designed some low level mockups that were
+brought into the fold to be sued on the production application. It was a growing experience.
+I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
     </Col>
     </Row>
 
@@ -142,10 +164,23 @@ do the Onboarding screens.</p>
     </Col>
     </Row>
 
+
+           {/* text */}
+           <Row className={styles.test2}>
+    <Col sm className={styles.fonttest}>
+      <h3>High-Fidelity UI Design</h3>
+      <p>Series of various UI designs, Initially I designed some low level mockups that were
+brought into the fold to be sued on the production application. It was a growing experience.
+I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+    </Col>
+    </Row>
+
+
         {/* img without text */}
 
     <Row>
-    <Col sm>
+    <Col sm >
     <Image src={Img07} fluid className="pg1Img" />
     </Col>
     </Row>
@@ -198,7 +233,7 @@ Arts (CCA).</p>
       <p > Go Home </p>
     </Link>
     </Col>
-    <Col sm={6}>
+    <Col sm={6} className={styles.test3}>
     <h1>DasDasDigital</h1>
     <Link to={'/pg2'}>
       <p > View Next </p>

@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
+import Banner from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
 import Img01 from '../../assets/img/sanchezcoffeeco/1-01.jpg';
 import Img02 from '../../assets/img/sanchezcoffeeco/1-02.jpg';
 import Img03 from '../../assets/img/sanchezcoffeeco/1-03.jpg';
@@ -20,14 +21,24 @@ import Img08 from '../../assets/img/sanchezcoffeeco/1-08.jpg';
 import Vid1 from '../../assets/vids/videotest.mp4';
 
 import styles from './pg3.module.css';
-
+import './pg3.css';
 
 export const Pg3 = () => (
     /* Start of JSX Fragment*/ 
     <>
 
+<Container fluid>
+    {/* img without text */}
+    <Row>
+    <Col sm>
+    <Image src={Banner} fluid className="pg1Img" />
+    </Col>
+    </Row>
+  </Container>
+
+
 <Jumbotron fluid className={styles.test}>
-    <Container>
+    <Container className={styles.fonttest}>
       <h5>Case Study</h5>
       <h1>Sanchez Coffee Co.</h1>
       <p>
@@ -60,6 +71,22 @@ export const Pg3 = () => (
         <Image src={Img02} fluid className="pg1Img" />
         </Col>
         </Row>
+
+
+
+       {/* text */}
+       <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
+      <h3>High-Fidelity UI Design</h3>
+      <p>Series of various UI designs, Initially I designed some low level mockups that were
+brought into the fold to be sued on the production application. It was a growing experience.
+I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+    </Col>
+    </Row>
+
+
+
 
                 {/* left text right img */}
                 <Row>
@@ -152,6 +179,19 @@ and development.</p>
         </Col>
         </Row>
 
+       {/* text */}
+       <Row className={styles.test2}>
+    <Col sm className={styles.fonttest}>
+      <h3>High-Fidelity UI Design</h3>
+      <p>Series of various UI designs, Initially I designed some low level mockups that were
+brought into the fold to be sued on the production application. It was a growing experience.
+I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+    </Col>
+    </Row>
+
+
+
         {/* img with text */}
         <Row>
     <Col sm>
@@ -191,7 +231,7 @@ site, and then the maintence of the website was a responsibility.</p>
       <p > View Previous </p>
     </Link>
     </Col>
-    <Col sm={6}>
+    <Col sm={6} className={styles.test3}>
     <h1>Domino's App Demo</h1>
     <Link to={'/pg4'}>
       <p > View Next </p>

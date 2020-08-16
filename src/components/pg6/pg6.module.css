@@ -1,3 +1,30 @@
 .test{
-    background-color: aquamarine !important;
+    background-color: #215273 !important;
+}
+
+.test1{
+    background-color: #359D9E !important;
+}
+
+.test2{
+    background-color: #55C595 !important;
+}
+
+.test3{
+    background-color: #7CE495 !important;
+}
+
+.fonttest{
+    color: #fff;
+}
+
+.colsm{
+    padding-right: 0px  !important;
+    padding-left: 0px !important;
+    overflow:hidden;
+}
+
+.vid{
+    height: 100% !important;
+    width: 100% !important;
 }

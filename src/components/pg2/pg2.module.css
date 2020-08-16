@@ -1,3 +1,30 @@
 .test{
-    background-color: firebrick !important;
+    background-color: #37BBCA !important;
+}
+
+.test1{
+    background-color: #0091B6 !important;
+}
+
+.test2{
+    background-color: #FF7B17 !important;
+}
+
+.test3{
+    background-color: #0D0745 !important;
+}
+
+.fonttest{
+    color: #fff;
+}
+
+.colsm{
+    padding-right: 0px  !important;
+    padding-left: 0px !important;
+    overflow:hidden;
+}
+
+.vid{
+    height: 100% !important;
+    width: 100% !important;
 }

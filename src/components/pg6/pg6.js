@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
+import Banner from '../../assets/img/nikerate/banner-06.jpg';
 import Img01 from '../../assets/img/nikerate/1-01.jpg';
 import Img02 from '../../assets/img/nikerate/1-02.jpg';
 import Img03 from '../../assets/img/nikerate/1-03.jpg';
@@ -17,6 +18,7 @@ import Img06 from '../../assets/img/nikerate/1-06.jpg';
 import Img07 from '../../assets/img/nikerate/1-07.jpg';
 
 import styles from './pg6.module.css';
+import './pg6.css';
 
 import Vid1 from '../../assets/vids/videotest.mp4';
 
@@ -26,8 +28,18 @@ export const Pg6 = () => (
     /* Start of JSX Fragment*/ 
     <>
 
+<Container fluid>
+    {/* img without text */}
+    <Row>
+    <Col sm>
+    <Image src={Banner} fluid className="pg1Img" />
+    </Col>
+    </Row>
+  </Container>
+
+
 <Jumbotron fluid className={styles.test}>
-    <Container>
+    <Container className={styles.fonttest}>
       <h5>Case Study</h5>
       <h1>Nike Rate</h1>
       <p>
@@ -83,6 +95,18 @@ on who gets the most clicks.</h3>
       </Col>
       </Row>
 
+       {/* text */}
+       <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
+      <h3>High-Fidelity UI Design</h3>
+      <p>Series of various UI designs, Initially I designed some low level mockups that were
+brought into the fold to be sued on the production application. It was a growing experience.
+I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+    </Col>
+    </Row>
+
+
     {/* codepen*/}
     <Row>
             <Col sm>
@@ -109,6 +133,19 @@ on who gets the most clicks.</h3>
         <Image src={Img04} fluid className="pg1Img" />
         </Col>
         </Row>
+
+       {/* text */}
+       <Row className={styles.test2}>
+    <Col sm className={styles.fonttest}>
+      <h3>High-Fidelity UI Design</h3>
+      <p>Series of various UI designs, Initially I designed some low level mockups that were
+brought into the fold to be sued on the production application. It was a growing experience.
+I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+    </Col>
+    </Row>
+
+
 
         {/* left img right text */}
         <Row>
@@ -182,7 +219,7 @@ would follow somewhat what was for React.JS.</p>
       <p > View Previous </p>
     </Link>
     </Col>
-    <Col sm={6}>
+    <Col sm={6} className={styles.test3}>
     <h1>Questions or just want to say hi?</h1>
     <Link to={'/contact'}>
       <p > Contact Now </p>

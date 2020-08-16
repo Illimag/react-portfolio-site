@@ -1,11 +1,21 @@
 .test{
-    background-color: aqua !important;
+    background-color: #1E2F97 !important;
 }
 
-.colsm{
-    padding-right: 0px  !important;
-    padding-left: 0px !important;
-    overflow:hidden;
+.test1{
+    background-color: #797EF6 !important;
+}
+
+.test2{
+    background-color: #4ADEDE !important;
+}
+
+.test3{
+    background-color: #37BBCA !important;
+}
+
+.fonttest{
+    color: #fff;
 }
 
 .vid{
