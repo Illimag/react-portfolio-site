@@ -20,7 +20,7 @@ import Img07 from '../../assets/img/nikerate/1-07.jpg';
 import styles from './pg6.module.css';
 import './pg6.css';
 
-import Vid1 from '../../assets/vids/videotest.mp4';
+import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 import Codepen from "react-codepen-embed";
 

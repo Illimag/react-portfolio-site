@@ -21,7 +21,7 @@ import Img08 from '../../assets/img/dasdasdigital/1-08.jpg';
 import styles from './pg2.module.css';
 import './pg2.css';
 
-import Vid1 from '../../assets/vids/videotest.mp4';
+import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 import Codepen from "react-codepen-embed";
 

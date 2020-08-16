@@ -19,7 +19,7 @@ import Img07 from '../../assets/img/uguru/1-07.jpg';
 import Img08 from '../../assets/img/uguru/1-08.jpg';
 import Img09 from '../../assets/img/uguru/1-09.jpg';
 
-import Vid1 from '../../assets/vids/videotest.mp4';
+import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 import styles from './pg1.module.css';
 import './pg1.css';

@@ -22,7 +22,7 @@ import Img09 from '../../assets/img/stepsaver/1-09.jpg';
 import styles from './pg5.module.css';
 import './pg5.css';
 
-import Vid1 from '../../assets/vids/videotest.mp4';
+import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 export const Pg5 = () => (
     /* Start of JSX Fragment*/ 

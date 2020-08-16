@@ -18,7 +18,7 @@ import Img06 from '../../assets/img/sanchezcoffeeco/1-06.jpg';
 import Img07 from '../../assets/img/sanchezcoffeeco/1-07.jpg';
 import Img08 from '../../assets/img/sanchezcoffeeco/1-08.jpg';
 
-import Vid1 from '../../assets/vids/videotest.mp4';
+import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 import styles from './pg3.module.css';
 import './pg3.css';

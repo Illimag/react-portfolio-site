@@ -22,7 +22,7 @@ import Img09 from '../../assets/img/dominos/1-09.jpg';
 import styles from './pg4.module.css';
 import './pg4.css';
 
-import Vid1 from '../../assets/vids/videotest.mp4';
+import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 import Codepen from "react-codepen-embed";
 
