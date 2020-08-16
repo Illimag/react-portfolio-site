@@ -16,17 +16,19 @@
 
 h5{
     font-family: 'Source Serif Pro', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
 
     padding-left: 10%;
     padding-right: 10%;
+
+    font-size: 1.5em !important;
 }
 
 h3{
     margin-top: 5% !important;
 
     font-family: 'Source Serif Pro', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
 
     padding-left: 10%;
     padding-right: 10%;
@@ -35,10 +37,12 @@ h3{
 
 h1{
     font-family: 'Source Serif Pro', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
 
     padding-left: 10%;
     padding-right: 10%;
+
+    font-size: 3em !important;
 }
 
 p{
