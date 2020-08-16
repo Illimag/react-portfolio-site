@@ -39,7 +39,7 @@ const Navigation = () => (
 
     <Container>
 
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" sticky="top">
           <Navbar.Brand to="/">JAEMINKIM.COM</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
           <Navbar.Collapse id="basic-navbar-nav" >
