@@ -8,7 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 
 import { LinkContainer } from 'react-router-bootstrap';
 
-import { Home } from '../home/home'
+import { Home } from '../home/homevid'
 
 import { Contact } from '../contact/contact'
 

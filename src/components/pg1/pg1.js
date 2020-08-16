@@ -49,8 +49,8 @@ export const Pg1 = () => (
 
     {/* Video */}
         <Row>
-    <Col sm>
-    <video autoPlay preload="true" loop playsInline muted>
+    <Col sm className={styles.colsm}>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
       <source src={Vid1} type="video/mp4" />
     </video>
       </Col>
