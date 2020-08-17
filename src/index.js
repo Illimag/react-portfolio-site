@@ -20,7 +20,7 @@ WebFont.load({
 ReactDOM.render(
       <React.StrictMode>
     <Loader />
-    <App />, 
+    <App />
     </React.StrictMode>,
     document.getElementById('root')
 );
