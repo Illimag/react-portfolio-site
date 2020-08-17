@@ -9,7 +9,6 @@ import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
 
 const App = () => (
   <>
-  
  <Navigation></Navigation>
  <ScrollUpButton></ScrollUpButton>
  <Footer></Footer>

@@ -22,7 +22,7 @@ import './home.css';
 export const Home = () => (
   /* Start of JSX Fragment*/ 
   <>
-
+  
 <Container fluid className={styles.containerfluid}>
     <Carousel>
       <Carousel.Item>

@@ -18,6 +18,7 @@ import Pg6Img from '../../assets/img/home/1-07.jpg';
 import styles from './home.module.css';
 import './home.css';
 
+
 export const Home = () => (
   /* Start of JSX Fragment*/ 
   <>
