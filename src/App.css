@@ -34,3 +34,7 @@ video{
 img{
     vertical-align:bottom
 }
+
+.jumbotron{
+    margin-bottom: 0rem !important;
+}

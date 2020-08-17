@@ -11,10 +11,7 @@ import Github from '../../assets/github.png';
 import Linkedin from '../../assets/linkedin.png';
 import Dribbble from '../../assets/dribbble.png';
 
-import Bootstrap from '../../assets/img/bootstrap.png';
-import ReactImg from '../../assets/img/react.png';
-
-
+import styles from './footer.module.css'
 
 const Footer = () => (
 /* Start of JSX Fragment*/
@@ -24,45 +21,34 @@ const Footer = () => (
 <Jumbotron fluid>
   <Container>
 
-<h5>Made with <span>
-<Row>
-<Col xs={4} md={4}>
-<Image src={Bootstrap} roundedCircle />
-</Col>
-<Col xs={4} md={4}>
-<Image src={ReactImg} roundedCircle />
-</Col>
-</Row>
-</span>in San Francisco Bay Area/Silicon Valley.</h5>
-
-<h5>Hosted with <span><p>&hearts; &hearts; &hearts; &hearts; &hearts;</p></span> Github</h5>
+<p className={styles.centertext}>San Francisco Bay Area/Silicon Valley.</p>
 
   </Container>
 
 
   <Container>
   <Row>
-    <Col xs={4} md={4}>
+    <Col xs={4} md={4} className={styles.centericon}>
     <a href="https://www.google.com/">
-      <Image src={Github} roundedCircle />
+      <Image src={Github} roundedCircle className={styles.icons} />
     </a>
     </Col>
-    <Col xs={4} md={4}>
+    <Col xs={4} md={4} className={styles.centericon}>
     <a href="https://www.google.com/">
-      <Image src={Linkedin} roundedCircle />
+      <Image src={Linkedin} roundedCircle className={styles.icons}/>
     </a>
     </Col>
-    <Col xs={4} md={4}>
+    <Col xs={4} md={4} className={styles.centericon}>
     <a href="https://www.google.com/">
-      <Image src={Dribbble} roundedCircle />
+      <Image src={Dribbble} roundedCircle className={styles.icons}/>
     </a>
     </Col>
   </Row>
 
-  <p>
+    <p className={styles.centertext}>
       Jaeminkim.com
     </p>
-    <p>
+    <p className={styles.centertext}>
     2020
     </p>
 </Container>
