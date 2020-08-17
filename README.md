@@ -363,3 +363,18 @@ Installing
     }
     });
 
+## Precache 
+
+    npm install --save react-precache-img
+
+    import React from 'react';
+    import PreCacheImg from 'react-precache-img';
+
+    return (
+        <PreCacheImg
+        images={[
+            'http://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920.jpg',
+            'https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg'
+        ]}
+        />
+    );

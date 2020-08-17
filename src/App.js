@@ -15,7 +15,7 @@ const App = () => (
   </>
 );
 
-debugger; // TO INSPECT THE PAGE BEFORE 1ST RENDER
+// debugger; // TO INSPECT THE PAGE BEFORE 1ST RENDER
 
 
 export default App;
