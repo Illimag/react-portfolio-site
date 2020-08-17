@@ -9,7 +9,7 @@ import Image from 'react-bootstrap/Image';
 
 import Github from '../../assets/github.png';
 import Linkedin from '../../assets/linkedin.png';
-import Dribbble from '../../assets/dribbble.png';
+import Behance from '../../assets/behance.png';
 
 import styles from './footer.module.css'
 
@@ -28,19 +28,20 @@ const Footer = () => (
 
   <Container>
   <Row>
+
     <Col xs={4} md={4} className={styles.centericon}>
-    <a href="https://www.google.com/">
-      <Image src={Github} roundedCircle className={styles.icons} />
-    </a>
-    </Col>
-    <Col xs={4} md={4} className={styles.centericon}>
-    <a href="https://www.google.com/">
+    <a href="https://www.linkedin.com/in/jaeminkim-com">
       <Image src={Linkedin} roundedCircle className={styles.icons}/>
     </a>
     </Col>
     <Col xs={4} md={4} className={styles.centericon}>
-    <a href="https://www.google.com/">
-      <Image src={Dribbble} roundedCircle className={styles.icons}/>
+    <a href="https://www.behance.net/jaeminkim2">
+      <Image src={Behance} roundedCircle className={styles.icons}/>
+    </a>
+    </Col>
+    <Col xs={4} md={4} className={styles.centericon}>
+    <a href="https://github.com/jaeminkim-com">
+      <Image src={Github} roundedCircle className={styles.icons} />
     </a>
     </Col>
   </Row>

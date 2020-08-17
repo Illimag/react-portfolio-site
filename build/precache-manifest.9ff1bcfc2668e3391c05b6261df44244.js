@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c814df0cdc95b4d46b9efae8e10939b6",
+    "revision": "b018637ecfd12c49822fc7a8b54f8e9d",
     "url": "/react-portfolio-site/index.html"
   },
   {
-    "revision": "6eefb14ad4358860aa09",
+    "revision": "ec560e917067e6b8b507",
     "url": "/react-portfolio-site/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "9480dddc325333723a56",
-    "url": "/react-portfolio-site/static/css/main.a0fd8f85.chunk.css"
+    "revision": "c7e648d69d0f6cccd164",
+    "url": "/react-portfolio-site/static/css/main.f6bb0dd9.chunk.css"
   },
   {
-    "revision": "6eefb14ad4358860aa09",
-    "url": "/react-portfolio-site/static/js/2.592ed796.chunk.js"
+    "revision": "ec560e917067e6b8b507",
+    "url": "/react-portfolio-site/static/js/2.eefbc882.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-portfolio-site/static/js/2.592ed796.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio-site/static/js/2.eefbc882.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9480dddc325333723a56",
-    "url": "/react-portfolio-site/static/js/main.54818b47.chunk.js"
+    "revision": "c7e648d69d0f6cccd164",
+    "url": "/react-portfolio-site/static/js/main.051b27f3.chunk.js"
   },
   {
     "revision": "f13e73f3df1f5d35012b",
@@ -256,10 +256,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio-site/static/media/banner-06.928c6ff2.jpg"
   },
   {
-    "revision": "8eda252a63f485ebd5b743ada0a5ba0e",
-    "url": "/react-portfolio-site/static/media/bootstrap.8eda252a.png"
-  },
-  {
     "revision": "76ec8c31648dfed4fd003c4bd7f6299a",
     "url": "/react-portfolio-site/static/media/compress_sf.76ec8c31.mp4"
   },
@@ -290,9 +286,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "65b952ab81a97afe64c9a903c9925168",
     "url": "/react-portfolio-site/static/media/compress_vid6.65b952ab.mp4"
-  },
-  {
-    "revision": "dc50fd3fc67b929a642a56424ab2aabd",
-    "url": "/react-portfolio-site/static/media/react.dc50fd3f.png"
   }
 ]);
