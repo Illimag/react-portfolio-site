@@ -115,6 +115,7 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
             user="jaemnkm"
             defaultTab="result"
             preview="false"
+            height="750"
         />
             </Col>
         </Row>
