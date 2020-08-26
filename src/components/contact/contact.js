@@ -4,10 +4,8 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
 
 import Vid1 from '../../assets/vids/compress_sf.mp4';
-import Img01 from '../../assets/img/0.jpg';
 
 export const Contact = () => (
     /* Start of JSX Fragment*/ 
@@ -87,7 +85,7 @@ Michael T.</h3>
 
 <p>Portfolio 2020</p>
 <h3>Many Thanks.</h3>
-    <Image src={Img01} fluid />
+
     </Col>
     </Row>
 
