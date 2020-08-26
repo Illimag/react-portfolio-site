@@ -211,7 +211,7 @@ would follow somewhat what was for React.JS.</p>
     </Container>
 
 
-    <Jumbotron fluid>
+    <Jumbotron fluid className={styles.bottomNav}>
   <Container>
     <Row>
     <Col sm={6}>
@@ -220,7 +220,7 @@ would follow somewhat what was for React.JS.</p>
       <p > View Previous </p>
     </Link>
     </Col>
-    <Col sm={6} className={styles.test3}>
+    <Col sm={6}>
     <h1>Questions or just want to say hi?</h1>
     <Link to={'/contact'}>
       <p > Contact Now </p>

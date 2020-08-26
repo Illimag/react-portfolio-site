@@ -5,12 +5,26 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
+import styles from './contact.module.css';
+import './contact.css';
+
+
 import Vid1 from '../../assets/vids/compress_sf.mp4';
 
 export const Contact = () => (
     /* Start of JSX Fragment*/ 
     <>
 
+<Container fluid>
+     {/* Video */}
+     <Row>
+    <Col sm>
+    <video autoPlay preload="true" loop playsInline muted>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+      </Col>
+      </Row>
+</Container>
 
   <Jumbotron fluid>
     <Container>
@@ -31,17 +45,15 @@ export const Contact = () => (
     </Container>
   </Jumbotron>
 
-  
-<Container fluid>
-     {/* Video */}
-     <Row>
-    <Col sm>
-    <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid1} type="video/mp4" />
-    </video>
-      </Col>
-      </Row>
 
+  <Jumbotron fluid>
+    <Container className={styles.iframeContainer}>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSusfndqlT0V0Na58SGU9zYXdebjBZxm_BLsXT-40UUZUL4ObuJiWjpUFWXAW4zvBPcM5T34yPpUA0f/embed?start=false&loop=false&delayms=3000" title="resume" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>    
+    </Container>
+  </Jumbotron>  
+
+
+<Container fluid className={styles.test}>
         {/* img with text */}
         <Row>
     <Col sm>

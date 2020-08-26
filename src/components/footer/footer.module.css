@@ -6,8 +6,13 @@
 .centertext{
     margin-top: 5%;
     text-align: center;
+    color: #fff !important;
 }
 
 .centericon{
     text-align: center;
+}
+
+.footerBackground{
+    background-color: #000 !important;
 }

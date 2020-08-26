@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
-import Github from '../../assets/github.png';
+import Github from '../../assets/githublogo.png';
 import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
 
@@ -18,7 +18,7 @@ const Footer = () => (
 <>
 {/* This is where the Footer is */}
 
-<Jumbotron fluid>
+<Jumbotron fluid className={styles.footerBackground}>
   <Container>
 
 <p className={styles.centertext}>San Francisco Bay Area/Silicon Valley.</p>

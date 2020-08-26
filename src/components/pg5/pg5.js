@@ -198,7 +198,7 @@ on the designs and take it to the next level..</p>
 
     </Container>
 
-    <Jumbotron fluid>
+    <Jumbotron fluid className={styles.bottomNav}>
   <Container>
     <Row>
     <Col sm={6}>
@@ -207,7 +207,7 @@ on the designs and take it to the next level..</p>
       <p > View Previous </p>
     </Link>
     </Col>
-    <Col sm={6} className={styles.test3}>
+    <Col sm={6}>
     <h1>Nike Rate</h1>
     <Link to={'/pg6'}>
       <p > View Next </p>

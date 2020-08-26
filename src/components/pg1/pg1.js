@@ -224,7 +224,7 @@ Arts (CCA).</p>
 
     </Container>
 
-    <Jumbotron fluid>
+    <Jumbotron fluid className={styles.bottomNav}>
   <Container>
     <Row>
     <Col sm={6}>
@@ -233,7 +233,7 @@ Arts (CCA).</p>
       <p > Go Home </p>
     </Link>
     </Col>
-    <Col sm={6} className={styles.test3}>
+    <Col sm={6}>
     <h1>DasDasDigital</h1>
     <Link to={'/pg2'}>
       <p > View Next </p>

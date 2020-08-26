@@ -36,18 +36,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4adede",endCo
 
 }
 
-.test3{
-    /*
-    background-color: #37BBCA !important;
-    */
-
-    background: rgb(55,187,202);
-background: -moz-linear-gradient(40deg, rgba(55,187,202,1) 28%, rgba(120,230,230,1) 78%);
-background: -webkit-linear-gradient(40deg, rgba(55,187,202,1) 28%, rgba(120,230,230,1) 78%);
-background: linear-gradient(40deg, rgba(55,187,202,1) 28%, rgba(120,230,230,1) 78%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#37bbca",endColorstr="#78e6e6",GradientType=1);
-}
-
 .fonttest{
     color: #fff;
 }
@@ -57,3 +45,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#37bbca",endCo
     width: 100% !important;
 }
 
+.bottomNav{
+    background:#000 !important;
+    margin-bottom: 0px !important;
+    color:#fff;
+
+}

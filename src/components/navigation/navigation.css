@@ -1,9 +1,13 @@
 .navbar-toggler{
-    border-color: rgba(0,0,0,0) !important;
+    border-color: rgba(247, 217, 217, 0) !important;
     border: 0px solid transparent !important;
 }
 
 button:focus{
     outline: 0px dotted !important;
     outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+.navbar-toggler-icon{
+    background-image: url(../../assets/menu-01.png) !important;
 }

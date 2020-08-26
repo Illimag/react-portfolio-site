@@ -36,17 +36,6 @@ background: linear-gradient(40deg, rgba(134,227,206,1) 28%, rgba(176,234,221,1) 
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86e3ce",endColorstr="#b0eadd",GradientType=1);
 }
 
-.test3{
-    /*
-    background-color: #FA9384 !important;
-    */
-
-    background: rgb(240,67,147);
-background: -moz-linear-gradient(40deg, rgba(240,67,147,1) 28%, rgba(238,144,188,1) 78%);
-background: -webkit-linear-gradient(40deg, rgba(240,67,147,1) 28%, rgba(238,144,188,1) 78%);
-background: linear-gradient(40deg, rgba(240,67,147,1) 28%, rgba(238,144,188,1) 78%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f04393",endColorstr="#ee90bc",GradientType=1);
-}
 
 .fonttest{
     color: #fff;
@@ -61,4 +50,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f04393",endCo
 .vid{
     height: 100% !important;
     width: 100% !important;
+}
+
+
+.bottomNav{
+    background:#000 !important;
+    margin-bottom: 0px !important;
+    color:#fff;
+
 }

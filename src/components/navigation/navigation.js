@@ -39,37 +39,37 @@ const Navigation = () => (
 
     <Container>
 
-        <Navbar bg="light" expand="lg" sticky="top">
-          <Navbar.Brand to="/">JAEMINKIM.COM</Navbar.Brand>
+        <Navbar className={styles.navbar} expand="lg" sticky="top">
+          <Navbar.Brand className={styles.logo} to="/">JAEMINKIM.COM</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ml-auto">
 
             <LinkContainer to="/">
-              <Nav.Link>Home</Nav.Link>
+              <Nav.Link className={styles.white}>Home</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/Contact">
-              <Nav.Link>Contact</Nav.Link>
+              <Nav.Link className={styles.white}>Contact</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/pg1">
-              <Nav.Link>Uguru, INC</Nav.Link>
+              <Nav.Link className={styles.white}>Uguru, INC</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg2">
-              <Nav.Link>DasDasDigital</Nav.Link>
+              <Nav.Link className={styles.white}>DasDasDigital</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg3">
-              <Nav.Link>Sanchez Coffee Co.</Nav.Link>
+              <Nav.Link className={styles.white}>Sanchez Coffee Co.</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg4">
-              <Nav.Link>Domino's App Demo</Nav.Link>
+              <Nav.Link className={styles.white}>Domino's App Demo</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg5">
-              <Nav.Link>Stepsaver</Nav.Link>
+              <Nav.Link className={styles.white}>Stepsaver</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg6">
-              <Nav.Link>Nike Rate</Nav.Link>
+              <Nav.Link className={styles.white}>Nike Rate</Nav.Link>
             </LinkContainer>
 
             </Nav>

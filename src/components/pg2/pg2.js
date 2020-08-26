@@ -198,7 +198,7 @@ have enough funding.</p>
 
     </Container>
 
-    <Jumbotron fluid>
+    <Jumbotron fluid className={styles.bottomNav}>
   <Container>
     <Row>
     <Col sm={6}>
@@ -207,7 +207,7 @@ have enough funding.</p>
       <p > View Previous </p>
     </Link>
     </Col>
-    <Col sm={6} className={styles.test3}>
+    <Col sm={6} >
     <h1>Sanchez Coffee Co.</h1>
     <Link to={'/pg3'}>
       <p > View Next </p>

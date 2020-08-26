@@ -3,3 +3,15 @@
     right: .5rem !important;
     position: absolute !important;
 }
+
+.navbar{
+    background-color: #000;
+}
+
+.logo{
+    color: #fff !important;
+}
+
+.white{
+    color: #fff !important;
+}

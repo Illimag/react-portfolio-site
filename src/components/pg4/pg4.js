@@ -253,7 +253,7 @@ be possible for user.</p>
 
     </Container>
 
-    <Jumbotron fluid>
+    <Jumbotron fluid className={styles.bottomNav}>
   <Container>
     <Row>
     <Col sm={6}>
@@ -262,7 +262,7 @@ be possible for user.</p>
       <p > View Previous </p>
     </Link>
     </Col>
-    <Col sm={6} className={styles.test3}>
+    <Col sm={6}>
     <h1>Stepsaver</h1>
     <Link to={'/pg5'}>
       <p > View Next </p>

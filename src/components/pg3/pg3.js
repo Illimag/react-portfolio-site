@@ -222,7 +222,7 @@ site, and then the maintence of the website was a responsibility.</p>
     </Container>
 
 
-    <Jumbotron fluid>
+    <Jumbotron fluid className={styles.bottomNav}>
   <Container>
     <Row>
     <Col sm={6}>
@@ -231,7 +231,7 @@ site, and then the maintence of the website was a responsibility.</p>
       <p > View Previous </p>
     </Link>
     </Col>
-    <Col sm={6} className={styles.test3}>
+    <Col sm={6}>
     <h1>Domino's App Demo</h1>
     <Link to={'/pg4'}>
       <p > View Next </p>
