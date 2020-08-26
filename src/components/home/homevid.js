@@ -2,12 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Carousel from 'react-bootstrap/Carousel';
 import { LinkContainer } from 'react-router-bootstrap';
 
-import BannerVid0 from '../../assets/vids/compress_vid6.mp4';
-import BannerVid1 from '../../assets/vids/compress_vid0.mp4';
-import BannerVid2 from '../../assets/vids/compress_sf.mp4';
 
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
 import Vid02 from '../../assets/vids/compress_vid2.mp4';
@@ -23,37 +19,6 @@ export const Home = () => (
   /* Start of JSX Fragment*/ 
   <>
   
-<Container fluid className={styles.containerfluid}>
-    <Carousel>
-      <Carousel.Item>
-      <video autoPlay preload="true" loop playsInline muted>
-      <source src={BannerVid0} type="video/mp4" />
-    </video>
-        <Carousel.Caption className={styles.carouselcaption}>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <video autoPlay preload="true" loop playsInline muted>
-      <source src={BannerVid1} type="video/mp4" />
-    </video>
-        <Carousel.Caption className={styles.carouselcaption}>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <video autoPlay preload="true" loop playsInline muted>
-      <source src={BannerVid2} type="video/mp4" />
-    </video>
-        <Carousel.Caption className={styles.carouselcaption}>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-</Container>
 
   <Container fluid className={styles.containerfluid}>
 
