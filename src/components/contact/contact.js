@@ -48,7 +48,7 @@ export const Contact = () => (
 
   <Jumbotron fluid>
     <Container className={styles.iframeContainer}>
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSusfndqlT0V0Na58SGU9zYXdebjBZxm_BLsXT-40UUZUL4ObuJiWjpUFWXAW4zvBPcM5T34yPpUA0f/embed?start=false&loop=false&delayms=3000" title="resume" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>    
+    <iframe className="resume" src="https://docs.google.com/presentation/d/e/2PACX-1vSusfndqlT0V0Na58SGU9zYXdebjBZxm_BLsXT-40UUZUL4ObuJiWjpUFWXAW4zvBPcM5T34yPpUA0f/embed?start=false&loop=false&delayms=3000" title="resume" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>    
     </Container>
   </Jumbotron>  
 

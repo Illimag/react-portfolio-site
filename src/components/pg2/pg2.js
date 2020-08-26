@@ -119,7 +119,7 @@ with the development of the MVP.</p>
             user="jaemnkm"
             defaultTab="result"
             preview="false"
-            height="750"
+            height="600"
         />
             </Col>
         </Row>
