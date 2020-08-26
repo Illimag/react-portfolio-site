@@ -54,22 +54,22 @@ const Navigation = () => (
             </LinkContainer>
 
             <LinkContainer to="/pg1">
-              <Nav.Link className={styles.white}>Uguru, INC</Nav.Link>
+              <Nav.Link className={styles.white}>• Uguru, INC</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg2">
-              <Nav.Link className={styles.white}>DasDasDigital</Nav.Link>
+              <Nav.Link className={styles.white}>• DasDasDigital</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg3">
-              <Nav.Link className={styles.white}>Sanchez Coffee Co.</Nav.Link>
+              <Nav.Link className={styles.white}>• Sanchez Coffee Co.</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg4">
-              <Nav.Link className={styles.white}>Domino's App Demo</Nav.Link>
+              <Nav.Link className={styles.white}>• Domino's App Demo</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg5">
-              <Nav.Link className={styles.white}>Stepsaver</Nav.Link>
+              <Nav.Link className={styles.white}>• Stepsaver</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/pg6">
-              <Nav.Link className={styles.white}>Nike Rate</Nav.Link>
+              <Nav.Link className={styles.white}>• Nike Rate</Nav.Link>
             </LinkContainer>
 
             </Nav>
