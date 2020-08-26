@@ -228,13 +228,13 @@ site, and then the maintence of the website was a responsibility.</p>
     <Col sm={6}>
     <h1>DasDasDigital</h1>
     <Link to={'/pg2'}>
-      <p > View Previous </p>
+      <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6}>
     <h1>Domino's App Demo</h1>
     <Link to={'/pg4'}>
-      <p > View Next </p>
+      <h5> View Next </h5>
     </Link>
     </Col>
     </Row>

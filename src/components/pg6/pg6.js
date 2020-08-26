@@ -217,13 +217,13 @@ would follow somewhat what was for React.JS.</p>
     <Col sm={6}>
     <h1>Stepsaver</h1>
     <Link to={'/pg5'}>
-      <p > View Previous </p>
+      <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6}>
     <h1>Questions or just want to say hi?</h1>
     <Link to={'/contact'}>
-      <p > Contact Now </p>
+      <h5> Contact Now </h5>
     </Link>
     </Col>
     </Row>

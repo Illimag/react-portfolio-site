@@ -230,13 +230,13 @@ Arts (CCA).</p>
     <Col sm={6}>
     <h1>Home</h1>
     <Link to={'/home'}>
-      <p > Go Home </p>
+      <h5> Go Home </h5>
     </Link>
     </Col>
     <Col sm={6}>
     <h1>DasDasDigital</h1>
     <Link to={'/pg2'}>
-      <p > View Next </p>
+      <h5> View Next </h5>
     </Link>
     </Col>
     </Row>

@@ -259,13 +259,13 @@ be possible for user.</p>
     <Col sm={6}>
     <h1>Sanchez Coffee Co.</h1>
     <Link to={'/pg3'}>
-      <p > View Previous </p>
+      <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6}>
     <h1>Stepsaver</h1>
     <Link to={'/pg5'}>
-      <p > View Next </p>
+      <h5> View Next </h5>
     </Link>
     </Col>
     </Row>
