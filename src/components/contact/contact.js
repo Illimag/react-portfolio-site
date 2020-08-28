@@ -26,7 +26,7 @@ export const Contact = () => (
       </Row>
 </Container>
 
-  <Jumbotron fluid>
+  <Jumbotron fluid className={styles.test}>
     <Container>
       <h5>Contact Info</h5>
       <h1>Jae Min (John) Kim</h1>

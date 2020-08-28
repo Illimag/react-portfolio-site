@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background: rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.8);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: none;
@@ -16,18 +16,18 @@
 }
 
 .logo{
-    color: #fff !important;
+    color: #000 !important;
     font-family: 'Yellowtail', cursive;
     font-size: 1.5em !important;
 }
 
 .white{
-    color: #fff !important;
+    color: #000 !important;
     font-size: 1.5em;
     font-family: 'Source Serif Pro', sans-serif;
 
 }
 
 .navbarbackground{
-    background: #000 !important;
+    background: #fff !important;
 }
