@@ -19,6 +19,7 @@
     color: #000 !important;
     font-family: 'Yellowtail', cursive;
     font-size: 1.5em !important;
+
 }
 
 .white{
@@ -30,4 +31,9 @@
 
 .navbarbackground{
     background: #fff !important;
+}
+
+.diamond{
+    height:70px;
+    width:70px;
 }
