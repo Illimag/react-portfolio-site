@@ -2,6 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Button from 'react-bootstrap/Button';
 import { LinkContainer } from 'react-router-bootstrap';
 
 
@@ -22,6 +24,19 @@ export const Home = () => (
 
   <Container fluid className={styles.containerfluid}>
 
+
+  <Jumbotron className={styles.welcome}>
+  <h1>Welcome,</h1>
+  <p>
+    Thank you for taking the time out of your day to visit this website. 
+    Please let me know if you are looking to chat. Have a nice day!
+  </p>
+  <LinkContainer to="/pg1">
+  <p>
+    <Button className={styles.mainbutton} variant="primary">Contact Now</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
 
     <Row className={styles.row}>
     <Col sm className={styles.colsm}>

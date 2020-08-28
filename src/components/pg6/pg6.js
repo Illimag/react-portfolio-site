@@ -213,7 +213,7 @@ would follow somewhat what was for React.JS.</p>
 
     <Jumbotron fluid className={styles.bottomNav}>
   <Container>
-    <Row>
+    <Row className={styles.bottomNavColor}>
     <Col sm={6}>
     <h1>Stepsaver</h1>
     <Link to={'/pg5'}>

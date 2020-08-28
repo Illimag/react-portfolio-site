@@ -255,7 +255,7 @@ be possible for user.</p>
 
     <Jumbotron fluid className={styles.bottomNav}>
   <Container>
-    <Row>
+    <Row className={styles.bottomNavColor}>
     <Col sm={6}>
     <h1>Sanchez Coffee Co.</h1>
     <Link to={'/pg3'}>

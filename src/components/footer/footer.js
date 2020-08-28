@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
-import Github from '../../assets/githublogo.png';
+import Github from '../../assets/githublogoback.png';
 import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
 
@@ -27,7 +27,7 @@ const Footer = () => (
 
 
   <Container>
-  <Row>
+  <Row className={styles.socialrow}>
 
     <Col xs={4} md={4} className={styles.centericon}>
     <a href="https://www.linkedin.com/in/jaeminkim-com">

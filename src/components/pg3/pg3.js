@@ -224,7 +224,7 @@ site, and then the maintence of the website was a responsibility.</p>
 
     <Jumbotron fluid className={styles.bottomNav}>
   <Container>
-    <Row>
+    <Row className={styles.bottomNavColor}>
     <Col sm={6}>
     <h1>DasDasDigital</h1>
     <Link to={'/pg2'}>

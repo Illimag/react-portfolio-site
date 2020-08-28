@@ -200,7 +200,7 @@ on the designs and take it to the next level..</p>
 
     <Jumbotron fluid className={styles.bottomNav}>
   <Container>
-    <Row>
+    <Row className={styles.bottomNavColor}>
     <Col sm={6}>
     <h1>Domino's App Demo</h1>
     <Link to={'/pg4'}>

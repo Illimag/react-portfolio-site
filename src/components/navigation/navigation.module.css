@@ -5,7 +5,14 @@
 }
 
 .navbar{
-    background-color: #000;
+    background: rgba(0,0,0,0.8);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    
 }
 
 .logo{
@@ -19,4 +26,8 @@
     font-size: 1.5em;
     font-family: 'Source Serif Pro', sans-serif;
 
+}
+
+.navbarbackground{
+    background: #000 !important;
 }

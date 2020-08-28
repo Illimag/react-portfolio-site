@@ -6,7 +6,7 @@
 .centertext{
     margin-top: 5%;
     text-align: center;
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .centericon{
@@ -14,5 +14,9 @@
 }
 
 .footerBackground{
-    background-color: #000 !important;
+    background-color: #eee !important;
+}
+
+.socialrow{
+    background-color: #eee !important;
 }

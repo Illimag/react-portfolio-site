@@ -53,9 +53,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#55c595",endCo
 
 
 
+
 .bottomNav{
-    background:#000 !important;
+    background:#eee !important;
     margin-bottom: 0px !important;
-    color:#fff;
+    color:#000;
+
+}
+
+.bottomNavColor{
+    background:#eee !important;
 
 }

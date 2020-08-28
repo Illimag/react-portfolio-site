@@ -21,8 +21,8 @@ export const Home = () => (
   /* Start of JSX Fragment*/ 
   <>
 
-
   <Container fluid className={styles.containerfluid}>
+
 
 
     <Row className={styles.row}>
