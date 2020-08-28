@@ -31,7 +31,7 @@ export const Home = () => (
     Thank you for taking the time out of your day to visit this website. 
     Please let me know if you are looking to chat. Have a nice day!
   </p>
-  <LinkContainer to="/pg1">
+  <LinkContainer to="/Contact">
   <p>
     <Button className={styles.mainbutton} variant="primary">Contact Now</Button>
   </p>
