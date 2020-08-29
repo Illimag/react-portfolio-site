@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Image from 'react-bootstrap/Image';
 
 
 
@@ -33,7 +32,6 @@ import ScrollToTop from 'react-router-scroll-top'
 import styles from './navigation.module.css'
 import './navigation.css'
 
-import diamond from '../../assets/DIAMOND-AI-CC-01.png';
 
 const Navigation = () => (
 
@@ -44,11 +42,11 @@ const Navigation = () => (
   <ScrollToTop>
     <Container className={styles.navbarbackground}>
         <Navbar className={styles.navbar} expand="xl" sticky="top">
-          <Navbar.Brand className={styles.logo} to="/"></Navbar.Brand>
+          <Navbar.Brand className={styles.logo} to="/">Jaeminkim.com</Navbar.Brand>
   
-
+          {/*
           <Image src={diamond} fluid className={styles.diamond} />
-          
+          */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ml-auto">
