@@ -6,9 +6,6 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-
-
-
 import { LinkContainer } from 'react-router-bootstrap';
 
 import { Home } from '../home/homevid'
@@ -32,7 +29,6 @@ import ScrollToTop from 'react-router-scroll-top'
 import styles from './navigation.module.css'
 import './navigation.css'
 
-
 const Navigation = () => (
 
   <>
@@ -41,12 +37,8 @@ const Navigation = () => (
 
   <ScrollToTop>
     <Container className={styles.navbarbackground}>
-        <Navbar className={styles.navbar} expand="xl" sticky="top">
-          <Navbar.Brand className={styles.logo} to="/">Jaeminkim.com</Navbar.Brand>
-  
-          {/*
-          <Image src={diamond} fluid className={styles.diamond} />
-          */}
+        <Navbar className={styles.navbar} expand="lg" sticky="top">
+          <Navbar.Brand className={styles.logo} to="/">JAEMINKIM.COM</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ml-auto">

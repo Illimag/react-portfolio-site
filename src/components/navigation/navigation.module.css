@@ -1,5 +1,5 @@
 .navbarwrap{
-    top:3.5rem !important;
+    top:.5rem !important;
     right: .5rem !important;
     position: absolute !important;
 }
@@ -19,7 +19,6 @@
     color: #000 !important;
     font-family: 'Yellowtail', cursive;
     font-size: 1.5em !important;
-
 }
 
 .white{
@@ -31,9 +30,4 @@
 
 .navbarbackground{
     background: #fff !important;
-}
-
-.diamond{
-    height:70px;
-    width:70px;
 }
