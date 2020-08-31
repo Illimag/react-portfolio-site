@@ -21,10 +21,10 @@ import Img09 from '../../assets/img/uguru/1-09.jpg';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
-import styles from './pg1.module.css';
-import './pg1.css';
+import styles from './uguru.module.css';
+import './uguru.css';
 
-export const Pg1 = () => (
+export const Uguru = () => (
     /* Start of JSX Fragment*/ 
     <>
 
@@ -235,7 +235,7 @@ Arts (CCA).</p>
     </Col>
     <Col sm={6}>
     <h1>DasDasDigital</h1>
-    <Link to={'/pg2'}>
+    <Link to={'/dasdasdigital'}>
       <h5> View Next </h5>
     </Link>
     </Col>

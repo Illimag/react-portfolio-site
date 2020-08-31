@@ -18,14 +18,14 @@ import Img06 from '../../assets/img/dasdasdigital/1-06.jpg';
 import Img07 from '../../assets/img/dasdasdigital/1-07.jpg';
 import Img08 from '../../assets/img/dasdasdigital/1-08.jpg';
 
-import styles from './pg2.module.css';
-import './pg2.css';
+import styles from './dasdasdigital.module.css';
+import './dasdasdigital.css';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 import Codepen from "react-codepen-embed";
 
-export const Pg2 = () => (
+export const Dasdasdigital = () => (
     /* Start of JSX Fragment*/ 
     <>
 
@@ -203,13 +203,13 @@ have enough funding.</p>
     <Row className={styles.bottomNavColor}>
     <Col sm={6}>
     <h1>Uguru, INC</h1>
-    <Link to={'/pg1'}>
+    <Link to={'/uguru'}>
       <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6} >
     <h1>Sanchez Coffee Co.</h1>
-    <Link to={'/pg3'}>
+    <Link to={'/sanchezcoffeeco'}>
       <h5> View Next </h5>
     </Link>
     </Col>

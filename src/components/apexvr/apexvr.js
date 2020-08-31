@@ -19,14 +19,14 @@ import Img07 from '../../assets/img/dominos/1-07.jpg';
 import Img08 from '../../assets/img/dominos/1-08.jpg';
 import Img09 from '../../assets/img/dominos/1-09.jpg';
 
-import styles from './pg4.module.css';
-import './pg4.css';
+import styles from './apexvr.module.css';
+import './apexvr.css';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 import Codepen from "react-codepen-embed";
 
-export const Pg4 = () => (
+export const Apexvr = () => (
     /* Start of JSX Fragment*/ 
     <>
 
@@ -44,7 +44,7 @@ export const Pg4 = () => (
 <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
       <h5>Case Study</h5>
-      <h1>Domino's App Demo</h1>
+      <h1>Apexvr</h1>
       <p>
       Conceptual Design for Prototyping at CCA      </p>
       <h5>Project Date:</h5>
@@ -258,13 +258,13 @@ be possible for user.</p>
     <Row className={styles.bottomNavColor}>
     <Col sm={6}>
     <h1>Sanchez Coffee Co.</h1>
-    <Link to={'/pg3'}>
+    <Link to={'/sanchezcoffeeco'}>
       <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6}>
     <h1>Stepsaver</h1>
-    <Link to={'/pg5'}>
+    <Link to={'/stepsaver'}>
       <h5> View Next </h5>
     </Link>
     </Col>

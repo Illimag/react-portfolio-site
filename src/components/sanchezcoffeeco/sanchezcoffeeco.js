@@ -20,10 +20,10 @@ import Img08 from '../../assets/img/sanchezcoffeeco/1-08.jpg';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
-import styles from './pg3.module.css';
-import './pg3.css';
+import styles from './sanchezcoffeeco.module.css';
+import './sanchezcoffeeco.css';
 
-export const Pg3 = () => (
+export const Sanchezcoffeeco = () => (
     /* Start of JSX Fragment*/ 
     <>
 
@@ -227,13 +227,13 @@ site, and then the maintence of the website was a responsibility.</p>
     <Row className={styles.bottomNavColor}>
     <Col sm={6}>
     <h1>DasDasDigital</h1>
-    <Link to={'/pg2'}>
+    <Link to={'/dasdasdigital'}>
       <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6}>
     <h1>Domino's App Demo</h1>
-    <Link to={'/pg4'}>
+    <Link to={'/dominos'}>
       <h5> View Next </h5>
     </Link>
     </Col>

@@ -17,14 +17,14 @@ import Img05 from '../../assets/img/nikerate/1-05.jpg';
 import Img06 from '../../assets/img/nikerate/1-06.jpg';
 import Img07 from '../../assets/img/nikerate/1-07.jpg';
 
-import styles from './pg6.module.css';
-import './pg6.css';
+import styles from './nikerate.module.css';
+import './nikerate.css';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 import Codepen from "react-codepen-embed";
 
-export const Pg6 = () => (
+export const Nikerate = () => (
     /* Start of JSX Fragment*/ 
     <>
 
@@ -216,7 +216,7 @@ would follow somewhat what was for React.JS.</p>
     <Row className={styles.bottomNavColor}>
     <Col sm={6}>
     <h1>Stepsaver</h1>
-    <Link to={'/pg5'}>
+    <Link to={'/stepsaver'}>
       <h5> View Previous </h5>
     </Link>
     </Col>

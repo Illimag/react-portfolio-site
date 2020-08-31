@@ -19,12 +19,12 @@ import Img07 from '../../assets/img/stepsaver/1-07.jpg';
 import Img08 from '../../assets/img/stepsaver/1-08.jpg';
 import Img09 from '../../assets/img/stepsaver/1-09.jpg';
 
-import styles from './pg5.module.css';
-import './pg5.css';
+import styles from './stepsaver.module.css';
+import './stepsaver.css';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
-export const Pg5 = () => (
+export const Stepsaver = () => (
     /* Start of JSX Fragment*/ 
     <>
 
@@ -203,13 +203,13 @@ on the designs and take it to the next level..</p>
     <Row className={styles.bottomNavColor}>
     <Col sm={6}>
     <h1>Domino's App Demo</h1>
-    <Link to={'/pg4'}>
+    <Link to={'/dominos'}>
       <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6}>
     <h1>Nike Rate</h1>
-    <Link to={'/pg6'}>
+    <Link to={'/nikerate'}>
       <h5> View Next </h5>
     </Link>
     </Col>
