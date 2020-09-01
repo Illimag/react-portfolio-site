@@ -1,10 +1,12 @@
 
 
 .removepadding{
-    padding-right: 0% !important;
-    padding-left: 0% !important;
-    padding-top: 0% !important;
-    padding-bottom: 0% !important;
+    padding-right: 1% !important;
+    padding-left: 1% !important;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+
+    filter: drop-shadow(0 0 0.08rem black);
 }
 
 .test{
@@ -39,4 +41,25 @@
 
 
     color: white;
+}
+
+.badgestyle{
+    display: initial !important;
+}
+
+.float{
+    position: absolute;
+    background-color: transparent !important;
+    z-index: 10;
+    padding-top: .8em !important;
+}
+
+.white{
+    color: #fff;
+    font-size: .8em !important
+}
+
+.badgelist{
+    padding-left: 10%;
+    padding-right: 10%;
 }

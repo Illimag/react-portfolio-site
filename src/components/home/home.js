@@ -2,9 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
-/*
+
 import Badge from 'react-bootstrap/Badge';
-*/
+
 import { LinkContainer } from 'react-router-bootstrap';
 
 /*
@@ -48,6 +48,35 @@ export const Home = () => (
     <Row>
     <Col md={8} className={styles.removepadding}>
 
+
+
+    <Jumbotron className={styles.float}>
+      <div className={styles.badgelist}>
+
+      <Badge variant="primary" className={styles.badgestyle}>UI</Badge>{' '}
+
+      
+<Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
+
+
+<Badge variant="primary" className={styles.badgestyle}>Graphic</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>Prototyping</Badge>{' '}
+  
+      </div>
+   
+  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
+  <h5 className={styles.white}>
+    Uguru INC - SOMA SF DOWNTOWN
+  </h5>
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton} variant="primary">View</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
+
+
+
     <LinkContainer to="/apexvr">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
@@ -56,11 +85,59 @@ export const Home = () => (
     </Col>
     <Col md={4} className={styles.removepadding}>
 
+    <Jumbotron className={styles.float}>
+      <div className={styles.badgelist}>
+
+      <Badge variant="primary" className={styles.badgestyle}>UI</Badge>{' '}
+
+      
+      <Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
+ 
+
+      <Badge variant="primary" className={styles.badgestyle}>Graphic</Badge>{' '}
+      <Badge variant="primary" className={styles.badgestyle}>Prototyping</Badge>{' '}
+      </div>
+   
+  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
+  <h5 className={styles.white}>
+    Sanchez Coffee CO - SOMA SF DOWNTOWN
+  </h5>
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton} variant="primary">View</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
+      
+
     <LinkContainer to="/sanchezcoffeeco" className={styles.removepadding}>
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid03} type="video/mp4" />
     </video>    
     </LinkContainer>
+
+    <Jumbotron className={styles.float}>
+      <div className={styles.badgelist}>
+
+      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+
+      
+      <Badge variant="secondary" className={styles.badgestyle}>Secondary</Badge>{' '}
+ 
+
+      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+  
+      </div>
+   
+  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
+  <h5 className={styles.white}>
+    APEX VR - SOMA SF DOWNTOWN
+  </h5>  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton} variant="primary">View</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
 
     <LinkContainer to="/dasdasdigital" className={styles.removepadding}>
     <video autoPlay preload="true" loop playsInline muted>
@@ -73,6 +150,31 @@ export const Home = () => (
 
     <Row>
     <Col md={6} className={styles.removepadding}>
+
+    <Jumbotron className={styles.float}>
+      <div className={styles.badgelist}>
+
+      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+
+      
+      <Badge variant="secondary" className={styles.badgestyle}>Secondary</Badge>{' '}
+ 
+
+      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+  
+      </div>
+   
+  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
+  <h5 className={styles.white}>
+    Uguru INC - SOMA SF DOWNTOWN
+  </h5>
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton} variant="primary">View</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
+
     <LinkContainer to="/stepsaver">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid05} type="video/mp4" />
@@ -80,6 +182,31 @@ export const Home = () => (
     </LinkContainer>    
     </Col>
     <Col md={6} className={styles.removepadding}>
+
+    <Jumbotron className={styles.float}>
+      <div className={styles.badgelist}>
+
+      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+
+      
+      <Badge variant="secondary" className={styles.badgestyle}>Secondary</Badge>{' '}
+ 
+
+      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+  
+      </div>
+   
+  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
+  <h5 className={styles.white}>
+    Uguru INC - SOMA SF DOWNTOWN
+  </h5>
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton} variant="primary">View</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
+
     <LinkContainer to="/stepsaver">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid05} type="video/mp4" />
@@ -87,7 +214,6 @@ export const Home = () => (
     </LinkContainer>    
     </Col>
     </Row>
-
 
     <Jumbotron>
   <h1>Hi</h1>
@@ -101,6 +227,9 @@ export const Home = () => (
   </p>
   </LinkContainer>
 </Jumbotron>
+
+
+
 
 </Container>
 
