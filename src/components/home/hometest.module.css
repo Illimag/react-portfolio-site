@@ -1,0 +1,42 @@
+
+
+.removepadding{
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+}
+
+.test{
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+
+
+}
+
+
+.imgtest{
+    display: inline-block;
+}
+
+
+.toptext{
+    position: absolute;
+    color: white;
+    bottom: 20%;
+}
+
+.lowertext{
+    position: absolute;
+    color: white;
+    bottom: 10%;
+}
+
+.keyword{
+    position: absolute;
+    background-color:red;
+    bottom: 70%;
+
+
+    color: white;
+}

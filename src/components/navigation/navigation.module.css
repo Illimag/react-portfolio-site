@@ -23,11 +23,13 @@
 
 .white{
     color: #000 !important;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Source Serif Pro', sans-serif;
 
 }
 
 .navbarbackground{
     background: #fff !important;
+    
+    position: relative !important;
 }

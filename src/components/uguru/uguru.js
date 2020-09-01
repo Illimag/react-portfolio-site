@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Link } from 'react-router-dom'
 
+import { Parallax } from 'react-scroll-parallax';
+
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -32,7 +34,12 @@ export const Uguru = () => (
     {/* img without text */}
     <Row>
     <Col sm fluid>
+
+
+    <Parallax y={[-850, 90]} tagOuter="figure">
     <Image src={Banner} fluid className="pg1Img" />
+    </Parallax>
+
     </Col>
     </Row>
   </Container>

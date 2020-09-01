@@ -8,7 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 
 import { LinkContainer } from 'react-router-bootstrap';
 
-import { Home } from '../home/homevid'
+import { Home } from '../home/home'
 
 import { Contact } from '../contact/contact'
 
@@ -52,19 +52,19 @@ const Navigation = () => (
             </LinkContainer>
 
             <LinkContainer to="/uguru">
-              <Nav.Link className={styles.white}>• Uguru, INC</Nav.Link>
+              <Nav.Link className={styles.white}>• UGURU INC</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/apexvr">
-              <Nav.Link className={styles.white}>• Apex VR</Nav.Link>
+              <Nav.Link className={styles.white}>• SANCHEZ COFFEE CO</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/sanchezcoffeeco">
-              <Nav.Link className={styles.white}>• Sanchez Coffee Co.</Nav.Link>
+              <Nav.Link className={styles.white}>• APEX VR</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/dasdasdigital">
-              <Nav.Link className={styles.white}>• Dasdasdigital</Nav.Link>
+              <Nav.Link className={styles.white}>• DASDAS DIGITAL</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/stepsaver">
-              <Nav.Link className={styles.white}>• Stepsaver</Nav.Link>
+              <Nav.Link className={styles.white}>• STEPSAVER</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/nikerate">
               <Nav.Link className={styles.white}>• Nike Rate</Nav.Link>
@@ -78,11 +78,11 @@ const Navigation = () => (
           <Route path="/uguru">
               <Uguru />
             </Route>
-            <Route path="/apexvr">
-              <Apexvr />
-            </Route>
             <Route path="/sanchezcoffeeco">
               <Sanchezcoffeeco />
+            </Route>
+            <Route path="/apexvr">
+              <Apexvr />
             </Route>
             <Route path="/dasdasdigital">
               <Dasdasdigital />

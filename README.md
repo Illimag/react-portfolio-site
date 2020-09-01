@@ -378,3 +378,34 @@ Installing
         ]}
         />
     );
+
+
+## Parallax effect
+
+    npm i react-scroll-parallax --save
+
+
+Usage
+The <ParallaxProvider> should wrap the component tree that contains all <Parallax> components. This should be a top level component like <AppContainer>. For example:
+
+    import { ParallaxProvider } from 'react-scroll-parallax';
+
+    class AppContainer extends Component {
+        render() {
+            return (
+                <ParallaxProvider>
+                    <App />
+                </ParallaxProvider>
+            );
+        }
+    }
+
+Import the Parallax component and use it anywhere within the provider like so:
+
+    import { Parallax } from 'react-scroll-parallax';
+
+    const ParallaxImage = () => (
+        <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">
+            <Image src="/image.jpg" />
+        </Parallax>
+    );

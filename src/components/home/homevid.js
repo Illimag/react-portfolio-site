@@ -40,14 +40,14 @@ export const Home = () => (
 
     <Row className={styles.row}>
     <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg1">
+    <LinkContainer to="/uguru">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid01} type="video/mp4" />
     </video>
     </LinkContainer>
     </Col>
     <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg2">
+    <LinkContainer to="/apexvr">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
     </video>    
@@ -56,14 +56,14 @@ export const Home = () => (
   </Row>
   <Row className={styles.row}>
     <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg3">
+    <LinkContainer to="/sanchezcoffeeco">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid03} type="video/mp4" />
     </video>    
     </LinkContainer>
     </Col>
     <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg4">
+    <LinkContainer to="/dasdasdigital">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid04} type="video/mp4" />
     </video>    
@@ -72,14 +72,14 @@ export const Home = () => (
   </Row>
   <Row className={styles.row}>
     <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg5">
+    <LinkContainer to="/stepsaver">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid05} type="video/mp4" />
     </video>    
     </LinkContainer>
     </Col>
     <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg6">
+    <LinkContainer to="/nikerate">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid06} type="video/mp4" />
     </video>    
