@@ -1,5 +1,5 @@
 
-
+/*
 .removepadding{
     padding-right: 1% !important;
     padding-left: 1% !important;
@@ -7,6 +7,15 @@
     padding-bottom: 1% !important;
 
     filter: drop-shadow(0 0 0.08rem black);
+}
+*/
+
+.removepadding{
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+
 }
 
 .test{
@@ -51,15 +60,25 @@
     position: absolute;
     background-color: transparent !important;
     z-index: 10;
-    padding-top: .8em !important;
+    padding-top:.8em !important;
+    bottom: 0;
+}
+
+.fixfloatbug{
+    position: absolute;
+    background-color: transparent !important;
+    z-index: 10;
+    padding-top: 30% !important;
 }
 
 .white{
     color: #fff;
-    font-size: .8em !important
+    font-size: 1.5em !important;
+    margin-top: 0px !important;
 }
 
 .badgelist{
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 0%;
 }

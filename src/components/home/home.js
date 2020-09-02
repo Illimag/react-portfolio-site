@@ -59,54 +59,48 @@ export const Home = () => (
 <Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
 
 
-<Badge variant="primary" className={styles.badgestyle}>Graphic</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>Mobile App</Badge>{' '}
 <Badge variant="primary" className={styles.badgestyle}>Prototyping</Badge>{' '}
   
       </div>
    
-  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
-  <h5 className={styles.white}>
-    Uguru INC - SOMA SF DOWNTOWN
-  </h5>
-  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton} variant="primary">View</Button>
-  </p>
-  </LinkContainer>
+  <h1 className={styles.white}>Uguru, INC</h1>
+
 </Jumbotron>
 
 
 
-    <LinkContainer to="/apexvr">
+    <LinkContainer to="/uguru">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
     </video>    
     </LinkContainer>    
     </Col>
+
     <Col md={4} className={styles.removepadding}>
 
-    <Jumbotron className={styles.float}>
+    <Jumbotron className={styles.fixfloatbug}>
       <div className={styles.badgelist}>
 
       <Badge variant="primary" className={styles.badgestyle}>UI</Badge>{' '}
 
       
-      <Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
- 
+<Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
 
-      <Badge variant="primary" className={styles.badgestyle}>Graphic</Badge>{' '}
-      <Badge variant="primary" className={styles.badgestyle}>Prototyping</Badge>{' '}
+
+<Badge variant="primary" className={styles.badgestyle}>WordPress</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>CSS</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>Woocommerce</Badge>{' '}
+
+<Badge variant="primary" className={styles.badgestyle}>Web</Badge>{' '}
+
+<Badge variant="primary" className={styles.badgestyle}>Paypal</Badge>{' '}
+
+  
       </div>
    
-  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
-  <h5 className={styles.white}>
-    Sanchez Coffee CO - SOMA SF DOWNTOWN
-  </h5>
-  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton} variant="primary">View</Button>
-  </p>
-  </LinkContainer>
+  <h1 className={styles.white}>Sanchez Coffee CO</h1>
+
 </Jumbotron>
       
 
@@ -118,25 +112,25 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
       <div className={styles.badgelist}>
+      <Badge variant="primary" className={styles.badgestyle}>VR</Badge>{' '}
 
-      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+      <Badge variant="primary" className={styles.badgestyle}>UI</Badge>{' '}
 
       
-      <Badge variant="secondary" className={styles.badgestyle}>Secondary</Badge>{' '}
- 
+<Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
 
-      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+
+<Badge variant="primary" className={styles.badgestyle}>Web</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>AngularJS</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>CSS</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>HTML</Badge>{' '}
+
+
   
       </div>
    
-  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
-  <h5 className={styles.white}>
-    APEX VR - SOMA SF DOWNTOWN
-  </h5>  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton} variant="primary">View</Button>
-  </p>
-  </LinkContainer>
+  <h1 className={styles.white}>Apex VR</h1>
+
 </Jumbotron>
 
     <LinkContainer to="/dasdasdigital" className={styles.removepadding}>
@@ -154,25 +148,19 @@ export const Home = () => (
     <Jumbotron className={styles.float}>
       <div className={styles.badgelist}>
 
-      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+      <Badge variant="primary" className={styles.badgestyle}>UI</Badge>{' '}
 
       
-      <Badge variant="secondary" className={styles.badgestyle}>Secondary</Badge>{' '}
- 
+<Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
 
-      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+
+<Badge variant="primary" className={styles.badgestyle}>Graphic</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>Prototyping</Badge>{' '}
   
       </div>
    
-  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
-  <h5 className={styles.white}>
-    Uguru INC - SOMA SF DOWNTOWN
-  </h5>
-  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton} variant="primary">View</Button>
-  </p>
-  </LinkContainer>
+  <h1 className={styles.white}>Stepsaver</h1>
+
 </Jumbotron>
 
     <LinkContainer to="/stepsaver">
@@ -186,25 +174,19 @@ export const Home = () => (
     <Jumbotron className={styles.float}>
       <div className={styles.badgelist}>
 
-      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+      <Badge variant="primary" className={styles.badgestyle}>UI</Badge>{' '}
 
       
-      <Badge variant="secondary" className={styles.badgestyle}>Secondary</Badge>{' '}
- 
+<Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
 
-      <Badge variant="primary" className={styles.badgestyle}>Primary</Badge>{' '}
+
+<Badge variant="primary" className={styles.badgestyle}>Graphic</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>Prototyping</Badge>{' '}
   
       </div>
    
-  <h3 className={styles.white}>Mobile Application Startup for College Marketplace</h3>
-  <h5 className={styles.white}>
-    Uguru INC - SOMA SF DOWNTOWN
-  </h5>
-  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton} variant="primary">View</Button>
-  </p>
-  </LinkContainer>
+  <h1 className={styles.white}>DasDasDigital</h1>
+
 </Jumbotron>
 
     <LinkContainer to="/stepsaver">
