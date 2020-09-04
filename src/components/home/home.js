@@ -46,7 +46,7 @@ export const Home = () => (
 <Container fluid className={styles.containerfluid}>
 
     <Row>
-    <Col md={8} className={styles.removepadding}>
+    <Col md={12} className={styles.removepadding}>
 
 
 
@@ -78,41 +78,18 @@ export const Home = () => (
     </Col>
 
     <Col md={4} className={styles.removepadding}>
+ 
 
-    <Jumbotron className={styles.fixfloatbug}>
-      <div className={styles.badgelist}>
+    </Col>
+    </Row>
 
-      <Badge variant="primary" className={styles.badgestyle}>UI</Badge>{' '}
-
-      
-<Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
+    <Row>
+    <Col md={12} className={styles.removepadding}>
 
 
-<Badge variant="primary" className={styles.badgestyle}>WordPress</Badge>{' '}
-<Badge variant="primary" className={styles.badgestyle}>CSS</Badge>{' '}
-<Badge variant="primary" className={styles.badgestyle}>Woocommerce</Badge>{' '}
-
-<Badge variant="primary" className={styles.badgestyle}>Web</Badge>{' '}
-
-<Badge variant="primary" className={styles.badgestyle}>Paypal</Badge>{' '}
-
-  
-      </div>
-   
-  <h1 className={styles.white}>Sanchez Coffee CO</h1>
-
-</Jumbotron>
-      
-
-    <LinkContainer to="/sanchezcoffeeco" className={styles.removepadding}>
-    <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid03} type="video/mp4" />
-    </video>    
-    </LinkContainer>
 
     <Jumbotron className={styles.float}>
       <div className={styles.badgelist}>
-      <Badge variant="primary" className={styles.badgestyle}>VR</Badge>{' '}
 
       <Badge variant="primary" className={styles.badgestyle}>UI</Badge>{' '}
 
@@ -120,24 +97,64 @@ export const Home = () => (
 <Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
 
 
-<Badge variant="primary" className={styles.badgestyle}>Web</Badge>{' '}
-<Badge variant="primary" className={styles.badgestyle}>AngularJS</Badge>{' '}
-<Badge variant="primary" className={styles.badgestyle}>CSS</Badge>{' '}
-<Badge variant="primary" className={styles.badgestyle}>HTML</Badge>{' '}
-
-
+<Badge variant="primary" className={styles.badgestyle}>Mobile App</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>Prototyping</Badge>{' '}
   
       </div>
    
-  <h1 className={styles.white}>Apex VR</h1>
+  <h1 className={styles.white}>Uguru, INC</h1>
 
 </Jumbotron>
 
-    <LinkContainer to="/dasdasdigital" className={styles.removepadding}>
+
+
+    <LinkContainer to="/uguru">
     <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid04} type="video/mp4" />
+      <source src={Vid05} type="video/mp4" />
     </video>    
     </LinkContainer>    
+    </Col>
+
+    <Col md={4} className={styles.removepadding}>
+ 
+
+    </Col>
+    </Row>
+
+    <Row>
+    <Col md={12} className={styles.removepadding}>
+
+
+
+    <Jumbotron className={styles.float}>
+      <div className={styles.badgelist}>
+
+      <Badge variant="primary" className={styles.badgestyle}>UI</Badge>{' '}
+
+      
+<Badge variant="secondary" className={styles.badgestyle}>UX</Badge>{' '}
+
+
+<Badge variant="primary" className={styles.badgestyle}>Mobile App</Badge>{' '}
+<Badge variant="primary" className={styles.badgestyle}>Prototyping</Badge>{' '}
+  
+      </div>
+   
+  <h1 className={styles.white}>Uguru, INC</h1>
+
+</Jumbotron>
+
+
+
+    <LinkContainer to="/uguru">
+    <video autoPlay preload="true" loop playsInline muted>
+      <source src={Vid02} type="video/mp4" />
+    </video>    
+    </LinkContainer>    
+    </Col>
+
+    <Col md={4} className={styles.removepadding}>
+ 
 
     </Col>
     </Row>

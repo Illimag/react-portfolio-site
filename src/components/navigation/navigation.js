@@ -38,7 +38,7 @@ const Navigation = () => (
   <ScrollToTop>
     <Container className={styles.navbarbackground}>
         <Navbar className={styles.navbar} expand="lg" sticky="top">
-          <Navbar.Brand className={styles.logo} to="/">JAEMINKIM.COM</Navbar.Brand>
+          <Navbar.Brand className={styles.logo} to="/">Jaeminkim.com</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ml-auto">
