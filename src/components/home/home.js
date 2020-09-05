@@ -7,6 +7,7 @@ import Badge from 'react-bootstrap/Badge';
 
 import { LinkContainer } from 'react-router-bootstrap';
 
+
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
 */
@@ -45,18 +46,6 @@ export const Home = () => (
 
 <Container fluid className={styles.containerfluid}>
 
-<Jumbotron className={styles.jumbotron_color}>
-  <h1>Hi</h1>
-  <p>
-    Thank you for taking the time out of your day to visit this website. 
-    Please let me know if you are looking to chat. Have a nice day!
-  </p>
-  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton}>Contact Now</Button>
-  </p>
-  </LinkContainer>
-</Jumbotron>
 
 
     <Row>
@@ -80,13 +69,12 @@ export const Home = () => (
 
 </Jumbotron>
 
-
-
-    <LinkContainer to="/uguru">
+            <LinkContainer to="/uguru">
     <video autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
     </video>    
-    </LinkContainer>    
+    </LinkContainer>                
+
     </Col>
 
     <Col md={4} className={styles.removepadding}>
@@ -254,6 +242,18 @@ export const Home = () => (
 
 
 
+<Jumbotron className={styles.jumbotron_color}>
+  <h1>Hi</h1>
+  <p>
+    Thank you for taking the time out of your day to visit this website. 
+    Please let me know if you are looking to chat. Have a nice day!
+  </p>
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton}>Contact Now</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
 
 
 
