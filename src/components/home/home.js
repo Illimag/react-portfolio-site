@@ -53,7 +53,7 @@ export const Home = () => (
   </p>
   <LinkContainer to="/Contact">
   <p>
-    <Button className={styles.mainbutton} variant="primary">Contact Now</Button>
+    <Button className={styles.mainbutton}>Contact Now</Button>
   </p>
   </LinkContainer>
 </Jumbotron>

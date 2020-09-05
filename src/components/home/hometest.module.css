@@ -80,7 +80,6 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 50%); /
     color: #fff;
     font-size: 1.5em !important;
     margin-top: 0px !important;
-    opacity: 95%;
 }
 
 .badgelist{
@@ -93,50 +92,42 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 50%); /
 .UI_badge{
     background-color: #D20961 !important;
     display: initial !important;
-    opacity: 80%;
 }
 
 .UX_badge{
     background-color: #F57823 !important;
     display: initial !important;
-    opacity: 80%;
 }
 
 .Mobile_badge{
     background-color: #78C242 !important;
     display: initial !important;
-    opacity: 80%;
 }
 
 .Prototyping_badge{
     background-color: #01A68E !important;
     display: initial !important;
-    opacity: 80%;
 }
 
 .web_badge{
     background-color: #7E3F99 !important;
     display: initial !important;
-    opacity: 80%;
-
 }
 
 .wordpress_badge{
     background-color: #FE0000 !important;
     display: initial !important;
-    opacity: 80%;
 }
 
 .css_badge{
     background-color: #FBB033 !important;
     display: initial !important;
-    opacity: 80%;
 }
 
 .woocommerce_badge{
     background-color: #FFDD00 !important;
     display: initial !important;
-    opacity: 80%;
+
 }
 
 .jumbotron_color{
@@ -144,24 +135,20 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 50%); /
 }
 
 .mainbutton{
-    opacity: 90%;
     background-color: red !important;
 }
 
 .vr_badge{
     background-color: #01A3E5 !important;
     display: initial !important;
-    opacity: 80%;
 }
 
 .angular_badge{
     background-color: #8E7968 !important;
     display: initial !important;
-    opacity: 80%;
 }
 
 .react_badge{
     background-color: #69737B !important;
     display: initial !important;
-    opacity: 80%;
 }
