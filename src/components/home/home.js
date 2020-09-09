@@ -95,6 +95,11 @@ export const Home = () => (
   
       </div>
       <h1 className={styles.white}>Uguru INC</h1>
+      <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.viewmore}>View More</Button>
+  </p>
+  </LinkContainer>
 
 </Jumbotron>
 
@@ -132,6 +137,11 @@ export const Home = () => (
   
       </div>
       <h1 className={styles.white}>Sanchez Coffee CO</h1>
+      <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.viewmore}>View More</Button>
+  </p>
+  </LinkContainer>
 
 
 
@@ -172,6 +182,11 @@ export const Home = () => (
       </div>
    
       <h1 className={styles.white}>Apex VR</h1>
+      <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.viewmore}>View More</Button>
+  </p>
+  </LinkContainer>
 
 </Jumbotron>
 
@@ -209,6 +224,11 @@ export const Home = () => (
       </div>
    
       <h1 className={styles.white}>Stepsaver</h1>
+      <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.viewmore}>View More</Button>
+  </p>
+  </LinkContainer>
 
 </Jumbotron>
 
@@ -246,6 +266,11 @@ export const Home = () => (
   
       </div>
       <h1 className={styles.white}>Dasdasdigital</h1>
+      <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.viewmore}>View More</Button>
+  </p>
+  </LinkContainer>
 
 </Jumbotron>
 
