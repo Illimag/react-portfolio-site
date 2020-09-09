@@ -48,7 +48,7 @@ function TestNav() {
   }
 
   let style = {
-    backgroundColor: change ? "rgba(255,255,255,0.15)" : "transparent",
+    backgroundColor: change ? "rgba(0,0,0,0.92)" : "transparent",
     backdropFilter: change ? "saturate(180%) blur(20px)" : "none",
     transition: "400ms ease",
     position: "fixed",
