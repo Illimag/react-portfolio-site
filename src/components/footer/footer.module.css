@@ -15,6 +15,7 @@
 
 .footerBackground{
     background-color: #fff !important;
+    position: absolute !important;
 }
 
 .socialrow{

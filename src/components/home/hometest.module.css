@@ -90,18 +90,31 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 50%); /
 
 
 .UI_badge{
-    background-color: #D20961 !important;
+    background-color: rgba(255,255,255,0.3) !important;
     display: initial !important;
+    border-color: #F57823;
+    border-style: solid;
+    border-width: 1px;
+    
+    color: #F57823 !important;
 }
 
 .UX_badge{
-    background-color: #F57823 !important;
+    background-color: rgba(255,255,255,1) !important;
     display: initial !important;
+    border-color: #78C242;
+    border-style: solid;
+    border-width: 1px;
+    color: #78C242 !important;
 }
 
 .Mobile_badge{
-    background-color: #78C242 !important;
+    background-color: rgba(255,255,255,0.3) !important;
     display: initial !important;
+    border-color: #78C242;
+    border-style: solid;
+    border-width: 1px;
+    color: #78C242 !important;
 }
 
 .Prototyping_badge{
@@ -131,7 +144,10 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 50%); /
 }
 
 .jumbotron_color{
-    background-color: #fff !important;
+    background-color: transparent !important;
+    
+  /* Full height */
+  height: 100vh;
 }
 
 .mainbutton{
@@ -152,4 +168,37 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 50%); /
 .react_badge{
     background-color: #69737B !important;
     display: initial !important;
+}
+
+.mainvideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+.containerfluid{
+    background-color: transparent !important;
+}
+
+
+.mainfloat{
+    position: absolute;
+    background-color: transparent !important;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+background: rgba(0,0,0,0.5);
+    z-index: 1;
+    padding-bottom: 30% !important;
+    bottom: 0;
+}
+
+.largefont{
+    color: #fff !important;
+
+}
+
+.whitefont{
+    color: #fff !important;
 }

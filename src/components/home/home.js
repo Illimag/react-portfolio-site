@@ -15,7 +15,7 @@ import Vid02 from '../../assets/vids/compress_vid2.mp4';
 import Vid03 from '../../assets/vids/compress_vid3.mp4';
 import Vid04 from '../../assets/vids/compress_vid4.mp4';
 import Vid05 from '../../assets/vids/compress_vid5.mp4';
-
+import Banner from '../../assets/vids/san-francisco-USMT8JR.mp4';
 /*
 import Vid06 from '../../assets/vids/compress_vid0.mp4';
 */
@@ -47,6 +47,35 @@ export const Home = () => (
 <Container fluid className={styles.containerfluid}>
 
 
+<Jumbotron className={styles.jumbotron_color}>
+
+</Jumbotron>
+
+
+
+    <Row>
+    <Col md={12} className={styles.removepadding}>
+
+    <Jumbotron className={styles.mainfloat}>
+    <h1 className={styles.largefont}>Hi</h1>
+  <p className={styles.whitefont}>
+    Thank you for taking the time out of your day to visit this website. 
+    Please let me know if you are looking to chat. Have a nice day!
+  </p>
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton}>Contact Now</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
+
+    <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
+      <source src={Banner} type="video/mp4" />
+    </video>    
+</Col>
+</Row>
+
+
 
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -54,7 +83,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <h1 className={styles.white}>Uguru INC</h1>
+    
       <div className={styles.badgelist}>
 
       <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -65,7 +94,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
   
       </div>
-   
+      <h1 className={styles.white}>Uguru INC</h1>
 
 </Jumbotron>
 
@@ -89,7 +118,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <h1 className={styles.white}>Sanchez Coffee CO</h1>
+   
       <div className={styles.badgelist}>
 
       <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -102,7 +131,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.woocommerce_badge}>Woocommerce</Badge>{' '}
   
       </div>
-   
+      <h1 className={styles.white}>Sanchez Coffee CO</h1>
 
 
 
@@ -129,7 +158,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <h1 className={styles.white}>Apex VR</h1>
+    
       <div className={styles.badgelist}>
 
       <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -142,7 +171,7 @@ export const Home = () => (
   
       </div>
    
-
+      <h1 className={styles.white}>Apex VR</h1>
 
 </Jumbotron>
 
@@ -167,7 +196,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <h1 className={styles.white}>Stepsaver</h1>
+    
       <div className={styles.badgelist}>
 
       <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -179,7 +208,7 @@ export const Home = () => (
   
       </div>
    
- 
+      <h1 className={styles.white}>Stepsaver</h1>
 
 </Jumbotron>
 
@@ -205,7 +234,7 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
       
-  <h1 className={styles.white}>Dasdasdigital</h1>
+  
       <div className={styles.badgelist}>
 
       <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -216,7 +245,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.react_badge}>React.JS</Badge>{' '}
   
       </div>
-   
+      <h1 className={styles.white}>Dasdasdigital</h1>
 
 </Jumbotron>
 
@@ -237,26 +266,6 @@ export const Home = () => (
 
 
 </Container>
-
-
-
-
-
-<Jumbotron className={styles.jumbotron_color}>
-  <h1>Hi</h1>
-  <p>
-    Thank you for taking the time out of your day to visit this website. 
-    Please let me know if you are looking to chat. Have a nice day!
-  </p>
-  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton}>Contact Now</Button>
-  </p>
-  </LinkContainer>
-</Jumbotron>
-
-
-
 
 
 

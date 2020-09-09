@@ -409,3 +409,8 @@ Import the Parallax component and use it anywhere within the provider like so:
             <Image src="/image.jpg" />
         </Parallax>
     );
+
+## Installing rehooks/window-scroll-position
+
+    npm i @rehooks/window-scroll-position
+
