@@ -56,3 +56,107 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4adede",endCo
     background:#fff !important;
 
 }
+
+
+.mainvideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+.containerfluid{
+    background-color: transparent !important;
+}
+
+
+.mainfloat{
+    position: absolute;
+    background-color: transparent !important;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+background: rgba(0,0,0,0.5);
+    z-index: 1;
+    padding-bottom: 30% !important;
+    bottom: 0;
+}
+
+.largefont{
+    color: #fff !important;
+
+}
+
+.whitefont{
+    color: #fff !important;
+}
+
+
+.viewmore{
+    background-color: rgba(0,0,0,0.5) !important;
+    border-color: #000 !important;
+    opacity: 1 !important;
+}
+
+
+
+.badgelist{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+}
+
+
+.UI_badge{
+    background-color: #F57823 !important;
+    display: initial !important;
+    border-color: #F57823;
+    border-style: solid;
+    border-width: 1px;
+    
+    color: #fff !important;
+}
+
+.UX_badge{
+    background-color: #78C242 !important;
+    display: initial !important;
+    border-color: #78C242;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+}
+
+.Mobile_badge{
+    background-color: #78C242 !important;
+    display: initial !important;
+    border-color: #78C242;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+}
+
+.Prototyping_badge{
+    background-color: #01A68E !important;
+    display: initial !important;
+}
+
+.web_badge{
+    background-color: #7E3F99 !important;
+    display: initial !important;
+}
+
+.wordpress_badge{
+    background-color: #FE0000 !important;
+    display: initial !important;
+}
+
+.css_badge{
+    background-color: #FBB033 !important;
+    display: initial !important;
+}
+
+.woocommerce_badge{
+    background-color: #FFDD00 !important;
+    display: initial !important;
+
+}

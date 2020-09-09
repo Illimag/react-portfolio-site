@@ -7,6 +7,10 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
+import Badge from 'react-bootstrap/Badge';
+
+import { LinkContainer } from 'react-router-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 import Banner from '../../assets/img/uguru/banner-01.jpg';
 import Img01 from '../../assets/img/uguru/1-01.jpg';
@@ -20,6 +24,8 @@ import Img08 from '../../assets/img/uguru/1-08.jpg';
 import Img09 from '../../assets/img/uguru/1-09.jpg';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
+import BannerVid from '../../assets/vids/san-francisco-USMT8JR.mp4';
+
 
 import styles from './uguru.module.css';
 import './uguru.css';
@@ -28,7 +34,12 @@ export const Uguru = () => (
     /* Start of JSX Fragment*/ 
     <>
 
+    
+
 <Container fluid>
+
+
+
     {/* img without text */}
     <Row>
     <Col sm fluid>
@@ -41,7 +52,16 @@ export const Uguru = () => (
 
   <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
+
+    <div className={styles.badgelist}>
+
+<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
+<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
+<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
+
+</div>
       <h5>Case Study</h5>
+
       <h1>Uguru, INC</h1>
       <p>
       Mobile Application for College Students
@@ -54,6 +74,8 @@ export const Uguru = () => (
       <p>
       Graphic UI/UX Intern to creating High-Fidelity User Interfaces and Rapid prototypes
       </p>
+
+          
 
     </Container>
   </Jumbotron>
