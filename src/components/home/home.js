@@ -15,7 +15,7 @@ import Vid02 from '../../assets/vids/compress_vid2.mp4';
 import Vid03 from '../../assets/vids/compress_vid3.mp4';
 import Vid04 from '../../assets/vids/compress_vid4.mp4';
 import Vid05 from '../../assets/vids/compress_vid5.mp4';
-import Banner from '../../assets/vids/san-francisco-USMT8JR.mp4';
+import Banner from '../../assets/vids/sf.mp4';
 /*
 import Vid06 from '../../assets/vids/compress_vid0.mp4';
 */
