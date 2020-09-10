@@ -46,7 +46,7 @@ export const Home = () => (
 
 <Container fluid className={styles.containerfluid}>
 
-
+{/*
 <Jumbotron className={styles.jumbotron_color}>
 
 </Jumbotron>
@@ -74,7 +74,7 @@ export const Home = () => (
     </video>    
 </Col>
 </Row>
-
+*/}
 
 
     <Row>
@@ -104,7 +104,7 @@ export const Home = () => (
 </Jumbotron>
 
             <LinkContainer to="/uguru">
-    <video autoPlay preload="true" loop playsInline muted>
+    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
     </video>    
     </LinkContainer>                
@@ -150,7 +150,7 @@ export const Home = () => (
 
 
     <LinkContainer to="/uguru">
-    <video autoPlay preload="true" loop playsInline muted>
+    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid05} type="video/mp4" />
     </video>    
     </LinkContainer>    
@@ -193,7 +193,7 @@ export const Home = () => (
 
 
     <LinkContainer to="/uguru">
-    <video autoPlay preload="true" loop playsInline muted>
+    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid04} type="video/mp4" />
     </video>    
     </LinkContainer>    
@@ -235,7 +235,7 @@ export const Home = () => (
 
 
     <LinkContainer to="/uguru">
-    <video autoPlay preload="true" loop playsInline muted>
+    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid03} type="video/mp4" />
     </video>    
     </LinkContainer>    
@@ -277,7 +277,7 @@ export const Home = () => (
 
 
     <LinkContainer to="/uguru">
-    <video autoPlay preload="true" loop playsInline muted>
+    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
     </video>    
     </LinkContainer>    
