@@ -33,7 +33,7 @@ export const Dasdasdigital = () => (
     {/* img without text */}
     <Row>
     <Col sm>
-    <Image src={Banner} fluid className="pg1Img" />
+    <Image src={Banner} fluid className={styles.imgstyle} />
     </Col>
     </Row>
   </Container>
@@ -66,14 +66,14 @@ export const Dasdasdigital = () => (
 brought into the fold to be sued on the production application. It was a growing experience.
 I worked on the onboarding of the mobile app. For this I designed it based on some sketches
 and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-    <Image src={Img01} fluid className="pg1Img" />
+    <Image src={Img01} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
     {/* img without text */}
     <Row>
         <Col sm>
-        <Image src={Img02} fluid className="pg1Img" />
+        <Image src={Img02} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -92,7 +92,7 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
     {/* img without text */}
     <Row>
         <Col sm>
-        <Image src={Img03} fluid className="pg1Img" />
+        <Image src={Img03} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -106,7 +106,7 @@ they were sent over to me, and I started
 with the development of the MVP.</p>
         </Col>
         <Col sm>
-        <Image src={Img04} fluid className="pg1Img" />
+        <Image src={Img04} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -141,7 +141,7 @@ with the development of the MVP.</p>
       <p>The CEO was a software developer located in Oakland, there was a designer, a social media 
 specialist who did the research for the personas, as well as a admin type of person who was
 in charge of maintain admin stuff.</p>
-    <Image src={Img05} fluid className="pg1Img" />
+    <Image src={Img05} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -161,7 +161,7 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
       {/* img without text */}
       <Row>
         <Col sm>
-        <Image src={Img06} fluid className="pg1Img" />
+        <Image src={Img06} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -173,7 +173,7 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
 I created each page and created the fodler system. Then I implemented each page, using code. After 
 the project was over I went back and I redesigned the home page and other pages, as well as 
 putting the code base onto a React.JS folder system.</p>
-    <Image src={Img07} fluid className="pg1Img" />
+    <Image src={Img07} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -192,7 +192,7 @@ going to come apart, maybe we didn’t
 have enough funding.</p>
         </Col>
         <Col sm>
-        <Image src={Img08} fluid className="pg1Img" />
+        <Image src={Img08} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -202,15 +202,15 @@ have enough funding.</p>
   <Container>
     <Row className={styles.bottomNavColor}>
     <Col sm={6}>
-    <h1>Uguru, INC</h1>
-    <Link to={'/uguru'}>
+    <h1>Stepsaver</h1>
+    <Link to={'/stepsaver'}>
       <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6} >
-    <h1>Sanchez Coffee Co.</h1>
-    <Link to={'/sanchezcoffeeco'}>
-      <h5> View Next </h5>
+    <h1>Questions or just want to say hi?</h1>
+    <Link to={'/contact'}>
+      <h5> Contact Now </h5>
     </Link>
     </Col>
     </Row>

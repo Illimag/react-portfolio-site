@@ -258,8 +258,8 @@ Arts (CCA).</p>
     </Link>
     </Col>
     <Col sm={6}>
-    <h1>DasDasDigital</h1>
-    <Link to={'/dasdasdigital'}>
+    <h1>SanchezCoffee CO</h1>
+    <Link to={'/sanchezcoffeeco'}>
       <h5> View Next </h5>
     </Link>
     </Col>

@@ -60,10 +60,10 @@ const Navigation = () => (
             <LinkContainer to="/uguru">
               <Nav.Link className={styles.white}>• UGURU INC</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/apexvr">
+            <LinkContainer to="/sanchezcoffeeco">
               <Nav.Link className={styles.white}>• SANCHEZ COFFEE CO</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/sanchezcoffeeco">
+            <LinkContainer to="/apexvr">
               <Nav.Link className={styles.white}>• APEX VR</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/dasdasdigital">

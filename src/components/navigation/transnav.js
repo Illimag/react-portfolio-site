@@ -79,30 +79,24 @@ function TestNav() {
             <LinkContainer to="/">
               <Nav.Link className={styles.white}>Home</Nav.Link>
             </LinkContainer>
-
-            <LinkContainer to="/Contact">
-              <Nav.Link className={styles.white}>Contact</Nav.Link>
-            </LinkContainer>
-
             <LinkContainer to="/uguru">
               <Nav.Link className={styles.white}>• UGURU INC</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/apexvr">
+            <LinkContainer to="/sanchezcoffeeco">
               <Nav.Link className={styles.white}>• SANCHEZ COFFEE CO</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/sanchezcoffeeco">
+            <LinkContainer to="/apexvr">
               <Nav.Link className={styles.white}>• APEX VR</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/dasdasdigital">
-              <Nav.Link className={styles.white}>• DASDAS DIGITAL</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/stepsaver">
               <Nav.Link className={styles.white}>• STEPSAVER</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/nikerate">
-              <Nav.Link className={styles.white}>• Nike Rate</Nav.Link>
+            <LinkContainer to="/dasdasdigital">
+              <Nav.Link className={styles.white}>• DASDAS DIGITAL</Nav.Link>
             </LinkContainer>
-
+            <LinkContainer to="/Contact">
+              <Nav.Link className={styles.white}>Contact</Nav.Link>
+            </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -122,9 +116,6 @@ function TestNav() {
             </Route>
             <Route path="/stepsaver">
               <Stepsaver />
-            </Route>
-            <Route path="/nikerate">
-              <Nikerate />
             </Route>
             <Route path="/contact">
               <Contact />

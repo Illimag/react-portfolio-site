@@ -34,7 +34,7 @@ export const Apexvr = () => (
     {/* img without text */}
     <Row>
     <Col sm>
-    <Image src={Banner} fluid className="pg1Img" />
+    <Image src={Banner} fluid className={styles.imgstyle} />
     </Col>
     </Row>
   </Container>
@@ -68,7 +68,7 @@ who were not the typical users, as so we thought about how to do that. I decided
 visual problems, either they had difficulties seeing or they were blinded.
 
 The application that was to be designed to be more inclusive was the Dominos’s Pizza Application.</p>
-    <Image src={Img01} fluid className="pg1Img" />
+    <Image src={Img01} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -83,7 +83,7 @@ with HTML and CSS that created an indivisible div, that would not be able to be 
 The code would be activated using the Samsung Voice Assistant. When the voice assistant was activated, the user can 
 activate the invisible div, will read out the instructions of various things on the app that would be able to able to
 seen and read the elements.</p>
-    <Image src={Img02} fluid className="pg1Img" />
+    <Image src={Img02} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -115,7 +115,7 @@ appearance of the application would not
 be as nice.</p>
         </Col>
         <Col sm>
-        <Image src={Img03} fluid className="pg1Img" />
+        <Image src={Img03} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -123,7 +123,7 @@ be as nice.</p>
       {/* img without text */}
         <Row>
         <Col sm>
-        <Image src={Img04} fluid className="pg1Img" />
+        <Image src={Img04} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -131,7 +131,7 @@ be as nice.</p>
     {/* img without text */}
     <Row>
         <Col sm>
-        <Image src={Img05} fluid className="pg1Img" />
+        <Image src={Img05} fluid className={styles.imgstyle} />
         </Col>
         </Row>       
 
@@ -147,7 +147,7 @@ After the sketches were done, based on the original app. We tried to come up wit
 able to solve the problems. After the designs were better designed, we did some testing, using user testing, we
 tested the interface with users and we were able to see what users thought about the application, and we also
 got a heat map to see where the user would be clicking on the interface.</p>
-    <Image src={Img06} fluid className="pg1Img" />
+    <Image src={Img06} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -217,7 +217,7 @@ assistant.</p>
          {/* left img right text */}
          <Row>
     <Col sm>
-    <Image src={Img08} fluid className="pg1Img" />
+    <Image src={Img08} fluid className={styles.imgstyle} />
     </Col>
     <Col sm>
       <h3>Completion of the
@@ -233,9 +233,6 @@ solution for user.</p>
         {/* left img right text */}
         <Row>
     <Col sm>
-    <Image src={Img09} fluid className="pg1Img" />
-    </Col>
-    <Col sm>
       <h3>Designing and
 Implementing</h3>
       <p>Designing and implementing this prototype
@@ -247,6 +244,9 @@ helped, and I think that after I was able to
 create this interface using code it really opened
 up more possiblities for a solution that would
 be possible for user.</p>
+    </Col>
+    <Col sm>
+    <Image src={Img09} fluid className={styles.imgstyle} />
     </Col>
     </Row> 
 

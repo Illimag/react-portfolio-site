@@ -65,3 +65,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86e3ce",endCo
     background:#fff !important;
 
 }
+
+.imgstyle{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh !important;
+    position: static;
+    top: 0;
+    left: 0;
+}

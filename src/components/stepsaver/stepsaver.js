@@ -32,7 +32,7 @@ export const Stepsaver = () => (
     {/* img without text */}
     <Row>
     <Col sm>
-    <Image src={Banner} fluid className="pg1Img" />
+    <Image src={Banner} fluid className={styles.imgstyle} />
     </Col>
     </Row>
   </Container>
@@ -64,7 +64,7 @@ export const Stepsaver = () => (
       <p>Stepsaver is a startup in Houstin Texas, that had a web application and a mobile
 application that would be able to be used for valets. CEO of Stepsaver was looking for a designer 
 who could do some redesigns for the web application and websits.</p>
-    <Image src={Img01} fluid className="pg1Img" />
+    <Image src={Img01} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -76,14 +76,14 @@ who could do some redesigns for the web application and websits.</p>
       <p>The project was first a redesign of the web application as well as the mobile application.
 There were only a web application and based on the web application. I created the mobile 
 application designs. There were some designs that neeeded to be done.</p>
-    <Image src={Img02} fluid className="pg1Img" />
+    <Image src={Img02} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
     {/* img without text */}
     <Row>
         <Col sm>
-        <Image src={Img03} fluid className="pg1Img" />
+        <Image src={Img03} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -102,7 +102,7 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
           {/* left img right text */}
           <Row>
     <Col sm>
-    <Image src={Img04} fluid className="pg1Img" />
+    <Image src={Img04} fluid className={styles.imgstyle} />
     </Col>
     <Col sm>
       <h3>Technical Requirements</h3>
@@ -137,7 +137,7 @@ Then using the mobile app would be able to do
 this.</p>
         </Col>
         <Col sm>
-        <Image src={Img05} fluid className="pg1Img" />
+        <Image src={Img05} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -158,7 +158,7 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
     {/* img without text */}
     <Row>
         <Col sm>
-        <Image src={Img06} fluid className="pg1Img" />
+        <Image src={Img06} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -170,7 +170,7 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
 Then I created a very basic list of functionality that needed to be designed for. Mainly I also created the
 list of pages, that needed to be considered as a redesign. I created the map of functionality that the web app.
 I started creating the UI components. I tried to keep it as lose to the original designs as possible. </p>
-    <Image src={Img07} fluid className="pg1Img" />
+    <Image src={Img07} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -178,7 +178,7 @@ I started creating the UI components. I tried to keep it as lose to the original
     {/* img without text */}
     <Row>
         <Col sm>
-        <Image src={Img08} fluid className="pg1Img" />
+        <Image src={Img08} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -192,7 +192,7 @@ Actually first I sent over the web app, then I renegotiated for the mobile app. 
 I was happy to complete the project and that CEO was happy enough with the designs that he paid as we discussed.
 This was a happy, I don’t know if they had enough funding to continue but overall I was able to spend more time
 on the designs and take it to the next level..</p>
-    <Image src={Img09} fluid className="pg1Img" />
+    <Image src={Img09} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -202,14 +202,14 @@ on the designs and take it to the next level..</p>
   <Container>
     <Row className={styles.bottomNavColor}>
     <Col sm={6}>
-    <h1>Domino's App Demo</h1>
-    <Link to={'/dominos'}>
+    <h1>Apex VR</h1>
+    <Link to={'/apexvr'}>
       <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6}>
-    <h1>Nike Rate</h1>
-    <Link to={'/nikerate'}>
+    <h1>DasDas Digital</h1>
+    <Link to={'/dasdasdigital'}>
       <h5> View Next </h5>
     </Link>
     </Col>

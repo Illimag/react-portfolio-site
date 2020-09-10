@@ -31,7 +31,7 @@ export const Sanchezcoffeeco = () => (
     {/* img without text */}
     <Row>
     <Col sm>
-    <Image src={Banner} fluid className="pg1Img" />
+    <Image src={Banner} fluid className={styles.imgstyle} />
     </Col>
     </Row>
   </Container>
@@ -60,7 +60,7 @@ export const Sanchezcoffeeco = () => (
     {/* img without text */}
     <Row>
         <Col sm>
-        <Image src={Img01} fluid className="pg1Img" />
+        <Image src={Img01} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -68,7 +68,7 @@ export const Sanchezcoffeeco = () => (
     {/* img without text */}
     <Row>
         <Col sm>
-        <Image src={Img02} fluid className="pg1Img" />
+        <Image src={Img02} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -109,14 +109,14 @@ gateway, additionally we were in charge if the
 merchant account.</p>
         </Col>
         <Col sm>
-        <Image src={Img03} fluid className="pg1Img" />
+        <Image src={Img03} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
         {/* left img right text */}
         <Row>
     <Col sm>
-    <Image src={Img04} fluid className="pg1Img" />
+    <Image src={Img04} fluid className={styles.imgstyle} />
     </Col>
     <Col sm>
       <h3>Online Payment 
@@ -159,7 +159,7 @@ but mainly I was incharge of the website design
 and development.</p>
         </Col>
         <Col sm>
-        <Image src={Img05} fluid className="pg1Img" />
+        <Image src={Img05} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -175,7 +175,7 @@ and development.</p>
     {/* img without text */}
     <Row>
         <Col sm>
-        <Image src={Img06} fluid className="pg1Img" />
+        <Image src={Img06} fluid className={styles.imgstyle} />
         </Col>
         </Row>
 
@@ -201,7 +201,7 @@ was broken and the website became decreptid. We were able to process around 100K
 in transactions and a few thousand sales before the web platform was taken down.
 
 During this period my job was to maintain this flow of sales on the online platform.</p>
-    <Image src={Img07} fluid className="pg1Img" />
+    <Image src={Img07} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -215,7 +215,7 @@ thse designs with CSS, I was able to use some coding in a production environment
 
 Additionally being able to start the hosting of the website, the implementation of the Wordpress
 site, and then the maintence of the website was a responsibility.</p>
-    <Image src={Img08} fluid className="pg1Img" />
+    <Image src={Img08} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -226,14 +226,14 @@ site, and then the maintence of the website was a responsibility.</p>
   <Container>
     <Row className={styles.bottomNavColor}>
     <Col sm={6}>
-    <h1>DasDasDigital</h1>
-    <Link to={'/dasdasdigital'}>
+    <h1>Uguru, INC</h1>
+    <Link to={'/uguru'}>
       <h5> View Previous </h5>
     </Link>
     </Col>
     <Col sm={6}>
-    <h1>Domino's App Demo</h1>
-    <Link to={'/dominos'}>
+    <h1>Apex VR</h1>
+    <Link to={'/apexvr'}>
       <h5> View Next </h5>
     </Link>
     </Col>
