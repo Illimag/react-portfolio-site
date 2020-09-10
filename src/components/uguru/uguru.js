@@ -44,7 +44,7 @@ export const Uguru = () => (
     <Row>
     <Col sm fluid>
 
-    <Image src={Banner} fluid className="pg1Img" />
+    <Image src={Banner} fluid className={styles.imgstyle} />
 
     </Col>
     </Row>
@@ -100,7 +100,7 @@ export const Uguru = () => (
 brought into the fold to be sued on the production application. It was a growing experience.
 I worked on the onboarding of the mobile app. For this I designed it based on some sketches
 and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-    <Image src={Img01} fluid className="pg1Img" />
+    <Image src={Img01} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -118,7 +118,7 @@ such as they would be used on the production
 application that would be deployed and used.</p>
     </Col>
     <Col sm>
-    <Image src={Img02} fluid className="pg1Img" />
+    <Image src={Img02} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -137,7 +137,7 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
         {/* left img right text */}
         <Row>
     <Col sm>
-    <Image src={Img03} fluid className="pg1Img" />
+    <Image src={Img03} fluid className={styles.imgstyle} />
     </Col>
     <Col sm>
       <h3>Graphic & UI/UX Design</h3>
@@ -163,7 +163,7 @@ parts of the interface that needed to
 be created.</p>
     </Col>
     <Col sm>
-    <Image src={Img04} fluid className="pg1Img" />
+    <Image src={Img04} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -172,7 +172,7 @@ be created.</p>
     {/* img without text */}
     <Row>
     <Col sm>
-    <Image src={Img05} fluid className="pg1Img" />
+    <Image src={Img05} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -184,7 +184,7 @@ be created.</p>
 I was using rapid prototyping software that was helping me with seeing how the
 animiations of the User Interface would look. This really helped a lot when trying to
 do the Onboarding screens.</p>
-    <Image src={Img06} fluid className="pg1Img" />
+    <Image src={Img06} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
@@ -205,14 +205,14 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
 
     <Row>
     <Col sm >
-    <Image src={Img07} fluid className="pg1Img" />
+    <Image src={Img07} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 
           {/* left img right text */}
           <Row>
     <Col sm>
-    <Image src={Img08} fluid className="pg1Img" />
+    <Image src={Img08} fluid className={styles.imgstyle} />
     </Col>
     <Col sm>
     <h3>Completion of Internship</h3>
@@ -238,7 +238,7 @@ Design at California College of the
 Arts (CCA).</p>
     </Col>
     <Col sm>
-    <Image src={Img09} fluid className="pg1Img" />
+    <Image src={Img09} fluid className={styles.imgstyle} />
     </Col>
     </Row>
 

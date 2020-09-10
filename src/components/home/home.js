@@ -46,7 +46,6 @@ export const Home = () => (
 
 <Container fluid className={styles.containerfluid}>
 
-{/*
 <Jumbotron className={styles.jumbotron_color}>
 
 </Jumbotron>
@@ -67,6 +66,11 @@ export const Home = () => (
     <Button className={styles.mainbutton}>Contact Now</Button>
   </p>
   </LinkContainer>
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
+  </p>
+  </LinkContainer>
 </Jumbotron>
 
     <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
@@ -74,7 +78,6 @@ export const Home = () => (
     </video>    
 </Col>
 </Row>
-*/}
 
 
     <Row>
@@ -95,7 +98,7 @@ export const Home = () => (
   
       </div>
       <h1 className={styles.white}>Uguru INC</h1>
-      <LinkContainer to="/Contact">
+      <LinkContainer to="/uguru">
   <p>
     <Button className={styles.viewmore}>View More</Button>
   </p>
@@ -137,7 +140,7 @@ export const Home = () => (
   
       </div>
       <h1 className={styles.white}>Sanchez Coffee CO</h1>
-      <LinkContainer to="/Contact">
+      <LinkContainer to="/sanchezcoffeeco">
   <p>
     <Button className={styles.viewmore}>View More</Button>
   </p>
@@ -149,7 +152,7 @@ export const Home = () => (
 
 
 
-    <LinkContainer to="/uguru">
+    <LinkContainer to="/sanchezcoffeeco">
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid05} type="video/mp4" />
     </video>    
@@ -182,7 +185,7 @@ export const Home = () => (
       </div>
    
       <h1 className={styles.white}>Apex VR</h1>
-      <LinkContainer to="/Contact">
+      <LinkContainer to="/apexvr">
   <p>
     <Button className={styles.viewmore}>View More</Button>
   </p>
@@ -192,7 +195,7 @@ export const Home = () => (
 
 
 
-    <LinkContainer to="/uguru">
+    <LinkContainer to="/apexvr">
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid04} type="video/mp4" />
     </video>    
@@ -224,7 +227,7 @@ export const Home = () => (
       </div>
    
       <h1 className={styles.white}>Stepsaver</h1>
-      <LinkContainer to="/Contact">
+      <LinkContainer to="/stepsaver">
   <p>
     <Button className={styles.viewmore}>View More</Button>
   </p>
@@ -234,7 +237,7 @@ export const Home = () => (
 
 
 
-    <LinkContainer to="/uguru">
+    <LinkContainer to="/stepsaver">
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid03} type="video/mp4" />
     </video>    
@@ -266,7 +269,7 @@ export const Home = () => (
   
       </div>
       <h1 className={styles.white}>Dasdasdigital</h1>
-      <LinkContainer to="/Contact">
+      <LinkContainer to="/dasdasdigital">
   <p>
     <Button className={styles.viewmore}>View More</Button>
   </p>
@@ -276,7 +279,7 @@ export const Home = () => (
 
 
 
-    <LinkContainer to="/uguru">
+    <LinkContainer to="/dasdasdigital">
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
     </video>    
