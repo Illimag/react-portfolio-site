@@ -18,6 +18,13 @@ import Img06 from '../../assets/img/sanchezcoffeeco/1-06.jpg';
 import Img07 from '../../assets/img/sanchezcoffeeco/1-07.jpg';
 import Img08 from '../../assets/img/sanchezcoffeeco/1-08.jpg';
 
+import customer_location from '../../assets/img/sanchezcoffeeco/customer_location.PNG';
+import topcustromerbysalers from '../../assets/img/sanchezcoffeeco/topcustromerbysalers.PNG';
+import volumne from '../../assets/img/sanchezcoffeeco/volumne.PNG';
+import transaction from '../../assets/img/sanchezcoffeeco/transaction.PNG';
+import ordersize from '../../assets/img/sanchezcoffeeco/ordersize.PNG';
+
+
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
 
 import styles from './sanchezcoffeeco.module.css';
@@ -61,6 +68,20 @@ export const Sanchezcoffeeco = () => (
     <Row>
         <Col sm>
         <Image src={Img01} fluid className={styles.imgstyle} />
+        </Col>
+        </Row>
+
+            {/* img without text */}
+    <Row>
+        <Col sm>
+        <Image src={customer_location} fluid className={styles.centerimgstyle} />
+        </Col>
+        </Row>
+
+                    {/* img without text */}
+    <Row>
+        <Col sm>
+        <Image src={topcustromerbysalers} fluid className={styles.centerimgstyle} />
         </Col>
         </Row>
 
@@ -178,6 +199,30 @@ and development.</p>
         <Image src={Img06} fluid className={styles.imgstyle} />
         </Col>
         </Row>
+
+                            {/* img without text */}
+    <Row>
+        <Col sm>
+        <Image src={volumne} fluid className={styles.centerimgstyle} />
+        </Col>
+        </Row>
+
+                            {/* img without text */}
+    <Row>
+        <Col sm>
+        <Image src={transaction} fluid className={styles.centerimgstyle} />
+        </Col>
+        </Row>
+
+
+                    {/* img without text */}
+                    <Row>
+        <Col sm>
+        <Image src={ordersize} fluid className={styles.centerimgstyle} />
+        </Col>
+        </Row>
+
+
 
        {/* text */}
        <Row className={styles.test2}>

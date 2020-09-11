@@ -20,8 +20,8 @@ import Img04 from '../../assets/img/uguru/1-04.jpg';
 import Img05 from '../../assets/img/uguru/1-05.jpg';
 import Img06 from '../../assets/img/uguru/1-06.jpg';
 import Img07 from '../../assets/img/uguru/1-07.jpg';
-import Img08 from '../../assets/img/uguru/1-08.jpg';
-import Img09 from '../../assets/img/uguru/1-09.jpg';
+import Img08 from '../../assets/img/uguru/1-08.png';
+import Img09 from '../../assets/img/uguru/1-09.png';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
 import BannerVid from '../../assets/vids/san-francisco-USMT8JR.mp4';
