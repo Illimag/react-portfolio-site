@@ -15,7 +15,7 @@ import Vid02 from '../../assets/vids/compress_vid2.mp4';
 import Vid03 from '../../assets/vids/compress_vid3.mp4';
 import Vid04 from '../../assets/vids/compress_vid4.mp4';
 import Vid05 from '../../assets/vids/compress_vid5.mp4';
-import Banner from '../../assets/vids/sf.mp4';
+import Banner from '../../assets/vids/testback.mp4';
 /*
 import Vid06 from '../../assets/vids/compress_vid0.mp4';
 */
@@ -46,6 +46,7 @@ export const Home = () => (
 
 <Container fluid className={styles.containerfluid}>
 
+
 <Jumbotron className={styles.jumbotron_color}>
 
 </Jumbotron>
@@ -53,9 +54,12 @@ export const Home = () => (
 
 
     <Row>
-    <Col md={12} className={styles.removepadding}>
+    <Col md={12} className={styles.removepaddingmain}>
 
     <Jumbotron className={styles.mainfloat}>
+    <Jumbotron className={styles.mainfloatback}>
+
+    <Jumbotron className={styles.textbox}>
     <h1 className={styles.largefont}>Hi</h1>
   <p className={styles.whitefont}>
     Thank you for taking the time out of your day to visit this website. 
@@ -71,6 +75,8 @@ export const Home = () => (
     <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
   </p>
   </LinkContainer>
+  </Jumbotron>
+</Jumbotron>
 </Jumbotron>
 
     <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
@@ -78,6 +84,7 @@ export const Home = () => (
     </video>    
 </Col>
 </Row>
+
 
 
     <Row>
@@ -100,7 +107,7 @@ export const Home = () => (
       <h1 className={styles.white}>Uguru INC</h1>
       <LinkContainer to="/uguru">
   <p>
-    <Button className={styles.viewmore}>View More</Button>
+    <Button className={styles.viewmore}>View Case Study</Button>
   </p>
   </LinkContainer>
 
@@ -114,10 +121,6 @@ export const Home = () => (
 
     </Col>
 
-    <Col md={4} className={styles.removepadding}>
- 
-
-    </Col>
     </Row>
 
     <Row>
@@ -142,7 +145,7 @@ export const Home = () => (
       <h1 className={styles.white}>Sanchez Coffee CO</h1>
       <LinkContainer to="/sanchezcoffeeco">
   <p>
-    <Button className={styles.viewmore}>View More</Button>
+    <Button className={styles.viewmore}>View Case Study</Button>
   </p>
   </LinkContainer>
 
@@ -159,10 +162,6 @@ export const Home = () => (
     </LinkContainer>    
     </Col>
 
-    <Col md={4} className={styles.removepadding}>
- 
-
-    </Col>
     </Row>
 
     <Row>
@@ -187,7 +186,7 @@ export const Home = () => (
       <h1 className={styles.white}>Apex VR</h1>
       <LinkContainer to="/apexvr">
   <p>
-    <Button className={styles.viewmore}>View More</Button>
+    <Button className={styles.viewmore}>View Case Study</Button>
   </p>
   </LinkContainer>
 
@@ -202,10 +201,6 @@ export const Home = () => (
     </LinkContainer>    
     </Col>
 
-    <Col md={4} className={styles.removepadding}>
- 
-
-    </Col>
     </Row>
 
     <Row>
@@ -229,7 +224,7 @@ export const Home = () => (
       <h1 className={styles.white}>Stepsaver</h1>
       <LinkContainer to="/stepsaver">
   <p>
-    <Button className={styles.viewmore}>View More</Button>
+    <Button className={styles.viewmore}>View Case Study</Button>
   </p>
   </LinkContainer>
 
@@ -244,10 +239,6 @@ export const Home = () => (
     </LinkContainer>    
     </Col>
 
-    <Col md={4} className={styles.removepadding}>
- 
-
-    </Col>
     </Row>
 
     <Row>
@@ -271,7 +262,7 @@ export const Home = () => (
       <h1 className={styles.white}>Dasdasdigital</h1>
       <LinkContainer to="/dasdasdigital">
   <p>
-    <Button className={styles.viewmore}>View More</Button>
+    <Button className={styles.viewmore}>View Case Study</Button>
   </p>
   </LinkContainer>
 
@@ -288,9 +279,6 @@ export const Home = () => (
 
   
     </Row>
-
-    
-
 
 
 </Container>

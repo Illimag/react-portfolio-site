@@ -36,15 +36,44 @@ export const Uguru = () => (
 
     
 
-<Container fluid>
+<Container fluid className={styles.containerfluid}>
+  
+<Jumbotron className={styles.jumbotron_color}>
+
+</Jumbotron>
 
 
 
+    <Row>
+    <Col md={12} className={styles.removepadding}>
+
+    <Jumbotron className={styles.mainfloat}>
+    <h1 className={styles.largefont}>Hi</h1>
+  <p className={styles.whitefont}>
+    Thank you for taking the time out of your day to visit this website. 
+    Please let me know if you are looking to chat. Have a nice day!
+  </p>
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton}>Contact Now</Button>
+  </p>
+  </LinkContainer>
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
+
+    <Image src={Banner} fluid className={styles.imgparallax} />
+</Col>
+</Row>
     {/* img without text */}
     <Row>
-    <Col sm fluid>
+    <Col md={12} className={styles.removepadding}>
 
     <Image src={Banner} fluid className={styles.imgstyle} />
+
 
     </Col>
     </Row>

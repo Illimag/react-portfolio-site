@@ -10,6 +10,8 @@ background: linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e2f97",endColorstr="#797ef6",GradientType=1);
 
     margin-bottom: 0px !important;
+
+    position: relative;
 }
 
 .test1{
@@ -169,3 +171,33 @@ background: rgba(0,0,0,0.5);
     top: 0;
     left: 0;
 }
+
+
+.imgparallax{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.removepadding{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    background-color: #fff;
+
+}
+
+
+
+.jumbotron_color{
+    background-color: transparent !important;
+    
+  /* Full height */
+  height: 100vh;
+}
+
