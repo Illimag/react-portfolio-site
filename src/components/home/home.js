@@ -76,6 +76,7 @@ export const Home = () => (
   </p>
   </LinkContainer>
   </Jumbotron>
+  
 </Jumbotron>
 </Jumbotron>
 
