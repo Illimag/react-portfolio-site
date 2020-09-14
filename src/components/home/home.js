@@ -94,17 +94,31 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
     
-      <div className={styles.badgelist}>
-
-      <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-
+   
       
+      <h1 className={styles.white}>Uguru INC</h1>
+
+      <h1 className={styles.white}>UI/UX & Graphic Design Intern</h1>
+
+      <h1 className={styles.white}>INTERNSHIP AT FUNDED APP STARTUP IN DOWNTOWN SF</h1>
+
+      <p className={styles.whitefont}>Uguru was a Mobile Application Startup funded by Bay Angels. 
+      And they were looking to launch thier client side app for the use of college students looking 
+      for tutoring services in a online marketplace.
+</p>
+
+    <div className={styles.badgelist}>
+
+<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
+
+
 
 <Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
 <Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
-  
-      </div>
-      <h1 className={styles.white}>Uguru INC</h1>
+
+</div>
+
+
       <LinkContainer to="/uguru">
   <p>
     <Button className={styles.viewmore}>View Case Study</Button>
@@ -130,19 +144,27 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
    
+
+      <h1 className={styles.white}>Sanchez Coffee CO</h1>
+      <h1 className={styles.white}>Web Designer/Developer</h1>
+
+<h1 className={styles.white}>REMOTE POSITION AT A LA E-COMMERCE COMPANY</h1>
+
+<p className={styles.whitefont}>Custom branded coffee company located in Los Angelos, CA. 
+They provided a good product via web platform. </p>
+
       <div className={styles.badgelist}>
 
-      <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
+<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
 
-      
+
 <Badge variant="primary" className={styles.web_badge}>Web</Badge>{' '}
 
 <Badge variant="primary" className={styles.wordpress_badge}>WordPress</Badge>{' '}
 <Badge variant="primary" className={styles.css_badge}>CSS</Badge>{' '}
 <Badge variant="primary" className={styles.woocommerce_badge}>Woocommerce</Badge>{' '}
-  
-      </div>
-      <h1 className={styles.white}>Sanchez Coffee CO</h1>
+
+</div>
       <LinkContainer to="/sanchezcoffeeco">
   <p>
     <Button className={styles.viewmore}>View Case Study</Button>
@@ -171,6 +193,16 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
     
+
+   
+      <h1 className={styles.white}>Apex VR</h1>
+      <h1 className={styles.white}>Web Designer</h1>
+
+<h1 className={styles.white}>Contact to build a web app for VR concept from bay area local videography company</h1>
+
+<p className={styles.whitefont}>Virtual Reality (VR) Website for Videography company located in San Leandro, 
+User interface designer working with a developer, working together built a web app with Angular and aframe.</p>
+
       <div className={styles.badgelist}>
 
       <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -182,8 +214,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.angular_badge}>Angular.JS</Badge>{' '}
   
       </div>
-   
-      <h1 className={styles.white}>Apex VR</h1>
+
       <LinkContainer to="/apexvr">
   <p>
     <Button className={styles.viewmore}>View Case Study</Button>
@@ -209,19 +240,24 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    
+   
+      <h1 className={styles.white}>Stepsaver</h1>
+      <h1 className={styles.white}>User Interface Designer</h1>
+
+<h1 className={styles.white}>Web Design remote contract with huston app startup</h1>
+
+<p className={styles.whitefont}>Stepsaver is an valet company that tracks vehicles, 
+using it’s priotory softwre it would be able to be used and people would pay for it.</p>
       <div className={styles.badgelist}>
 
-      <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
+<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
 
-      
+
 <Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
 
 <Badge variant="primary" className={styles.web_badge}>Web</Badge>{' '}
-  
-      </div>
-   
-      <h1 className={styles.white}>Stepsaver</h1>
+
+</div>
       <LinkContainer to="/stepsaver">
   <p>
     <Button className={styles.viewmore}>View Case Study</Button>
@@ -249,17 +285,25 @@ export const Home = () => (
     <Jumbotron className={styles.float}>
       
   
+
+      <h1 className={styles.white}>Dasdasdigital</h1>
+      <h1 className={styles.white}>UI/UX Designer & Web Developer</h1>
+
+<h1 className={styles.white}>Designing Digital Agency startup's</h1>
+
+<p className={styles.whitefont}>I was approached by the CEO of DasDasDigital, 
+her dream was to start a agency that specailzes in digital marketing and website services. 
+Her was looking for people to join her and create the agency.</p>
       <div className={styles.badgelist}>
 
-      <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
+<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
 
-      
+
 <Badge variant="primary" className={styles.web_badge}>Web</Badge>{' '}
 
 <Badge variant="primary" className={styles.react_badge}>React.JS</Badge>{' '}
-  
-      </div>
-      <h1 className={styles.white}>Dasdasdigital</h1>
+
+</div>
       <LinkContainer to="/dasdasdigital">
   <p>
     <Button className={styles.viewmore}>View Case Study</Button>
