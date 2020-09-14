@@ -60,7 +60,7 @@ export const Home = () => (
     <Jumbotron className={styles.mainfloatback}>
 
     <Jumbotron className={styles.textbox}>
-    <h1 className={styles.largefont}>Hi</h1>
+    <h1 className={styles.largefont}>Welcome</h1>
   <p className={styles.whitefont}>
     Thank you for taking the time out of your day to visit this website. 
     Please let me know if you are looking to chat. Have a nice day!

@@ -8,7 +8,10 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
-import Banner from '../../assets/img/stepsaver/banner-05.jpg';
+import { LinkContainer } from 'react-router-bootstrap';
+import Button from 'react-bootstrap/Button';
+
+import Img00 from '../../assets/img/stepsaver/banner-05.jpg';
 import Img01 from '../../assets/img/stepsaver/1-01.jpg';
 import Img02 from '../../assets/img/stepsaver/1-02.jpg';
 import Img03 from '../../assets/img/stepsaver/1-03.jpg';
@@ -23,23 +26,31 @@ import styles from './stepsaver.module.css';
 import './stepsaver.css';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
+import Banner from '../../assets/vids/compress_vid4.mp4';
 
 export const Stepsaver = () => (
     /* Start of JSX Fragment*/ 
     <>
 
-<Container fluid>
-    {/* img without text */}
-    <Row>
-    <Col sm>
-    <Image src={Banner} fluid className={styles.imgstyle} />
-    </Col>
-    </Row>
-  </Container>
-
-
-<Jumbotron fluid className={styles.test}>
-    <Container className={styles.fonttest}>
+<Container fluid className={styles.containerfluid}>
+  
+  <Jumbotron className={styles.jumbotron_color}>
+  
+  </Jumbotron>
+  
+  
+  
+  <Row>
+      <Col md={12} className={styles.removepaddingmain}>
+  
+      <Jumbotron className={styles.mainfloat}>
+      <Jumbotron className={styles.mainfloatback}>
+  
+      <Jumbotron className={styles.textbox}>
+  
+  
+      <Jumbotron fluid className={styles.transparency}>
+      <Container className={styles.fonttest}>
       <h5>Case Study</h5>
       <h1>Stepsaver</h1>
       <p>
@@ -52,14 +63,45 @@ export const Stepsaver = () => (
       <p>
       User Interface Designer for a valet company that tracks vehicles, using it’s priotory software it would be able to be used.      </p>
 
-    </Container>
+  
+      <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
+  </p>
+  </LinkContainer>
+  
+      </Container>
+    </Jumbotron>
+  
+  
+    </Jumbotron>
   </Jumbotron>
+  </Jumbotron>
+  
+      <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
+        <source src={Banner} type="video/mp4" />
+      </video>    
+  </Col>
+  </Row>
+  
+  
+  
+    </Container>
+<Container fluid>
+    {/* img without text */}
+    <Row>
+    <Col sm>
+    <Image src={Img00} fluid className={styles.imgstyle} />
+    </Col>
+    </Row>
+  </Container>
+
 
     <Container fluid>
 
         {/* img with text */}
-        <Row>
-    <Col sm>
+        <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>Web and Mobile Application</h3>
       <p>Stepsaver is a startup in Houstin Texas, that had a web application and a mobile
 application that would be able to be used for valets. CEO of Stepsaver was looking for a designer 
@@ -70,8 +112,8 @@ who could do some redesigns for the web application and websits.</p>
 
 
         {/* img with text */}
-        <Row>
-    <Col sm>
+        <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>Redesign of the Applications</h3>
       <p>The project was first a redesign of the web application as well as the mobile application.
 There were only a web application and based on the web application. I created the mobile 
@@ -100,11 +142,11 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
 
   
           {/* left img right text */}
-          <Row>
+          <Row className={styles.test1}>
     <Col sm>
     <Image src={Img04} fluid className={styles.imgstyle} />
     </Col>
-    <Col sm>
+    <Col sm className={styles.fonttest}>
       <h3>Technical Requirements</h3>
       <p>There were alot of technical requirements
 of the application. There wasent much to work
@@ -124,8 +166,8 @@ designed.</p>
       </Row>
 
                 {/* left text right img */}
-                <Row>
-        <Col sm>
+                <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
         <h3>Navigation of the App</h3>
         <p>The personas and what kind of people 
 would use the app. They were looking for 
@@ -163,8 +205,8 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
         </Row>
 
           {/* img with text */}
-          <Row>
-    <Col sm>
+          <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>Designs from the original web app</h3>
       <p>Starting with the web app, I took the designs from the original web app. The flow the web app.
 Then I created a very basic list of functionality that needed to be designed for. Mainly I also created the
@@ -184,8 +226,8 @@ I started creating the UI components. I tried to keep it as lose to the original
 
 
           {/* img with text */}
-          <Row>
-    <Col sm>
+          <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>Completion of Designs</h3>
       <p>Designs was completed and the CEO found it satisfactory and he paid the amount that we discussed.
 Actually first I sent over the web app, then I renegotiated for the mobile app. Then I completed the mobile app.

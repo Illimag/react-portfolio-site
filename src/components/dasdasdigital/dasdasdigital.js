@@ -8,7 +8,10 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
-import Banner from '../../assets/img/dasdasdigital/banner-02.jpg';
+import { LinkContainer } from 'react-router-bootstrap';
+import Button from 'react-bootstrap/Button';
+
+import Img00 from '../../assets/img/dasdasdigital/banner-02.jpg';
 import Img01 from '../../assets/img/dasdasdigital/1-01.jpg';
 import Img02 from '../../assets/img/dasdasdigital/1-02.jpg';
 import Img03 from '../../assets/img/dasdasdigital/1-03.jpg';
@@ -22,6 +25,8 @@ import styles from './dasdasdigital.module.css';
 import './dasdasdigital.css';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
+import Banner from '../../assets/vids/compress_vid2.mp4';
+
 
 import Codepen from "react-codepen-embed";
 
@@ -29,17 +34,26 @@ export const Dasdasdigital = () => (
     /* Start of JSX Fragment*/ 
     <>
 
-<Container fluid>
-    {/* img without text */}
-    <Row>
-    <Col sm>
-    <Image src={Banner} fluid className={styles.imgstyle} />
-    </Col>
-    </Row>
-  </Container>
-
-<Jumbotron fluid className={styles.test}>
-    <Container className={styles.fonttest}>
+<Container fluid className={styles.containerfluid}>
+  
+  <Jumbotron className={styles.jumbotron_color}>
+  
+  </Jumbotron>
+  
+  
+  
+  <Row>
+      <Col md={12} className={styles.removepaddingmain}>
+  
+      <Jumbotron className={styles.mainfloat}>
+      <Jumbotron className={styles.mainfloatback}>
+  
+      <Jumbotron className={styles.textbox}>
+  
+  
+      <Jumbotron fluid className={styles.transparency}>
+      <Container className={styles.fonttest}>
+  
       <h5>Case Study</h5>
       <h1>DasDasDigital</h1>
       <p>
@@ -53,14 +67,47 @@ export const Dasdasdigital = () => (
       <p>
       Web Developer for MVP built with React.JS and Bootstrap
       </p>
-    </Container>
+  
+      <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
+  </p>
+  </LinkContainer>
+  
+      </Container>
+    </Jumbotron>
+  
+  
+    </Jumbotron>
   </Jumbotron>
+  </Jumbotron>
+  
+      <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
+        <source src={Banner} type="video/mp4" />
+      </video>    
+  </Col>
+  </Row>
+  
+  
+  
+    </Container>
+
+
+<Container fluid>
+    {/* img without text */}
+    <Row>
+    <Col sm>
+    <Image src={Img00} fluid className={styles.imgstyle} />
+    </Col>
+    </Row>
+  </Container>
+
 
     <Container fluid>
       
         {/* img with text */}
-        <Row>
-    <Col sm>
+        <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>High-Fidelity UI Design</h3>
       <p>Series of various UI designs, Initially I designed some low level mockups that were
 brought into the fold to be sued on the production application. It was a growing experience.
@@ -97,8 +144,8 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
         </Row>
 
                 {/* left text right img */}
-                <Row>
-        <Col sm>
+                <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
         <h3>Development of
 the MVP</h3>
         <p>After the designs were completed
@@ -135,8 +182,8 @@ with the development of the MVP.</p>
       </Row>
 
         {/* img with text */}
-        <Row>
-    <Col sm>
+        <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>Remote Team</h3>
       <p>The CEO was a software developer located in Oakland, there was a designer, a social media 
 specialist who did the research for the personas, as well as a admin type of person who was
@@ -166,8 +213,8 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
         </Row>
 
         {/* img with text */}
-        <Row>
-    <Col sm>
+        <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>Developing the Web Interface</h3>
       <p>The designer designed it based on Bootstrap 4 UI Components so developing the site was quite easy.
 I created each page and created the fodler system. Then I implemented each page, using code. After 
@@ -178,8 +225,8 @@ putting the code base onto a React.JS folder system.</p>
     </Row>
 
                 {/* left text right img */}
-                <Row>
-        <Col sm>
+                <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
         <h3>Completion of 
 the MVP</h3>
         <p>The CEO didn’t move any farther 

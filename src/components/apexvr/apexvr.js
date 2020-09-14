@@ -8,7 +8,10 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
-import Banner from '../../assets/img/dominos/banner-04.jpg';
+import { LinkContainer } from 'react-router-bootstrap';
+import Button from 'react-bootstrap/Button';
+
+import Img00 from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
 import Img01 from '../../assets/img/dominos/1-01.jpg';
 import Img02 from '../../assets/img/dominos/1-02.jpg';
 import Img03 from '../../assets/img/dominos/1-03.jpg';
@@ -22,7 +25,9 @@ import Img09 from '../../assets/img/dominos/1-09.jpg';
 import styles from './apexvr.module.css';
 import './apexvr.css';
 
-import Vid1 from '../../assets/vids/compress_vid6.mp4';
+import Vid1 from '../../assets/vids/compress_vid3.mp4';
+import Banner from '../../assets/vids/compress_vid3.mp4';
+
 
 import Codepen from "react-codepen-embed";
 
@@ -30,19 +35,26 @@ export const Apexvr = () => (
     /* Start of JSX Fragment*/ 
     <>
 
-<Container fluid>
-    {/* img without text */}
-    <Row>
-    <Col sm>
-    <Image src={Banner} fluid className={styles.imgstyle} />
-    </Col>
-    </Row>
-  </Container>
-
-
-
-<Jumbotron fluid className={styles.test}>
-    <Container className={styles.fonttest}>
+<Container fluid className={styles.containerfluid}>
+  
+  <Jumbotron className={styles.jumbotron_color}>
+  
+  </Jumbotron>
+  
+  
+  
+  <Row>
+      <Col md={12} className={styles.removepaddingmain}>
+  
+      <Jumbotron className={styles.mainfloat}>
+      <Jumbotron className={styles.mainfloatback}>
+  
+      <Jumbotron className={styles.textbox}>
+  
+  
+      <Jumbotron fluid className={styles.transparency}>
+      <Container className={styles.fonttest}>
+  
       <h5>Case Study</h5>
       <h1>Apexvr</h1>
       <p>
@@ -54,14 +66,48 @@ export const Apexvr = () => (
       <p>
       Interaction Design Student Prototyping class assignment for people with visual imparied spectrum.      </p>
 
-    </Container>
+  
+      <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
+  </p>
+  </LinkContainer>
+  
+      </Container>
+    </Jumbotron>
+  
+  
+    </Jumbotron>
   </Jumbotron>
+  </Jumbotron>
+  
+      <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
+        <source src={Banner} type="video/mp4" />
+      </video>    
+  </Col>
+  </Row>
+  
+  
+  
+    </Container>
+
+<Container fluid>
+    {/* img without text */}
+    <Row>
+    <Col sm>
+    <Image src={Img00} fluid className={styles.imgstyle} />
+    </Col>
+    </Row>
+  </Container>
+
+
+
 
     <Container fluid>
     
         {/* img with text */}
-        <Row>
-    <Col sm>
+        <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>Interaction Design Prototype</h3>
       <p>The project was centered around inclusive design for Microsoft, mainly we were interested in creating UIs for people 
 who were not the typical users, as so we thought about how to do that. I decided to focuse on people who has 
@@ -73,8 +119,8 @@ The application that was to be designed to be more inclusive was the Dominos’s
     </Row>
 
         {/* img with text */}
-        <Row>
-    <Col sm>
+        <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>Samsung Voice Assistant</h3>
       <p>Additionally I created the prototype with AngularJS and HTML/CSS/JS. Now that the application was able to be coded, I 
 decided to use a solution that would use code to implement of a solution for inclusive design. I created some custom code
@@ -101,8 +147,8 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
 
 
                  {/* left text right img */}
-                 <Row>
-        <Col sm>
+                 <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
         <h3>Personas of 
 Limitation Spectrum</h3>
         <p>I decidede to create this prototype using the 
@@ -138,8 +184,8 @@ be as nice.</p>
 
 
         {/* img with text */}
-        <Row>
-    <Col sm>
+        <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
       <h3>Design Process</h3>
       <p>Various steps to this application. We started with the sketches because the Microsoft Inclusive Designs had personas
 that we were designing for. Mainly the Personas was for a person whom be blind or visually impaired, hard to see.
@@ -175,8 +221,8 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
 
 
                 {/* left text right img */}
-                <Row>
-        <Col sm>
+                <Row className={styles.test1}>
+    <Col sm className={styles.fonttest}>
         <h3>Implementation
 of the Interface</h3>
         <p>I was not satisfied with the solution, I think
@@ -215,11 +261,11 @@ assistant.</p>
         </Row>
 
          {/* left img right text */}
-         <Row>
+         <Row className={styles.test1}>
     <Col sm>
     <Image src={Img08} fluid className={styles.imgstyle} />
     </Col>
-    <Col sm>
+    <Col sm className={styles.fonttest}>
       <h3>Completion of the
 Prototype</h3>
       <p>The prototype was created and I was able
@@ -231,8 +277,8 @@ solution for user.</p>
 
 
         {/* left img right text */}
-        <Row>
-    <Col sm>
+        <Row className={styles.test1}>
+        <Col sm className={styles.fonttest}>
       <h3>Designing and
 Implementing</h3>
       <p>Designing and implementing this prototype

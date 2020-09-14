@@ -1,50 +1,55 @@
+.fixrow{
+    position: relative;
+}
+
+.transparency{
+    background-color: transparent !important;
+}
+
 .test{
     /*
-    background-color: #FA897B !important;
+    background-color: #1E2F97 !important;
     */
 
-    background: rgb(250,137,123);
-background: -moz-linear-gradient(40deg, rgba(250,137,123,1) 28%, rgba(255,188,180,1) 78%);
-background: -webkit-linear-gradient(40deg, rgba(250,137,123,1) 28%, rgba(255,188,180,1) 78%);
-background: linear-gradient(40deg, rgba(250,137,123,1) 28%, rgba(255,188,180,1) 78%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fa897b",endColorstr="#ffbcb4",GradientType=1);
+    background: rgb(30,47,151);
+background: -moz-linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78%);
+background: -webkit-linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78%);
+background: linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e2f97",endColorstr="#797ef6",GradientType=1);
 
     margin-bottom: 0px !important;
+
+    position: relative;
 }
 
 .test1{
     /*
-    background-color: #CCABDA !important;
+    background-color: #797EF6 !important;
     */
-
-    background: rgb(204,171,218);
-background: -moz-linear-gradient(40deg, rgba(204,171,218,1) 28%, rgba(217,203,223,1) 78%);
-background: -webkit-linear-gradient(40deg, rgba(204,171,218,1) 28%, rgba(217,203,223,1) 78%);
-background: linear-gradient(40deg, rgba(204,171,218,1) 28%, rgba(217,203,223,1) 78%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ccabda",endColorstr="#d9cbdf",GradientType=1);
+    background: rgb(83,90,245);
+background: -moz-linear-gradient(40deg, rgba(83,90,245,1) 28%, rgba(121,126,246,1) 78%);
+background: -webkit-linear-gradient(40deg, rgba(83,90,245,1) 28%, rgba(121,126,246,1) 78%);
+background: linear-gradient(40deg, rgba(83,90,245,1) 28%, rgba(121,126,246,1) 78%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#535af5",endColorstr="#797ef6",GradientType=1);
+position: relative;
 }
+
 
 .test2{
     /*
-    background-color: #86E3CE !important;
+    background-color: #4ADEDE !important;
     */
 
-    background: rgb(134,227,206);
-background: -moz-linear-gradient(40deg, rgba(134,227,206,1) 28%, rgba(176,234,221,1) 78%);
-background: -webkit-linear-gradient(40deg, rgba(134,227,206,1) 28%, rgba(176,234,221,1) 78%);
-background: linear-gradient(40deg, rgba(134,227,206,1) 28%, rgba(176,234,221,1) 78%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86e3ce",endColorstr="#b0eadd",GradientType=1);
+    background: rgb(74,222,222);
+background: -moz-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
+background: -webkit-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
+background: linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4adede",endColorstr="#78e6e6",GradientType=1);
+position: relative;
 }
-
 
 .fonttest{
     color: #fff;
-}
-
-.colsm{
-    padding-right: 0px  !important;
-    padding-left: 0px !important;
-    overflow:hidden;
 }
 
 .vid{
@@ -52,17 +57,120 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86e3ce",endCo
     width: 100% !important;
 }
 
-
-
 .bottomNav{
     background:#fff !important;
     margin-bottom: 0px !important;
     color:#000;
+    position: relative;
 
 }
 
 .bottomNavColor{
     background:#fff !important;
+    position: relative;
+}
+
+.mainvideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+
+.containerfluid{
+    background-color: transparent !important;
+}
+
+
+.mainfloat{
+    position: absolute;
+    background-color: transparent !important;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+background: rgba(0,0,0,0.5);
+    z-index: 1;
+    padding-bottom: 30% !important;
+    bottom: 0;
+}
+
+.largefont{
+    color: #fff !important;
+
+}
+
+.whitefont{
+    color: #fff !important;
+}
+
+
+.viewmore{
+    background-color: rgba(0,0,0,0.5) !important;
+    border-color: #000 !important;
+    opacity: 1 !important;
+}
+
+
+
+.badgelist{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+}
+
+
+.UI_badge{
+    background-color: #F57823 !important;
+    display: initial !important;
+    border-color: #F57823;
+    border-style: solid;
+    border-width: 1px;
+    
+    color: #fff !important;
+}
+
+.UX_badge{
+    background-color: #78C242 !important;
+    display: initial !important;
+    border-color: #78C242;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+}
+
+.Mobile_badge{
+    background-color: #78C242 !important;
+    display: initial !important;
+    border-color: #78C242;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+}
+
+.Prototyping_badge{
+    background-color: #01A68E !important;
+    display: initial !important;
+}
+
+.web_badge{
+    background-color: #7E3F99 !important;
+    display: initial !important;
+}
+
+.wordpress_badge{
+    background-color: #FE0000 !important;
+    display: initial !important;
+}
+
+.css_badge{
+    background-color: #FBB033 !important;
+    display: initial !important;
+}
+
+.woocommerce_badge{
+    background-color: #FFDD00 !important;
+    display: initial !important;
 
 }
 
@@ -73,4 +181,89 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86e3ce",endCo
     position: static;
     top: 0;
     left: 0;
+}
+
+
+.imgparallax{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.parallaxc{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+    background-color: #fff;
+
+}
+
+
+
+.jumbotron_color{
+    background-color: transparent !important;
+    
+  /* Full height */
+  height: 100vh;
+}
+
+
+
+.mainfloatback{
+    position: relative;
+    background-color: rgba(0,0,0,0.5) !important;
+    height:100vh;
+    object-fit: cover;
+    z-index: 10;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    padding-top: 0rem !important;
+    padding-right: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+}
+.float{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5) !important;
+    height:100vh;
+    object-fit: cover;
+    z-index: 10;
+    margin-right: -5%;
+    margin-left: 5%;
+    width: 90%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+
+.mainfloat{
+    position: absolute;
+    background-color: transparent !important;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+background: rgba(0,0,0,0.5);
+    z-index: 1;
+    padding-bottom: 30% !important;
+    bottom: 0;
+    padding-top: 0rem !important;
+    padding-right: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+}
+.textbox{
+    background-color: transparent !important;
+    position: absolute;
+    bottom: 0;
+}
+
+.removepaddingmain{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+
+
 }
