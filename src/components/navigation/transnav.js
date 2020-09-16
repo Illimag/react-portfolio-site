@@ -69,7 +69,7 @@ function TestNav() {
   <ScrollToTop>
     <Container className={styles.navbarbackground}>
         <Navbar  style={style} className={styles.navbar} expand="lg" sticky="top">
-          <Navbar.Brand className={styles.logo} to="/">jaeminkim.com</Navbar.Brand>
+          <Navbar.Brand className={styles.logo} to="/">JMK</Navbar.Brand>
 
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />

@@ -3,6 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
 
+import { Fade } from "react-awesome-reveal";
+
+
 import Badge from 'react-bootstrap/Badge';
 
 import { LinkContainer } from 'react-router-bootstrap';
@@ -57,7 +60,14 @@ export const Home = () => (
     <Col md={12} className={styles.removepaddingmain}>
 
     <Jumbotron className={styles.mainfloat}>
-    <Jumbotron className={styles.mainfloatback}>
+
+</Jumbotron>
+
+    <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
+      <source src={Banner} type="video/mp4" />
+    </video>
+
+
 
     <Jumbotron className={styles.textbox}>
     <h1 className={styles.largefont}>Welcome</h1>
@@ -77,17 +87,14 @@ export const Home = () => (
   </LinkContainer>
   </Jumbotron>
   
-</Jumbotron>
-</Jumbotron>
-
-    <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
-      <source src={Banner} type="video/mp4" />
-    </video>    
+  
 </Col>
 </Row>
 
+<Container className={styles.containerfluid}>
 
 
+<Fade>
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -103,10 +110,7 @@ export const Home = () => (
 
       <h1 className={styles.white}>INTERNSHIP AT FUNDED APP STARTUP IN DOWNTOWN SF</h1>
 
-      <p className={styles.whitefont}>Uguru was a Mobile Application Startup funded by Bay Angels. 
-      And they were looking to launch thier client side app for the use of college students looking 
-      for tutoring services in a online marketplace.
-</p>
+  
 
     <div className={styles.badgelist}>
 
@@ -132,12 +136,16 @@ export const Home = () => (
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
     </video>    
+
+    
     </LinkContainer>                
 
     </Col>
 
     </Row>
+    </Fade>
 
+    <Fade>
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -151,8 +159,6 @@ export const Home = () => (
 
 <h1 className={styles.white}>REMOTE POSITION AT A LA E-COMMERCE COMPANY</h1>
 
-<p className={styles.whitefont}>Custom branded coffee company located in Los Angelos, CA. 
-They provided a good product via web platform. </p>
 
       <div className={styles.badgelist}>
 
@@ -186,7 +192,9 @@ They provided a good product via web platform. </p>
     </Col>
 
     </Row>
+    </Fade>
 
+    <Fade>
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -200,9 +208,6 @@ They provided a good product via web platform. </p>
       <h1 className={styles.white}>Web Designer</h1>
 
 <h1 className={styles.white}>Contact to build a web app for VR concept from bay area local videography company</h1>
-
-<p className={styles.whitefont}>Virtual Reality (VR) Website for Videography company located in San Leandro, 
-User interface designer working with a developer, working together built a web app with Angular and aframe.</p>
 
       <div className={styles.badgelist}>
 
@@ -234,7 +239,10 @@ User interface designer working with a developer, working together built a web a
     </Col>
 
     </Row>
+    </Fade>
 
+
+    <Fade>
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -247,8 +255,6 @@ User interface designer working with a developer, working together built a web a
 
 <h1 className={styles.white}>Web Design remote contract with huston app startup</h1>
 
-<p className={styles.whitefont}>Stepsaver is an valet company that tracks vehicles, 
-using it’s priotory softwre it would be able to be used and people would pay for it.</p>
       <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -277,7 +283,9 @@ using it’s priotory softwre it would be able to be used and people would pay f
     </Col>
 
     </Row>
+    </Fade>
 
+    <Fade>
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -292,9 +300,6 @@ using it’s priotory softwre it would be able to be used and people would pay f
 
 <h1 className={styles.white}>Designing Digital Agency startup's</h1>
 
-<p className={styles.whitefont}>I was approached by the CEO of DasDasDigital, 
-her dream was to start a agency that specailzes in digital marketing and website services. 
-Her was looking for people to join her and create the agency.</p>
       <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -324,7 +329,9 @@ Her was looking for people to join her and create the agency.</p>
 
   
     </Row>
+    </Fade>
 
+    </Container>
 
 </Container>
 

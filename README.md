@@ -414,3 +414,9 @@ Import the Parallax component and use it anywhere within the provider like so:
 
     npm i @rehooks/window-scroll-position
 
+
+
+## Installing React Awsome Reveal
+
+    npm install react-awesome-reveal --save
+
