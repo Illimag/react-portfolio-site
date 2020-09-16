@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
 
-import { Fade } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 
 import Badge from 'react-bootstrap/Badge';
@@ -94,7 +94,7 @@ export const Home = () => (
 <Container className={styles.containerfluid}>
 
 
-<Fade>
+<Slide direction="up">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -143,9 +143,9 @@ export const Home = () => (
     </Col>
 
     </Row>
-    </Fade>
+    </Slide>
 
-    <Fade>
+    <Slide direction="up">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -192,9 +192,9 @@ export const Home = () => (
     </Col>
 
     </Row>
-    </Fade>
+    </Slide>
 
-    <Fade>
+    <Slide direction="up">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -239,10 +239,10 @@ export const Home = () => (
     </Col>
 
     </Row>
-    </Fade>
+    </Slide>
 
 
-    <Fade>
+    <Slide direction="up">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -283,9 +283,9 @@ export const Home = () => (
     </Col>
 
     </Row>
-    </Fade>
+    </Slide>
 
-    <Fade>
+    <Slide direction="up">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -329,7 +329,7 @@ export const Home = () => (
 
   
     </Row>
-    </Fade>
+    </Slide>
 
     </Container>
 
