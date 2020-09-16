@@ -19,7 +19,7 @@
 .removepadding{
     padding-right: 0px !important;
     padding-left: 0px !important;
-    padding-top: 5% !important;
+    padding-top: 0% !important;
     padding-bottom: 0% !important;
     background-color: #fff;
 
@@ -94,9 +94,9 @@
     height:100vh;
     object-fit: cover;
     z-index: 10;
-    margin-right: -5%;
-    margin-left: 5%;
-    width: 90%;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
 }
 
@@ -219,9 +219,9 @@
     position: static;
     top: 0;
     left: 0;
-    margin-right: -5%;
-    margin-left: 5%;
-    width: 90%;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
   }
 
 .containerfluid{
