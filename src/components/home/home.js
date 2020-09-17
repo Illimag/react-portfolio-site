@@ -47,31 +47,21 @@ export const Home = () => (
   <>
 
 
+
+
+
 <Container fluid className={styles.containerfluid}>
 
 
-<Jumbotron className={styles.jumbotron_color}>
 
-</Jumbotron>
-
-
-
-    <Row>
+<Row>
     <Col md={12} className={styles.removepaddingmain}>
-
-    <Jumbotron className={styles.mainfloat}>
-
-</Jumbotron>
-
-    <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
-      <source src={Banner} type="video/mp4" />
-    </video>
 
 
 
     <Jumbotron className={styles.textbox}>
-    <h1 className={styles.largefont}>Welcome</h1>
-  <p className={styles.whitefont}>
+    <h1 className={styles.largefont_black}>Welcome</h1>
+  <p className={styles.blackfont}>
     Thank you for taking the time out of your day to visit this website. 
     Please let me know if you are looking to chat. Have a nice day!
   </p>
@@ -80,21 +70,17 @@ export const Home = () => (
     <Button className={styles.mainbutton}>Contact Now</Button>
   </p>
   </LinkContainer>
-  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
-  </p>
-  </LinkContainer>
   </Jumbotron>
   
   
 </Col>
 </Row>
 
-<Container className={styles.containerfluid}>
+<Container className={styles.test}>
 
 
-<Slide direction="up">
+
+<Slide direction="up" triggerOnce>
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -145,7 +131,7 @@ export const Home = () => (
     </Row>
     </Slide>
 
-    <Slide direction="up">
+    <Slide direction="up" triggerOnce duration="1000">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -194,7 +180,7 @@ export const Home = () => (
     </Row>
     </Slide>
 
-    <Slide direction="up">
+    <Slide direction="up" triggerOnce duration="1000">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -242,7 +228,7 @@ export const Home = () => (
     </Slide>
 
 
-    <Slide direction="up">
+    <Slide direction="up" triggerOnce duration="1000">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -285,7 +271,7 @@ export const Home = () => (
     </Row>
     </Slide>
 
-    <Slide direction="up">
+    <Slide direction="up" triggerOnce duration="1000">
     <Row>
     <Col md={12} className={styles.removepadding}>
 

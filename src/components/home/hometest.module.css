@@ -1,6 +1,6 @@
 .textbox{
     background-color: transparent !important;
-    position: fixed;
+    position: relative;
     bottom: 0;
     border-radius: 0rem !important;
 
@@ -30,7 +30,7 @@
 .removepaddingmain{
     padding-right: 0px !important;
     padding-left: 0px !important;
-    padding-top: 0% !important;
+    padding-top: 5% !important;
     padding-bottom: 0% !important;
     background-color: #fff;
 
@@ -278,6 +278,15 @@
     left: 0;
 }
 
-.containerfluid{
-    background-color: #000 !important;
+.test{
+    background-color: #fff !important;
+}
+
+
+.largefont_black{
+    color: #000 !important;
+}
+
+.blackfont{
+    color: #000 !important;
 }
