@@ -80,7 +80,7 @@ export const Home = () => (
 
 
 
-<Slide direction="up" duration="1000">
+<Slide direction="up" triggerOnce>
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -131,7 +131,7 @@ export const Home = () => (
     </Row>
     </Slide>
 
-    <Slide direction="up" duration="1000">
+    <Slide direction="up" triggerOnce duration="1000">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -180,7 +180,7 @@ export const Home = () => (
     </Row>
     </Slide>
 
-    <Slide direction="up" duration="1000">
+    <Slide direction="up" triggerOnce duration="1000">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -228,7 +228,7 @@ export const Home = () => (
     </Slide>
 
 
-    <Slide direction="up" duration="1000">
+    <Slide direction="up" triggerOnce duration="1000">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
@@ -271,7 +271,7 @@ export const Home = () => (
     </Row>
     </Slide>
 
-    <Slide direction="up" duration="1000">
+    <Slide direction="up" triggerOnce duration="1000">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
