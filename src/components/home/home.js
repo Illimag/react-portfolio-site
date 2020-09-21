@@ -73,7 +73,7 @@ export const Home = () => (
 
 
 
-    <Jumbotron className={styles.float}>
+    <Jumbotron className={styles.mainfloatback}>
       <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
       <h1 className={styles.whitetitle}>Uguru INC</h1>
@@ -94,7 +94,9 @@ export const Home = () => (
 </div>
 </Jumbotron>
 
-    <Image src={Uguru_Img} fluid className={styles.homepageimg} />
+<video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={Vid02} type="video/mp4" />
+    </video>
 
     
                

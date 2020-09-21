@@ -24,7 +24,7 @@ import Img07 from '../../assets/img/uguru/1-07.jpg';
 import Img08 from '../../assets/img/uguru/1-08.png';
 import Img09 from '../../assets/img/uguru/1-09.png';
 
-import Vid1 from '../../assets/vids/compress_vid6.mp4';
+import Vid1 from '../../assets/vids/student_campus.mp4';
 import BannerVid from '../../assets/vids/san-francisco-USMT8JR.mp4';
 
 
@@ -45,21 +45,13 @@ export const Uguru = () => (
     <Row>
     <Col md={12} className={styles.removepaddingmain}>
 
-    <Image src={Banner} fluid className={styles.imgstyle} />
-
+ 
 
     </Col>
     </Row>
     <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
 
-    <div className={styles.badgelist}>
-
-<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
-<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
-
-</div>
       <h5>Case Study</h5>
 
       <h1>Uguru, INC</h1>
@@ -83,14 +75,25 @@ export const Uguru = () => (
 
     <Container fluid>
 
-    {/* Video */}
-        <Row fluid>
+              {/* left text right img */}
+              <Row>
     <Col sm>
-    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+    <h3>Designs for
+Production Application</h3>
+      <p>Additionally I made designs for the websites, 
+and various other parts of the interface. 
+For example I made designs for the home page 
+of the app, the statistics page, and other pages 
+such as they would be used on the production 
+application that would be deployed and used.</p>
+    </Col>
+    <Col sm>
+        <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
       <source src={Vid1} type="video/mp4" />
     </video>
-      </Col>
-      </Row>
+    </Col>
+    </Row>
+
 
 
         {/* img with text */}
