@@ -74,14 +74,14 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="up" duration="1500">
       <h1 className={styles.whitetitle}>Uguru INC</h1>
       <h1 className={styles.whitesubtitle}>UI/UX & Graphic Design Internshio at funded startup in downtown San Francisco</h1>
 
   
 
   </Slide>
-  <Slide direction="up" duration="1000" delay="10" triggerOnce>
+  <Slide direction="up" duration="1000" delay="10">
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -112,7 +112,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="up" duration="1500">
 
       <h1 className={styles.whitetitle}>Sanchez Coffee CO</h1>
       <h1 className={styles.whitesubtitle}>Web Designer/Developer, remote position at a LA E-commerce Company</h1>
@@ -121,7 +121,7 @@ export const Home = () => (
 
 
   </Slide>
-  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <Slide direction="up" duration="1500" delay="10">
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -149,14 +149,14 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="up" duration="1500">
 
    
       <h1 className={styles.whitetitle}>Apex VR</h1>
       <h1 className={styles.whitesubtitle}>Web Designer, contract to build a web app for VR concept from bay area local videography company</h1>
 
   </Slide>
-  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <Slide direction="up" duration="1500" delay="10">
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -185,12 +185,12 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="up" duration="1500">
       <h1 className={styles.whitetitle}>Stepsaver</h1>
       <h1 className={styles.whitesubtitle}>User Interface Designer, remote contract with huston app startup</h1>
 
   </Slide>
-  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <Slide direction="up" duration="1500" delay="10">
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
@@ -218,7 +218,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="up" duration="1500">
   
 
       <h1 className={styles.whitetitle}>Dasdasdigital</h1>
@@ -226,7 +226,7 @@ export const Home = () => (
 
 
   </Slide>
-  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <Slide direction="up" duration="1500" delay="10">
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
