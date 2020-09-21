@@ -39,7 +39,18 @@ export const Uguru = () => (
 
 <Container fluid className={styles.containerfluid}>
   
-<Jumbotron fluid className={styles.test}>
+
+
+    {/* img without text */}
+    <Row>
+    <Col md={12} className={styles.removepaddingmain}>
+
+    <Image src={Banner} fluid className={styles.imgstyle} />
+
+
+    </Col>
+    </Row>
+    <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
 
     <div className={styles.badgelist}>
@@ -68,16 +79,6 @@ export const Uguru = () => (
 
     </Container>
   </Jumbotron>
-
-    {/* img without text */}
-    <Row>
-    <Col md={12} className={styles.removepaddingmain}>
-
-    <Image src={Banner} fluid className={styles.imgstyle} />
-
-
-    </Col>
-    </Row>
   </Container>
 
     <Container fluid>

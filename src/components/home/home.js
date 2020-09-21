@@ -1,7 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
+
 
 import { Slide } from "react-awesome-reveal";
 
@@ -18,7 +19,14 @@ import Vid02 from '../../assets/vids/compress_vid2.mp4';
 import Vid03 from '../../assets/vids/compress_vid3.mp4';
 import Vid04 from '../../assets/vids/compress_vid4.mp4';
 import Vid05 from '../../assets/vids/compress_vid5.mp4';
-import Banner from '../../assets/vids/testback.mp4';
+
+import Uguru_Img from '../../assets/img/uguru/banner-01.jpg';
+import Sanchezcoffeeco_Img from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
+import Apexvr_Img from '../../assets/img/dominos/1-01.jpg';
+import Stepsaver_Img from '../../assets/img/stepsaver/banner-05.jpg';
+import DasDas_Img from '../../assets/img/dasdasdigital/banner-02.jpg';
+
+
 /*
 import Vid06 from '../../assets/vids/compress_vid0.mp4';
 */
@@ -68,10 +76,7 @@ export const Home = () => (
     <Jumbotron className={styles.float}>
     <Slide direction="up" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>Uguru INC</h1>
-
-      <h1 className={styles.whitesubtitle}>UI/UX & Graphic Design Intern</h1>
-
-      <h1 className={styles.whiteparagraph}>INTERNSHIP AT FUNDED APP STARTUP IN DOWNTOWN SF</h1>
+      <h1 className={styles.whitesubtitle}>UI/UX & Graphic Design Internshio at funded startup in downtown San Francisco</h1>
 
   
 
@@ -88,10 +93,7 @@ export const Home = () => (
 
 </Jumbotron>
 
-
-    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
-      <source src={Vid02} type="video/mp4" />
-    </video>    
+    <Image src={Uguru_Img} fluid className={styles.homepageimg} />
 
     
                
@@ -113,9 +115,8 @@ export const Home = () => (
     <Slide direction="up" duration="1500" triggerOnce>
 
       <h1 className={styles.whitetitle}>Sanchez Coffee CO</h1>
-      <h1 className={styles.whitesubtitle}>Web Designer/Developer</h1>
+      <h1 className={styles.whitesubtitle}>Web Designer/Developer, remote position at a LA E-commerce Company</h1>
 
-<h1 className={styles.whiteparagraph}>REMOTE POSITION AT A LA E-COMMERCE COMPANY</h1>
 
 
 
@@ -132,9 +133,7 @@ export const Home = () => (
 </Jumbotron>
 
 
-    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
-      <source src={Vid05} type="video/mp4" />
-    </video>    
+<Image src={Sanchezcoffeeco_Img} fluid className={styles.homepageimg} />
 
     </Col>
 
@@ -154,10 +153,7 @@ export const Home = () => (
 
    
       <h1 className={styles.whitetitle}>Apex VR</h1>
-      <h1 className={styles.whitesubtitle}>Web Designer</h1>
-
-<h1 className={styles.whiteparagraph}>Contact to build a web app for VR concept from bay area local videography company</h1>
-
+      <h1 className={styles.whitesubtitle}>Web Designer, contract to build a web app for VR concept from bay area local videography company</h1>
 
   </Slide>
   <Slide direction="up" duration="1500" delay="10" triggerOnce>
@@ -172,9 +168,7 @@ export const Home = () => (
 </Jumbotron>
 
 
-    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
-      <source src={Vid04} type="video/mp4" />
-    </video>    
+<Image src={Apexvr_Img} fluid className={styles.homepageimg} />
  
     </Col>
 
@@ -191,12 +185,9 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Slide direction="up" duration="1500">
+    <Slide direction="up" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>Stepsaver</h1>
-      <h1 className={styles.whitesubtitle}>User Interface Designer</h1>
-
-<h1 className={styles.whiteparagraph}>Web Design remote contract with huston app startup</h1>
-
+      <h1 className={styles.whitesubtitle}>User Interface Designer, remote contract with huston app startup</h1>
 
   </Slide>
   <Slide direction="up" duration="1500" delay="10" triggerOnce>
@@ -211,10 +202,7 @@ export const Home = () => (
 </Jumbotron>
 
 
-
-    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
-      <source src={Vid03} type="video/mp4" />
-    </video>    
+<Image src={Stepsaver_Img} fluid className={styles.homepageimg} />
  
     </Col>
 
@@ -222,7 +210,7 @@ export const Home = () => (
     </LinkContainer>
     </Slide>
 
-    <Slide direction="up" triggerOnce duration="1500">
+    <Slide direction="up" triggerOnce duration="1500" triggerOnce>
     <LinkContainer to="/dasdasdigital">
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -230,13 +218,11 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Slide direction="up" duration="1500">
+    <Slide direction="up" duration="1500" triggerOnce>
   
 
       <h1 className={styles.whitetitle}>Dasdasdigital</h1>
-      <h1 className={styles.whitesubtitle}>UI/UX Designer & Web Developer</h1>
-
-<h1 className={styles.whiteparagraph}>Designing Digital Agency startup's</h1>
+      <h1 className={styles.whitesubtitle}>UI/UX Designer & Web Developer, Designing Digital Agency Startup</h1>
 
 
   </Slide>
@@ -251,9 +237,7 @@ export const Home = () => (
 </Slide>
 </Jumbotron>
 
-    <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
-      <source src={Vid02} type="video/mp4" />
-    </video>    
+<Image src={DasDas_Img} fluid className={styles.homepageimg} />
  
     </Col>
 
