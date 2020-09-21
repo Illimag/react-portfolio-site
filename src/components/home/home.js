@@ -74,6 +74,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
+      <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
       <h1 className={styles.whitetitle}>Uguru INC</h1>
       <h1 className={styles.whitesubtitle}>UI/UX & Graphic Design Internshio at funded startup in downtown San Francisco</h1>
@@ -90,7 +91,7 @@ export const Home = () => (
 
 </div>
 </Slide>
-
+</div>
 </Jumbotron>
 
     <Image src={Uguru_Img} fluid className={styles.homepageimg} />
@@ -112,6 +113,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
+    <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
 
       <h1 className={styles.whitetitle}>Sanchez Coffee CO</h1>
@@ -130,6 +132,7 @@ export const Home = () => (
 
 </div>
 </Slide>
+</div>
 </Jumbotron>
 
 
@@ -149,6 +152,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
+    <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
 
    
@@ -165,6 +169,7 @@ export const Home = () => (
 
 </div>
 </Slide>
+</div>
 </Jumbotron>
 
 
@@ -185,6 +190,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
+    <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
       <h1 className={styles.whitetitle}>Stepsaver</h1>
       <h1 className={styles.whitesubtitle}>User Interface Designer, remote contract with huston app startup</h1>
@@ -199,6 +205,7 @@ export const Home = () => (
 
 </div>
 </Slide>
+</div>
 </Jumbotron>
 
 
@@ -218,6 +225,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
+    <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
   
 
@@ -235,6 +243,7 @@ export const Home = () => (
 
 </div>
 </Slide>
+</div>
 </Jumbotron>
 
 <Image src={DasDas_Img} fluid className={styles.homepageimg} />
