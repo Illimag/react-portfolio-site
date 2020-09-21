@@ -101,7 +101,7 @@
     margin-left: 5%;
     width: 90%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0);
-    border-radius: 0rem !important;
+    border-radius: 0.8rem !important;
 }
 
 .fixfloatbug{
@@ -226,8 +226,9 @@
     margin-right: -5%;
     margin-left: 5%;
     width: 90%;
-    
-  }
+    border-radius: .8rem !important;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
 
 .containerfluid{
     background-color: transparent !important;

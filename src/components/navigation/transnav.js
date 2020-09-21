@@ -71,8 +71,8 @@ function TestNav() {
         
   <ScrollToTop>
     <Container className={styles.navbarbackground}>
-        <Navbar  style={style} className={styles.navbar} expand="lg" sticky="top">
-          <Navbar.Brand className={styles.logo} to="/">JMK</Navbar.Brand>
+        <Navbar style={style} className={styles.navbar} expand="lg" fixed="top" >
+          <Navbar.Brand className={styles.logo} to="/">Jaeminkim.com</Navbar.Brand>
 
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
@@ -83,19 +83,19 @@ function TestNav() {
               <Nav.Link className={styles.white}>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/uguru">
-              <Nav.Link className={styles.white}>• UGURU INC</Nav.Link>
+              <Nav.Link className={styles.white}>UGURU INC</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/sanchezcoffeeco">
-              <Nav.Link className={styles.white}>• SANCHEZ COFFEE CO</Nav.Link>
+              <Nav.Link className={styles.white}>SANCHEZ COFFEE CO</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/apexvr">
-              <Nav.Link className={styles.white}>• APEX VR</Nav.Link>
+              <Nav.Link className={styles.white}>APEX VR</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/stepsaver">
-              <Nav.Link className={styles.white}>• STEPSAVER</Nav.Link>
+              <Nav.Link className={styles.white}>STEPSAVER</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/dasdasdigital">
-              <Nav.Link className={styles.white}>• DASDAS DIGITAL</Nav.Link>
+              <Nav.Link className={styles.white}>DASDAS DIGITAL</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/Contact">
               <Nav.Link className={styles.white}>Contact</Nav.Link>

@@ -54,28 +54,6 @@ export const Home = () => (
 
 
 
-<Row>
-    <Col md={12} className={styles.removepaddingmain}>
-
-
-
-    <Jumbotron className={styles.textbox}>
-    <h1 className={styles.largefont_black}>Welcome</h1>
-  <p className={styles.blackfont}>
-    Thank you for taking the time out of your day to visit this website. 
-    Please let me know if you are looking to chat. Have a nice day!
-  </p>
-  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton}>Contact Now</Button>
-  </p>
-  </LinkContainer>
-  </Jumbotron>
-  
-  
-</Col>
-</Row>
-
 <Container className={styles.test}>
 
 
