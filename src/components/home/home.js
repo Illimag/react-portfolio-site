@@ -81,240 +81,207 @@ export const Home = () => (
 
 
 <Slide direction="up" triggerOnce>
+<LinkContainer to="/uguru">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
 
 
     <Jumbotron className={styles.float}>
-    
-   
-      
-      <h1 className={styles.white}>Uguru INC</h1>
+    <Slide direction="up" duration="1500" triggerOnce>
+      <h1 className={styles.whitetitle}>Uguru INC</h1>
 
-      <h1 className={styles.white}>UI/UX & Graphic Design Intern</h1>
+      <h1 className={styles.whitesubtitle}>UI/UX & Graphic Design Intern</h1>
 
-      <h1 className={styles.white}>INTERNSHIP AT FUNDED APP STARTUP IN DOWNTOWN SF</h1>
+      <h1 className={styles.whiteparagraph}>INTERNSHIP AT FUNDED APP STARTUP IN DOWNTOWN SF</h1>
 
   
 
-    <div className={styles.badgelist}>
+  </Slide>
+  <Slide direction="up" duration="1000" delay="10" triggerOnce>
+  <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-
-
-
 <Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
 <Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
 
 </div>
-
-
-      <LinkContainer to="/uguru">
-  <p>
-    <Button className={styles.viewmore}>View Case Study</Button>
-  </p>
-  </LinkContainer>
+</Slide>
 
 </Jumbotron>
 
-            <LinkContainer to="/uguru">
+
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
     </video>    
 
     
-    </LinkContainer>                
+               
 
     </Col>
 
     </Row>
+    </LinkContainer>     
     </Slide>
 
     <Slide direction="up" triggerOnce duration="1000">
+    <LinkContainer to="/sanchezcoffeeco">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
 
 
     <Jumbotron className={styles.float}>
-   
+    <Slide direction="up" duration="1500" triggerOnce>
 
-      <h1 className={styles.white}>Sanchez Coffee CO</h1>
-      <h1 className={styles.white}>Web Designer/Developer</h1>
+      <h1 className={styles.whitetitle}>Sanchez Coffee CO</h1>
+      <h1 className={styles.whitesubtitle}>Web Designer/Developer</h1>
 
-<h1 className={styles.white}>REMOTE POSITION AT A LA E-COMMERCE COMPANY</h1>
+<h1 className={styles.whiteparagraph}>REMOTE POSITION AT A LA E-COMMERCE COMPANY</h1>
 
 
-      <div className={styles.badgelist}>
+
+  </Slide>
+  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-
-
-<Badge variant="primary" className={styles.web_badge}>Web</Badge>{' '}
-
-<Badge variant="primary" className={styles.wordpress_badge}>WordPress</Badge>{' '}
-<Badge variant="primary" className={styles.css_badge}>CSS</Badge>{' '}
-<Badge variant="primary" className={styles.woocommerce_badge}>Woocommerce</Badge>{' '}
+<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
+<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
 
 </div>
-      <LinkContainer to="/sanchezcoffeeco">
-  <p>
-    <Button className={styles.viewmore}>View Case Study</Button>
-  </p>
-  </LinkContainer>
-
-
-
+</Slide>
 </Jumbotron>
 
 
-
-    <LinkContainer to="/sanchezcoffeeco">
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid05} type="video/mp4" />
     </video>    
-    </LinkContainer>    
+
     </Col>
 
     </Row>
+    </LinkContainer>
     </Slide>
 
-    <Slide direction="up" triggerOnce duration="1000">
+    <Slide direction="up" triggerOnce duration="1500">
+    <LinkContainer to="/apexvr">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
 
 
     <Jumbotron className={styles.float}>
-    
+    <Slide direction="up" duration="1500" triggerOnce>
 
    
-      <h1 className={styles.white}>Apex VR</h1>
-      <h1 className={styles.white}>Web Designer</h1>
+      <h1 className={styles.whitetitle}>Apex VR</h1>
+      <h1 className={styles.whitesubtitle}>Web Designer</h1>
 
-<h1 className={styles.white}>Contact to build a web app for VR concept from bay area local videography company</h1>
+<h1 className={styles.whiteparagraph}>Contact to build a web app for VR concept from bay area local videography company</h1>
 
-      <div className={styles.badgelist}>
 
-      <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
+  </Slide>
+  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <div className={styles.badgelist}>
 
-      
-<Badge variant="primary" className={styles.web_badge}>Web</Badge>{' '}
+<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
+<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
+<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
 
-<Badge variant="primary" className={styles.vr_badge}>VR</Badge>{' '}
-<Badge variant="primary" className={styles.angular_badge}>Angular.JS</Badge>{' '}
-  
-      </div>
-
-      <LinkContainer to="/apexvr">
-  <p>
-    <Button className={styles.viewmore}>View Case Study</Button>
-  </p>
-  </LinkContainer>
-
+</div>
+</Slide>
 </Jumbotron>
 
 
-
-    <LinkContainer to="/apexvr">
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid04} type="video/mp4" />
     </video>    
-    </LinkContainer>    
+ 
     </Col>
 
     </Row>
+    </LinkContainer>
     </Slide>
 
 
-    <Slide direction="up" triggerOnce duration="1000">
+    <Slide direction="up" triggerOnce duration="1500">
+    <LinkContainer to="/stepsaver">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
 
 
     <Jumbotron className={styles.float}>
-   
-      <h1 className={styles.white}>Stepsaver</h1>
-      <h1 className={styles.white}>User Interface Designer</h1>
+    <Slide direction="up" duration="1500">
+      <h1 className={styles.whitetitle}>Stepsaver</h1>
+      <h1 className={styles.whitesubtitle}>User Interface Designer</h1>
 
-<h1 className={styles.white}>Web Design remote contract with huston app startup</h1>
+<h1 className={styles.whiteparagraph}>Web Design remote contract with huston app startup</h1>
 
-      <div className={styles.badgelist}>
+
+  </Slide>
+  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-
-
 <Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
-
-<Badge variant="primary" className={styles.web_badge}>Web</Badge>{' '}
+<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
 
 </div>
-      <LinkContainer to="/stepsaver">
-  <p>
-    <Button className={styles.viewmore}>View Case Study</Button>
-  </p>
-  </LinkContainer>
-
+</Slide>
 </Jumbotron>
 
 
 
-    <LinkContainer to="/stepsaver">
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid03} type="video/mp4" />
     </video>    
-    </LinkContainer>    
+ 
     </Col>
 
     </Row>
+    </LinkContainer>
     </Slide>
 
-    <Slide direction="up" triggerOnce duration="1000">
+    <Slide direction="up" triggerOnce duration="1500">
+    <LinkContainer to="/dasdasdigital">
     <Row>
     <Col md={12} className={styles.removepadding}>
 
 
 
     <Jumbotron className={styles.float}>
-      
+    <Slide direction="up" duration="1500">
   
 
-      <h1 className={styles.white}>Dasdasdigital</h1>
-      <h1 className={styles.white}>UI/UX Designer & Web Developer</h1>
+      <h1 className={styles.whitetitle}>Dasdasdigital</h1>
+      <h1 className={styles.whitesubtitle}>UI/UX Designer & Web Developer</h1>
 
-<h1 className={styles.white}>Designing Digital Agency startup's</h1>
+<h1 className={styles.whiteparagraph}>Designing Digital Agency startup's</h1>
 
-      <div className={styles.badgelist}>
+
+  </Slide>
+  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-
-
-<Badge variant="primary" className={styles.web_badge}>Web</Badge>{' '}
-
-<Badge variant="primary" className={styles.react_badge}>React.JS</Badge>{' '}
+<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
+<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
 
 </div>
-      <LinkContainer to="/dasdasdigital">
-  <p>
-    <Button className={styles.viewmore}>View Case Study</Button>
-  </p>
-  </LinkContainer>
-
+</Slide>
 </Jumbotron>
 
-
-
-    <LinkContainer to="/dasdasdigital">
     <video className={styles.testvideo} autoPlay preload="true" loop playsInline muted>
       <source src={Vid02} type="video/mp4" />
     </video>    
-    </LinkContainer>    
+ 
     </Col>
 
   
     </Row>
+    </LinkContainer>
     </Slide>
 
     </Container>

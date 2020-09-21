@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 import { Link } from 'react-router-dom'
@@ -12,7 +13,7 @@ import Badge from 'react-bootstrap/Badge';
 import { LinkContainer } from 'react-router-bootstrap';
 import Button from 'react-bootstrap/Button';
 
-import Img00 from '../../assets/img/uguru/banner-01.jpg';
+import Banner from '../../assets/img/uguru/banner-01.jpg';
 import Img01 from '../../assets/img/uguru/1-01.jpg';
 import Img02 from '../../assets/img/uguru/1-02.jpg';
 import Img03 from '../../assets/img/uguru/1-03.jpg';
@@ -24,8 +25,7 @@ import Img08 from '../../assets/img/uguru/1-08.png';
 import Img09 from '../../assets/img/uguru/1-09.png';
 
 import Vid1 from '../../assets/vids/compress_vid6.mp4';
-import Banner from '../../assets/vids/compress_vid2.mp4';
-
+import BannerVid from '../../assets/vids/san-francisco-USMT8JR.mp4';
 
 
 import styles from './uguru.module.css';
@@ -39,22 +39,7 @@ export const Uguru = () => (
 
 <Container fluid className={styles.containerfluid}>
   
-<Jumbotron className={styles.jumbotron_color}>
-
-</Jumbotron>
-
-
-
-<Row>
-    <Col md={12} className={styles.removepaddingmain}>
-
-    <Jumbotron className={styles.mainfloat}>
-    <Jumbotron className={styles.mainfloatback}>
-
-    <Jumbotron className={styles.textbox}>
-
-
-    <Jumbotron fluid className={styles.transparency}>
+<Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
 
     <div className={styles.badgelist}>
@@ -79,35 +64,16 @@ export const Uguru = () => (
       Graphic UI/UX Intern to creating High-Fidelity User Interfaces and Rapid prototypes
       </p>
 
-      <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
-  </p>
-  </LinkContainer>
+          
 
     </Container>
   </Jumbotron>
 
-
-  </Jumbotron>
-</Jumbotron>
-</Jumbotron>
-
-    <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
-      <source src={Banner} type="video/mp4" />
-    </video>    
-</Col>
-</Row>
-
-
-
-
-
     {/* img without text */}
     <Row>
-    <Col md={12} className={styles.parallaxc}>
+    <Col md={12} className={styles.removepaddingmain}>
 
-    <Image src={Img00} fluid className={styles.imgstyle} />
+    <Image src={Banner} fluid className={styles.imgstyle} />
 
 
     </Col>
@@ -116,12 +82,19 @@ export const Uguru = () => (
 
     <Container fluid>
 
-
+    {/* Video */}
+        <Row fluid>
+    <Col sm>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+      </Col>
+      </Row>
 
 
         {/* img with text */}
-        <Row className={styles.test1}>
-    <Col sm className={styles.fonttest}>
+        <Row>
+    <Col sm>
       <h3>High-Fidelity UI Design</h3>
       <p>Series of various UI designs, Initially I designed some low level mockups that were
 brought into the fold to be sued on the production application. It was a growing experience.
@@ -133,8 +106,8 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
 
 
         {/* left text right img */}
-        <Row className={styles.test1}>
-    <Col sm className={styles.fonttest}>
+        <Row>
+    <Col sm>
     <h3>Designs for
 Production Application</h3>
       <p>Additionally I made designs for the websites, 
@@ -162,11 +135,11 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
 
 
         {/* left img right text */}
-        <Row className={styles.test1}>
+        <Row>
     <Col sm>
     <Image src={Img03} fluid className={styles.imgstyle} />
     </Col>
-    <Col sm className={styles.fonttest}>
+    <Col sm>
       <h3>Graphic & UI/UX Design</h3>
       <p>I was the graphic & UI/UX Designer Intern at the 
 company, and later there was a lead designer that 
@@ -179,8 +152,8 @@ a production product.</p>
     </Row>
 
             {/* left text right img */}
-            <Row className={styles.test1}>
-    <Col sm className={styles.fonttest}>
+            <Row>
+    <Col sm>
     <h3>Interaction Design
 of the Home Menu</h3>
       <p>Home Page of the User Interface in the
@@ -204,8 +177,8 @@ be created.</p>
     </Row>
 
           {/* img with text */}
-          <Row className={styles.test1}>
-    <Col sm className={styles.fonttest}>
+          <Row>
+    <Col sm>
     <h3>User Interface Problem Solving</h3>
       <p>I was using tools mainly from Adobe such as Illustrator and Photoshop. Additionally
 I was using rapid prototyping software that was helping me with seeing how the
@@ -237,11 +210,11 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
     </Row>
 
           {/* left img right text */}
-          <Row className={styles.test2}>
+          <Row>
     <Col sm>
     <Image src={Img08} fluid className={styles.imgstyle} />
     </Col>
-    <Col sm className={styles.fonttest}>
+    <Col sm>
     <h3>Completion of Internship</h3>
       <p>Completed my internship creating 
 the home page, onboarding screens, etc.
@@ -253,8 +226,8 @@ be successful.</p>
     </Row>
 
                 {/* left text right img */}
-                <Row className={styles.test2}>
-                <Col sm className={styles.fonttest}>
+                <Row>
+    <Col sm>
     <h3>Changing Major</h3>
       <p>I was unsure initally what to do 
 and was attending Hongik 

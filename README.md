@@ -420,3 +420,9 @@ Import the Parallax component and use it anywhere within the provider like so:
 
     npm install react-awesome-reveal --save
 
+## Installing React-router
+
+    npm install @steveeeie/react-page-transition
+
+    npm install react-router react-router-dom react-transition-group styled-components
+

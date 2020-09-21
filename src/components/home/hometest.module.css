@@ -93,7 +93,7 @@
 
 .float{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
     height: 50vh;
     object-fit: cover;
     z-index: 10;
@@ -289,4 +289,22 @@
 
 .blackfont{
     color: #000 !important;
+}
+
+.whitetitle{
+    color: #fff;
+    font-size: 3em !important;
+    margin-top: 0px !important;
+}
+
+.whitesubtitle{
+    color: #fff;
+    font-size: 2em !important;
+    margin-top: 0px !important;
+}
+
+.whiteparagraph{
+    color: #fff;
+    font-size: 1em !important;
+    margin-top: 0px !important;
 }

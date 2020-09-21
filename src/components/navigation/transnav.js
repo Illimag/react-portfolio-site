@@ -2,6 +2,9 @@ import React, { useState } from "react";
 // import throttle from "lodash/throttle";
 import useWindowScrollPosition from "@rehooks/window-scroll-position";
 import { MemoryRouter, Switch, Route } from 'react-router-dom';
+import { PageTransition } from '@steveeeie/react-page-transition';
+
+
 import Container from 'react-bootstrap/Container';
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -102,7 +105,7 @@ function TestNav() {
         </Navbar>
 
         <Switch>
-          <Route path="/uguru">
+         <Route path="/uguru">
               <Uguru />
             </Route>
             <Route path="/sanchezcoffeeco">
