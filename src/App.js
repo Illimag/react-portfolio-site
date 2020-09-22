@@ -10,8 +10,7 @@ const App = () => (
   <>
  <TestNav></TestNav>
  <ScrollUpButton></ScrollUpButton>
-
- {/*  <Footer></Footer> */}
+<Footer></Footer>
   </>
 );
 
