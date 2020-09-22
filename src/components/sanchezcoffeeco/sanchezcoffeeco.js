@@ -40,25 +40,13 @@ export const Sanchezcoffeeco = () => (
     <>
 <Container fluid className={styles.containerfluid}>
   
-  <Jumbotron className={styles.jumbotron_color}>
   
-  </Jumbotron>
+
   
-  
-  
-  <Row>
-      <Col md={12} className={styles.removepaddingmain}>
-  
-      <Jumbotron className={styles.mainfloat}>
-      <Jumbotron className={styles.mainfloatback}>
-  
-      <Jumbotron className={styles.textbox}>
-  
-  
-      <Jumbotron fluid className={styles.transparency}>
-      <Container className={styles.fonttest}>
-  
-      <h5>Case Study</h5>
+  <Jumbotron fluid className={styles.test}>
+    <Container className={styles.fonttest}>
+
+    <h5>Case Study</h5>
       <h1>Sanchez Coffee Co.</h1>
       <p>
       Los Angeles E-Commerce Company
@@ -71,28 +59,10 @@ export const Sanchezcoffeeco = () => (
       <p>
       Web Designer/Developer creating Payment Platform with Wordpress CMS and CSS      </p>
 
-  
-      <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
-  </p>
-  </LinkContainer>
-  
-      </Container>
-    </Jumbotron>
-  
-  
-    </Jumbotron>
+          
+
+    </Container>
   </Jumbotron>
-  </Jumbotron>
-  
-      <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
-        <source src={Banner} type="video/mp4" />
-      </video>    
-  </Col>
-  </Row>
-  
-  
   
     </Container>
 

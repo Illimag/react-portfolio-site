@@ -39,55 +39,33 @@ export const Uguru = () => (
 
     
 
-<Container fluid className={styles.containerfluid}>
-  
-
-
-    {/* img without text */}
-    <Row>
-    <Col md={12} className={styles.removepaddingmain}>
-
- 
-
-    </Col>
-    </Row>
-    <Jumbotron fluid className={styles.test}>
-    <Container className={styles.fonttest}>
-
-      <h5>Case Study</h5>
-
-      <h1>Uguru, INC</h1>
-      <p>
-      Mobile Application for College Students
-      </p>
-      <h5>Project Date:</h5>
-      <p>
-      October 2016 - January 2017
-      </p>
-      <h5>Role:</h5>
-      <p>
-      Graphic UI/UX Intern to creating High-Fidelity User Interfaces and Rapid prototypes
-      </p>
-
-          
-
-    </Container>
-  </Jumbotron>
-  </Container>
-
     <Container fluid>
 
               {/* left text right img */}
               <Row>
     <Col sm>
-    <h3>Designs for
-Production Application</h3>
-      <p>Additionally I made designs for the websites, 
-and various other parts of the interface. 
-For example I made designs for the home page 
-of the app, the statistics page, and other pages 
-such as they would be used on the production 
-application that would be deployed and used.</p>
+      
+<Container fluid className={styles.containerfluid}>
+    <Jumbotron fluid className={styles.test}>
+    <Container className={styles.fonttest}>
+    <h5>Case Study</h5>
+
+<h1>Uguru, INC</h1>
+<p>
+Mobile Application for College Students
+</p>
+<h5>Project Date:</h5>
+<p>
+October 2016 - January 2017
+</p>
+<h5>Role:</h5>
+<p>
+Graphic UI/UX Intern to creating High-Fidelity User Interfaces and Rapid prototypes
+</p>
+</Container>
+</Jumbotron>
+</Container>
+
     </Col>
     <Col sm>
         <video autoPlay preload="true" loop playsInline muted className={styles.vid}>

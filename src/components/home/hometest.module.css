@@ -21,8 +21,8 @@
 .removepadding{
     padding-right: 0px !important;
     padding-left: 0px !important;
-    padding-top: 1% !important;
-    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+    padding-bottom: 2.5% !important;
     background-color: #fff;
 
 }
@@ -30,7 +30,7 @@
 .removepaddingmain{
     padding-right: 0px !important;
     padding-left: 0px !important;
-    padding-top: 5% !important;
+    padding-top: 2.5% !important;
     padding-bottom: 0% !important;
     background-color: #fff;
 
@@ -80,9 +80,9 @@
     height: 90vh;
     object-fit: cover;
     z-index: 10;
-    margin-right: -1%;
-    margin-left: 1%;
-    width: 98%;
+    margin-right: -2.5%;
+    margin-left: 2.5%;
+    width: 95%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
@@ -94,9 +94,9 @@
     height: 50vh;
     object-fit: cover;
     z-index: 10;
-    margin-right: -1%;
-    margin-left: 1%;
-    width: 98%;
+    margin-right: -2.5%;
+    margin-left: 2.5%;
+    width: 95%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
@@ -221,10 +221,10 @@
     position: static;
     top: 0;
     left: 0;
-    margin-right: -1%;
-    margin-left: 1%;
-    width: 98%;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    margin-right: -2.5%;
+    margin-left: 2.5%;
+    width: 95%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
 }
 
 .containerfluid{
@@ -310,11 +310,11 @@
     position: static;
     top: 0;
     left: 0;
-    margin-right: -1%;
-    margin-left: 1%;
-    width: 98%;
+    margin-right: -2.5%;
+    margin-left: 2.5%;
+    width: 95%;
 
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
 
 
 }
