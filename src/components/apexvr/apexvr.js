@@ -39,12 +39,18 @@ export const Apexvr = () => (
 <Container fluid className={styles.containerfluid}>
                 {/* left text right img */}
                 <Row>
-    <Col sm>
-      
-<Container fluid className={styles.containerfluid}>
-    <Jumbotron fluid className={styles.test}>
-    <Container className={styles.fonttest}>
-    <h5>Case Study</h5>
+
+<Col sm>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+  <source src={Vid1} type="video/mp4" />
+</video>
+</Col>
+<Col sm>
+  
+  <Container fluid className={styles.containerfluid}>
+      <Jumbotron fluid className={styles.test}>
+      <Container className={styles.fonttest}>
+      <h5>Case Study</h5>
       <h1>Apexvr</h1>
       <p>
       Conceptual Design for Prototyping at CCA      </p>
@@ -55,19 +61,16 @@ export const Apexvr = () => (
       <p>
       Interaction Design Student Prototyping class assignment for people with visual imparied spectrum.      </p>
 
-
-</Container>
-</Jumbotron>
-</Container>
-
-    </Col>
-    <Col sm>
-        <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-      <source src={Vid1} type="video/mp4" />
-    </video>
-    </Col>
-    </Row>
+  </Container>
+  </Jumbotron>
+  </Container>
   
+      </Col>
+</Row>
+
+  
+
+
   
   
     </Container>

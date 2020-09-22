@@ -86,6 +86,7 @@
     box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
+    border-radius: .8rem !important;
 }
 
 .float{
@@ -100,6 +101,7 @@
     box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
+    border-radius: .8rem !important;
 }
 
 .fixfloatbug{
@@ -225,6 +227,7 @@
     margin-left: 2.5%;
     width: 95%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    border-radius: .8rem !important;
 }
 
 .containerfluid{
@@ -313,7 +316,7 @@
     margin-right: -2.5%;
     margin-left: 2.5%;
     width: 95%;
-
+    border-radius: .8rem !important;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 
 

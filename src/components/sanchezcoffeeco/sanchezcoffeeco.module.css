@@ -64,6 +64,7 @@ position: relative;
     margin-left: 5%;
     width: 90%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    margin-bottom: 5%;
 }
 
 
@@ -249,6 +250,7 @@ background: rgba(0,0,0,0.5);
     margin-left: 5%;
     width: 90%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    margin-bottom: 5%;
 }
 
 

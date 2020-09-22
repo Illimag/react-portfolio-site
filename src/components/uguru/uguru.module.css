@@ -63,6 +63,8 @@ position: relative;
     margin-left: 5%;
     width: 90%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    margin-bottom: 5%;
+    border-radius: .8rem !important;
 }
 
 .bottomNav{
@@ -192,6 +194,8 @@ background: rgba(0,0,0,0.5);
     margin-left: 5%;
     margin-top: 5%;
     width: 90%;
+    margin-bottom: 5%;
+    border-radius: .8rem !important;
 }
 
 
@@ -239,6 +243,7 @@ background: rgba(0,0,0,0.5);
     padding-right: 0rem !important;
     padding-bottom: 0rem !important;
     padding-left: 0rem !important;
+
 }
 .float{
     position: absolute;
@@ -250,6 +255,8 @@ background: rgba(0,0,0,0.5);
     margin-left: 5%;
     width: 90%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    margin-bottom: 5%;
+    border-radius: .8rem !important;
 }
 
 

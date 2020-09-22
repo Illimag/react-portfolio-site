@@ -37,12 +37,18 @@ export const Dasdasdigital = () => (
 <Container fluid className={styles.containerfluid}>
                 {/* left text right img */}
                 <Row>
-    <Col sm>
-      
-<Container fluid className={styles.containerfluid}>
-    <Jumbotron fluid className={styles.test}>
-    <Container className={styles.fonttest}>
-    <h5>Case Study</h5>
+
+<Col sm>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+  <source src={Vid1} type="video/mp4" />
+</video>
+</Col>
+<Col sm>
+  
+  <Container fluid className={styles.containerfluid}>
+      <Jumbotron fluid className={styles.test}>
+      <Container className={styles.fonttest}>
+      <h5>Case Study</h5>
       <h1>DasDasDigital</h1>
       <p>
       Digital Agency Startup at Oakland, CA
@@ -55,19 +61,14 @@ export const Dasdasdigital = () => (
       <p>
       Web Developer for MVP built with React.JS and Bootstrap
       </p>
-</Container>
-</Jumbotron>
-</Container>
+  </Container>
+  </Jumbotron>
+  </Container>
+  
+      </Col>
+</Row>
+  
 
-    </Col>
-    <Col sm>
-        <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-      <source src={Vid1} type="video/mp4" />
-    </video>
-    </Col>
-    </Row>
-  
-  
   
     </Container>
 

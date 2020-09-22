@@ -35,12 +35,18 @@ export const Stepsaver = () => (
 <Container fluid className={styles.containerfluid}>
                 {/* left text right img */}
                 <Row>
-    <Col sm>
-      
-<Container fluid className={styles.containerfluid}>
-    <Jumbotron fluid className={styles.test}>
-    <Container className={styles.fonttest}>
-    <h5>Case Study</h5>
+
+<Col sm>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+  <source src={Vid1} type="video/mp4" />
+</video>
+</Col>
+<Col sm>
+  
+  <Container fluid className={styles.containerfluid}>
+      <Jumbotron fluid className={styles.test}>
+      <Container className={styles.fonttest}>
+      <h5>Case Study</h5>
       <h1>Stepsaver</h1>
       <p>
       Houston Valet Company User Interface Designs
@@ -52,20 +58,13 @@ export const Stepsaver = () => (
       <p>
       User Interface Designer for a valet company that tracks vehicles, using it’s priotory software it would be able to be used.      </p>
 
-
-</Container>
-</Jumbotron>
-</Container>
-
-    </Col>
-    <Col sm>
-        <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-      <source src={Vid1} type="video/mp4" />
-    </video>
-    </Col>
-    </Row>
+  </Container>
+  </Jumbotron>
+  </Container>
   
-  
+      </Col>
+</Row>
+
   
     </Container>
 

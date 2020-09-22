@@ -43,13 +43,20 @@ export const Sanchezcoffeeco = () => (
 
 <Container fluid className={styles.containerfluid}>
                 {/* left text right img */}
-                <Row>
-    <Col sm>
-      
-<Container fluid className={styles.containerfluid}>
-    <Jumbotron fluid className={styles.test}>
-    <Container className={styles.fonttest}>
-    <h5>Case Study</h5>
+
+    <Row>
+
+<Col sm>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+  <source src={Vid1} type="video/mp4" />
+</video>
+</Col>
+<Col sm>
+  
+  <Container fluid className={styles.containerfluid}>
+      <Jumbotron fluid className={styles.test}>
+      <Container className={styles.fonttest}>
+      <h5>Case Study</h5>
       <h1>Sanchez Coffee Co.</h1>
       <p>
       Los Angeles E-Commerce Company
@@ -61,18 +68,12 @@ export const Sanchezcoffeeco = () => (
       <h5>Role:</h5>
       <p>
       Web Designer/Developer creating Payment Platform with Wordpress CMS and CSS      </p>
-
-</Container>
-</Jumbotron>
-</Container>
-
-    </Col>
-    <Col sm>
-        <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-      <source src={Vid1} type="video/mp4" />
-    </video>
-    </Col>
-    </Row>
+  </Container>
+  </Jumbotron>
+  </Container>
+  
+      </Col>
+</Row>
   
   
   
@@ -189,7 +190,7 @@ plugins that would be used to accept payments.</p>
 
                 {/* left text right img */}
                 <Row className={styles.test1}>
-    <Col sm className={styles.fonttest}>s
+    <Col sm className={styles.fonttest}>
         <h3>Remote Team and
 Warehouse Team</h3>
         <p>I worked with a remote team, there was a 
