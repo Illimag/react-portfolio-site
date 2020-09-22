@@ -15,8 +15,8 @@ import { LinkContainer } from 'react-router-bootstrap';
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
 */
-import Vid02 from '../../assets/vids/compress_vid2.mp4';
-import Vid03 from '../../assets/vids/compress_vid3.mp4';
+import Vid02 from '../../assets/vids/asian_girl.mp4';
+import Vid03 from '../../assets/vids/two_pros.mp4';
 import Vid04 from '../../assets/vids/compress_vid4.mp4';
 import Vid05 from '../../assets/vids/compress_vid5.mp4';
 
@@ -226,7 +226,7 @@ export const Home = () => (
 
 
 
-    <Jumbotron className={styles.float}>
+    <Jumbotron className={styles.mainfloatback}>
     <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
   
@@ -248,7 +248,9 @@ export const Home = () => (
 </div>
 </Jumbotron>
 
-<Image src={DasDas_Img} fluid className={styles.homepageimg} />
+<video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={Vid03} type="video/mp4" />
+    </video>
  
     </Col>
 

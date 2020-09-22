@@ -24,7 +24,9 @@ import Img07 from '../../assets/img/uguru/1-07.jpg';
 import Img08 from '../../assets/img/uguru/1-08.png';
 import Img09 from '../../assets/img/uguru/1-09.png';
 
-import Vid1 from '../../assets/vids/student_campus.mp4';
+import Vid1 from '../../assets/vids/student_walking.mp4';
+import Vid2 from '../../assets/vids/students_sitting.mp4';
+
 import BannerVid from '../../assets/vids/san-francisco-USMT8JR.mp4';
 
 
@@ -176,7 +178,9 @@ be created.</p>
     {/* img without text */}
     <Row>
     <Col sm>
-    <Image src={Img05} fluid className={styles.imgstyle} />
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+      <source src={Vid2} type="video/mp4" />
+    </video>
     </Col>
     </Row>
 
