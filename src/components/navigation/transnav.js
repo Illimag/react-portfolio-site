@@ -72,33 +72,35 @@ function TestNav() {
   <ScrollToTop>
     <Container className={styles.navbarbackground}>
         <Navbar style={style} className={styles.navbar} expand="lg" fixed="top" >
-          <Navbar.Brand className={styles.logo} to="/">Jaeminkim.com</Navbar.Brand>
+
+        <LinkContainer to="/">
+          <Navbar.Brand className={styles.logo}>
+            Home
+          </Navbar.Brand>
+          </LinkContainer>
 
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ml-auto">
 
-            <LinkContainer to="/">
-              <Nav.Link className={styles.white}>Home</Nav.Link>
-            </LinkContainer>
             <LinkContainer to="/uguru">
-              <Nav.Link className={styles.white}>UGURU INC</Nav.Link>
+              <Nav.Link className={styles.white}>Uguru Incorporated</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/sanchezcoffeeco">
-              <Nav.Link className={styles.white}>SANCHEZ COFFEE CO</Nav.Link>
+              <Nav.Link className={styles.white}>Sanchez Coffee Company</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/apexvr">
-              <Nav.Link className={styles.white}>APEX VR</Nav.Link>
+              <Nav.Link className={styles.white}>Apex Virtual Reality</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/stepsaver">
-              <Nav.Link className={styles.white}>STEPSAVER</Nav.Link>
+              <Nav.Link className={styles.white}>Stepsaver</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/dasdasdigital">
-              <Nav.Link className={styles.white}>DASDAS DIGITAL</Nav.Link>
+              <Nav.Link className={styles.white}>DasDas Digital Agency</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/Contact">
-              <Nav.Link className={styles.white}>Contact</Nav.Link>
+              <Nav.Link className={styles.white}>Contact/About</Nav.Link>
             </LinkContainer>
             </Nav>
           </Navbar.Collapse>
