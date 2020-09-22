@@ -72,6 +72,7 @@ const TestNav = () => (
             <LinkContainer to="/Contact">
               <Nav.Link className={styles.white}>Contact/About</Nav.Link>
             </LinkContainer>
+            
             </Nav>
           </Navbar.Collapse>
         </Navbar>
