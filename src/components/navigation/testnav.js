@@ -16,13 +16,13 @@ import styles from './navigation.module.css'
 import './navigation.css'
 
 const routes = [
-  { path: 'react-portfolio-site/', name: 'Home', Component: Home },
-  { path: 'react-portfolio-site/Contact', name: 'Contact', Component: Contact },
-  { path: 'react-portfolio-site/uguru', name: 'Uguru', Component: Uguru },
-  { path: 'react-portfolio-site/dasdasdigital', name: 'Dasdasdigital', Component: Dasdasdigital },
-  { path: 'react-portfolio-site/sanchezcoffeeco', name: 'Sanchezcoffeeco', Component: Sanchezcoffeeco },
-  { path: 'react-portfolio-site/apexvr', name: 'Apexvr', Component: Apexvr },
-  { path: 'react-portfolio-site/stepsaver', name: 'Stepsaver', Component: Stepsaver },
+  { path: '/', name: 'Home', Component: Home },
+  { path: '/Contact', name: 'Contact', Component: Contact },
+  { path: '/uguru', name: 'Uguru', Component: Uguru },
+  { path: '/dasdasdigital', name: 'Dasdasdigital', Component: Dasdasdigital },
+  { path: '/sanchezcoffeeco', name: 'Sanchezcoffeeco', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'Apexvr', Component: Apexvr },
+  { path: '/stepsaver', name: 'Stepsaver', Component: Stepsaver },
 ]
 
     export const TestNav = () => (
