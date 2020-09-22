@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import throttle from "lodash/throttle";
 import useWindowScrollPosition from "@rehooks/window-scroll-position";
 import { MemoryRouter, Switch, Route } from 'react-router-dom';
+
 import { PageTransition } from '@steveeeie/react-page-transition';
 
 
@@ -26,56 +27,25 @@ import { Apexvr } from '../apexvr/apexvr'
 
 import { Stepsaver } from '../stepsaver/stepsaver'
 
-import { Nikerate } from '../nikerate/nikerate'
-
 import ScrollToTop from 'react-router-scroll-top'
 
 import styles from './navigation.module.css'
 import './navigation.css'
 
 
-
-function TestNav() {
-  const [change, setChange] = useState(false);
-  const changePosition = 300;
-
-  let position = useWindowScrollPosition();
-  // position == { x: 0, y: 0 }
-
-  if (position.y > changePosition && !change) {
-    setChange(true);
-  }
-
-  if (position.y <= changePosition && change) {
-    setChange(false);
-  }
-
-  let style = {
-    backgroundColor: change ? "rgba(255,255,255,.8)" : "transparent",
-    backdropFilter: change ? "saturate(180%) blur(20px)" : "none",
-    transition: "400ms ease",
-    position: "fixed",
-    right: 0,
-    left: 0,
-    top: 0
-  };
-
-  return (
-
-      
+const TestNav = () => (
     <>
-        <div style={style}></div>
 
 
     <MemoryRouter>
         
   <ScrollToTop>
     <Container className={styles.navbarbackground}>
-        <Navbar style={style} className={styles.navbar} expand="lg" fixed="top" >
+        <Navbar className={styles.navbar} expand="lg" fixed="top" >
 
         <LinkContainer to="/">
           <Navbar.Brand className={styles.logo}>
-            Home
+            Jaeminkim
           </Navbar.Brand>
           </LinkContainer>
 
@@ -106,6 +76,46 @@ function TestNav() {
           </Navbar.Collapse>
         </Navbar>
 
+
+
+        <Route
+        render={({ location }) => {
+          return (
+            <PageTransition
+              preset="moveToLeftFromRight"
+              transitionKey={location.pathname}
+              className={styles.test}
+            >
+              <Switch location={location}>
+
+              <Route exact path="/uguru" component={Uguru}>
+            </Route>
+            <Route exact path="/sanchezcoffeeco" component={Sanchezcoffeeco}>
+
+            </Route>
+            <Route exact path="/apexvr" component={Apexvr}>
+      
+            </Route>
+            <Route exact path="/dasdasdigital" component={Dasdasdigital}>
+             
+            </Route>
+            <Route exact path="/stepsaver" component={Stepsaver}>
+           
+            </Route>
+            <Route exact path="/contact" component={Contact}>
+            
+            </Route>
+            <Route exact path="/" component={Home}> 
+            
+            </Route>
+
+              </Switch>
+            </PageTransition>
+          );
+        }}
+      />
+
+{/*
         <Switch>
          <Route path="/uguru">
               <Uguru />
@@ -129,13 +139,14 @@ function TestNav() {
               <Home />
             </Route>
           </Switch>
+*/}
 
     </Container>
     </ScrollToTop>
     </MemoryRouter>
     </>
    
-  );
-}
+
+);
 
 export default TestNav;
