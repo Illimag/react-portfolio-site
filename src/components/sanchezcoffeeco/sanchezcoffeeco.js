@@ -29,7 +29,8 @@ import transaction from '../../assets/img/sanchezcoffeeco/transaction.PNG';
 import ordersize from '../../assets/img/sanchezcoffeeco/ordersize.PNG';
 
 
-import Vid1 from '../../assets/vids/compress_vid6.mp4';
+import Vid1 from '../../assets/vids/student_walking.mp4';
+
 import Banner from '../../assets/vids/compress_vid5.mp4';
 
 import styles from './sanchezcoffeeco.module.css';
@@ -38,14 +39,16 @@ import './sanchezcoffeeco.css';
 export const Sanchezcoffeeco = () => (
     /* Start of JSX Fragment*/ 
     <>
+
+
 <Container fluid className={styles.containerfluid}>
-  
-  
-
-  
-  <Jumbotron fluid className={styles.test}>
+                {/* left text right img */}
+                <Row>
+    <Col sm>
+      
+<Container fluid className={styles.containerfluid}>
+    <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
-
     <h5>Case Study</h5>
       <h1>Sanchez Coffee Co.</h1>
       <p>
@@ -59,12 +62,23 @@ export const Sanchezcoffeeco = () => (
       <p>
       Web Designer/Developer creating Payment Platform with Wordpress CMS and CSS      </p>
 
-          
+</Container>
+</Jumbotron>
+</Container>
 
-    </Container>
-  </Jumbotron>
+    </Col>
+    <Col sm>
+        <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+    </Col>
+    </Row>
+  
+  
   
     </Container>
+
+
 
 <Container fluid>
     {/* img without text */}

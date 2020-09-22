@@ -17,12 +17,12 @@ import './navigation.css'
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
-  { path: '/Contact', name: 'Contact', Component: Contact },
-  { path: '/uguru', name: 'Uguru', Component: Uguru },
-  { path: '/dasdasdigital', name: 'Dasdasdigital', Component: Dasdasdigital },
-  { path: '/sanchezcoffeeco', name: 'Sanchezcoffeeco', Component: Sanchezcoffeeco },
-  { path: '/apexvr', name: 'Apexvr', Component: Apexvr },
+  { path: '/uguru', name: 'Uguru Incorporated', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: 'Sanchez Coffee Company ', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'Apex Virtual Reality', Component: Apexvr },
   { path: '/stepsaver', name: 'Stepsaver', Component: Stepsaver },
+  { path: '/dasdasdigital', name: 'DasDas Digital Agency', Component: Dasdasdigital },
+  { path: '/Contact', name: 'Contact', Component: Contact },
 ]
 
     export const TestNav = () => (

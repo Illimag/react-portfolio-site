@@ -25,7 +25,7 @@ import Img09 from '../../assets/img/dominos/1-09.jpg';
 import styles from './apexvr.module.css';
 import './apexvr.css';
 
-import Vid1 from '../../assets/vids/compress_vid3.mp4';
+import Vid1 from '../../assets/vids/student_walking.mp4';
 import Banner from '../../assets/vids/compress_vid3.mp4';
 
 
@@ -35,27 +35,16 @@ export const Apexvr = () => (
     /* Start of JSX Fragment*/ 
     <>
 
+    
 <Container fluid className={styles.containerfluid}>
-  
-  <Jumbotron className={styles.jumbotron_color}>
-  
-  </Jumbotron>
-  
-  
-  
-  <Row>
-      <Col md={12} className={styles.removepaddingmain}>
-  
-      <Jumbotron className={styles.mainfloat}>
-      <Jumbotron className={styles.mainfloatback}>
-  
-      <Jumbotron className={styles.textbox}>
-  
-  
-      <Jumbotron fluid className={styles.transparency}>
-      <Container className={styles.fonttest}>
-  
-      <h5>Case Study</h5>
+                {/* left text right img */}
+                <Row>
+    <Col sm>
+      
+<Container fluid className={styles.containerfluid}>
+    <Jumbotron fluid className={styles.test}>
+    <Container className={styles.fonttest}>
+    <h5>Case Study</h5>
       <h1>Apexvr</h1>
       <p>
       Conceptual Design for Prototyping at CCA      </p>
@@ -66,26 +55,18 @@ export const Apexvr = () => (
       <p>
       Interaction Design Student Prototyping class assignment for people with visual imparied spectrum.      </p>
 
-  
-      <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton}>Scroll to view portfolio</Button>
-  </p>
-  </LinkContainer>
-  
-      </Container>
-    </Jumbotron>
-  
-  
-    </Jumbotron>
-  </Jumbotron>
-  </Jumbotron>
-  
-      <video className={styles.mainvideo} autoPlay preload="true" loop playsInline muted>
-        <source src={Banner} type="video/mp4" />
-      </video>    
-  </Col>
-  </Row>
+
+</Container>
+</Jumbotron>
+</Container>
+
+    </Col>
+    <Col sm>
+        <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+    </Col>
+    </Row>
   
   
   
