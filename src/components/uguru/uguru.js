@@ -42,7 +42,7 @@ export const Uguru = () => (
     <Container fluid>
 
               {/* left text right img */}
-              <Row>
+              <Row className={styles.displaytest}>
 
     <Col sm className={styles.overlay}>
         <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
@@ -165,14 +165,7 @@ be created.</p>
 
 
 
-    {/* img without text */}
-    <Row>
-    <Col sm>
-    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-      <source src={Vid2} type="video/mp4" />
-    </video>
-    </Col>
-    </Row>
+
 
           {/* img with text */}
           <Row>
@@ -183,6 +176,15 @@ I was using rapid prototyping software that was helping me with seeing how the
 animiations of the User Interface would look. This really helped a lot when trying to
 do the Onboarding screens.</p>
     <Image src={Img06} fluid className={styles.imgstyle} />
+    </Col>
+    </Row>
+
+        {/* img without text */}
+        <Row>
+    <Col sm>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+      <source src={Vid2} type="video/mp4" />
+    </video>
     </Col>
     </Row>
 

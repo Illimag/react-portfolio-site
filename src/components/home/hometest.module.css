@@ -22,7 +22,7 @@
     padding-right: 0px !important;
     padding-left: 0px !important;
     padding-top: 0% !important;
-    padding-bottom: 2.5% !important;
+    padding-bottom: 5% !important;
     background-color: #fff;
 
 }
@@ -80,9 +80,9 @@
     height: 50vh;
     object-fit: cover;
     z-index: 10;
-    margin-right: -2.5%;
-    margin-left: 2.5%;
-    width: 95%;
+    margin-right: -5%;
+    margin-left: 5%;
+    width: 90%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
@@ -95,9 +95,9 @@
     height: 50vh;
     object-fit: cover;
     z-index: 10;
-    margin-right: -2.5%;
-    margin-left: 2.5%;
-    width: 95%;
+    margin-right: -5%;
+    margin-left: 5%;
+    width: 90%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
@@ -223,9 +223,9 @@
     position: static;
     top: 0;
     left: 0;
-    margin-right: -2.5%;
-    margin-left: 2.5%;
-    width: 95%;
+    margin-right: -5%;
+    margin-left: 5%;
+    width: 90%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
     border-radius: .8rem !important;
 }
@@ -313,9 +313,9 @@
     position: static;
     top: 0;
     left: 0;
-    margin-right: -2.5%;
-    margin-left: 2.5%;
-    width: 95%;
+    margin-right: -5%;
+    margin-left: 5%;
+    width: 90%;
     border-radius: .8rem !important;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 
@@ -385,9 +385,3 @@
 .sf{color:#C9243F}
 
 .sj{color:turquoise}
-
-.backgroundhome{
-    background-color: red;
-    height: 300vh;
-    position: absolute;
-}

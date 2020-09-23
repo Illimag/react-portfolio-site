@@ -56,7 +56,7 @@ position: relative;
     margin-right: -5%;
     margin-left: 5%;
     width: 90%;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
     margin-bottom: 5%;
     border-radius: .8rem !important;
 }
@@ -184,12 +184,13 @@ background: rgba(0,0,0,0.5);
     position: static;
     top: 0;
     left: 0;
-    margin-right: -5%;
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 90%;
-    margin-bottom: 5%;
-    border-radius: .8rem !important;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 100%;
+    margin-bottom: 0%;
+    border-radius: 0rem !important;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0);
 }
 
 
@@ -289,4 +290,8 @@ background: rgba(0,0,0,0.5);
 .bannerstyles{
     margin-top: -80% !important;
     
+}
+
+.displaytest{
+    display: block !important;
 }
