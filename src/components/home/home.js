@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
 import Typing from 'react-typing-animation';
-import { ScrollTo } from "react-scroll-to";
 
 import { Slide } from "react-awesome-reveal";
 
@@ -71,14 +70,7 @@ export const Home = () => (
     <h5 className={styles.welcome}>Welcome, Jae Min (John) Kim is an UI/UX Designer from the <span className={styles.sf}>San Francisco Bay Area</span> & <span className={styles.sj}>Silicon Valley.</span></h5>
     <br></br>
 
-    <ScrollTo>
-            {({ scroll }) => (
-                <a onClick={() => scroll({ ref: this.myRef, x: 20, y: 500 })}>
       <h5>View Portfolio &#8592;</h5>
-                </a>
-            )}
-            </ScrollTo>
-
 
     </Typing>
 
