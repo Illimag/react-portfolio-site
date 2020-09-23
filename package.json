@@ -24,6 +24,7 @@
     "react-scripts": "^3.4.3",
     "react-scroll": "^1.8.1",
     "react-scroll-parallax": "^2.3.4",
+    "react-scroll-to": "^3.0.0-beta.6",
     "react-scroll-up-button": "^1.6.4",
     "react-spinners": "^0.9.0",
     "react-transition-group": "^4.4.1",
