@@ -385,3 +385,9 @@
 .sf{color:#C9243F}
 
 .sj{color:turquoise}
+
+.backgroundhome{
+    background-color: red;
+    height: 300vh;
+    position: absolute;
+}

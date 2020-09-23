@@ -44,12 +44,12 @@ export const Uguru = () => (
               {/* left text right img */}
               <Row>
 
-    <Col sm>
+    <Col sm className={styles.overlay}>
         <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
       <source src={Vid1} type="video/mp4" />
     </video>
     </Col>
-    <Col sm>
+    <Col sm className={styles.bannerstyles}>
       
       <Container fluid className={styles.containerfluid}>
           <Jumbotron fluid className={styles.test}>
@@ -75,13 +75,28 @@ export const Uguru = () => (
 
         {/* img with text */}
         <Row>
-    <Col sm>
-      <h3>High-Fidelity UI Design</h3>
-      <p>Series of various UI designs, Initially I designed some low level mockups that were
-brought into the fold to be sued on the production application. It was a growing experience.
-I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+        <Col sm>
+      
+      <Container fluid className={styles.containerfluid}>
+          <Jumbotron fluid className={styles.test}>
+          <Container className={styles.fonttest}>
+
+      <h1>Uguru, INC</h1>
+      <h5>
+      Mobile Application for College Students
+      </h5>
+      <p>
+      October 2016 - January 2017<br></br>
+      Graphic UI/UX Intern<br></br>
+      To creating High-Fidelity User Interfaces and Rapid prototypes
+      </p>
+      </Container>
+      </Jumbotron>
+      </Container>
+
     <Image src={Img01} fluid className={styles.imgstyle} />
+    
+    
     </Col>
     </Row>
 

@@ -11,13 +11,7 @@
     background-color: #1E2F97 !important;
     */
 
-    background: rgb(30,47,151);
-background: -moz-linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78%);
-background: -webkit-linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78%);
-background: linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e2f97",endColorstr="#797ef6",GradientType=1);
-
-    margin-bottom: 0px !important;
+    background: #4285f4 !important;
 
     position: relative;
 }
@@ -286,3 +280,13 @@ background: rgba(0,0,0,0.5);
 
 }
 
+.overlay{
+    background-color: transparent;
+    z-index: 999;
+
+}
+
+.bannerstyles{
+    margin-top: -80% !important;
+    
+}
