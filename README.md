@@ -426,3 +426,14 @@ Import the Parallax component and use it anywhere within the provider like so:
 
     npm install react-router react-router-dom react-transition-group styled-components
 
+## Typing animation
+
+    npm i --save react-typing-animation
+
+    import Typing from 'react-typing-animation';
+
+    const AnimatedTypingComponent = () => (
+    <Typing>
+        <span>This span will get typed.</span>
+    </Typing>
+    );

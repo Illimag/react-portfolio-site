@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
-
+import Typing from 'react-typing-animation';
 
 import { Slide } from "react-awesome-reveal";
 
@@ -65,8 +65,11 @@ export const Home = () => (
 <Container fluid className={styles.containerfluid}>
     <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
-    <h5 className={styles.welcome}>Welcome, Jae Min (John) Kim is an UI/UX Designer from the <span className={styles.sf}>San Francisco Bay Area</span> & <span className={styles.sj}>Silicon Valley.</span></h5>
 
+
+    <Typing>   
+    <h5 className={styles.welcome}>Welcome, Jae Min (John) Kim is an UI/UX Designer from the <span className={styles.sf}>San Francisco Bay Area</span> & <span className={styles.sj}>Silicon Valley.</span></h5>
+    </Typing>
 
 </Container>
 </Jumbotron>
