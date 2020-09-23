@@ -251,9 +251,7 @@ export const Home = () => (
     <Slide direction="up" duration="1500">
   
 
-      <h1 className={styles.whitetitle}>Dasdasdigital</h1>
-      <h1 className={styles.whitesubtitle}>UI/UX Designer & Web Developer, Designing Digital Agency Startup</h1>
-
+      <h1 className={styles.whitetitle}>DasDasDigital Agency</h1>
 
   </Slide>
   <Slide direction="up" duration="1500" delay="10">
