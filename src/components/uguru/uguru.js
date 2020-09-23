@@ -14,7 +14,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import Button from 'react-bootstrap/Button';
 
 import Banner from '../../assets/img/uguru/banner-01.jpg';
-import Img01 from '../../assets/img/uguru/1-01.jpg';
+import Img01 from '../../assets/img/uguru/teste.png';
 import Img02 from '../../assets/img/uguru/1-02.jpg';
 import Img03 from '../../assets/img/uguru/1-03.jpg';
 import Img04 from '../../assets/img/uguru/1-04.jpg';

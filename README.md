@@ -437,3 +437,36 @@ Import the Parallax component and use it anywhere within the provider like so:
         <span>This span will get typed.</span>
     </Typing>
     );
+
+## React Scroll-To
+
+    npm i react-scroll-to --save
+
+    // Scroll by a component's ref
+    import React, { Component } from "react";
+    import { ScrollTo } from "react-scroll-to";
+
+    export default class MyComponent extends Component {
+    myRef = React.createRef();
+
+    render() {
+        return (
+        <>
+            <ScrollTo>
+            {({ scroll }) => (
+                <a onClick={() => scroll({ ref: this.myRef, x: 20, y: 500 })}>
+                Scroll to Bottom
+                </a>
+            )}
+            </ScrollTo>
+
+            <div ref={this.myRef}>My Element</div>
+        </>
+        );
+    }
+    }
+
+Cant figure out how to implement there seens to be an issue related to 
+
+    myRef = React.createRef(); 
+
