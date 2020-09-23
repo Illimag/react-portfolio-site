@@ -338,12 +338,14 @@
     background-color:#4285f4 !important;
     display: initial !important;
     color: #fff !important;
+    padding: .1em .4em !important;
 }
 
 .second_badge{
     background-color:#ea4335 !important;
     display: initial !important;
     color: #fff !important;
+    padding: .1em .4em !important;
 }
 
 .third_badge{
@@ -356,23 +358,30 @@
     background-color:#34a853 !important;
     display: initial !important;
     color: #fff !important;
+    padding: .1em .4em !important;
 }
 
 .fifth_badge{
     background-color:#4285f4 !important;
     display: initial !important;
     color: #fff !important;
+    padding: .1em .4em !important;
 }
 
 .sixth_badge{
     background-color:#ea4335 !important;
     display: initial !important;
     color: #fff !important;
+    padding: .1em .4em !important;
 }
 
 .seventh_badge{
     background-color:#fbbc05 !important;
     display: initial !important;
     color: #fff !important;
+    padding: .1em .4em !important;
 }
 
+.sf{color:#C9243F}
+
+.sj{color:turquoise}

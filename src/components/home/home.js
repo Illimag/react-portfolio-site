@@ -65,7 +65,7 @@ export const Home = () => (
 <Container fluid className={styles.containerfluid}>
     <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
-    <h5 className={styles.welcome}>Welcome, Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area & Silicon Valley.</h5>
+    <h5 className={styles.welcome}>Welcome, Jae Min (John) Kim is an UI/UX Designer from the <span className={styles.sf}>San Francisco Bay Area</span> & <span className={styles.sj}>Silicon Valley.</span></h5>
 
 
 </Container>
