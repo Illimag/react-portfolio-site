@@ -36,14 +36,14 @@ const routes = [
 <LinkContainer to="/">
   <Navbar.Brand className={styles.logo}>
     <span className={styles.jword}>J</span>
-    <span className={styles.aword}>A</span>
-    <span className={styles.eword}>E</span>
-    <span className={styles.mword}>M</span>
-    <span className={styles.iword}>I</span>
-    <span className={styles.nword}>N</span>
-    <span className={styles.kword}>K</span>
-    <span className={styles.iword}>I</span>
-    <span className={styles.mword}>M</span>
+    <span className={styles.aword}>a</span>
+    <span className={styles.eword}>e</span>
+    <span className={styles.mword}>m</span>
+    <span className={styles.iword}>i</span>
+    <span className={styles.nword}>n</span>
+    <span className={styles.kword}>k</span>
+    <span className={styles.iword}>i</span>
+    <span className={styles.mword}>m</span>
   </Navbar.Brand>
   </LinkContainer>
 
