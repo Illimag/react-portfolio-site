@@ -87,18 +87,19 @@ export const Home = () => (
     <Jumbotron className={styles.mainfloatback}>
       <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
-      <h1 className={styles.whitetitle}>Uguru INC</h1>
-      <h1 className={styles.whitesubtitle}>UI/UX & Graphic Design Internshio at funded startup in downtown San Francisco</h1>
-
-  
+      <h1 className={styles.whitetitle}>Uguru Incorporated</h1>
 
   </Slide>
   <Slide direction="up" duration="1000" delay="10">
   <div className={styles.badgelist}>
 
-<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
-<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
+<Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>User Experience Design</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>Mobile Application Design</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Rapid Prototyping</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>Internship</Badge>{' '}
+<Badge variant="primary" className={styles.sixth_badge}>San Francisco, CA</Badge>{' '}
+<Badge variant="primary" className={styles.seventh_badge}>Startup</Badge>{' '}
 
 </div>
 </Slide>
@@ -129,19 +130,21 @@ export const Home = () => (
     <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
 
-      <h1 className={styles.whitetitle}>Sanchez Coffee CO</h1>
-      <h1 className={styles.whitesubtitle}>Web Designer/Developer, remote position at a LA E-commerce Company</h1>
-
-
-
+      <h1 className={styles.whitetitle}>Sanchez Coffee Company</h1>
 
   </Slide>
   <Slide direction="up" duration="1500" delay="10">
   <div className={styles.badgelist}>
 
-<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
-<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
+  <Badge variant="primary" className={styles.first_badge}>Responsive Website Design</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>E-commerce</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>WordPress CMS</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>PayPal</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
+<Badge variant="primary" className={styles.sixth_badge}>CSS</Badge>{' '}
+<Badge variant="primary" className={styles.seventh_badge}>Los Angeles, CA</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Remote</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>Contract</Badge>{' '}
 
 </div>
 </Slide>
@@ -169,16 +172,20 @@ export const Home = () => (
     <Slide direction="up" duration="1500">
 
    
-      <h1 className={styles.whitetitle}>Apex VR</h1>
-      <h1 className={styles.whitesubtitle}>Web Designer, contract to build a web app for VR concept from bay area local videography company</h1>
+      <h1 className={styles.whitetitle}>Apex Virtual Reality</h1>
 
   </Slide>
   <Slide direction="up" duration="1500" delay="10">
   <div className={styles.badgelist}>
 
-<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
-<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
+  <Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>Virtual Reality</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>Aframe</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Angular.JS</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
+<Badge variant="primary" className={styles.sixth_badge}>CSS</Badge>{' '}
+<Badge variant="primary" className={styles.seventh_badge}>San Francisco Bay Area, CA</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Contract</Badge>{' '}
 
 </div>
 </Slide>
@@ -206,15 +213,17 @@ export const Home = () => (
     <div className={styles.textbox}>
     <Slide direction="up" duration="1500">
       <h1 className={styles.whitetitle}>Stepsaver</h1>
-      <h1 className={styles.whitesubtitle}>User Interface Designer, remote contract with huston app startup</h1>
 
   </Slide>
   <Slide direction="up" duration="1500" delay="10">
   <div className={styles.badgelist}>
 
-<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
-<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
+<Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>Mobile Application Design</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>Responsive Website Design</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Houston, TX</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>Remote</Badge>{' '}
+<Badge variant="primary" className={styles.sixth_badge}>Contract</Badge>{' '}
 
 </div>
 </Slide>
@@ -250,9 +259,15 @@ export const Home = () => (
   <Slide direction="up" duration="1500" delay="10">
   <div className={styles.badgelist}>
 
-<Badge variant="primary" className={styles.UI_badge}>UI/UX</Badge>{' '}
-<Badge variant="primary" className={styles.Mobile_badge}>Mobile App</Badge>{' '}
-<Badge variant="primary" className={styles.Prototyping_badge}>Prototyping</Badge>{' '}
+  <Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>Responsive Website Design</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>React.JS</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Bootstrap</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
+<Badge variant="primary" className={styles.sixth_badge}>CSS</Badge>{' '}
+<Badge variant="primary" className={styles.seventh_badge}>Oakland, CA</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Remote</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>Startup</Badge>{' '}
 
 </div>
 </Slide>

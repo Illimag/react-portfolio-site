@@ -333,3 +333,46 @@
     font-size: 3em !important;
     
 }
+
+.first_badge{
+    background-color:#4285f4 !important;
+    display: initial !important;
+    color: #fff !important;
+}
+
+.second_badge{
+    background-color:#ea4335 !important;
+    display: initial !important;
+    color: #fff !important;
+}
+
+.third_badge{
+    background-color:#fbbc05 !important;
+    display: initial !important;
+    color: #fff !important;
+}
+
+.fourth_badge{
+    background-color:#34a853 !important;
+    display: initial !important;
+    color: #fff !important;
+}
+
+.fifth_badge{
+    background-color:#4285f4 !important;
+    display: initial !important;
+    color: #fff !important;
+}
+
+.sixth_badge{
+    background-color:#ea4335 !important;
+    display: initial !important;
+    color: #fff !important;
+}
+
+.seventh_badge{
+    background-color:#fbbc05 !important;
+    display: initial !important;
+    color: #fff !important;
+}
+
