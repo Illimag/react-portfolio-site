@@ -54,19 +54,15 @@ export const Uguru = () => (
       <Container fluid className={styles.containerfluid}>
           <Jumbotron fluid className={styles.test}>
           <Container className={styles.fonttest}>
-          <h5>Case Study</h5>
-      
+
       <h1>Uguru, INC</h1>
-      <p>
+      <h5>
       Mobile Application for College Students
-      </p>
-      <h5>Project Date:</h5>
+      </h5>
       <p>
-      October 2016 - January 2017
-      </p>
-      <h5>Role:</h5>
-      <p>
-      Graphic UI/UX Intern to creating High-Fidelity User Interfaces and Rapid prototypes
+      October 2016 - January 2017<br></br>
+      Graphic UI/UX Intern<br></br>
+      To creating High-Fidelity User Interfaces and Rapid prototypes
       </p>
       </Container>
       </Jumbotron>

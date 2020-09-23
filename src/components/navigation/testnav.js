@@ -35,7 +35,15 @@ const routes = [
 
 <LinkContainer to="/">
   <Navbar.Brand className={styles.logo}>
-    Jaeminkim
+    <span className={styles.jword}>J</span>
+    <span className={styles.aword}>A</span>
+    <span className={styles.eword}>E</span>
+    <span className={styles.mword}>M</span>
+    <span className={styles.iword}>I</span>
+    <span className={styles.nword}>N</span>
+    <span className={styles.kword}>K</span>
+    <span className={styles.iword}>I</span>
+    <span className={styles.mword}>M</span>
   </Navbar.Brand>
   </LinkContainer>
 

@@ -42,10 +42,31 @@
     width:40px;
 }
 
-.test{
-    background-color:red;
+
+.jword{
+    color:#4285f4 !important;
+  }
+
+.aword{
+    color:#ea4335 !important;
 }
 
-.sc-gtssRu .fSrPpC{
-    background-color: green;
+.eword{
+    color:#fbbc05 !important;
+}
+
+.mword{
+    color:#34a853 !important;
+}
+
+.iword{
+    color:#4285f4 !important;
+}
+
+.nword{
+    color:#ea4335 !important;
+}
+
+.kword{
+    color:#fbbc05 !important;
 }
