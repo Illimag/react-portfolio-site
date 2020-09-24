@@ -11,13 +11,7 @@
     background-color: #1E2F97 !important;
     */
 
-    background: rgb(30,47,151);
-background: -moz-linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78%);
-background: -webkit-linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78%);
-background: linear-gradient(40deg, rgba(30,47,151,1) 28%, rgba(121,126,246,1) 78%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e2f97",endColorstr="#797ef6",GradientType=1);
-
-    margin-bottom: 0px !important;
+    background: #ea4335 !important;
 
     position: relative;
 }
@@ -62,7 +56,7 @@ position: relative;
     margin-right: -5%;
     margin-left: 5%;
     width: 90%;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
     margin-bottom: 5%;
     border-radius: .8rem !important;
 }
@@ -190,12 +184,13 @@ background: rgba(0,0,0,0.5);
     position: static;
     top: 0;
     left: 0;
-    margin-right: -5%;
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 90%;
-    margin-bottom: 5%;
-    border-radius: .8rem !important;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 100%;
+    margin-bottom: 0%;
+    border-radius: 0rem !important;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0);
 }
 
 
@@ -286,3 +281,17 @@ background: rgba(0,0,0,0.5);
 
 }
 
+.overlay{
+    background-color: transparent;
+    z-index: 999;
+
+}
+
+.bannerstyles{
+    margin-top: -80% !important;
+    
+}
+
+.displaytest{
+    display: block !important;
+}

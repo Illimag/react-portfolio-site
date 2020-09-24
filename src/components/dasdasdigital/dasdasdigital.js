@@ -24,7 +24,7 @@ import Img08 from '../../assets/img/dasdasdigital/1-08.jpg';
 import styles from './dasdasdigital.module.css';
 import './dasdasdigital.css';
 
-import Vid1 from '../../assets/vids/student_walking.mp4';
+import Vid1 from '../../assets/vids/teamwork.mp4';
 import Banner from '../../assets/vids/compress_vid2.mp4';
 
 
@@ -35,41 +35,70 @@ export const Dasdasdigital = () => (
     <>
 
 <Container fluid className={styles.containerfluid}>
-                {/* left text right img */}
-                <Row>
 
-<Col sm>
+           {/* left text right img */}
+           <Row className={styles.displaytest}>
+
+<Col sm className={styles.overlay}>
     <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
   <source src={Vid1} type="video/mp4" />
 </video>
 </Col>
-<Col sm>
+<Col sm className={styles.bannerstyles}>
   
   <Container fluid className={styles.containerfluid}>
       <Jumbotron fluid className={styles.test}>
       <Container className={styles.fonttest}>
-      <h5>Case Study</h5>
-      <h1>DasDasDigital</h1>
-      <p>
-      Digital Agency Startup at Oakland, CA
-      </p>
-      <h5>Project Date:</h5>
-      <p>
-      October 2018 - January 2019
-      </p>
-      <h5>Role:</h5>
-      <p>
-      Web Developer for MVP built with React.JS and Bootstrap
-      </p>
+
+  <h1>Uguru, INC</h1>
+  <h5>
+  Mobile Application for College Students
+  </h5>
+  <p>
+  October 2016 - January 2017<br></br>
+  Graphic UI/UX Intern<br></br>
+  To creating High-Fidelity User Interfaces and Rapid prototypes
+  </p>
   </Container>
   </Jumbotron>
   </Container>
   
       </Col>
 </Row>
+
+
+
+    {/* img with text */}
+    <Row>
+    <Col sm>
   
+  <Container fluid className={styles.containerfluid}>
+      <Jumbotron fluid className={styles.test}>
+      <Container className={styles.fonttest}>
+
+      <h1>DasDasDigital</h1>
+      <p>
+      Digital Agency Startup at Oakland, CA
+      </p>
+      <p>
+      October 2018 - January 2019
+      </p>
+      <p>
+      Web Developer for MVP built with React.JS and Bootstrap
+      </p>
+  </Container>
+  </Jumbotron>
+  </Container>
+
+<Image src={Img01} fluid className={styles.imgstyle} />
+
+
+</Col>
+</Row>
+
 
   
+
     </Container>
 
 

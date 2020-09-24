@@ -28,8 +28,8 @@ const routes = [
     export const TestNav = () => (
 
     <>
-
     <Router>
+    <ScrollToTop>
       <>
       <Navbar className={styles.navbar} expand="lg" fixed="top" >
 
@@ -86,6 +86,7 @@ const routes = [
           ))}
         </Container>
       </>
+      </ScrollToTop>
     </Router>
     </>
    

@@ -29,7 +29,7 @@ import transaction from '../../assets/img/sanchezcoffeeco/transaction.PNG';
 import ordersize from '../../assets/img/sanchezcoffeeco/ordersize.PNG';
 
 
-import Vid1 from '../../assets/vids/student_walking.mp4';
+import Vid1 from '../../assets/vids/smaartphone_coffee.mp4';
 
 import Banner from '../../assets/vids/compress_vid5.mp4';
 
@@ -42,38 +42,65 @@ export const Sanchezcoffeeco = () => (
 
 
 <Container fluid className={styles.containerfluid}>
-                {/* left text right img */}
 
-    <Row>
+              {/* left text right img */}
+              <Row className={styles.displaytest}>
 
-<Col sm>
-    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-  <source src={Vid1} type="video/mp4" />
-</video>
-</Col>
-<Col sm>
-  
-  <Container fluid className={styles.containerfluid}>
-      <Jumbotron fluid className={styles.test}>
-      <Container className={styles.fonttest}>
-      <h5>Case Study</h5>
+    <Col sm className={styles.overlay}>
+        <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+    </Col>
+    <Col sm className={styles.bannerstyles}>
+      
+      <Container fluid className={styles.containerfluid}>
+          <Jumbotron fluid className={styles.test}>
+          <Container className={styles.fonttest}>
+
+      <h1>Uguru, INC</h1>
+      <h5>
+      Mobile Application for College Students
+      </h5>
+      <p>
+      October 2016 - January 2017<br></br>
+      Graphic UI/UX Intern<br></br>
+      To creating High-Fidelity User Interfaces and Rapid prototypes
+      </p>
+      </Container>
+      </Jumbotron>
+      </Container>
+      
+          </Col>
+    </Row>
+
+
+
+        {/* img with text */}
+        <Row>
+        <Col sm>
+      
+      <Container fluid className={styles.containerfluid}>
+          <Jumbotron fluid className={styles.test}>
+          <Container className={styles.fonttest}>
+
       <h1>Sanchez Coffee Co.</h1>
       <p>
       Los Angeles E-Commerce Company
       </p>
-      <h5>Project Date:</h5>
       <p>
       October 2018 - January 2019
       </p>
-      <h5>Role:</h5>
       <p>
       Web Designer/Developer creating Payment Platform with Wordpress CMS and CSS      </p>
-  </Container>
-  </Jumbotron>
-  </Container>
-  
-      </Col>
-</Row>
+      </Container>
+      </Jumbotron>
+      </Container>
+
+    <Image src={Img01} fluid className={styles.imgstyle} />
+    
+    
+    </Col>
+    </Row>
   
   
   
@@ -137,6 +164,14 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
     </Row>
 
 
+        {/* img without text */}
+        <Row>
+    <Col sm>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+    </Col>
+    </Row>
 
 
                 {/* left text right img */}
@@ -265,6 +300,14 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
     </Col>
     </Row>
 
+        {/* img without text */}
+        <Row>
+    <Col sm>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+    </Col>
+    </Row>
 
 
         {/* img with text */}
