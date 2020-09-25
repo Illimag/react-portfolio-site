@@ -60,12 +60,12 @@ export const Home = () => (
 <Container fluid className={styles.containerfluid}>
 
 
-<Slide direction="up" triggerOnce>
+<Slide direction="down" triggerOnce>
 <Container fluid className={styles.containerfluid}>
     <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
 
-    <h5 className={styles.welcome}>Welcome, Jae Min (John) Kim is an UI/UX Designer from the <span className={styles.sf}>San Francisco Bay Area</span> & <span className={styles.sj}>Silicon Valley.</span></h5>
+    <h5 className={styles.welcome}>UI/UX Designer from the <span className={styles.sf}>San Francisco Bay Area</span> & <span className={styles.sj}>Silicon Valley.</span></h5>
     <br></br>
     <Typing>
       <h5>View Portfolio &#8592;</h5>
@@ -88,11 +88,11 @@ export const Home = () => (
 
     <Jumbotron className={styles.mainfloatback}>
       <div className={styles.textbox}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="down" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>Uguru Incorporated</h1>
 
   </Slide>
-  <Slide direction="up" duration="1000" delay="10" triggerOnce>
+  <Slide direction="down" duration="1000" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
@@ -130,12 +130,12 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
     <div className={styles.textbox}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="down" duration="1500" triggerOnce>
 
       <h1 className={styles.whitetitle}>Sanchez Coffee Company</h1>
 
   </Slide>
-  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
   <Badge variant="primary" className={styles.first_badge}>Responsive Website Design</Badge>{' '}
@@ -172,13 +172,13 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
     <div className={styles.textbox}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="down" duration="1500" triggerOnce>
 
    
       <h1 className={styles.whitetitle}>Apex Virtual Reality</h1>
 
   </Slide>
-  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
   <Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
@@ -217,11 +217,11 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
     <div className={styles.textbox}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="down" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>Stepsaver</h1>
 
   </Slide>
-  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
@@ -256,13 +256,13 @@ export const Home = () => (
 
     <Jumbotron className={styles.mainfloatback}>
     <div className={styles.textbox}>
-    <Slide direction="up" duration="1500" triggerOnce>
+    <Slide direction="down" duration="1500" triggerOnce>
   
 
       <h1 className={styles.whitetitle}>DasDasDigital Agency</h1>
 
   </Slide>
-  <Slide direction="up" duration="1500" delay="10" triggerOnce>
+  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
   <Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
