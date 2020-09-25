@@ -106,6 +106,8 @@ such as they would be used on the production
 application that would be deployed and used.</p>
 </Slide>
     </Col>
+
+    
     <Col sm>
     <Slide direction="up" triggerOnce>
     <Image src={Img02} fluid className={styles.imgstyle} />

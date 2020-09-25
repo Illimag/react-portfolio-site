@@ -66,26 +66,12 @@ export const Home = () => (
     <Container className={styles.fonttest}>
 
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>UI/UX Designer from the</h5>
+    <h5 className={styles.welcome}>UI/UX Designer</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>San Francisco Bay Area</h5>
-    </Slide>
-    <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>&</h5>
-    </Slide>
-    <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>Silicon Valley.</h5>
+    <h5 className={styles.welcome}>San Francisco Bay Area & Silicon Valley</h5>
     </Slide>
     
-    <br></br>
-
-    <Slide direction="up" triggerOnce>
-    <Typing>
-      <h5>View Portfolio &#8592;</h5>
-      </Typing>
-      </Slide>
-
 </Container>
 </Jumbotron>
 </Container>
@@ -105,7 +91,7 @@ export const Home = () => (
       <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>Uguru Incorporated</h1>
-
+      <h5 className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</h5>
   </Slide>
   <Slide direction="down" duration="1000" delay="10" triggerOnce>
   <div className={styles.badgelist}>
@@ -114,9 +100,6 @@ export const Home = () => (
 <Badge variant="primary" className={styles.second_badge}>User Experience Design</Badge>{' '}
 <Badge variant="primary" className={styles.third_badge}>Mobile Application Design</Badge>{' '}
 <Badge variant="primary" className={styles.fourth_badge}>Rapid Prototyping</Badge>{' '}
-<Badge variant="primary" className={styles.fifth_badge}>Internship</Badge>{' '}
-<Badge variant="primary" className={styles.sixth_badge}>San Francisco, CA</Badge>{' '}
-<Badge variant="primary" className={styles.seventh_badge}>Startup</Badge>{' '}
 
 </div>
 </Slide>
@@ -148,6 +131,7 @@ export const Home = () => (
     <Slide direction="down" duration="1500" triggerOnce>
 
       <h1 className={styles.whitetitle}>Sanchez Coffee Company</h1>
+      <h5 className={styles.white}>Remote Contract Web Designer and Developer at Coffee Supplier in Los Angeles</h5>
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
@@ -159,9 +143,6 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fourth_badge}>PayPal</Badge>{' '}
 <Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
 <Badge variant="primary" className={styles.sixth_badge}>CSS</Badge>{' '}
-<Badge variant="primary" className={styles.seventh_badge}>Los Angeles, CA</Badge>{' '}
-<Badge variant="primary" className={styles.fourth_badge}>Remote</Badge>{' '}
-<Badge variant="primary" className={styles.fifth_badge}>Contract</Badge>{' '}
 
 </div>
 </Slide>
@@ -191,6 +172,7 @@ export const Home = () => (
 
    
       <h1 className={styles.whitetitle}>Apex Virtual Reality</h1>
+      <h5 className={styles.white}>Contact UI Designer for Virtual Reality Web App for Local Bay Area Videography Company</h5>
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
@@ -202,8 +184,6 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fourth_badge}>Angular.JS</Badge>{' '}
 <Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
 <Badge variant="primary" className={styles.sixth_badge}>CSS</Badge>{' '}
-<Badge variant="primary" className={styles.seventh_badge}>San Francisco Bay Area, CA</Badge>{' '}
-<Badge variant="primary" className={styles.fourth_badge}>Contract</Badge>{' '}
 
 </div>
 </Slide>
@@ -233,7 +213,8 @@ export const Home = () => (
     <Jumbotron className={styles.float}>
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
-      <h1 className={styles.whitetitle}>Stepsaver</h1>
+      <h1 className={styles.whitetitle}>Stepsaver Web App</h1>
+      <h5 className={styles.white}>Remote Contract UI Designer for Valet Software Startup in Houston, TX</h5>
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
@@ -242,9 +223,6 @@ export const Home = () => (
 <Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
 <Badge variant="primary" className={styles.second_badge}>Mobile Application Design</Badge>{' '}
 <Badge variant="primary" className={styles.third_badge}>Responsive Website Design</Badge>{' '}
-<Badge variant="primary" className={styles.fourth_badge}>Houston, TX</Badge>{' '}
-<Badge variant="primary" className={styles.fifth_badge}>Remote</Badge>{' '}
-<Badge variant="primary" className={styles.sixth_badge}>Contract</Badge>{' '}
 
 </div>
 </Slide>
@@ -275,6 +253,7 @@ export const Home = () => (
   
 
       <h1 className={styles.whitetitle}>DasDasDigital Agency</h1>
+      <h5 className={styles.white}>UI/UX Designer for Remote Digital Agency Startup in Oakland, CA</h5>
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
@@ -286,9 +265,6 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fourth_badge}>Bootstrap</Badge>{' '}
 <Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
 <Badge variant="primary" className={styles.sixth_badge}>CSS</Badge>{' '}
-<Badge variant="primary" className={styles.seventh_badge}>Oakland, CA</Badge>{' '}
-<Badge variant="primary" className={styles.fourth_badge}>Remote</Badge>{' '}
-<Badge variant="primary" className={styles.fifth_badge}>Startup</Badge>{' '}
 
 </div>
 </Slide>

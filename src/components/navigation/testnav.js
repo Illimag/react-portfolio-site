@@ -29,7 +29,7 @@ const routes = [
   { path: '/uguru', name: 'Uguru Incorporated', Component: Uguru },
   { path: '/sanchezcoffeeco', name: 'Sanchez Coffee Company ', Component: Sanchezcoffeeco },
   { path: '/apexvr', name: 'Apex Virtual Reality', Component: Apexvr },
-  { path: '/stepsaver', name: 'Stepsaver', Component: Stepsaver },
+  { path: '/stepsaver', name: 'Stepsaver Web App', Component: Stepsaver },
   { path: '/dasdasdigital', name: 'DasDas Digital Agency', Component: Dasdasdigital },
   { path: '/Contact', name: 'Contact', Component: Contact },
 ]
