@@ -10,6 +10,7 @@ import Badge from 'react-bootstrap/Badge';
 
 import { LinkContainer } from 'react-router-bootstrap';
 
+import Img01 from '../../assets/img/uguru/teste.png';
 
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
@@ -66,10 +67,10 @@ export const Home = () => (
     <Container className={styles.fonttest}>
 
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>UI/UX Designer</h5>
+    <h5 className={styles.welcome}>UI/UX DESIGNER</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>San Francisco Bay Area & Silicon Valley</h5>
+    <h5 className={styles.welcome}>FROM: SAN FRANCISCO BAY AREA & SILICON VALLEY</h5>
     </Slide>
     
 </Container>
@@ -78,28 +79,28 @@ export const Home = () => (
 
 <Container className={styles.test}>
 
-
-
 <Slide direction="up" triggerOnce>
 <LinkContainer to="/uguru">
     <Row>
+
+
     <Col md={12} className={styles.removepadding}>
 
-
-
     <Jumbotron className={styles.mainfloatback}>
+    <Image src={Img01} fluid />
       <div className={styles.textbox}>
+
     <Slide direction="down" duration="1500" triggerOnce>
-      <h1 className={styles.whitetitle}>Uguru Incorporated</h1>
+ 
+      <h1 className={styles.whitetitle}>UGURU INC.</h1>
       <h5 className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</h5>
   </Slide>
   <Slide direction="down" duration="1000" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
-<Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
-<Badge variant="primary" className={styles.second_badge}>User Experience Design</Badge>{' '}
-<Badge variant="primary" className={styles.third_badge}>Mobile Application Design</Badge>{' '}
-<Badge variant="primary" className={styles.fourth_badge}>Rapid Prototyping</Badge>{' '}
+<Badge variant="primary" className={styles.first_badge}>UI/UX</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>App</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>Prototyping</Badge>{' '}
 
 </div>
 </Slide>
@@ -109,10 +110,6 @@ export const Home = () => (
 <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
       <source src={Vid02} type="video/mp4" />
     </video>
-
-    
-               
-
     </Col>
 
     </Row>
@@ -127,22 +124,22 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
+      
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
 
-      <h1 className={styles.whitetitle}>Sanchez Coffee Company</h1>
+      <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
       <h5 className={styles.white}>Remote Contract Web Designer and Developer at Coffee Supplier in Los Angeles</h5>
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
-  <Badge variant="primary" className={styles.first_badge}>Responsive Website Design</Badge>{' '}
-<Badge variant="primary" className={styles.second_badge}>E-commerce</Badge>{' '}
-<Badge variant="primary" className={styles.third_badge}>WordPress CMS</Badge>{' '}
+  <Badge variant="primary" className={styles.first_badge}>Web</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>E-Commerce</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>WordPress</Badge>{' '}
 <Badge variant="primary" className={styles.fourth_badge}>PayPal</Badge>{' '}
-<Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
-<Badge variant="primary" className={styles.sixth_badge}>CSS</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
 
 </div>
 </Slide>
@@ -171,19 +168,18 @@ export const Home = () => (
     <Slide direction="down" duration="1500" triggerOnce>
 
    
-      <h1 className={styles.whitetitle}>Apex Virtual Reality</h1>
+      <h1 className={styles.whitetitle}>APEX VR</h1>
       <h5 className={styles.white}>Contact UI Designer for Virtual Reality Web App for Local Bay Area Videography Company</h5>
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
-  <Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
-<Badge variant="primary" className={styles.second_badge}>Virtual Reality</Badge>{' '}
+  <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>VR</Badge>{' '}
 <Badge variant="primary" className={styles.third_badge}>Aframe</Badge>{' '}
 <Badge variant="primary" className={styles.fourth_badge}>Angular.JS</Badge>{' '}
-<Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
-<Badge variant="primary" className={styles.sixth_badge}>CSS</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
 
 </div>
 </Slide>
@@ -211,18 +207,20 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
+
+      
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
-      <h1 className={styles.whitetitle}>Stepsaver Web App</h1>
+      <h1 className={styles.whitetitle}>STEPSAVER</h1>
       <h5 className={styles.white}>Remote Contract UI Designer for Valet Software Startup in Houston, TX</h5>
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
-<Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
-<Badge variant="primary" className={styles.second_badge}>Mobile Application Design</Badge>{' '}
-<Badge variant="primary" className={styles.third_badge}>Responsive Website Design</Badge>{' '}
+<Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>App</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>Web</Badge>{' '}
 
 </div>
 </Slide>
@@ -252,19 +250,18 @@ export const Home = () => (
     <Slide direction="down" duration="1500" triggerOnce>
   
 
-      <h1 className={styles.whitetitle}>DasDasDigital Agency</h1>
+      <h1 className={styles.whitetitle}>DASDAS DIGITAL</h1>
       <h5 className={styles.white}>UI/UX Designer for Remote Digital Agency Startup in Oakland, CA</h5>
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
-  <Badge variant="primary" className={styles.first_badge}>User Interface Design</Badge>{' '}
-<Badge variant="primary" className={styles.second_badge}>Responsive Website Design</Badge>{' '}
+  <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>Web</Badge>{' '}
 <Badge variant="primary" className={styles.third_badge}>React.JS</Badge>{' '}
 <Badge variant="primary" className={styles.fourth_badge}>Bootstrap</Badge>{' '}
-<Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
-<Badge variant="primary" className={styles.sixth_badge}>CSS</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
 
 </div>
 </Slide>

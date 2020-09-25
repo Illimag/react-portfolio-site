@@ -25,13 +25,13 @@ import styles from './navigation.module.css'
 import './navigation.css'
 
 const routes = [
-  { path: '/', name: 'Home', Component: Home },
-  { path: '/uguru', name: 'Uguru Incorporated', Component: Uguru },
-  { path: '/sanchezcoffeeco', name: 'Sanchez Coffee Company ', Component: Sanchezcoffeeco },
-  { path: '/apexvr', name: 'Apex Virtual Reality', Component: Apexvr },
-  { path: '/stepsaver', name: 'Stepsaver Web App', Component: Stepsaver },
-  { path: '/dasdasdigital', name: 'DasDas Digital Agency', Component: Dasdasdigital },
-  { path: '/Contact', name: 'Contact', Component: Contact },
+  { path: '/', name: 'HOME', Component: Home },
+  { path: '/uguru', name: 'UGURU INC.', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: 'SANCHEZ COFFEE CO.', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'APEX VR', Component: Apexvr },
+  { path: '/stepsaver', name: 'STEPSAVER', Component: Stepsaver },
+  { path: '/dasdasdigital', name: 'DASDAS DIGITAL', Component: Dasdasdigital },
+  { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]
 
     export const TestNav = () => (
