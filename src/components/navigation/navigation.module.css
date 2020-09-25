@@ -14,9 +14,8 @@
 }
 
 .logo{
-    color: #000 !important;
-    font-family: 'Source Serif Pro', sans-serif;
-    font-size: 1.5em !important;
+height:35%;
+width:35%;
 }
 
 .white{
@@ -70,3 +69,13 @@
 .kword{
     color:#fbbc05 !important;
 }
+
+.icons{
+    height: 50px;
+    width:50px;
+}
+
+.centericon{
+    text-align: center;
+}
+
