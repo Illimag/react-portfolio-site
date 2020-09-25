@@ -289,9 +289,9 @@ background: rgba(0,0,0,0.5);
 
 .bannerstyles{
     margin-top: -80% !important;
-    
+    background-color: #34a853 !important;
+    height:35vh !important;
 }
-
 .displaytest{
     display: block !important;
 }

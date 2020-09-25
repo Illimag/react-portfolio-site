@@ -4,7 +4,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
 
 import { Slide } from "react-awesome-reveal";
-
+import Typing from 'react-typing-animation';
 
 import Badge from 'react-bootstrap/Badge';
 
@@ -60,20 +60,20 @@ export const Home = () => (
 <Container fluid className={styles.containerfluid}>
 
 
-
+<Slide direction="up" triggerOnce>
 <Container fluid className={styles.containerfluid}>
     <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
 
     <h5 className={styles.welcome}>Welcome, Jae Min (John) Kim is an UI/UX Designer from the <span className={styles.sf}>San Francisco Bay Area</span> & <span className={styles.sj}>Silicon Valley.</span></h5>
     <br></br>
-
+    <Typing>
       <h5>View Portfolio &#8592;</h5>
-
+      </Typing>
 </Container>
 </Jumbotron>
 </Container>
-
+</Slide>
 
 <Container className={styles.test}>
 

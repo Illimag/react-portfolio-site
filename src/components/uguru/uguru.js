@@ -2,6 +2,7 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom'
+import { Slide } from "react-awesome-reveal";
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
@@ -44,31 +45,17 @@ export const Uguru = () => (
               {/* left text right img */}
               <Row className={styles.displaytest}>
 
+
     <Col sm className={styles.overlay}>
-        <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+    <Slide direction="up" triggerOnce>
+    <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
       <source src={Vid1} type="video/mp4" />
     </video>
+    </Slide>
     </Col>
-    <Col sm className={styles.bannerstyles}>
-      
-      <Container fluid className={styles.containerfluid}>
-          <Jumbotron fluid className={styles.test}>
-          <Container className={styles.fonttest}>
 
-      <h1>Uguru, INC</h1>
-      <h5>
-      Mobile Application for College Students
-      </h5>
-      <p>
-      October 2016 - January 2017<br></br>
-      Graphic UI/UX Intern<br></br>
-      To creating High-Fidelity User Interfaces and Rapid prototypes
-      </p>
-      </Container>
-      </Jumbotron>
-      </Container>
-      
-          </Col>
+
+    <Col sm className={styles.bannerstyles}></Col>
     </Row>
 
 
@@ -94,8 +81,9 @@ export const Uguru = () => (
       </Jumbotron>
       </Container>
 
+    <Slide direction="up" triggerOnce>
     <Image src={Img01} fluid className={styles.imgstyle} />
-    
+    </Slide>
     
     </Col>
     </Row>
@@ -114,7 +102,9 @@ such as they would be used on the production
 application that would be deployed and used.</p>
     </Col>
     <Col sm>
+    <Slide direction="up" triggerOnce>
     <Image src={Img02} fluid className={styles.imgstyle} />
+    </Slide>
     </Col>
     </Row>
 
@@ -133,7 +123,9 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
         {/* left img right text */}
         <Row>
     <Col sm>
+    <Slide direction="up" triggerOnce>
     <Image src={Img03} fluid className={styles.imgstyle} />
+    </Slide>
     </Col>
     <Col sm>
       <h3>Graphic & UI/UX Design</h3>
@@ -159,7 +151,9 @@ parts of the interface that needed to
 be created.</p>
     </Col>
     <Col sm>
+    <Slide direction="up" triggerOnce>
     <Image src={Img04} fluid className={styles.imgstyle} />
+    </Slide>
     </Col>
     </Row>
 
@@ -175,16 +169,20 @@ be created.</p>
 I was using rapid prototyping software that was helping me with seeing how the
 animiations of the User Interface would look. This really helped a lot when trying to
 do the Onboarding screens.</p>
+<Slide direction="up" triggerOnce>
     <Image src={Img06} fluid className={styles.imgstyle} />
+    </Slide>
     </Col>
     </Row>
 
         {/* img without text */}
         <Row>
     <Col sm>
+    <Slide direction="up" triggerOnce>
     <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
       <source src={Vid2} type="video/mp4" />
     </video>
+    </Slide>
     </Col>
     </Row>
 
@@ -205,14 +203,18 @@ and created a higher fidelity for them. After I created the Rapid Prototype for 
 
     <Row>
     <Col sm >
+    <Slide direction="up" triggerOnce>
     <Image src={Img07} fluid className={styles.imgstyle} />
+    </Slide>
     </Col>
     </Row>
 
           {/* left img right text */}
           <Row>
     <Col sm>
+    <Slide direction="up" triggerOnce>
     <Image src={Img08} fluid className={styles.imgstyle} />
+    </Slide>
     </Col>
     <Col sm>
     <h3>Completion of Internship</h3>
@@ -238,7 +240,9 @@ Design at California College of the
 Arts (CCA).</p>
     </Col>
     <Col sm>
+    <Slide direction="up" triggerOnce>
     <Image src={Img09} fluid className={styles.imgstyle} />
+    </Slide>
     </Col>
     </Row>
 
