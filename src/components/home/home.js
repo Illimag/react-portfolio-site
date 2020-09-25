@@ -60,20 +60,35 @@ export const Home = () => (
 <Container fluid className={styles.containerfluid}>
 
 
-<Slide direction="down" triggerOnce>
+
 <Container fluid className={styles.containerfluid}>
     <Jumbotron fluid className={styles.test}>
     <Container className={styles.fonttest}>
 
-    <h5 className={styles.welcome}>UI/UX Designer from the <span className={styles.sf}>San Francisco Bay Area</span> & <span className={styles.sj}>Silicon Valley.</span></h5>
+    <Slide direction="up" triggerOnce>
+    <h5 className={styles.welcome}>UI/UX Designer from the</h5>
+    </Slide>
+    <Slide direction="up" triggerOnce>
+    <h5 className={styles.welcome}>San Francisco Bay Area</h5>
+    </Slide>
+    <Slide direction="up" triggerOnce>
+    <h5 className={styles.welcome}>&</h5>
+    </Slide>
+    <Slide direction="up" triggerOnce>
+    <h5 className={styles.welcome}>Silicon Valley.</h5>
+    </Slide>
+    
     <br></br>
+
+    <Slide direction="up" triggerOnce>
     <Typing>
       <h5>View Portfolio &#8592;</h5>
       </Typing>
+      </Slide>
+
 </Container>
 </Jumbotron>
 </Container>
-</Slide>
 
 <Container className={styles.test}>
 
