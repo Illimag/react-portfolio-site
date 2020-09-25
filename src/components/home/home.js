@@ -10,7 +10,7 @@ import Badge from 'react-bootstrap/Badge';
 
 import { LinkContainer } from 'react-router-bootstrap';
 
-import Img01 from '../../assets/img/uguru/teste.png';
+import Img01 from '../../assets/img/uguru/ttt-01.png';
 
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
@@ -70,7 +70,7 @@ export const Home = () => (
     <h5 className={styles.welcome}>UI/UX DESIGNER</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>FROM: SAN FRANCISCO BAY AREA & SILICON VALLEY</h5>
+    <h5 className={styles.welcome}>@SAN FRANCISCO BAY AREA & SILICON VALLEY</h5>
     </Slide>
     
 </Container>
@@ -87,7 +87,7 @@ export const Home = () => (
     <Col md={12} className={styles.removepadding}>
 
     <Jumbotron className={styles.mainfloatback}>
-    <Image src={Img01} fluid />
+    <Image src={Img01} fluid className={styles.image_left}/>
       <div className={styles.textbox}>
 
     <Slide direction="down" duration="1500" triggerOnce>
@@ -124,12 +124,13 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-      
+    <Image src={Img01} fluid className={styles.image_left}/>
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
 
       <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
       <h5 className={styles.white}>Remote Contract Web Designer and Developer at Coffee Supplier in Los Angeles</h5>
+
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
@@ -164,12 +165,14 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
+    <Image src={Img01} fluid className={styles.image_left}/>
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
 
    
       <h1 className={styles.whitetitle}>APEX VR</h1>
       <h5 className={styles.white}>Contact UI Designer for Virtual Reality Web App for Local Bay Area Videography Company</h5>
+
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
@@ -207,12 +210,13 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-
+    <Image src={Img01} fluid className={styles.image_left}/>
       
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>STEPSAVER</h1>
       <h5 className={styles.white}>Remote Contract UI Designer for Valet Software Startup in Houston, TX</h5>
+
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
@@ -246,12 +250,14 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.mainfloatback}>
+    <Image src={Img01} fluid className={styles.image_left}/>
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
   
 
       <h1 className={styles.whitetitle}>DASDAS DIGITAL</h1>
       <h5 className={styles.white}>UI/UX Designer for Remote Digital Agency Startup in Oakland, CA</h5>
+
 
   </Slide>
   <Slide direction="down" duration="1500" delay="10" triggerOnce>
