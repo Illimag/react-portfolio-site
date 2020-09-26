@@ -73,6 +73,9 @@ export const Home = () => (
     <Slide direction="up" triggerOnce>
     <h5 className={styles.welcome}>@San Francisco Bay Area & Silicon Valley</h5>
     </Slide>
+    <Slide direction="up" triggerOnce>
+  <p>#Web #HTML/CSS/JS #React.JS #Bootstrap #WordPress</p>
+    </Slide>
     
 </Container>
 </Jumbotron>

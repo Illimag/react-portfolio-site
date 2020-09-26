@@ -6,10 +6,40 @@ import Gist from 'react-gist';
 import Highlight from 'react-highlight.js';
 import styles from './blog.module.css';
 
-
 export const Blog = () => (
     /* Start of JSX Fragment*/ 
     <>
+
+
+<Jumbotron fluid className={styles.white}>
+  <Container>
+    <h1>3 page Nav Single Page Application with AngularJS</h1>
+    <p>
+    jaemnkm.github.io/angular_test0/index.html jaemnkm.github.io/angular_test1/index.html
+
+The Angular framework is very nice. I like how the website changes pages more smoothly because all the assets are preloaded.
+
+The downside is that it takes a while at the start to load, the upside is that once the assets are loaded it will be in the cache.
+
+I used the iFrame method to change urls when the tab is selected.
+
+I think that one of the main issues with using AngularJS for websites is that web crawlers have a more difficult time indexing them.
+
+So if you are planning to have your website's SEO effect your internet traffic, a single page application type framework would make the site not SEO friendly.
+
+With iFrame method I am able to keep the html in pages that are able to be indexed like a non-framework website.
+
+I do not think this is a good way to do things, but for something that is simple like my portfolio which is just a bunch of static photos, an AngularJS framework navigation that changes URLs when each tab is seclted, is an OK solution.
+
+    </p>    
+
+  </Container>
+</Jumbotron>
+
+
+
+
+
 
 <Jumbotron fluid className={styles.white}>
   <Container>

@@ -229,185 +229,185 @@ export const Feed = () => (
 <Container>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I128} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I127} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I126} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I125} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I124} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I123} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I122} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I121} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I120} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I119} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I118} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I117} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I116} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I115} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I114} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I113} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I112} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I111} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I110} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I109} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I108} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I107} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I106} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I105} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I104} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I103} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I102} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I101} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I100} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I99} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I98} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I97} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I96} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I95} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I94} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I93} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I92} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I91} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I90} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I89} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I88} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I87} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I86} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I85} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I84} fluid/>
     </Col>
   </Row>
@@ -416,500 +416,500 @@ export const Feed = () => (
 
 <Row>
 
-    <Col>    
+    <Col sm={4}>    
     <Image src={I83} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I82} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I81} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I80} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I79} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I78} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I77} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I76} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I75} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I74} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I73} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I72} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I71} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I70} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I69} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I68} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I67} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I66} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I65} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I64} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I63} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I62} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I61} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I60} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I59} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I58} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I57} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I56} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I55} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I54} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I53} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I52} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I51} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I50} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I49} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I48} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I47} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I46} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I45} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I44} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I43} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I42} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I41} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I40} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I39} fluid/>
     </Col>
   </Row>
 
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I38} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I37} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I36} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I35} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I34} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I33} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I32} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I31} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I30} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I29} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I28} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I27} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I26} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I25} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I24} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I23} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I22} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I21} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I20} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I19} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I18} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I17} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I16} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I15} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I14} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I13} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I12} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I11} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I10} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I09} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I08} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I07} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I06} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I05} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I04} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I03} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={I02} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I01} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={I00} fluid/>
     </Col>
   </Row>
 
 <Row>
-    <Col>    
+    <Col sm={4}>    
     <Image src={Img00} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img01} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img02} fluid/>
     </Col>
   </Row>
 
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img03} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img04} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img05} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img06} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img07} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img08} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img09} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img10} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img11} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img12} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img13} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img14} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img15} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img16} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img17} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img18} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img19} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img20} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img21} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img22} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img23} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img24} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img25} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img26} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img27} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img28} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img29} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img30} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img31} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img32} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img33} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img34} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img35} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img36} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img37} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img38} fluid/>
     </Col>
   </Row>
   <Row>
-    <Col>
+    <Col sm={4}>
     <Image src={Img39} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img40} fluid/>
     </Col>
-    <Col>
+    <Col sm={4}>
     <Image src={Img41} fluid/>
     </Col>
   </Row>
