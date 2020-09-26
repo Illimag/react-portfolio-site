@@ -4,6 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import { Slide } from "react-awesome-reveal";
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 import I128 from '../../assets/2020/Untitled presentation-29.jpg';
@@ -229,39 +232,57 @@ export const Feed = () => (
 <Container>
 
 <Row>
-    <Col sm={4}>    
-    <Image src={I128} fluid/>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I128} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I127} fluid/>
+    <LazyLoadImage
+      src={I127} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I126} fluid/>
+    <LazyLoadImage
+      src={I126} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I125} fluid/>
+    <LazyLoadImage
+      src={I125} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I124} fluid/>
+    <LazyLoadImage
+      src={I124} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I123} fluid/>
+    <LazyLoadImage
+      src={I123} 
+ />
     </Col>
   </Row>
 
 
 <Row>
-    <Col sm={4}>    
-    <Image src={I122} fluid/>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I122} 
+ /> 
     </Col>
     <Col sm={4}>
-    <Image src={I121} fluid/>
+    <LazyLoadImage
+      src={I121} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I120} fluid/>
+    <LazyLoadImage
+      src={I120} 
+ />
     </Col>
   </Row>
 

@@ -3,6 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 import { Slide } from "react-awesome-reveal";
 import Typing from 'react-typing-animation';
 
@@ -108,7 +111,12 @@ export const Home = () => (
     <Col md={12} className={styles.removepadding}>
 
     <Jumbotron className={styles.mainfloatback}>
-    <Image src={Img01} fluid className={styles.image_left}/>
+    <LazyLoadImage
+
+      src={Img01} // use normal <img> attributes as props
+      className={styles.image_left}
+ />
+ 
       <div className={styles.textbox}>
 
     <Slide direction="down" duration="1500" triggerOnce>
@@ -131,6 +139,7 @@ export const Home = () => (
 <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
       <source src={Vid02} type="video/mp4" />
     </video>
+    
     </Col>
 
     </Row>

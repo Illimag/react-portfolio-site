@@ -470,6 +470,8 @@ Cant figure out how to implement there seens to be an issue related to
 
     myRef = React.createRef(); 
 
-## Install react grid
+## Install lazy load and image placeholder
 
-    npm i react-photo-gallery
+    npm i --save react-lazy-load-image-component
+
+    

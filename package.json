@@ -17,6 +17,7 @@
     "react-gist": "^1.2.2",
     "react-highlight.js": "^1.0.7",
     "react-justified-grid": "^1.0.0",
+    "react-lazy-load-image-component": "^1.5.0",
     "react-parallax": "^3.0.3",
     "react-photo-gallery": "^8.0.0",
     "react-precache-img": "^2.0.5",
