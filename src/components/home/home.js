@@ -130,6 +130,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.first_badge}>UI/UX</Badge>{' '}
 <Badge variant="primary" className={styles.second_badge}>App</Badge>{' '}
 <Badge variant="primary" className={styles.third_badge}>Prototyping</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Illustrator</Badge>{' '}
 
 </div>
 </Slide>
@@ -255,6 +256,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
 <Badge variant="primary" className={styles.second_badge}>App</Badge>{' '}
 <Badge variant="primary" className={styles.third_badge}>Web</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Illustrator</Badge>{' '}
 
 </div>
 </Slide>

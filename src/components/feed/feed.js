@@ -287,149 +287,221 @@ export const Feed = () => (
   </Row>
 
 <Row>
-    <Col sm={4}>    
-    <Image src={I119} fluid/>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I119} 
+ /> 
     </Col>
     <Col sm={4}>
-    <Image src={I118} fluid/>
+    <LazyLoadImage
+      src={I118} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I117} fluid/>
+    <LazyLoadImage
+      src={I117} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I116} fluid/>
+    <LazyLoadImage
+      src={I116} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I115} fluid/>
+    <LazyLoadImage
+      src={I115} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I114} fluid/>
+    <LazyLoadImage
+      src={I114} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I113} 
+ /> 
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I112} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I111} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I110} 
+ /> 
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I109} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I108} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I113} fluid/>
+    <LazyLoadImage
+      src={I107} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I112} fluid/>
+    <LazyLoadImage
+      src={I106} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I111} fluid/>
+    <LazyLoadImage
+      src={I105} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I110} fluid/>
+    <LazyLoadImage
+      src={I104} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I109} fluid/>
+    <LazyLoadImage
+      src={I103} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I108} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I107} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I106} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I105} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I104} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I103} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I102} fluid/>
-    </Col>
-  </Row>
-
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I101} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I100} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I99} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I98} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I97} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I96} fluid/>
-    </Col>
-  </Row>
-
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I95} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I94} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I93} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I92} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I91} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I90} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I89} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I88} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I87} fluid/>
+    <LazyLoadImage
+      src={I102} 
+ />
     </Col>
   </Row>
 
 
 <Row>
     <Col sm={4}>    
-    <Image src={I86} fluid/>
+    <LazyLoadImage
+      src={I101} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I85} fluid/>
+    <LazyLoadImage
+      src={I100} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I84} fluid/>
+    <LazyLoadImage
+      src={I99} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>    
+    <LazyLoadImage
+      src={I98} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I97} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I96} 
+ />
+    </Col>
+  </Row>
+
+
+<Row>
+    <Col sm={4}>    
+    <LazyLoadImage
+      src={I95} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I94} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I93} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I92} 
+ /> 
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I91} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I90} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I89} 
+ /> 
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I88} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I87} 
+ />
+    </Col>
+  </Row>
+
+
+<Row>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I86} 
+ /> 
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I85} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I84} 
+ />
     </Col>
   </Row>
 
@@ -437,501 +509,756 @@ export const Feed = () => (
 
 <Row>
 
-    <Col sm={4}>    
-    <Image src={I83} fluid/>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I83} 
+ /> 
     </Col>
     <Col sm={4}>
-    <Image src={I82} fluid/>
+    <LazyLoadImage
+      src={I82} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I81} fluid/>
+    <LazyLoadImage
+      src={I81} 
+ />
     </Col>
   </Row>
 
 
 <Row>
     <Col sm={4}>    
-    <Image src={I80} fluid/>
+    <LazyLoadImage
+      src={I80} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I79} fluid/>
+    <LazyLoadImage
+      src={I79} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I78} fluid/>
+    <LazyLoadImage
+      src={I78} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I77} fluid/>
+    <LazyLoadImage
+      src={I77} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I76} fluid/>
+    <LazyLoadImage
+      src={I76} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I75} fluid/>
+    <LazyLoadImage
+      src={I75} 
+ />
     </Col>
   </Row>
 
 <Row>
-    <Col sm={4}>    
-    <Image src={I74} fluid/>
+    <Col sm={4}>  
+    <LazyLoadImage
+      src={I74} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I73} fluid/>
+    <LazyLoadImage
+      src={I73} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I72} fluid/>
+    <LazyLoadImage
+      src={I72} 
+ />
     </Col>
   </Row>
 
 <Row>
-    <Col sm={4}>    
-    <Image src={I71} fluid/>
+    <Col sm={4}>  
+    <LazyLoadImage
+      src={I71} 
+ />  
     </Col>
     <Col sm={4}>
-    <Image src={I70} fluid/>
+    <LazyLoadImage
+      src={I70} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I69} fluid/>
-    </Col>
-  </Row>
-
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I68} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I67} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I66} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I65} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I64} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I63} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I62} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I61} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I60} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I59} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I58} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I57} fluid/>
+    <LazyLoadImage
+      src={I69} 
+ />
     </Col>
   </Row>
 
 
 <Row>
-    <Col sm={4}>    
-    <Image src={I56} fluid/>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I68} 
+ /> 
     </Col>
     <Col sm={4}>
-    <Image src={I55} fluid/>
+    <LazyLoadImage
+      src={I67} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I54} fluid/>
-    </Col>
-  </Row>
-
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I53} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I52} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I51} fluid/>
+    <LazyLoadImage
+      src={I66} 
+ />
     </Col>
   </Row>
 
 <Row>
-    <Col sm={4}>    
-    <Image src={I50} fluid/>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I65} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I49} fluid/>
+    <LazyLoadImage
+      src={I64} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I48} fluid/>
-    </Col>
-  </Row>
-
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I47} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I46} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I45} fluid/>
+    <LazyLoadImage
+      src={I63} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I44} fluid/>
+    <LazyLoadImage
+      src={I62} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I43} fluid/>
+    <LazyLoadImage
+      src={I61} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I42} fluid/>
+    <LazyLoadImage
+      src={I60} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>    
+    <LazyLoadImage
+      src={I59} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I58} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I57} 
+ />
     </Col>
   </Row>
 
 
 <Row>
     <Col sm={4}>    
-    <Image src={I41} fluid/>
+    <LazyLoadImage
+      src={I56} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I40} fluid/>
+    <LazyLoadImage
+      src={I55} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I39} fluid/>
+    <LazyLoadImage
+      src={I54} 
+ />
+    </Col>
+  </Row>
+
+
+<Row>
+    <Col sm={4}> 
+    <LazyLoadImage
+      src={I53} 
+ />   
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I52} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I51} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>    
+    <LazyLoadImage
+      src={I50} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I49} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I48} 
+ />
+    </Col>
+  </Row>
+
+
+<Row>
+    <Col sm={4}>  
+    <LazyLoadImage
+      src={I47} 
+ />  
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I46} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I45} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>    
+    <LazyLoadImage
+      src={I44} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I43} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I42} 
+ />
+    </Col>
+  </Row>
+
+
+<Row>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I41} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I40} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I39} 
+ />
     </Col>
   </Row>
 
 
 <Row>
     <Col sm={4}>    
-    <Image src={I38} fluid/>
+    <LazyLoadImage
+      src={I38} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I37} fluid/>
+    <LazyLoadImage
+      src={I37} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I36} fluid/>
+    <LazyLoadImage
+      src={I36} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I35} fluid/>
+    <LazyLoadImage
+      src={I35} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I34} fluid/>
+    <LazyLoadImage
+      src={I34} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I33} fluid/>
+    <LazyLoadImage
+      src={I33} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I32} fluid/>
+    <LazyLoadImage
+      src={I32} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I31} fluid/>
+    <LazyLoadImage
+      src={I31} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I30} fluid/>
+    <LazyLoadImage
+      src={I30} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I29} 
+ /> 
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I28} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I27} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I29} fluid/>
+    <LazyLoadImage
+      src={I26} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I28} fluid/>
+    <LazyLoadImage
+      src={I25} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I27} fluid/>
+    <LazyLoadImage
+      src={I24} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I26} fluid/>
+    <LazyLoadImage
+      src={I23} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I25} fluid/>
+    <LazyLoadImage
+      src={I22} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I24} fluid/>
+    <LazyLoadImage
+      src={I21} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I20} 
+ /> 
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I19} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I18} 
+ />
+    </Col>
+  </Row>
+
+<Row>
+    <Col sm={4}>   
+    <LazyLoadImage
+      src={I17} 
+ /> 
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I16} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={I15} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I23} fluid/>
+    <LazyLoadImage
+      src={I14} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I22} fluid/>
+    <LazyLoadImage
+      src={I13} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I21} fluid/>
+    <LazyLoadImage
+      src={I12} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I20} fluid/>
+    <LazyLoadImage
+      src={I11} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I19} fluid/>
+    <LazyLoadImage
+      src={I10} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I18} fluid/>
+    <LazyLoadImage
+      src={I09} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I17} fluid/>
+    <LazyLoadImage
+      src={I08} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I16} fluid/>
+    <LazyLoadImage
+      src={I07} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I15} fluid/>
+    <LazyLoadImage
+      src={I06} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I14} fluid/>
+    <LazyLoadImage
+      src={I05} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I13} fluid/>
+    <LazyLoadImage
+      src={I04} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I12} fluid/>
+    <LazyLoadImage
+      src={I03} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I11} fluid/>
+    <LazyLoadImage
+      src={I02} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I10} fluid/>
+    <LazyLoadImage
+      src={I01} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I09} fluid/>
+    <LazyLoadImage
+      src={I00} 
+ />
     </Col>
   </Row>
 
 <Row>
     <Col sm={4}>    
-    <Image src={I08} fluid/>
+    <LazyLoadImage
+      src={Img00} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I07} fluid/>
+    <LazyLoadImage
+      src={Img01} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={I06} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I05} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I04} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I03} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={I02} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I01} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={I00} fluid/>
-    </Col>
-  </Row>
-
-<Row>
-    <Col sm={4}>    
-    <Image src={Img00} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img01} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img02} fluid/>
+    <LazyLoadImage
+      src={Img02} 
+ />
     </Col>
   </Row>
 
   <Row>
     <Col sm={4}>
-    <Image src={Img03} fluid/>
+    <LazyLoadImage
+      src={Img03} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img04} fluid/>
+    <LazyLoadImage
+      src={Img04} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img05} fluid/>
-    </Col>
-  </Row>
-  <Row>
-    <Col sm={4}>
-    <Image src={Img06} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img07} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img08} fluid/>
+    <LazyLoadImage
+      src={Img05} 
+ />
     </Col>
   </Row>
   <Row>
     <Col sm={4}>
-    <Image src={Img09} fluid/>
+    <LazyLoadImage
+      src={Img06} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img10} fluid/>
+    <LazyLoadImage
+      src={Img07} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img11} fluid/>
-    </Col>
-  </Row>
-  <Row>
-    <Col sm={4}>
-    <Image src={Img12} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img13} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img14} fluid/>
+    <LazyLoadImage
+      src={Img08} 
+ />
     </Col>
   </Row>
   <Row>
     <Col sm={4}>
-    <Image src={Img15} fluid/>
+    <LazyLoadImage
+      src={Img09} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img16} fluid/>
+    <LazyLoadImage
+      src={Img10} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img17} fluid/>
-    </Col>
-  </Row>
-  <Row>
-    <Col sm={4}>
-    <Image src={Img18} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img19} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img20} fluid/>
+    <LazyLoadImage
+      src={Img11} 
+ />
     </Col>
   </Row>
   <Row>
     <Col sm={4}>
-    <Image src={Img21} fluid/>
+    <LazyLoadImage
+      src={Img12} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img22} fluid/>
+    <LazyLoadImage
+      src={Img13} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img23} fluid/>
-    </Col>
-  </Row>
-  <Row>
-    <Col sm={4}>
-    <Image src={Img24} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img25} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img26} fluid/>
+    <LazyLoadImage
+      src={Img14} 
+ />
     </Col>
   </Row>
   <Row>
     <Col sm={4}>
-    <Image src={Img27} fluid/>
+    <LazyLoadImage
+      src={Img15} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img28} fluid/>
+    <LazyLoadImage
+      src={Img16} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img29} fluid/>
-    </Col>
-  </Row>
-  <Row>
-    <Col sm={4}>
-    <Image src={Img30} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img31} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img32} fluid/>
+    <LazyLoadImage
+      src={Img17} 
+ />
     </Col>
   </Row>
   <Row>
     <Col sm={4}>
-    <Image src={Img33} fluid/>
+    <LazyLoadImage
+      src={Img18} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img34} fluid/>
+    <LazyLoadImage
+      src={Img19} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img35} fluid/>
-    </Col>
-  </Row>
-  <Row>
-    <Col sm={4}>
-    <Image src={Img36} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img37} fluid/>
-    </Col>
-    <Col sm={4}>
-    <Image src={Img38} fluid/>
+    <LazyLoadImage
+      src={Img20} 
+ />
     </Col>
   </Row>
   <Row>
     <Col sm={4}>
-    <Image src={Img39} fluid/>
+    <LazyLoadImage
+      src={Img21} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img40} fluid/>
+    <LazyLoadImage
+      src={Img22} 
+ />
     </Col>
     <Col sm={4}>
-    <Image src={Img41} fluid/>
+    <LazyLoadImage
+      src={Img23} 
+ />
+    </Col>
+  </Row>
+  <Row>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img24} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img25} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img26} 
+ />
+    </Col>
+  </Row>
+  <Row>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img27} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img28} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img29} 
+ />
+    </Col>
+  </Row>
+  <Row>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img30} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img31} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img32} 
+ />
+    </Col>
+  </Row>
+  <Row>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img33} 
+ />
+
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img34} 
+ />
+
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img35} 
+ />
+
+    </Col>
+  </Row>
+  <Row>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img36} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img37} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img38} 
+ />
+    </Col>
+  </Row>
+  <Row>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img39} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img40} 
+ />
+    </Col>
+    <Col sm={4}>
+    <LazyLoadImage
+      src={Img41} 
+ />
     </Col>
   </Row>
 </Container>
