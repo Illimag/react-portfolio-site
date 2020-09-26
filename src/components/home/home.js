@@ -68,13 +68,30 @@ export const Home = () => (
     <Container className={styles.fonttest}>
 
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>UI/UX DESIGNER</h5>
+    <h5 className={styles.welcome}>UI/UX Designer</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
     <h5 className={styles.welcome}>@San Francisco Bay Area & Silicon Valley</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
-  <p>#Web #HTML/CSS/JS #React.JS #Bootstrap #WordPress</p>
+    <div className={styles.badgelist}>
+
+<Badge variant="primary" className={styles.first_badge}>UI/UX</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>App</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>Prototyping</Badge>{' '}
+<Badge variant="primary" className={styles.first_badge}>Web</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>E-Commerce</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>WordPress</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>PayPal</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>VR</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>Aframe</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Angular.JS</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>React.JS</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Bootstrap</Badge>{' '}
+
+
+</div>
     </Slide>
     
 </Container>
