@@ -470,3 +470,6 @@ Cant figure out how to implement there seens to be an issue related to
 
     myRef = React.createRef(); 
 
+## Install react grid
+
+    npm i react-photo-gallery

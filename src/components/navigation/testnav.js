@@ -9,6 +9,9 @@ import { Dasdasdigital } from '../dasdasdigital/dasdasdigital'
 import { Sanchezcoffeeco } from '../sanchezcoffeeco/sanchezcoffeeco'
 import { Apexvr } from '../apexvr/apexvr'
 import { Stepsaver } from '../stepsaver/stepsaver'
+import { Blog } from '../blog/blog'
+import { Feed } from '../feed/feed'
+
 import ScrollToTop from 'react-router-scroll-top'
 import { LinkContainer } from 'react-router-bootstrap';
 import Col from 'react-bootstrap/Col';
@@ -26,11 +29,13 @@ import './navigation.css'
 
 const routes = [
   { path: '/', name: 'HOME', Component: Home },
-  { path: '/uguru', name: 'UGURU INC.', Component: Uguru },
-  { path: '/sanchezcoffeeco', name: 'SANCHEZ COFFEE CO.', Component: Sanchezcoffeeco },
-  { path: '/apexvr', name: 'APEX VR', Component: Apexvr },
-  { path: '/stepsaver', name: 'STEPSAVER', Component: Stepsaver },
-  { path: '/dasdasdigital', name: 'DASDAS DIGITAL', Component: Dasdasdigital },
+  { path: '/uguru', name: '• UGURU INC.', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: '• SANCHEZ COFFEE CO.', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: '• APEX VR', Component: Apexvr },
+  { path: '/stepsaver', name: '• STEPSAVER', Component: Stepsaver },
+  { path: '/dasdasdigital', name: '• DASDAS DIGITAL', Component: Dasdasdigital },
+  { path: '/blog', name: 'BLOG', Component: Blog },
+  { path: '/feed', name: 'FEED', Component: Feed },
   { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]
 

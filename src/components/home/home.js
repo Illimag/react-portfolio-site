@@ -11,6 +11,7 @@ import Badge from 'react-bootstrap/Badge';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import Img01 from '../../assets/img/uguru/ttt-01.png';
+import Img02 from '../../assets/apex4.png';
 
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
@@ -70,7 +71,7 @@ export const Home = () => (
     <h5 className={styles.welcome}>UI/UX DESIGNER</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>@SAN FRANCISCO BAY AREA & SILICON VALLEY</h5>
+    <h5 className={styles.welcome}>@San Francisco Bay Area & Silicon Valley</h5>
     </Slide>
     
 </Container>
