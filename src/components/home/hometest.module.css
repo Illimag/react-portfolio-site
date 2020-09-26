@@ -392,3 +392,14 @@
     bottom: 30px;
 }
 
+.welcometitle{
+    font-size: 1.5em !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.welcomesubtitle{
+    font-size: 1em !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}

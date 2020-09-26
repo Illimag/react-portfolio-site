@@ -68,10 +68,10 @@ export const Home = () => (
     <Container className={styles.fonttest}>
 
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>UI/UX Designer</h5>
+    <h5 className={styles.welcometitle}>UI/UX Designer</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcome}>@San Francisco Bay Area & Silicon Valley</h5>
+    <h5 className={styles.welcomesubtitle}>@San Francisco Bay Area & Silicon Valley, California</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
     <div className={styles.badgelist}>
