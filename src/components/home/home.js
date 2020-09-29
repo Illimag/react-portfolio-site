@@ -14,7 +14,10 @@ import Badge from 'react-bootstrap/Badge';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import Img01 from '../../assets/img/uguru/ttt-01.png';
-import Img02 from '../../assets/apex4.png';
+import Sanchezcoffeeimg from '../../assets/img/san.png';
+import Apexvrimg from '../../assets/img/apexvr-01.png';
+import Stepsaverimg from '../../assets/img/ddd-01.png';
+import DasDasimg from '../../assets/img/dasdasdgg-01.png';
 
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
@@ -155,7 +158,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Img01} fluid className={styles.image_left}/>
+    <Image src={Sanchezcoffeeimg} fluid className={styles.image_left}/>
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
 
@@ -196,7 +199,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Img01} fluid className={styles.image_left}/>
+    <Image src={Apexvrimg} fluid className={styles.image_left}/>
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
 
@@ -241,7 +244,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Img01} fluid className={styles.image_left}/>
+    <Image src={Stepsaverimg} fluid className={styles.image_left}/>
       
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
@@ -282,7 +285,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.mainfloatback}>
-    <Image src={Img01} fluid className={styles.image_left}/>
+    <Image src={DasDasimg} fluid className={styles.image_left}/>
     <div className={styles.textbox}>
     <Slide direction="down" duration="1500" triggerOnce>
   
