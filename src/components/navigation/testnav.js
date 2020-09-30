@@ -34,6 +34,9 @@ const routes = [
   { path: '/apexvr', name: '• APEX VR', Component: Apexvr },
   { path: '/stepsaver', name: '• STEPSAVER', Component: Stepsaver },
   { path: '/dasdasdigital', name: '• DASDAS DIGITAL', Component: Dasdasdigital },
+  { path: '/blog', name: 'BLOG', Component: Blog },
+  { path: '/feed', name: 'FEED', Component: Feed },
+  { path: '/dasdasdigital', name: '• DASDAS DIGITAL', Component: Dasdasdigital },
   { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]
 
