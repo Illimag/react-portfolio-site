@@ -58,7 +58,7 @@ function TestNav() {
   }
 
   let style = {
-    backgroundColor: change ? "rgba(255,255,255,.8)" : "transparent",
+    backgroundColor: change ? "rgba(0,0,0,0.92)" : "transparent",
     backdropFilter: change ? "saturate(180%) blur(20px)" : "none",
     transition: "400ms ease",
     position: "fixed",
@@ -89,7 +89,7 @@ function TestNav() {
  */}
 
   <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
-  <Navbar.Collapse id="basic-navbar-nav" >
+  <Navbar.Collapse id="basic-navbar-nav" className={styles.navbarbackgroudcolor} >
     <Nav className="ml-auto">
             {routes.map(route => (
               <Nav.Link
