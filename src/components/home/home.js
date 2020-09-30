@@ -120,7 +120,7 @@ export const Home = () => (
       className={styles.image_left}
  />
  
-      <div className={styles.textbox}>
+      <div className={styles.textboxright}>
 
     <Slide direction="down" duration="1500" triggerOnce>
  
@@ -158,8 +158,8 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Sanchezcoffeeimg} fluid className={styles.image_left}/>
-    <div className={styles.textbox}>
+    <Image src={Sanchezcoffeeimg} fluid className={styles.image_right}/>
+    <div className={styles.textboxleft}>
     <Slide direction="down" duration="1500" triggerOnce>
 
       <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
@@ -200,7 +200,7 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
     <Image src={Apexvrimg} fluid className={styles.image_left}/>
-    <div className={styles.textbox}>
+    <div className={styles.textboxright}>
     <Slide direction="down" duration="1500" triggerOnce>
 
    
@@ -244,9 +244,9 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Stepsaverimg} fluid className={styles.image_left}/>
+    <Image src={Stepsaverimg} fluid className={styles.image_right}/>
       
-    <div className={styles.textbox}>
+    <div className={styles.textboxleft}>
     <Slide direction="down" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>STEPSAVER</h1>
       <h5 className={styles.white}>Remote Contract UI Designer for Valet Software Startup in Houston, TX</h5>
@@ -286,7 +286,7 @@ export const Home = () => (
 
     <Jumbotron className={styles.mainfloatback}>
     <Image src={DasDasimg} fluid className={styles.image_left}/>
-    <div className={styles.textbox}>
+    <div className={styles.textboxright}>
     <Slide direction="down" duration="1500" triggerOnce>
   
 

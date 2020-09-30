@@ -1,4 +1,4 @@
-.textbox{
+.textboxright{
     background-color: transparent !important;
     position: absolute;
     bottom: 30px;
@@ -7,6 +7,17 @@
     width: 65%;
     right:0;
 }
+
+.textboxleft{
+    background-color: transparent !important;
+    position: absolute;
+    bottom: 30px;
+    border-radius: 0rem !important;
+    float: left;
+    width: 65%;
+    left:0;
+}
+
 
 
 /*
@@ -390,6 +401,15 @@
     position: absolute;
     width: 35%;
     bottom: 30px;
+    left:5%;
+}
+
+.image_right{
+    float: right;
+    position: absolute;
+    width: 35%;
+    bottom: 30px;
+    right: 5%;
 }
 
 .welcometitle{
