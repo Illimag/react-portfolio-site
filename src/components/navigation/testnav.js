@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
 import { CSSTransition } from 'react-transition-group'
 import { Container, Navbar, Nav } from 'react-bootstrap'
@@ -11,6 +11,9 @@ import { Apexvr } from '../apexvr/apexvr'
 import { Stepsaver } from '../stepsaver/stepsaver'
 import { Blog } from '../blog/blog'
 import { Feed } from '../feed/feed'
+
+
+import useWindowScrollPosition from "@rehooks/window-scroll-position";
 
 import ScrollToTop from 'react-router-scroll-top'
 import { LinkContainer } from 'react-router-bootstrap';
@@ -36,18 +39,46 @@ const routes = [
   { path: '/dasdasdigital', name: '• DASDAS DIGITAL', Component: Dasdasdigital },
   { path: '/blog', name: 'BLOG', Component: Blog },
   { path: '/feed', name: 'FEED', Component: Feed },
-  { path: '/dasdasdigital', name: '• DASDAS DIGITAL', Component: Dasdasdigital },
   { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]
 
-    export const TestNav = () => (
+function TestNav() {
+  const [change, setChange] = useState(false);
+  const changePosition = 300;
+
+  let position = useWindowScrollPosition();
+  // position == { x: 0, y: 0 }
+
+  if (position.y > changePosition && !change) {
+    setChange(true);
+  }
+
+  if (position.y <= changePosition && change) {
+    setChange(false);
+  }
+
+  let style = {
+    backgroundColor: change ? "rgba(255,255,255,.8)" : "transparent",
+    backdropFilter: change ? "saturate(180%) blur(20px)" : "none",
+    transition: "400ms ease",
+    position: "fixed",
+    right: 0,
+    left: 0,
+    top: 0
+  };
+  return (
 
     <>
+    
+   <div style={style}></div>
+
     <Router>
     <ScrollToTop>
       <>
-      <Navbar className={styles.navbar} expand="lg" fixed="top" >
+      <Navbar style={style} className={styles.navbar} expand="lg" fixed="top" >
 
+
+ {/*
 <LinkContainer to="/">
 
   <Navbar.Brand className={styles.logo}>
@@ -55,7 +86,7 @@ const routes = [
   </Navbar.Brand>
 
   </LinkContainer>
-
+ */}
 
   <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
   <Navbar.Collapse id="basic-navbar-nav" >
@@ -121,7 +152,8 @@ const routes = [
     </Router>
     </>
    
-
-   )
+   );
+  }
+  
 
 export default TestNav;

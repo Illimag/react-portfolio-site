@@ -114,7 +114,7 @@ export const Home = () => (
     <Col md={12} className={styles.removepadding}>
 
     <Jumbotron className={styles.mainfloatback}>
-    <LazyLoadImage
+    <Image
 
       src={Img01} // use normal <img> attributes as props
       className={styles.image_left}
