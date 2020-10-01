@@ -25,6 +25,8 @@ import Img07 from '../../assets/img/uguru/1-07.jpg';
 import Img08 from '../../assets/img/uguru/1-08.png';
 import Img09 from '../../assets/img/uguru/1-09.png';
 
+import testtest from '../../assets/img/uguru/ttt-01.png';
+
 import Vid1 from '../../assets/vids/student_walking.mp4';
 import Vid2 from '../../assets/vids/students_sitting.mp4';
 
@@ -85,7 +87,7 @@ export const Uguru = () => (
     <Slide direction="up" triggerOnce>
     <Image src={Img01} fluid className={styles.imgstyle} />
     </Slide>
-    
+
     </Col>
     </Row>
 
@@ -111,6 +113,11 @@ application that would be deployed and used.</p>
     <Col sm>
     <Slide direction="up" triggerOnce>
     <Image src={Img02} fluid className={styles.imgstyle} />
+
+
+    <Image src={testtest} fluid className={styles.imgstyle} />
+    <Image src={testtest} fluid className={styles.imgstyle} />
+
     </Slide>
     </Col>
     </Row>
