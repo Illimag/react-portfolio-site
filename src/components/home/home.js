@@ -75,10 +75,10 @@ export const Home = () => (
     <Container className={styles.fonttest}>
 
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcometitle}>UI/UX Designer</h5>
+    <h5 className={styles.welcometitle}>Jae Min Kim</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcomesubtitle}>@San Francisco Bay Area & Silicon Valley, California</h5>
+    <h5 className={styles.welcomesubtitle}>@UI/UX Designer @San Francisco Bay Area @Silicon Valley, California</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
     <div className={styles.badgelist}>
@@ -116,7 +116,7 @@ export const Home = () => (
 
     <Jumbotron className={styles.mainfloatback}>
 
- 
+  <div className="main-content-wrapper">
 
     <Slide direction="down" duration="1500" triggerOnce>
  
@@ -132,8 +132,9 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fourth_badge}>Illustrator</Badge>{' '}
 
 </div>
-</Slide>
 
+</Slide>
+</div>
 </Jumbotron>
 
 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>

@@ -431,3 +431,9 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
 }
+
+.main-content-wrapper{
+    margin-bottom: 3em;
+    bottom: 0;
+    position: absolute;
+}

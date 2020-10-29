@@ -115,8 +115,6 @@ application that would be deployed and used.</p>
     <Image src={Img02} fluid className={styles.imgstyle} />
 
 
-    <Image src={testtest} fluid className={styles.imgstyle} />
-    <Image src={testtest} fluid className={styles.imgstyle} />
 
     </Slide>
     </Col>

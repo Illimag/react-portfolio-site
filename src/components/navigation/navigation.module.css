@@ -2,14 +2,14 @@
     top:.5rem !important;
     right: .5rem !important;
     position: absolute !important;
-    
+
 }
 
 .navbar{
     background: rgba(255,255,255,0.4);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-    display: block !important;
+    display: none !important;
     height: 50px;
 }
 
