@@ -10,7 +10,7 @@ import Image from 'react-bootstrap/Image';
 
 import { LinkContainer } from 'react-router-bootstrap';
 import Button from 'react-bootstrap/Button';
-
+import Gist from 'react-gist';
 
 import Img00 from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
 import Img01 from '../../assets/img/sanchezcoffeeco/1-01.jpg';
@@ -231,6 +231,8 @@ and development.</p>
         <Col sm>
         <Image src={Img05} fluid className={styles.imgstyle} />
         </Col>
+
+        <Gist id='2de89cf80d88c584ad53fdf4539d81d3' />
         </Row>
 
     {/* Video */}

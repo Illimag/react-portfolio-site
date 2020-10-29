@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useState, useRef } from "react";
 import './preload.css';
 import LoadingProgress from 'react-js-loading-progress-bar';
 
-const {useState, useEffect, useRef} = React;
 
 const Img1 = require('../../assets/img/uguru/ttt-01.png');
 const Img2 = require('../../assets/img/san.png');
@@ -15,29 +14,29 @@ const urls = [
     Img1,Img2,Img3,Img4,Img5,Vid0
 ];
 
-function Test() {
+function PreLoad() {
     const [loading, setLoading] = useState(true);
     const counter = useRef(0);
     const imageLoaded = () => {
       counter.current += 1;
-
-      console.log(counter)
-
+      console.log(counter.current)
+      console.log(urls.length)
       if (counter.current >= urls.length) {
         setLoading(false);
       }
     }
 
     
-    return <React.Fragment>
-
-            <LoadingProgress
-                        active={true}
-                        total={urls.length}
-                        current={counter}
-                    />
-
-      <div style={{display: loading ? "block" : "none"}}>
+    return (
+        <>
+        <LoadingProgress    
+              active={true}
+              total={10}
+              current={counter.current}
+              
+      />
+  
+  <div style={{display: loading ? "block" : "none"}}>
          Loading images,
       </div>
       <div style={{display: loading ? "none" : "block"}}>
@@ -47,21 +46,15 @@ function Test() {
             src={url}
             onLoad={imageLoaded}/>)}
       </div>
-    </React.Fragment>;
-}
 
-export const PreLoad = () => (
-    <>
+          <div id="preload">
+  
+          </div>
+  
+      </>
 
-
-
-
-        <Test/>
-        <div id="preload">
-
-        </div>
-
-    </>
     )
+    
+}
 
     export default PreLoad;

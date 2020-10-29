@@ -71,6 +71,7 @@ export const Home = () => (
 
 <Container fluid className={styles.containerfluid}>
     <Jumbotron fluid className={styles.test}>
+
     <Container className={styles.fonttest}>
 
     <Slide direction="up" triggerOnce>
@@ -114,13 +115,8 @@ export const Home = () => (
     <Col md={12} className={styles.removepadding}>
 
     <Jumbotron className={styles.mainfloatback}>
-    <Image
 
-      src={Img01} // use normal <img> attributes as props
-      className={styles.image_left}
- />
  
-      <div className={styles.textboxright}>
 
     <Slide direction="down" duration="1500" triggerOnce>
  
@@ -137,10 +133,10 @@ export const Home = () => (
 
 </div>
 </Slide>
-</div>
+
 </Jumbotron>
 
-<video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+<video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
       <source src={Vid02} type="video/mp4" />
     </video>
     
@@ -158,8 +154,6 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Sanchezcoffeeimg} fluid className={styles.image_right}/>
-    <div className={styles.textboxleft}>
     <Slide direction="down" duration="1500" triggerOnce>
 
       <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
@@ -178,7 +172,6 @@ export const Home = () => (
 
 </div>
 </Slide>
-</div>
 </Jumbotron>
 
 <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
@@ -199,8 +192,6 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Apexvrimg} fluid className={styles.image_left}/>
-    <div className={styles.textboxright}>
     <Slide direction="down" duration="1500" triggerOnce>
 
    
@@ -220,7 +211,6 @@ export const Home = () => (
 
 </div>
 </Slide>
-</div>
 </Jumbotron>
 
 
@@ -244,9 +234,7 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Stepsaverimg} fluid className={styles.image_right}/>
       
-    <div className={styles.textboxleft}>
     <Slide direction="down" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>STEPSAVER</h1>
       <h5 className={styles.white}>Remote Contract UI Designer for Valet Software Startup in Houston, TX</h5>
@@ -263,7 +251,6 @@ export const Home = () => (
 
 </div>
 </Slide>
-</div>
 </Jumbotron>
 
 
@@ -285,8 +272,6 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.mainfloatback}>
-    <Image src={DasDasimg} fluid className={styles.image_left}/>
-    <div className={styles.textboxright}>
     <Slide direction="down" duration="1500" triggerOnce>
   
 
@@ -306,7 +291,6 @@ export const Home = () => (
 
 </div>
 </Slide>
-</div>
 </Jumbotron>
 
 <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>

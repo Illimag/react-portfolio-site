@@ -37,8 +37,6 @@ const routes = [
   { path: '/apexvr', name: '• APEX VR', Component: Apexvr },
   { path: '/stepsaver', name: '• STEPSAVER', Component: Stepsaver },
   { path: '/dasdasdigital', name: '• DASDAS DIGITAL', Component: Dasdasdigital },
-  { path: '/blog', name: 'BLOG', Component: Blog },
-  { path: '/feed', name: 'FEED', Component: Feed },
   { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]
 
@@ -70,12 +68,12 @@ function TestNav() {
 
     <>
     
-   <div style={style}></div>
+   <div ></div>
 
     <Router>
     <ScrollToTop>
       <>
-      <Navbar style={style} className={styles.navbar} expand="lg" fixed="top" >
+      <Navbar className={styles.navbar} expand="lg" >
 
 
  {/*
