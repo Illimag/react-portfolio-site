@@ -49,11 +49,13 @@ export const Uguru = () => (
 
 
     <Col sm className={styles.overlay}>
+      <div className={styles.paddingTop}>
     <Slide direction="up" triggerOnce>
     <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
       <source src={Vid1} type="video/mp4" />
     </video>
     </Slide>
+    </div>
     </Col>
 
 

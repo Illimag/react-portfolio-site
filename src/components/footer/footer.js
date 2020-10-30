@@ -13,14 +13,18 @@ import Behance from '../../assets/behance.png';
 
 import styles from './footer.module.css'
 
+import TestNav from '../navigation/testnav'
+
 const Footer = () => (
 /* Start of JSX Fragment*/
 <>
 {/* This is where the Footer is */}
 
+
+
 <Jumbotron fluid className={styles.footerBackground}>
   <Container>
-
+  <TestNav></TestNav>
 <p className={styles.centertext}>San Francisco Bay Area/Silicon Valley.</p>
 
   </Container>

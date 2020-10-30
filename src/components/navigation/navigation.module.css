@@ -9,7 +9,7 @@
     background: rgba(255,255,255,0.4);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-    display: none !important;
+    display: block !important;
     height: 50px;
 }
 
