@@ -24,7 +24,6 @@ const Footer = () => (
 
 <Jumbotron fluid className={styles.footerBackground}>
   <Container>
-  <TestNav></TestNav>
 <p className={styles.centertext}>San Francisco Bay Area/Silicon Valley.</p>
 
   </Container>

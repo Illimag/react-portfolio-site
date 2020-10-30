@@ -116,7 +116,7 @@ export const Home = () => (
 
     <Jumbotron className={styles.mainfloatback}>
 
-  <div className="main-content-wrapper">
+  <div className={styles.maincontentwrapper}>
 
     <Slide direction="down" duration="1500" triggerOnce>
  
