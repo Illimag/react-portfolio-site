@@ -75,7 +75,7 @@ export const Home = () => (
     <Container className={styles.fonttest}>
 
     <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcometitle}>Jae Min Kim</h5>
+    <h5 className={styles.welcometitle}>Welcome</h5>
     </Slide>
     <Slide direction="up" triggerOnce>
     <h5 className={styles.welcomesubtitle}>@UI/UX Designer @San Francisco Bay Area @Silicon Valley, California</h5>
