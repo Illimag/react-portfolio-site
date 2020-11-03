@@ -22,11 +22,11 @@ import DasDasimg from '../../assets/img/dasdasdgg-01.png';
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
 */
-import Vid02 from '../../assets/vids/students_working.mp4';
-import Vid03 from '../../assets/vids/two_pros.mp4';
-import Vid04 from '../../assets/vids/coffee_making.mp4';
-import Vid05 from '../../assets/vids/vr_biz.mp4';
-import Vid06 from '../../assets/vids/person_driving.mp4';
+import Vid02 from '../../assets/vids/compressed_vid/vid2.m4v';
+import Vid03 from '../../assets/vids/compressed_vid/vid3.m4v';
+import Vid04 from '../../assets/vids/compressed_vid/vid0.m4v';
+import Vid05 from '../../assets/vids/compressed_vid/vid4.m4v';
+import Vid06 from '../../assets/vids/compressed_vid/vid1.m4v';
 
 import Uguru_Img from '../../assets/img/uguru/banner-01.jpg';
 import Sanchezcoffeeco_Img from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
