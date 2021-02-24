@@ -10,7 +10,8 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     display: block !important;
-    position: relative !important;
+    height: 50px;
+    padding: 0rem 0rem !important;
 }
 
 .logo{
@@ -79,3 +80,7 @@ width:3rem;
     text-align: center;
 }
 
+
+.navbarbackgroudcolor{
+    background-color: white;
+}

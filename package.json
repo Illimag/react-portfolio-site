@@ -16,6 +16,7 @@
     "react-dom": "^16.13.1",
     "react-gist": "^1.2.2",
     "react-highlight.js": "^1.0.7",
+    "react-js-loading-progress-bar": "^0.3.1",
     "react-justified-grid": "^1.0.0",
     "react-lazy-load-image-component": "^1.5.0",
     "react-parallax": "^3.0.3",
@@ -62,6 +63,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "file-loader": "^6.1.0",
     "gh-pages": "^3.1.0"
   }
 }

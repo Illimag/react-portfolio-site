@@ -13,14 +13,17 @@ import Behance from '../../assets/behance.png';
 
 import styles from './footer.module.css'
 
+import TestNav from '../navigation/testnav'
+
 const Footer = () => (
 /* Start of JSX Fragment*/
 <>
 {/* This is where the Footer is */}
 
+
+
 <Jumbotron fluid className={styles.footerBackground}>
   <Container>
-
 <p className={styles.centertext}>San Francisco Bay Area/Silicon Valley.</p>
 
   </Container>
@@ -51,6 +54,11 @@ const Footer = () => (
     </p>
     <p className={styles.centertext}>
     2020
+    </p>
+    <p className={styles.centertext}>
+      <a href="https://www.notion.so/How-to-become-an-UX-Designer-Design-Journal-822b58c3456d44cb98cdd0e3cc4a0c8a">
+        How to Become an UX Designer in 2020
+      </a>
     </p>
 </Container>
 </Jumbotron>

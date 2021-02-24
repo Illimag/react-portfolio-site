@@ -296,3 +296,7 @@ background: rgba(0,0,0,0.5);
 .displaytest{
     display: block !important;
 }
+
+.paddingTop{
+    padding-top: 10% !important;
+}

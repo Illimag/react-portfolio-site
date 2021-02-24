@@ -22,11 +22,11 @@ import DasDasimg from '../../assets/img/dasdasdgg-01.png';
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
 */
-import Vid02 from '../../assets/vids/students_working.mp4';
-import Vid03 from '../../assets/vids/two_pros.mp4';
-import Vid04 from '../../assets/vids/coffee_making.mp4';
-import Vid05 from '../../assets/vids/vr_biz.mp4';
-import Vid06 from '../../assets/vids/person_driving.mp4';
+import Vid02 from '../../assets/vids/compressed_vid/vid2.m4v';
+import Vid03 from '../../assets/vids/compressed_vid/vid3.m4v';
+import Vid04 from '../../assets/vids/compressed_vid/vid0.m4v';
+import Vid05 from '../../assets/vids/compressed_vid/vid4.m4v';
+import Vid06 from '../../assets/vids/compressed_vid/vid1.m4v';
 
 import Uguru_Img from '../../assets/img/uguru/banner-01.jpg';
 import Sanchezcoffeeco_Img from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
@@ -71,15 +71,14 @@ export const Home = () => (
 
 <Container fluid className={styles.containerfluid}>
     <Jumbotron fluid className={styles.test}>
+
     <Container className={styles.fonttest}>
 
-    <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcometitle}>UI/UX Designer</h5>
-    </Slide>
-    <Slide direction="up" triggerOnce>
-    <h5 className={styles.welcomesubtitle}>@San Francisco Bay Area & Silicon Valley, California</h5>
-    </Slide>
-    <Slide direction="up" triggerOnce>
+
+    <h5 className={styles.welcometitle}>Welcome</h5>
+
+    <h5 className={styles.welcomesubtitle}>@UI/UX Designer @San Francisco Bay Area @Silicon Valley, California</h5>
+
     <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.first_badge}>UI/UX</Badge>{' '}
@@ -98,7 +97,7 @@ export const Home = () => (
 
 
 </div>
-    </Slide>
+  
     
 </Container>
 </Jumbotron>
@@ -106,7 +105,6 @@ export const Home = () => (
 
 <Container className={styles.test}>
 
-<Slide direction="up" triggerOnce>
 <LinkContainer to="/uguru">
     <Row>
 
@@ -114,20 +112,13 @@ export const Home = () => (
     <Col md={12} className={styles.removepadding}>
 
     <Jumbotron className={styles.mainfloatback}>
-    <LazyLoadImage
 
-      src={Img01} // use normal <img> attributes as props
-      className={styles.image_left}
- />
- 
-      <div className={styles.textbox}>
+  <div className={styles.maincontentwrapper}>
 
-    <Slide direction="down" duration="1500" triggerOnce>
  
       <h1 className={styles.whitetitle}>UGURU INC.</h1>
       <h5 className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</h5>
-  </Slide>
-  <Slide direction="down" duration="1000" delay="10" triggerOnce>
+
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.first_badge}>UI/UX</Badge>{' '}
@@ -136,11 +127,11 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fourth_badge}>Illustrator</Badge>{' '}
 
 </div>
-</Slide>
+
 </div>
 </Jumbotron>
 
-<video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+<video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
       <source src={Vid02} type="video/mp4" />
     </video>
     
@@ -148,9 +139,8 @@ export const Home = () => (
 
     </Row>
     </LinkContainer>     
-    </Slide>
 
-    <Slide direction="up" triggerOnce duration="1000">
+
     <LinkContainer to="/sanchezcoffeeco">
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -158,16 +148,11 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Sanchezcoffeeimg} fluid className={styles.image_left}/>
-    <div className={styles.textbox}>
-    <Slide direction="down" duration="1500" triggerOnce>
 
       <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
       <h5 className={styles.white}>Remote Contract Web Designer and Developer at Coffee Supplier in Los Angeles</h5>
 
 
-  </Slide>
-  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
   <Badge variant="primary" className={styles.first_badge}>Web</Badge>{' '}
@@ -177,8 +162,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
 
 </div>
-</Slide>
-</div>
+
 </Jumbotron>
 
 <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
@@ -189,9 +173,6 @@ export const Home = () => (
 
     </Row>
     </LinkContainer>
-    </Slide>
-
-    <Slide direction="up" triggerOnce duration="1500">
     <LinkContainer to="/apexvr">
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -199,17 +180,11 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Apexvrimg} fluid className={styles.image_left}/>
-    <div className={styles.textbox}>
-    <Slide direction="down" duration="1500" triggerOnce>
-
    
       <h1 className={styles.whitetitle}>APEX VR</h1>
       <h5 className={styles.white}>Contact UI Designer for Virtual Reality Web App for Local Bay Area Videography Company</h5>
 
 
-  </Slide>
-  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
   <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
@@ -219,8 +194,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
 
 </div>
-</Slide>
-</div>
+
 </Jumbotron>
 
 
@@ -233,10 +207,8 @@ export const Home = () => (
 
     </Row>
     </LinkContainer>
-    </Slide>
 
 
-    <Slide direction="up" triggerOnce duration="1500">
     <LinkContainer to="/stepsaver">
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -244,16 +216,11 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Image src={Stepsaverimg} fluid className={styles.image_left}/>
       
-    <div className={styles.textbox}>
-    <Slide direction="down" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>STEPSAVER</h1>
       <h5 className={styles.white}>Remote Contract UI Designer for Valet Software Startup in Houston, TX</h5>
 
 
-  </Slide>
-  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
@@ -262,8 +229,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fourth_badge}>Illustrator</Badge>{' '}
 
 </div>
-</Slide>
-</div>
+
 </Jumbotron>
 
 
@@ -275,9 +241,7 @@ export const Home = () => (
 
     </Row>
     </LinkContainer>
-    </Slide>
-
-    <Slide direction="up" triggerOnce duration="1500" triggerOnce>
+  
     <LinkContainer to="/dasdasdigital">
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -285,17 +249,13 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.mainfloatback}>
-    <Image src={DasDasimg} fluid className={styles.image_left}/>
-    <div className={styles.textbox}>
-    <Slide direction="down" duration="1500" triggerOnce>
+ 
   
 
       <h1 className={styles.whitetitle}>DASDAS DIGITAL</h1>
       <h5 className={styles.white}>UI/UX Designer for Remote Digital Agency Startup in Oakland, CA</h5>
 
 
-  </Slide>
-  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
   <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
@@ -305,8 +265,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
 
 </div>
-</Slide>
-</div>
+
 </Jumbotron>
 
 <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
@@ -318,8 +277,7 @@ export const Home = () => (
   
     </Row>
     </LinkContainer>
-    </Slide>
-
+ 
     </Container>
 
 </Container>

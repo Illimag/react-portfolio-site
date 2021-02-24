@@ -1,4 +1,4 @@
-.textbox{
+.textboxright{
     background-color: transparent !important;
     position: absolute;
     bottom: 30px;
@@ -7,6 +7,17 @@
     width: 65%;
     right:0;
 }
+
+.textboxleft{
+    background-color: transparent !important;
+    position: absolute;
+    bottom: 30px;
+    border-radius: 0rem !important;
+    float: left;
+    width: 65%;
+    left:0;
+}
+
 
 
 /*
@@ -41,7 +52,6 @@
 .test{
     padding-right: 0% !important;
     padding-left: 0% !important;
-
 }
 
 
@@ -93,7 +103,7 @@
 .float{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.1) !important;
-    height: 60vh;
+    height: 30vh;
     object-fit: cover;
     z-index: 10;
     margin-right: -5%;
@@ -211,18 +221,23 @@
 
 .mainvideo {
     object-fit: cover;
-    width: 100vw;
-    height: 70vh;
-    position: fixed;
+    width: 100%;
+    height: 60vh;
+    position: static;
     top: 0;
     left: 0;
+    margin-right: -5%;
+    margin-left: 5%;
+    width: 90%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    border-radius: .8rem !important;
   }
 
 
   .testvideo {
     object-fit: cover;
     width: 100%;
-    height: 60vh;
+    height: 30vh;
     position: static;
     top: 0;
     left: 0;
@@ -235,7 +250,9 @@
 
 .containerfluid{
     background-color: transparent !important;
+
 }
+
 
 
 .mainfloat{
@@ -250,6 +267,8 @@
     padding-right: 0rem !important;
     padding-bottom: 0rem !important;
     padding-left: 0rem !important;
+
+    
 }
 
 .largefont{
@@ -390,6 +409,15 @@
     position: absolute;
     width: 35%;
     bottom: 30px;
+    left:5%;
+}
+
+.image_right{
+    float: right;
+    position: absolute;
+    width: 35%;
+    bottom: 30px;
+    right: 5%;
 }
 
 .welcometitle{
@@ -402,4 +430,10 @@
     font-size: 1em !important;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
+}
+
+.maincontentwrapper{
+    margin-bottom: 3em;
+    bottom: 0;
+    position: absolute;
 }
