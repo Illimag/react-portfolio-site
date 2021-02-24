@@ -74,13 +74,11 @@ export const Home = () => (
 
     <Container className={styles.fonttest}>
 
-    <Slide direction="up" triggerOnce>
+
     <h5 className={styles.welcometitle}>Welcome</h5>
-    </Slide>
-    <Slide direction="up" triggerOnce>
+
     <h5 className={styles.welcomesubtitle}>@UI/UX Designer @San Francisco Bay Area @Silicon Valley, California</h5>
-    </Slide>
-    <Slide direction="up" triggerOnce>
+
     <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.first_badge}>UI/UX</Badge>{' '}
@@ -99,7 +97,7 @@ export const Home = () => (
 
 
 </div>
-    </Slide>
+  
     
 </Container>
 </Jumbotron>
@@ -107,7 +105,6 @@ export const Home = () => (
 
 <Container className={styles.test}>
 
-<Slide direction="up" triggerOnce>
 <LinkContainer to="/uguru">
     <Row>
 
@@ -118,12 +115,10 @@ export const Home = () => (
 
   <div className={styles.maincontentwrapper}>
 
-    <Slide direction="down" duration="1500" triggerOnce>
  
       <h1 className={styles.whitetitle}>UGURU INC.</h1>
       <h5 className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</h5>
-  </Slide>
-  <Slide direction="down" duration="1000" delay="10" triggerOnce>
+
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.first_badge}>UI/UX</Badge>{' '}
@@ -133,7 +128,6 @@ export const Home = () => (
 
 </div>
 
-</Slide>
 </div>
 </Jumbotron>
 
@@ -145,9 +139,8 @@ export const Home = () => (
 
     </Row>
     </LinkContainer>     
-    </Slide>
 
-    <Slide direction="up" triggerOnce duration="1000">
+
     <LinkContainer to="/sanchezcoffeeco">
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -155,14 +148,11 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Slide direction="down" duration="1500" triggerOnce>
 
       <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
       <h5 className={styles.white}>Remote Contract Web Designer and Developer at Coffee Supplier in Los Angeles</h5>
 
 
-  </Slide>
-  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
   <Badge variant="primary" className={styles.first_badge}>Web</Badge>{' '}
@@ -172,7 +162,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
 
 </div>
-</Slide>
+
 </Jumbotron>
 
 <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
@@ -183,9 +173,6 @@ export const Home = () => (
 
     </Row>
     </LinkContainer>
-    </Slide>
-
-    <Slide direction="up" triggerOnce duration="1500">
     <LinkContainer to="/apexvr">
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -193,15 +180,11 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
-    <Slide direction="down" duration="1500" triggerOnce>
-
    
       <h1 className={styles.whitetitle}>APEX VR</h1>
       <h5 className={styles.white}>Contact UI Designer for Virtual Reality Web App for Local Bay Area Videography Company</h5>
 
 
-  </Slide>
-  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
   <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
@@ -211,7 +194,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
 
 </div>
-</Slide>
+
 </Jumbotron>
 
 
@@ -224,10 +207,8 @@ export const Home = () => (
 
     </Row>
     </LinkContainer>
-    </Slide>
 
 
-    <Slide direction="up" triggerOnce duration="1500">
     <LinkContainer to="/stepsaver">
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -236,13 +217,10 @@ export const Home = () => (
 
     <Jumbotron className={styles.float}>
       
-    <Slide direction="down" duration="1500" triggerOnce>
       <h1 className={styles.whitetitle}>STEPSAVER</h1>
       <h5 className={styles.white}>Remote Contract UI Designer for Valet Software Startup in Houston, TX</h5>
 
 
-  </Slide>
-  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
 <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
@@ -251,7 +229,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fourth_badge}>Illustrator</Badge>{' '}
 
 </div>
-</Slide>
+
 </Jumbotron>
 
 
@@ -263,9 +241,7 @@ export const Home = () => (
 
     </Row>
     </LinkContainer>
-    </Slide>
-
-    <Slide direction="up" triggerOnce duration="1500" triggerOnce>
+  
     <LinkContainer to="/dasdasdigital">
     <Row>
     <Col md={12} className={styles.removepadding}>
@@ -273,15 +249,13 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.mainfloatback}>
-    <Slide direction="down" duration="1500" triggerOnce>
+ 
   
 
       <h1 className={styles.whitetitle}>DASDAS DIGITAL</h1>
       <h5 className={styles.white}>UI/UX Designer for Remote Digital Agency Startup in Oakland, CA</h5>
 
 
-  </Slide>
-  <Slide direction="down" duration="1500" delay="10" triggerOnce>
   <div className={styles.badgelist}>
 
   <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
@@ -291,7 +265,7 @@ export const Home = () => (
 <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
 
 </div>
-</Slide>
+
 </Jumbotron>
 
 <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
@@ -303,8 +277,7 @@ export const Home = () => (
   
     </Row>
     </LinkContainer>
-    </Slide>
-
+ 
     </Container>
 
 </Container>

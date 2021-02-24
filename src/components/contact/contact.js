@@ -59,15 +59,21 @@ export const Contact = () => (
     <Col sm>
 
     <h3>Background</h3>
-      <p>Art all 4 years of high school and yes AP art and I was the weird kid that hid under the table during art class. 
-        This was before laptop computers were affordable and yes I never got one until after graduation. 
-        So before all this it was all on paper and pencil. 
-        My mother was very into art and she had a strong belief that art could be a fulfilling career so I attended art tutoring from a very early age around 3 years old and all through high school. 
-        During the summers we didn’t have air condition or a tv so I would draw everyday for months. 
-        After high school I had a portfolio so I applied and was accepted into a private art college in Asia for industrial design, community college for graphic design and Interaction Design at private art college in San Francisco and Oakland California.
-        During this 
+      <p>
+        Educational Background: High School Mission San Jose High School 
+        Art I,II,III, AP Art, Hongik University (Seoul, South Korea) for Industrial Design, 
+        De Anza College (Cupertino, CA) for Graphic Design, 
+        California College of the Arts (San Francisco, CA & Oakland, CA) for Industrial Design and Interaction Design,
+      Southern New Hampshire University for Graphic Design with Web Design.
+
 </p>
 
+<p>
+        Professional Background: Graphic & UI/UX Design Intern at Uguru, INC (SOMA), Graphic Designer at Alarm CCTV Distribution (Fremont, CA),
+        Graphic Design at Tattoo Express Supply (Union City, CA), Print Quality Design Associate at Minted, LLC (Oakland, CA),
+        Web Designer at California College of the Arts (San Francisco, CA), Remote Independent Contractor UX Designer at Jaeminkim.com.
+
+</p>
 
     <h3>Jessica Y.</h3>
       <p>“John (Jae Min) Kim is a resourceful worker and a self-starter. He has a passion for his design and cod
