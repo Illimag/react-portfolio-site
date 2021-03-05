@@ -53,12 +53,7 @@ const Footer = () => (
       Jaeminkim.com
     </p>
     <p className={styles.centertext}>
-    2020
-    </p>
-    <p className={styles.centertext}>
-      <a href="https://www.notion.so/How-to-become-an-UX-Designer-Design-Journal-822b58c3456d44cb98cdd0e3cc4a0c8a">
-        How to Become an UX Designer in 2020
-      </a>
+    2021
     </p>
 </Container>
 </Jumbotron>
