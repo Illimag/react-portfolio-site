@@ -10,6 +10,10 @@
 
 ![contact](img/contact.PNG)
 
+# Deploying to Github Pages
+
+    npm run deploy
+
 ## Features
 
 6 portfolio pieces in each individual page.
