@@ -1,5 +1,10 @@
 # Jaeminkim.com
 
+![stack](img/stack.PNG)
+![home](img/home.PNG)
+![pieces](img/pieces.PNG)
+![contact](img/contact.PNG)
+
 ## Features
 
 6 portfolio pieces in each individual page.
