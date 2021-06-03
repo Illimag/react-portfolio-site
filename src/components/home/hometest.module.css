@@ -35,7 +35,7 @@
     padding-right: 0px !important;
     padding-left: 0px !important;
     padding-top: 0% !important;
-    padding-bottom: 5% !important;
+    padding-bottom: 0% !important;
     background-color: #fff;
 
 }
@@ -91,13 +91,15 @@
     height: 60vh;
     object-fit: cover;
     z-index: 10;
-    margin-right: -5%;
-    margin-left: 5%;
-    width: 90%;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
+    /*
     border-radius: .8rem !important;
+    */
 }
 
 .float{
@@ -106,13 +108,15 @@
     height: 30vh;
     object-fit: cover;
     z-index: 10;
-    margin-right: -5%;
-    margin-left: 5%;
-    width: 90%;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
+    /*
     border-radius: .8rem !important;
+    */
 }
 
 .fixfloatbug{
@@ -226,11 +230,11 @@
     position: static;
     top: 0;
     left: 0;
-    margin-right: -5%;
-    margin-left: 5%;
-    width: 90%;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-    border-radius: .8rem !important;
+    /*border-radius: .8rem !important;*/
   }
 
 
@@ -241,11 +245,13 @@
     position: static;
     top: 0;
     left: 0;
-    margin-right: -5%;
-    margin-left: 5%;
-    width: 90%;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    /*
     border-radius: .8rem !important;
+    */
 }
 
 .containerfluid{
