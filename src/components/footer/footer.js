@@ -55,6 +55,10 @@ const Footer = () => (
     <p className={styles.centertext}>
     2021
     </p>
+
+    <p className={styles.centertext}><a href="https://github.com/jaeminkim-com/user_interface_and_user_experience_design_handbook">User Interface and User Experience Design Handbook</a>
+
+    </p>
 </Container>
 </Jumbotron>
 
