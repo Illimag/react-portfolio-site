@@ -22,11 +22,11 @@ import DasDasimg from '../../assets/img/dasdasdgg-01.png';
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
 */
-import Vid02 from '../../assets/vids/compressed_vid/vid2.m4v';
-import Vid03 from '../../assets/vids/compressed_vid/vid3.m4v';
-import Vid04 from '../../assets/vids/compressed_vid/vid0.m4v';
-import Vid05 from '../../assets/vids/compressed_vid/vid4.m4v';
-import Vid06 from '../../assets/vids/compressed_vid/vid1.m4v';
+import Vid02 from '../../assets/vids/test.mp4';
+import Vid03 from '../../assets/vids/compress_vid0.mp4';
+import Vid04 from '../../assets/vids/compress_vid1.mp4';
+import Vid05 from '../../assets/vids/compress_vid2.mp4';
+import Vid06 from '../../assets/vids/compress_vid5.mp4';
 
 import Uguru_Img from '../../assets/img/uguru/banner-01.jpg';
 import Sanchezcoffeeco_Img from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
@@ -68,7 +68,7 @@ export const Home = () => (
 <Container fluid className={styles.containerfluid}>
 
 
-
+{/*
 <Container fluid className={styles.containerfluid}>
     <Jumbotron fluid className={styles.test}>
 
@@ -102,6 +102,8 @@ export const Home = () => (
 </Container>
 </Jumbotron>
 </Container>
+*/}
+
 
 <Container className={styles.test}>
 
@@ -134,7 +136,6 @@ export const Home = () => (
 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
       <source src={Vid02} type="video/mp4" />
     </video>
-    
     </Col>
 
     </Row>
@@ -148,6 +149,8 @@ export const Home = () => (
 
 
     <Jumbotron className={styles.float}>
+
+      
 
       <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
       <h5 className={styles.white}>Remote Contract Web Designer and Developer at Coffee Supplier in Los Angeles</h5>
