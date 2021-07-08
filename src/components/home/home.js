@@ -22,7 +22,7 @@ import DasDasimg from '../../assets/img/dasdasdgg-01.png';
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
 */
-import Vid02 from '../../assets/vids/test.mp4';
+import Vid02 from '../../assets/vids/compress_vid6.mp4';
 import Vid03 from '../../assets/vids/compress_vid0.mp4';
 import Vid04 from '../../assets/vids/compress_vid1.mp4';
 import Vid05 from '../../assets/vids/compress_vid2.mp4';
