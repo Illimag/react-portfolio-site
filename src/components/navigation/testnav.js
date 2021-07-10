@@ -9,6 +9,7 @@ import { Dasdasdigital } from '../dasdasdigital/dasdasdigital'
 import { Sanchezcoffeeco } from '../sanchezcoffeeco/sanchezcoffeeco'
 import { Apexvr } from '../apexvr/apexvr'
 import { Stepsaver } from '../stepsaver/stepsaver'
+import { Dominos } from '../dominos/dominos'
 import { Blog } from '../blog/blog'
 import { Feed } from '../feed/feed'
 
@@ -37,6 +38,7 @@ const routes = [
   { path: '/apexvr', name: 'APEX VR', Component: Apexvr },
   { path: '/stepsaver', name: 'STEPSAVER', Component: Stepsaver },
   { path: '/dasdasdigital', name: 'DASDAS DIGITAL', Component: Dasdasdigital },
+  { path: '/dominos', name: 'DOMINOS', Component: Dominos },
   { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]
 
