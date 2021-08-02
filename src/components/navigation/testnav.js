@@ -26,7 +26,7 @@ import Github from '../../assets/githublogoback.png';
 import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
 
-import logo from '../../assets/jklogo-01.png';
+import logo from '../../assets/logo_black.png';
 
 import styles from './navigation.module.css'
 import './navigation.css'
@@ -78,16 +78,20 @@ function TestNav() {
       <Navbar style={style} className={styles.navbar} expand="lg" fixed="top" >
 
 
- {/*
-<LinkContainer to="/">
+
+
+  <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
+
+  <LinkContainer to="/">
   <Navbar.Brand className={styles.logo}>
   <Image src={logo} fluid />
   </Navbar.Brand>
   </LinkContainer>
- */}
-
-  <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
+  
   <Navbar.Collapse id="basic-navbar-nav" className={styles.navbarbackgroudcolor} >
+
+
+
     <Nav className="ml-auto">
             {routes.map(route => (
               <Nav.Link

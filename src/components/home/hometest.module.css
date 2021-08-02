@@ -443,3 +443,14 @@
     bottom: 0;
     position: absolute;
 }
+
+.available{
+    color: green
+}
+
+
+
+.welcome{
+    margin-top: 100px;
+    background-color: white !important;
+}

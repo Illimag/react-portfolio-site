@@ -2,7 +2,6 @@
     top:.5rem !important;
     right: .5rem !important;
     position: absolute !important;
-    
 }
 
 .navbar{
@@ -15,8 +14,8 @@
 }
 
 .logo{
-height:3rem;
-width:3rem;
+height:4rem;
+width:15rem;
 }
 
 .white{
@@ -27,7 +26,9 @@ width:3rem;
 }
 
 
-
+.fonttext{
+    font-size:3em !important;
+}
 
 
 
@@ -84,3 +85,4 @@ width:3rem;
 .navbarbackgroudcolor{
     background-color: white;
 }
+

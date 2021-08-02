@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
-
+import Button from 'react-bootstrap/Button';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
@@ -27,6 +27,8 @@ import Vid03 from '../../assets/vids/compress_vid0.mp4';
 import Vid04 from '../../assets/vids/compress_vid1.mp4';
 import Vid05 from '../../assets/vids/compress_vid2.mp4';
 import Vid06 from '../../assets/vids/compress_vid5.mp4';
+import Vid07 from '../../assets/vids/compress_vid4.mp4';
+
 
 import Uguru_Img from '../../assets/img/uguru/banner-01.jpg';
 import Sanchezcoffeeco_Img from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
@@ -106,6 +108,33 @@ export const Home = () => (
 
 
 <Container className={styles.test}>
+
+    <Row>
+
+
+    <Col md={12} className={styles.removepadding}>
+
+    <Jumbotron className={styles.welcome}>
+  <h5>Welcome</h5>
+  <p>
+    John (Jae Min) Kim is a local UI/UX Designer from the San Francisco Bay Area, and Silicon Valley. <br></br>
+   </p>
+
+  <p>
+   <span className={styles.available}>Available</span> for Full-Time, Part-Time, Contract and Freelance. Have a nice day!
+  </p>
+
+  <LinkContainer to="/Contact">
+  <p>
+    <Button className={styles.mainbutton} variant="primary">Contact Now</Button>
+  </p>
+  </LinkContainer>
+</Jumbotron>
+
+    </Col>
+
+    </Row>
+
 
 <LinkContainer to="/uguru">
     <Row>
@@ -280,6 +309,44 @@ export const Home = () => (
   
     </Row>
     </LinkContainer>
+
+  
+    <LinkContainer to="/dominos">
+    <Row>
+    <Col md={12} className={styles.removepadding}>
+
+
+
+    <Jumbotron className={styles.mainfloatback}>
+ 
+  
+
+      <h1 className={styles.whitetitle}>Dominos</h1>
+      <h5 className={styles.white}>UI/UX Designer for Remote Digital Agency Startup in Oakland, CA</h5>
+
+
+  <div className={styles.badgelist}>
+
+  <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
+<Badge variant="primary" className={styles.second_badge}>Web</Badge>{' '}
+<Badge variant="primary" className={styles.third_badge}>React.JS</Badge>{' '}
+<Badge variant="primary" className={styles.fourth_badge}>Bootstrap</Badge>{' '}
+<Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
+
+</div>
+
+</Jumbotron>
+
+<video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={Vid07} type="video/mp4" />
+    </video>
+ 
+    </Col>
+
+  
+    </Row>
+    </LinkContainer>
+
  
     </Container>
 
