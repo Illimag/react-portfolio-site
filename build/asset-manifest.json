@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c480c6ba.chunk.css",
-    "main.js": "/static/js/main.65a00f80.chunk.js",
-    "main.js.map": "/static/js/main.65a00f80.chunk.js.map",
+    "main.css": "/static/css/main.581190d5.chunk.css",
+    "main.js": "/static/js/main.e2d9fa00.chunk.js",
+    "main.js.map": "/static/js/main.e2d9fa00.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82579a8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.82579a8e.js.map",
     "static/css/2.8163d445.chunk.css": "/static/css/2.8163d445.chunk.css",
-    "static/js/2.9e224044.chunk.js": "/static/js/2.9e224044.chunk.js",
-    "static/js/2.9e224044.chunk.js.map": "/static/js/2.9e224044.chunk.js.map",
+    "static/js/2.645c5e0d.chunk.js": "/static/js/2.645c5e0d.chunk.js",
+    "static/js/2.645c5e0d.chunk.js.map": "/static/js/2.645c5e0d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6e489e2ab04762b0ab052a54808ac9fc.js": "/precache-manifest.6e489e2ab04762b0ab052a54808ac9fc.js",
+    "precache-manifest.f1e5a67db82bc8aa1022fd58327616a0.js": "/precache-manifest.f1e5a67db82bc8aa1022fd58327616a0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8163d445.chunk.css.map": "/static/css/2.8163d445.chunk.css.map",
-    "static/css/main.c480c6ba.chunk.css.map": "/static/css/main.c480c6ba.chunk.css.map",
-    "static/js/2.9e224044.chunk.js.LICENSE.txt": "/static/js/2.9e224044.chunk.js.LICENSE.txt",
+    "static/css/main.581190d5.chunk.css.map": "/static/css/main.581190d5.chunk.css.map",
+    "static/js/2.645c5e0d.chunk.js.LICENSE.txt": "/static/js/2.645c5e0d.chunk.js.LICENSE.txt",
     "static/media/1-01.071bc6ba.jpg": "/static/media/1-01.071bc6ba.jpg",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
     "static/media/1-01.c87bb460.jpg": "/static/media/1-01.c87bb460.jpg",
@@ -200,7 +200,6 @@
     "static/media/f_polar_4-min.06d2f2e6.png": "/static/media/f_polar_4-min.06d2f2e6.png",
     "static/media/f_stepsaver_1-min.1856a800.png": "/static/media/f_stepsaver_1-min.1856a800.png",
     "static/media/f_warm_0-min.aed46942.png": "/static/media/f_warm_0-min.aed46942.png",
-    "static/media/jklogo-01.7608b922.png": "/static/media/jklogo-01.7608b922.png",
     "static/media/main_pic-min.1cdd27fa.png": "/static/media/main_pic-min.1cdd27fa.png",
     "static/media/main_pic-min.38a5a661.png": "/static/media/main_pic-min.38a5a661.png",
     "static/media/ordersize.PNG": "/static/media/ordersize.fed78b53.PNG",
@@ -249,8 +248,8 @@
   "entrypoints": [
     "static/js/runtime-main.82579a8e.js",
     "static/css/2.8163d445.chunk.css",
-    "static/js/2.9e224044.chunk.js",
-    "static/css/main.c480c6ba.chunk.css",
-    "static/js/main.65a00f80.chunk.js"
+    "static/js/2.645c5e0d.chunk.js",
+    "static/css/main.581190d5.chunk.css",
+    "static/js/main.e2d9fa00.chunk.js"
   ]
 }
