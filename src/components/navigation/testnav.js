@@ -10,8 +10,8 @@ import { Sanchezcoffeeco } from '../sanchezcoffeeco/sanchezcoffeeco'
 import { Apexvr } from '../apexvr/apexvr'
 import { Stepsaver } from '../stepsaver/stepsaver'
 import { Dominos } from '../dominos/dominos'
-import { Blog } from '../blog/blog'
-import { Feed } from '../feed/feed'
+//import { Blog } from '../blog/blog'
+//import { Feed } from '../feed/feed'
 
 
 import useWindowScrollPosition from "@rehooks/window-scroll-position";
@@ -67,95 +67,86 @@ function TestNav() {
     top: 0
   };
   return (
-
     <>
-    
-   <div style={style}></div>
+      <div style={style}></div>
 
-    <Router>
-    <ScrollToTop>
-      <>
-      <Navbar style={style} className={styles.navbar} expand="lg" fixed="top" >
+      <Router>
+        <ScrollToTop>
+          <>
+            <Navbar style={style} className={styles.navbar} expand="lg" fixed="top" >
+              <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
+              <LinkContainer to="/">
+                <Navbar.Brand className={styles.logo}>
+                  <Image src={logo} fluid />
+                </Navbar.Brand>
+              </LinkContainer>
 
+              <Navbar.Collapse id="basic-navbar-nav" className={styles.navbarbackgroudcolor} >
+                <Nav className="ml-auto">
+                  {routes.map(route => (
+                    <Nav.Link
+                      key={route.path}
+                      as={NavLink}
+                      to={route.path}
+                      activeClassName="active"
+                      exact
+                    >
+                      {route.name}
+                    </Nav.Link>
+                  ))}
 
+                  <Row className={styles.socialrow}>
 
+                    <Col xs={4} md={4} className={styles.centericon}>
+                      <a href="https://www.linkedin.com/in/jaeminkim-com">
+                        <Image src={Linkedin} roundedCircle className={styles.icons} />
+                      </a>
+                    </Col>
 
-  <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
+                    <Col xs={4} md={4} className={styles.centericon}>
+                      <a href="https://www.behance.net/jaeminkim2">
+                        <Image src={Behance} roundedCircle className={styles.icons} />
+                      </a>
+                    </Col>
 
-  <LinkContainer to="/">
-  <Navbar.Brand className={styles.logo}>
-  <Image src={logo} fluid />
-  </Navbar.Brand>
-  </LinkContainer>
-  
-  <Navbar.Collapse id="basic-navbar-nav" className={styles.navbarbackgroudcolor} >
+                    <Col xs={4} md={4} className={styles.centericon}>
+                      <a href="https://github.com/jaeminkim-com">
+                        <Image src={Github} roundedCircle className={styles.icons} />
+                      </a>
+                    </Col>
 
+                  </Row>
 
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
 
-    <Nav className="ml-auto">
-            {routes.map(route => (
-              <Nav.Link
-                key={route.path}
-                as={NavLink}
-                to={route.path}
-                activeClassName="active"
-                exact
-              >
-                {route.name}
-              </Nav.Link>
-            ))}
+            <Container className="container">
+              {routes.map(({ path, Component }) => (
+                <Route key={path} exact path={path}>
+                  {({ match }) => (
+                    <CSSTransition
+                      in={match != null}
+                      timeout={300}
+                      classNames="page"
+                      unmountOnExit
+                    >
+                      <div className="page">
+                        <Component />
+                      </div>
+                    </CSSTransition>
+                  )}
+                </Route>
+              ))}
 
-<Row className={styles.socialrow}>
-
-<Col xs={4} md={4} className={styles.centericon}>
-<a href="https://www.linkedin.com/in/jaeminkim-com">
-  <Image src={Linkedin} roundedCircle className={styles.icons}/>
-</a>
-</Col>
-<Col xs={4} md={4} className={styles.centericon}>
-<a href="https://www.behance.net/jaeminkim2">
-  <Image src={Behance} roundedCircle className={styles.icons}/>
-</a>
-</Col>
-<Col xs={4} md={4} className={styles.centericon}>
-<a href="https://github.com/jaeminkim-com">
-  <Image src={Github} roundedCircle className={styles.icons} />
-</a>
-</Col>
-</Row>           
-
-        </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-
-        <Container className="container">
-          {routes.map(({ path, Component }) => (
-            <Route key={path} exact path={path}>
-              {({ match }) => (
-                <CSSTransition
-                  in={match != null}
-                  timeout={300}
-                  classNames="page"
-                  unmountOnExit
-                >
-                  <div className="page">
-                    <Component />
-                    
- 
- 
-                  </div>
-                </CSSTransition>
-              )}
-            </Route>
-          ))}
-        </Container>
-      </>
-      </ScrollToTop>
-    </Router>
+            </Container>
+          </>
+        </ScrollToTop>
+      </Router>
     </>
-   
-   );
-  }
-  
+
+  );
+}
+
 
 export default TestNav;

@@ -1,32 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 // import throttle from "lodash/throttle";
-import useWindowScrollPosition from "@rehooks/window-scroll-position";
+//import useWindowScrollPosition from "@rehooks/window-scroll-position";
 import { MemoryRouter, Switch, Route } from 'react-router-dom';
-
 import { PageTransition } from '@steveeeie/react-page-transition';
-
-
 import Container from 'react-bootstrap/Container';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-
 import { LinkContainer } from 'react-router-bootstrap';
-
 import { Home } from '../home/home'
-
 import { Contact } from '../contact/contact'
-
 import { Uguru } from '../uguru/uguru'
-
 import { Dasdasdigital } from '../dasdasdigital/dasdasdigital'
-
 import { Sanchezcoffeeco } from '../sanchezcoffeeco/sanchezcoffeeco'
-
 import { Apexvr } from '../apexvr/apexvr'
-
 import { Stepsaver } from '../stepsaver/stepsaver'
-
 import ScrollToTop from 'react-router-scroll-top'
 
 import styles from './navigation.module.css'
@@ -38,7 +26,7 @@ const TestNav = () => (
 
 
     <MemoryRouter>
-        
+
   <ScrollToTop>
     <Container className={styles.navbarbackground}>
         <Navbar className={styles.navbar} expand="lg" fixed="top" >
@@ -48,7 +36,6 @@ const TestNav = () => (
             Jaeminkim
           </Navbar.Brand>
           </LinkContainer>
-
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
           <Navbar.Collapse id="basic-navbar-nav" >
@@ -72,12 +59,10 @@ const TestNav = () => (
             <LinkContainer to="/Contact">
               <Nav.Link className={styles.white}>Contact/About</Nav.Link>
             </LinkContainer>
-            
+
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-
-
 
         <Route
         render={({ location }) => {
@@ -95,19 +80,19 @@ const TestNav = () => (
 
             </Route>
             <Route exact path="/apexvr" component={Apexvr}>
-      
+
             </Route>
             <Route exact path="/dasdasdigital" component={Dasdasdigital}>
-             
+
             </Route>
             <Route exact path="/stepsaver" component={Stepsaver}>
-           
+
             </Route>
             <Route exact path="/contact" component={Contact}>
-            
+
             </Route>
-            <Route exact path="/" component={Home}> 
-            
+            <Route exact path="/" component={Home}>
+
             </Route>
 
               </Switch>
@@ -136,7 +121,7 @@ const TestNav = () => (
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/"> 
+            <Route path="/">
               <Home />
             </Route>
           </Switch>
@@ -146,7 +131,7 @@ const TestNav = () => (
     </ScrollToTop>
     </MemoryRouter>
     </>
-   
+
 
 );
 

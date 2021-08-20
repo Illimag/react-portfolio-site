@@ -11,50 +11,45 @@ const Img5 = require('../../assets/img/dasdasdgg-01.png');
 const Vid0 = require('../../assets/vids/students_working.mp4');
 
 const urls = [
-    Img1,Img2,Img3,Img4,Img5,Vid0
+  Img1, Img2, Img3, Img4, Img5, Vid0
 ];
 
 function PreLoad() {
-    const [loading, setLoading] = useState(true);
-    const counter = useRef(0);
-    const imageLoaded = () => {
-      counter.current += 1;
-      console.log(counter.current)
-      console.log(urls.length)
-      if (counter.current >= urls.length) {
-        setLoading(false);
-      }
+  const [loading, setLoading] = useState(true);
+  const counter = useRef(0);
+  const imageLoaded = () => {
+    counter.current += 1;
+    console.log(counter.current)
+    console.log(urls.length)
+    if (counter.current >= urls.length) {
+      setLoading(false);
     }
+  }
 
-    
-    return (
-        <>
-        <LoadingProgress    
-              active={true}
-              total={10}
-              current={counter.current}
-              
+  return (
+    <>
+      <LoadingProgress
+        active={true}
+        total={10}
+        current={counter.current}
       />
-  
-  <div style={{display: loading ? "block" : "none"}}>
-         Loading images,
+
+      <div style={{ display: loading ? "block" : "none" }}>
+        Loading images,
       </div>
-      <div style={{display: loading ? "none" : "block"}}>
-        {urls.map(url => 
-          <img 
+      <div style={{ display: loading ? "none" : "block" }}>
+        {urls.map(url =>
+          <img
             key={url}
             src={url}
-            onLoad={imageLoaded}/>)}
+            onLoad={imageLoaded} />)}
       </div>
 
-          <div id="preload">
-  
-          </div>
-  
-      </>
+      <div id="preload">
 
-    )
-    
+      </div>
+
+    </>
+  )
 }
-
-    export default PreLoad;
+export default PreLoad;

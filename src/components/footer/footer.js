@@ -13,8 +13,6 @@ import Behance from '../../assets/behance.png';
 
 import styles from './footer.module.css'
 
-import TestNav from '../navigation/testnav'
-
 const Footer = () => (
 /* Start of JSX Fragment*/
 <>
