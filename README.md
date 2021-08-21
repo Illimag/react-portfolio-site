@@ -490,4 +490,6 @@ Cant figure out how to implement there seens to be an issue related to
 
     npm i --save react-lazy-load-image-component
 
-    
+## Install react-pdf
+
+    npm install react-pdf
