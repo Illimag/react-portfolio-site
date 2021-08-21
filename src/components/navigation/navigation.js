@@ -10,11 +10,11 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { Home } from '../home/home'
 import { Contact } from '../contact/contact'
 import { Uguru } from '../uguru/uguru'
-import { Dasdasdigital } from '../dasdasdigital/dasdasdigital'
+import { Artrendezvous } from '../artrendezvous/artrendezvous'
 import { Sanchezcoffeeco } from '../sanchezcoffeeco/sanchezcoffeeco'
 import { Apexvr } from '../apexvr/apexvr'
 import { Stepsaver } from '../stepsaver/stepsaver'
-import { Nikerate } from '../nikerate/nikerate'
+import { Legacypictures } from '../legacypictures/legacypictures'
 import ScrollToTop from 'react-router-scroll-top'
 import styles from './navigation.module.css'
 import './navigation.css'
@@ -43,24 +43,24 @@ const Navigation = () => (
                   <Nav.Link className={styles.white}>• UGURU INC</Nav.Link>
                 </LinkContainer>
 
+                <LinkContainer to="/legacypictures">
+                  <Nav.Link className={styles.white}>• Legacy Pictures</Nav.Link>
+                </LinkContainer>
+
+                <LinkContainer to="/artrendezvous">
+                  <Nav.Link className={styles.white}>• Art rendez-vous</Nav.Link>
+                </LinkContainer>
+
                 <LinkContainer to="/sanchezcoffeeco">
-                  <Nav.Link className={styles.white}>• SANCHEZ COFFEE CO</Nav.Link>
-                </LinkContainer>
-
-                <LinkContainer to="/apexvr">
-                  <Nav.Link className={styles.white}>• APEX VR</Nav.Link>
-                </LinkContainer>
-
-                <LinkContainer to="/dasdasdigital">
                   <Nav.Link className={styles.white}>• DASDAS DIGITAL</Nav.Link>
                 </LinkContainer>
 
-                <LinkContainer to="/stepsaver">
-                  <Nav.Link className={styles.white}>• STEPSAVER</Nav.Link>
+                <LinkContainer to="/apexvr">
+                  <Nav.Link className={styles.white}>• Apex VR</Nav.Link>
                 </LinkContainer>
 
-                <LinkContainer to="/nikerate">
-                  <Nav.Link className={styles.white}>• Nike Rate</Nav.Link>
+                <LinkContainer to="/stepsaver">
+                  <Nav.Link className={styles.white}>• Stepsaver</Nav.Link>
                 </LinkContainer>
               </Nav>
             </Navbar.Collapse>
@@ -70,20 +70,20 @@ const Navigation = () => (
             <Route path="/uguru">
               <Uguru />
             </Route>
+            <Route path="/legacypictures">
+              <Legacypictures />
+            </Route>
+            <Route path="/artrendezvous">
+              <Artrendezvous />
+            </Route>
             <Route path="/sanchezcoffeeco">
               <Sanchezcoffeeco />
             </Route>
             <Route path="/apexvr">
               <Apexvr />
             </Route>
-            <Route path="/dasdasdigital">
-              <Dasdasdigital />
-            </Route>
             <Route path="/stepsaver">
               <Stepsaver />
-            </Route>
-            <Route path="/nikerate">
-              <Nikerate />
             </Route>
             <Route path="/contact">
               <Contact />

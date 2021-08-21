@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 // LazyLoadImage } from 'react-lazy-load-image-component';
 
 
+
 //import { Slide } from "react-awesome-reveal";
 //import Typing from 'react-typing-animation';
 
@@ -110,11 +111,8 @@ export const Home = () => (
             <Jumbotron className={styles.welcome}>
               <h5>Welcome</h5>
               <p>
-                John (Jae Min) Kim is a local UI/UX Designer from the San Francisco Bay Area, and Silicon Valley. <br></br>
-              </p>
-
-              <p>
-                <span className={styles.available}>Available</span> for Full-Time, Part-Time, Contract and Freelance. Have a nice day!
+                John (Jae Min) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
+                <span className={styles.available}> Available</span> for Full-Time, Part-Time, Contract and Freelance. Have a nice day!
               </p>
 
               <LinkContainer to="/Contact">
@@ -137,10 +135,17 @@ export const Home = () => (
                   <h5 className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</h5>
 
                   <div className={styles.badgelist}>
-                    <Badge variant="primary" className={styles.first_badge}>UI/UX</Badge>{' '}
-                    <Badge variant="primary" className={styles.second_badge}>App</Badge>{' '}
-                    <Badge variant="primary" className={styles.third_badge}>Prototyping</Badge>{' '}
-                    <Badge variant="primary" className={styles.fourth_badge}>Illustrator</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
+                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
+                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
+                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
                   </div>
                 </div>
               </Jumbotron>
@@ -153,21 +158,36 @@ export const Home = () => (
           </Row>
         </LinkContainer>
 
-        <LinkContainer to="/sanchezcoffeeco">
+        <LinkContainer to="/legacypictures">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.float}>
-                <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
-                <h5 className={styles.white}>Remote Contract Web Designer and Developer at Coffee Supplier in Los Angeles</h5>
+              <div className={styles.maincontentwrapper}>
+
+                <h1 className={styles.whitetitle}>LEGACY PICTURES</h1>
+                <h5 className={styles.white}>International Videography Web Application User Experience and Redesign</h5>
 
                 <div className={styles.badgelist}>
-                  <Badge variant="primary" className={styles.first_badge}>Web</Badge>{' '}
-                  <Badge variant="primary" className={styles.second_badge}>E-Commerce</Badge>{' '}
-                  <Badge variant="primary" className={styles.third_badge}>WordPress</Badge>{' '}
-                  <Badge variant="primary" className={styles.fourth_badge}>PayPal</Badge>{' '}
-                  <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
+                <Badge variant="primary" className={styles.first_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                <Badge variant="primary" className={styles.first_badge}>FIGMA</Badge>{' '}
+                <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
+                <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>WEB</Badge>{' '}
+                  <Badge variant="primary" className={styles.second_badge}>E-COMMERCE</Badge>{' '}
+                  <Badge variant="primary" className={styles.third_badge}>WORDPRESS</Badge>{' '}
+                  <Badge variant="primary" className={styles.fourth_badge}>PAYPAL MANAGER</Badge>{' '}
+                  <Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>CSS</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>STRIPE</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>SQUARE</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>RESPONSIVE DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>PAYMENT GATEWAY</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>PAYMENT PROCESSOR</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>USER TESTING</Badge>{' '}
+                  <Badge variant="primary" className={styles.first_badge}>USABILITY</Badge>{' '}
                 </div>
-
+              </div>
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
@@ -178,22 +198,31 @@ export const Home = () => (
           </Row>
         </LinkContainer>
 
-        <LinkContainer to="/apexvr">
+        <LinkContainer to="/artrendezvous">
           <Row>
             <Col md={12} className={styles.removepadding}>
 
               <Jumbotron className={styles.float}>
-                <h1 className={styles.whitetitle}>APEX VR</h1>
-                <h5 className={styles.white}>Contact UI Designer for Virtual Reality Web App for Local Bay Area Videography Company</h5>
+              <div className={styles.maincontentwrapper}>
+
+                <h1 className={styles.whitetitle}>ART RENDEZ-VOUS</h1>
+                <h5 className={styles.white}>New York City Art Gallery and Museum Social Media iOS Mobile Application User Experience and Redesign</h5>
 
                 <div className={styles.badgelist}>
-                  <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
-                  <Badge variant="primary" className={styles.second_badge}>VR</Badge>{' '}
-                  <Badge variant="primary" className={styles.third_badge}>Aframe</Badge>{' '}
-                  <Badge variant="primary" className={styles.fourth_badge}>Angular.JS</Badge>{' '}
-                  <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
-                </div>
+                    <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
+                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
+                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
+                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
 
+                </div>
+              </div>
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
@@ -206,21 +235,28 @@ export const Home = () => (
         </LinkContainer>
 
 
-        <LinkContainer to="/stepsaver">
+        <LinkContainer to="/sanchezcoffeeco">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.float}>
+              <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>STEPSAVER</h1>
-                <h5 className={styles.white}>Remote Contract UI Designer for Valet Software Startup in Houston, TX</h5>
+                <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
+                <h5 className={styles.white}>Los Angeles Coffee Distribution Company Web Payment Platform</h5>
 
                 <div className={styles.badgelist}>
-                  <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
-                  <Badge variant="primary" className={styles.second_badge}>App</Badge>{' '}
-                  <Badge variant="primary" className={styles.third_badge}>Web</Badge>{' '}
-                  <Badge variant="primary" className={styles.fourth_badge}>Illustrator</Badge>{' '}
-                </div>
-
+                <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
+                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
+                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
+                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}                </div>
+              </div>
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
@@ -231,20 +267,28 @@ export const Home = () => (
           </Row>
         </LinkContainer>
 
-        <LinkContainer to="/dasdasdigital">
+        <LinkContainer to="/apexvr">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
-                <h1 className={styles.whitetitle}>DASDAS DIGITAL</h1>
-                <h5 className={styles.white}>UI/UX Designer for Remote Digital Agency Startup in Oakland, CA</h5>
+              <div className={styles.maincontentwrapper}>
+  
+                <h1 className={styles.whitetitle}>APEX VR</h1>
+                <h5 className={styles.white}>San Leandro Videography Company Virtual Reality Web Application Design</h5>
 
                 <div className={styles.badgelist}>
-                  <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
-                  <Badge variant="primary" className={styles.second_badge}>Web</Badge>{' '}
-                  <Badge variant="primary" className={styles.third_badge}>React.JS</Badge>{' '}
-                  <Badge variant="primary" className={styles.fourth_badge}>Bootstrap</Badge>{' '}
-                  <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
-                </div>
+                <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
+                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
+                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
+                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}                </div>
+              </div>  
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
@@ -255,21 +299,28 @@ export const Home = () => (
           </Row>
         </LinkContainer>
 
-        <LinkContainer to="/dominos">
+        <LinkContainer to="/stepsaver">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
-                <h1 className={styles.whitetitle}>Dominos</h1>
-                <h5 className={styles.white}>UI/UX Designer for Remote Digital Agency Startup in Oakland, CA</h5>
+              <div className={styles.maincontentwrapper}>
+  
+                <h1 className={styles.whitetitle}>UX DESIGN SUMO</h1>
+                <h5 className={styles.white}>User Experience Designer Community Website Design</h5>
 
                 <div className={styles.badgelist}>
-                  <Badge variant="primary" className={styles.first_badge}>UI</Badge>{' '}
-                  <Badge variant="primary" className={styles.second_badge}>Web</Badge>{' '}
-                  <Badge variant="primary" className={styles.third_badge}>React.JS</Badge>{' '}
-                  <Badge variant="primary" className={styles.fourth_badge}>Bootstrap</Badge>{' '}
-                  <Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
-                </div>
-
+                <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
+                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
+                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
+                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}                </div>
+              </div>
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>

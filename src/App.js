@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import Footer from './components/footer/footer'
-import TestNav from './components/navigation/testnav'
+import MainNav from './components/navigation/mainnav'
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 const App = () => (
   <>
-    <TestNav></TestNav>
+    <MainNav></MainNav>
     <ScrollUpButton></ScrollUpButton>
     <Footer></Footer>
   </>

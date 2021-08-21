@@ -10,6 +10,7 @@ import Image from 'react-bootstrap/Image';
 import Github from '../../assets/githublogoback.png';
 import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
+import Dribbble from '../../assets/dribbble.png';
 
 import styles from './footer.module.css'
 
@@ -22,7 +23,7 @@ const Footer = () => (
 
 <Jumbotron fluid className={styles.footerBackground}>
   <Container>
-<p className={styles.centertext}>San Francisco Bay Area/Silicon Valley.</p>
+<p className={styles.centertext}>UI/UX Designer local to the San Francisco Bay Area and Silicon Valley.</p>
 
   </Container>
 
@@ -41,14 +42,21 @@ const Footer = () => (
     </a>
     </Col>
     <Col xs={4} md={4} className={styles.centericon}>
+    <a href="https://dribbble.com/jaeminkim-com">
+      <Image src={Dribbble} roundedCircle className={styles.icons} />
+    </a>
+    </Col>
+    <Col xs={4} md={4} className={styles.centericon}>
     <a href="https://github.com/jaeminkim-com">
       <Image src={Github} roundedCircle className={styles.icons} />
     </a>
     </Col>
   </Row>
 
+
+
     <p className={styles.centertext}>
-      Jaeminkim.com
+      All Rights Reserved*
     </p>
     <p className={styles.centertext}>
     2021

@@ -128,7 +128,7 @@
 
 .white{
     color: #fff;
-    font-size: 1em !important;
+    font-size: 3vw !important;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     margin-top: 0px !important;
@@ -322,10 +322,11 @@
 
 .whitetitle{
     color: #fff;
-    font-size: 1.5em !important;
+    font-size: 12vw !important;
     margin-top: 0px !important;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
+    overflow-wrap: break-word;
 }
 
 .whitesubtitle{
@@ -353,9 +354,10 @@
 }
 
 .welcome{
-    font-size: 2em !important;
+    font-size: 4vw !important;
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
+    
 }
 
 .first_badge{
@@ -363,6 +365,7 @@
     display: initial !important;
     color: #fff !important;
     padding: .1em .4em !important;
+    
 }
 
 .second_badge{

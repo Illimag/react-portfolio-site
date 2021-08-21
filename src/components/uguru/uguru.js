@@ -239,8 +239,9 @@ export const Uguru = () => (
             </Link>
           </Col>
           <Col sm={6}>
-            <h1>SanchezCoffee CO</h1>
-            <Link to={'/sanchezcoffeeco'}>
+            <h1>Legacy Pictures</h1>
+            <p>LA Videography Company Website Redesign</p>
+            <Link to={'/legacypictures'}>
               <h5> View Next </h5>
             </Link>
           </Col>
