@@ -25,7 +25,7 @@ import Img09 from '../../assets/img/dominos/1-09.jpg';
 import styles from './apexvr.module.css';
 import './apexvr.css';
 
-import Vid1 from '../../assets/vids/compressed_vid/vid4.m4v';
+import Vid1 from '../../assets/vids/compress_vid0.mp4';
 
 import Codepen from "react-codepen-embed";
 

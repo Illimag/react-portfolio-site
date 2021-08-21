@@ -299,7 +299,7 @@ export const Home = () => (
           </Row>
         </LinkContainer>
 
-        <LinkContainer to="/stepsaver">
+        <LinkContainer to="/uxdesignsumo">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>

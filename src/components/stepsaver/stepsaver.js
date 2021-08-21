@@ -22,7 +22,7 @@ import Img09 from '../../assets/img/stepsaver/1-09.jpg';
 import styles from './stepsaver.module.css';
 import './stepsaver.css';
 
-import Vid1 from '../../assets/vids/compressed_vid/vid1.m4v';
+import Vid1 from '../../assets/vids/compress_vid4.mp4';
 //import Banner from '../../assets/vids/compress_vid4.mp4';
 
 export const Stepsaver = () => (
