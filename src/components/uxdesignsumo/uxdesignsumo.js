@@ -235,13 +235,15 @@ export const Uxdesignsumo = () => (
       <Container>
         <Row className={styles.bottomNavColor}>
           <Col sm={6}>
-            <h1>Stepsaver</h1>
-            <Link to={'/stepsaver'}>
+            <h1>Apex VR</h1>
+            <p>New York City Art Community iOS App Redesign</p>
+            <Link to={'/apexvr'}>
               <h5> View Previous </h5>
             </Link>
           </Col>
           <Col sm={6} >
-            <h1>Questions or just want to say hi?</h1>
+            <h1>Contact Info</h1>
+            <p>Questions or just want to say hi?</p>
             <Link to={'/contact'}>
               <h5> Contact Now </h5>
             </Link>

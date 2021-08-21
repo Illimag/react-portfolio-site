@@ -279,13 +279,15 @@ export const Apexvr = () => (
         <Row className={styles.bottomNavColor}>
           <Col sm={6}>
             <h1>Sanchez Coffee Co.</h1>
+            <p>New York City Art Community iOS App Redesign</p>
             <Link to={'/sanchezcoffeeco'}>
               <h5> View Previous </h5>
             </Link>
           </Col>
           <Col sm={6}>
-            <h1>Stepsaver</h1>
-            <Link to={'/stepsaver'}>
+            <h1>UX Design Sumo</h1>
+            <p>New York City Art Community iOS App Redesign</p>
+            <Link to={'/uxdesignsumo'}>
               <h5> View Next </h5>
             </Link>
           </Col>

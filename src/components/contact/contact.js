@@ -40,6 +40,10 @@ export const Contact = () => (
         <Col sm>
           <h3>John (Jae Min) Kim</h3>
           <h3>San Francisco Bay Area, Silicon Valley</h3>
+          <h3>Email: jaeminkim.com@gmail.com</h3>
+          <h3>Phone: (510)-513-7376</h3>
+          <br></br>
+          <h3>Many Thanks.</h3>
 
           <p>
       AP Art at Mission San Jose High School, background in Fine Art. Academic background began as an Industrial (Product) Design major at Hongik University in Seoul, South Korea, from Industrial Design > De Anza College (Cupertino, CA) Graphic Design > California College of the Arts (San Francisco, CA and Oakland, CA) Industrial Design > California College of the Arts (San Francisco, CA and Oakland, CA) Interaction Design / minor in Computational Practices > Southern New Hamshire University (Remote) Graphic & Web. Winter 2021 Presidents List for SNHU (https://meritpages.com/Jae-Min-Kim/6415480), Pell Grant, CAL Grant B, Clorox Scholor, CCA Scholor, Federal Work Study.
@@ -61,10 +65,7 @@ export const Contact = () => (
             With encouragement from co-developer teams, peer pressure, etc, self-taught web coder, web development, front-end development, full-stack development, additionally minor in computational practices at California College of the Arts (CCA), while an Interaction Design major, JavaScript, HTML, CSS, Jquery, wordpress, bootstrap. Favorite Front-end JavaScript Framework = React.JS.
           </p>
 
-          <h3>Email: jaeminkim.com@gmail.com</h3>
-          <h3>Phone: (510)-513-7376</h3>
-          <br></br>
-          <h3>Many Thanks.</h3>
+
         </Col>
       </Row>
 

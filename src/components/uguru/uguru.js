@@ -250,15 +250,16 @@ export const Uguru = () => (
       <Container>
         <Row className={styles.bottomNavColor}>
           <Col sm={6}>
-            <h1>Stepsaver</h1>
-            <Link to={'/stepsaver'}>
-              <h5> View Previous </h5>
+            <h1>Home</h1>
+            <Link to={'/'}>
+              <h5> Go Home </h5>
             </Link>
           </Col>
           <Col sm={6} >
-            <h1>Questions or just want to say hi?</h1>
-            <Link to={'/contact'}>
-              <h5> Contact Now </h5>
+            <h1>Legacy Pictures</h1>
+            <p>International Videography Website Redesign</p>
+            <Link to={'/legacypictures'}>
+              <h5> View Next </h5>
             </Link>
           </Col>
         </Row>

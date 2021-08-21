@@ -303,13 +303,15 @@ export const Sanchezcoffeeco = () => (
       <Container>
         <Row className={styles.bottomNavColor}>
           <Col sm={6}>
-            <h1>Uguru, INC</h1>
-            <Link to={'/uguru'}>
+          <h1>Art Rendez Vous</h1>
+            <p>New York City Art Community iOS App Redesign</p>
+            <Link to={'/artrendezvous'}>
               <h5> View Previous </h5>
             </Link>
           </Col>
           <Col sm={6}>
             <h1>Apex VR</h1>
+            <p>San Leandro Videography Company Virtual Reality Web Application</p>
             <Link to={'/apexvr'}>
               <h5> View Next </h5>
             </Link>

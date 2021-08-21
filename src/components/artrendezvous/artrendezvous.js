@@ -235,15 +235,18 @@ export const Artrendezvous = () => (
       <Container>
         <Row className={styles.bottomNavColor}>
           <Col sm={6}>
-            <h1>Stepsaver</h1>
-            <Link to={'/stepsaver'}>
+            <h1>Legacy Pictures</h1>
+            <p>International Videography Website Redesign</p>
+            <Link to={'/legacypictures'}>
               <h5> View Previous </h5>
             </Link>
           </Col>
           <Col sm={6} >
-            <h1>Questions or just want to say hi?</h1>
-            <Link to={'/contact'}>
-              <h5> Contact Now </h5>
+            <h1>Sanchez Coffee Co.
+            </h1>
+            <p>Los Angeles Coffee Distribution Company Payment Platform</p>
+            <Link to={'/sanchezcoffeeco'}>
+              <h5> View Next </h5>
             </Link>
           </Col>
         </Row>
