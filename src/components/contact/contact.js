@@ -12,8 +12,6 @@ import './contact.css';
 import profile from '../../assets/profile.jpg';
 import Vid1 from '../../assets/vids/compress_sf.mp4';
 
-// import App from '../pdf_viewer/pdf_viewer.js';
-import { PDFViewer } from 'react-view-pdf';
 
 export const Contact = () => (
   
@@ -52,10 +50,6 @@ export const Contact = () => (
 
 
          
-
-        <PDFViewer url="../../assets/resume/resume.pdf" />
-
-
           <p>
       AP Art at Mission San Jose High School, background in Fine Art. Academic background began as an Industrial (Product) Design major at Hongik University in Seoul, South Korea, from Industrial Design > De Anza College (Cupertino, CA) Graphic Design > California College of the Arts (San Francisco, CA and Oakland, CA) Industrial Design > California College of the Arts (San Francisco, CA and Oakland, CA) Interaction Design / minor in Computational Practices > Southern New Hamshire University (Remote) Graphic & Web. Winter 2021 Presidents List for SNHU (https://meritpages.com/Jae-Min-Kim/6415480), Pell Grant, CAL Grant B, Clorox Scholor, CCA Scholor, Federal Work Study.
           </p>
