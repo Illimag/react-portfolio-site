@@ -110,10 +110,10 @@ export const Home = () => (
           <Col md={12} className={styles.removepadding}>
 
             <Jumbotron className={styles.welcome}>
-              <h5 className={styles.titletext}>Welcome, and thank you for visiting!</h5>
-              <p className={styles.descriptiontext}>
-                John (Jae Min) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
-                <span className={styles.available}> Available</span> for Full-Time, Part-Time, Contract and Freelance. Have a nice day!
+              <h5 className={styles.titletext}>UI/UX Designer located in the San Francisco Bay Area, and Silicon Valley</h5>
+              <p className={styles.descriptionmain}>
+                
+                <span className={styles.available}> Available</span> for In-House, Remote, Full-Time, Part-Time, Contract and Freelance. Have a nice day!
               </p>
               
 

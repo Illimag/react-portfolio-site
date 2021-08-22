@@ -149,8 +149,8 @@ export const Uguru = () => (
       {/* text */}
       <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
             brought into the fold to be sued on the production application. It was a growing experience.
             I worked on the onboarding of the mobile app. For this I designed it based on some sketches
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -166,30 +166,16 @@ export const Uguru = () => (
       </Row>
 
       {/* left text right img */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Development of
-            the MVP</h3>
-          <p>After the designs were completed
+          <p className={styles.title}>Development of
+            the MVP</p>
+          <p className={styles.description}>After the designs were completed
             they were sent over to me, and I started
             with the development of the MVP.</p>
         </Col>
         <Col sm>
           <Image src={Img04} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-
-      {/* codepen*/}
-      <Row>
-        <Col sm>
-          <Codepen
-            hash="WNrqqqe"
-            user="jaemnkm"
-            defaultTab="result"
-            preview={false}
-            height={600}
-          />
         </Col>
       </Row>
 
@@ -204,10 +190,10 @@ export const Uguru = () => (
       </Row>
 
       {/* img with text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Remote Team</h3>
-          <p>The CEO was a software developer located in Oakland, there was a designer, a social media
+          <p className={styles.title}>Remote Team</p>
+          <p className={styles.description}>The CEO was a software developer located in Oakland, there was a designer, a social media
             specialist who did the research for the personas, as well as a admin type of person who was
             in charge of maintain admin stuff.</p>
           <Image src={Img05} fluid className={styles.imgstyle} />
@@ -215,10 +201,10 @@ export const Uguru = () => (
       </Row>
 
       {/* text */}
-      <Row className={styles.test2}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
             brought into the fold to be sued on the production application. It was a growing experience.
             I worked on the onboarding of the mobile app. For this I designed it based on some sketches
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -235,10 +221,10 @@ export const Uguru = () => (
       </Row>
 
       {/* img with text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Developing the Web Interface</h3>
-          <p>The designer designed it based on Bootstrap 4 UI Components so developing the site was quite easy.
+          <p className={styles.title}>Developing the Web Interface</p>
+          <p className={styles.description}>The designer designed it based on Bootstrap 4 UI Components so developing the site was quite easy.
             I created each page and created the fodler system. Then I implemented each page, using code. After
             the project was over I went back and I redesigned the home page and other pages, as well as
             putting the code base onto a React.JS folder system.</p>
@@ -247,11 +233,11 @@ export const Uguru = () => (
       </Row>
 
       {/* left text right img */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Completion of
-            the MVP</h3>
-          <p>The CEO didn’t move any farther
+          <p className={styles.title}>Completion of
+            the MVP</p>
+          <p className={styles.description}>The CEO didn’t move any farther
             with the project and it fell through it
             and didn’t go anywhere. We can say
             that the project was closed because of
@@ -271,16 +257,16 @@ export const Uguru = () => (
       <Container>
         <Row className={styles.bottomNavColor}>
           <Col sm={6}>
-            <h1>Home</h1>
+            <p className={styles.title}>Home</p>
             <Link to={'/'}>
-              <h5> Go Home </h5>
+              <p className={styles.description}> Go Home </p>
             </Link>
           </Col>
           <Col sm={6} >
-            <h1>Legacy Pictures</h1>
-            <p>International Videography Website Redesign</p>
+            <p className={styles.title}>Legacy Pictures</p>
+            <p className={styles.description}>International Videography Website Redesign</p>
             <Link to={'/legacypictures'}>
-              <h5> View Next </h5>
+              <p className={styles.description}> View Next </p>
             </Link>
           </Col>
         </Row>

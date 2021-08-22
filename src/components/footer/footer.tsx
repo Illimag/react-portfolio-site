@@ -25,16 +25,16 @@ const Footer = () => (
 
 <Jumbotron fluid className={styles.footerBackground}>
   <Container>
-<p className={styles.centertext}>Are you looking for an UI/UX Designer local to the San Francisco Bay Area and Silicon Valley, 
+<p className={styles.description}>Are you looking for an UI/UX Designer local to the San Francisco Bay Area and Silicon Valley, 
 to meet in person to discuss details of your project or are you a hiring manager looking to hire someone local, currently looking for remote
 or in-house positions in the San Francisco Bay Area and Silicon Valley!
 </p>
 
-<p className={styles.centertext}>Currently writing a handbook called User Interface and User Experience Design Handbook, if you are interested
+<p className={styles.description}>Currently writing a handbook called User Interface and User Experience Design Handbook, if you are interested
 in things related to User Interfaces, User Experiences, Designer Journey, Designer jobs, Freelancing, Contracting, Silicon Valley,
 San Francisco Bay Area, and more, please visit the (in-process) writing of the handbook! Thank you!
 </p>
-<p className={styles.centertext}><a href="https://github.com/jaeminkim-com/user_interface_and_user_experience_design_handbook">User Interface and User Experience Design Handbook</a>
+<p className={styles.description}><a href="https://github.com/jaeminkim-com/user_interface_and_user_experience_design_handbook">User Interface and User Experience Design Handbook</a>
 
 </p>
 
@@ -65,10 +65,10 @@ San Francisco Bay Area, and more, please visit the (in-process) writing of the h
 
 
 
-    <p className={styles.centertext}>
+    <p className={styles.description}>
       All Rights Reserved
     </p>
-    <p className={styles.centertext}>
+    <p className={styles.description}>
     2021
     </p>
 
