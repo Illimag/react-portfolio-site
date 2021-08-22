@@ -34,12 +34,12 @@ import './navigation.css'
 
 const routes = [
   { path: '/', name: 'HOME', Component: Home },
-  { path: '/uguru', name: 'Uguru INC.', Component: Uguru },
-  { path: '/legacypictures', name: 'Legacy Pictures', Component: Legacypictures },
-  { path: '/artrendezvous', name: 'Art rendez-vous', Component: Artrendezvous },
-  { path: '/sanchezcoffeeco', name: 'Sanchez Coffee Co.', Component: Sanchezcoffeeco },
-  { path: '/apexvr', name: 'Apex VR', Component: Apexvr },
-  { path: '/uxdesignsumo', name: 'UX Design Sumo', Component: Uxdesignsumo },
+  { path: '/uguru', name: 'UGURU INC.', Component: Uguru },
+  { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
+  { path: '/artrendezvous', name: 'ART RENDEZ-VOUS', Component: Artrendezvous },
+  { path: '/sanchezcoffeeco', name: 'SANCHEZ COFFEE CO.', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'APEX VR', Component: Apexvr },
+  { path: '/uxdesignsumo', name: 'UX DESIGN SUMO', Component: Uxdesignsumo },
   { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]
 

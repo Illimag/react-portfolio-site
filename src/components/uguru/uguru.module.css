@@ -311,3 +311,14 @@ background: rgba(0,0,0,0.5);
 .spaceing{
     height: 15vh;
 }
+
+.title{
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 0% !important;
+}
+
+.description{
+    font-size: 2em;
+    margin-bottom: 1% !important;
+}
