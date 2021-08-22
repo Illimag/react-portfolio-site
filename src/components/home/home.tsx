@@ -62,6 +62,7 @@ import styles from './home.module.css';
 import './home.css';
 
 
+
 export const Home = () => (
 
   // myRef = React.createRef();
@@ -109,8 +110,8 @@ export const Home = () => (
           <Col md={12} className={styles.removepadding}>
 
             <Jumbotron className={styles.welcome}>
-              <h5>Welcome</h5>
-              <p>
+              <h5 className={styles.titletext}>Welcome, and thank you for visiting my UI/UX Designer Portfolio Website!</h5>
+              <p className={styles.descriptiontext}>
                 John (Jae Min) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
                 <span className={styles.available}> Available</span> for Full-Time, Part-Time, Contract and Freelance. Have a nice day!
               </p>

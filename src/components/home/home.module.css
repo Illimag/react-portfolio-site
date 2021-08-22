@@ -129,8 +129,8 @@
 .white{
     color: #fff;
     font-size: 2em !important;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     margin-top: 0px !important;
 }
 
@@ -322,9 +322,9 @@
 
 .whitetitle{
     color: #fff;
-    font-size: 11vw !important;
+    font-size: 12vw !important;
     margin-top: 0px !important;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     overflow-wrap: break-word;
 }
@@ -351,13 +351,6 @@
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 
 
-}
-
-.welcome{
-    font-size: 4vw !important;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-    
 }
 
 .first_badge{
@@ -456,4 +449,16 @@
 .welcome{
     margin-top: 100px;
     background-color: white !important;
+}
+
+.titletext{
+    font-size: 3em !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.descriptiontext{
+    font-size: 1em !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
 }
