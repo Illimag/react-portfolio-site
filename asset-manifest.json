@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3c5896d.chunk.css",
-    "main.js": "/static/js/main.bc9fe0c2.chunk.js",
-    "main.js.map": "/static/js/main.bc9fe0c2.chunk.js.map",
+    "main.css": "/static/css/main.30436975.chunk.css",
+    "main.js": "/static/js/main.f69104bc.chunk.js",
+    "main.js.map": "/static/js/main.f69104bc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82579a8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.82579a8e.js.map",
     "static/css/2.8163d445.chunk.css": "/static/css/2.8163d445.chunk.css",
-    "static/js/2.8107a2b4.chunk.js": "/static/js/2.8107a2b4.chunk.js",
-    "static/js/2.8107a2b4.chunk.js.map": "/static/js/2.8107a2b4.chunk.js.map",
+    "static/js/2.3b3d47dd.chunk.js": "/static/js/2.3b3d47dd.chunk.js",
+    "static/js/2.3b3d47dd.chunk.js.map": "/static/js/2.3b3d47dd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5847218a9cb567993328484c5dd5a560.js": "/precache-manifest.5847218a9cb567993328484c5dd5a560.js",
+    "precache-manifest.3c9089f85d7faad45cafab911d501413.js": "/precache-manifest.3c9089f85d7faad45cafab911d501413.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8163d445.chunk.css.map": "/static/css/2.8163d445.chunk.css.map",
-    "static/css/main.b3c5896d.chunk.css.map": "/static/css/main.b3c5896d.chunk.css.map",
-    "static/js/2.8107a2b4.chunk.js.LICENSE.txt": "/static/js/2.8107a2b4.chunk.js.LICENSE.txt",
+    "static/css/main.30436975.chunk.css.map": "/static/css/main.30436975.chunk.css.map",
+    "static/js/2.3b3d47dd.chunk.js.LICENSE.txt": "/static/js/2.3b3d47dd.chunk.js.LICENSE.txt",
     "static/media/1-01.071bc6ba.jpg": "/static/media/1-01.071bc6ba.jpg",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
     "static/media/1-01.b70f11b0.jpg": "/static/media/1-01.b70f11b0.jpg",
@@ -22,7 +22,6 @@
     "static/media/1-02.99051e97.jpg": "/static/media/1-02.99051e97.jpg",
     "static/media/1-02.9db2d7b7.jpg": "/static/media/1-02.9db2d7b7.jpg",
     "static/media/1-02.c77d53ba.jpg": "/static/media/1-02.c77d53ba.jpg",
-    "static/media/1-02.f93e0614.jpg": "/static/media/1-02.f93e0614.jpg",
     "static/media/1-03.110e1f77.jpg": "/static/media/1-03.110e1f77.jpg",
     "static/media/1-03.6eb0f6d6.jpg": "/static/media/1-03.6eb0f6d6.jpg",
     "static/media/1-03.d3ac4091.jpg": "/static/media/1-03.d3ac4091.jpg",
@@ -53,6 +52,7 @@
     "static/media/1-08.71d7474a.png": "/static/media/1-08.71d7474a.png",
     "static/media/1-08.d5be362c.jpg": "/static/media/1-08.d5be362c.jpg",
     "static/media/1-09.879ea0b2.jpg": "/static/media/1-09.879ea0b2.jpg",
+    "static/media/aerial-view-of-san-francisco-at-night-PDXCT9H.8799de01.jpg": "/static/media/aerial-view-of-san-francisco-at-night-PDXCT9H.8799de01.jpg",
     "static/media/banner-02.dee80891.jpg": "/static/media/banner-02.dee80891.jpg",
     "static/media/banner-03.9663ebc2.jpg": "/static/media/banner-03.9663ebc2.jpg",
     "static/media/compress_sf.mp4": "/static/media/compress_sf.76ec8c31.mp4",
@@ -64,7 +64,6 @@
     "static/media/compress_vid6.mp4": "/static/media/compress_vid6.65b952ab.mp4",
     "static/media/customer_location.PNG": "/static/media/customer_location.68ba829d.PNG",
     "static/media/ordersize.PNG": "/static/media/ordersize.fed78b53.PNG",
-    "static/media/teste.75d9f7e3.png": "/static/media/teste.75d9f7e3.png",
     "static/media/topcustromerbysalers.PNG": "/static/media/topcustromerbysalers.d5646742.PNG",
     "static/media/transaction.PNG": "/static/media/transaction.35deab60.PNG",
     "static/media/volumne.PNG": "/static/media/volumne.4723d94b.PNG"
@@ -72,8 +71,8 @@
   "entrypoints": [
     "static/js/runtime-main.82579a8e.js",
     "static/css/2.8163d445.chunk.css",
-    "static/js/2.8107a2b4.chunk.js",
-    "static/css/main.b3c5896d.chunk.css",
-    "static/js/main.bc9fe0c2.chunk.js"
+    "static/js/2.3b3d47dd.chunk.js",
+    "static/css/main.30436975.chunk.css",
+    "static/js/main.f69104bc.chunk.js"
   ]
 }
