@@ -76,7 +76,7 @@ function TestNav() {
               <Navbar.Collapse id="basic-navbar-nav" className={styles.navbarbackgroudcolor} >
                 <Nav className="ml-auto">
                   {routes.map(route => (
-                    <Nav.Link
+                    <Nav.Link className={styles.navtextcss}
                       key={route.path}
                       as={NavLink}
                       to={route.path}

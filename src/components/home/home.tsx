@@ -110,7 +110,7 @@ export const Home = () => (
           <Col md={12} className={styles.removepadding}>
 
             <Jumbotron className={styles.welcome}>
-              <h5 className={styles.titletext}>Welcome, and thank you for visiting my UI/UX Designer Portfolio Website!</h5>
+              <h5 className={styles.titletext}>Welcome, and thank you for visiting!</h5>
               <p className={styles.descriptiontext}>
                 John (Jae Min) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
                 <span className={styles.available}> Available</span> for Full-Time, Part-Time, Contract and Freelance. Have a nice day!
@@ -133,7 +133,7 @@ export const Home = () => (
               <Jumbotron className={styles.mainfloatback}>
                 <div className={styles.maincontentwrapper}>
 
-                  <h1 className={styles.whitetitle}>UGURU INC.</h1>
+                  <h1 className={styles.whitetitle}>Uguru INC.</h1>
                   <p className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</p>
 
                   <div className={styles.badgelist}>
@@ -166,7 +166,7 @@ export const Home = () => (
               <Jumbotron className={styles.float}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>LEGACY PICTURES</h1>
+                <h1 className={styles.whitetitle}>Legacy Pictures</h1>
                 <h5 className={styles.white}>International Videography Web Application User Experience and Redesign</h5>
 
                 <div className={styles.badgelist}>
@@ -207,7 +207,7 @@ export const Home = () => (
               <Jumbotron className={styles.float}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>ART RENDEZ-VOUS</h1>
+                <h1 className={styles.whitetitle}>Art Rendez-Vous</h1>
                 <h5 className={styles.white}>New York City Art Gallery and Museum Social Media iOS Mobile Application User Experience and Redesign</h5>
 
                 <div className={styles.badgelist}>
@@ -243,7 +243,7 @@ export const Home = () => (
               <Jumbotron className={styles.float}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>SANCHEZ COFFEE CO.</h1>
+                <h1 className={styles.whitetitle}>Sanchez Coffee CO.</h1>
                 <h5 className={styles.white}>Los Angeles Coffee Distribution Company Web Payment Platform</h5>
 
                 <div className={styles.badgelist}>
@@ -275,7 +275,7 @@ export const Home = () => (
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
   
-                <h1 className={styles.whitetitle}>APEX VR</h1>
+                <h1 className={styles.whitetitle}>Apex VR</h1>
                 <h5 className={styles.white}>San Leandro Videography Company Virtual Reality Web Application Design</h5>
 
                 <div className={styles.badgelist}>
@@ -307,7 +307,7 @@ export const Home = () => (
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
   
-                <h1 className={styles.whitetitle}>UX DESIGN SUMO</h1>
+                <h1 className={styles.whitetitle}>UX Design Sumo</h1>
                 <h5 className={styles.white}>User Experience Designer Community Website Design</h5>
 
                 <div className={styles.badgelist}>

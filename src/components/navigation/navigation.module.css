@@ -85,3 +85,12 @@ width:15rem;
 .navbarbackgroudcolor{
     background-color: white;
 }
+
+
+.navtextcss{
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}

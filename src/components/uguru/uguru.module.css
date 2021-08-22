@@ -314,11 +314,14 @@ background: rgba(0,0,0,0.5);
 
 .title{
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 0% !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .description{
     font-size: 2em;
     margin-bottom: 1% !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+
 }
