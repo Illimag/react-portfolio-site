@@ -58,8 +58,8 @@ import Pg5Img from '../../assets/img/home/1-06.jpg';
 import Pg6Img from '../../assets/img/home/1-07.jpg';
 */
 
-import styles from './hometest.module.css';
-import './hometest.css';
+import styles from './home.module.css';
+import './home.css';
 
 
 export const Home = () => (
@@ -133,7 +133,7 @@ export const Home = () => (
                 <div className={styles.maincontentwrapper}>
 
                   <h1 className={styles.whitetitle}>UGURU INC.</h1>
-                  <h5 className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</h5>
+                  <p className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</p>
 
                   <div className={styles.badgelist}>
                     <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
