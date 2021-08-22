@@ -3,11 +3,17 @@
   "name": "jaeminkim.com",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/index",
+  "typings": "dist/index",
   "dependencies": {
     "@mikecousins/react-pdf": "^5.5.1",
     "@phuocng/react-pdf-viewer": "^1.7.0",
     "@rehooks/window-scroll-position": "^1.0.1",
     "@steveeeie/react-page-transition": "^1.2.0",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.1",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "bootstrap": "^4.5.2",
     "pdf-viewer-reactjs": "^2.2.3",
@@ -43,6 +49,7 @@
     "react-transition-group": "^4.4.1",
     "react-typing-animation": "^1.6.2",
     "styled-components": "^5.2.0",
+    "typescript": "^4.3.5",
     "webfontloader": "^1.6.28"
   },
   "scripts": {

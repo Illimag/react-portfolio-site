@@ -42,6 +42,18 @@ This command will install React App
 
 Make sure to have node and npm installed.
 
+## Convert App from JavaScript to TypeScript
+
+1. Add TypeScript to Project
+
+    npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+2. Add the tsconfig.json
+
+    npx tsc --init
+
+3. Change file extension of files to .jsx
+
 ## Installing React Router to React.JS App
 
 React Router is the functionality to route HTML via the Single Page Web Application Functionality.
