@@ -11,7 +11,7 @@
     background-color: #1E2F97 !important;
     */
 
-    background: #ea4335 !important;
+    background:#4285f4 !important;
 
     position: relative;
 }
@@ -49,7 +49,7 @@ position: relative;
 .vid{
     object-fit: cover;
     width: 100%;
-    height: 50vh;
+    height: 65vh;
     position: static;
     top: 0;
     left: 0;
@@ -284,19 +284,30 @@ background: rgba(0,0,0,0.5);
 .overlay{
     background-color: transparent;
     z-index: 999;
-
+    position: absolute !important;
+    top:10%;
 }
 
 .bannerstyles{
     margin-top: -80% !important;
-    background-color:#ea4335 !important;
+    background-color: #4285f4 !important;
     height:35vh !important;
 }
 
 .displaytest{
     display: block !important;
+
 }
 
-.paddingTop{
-    padding-top: 10% !important;
+.topcontainer{
+    position: absolute;
+    top:10%;
+}
+
+.topfillercontainer{
+    height: 60vh;
+}
+
+.spaceing{
+    height: 15vh;
 }

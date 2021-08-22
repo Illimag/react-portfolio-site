@@ -114,6 +114,7 @@ export const Home = () => (
                 John (Jae Min) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
                 <span className={styles.available}> Available</span> for Full-Time, Part-Time, Contract and Freelance. Have a nice day!
               </p>
+              
 
               <LinkContainer to="/Contact">
                 <p>

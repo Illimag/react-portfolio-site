@@ -43,6 +43,7 @@ import './uguru.css';
 export const Uguru = () => (
   /* Start of JSX Fragment*/
   <>
+  
 <Container fluid className={styles.topfillercontainer}></Container>
     <Container fluid className={styles.containerfluid}>
 
@@ -67,7 +68,7 @@ export const Uguru = () => (
             <Jumbotron fluid className={styles.test}>
               <Container className={styles.fonttest}>
                 <div className={styles.spaceing}></div>
-                <h1>UX Design Sumo</h1>
+                <h1>Uguru, INC</h1>
                 <p>
                   Digital Agency Startup at Oakland, CA
                 </p>

@@ -39,41 +39,61 @@ import './sanchezcoffeeco.css';
 export const Sanchezcoffeeco = () => (
   /* Start of JSX Fragment*/
   <>
+<Container fluid className={styles.topfillercontainer}></Container>
     <Container fluid className={styles.containerfluid}>
 
       {/* left text right img */}
-      <Row className={styles.displaytest}>
+      <Row>
+   
         <Col sm className={styles.overlay}>
           <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
             <source src={Vid1} type="video/mp4" />
           </video>
         </Col>
-
-        <Col sm className={styles.bannerstyles}></Col>
       </Row>
 
+
+
+
       {/* img with text */}
-      <Row>
+      <Row className={styles.toprow}>
         <Col sm>
+
           <Container fluid className={styles.containerfluid}>
             <Jumbotron fluid className={styles.test}>
               <Container className={styles.fonttest}>
+                <div className={styles.spaceing}></div>
                 <h1>Sanchez Coffee Co.</h1>
                 <p>
-                  Los Angeles E-Commerce Company
+                  Digital Agency Startup at Oakland, CA
                 </p>
                 <p>
                   October 2018 - January 2019
                 </p>
                 <p>
-                  Web Designer/Developer creating Payment Platform with Wordpress CMS and CSS      </p>
+                  Web Developer for MVP built with React.JS and Bootstrap
+                </p>
               </Container>
             </Jumbotron>
           </Container>
 
-          <Image src={Img01} fluid className={styles.imgstyle} />
+
         </Col>
       </Row>
+
+            {/* img with text */}
+            <Row className={styles.test}>
+        <Col sm className={styles.fonttest}>
+          <h3>High-Fidelity UI Design</h3>
+          <p>Series of various UI designs, Initially I designed some low level mockups that were
+            brought into the fold to be sued on the production application. It was a growing experience.
+            I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+            and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+          
+        </Col>
+      </Row>
+
+
     </Container>
 
     <Container fluid>
