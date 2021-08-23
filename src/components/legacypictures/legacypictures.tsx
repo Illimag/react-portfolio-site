@@ -54,15 +54,26 @@ export const Legacypictures = () => (
             <Jumbotron fluid className={styles.test}>
               <Container className={styles.fonttest}>
                 <div className={styles.spaceing}></div>
-                <h1>Legacy Pictures</h1>
-                <p>
-                  Digital Agency Startup at Oakland, CA
+               
+                <p className={styles.title}>Legacy Pictures</p>
+                <p className={styles.description}>
+                  San Francisco Mobile Application Startup
                 </p>
-                <p>
-                  October 2018 - January 2019
+
+                <p className={styles.title}>Project Date:</p>
+                <p className={styles.description}>
+                October 2016 - January 2017
                 </p>
-                <p>
-                  Web Developer for MVP built with React.JS and Bootstrap
+
+                <p className={styles.title}>Role:</p>
+                <p className={styles.description}>Graphic UI/UX Designer Intern</p>
+
+                <p className={styles.title}>Location:</p>
+                <p className={styles.description}>San Francisco Bay Area</p>
+
+                <p className={styles.title}>Summary</p>
+                <p className={styles.description}>
+                Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace.
                 </p>
               </Container>
             </Jumbotron>
@@ -75,8 +86,8 @@ export const Legacypictures = () => (
             {/* img with text */}
             <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
             brought into the fold to be sued on the production application. It was a growing experience.
             I worked on the onboarding of the mobile app. For this I designed it based on some sketches
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -101,10 +112,10 @@ export const Legacypictures = () => (
     <Container fluid>
 
       {/* img with text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
             brought into the fold to be sued on the production application. It was a growing experience.
             I worked on the onboarding of the mobile app. For this I designed it based on some sketches
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -120,10 +131,10 @@ export const Legacypictures = () => (
       </Row>
 
       {/* text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
             brought into the fold to be sued on the production application. It was a growing experience.
             I worked on the onboarding of the mobile app. For this I designed it based on some sketches
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -139,11 +150,11 @@ export const Legacypictures = () => (
       </Row>
 
       {/* left text right img */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Development of
-            the MVP</h3>
-          <p>After the designs were completed
+          <p className={styles.title}>Development of
+            the MVP</p>
+          <p className={styles.description}>After the designs were completed
             they were sent over to me, and I started
             with the development of the MVP.</p>
         </Col>
@@ -152,19 +163,6 @@ export const Legacypictures = () => (
         </Col>
       </Row>
 
-
-      {/* codepen*/}
-      <Row>
-        <Col sm>
-          <Codepen
-            hash="WNrqqqe"
-            user="jaemnkm"
-            defaultTab="result"
-            preview={false}
-            height={600}
-          />
-        </Col>
-      </Row>
 
 
       {/* Video */}
@@ -177,10 +175,10 @@ export const Legacypictures = () => (
       </Row>
 
       {/* img with text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Remote Team</h3>
-          <p>The CEO was a software developer located in Oakland, there was a designer, a social media
+          <p className={styles.title}>Remote Team</p>
+          <p className={styles.description}>The CEO was a software developer located in Oakland, there was a designer, a social media
             specialist who did the research for the personas, as well as a admin type of person who was
             in charge of maintain admin stuff.</p>
           <Image src={Img05} fluid className={styles.imgstyle} />
@@ -188,10 +186,10 @@ export const Legacypictures = () => (
       </Row>
 
       {/* text */}
-      <Row className={styles.test2}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
             brought into the fold to be sued on the production application. It was a growing experience.
             I worked on the onboarding of the mobile app. For this I designed it based on some sketches
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -208,10 +206,10 @@ export const Legacypictures = () => (
       </Row>
 
       {/* img with text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Developing the Web Interface</h3>
-          <p>The designer designed it based on Bootstrap 4 UI Components so developing the site was quite easy.
+          <p className={styles.title}>Developing the Web Interface</p>
+          <p className={styles.description}>The designer designed it based on Bootstrap 4 UI Components so developing the site was quite easy.
             I created each page and created the fodler system. Then I implemented each page, using code. After
             the project was over I went back and I redesigned the home page and other pages, as well as
             putting the code base onto a React.JS folder system.</p>
@@ -220,11 +218,11 @@ export const Legacypictures = () => (
       </Row>
 
       {/* left text right img */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Completion of
-            the MVP</h3>
-          <p>The CEO didn’t move any farther
+          <p className={styles.title}>Completion of
+            the MVP</p>
+          <p className={styles.description}>The CEO didn’t move any farther
             with the project and it fell through it
             and didn’t go anywhere. We can say
             that the project was closed because of
@@ -244,17 +242,17 @@ export const Legacypictures = () => (
       <Container>
         <Row className={styles.bottomNavColor}>
           <Col sm={6}>
-            <h1>Uguru INC</h1>
-            <p>College Marketplace Mobile Application Design</p>
+          <p className={styles.title}>Uguru, INC.</p>
+            <p className={styles.description}>College Marketplace Mobile Application Design</p>
             <Link to={'/uguru'}>
-              <h5> View Previous </h5>
+            <p className={styles.description}> View Previous </p>
             </Link>
           </Col>
           <Col sm={6} >
-            <h1>Art Rendez Vous</h1>
-            <p>New York City Art Community iOS App Redesign</p>
+            <p className={styles.title}>Art Rendez-Vous</p>
+            <p className={styles.description}>International Videography Website Redesign</p>
             <Link to={'/artrendezvous'}>
-              <h5> View Next </h5>
+            <p className={styles.description}> View Next </p>
             </Link>
           </Col>
         </Row>

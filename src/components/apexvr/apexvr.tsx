@@ -56,15 +56,25 @@ export const Apexvr = () => (
             <Jumbotron fluid className={styles.test}>
               <Container className={styles.fonttest}>
                 <div className={styles.spaceing}></div>
-                <h1>Apex VR</h1>
-                <p>
-                  Digital Agency Startup at Oakland, CA
+                <p className={styles.title}>Apex VR</p>
+                <p className={styles.description}>
+                  San Francisco Mobile Application Startup
                 </p>
-                <p>
-                  October 2018 - January 2019
+
+                <p className={styles.title}>Project Date:</p>
+                <p className={styles.description}>
+                October 2016 - January 2017
                 </p>
-                <p>
-                  Web Developer for MVP built with React.JS and Bootstrap
+
+                <p className={styles.title}>Role:</p>
+                <p className={styles.description}>Graphic UI/UX Designer Intern</p>
+
+                <p className={styles.title}>Location:</p>
+                <p className={styles.description}>San Francisco Bay Area</p>
+
+                <p className={styles.title}>Summary</p>
+                <p className={styles.description}>
+                Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace.
                 </p>
               </Container>
             </Jumbotron>
@@ -77,8 +87,8 @@ export const Apexvr = () => (
             {/* img with text */}
             <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
             brought into the fold to be sued on the production application. It was a growing experience.
             I worked on the onboarding of the mobile app. For this I designed it based on some sketches
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -101,10 +111,10 @@ export const Apexvr = () => (
     <Container fluid>
 
       {/* img with text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Interaction Design Prototype</h3>
-          <p>The project was centered around inclusive design for Microsoft, mainly we were interested in creating UIs for people
+          <p className={styles.title}>Interaction Design Prototype</p>
+          <p className={styles.description}>The project was centered around inclusive design for Microsoft, mainly we were interested in creating UIs for people
             who were not the typical users, as so we thought about how to do that. I decided to focuse on people who has
             visual problems, either they had difficulties seeing or they were blinded.
 
@@ -114,10 +124,10 @@ export const Apexvr = () => (
       </Row>
 
       {/* img with text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Samsung Voice Assistant</h3>
-          <p>Additionally I created the prototype with AngularJS and HTML/CSS/JS. Now that the application was able to be coded, I
+          <p className={styles.title}>Samsung Voice Assistant</p>
+          <p className={styles.description}>Additionally I created the prototype with AngularJS and HTML/CSS/JS. Now that the application was able to be coded, I
             decided to use a solution that would use code to implement of a solution for inclusive design. I created some custom code
             with HTML and CSS that created an indivisible div, that would not be able to be seen in the visual interface.
 
@@ -129,10 +139,10 @@ export const Apexvr = () => (
       </Row>
 
       {/* text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
             brought into the fold to be sued on the production application. It was a growing experience.
             I worked on the onboarding of the mobile app. For this I designed it based on some sketches
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -142,11 +152,11 @@ export const Apexvr = () => (
 
 
       {/* left text right img */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Personas of
-            Limitation Spectrum</h3>
-          <p>I decidede to create this prototype using the
+          <p className={styles.title}>Personas of
+            Limitation Spectrum</p>
+          <p className={styles.description}>I decidede to create this prototype using the
             original designs, then for the indivudals whom
             had difficulties seeing I decided to increase the
             sizes of the elements, particuarly using more
@@ -179,10 +189,10 @@ export const Apexvr = () => (
 
 
       {/* img with text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Design Process</h3>
-          <p>Various steps to this application. We started with the sketches because the Microsoft Inclusive Designs had personas
+          <p className={styles.title}>Design Process</p>
+          <p className={styles.description}>Various steps to this application. We started with the sketches because the Microsoft Inclusive Designs had personas
             that we were designing for. Mainly the Personas was for a person whom be blind or visually impaired, hard to see.
             After the sketches were done, based on the original app. We tried to come up with various solutions that would be
             able to solve the problems. After the designs were better designed, we did some testing, using user testing, we
@@ -203,10 +213,10 @@ export const Apexvr = () => (
       </Row>
 
       {/* text */}
-      <Row className={styles.test2}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
             brought into the fold to be sued on the production application. It was a growing experience.
             I worked on the onboarding of the mobile app. For this I designed it based on some sketches
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -216,11 +226,11 @@ export const Apexvr = () => (
 
 
       {/* left text right img */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Implementation
-            of the Interface</h3>
-          <p>I was not satisfied with the solution, I think
+          <p className={styles.title}>Implementation
+            of the Interface</p>
+          <p className={styles.description}>I was not satisfied with the solution, I think
             I needed something more than something
             that would be just some static file. I wanted
             an prototype that would be actually usable
@@ -256,14 +266,14 @@ export const Apexvr = () => (
       </Row>
 
       {/* left img right text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm>
           <Image src={Img08} fluid className={styles.imgstyle} />
         </Col>
         <Col sm className={styles.fonttest}>
-          <h3>Completion of the
-            Prototype</h3>
-          <p>The prototype was created and I was able
+          <p className={styles.title}>Completion of the
+            Prototype</p>
+          <p className={styles.description}>The prototype was created and I was able
             to present it in class, and I think based
             on the case files it could be a possible
             solution for user.</p>
@@ -272,11 +282,11 @@ export const Apexvr = () => (
 
 
       {/* left img right text */}
-      <Row className={styles.test1}>
+      <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
-          <h3>Designing and
-            Implementing</h3>
-          <p>Designing and implementing this prototype
+          <p className={styles.title}>Designing and
+            Implementing</p>
+          <p className={styles.description}>Designing and implementing this prototype
             gave me a sense of happiness, knowing
             that I was designing something that would
             help a Personas that needs more care
@@ -298,17 +308,17 @@ export const Apexvr = () => (
       <Container>
         <Row className={styles.bottomNavColor}>
           <Col sm={6}>
-            <h1>Sanchez Coffee Co.</h1>
-            <p>New York City Art Community iOS App Redesign</p>
+            <p className={styles.title}>Sanchez Coffee Co.</p>
+            <p className={styles.description}>New York City Art Community iOS App Redesign</p>
             <Link to={'/sanchezcoffeeco'}>
-              <h5> View Previous </h5>
+              <p className={styles.description}> View Previous </p>
             </Link>
           </Col>
           <Col sm={6}>
-            <h1>UX Design Sumo</h1>
-            <p>New York City Art Community iOS App Redesign</p>
+            <p className={styles.title}>UX Design Sumo</p>
+            <p className={styles.description}>New York City Art Community iOS App Redesign</p>
             <Link to={'/uxdesignsumo'}>
-              <h5> View Next </h5>
+              <p className={styles.description}> View Next </p>
             </Link>
           </Col>
         </Row>

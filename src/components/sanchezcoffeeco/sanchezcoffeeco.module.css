@@ -311,3 +311,18 @@ background: rgba(0,0,0,0.5);
 .spaceing{
     height: 15vh;
 }
+
+.title{
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 0% !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description{
+    font-size: 1em;
+    margin-bottom: 2% !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+

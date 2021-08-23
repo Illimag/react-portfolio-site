@@ -5,8 +5,8 @@
 }
 
 .navbar{
-    background: rgba(255,255,255,0.4);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     display: block !important;
     height: 70px;
@@ -36,6 +36,7 @@ width:15rem;
     background: #fff !important;
     
     position: relative !important;
+
 }
 
 .diamond{
@@ -84,6 +85,10 @@ width:15rem;
 
 .navbarbackgroudcolor{
     background-color: white;
+
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: saturate(180%) blur(20px);
+
 }
 
 
