@@ -54,7 +54,6 @@ export const Contact = () => (
           <p className={styles.title}>Many Thanks.</p>
 
         {/*<Viewer fileUrl="https://github.com/jaeminkim-com/react-portfolio-site/blob/master/src/assets/resume/resume.pdf" />*/}
-
          
           <p className={styles.description}>
       AP Art at Mission San Jose High School, background in Fine Art. Academic background began as an Industrial (Product) Design major at Hongik University in Seoul, South Korea, from Industrial Design to De Anza College (Cupertino, CA) Graphic Design to California College of the Arts (San Francisco, CA and Oakland, CA) Industrial Design to California College of the Arts (San Francisco, CA and Oakland, CA) Interaction Design / minor in Computational Practices to Southern New Hamshire University (Remote) Graphic & Web. Winter 2021 Presidents List for SNHU (https://meritpages.com/Jae-Min-Kim/6415480), Pell Grant, CAL Grant B, Clorox Scholor, CCA Scholor, Federal Work Study.
