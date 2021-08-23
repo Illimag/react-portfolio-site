@@ -7,7 +7,8 @@ export class AnnotationStorage {
     onSetModified: any;
     onResetModified: any;
     /**
-     * Get the value for a given key if it exists, or return the default value.
+     * Get the value for a given key if it exists
+     * or store and return the default value
      *
      * @public
      * @memberof AnnotationStorage
@@ -15,7 +16,7 @@ export class AnnotationStorage {
      * @param {Object} defaultValue
      * @returns {Object}
      */
-    public getValue(key: string, defaultValue: Object): Object;
+    public getOrCreateValue(key: string, defaultValue: Object): Object;
     /**
      * Set the value for a given key
      *
@@ -32,9 +33,4 @@ export class AnnotationStorage {
      */
     private _setModified;
     resetModified(): void;
-    /**
-     * PLEASE NOTE: Only intended for usage within the API itself.
-     * @ignore
-     */
-    get serializable(): Map<any, any> | null;
 }

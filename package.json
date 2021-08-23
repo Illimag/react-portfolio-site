@@ -8,6 +8,7 @@
   "dependencies": {
     "@mikecousins/react-pdf": "^5.5.1",
     "@phuocng/react-pdf-viewer": "^1.7.0",
+    "@react-pdf-viewer/core": "^2.7.1",
     "@rehooks/window-scroll-position": "^1.0.1",
     "@steveeeie/react-page-transition": "^1.2.0",
     "@types/jest": "^27.0.1",
@@ -17,7 +18,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "bootstrap": "^4.5.2",
     "pdf-viewer-reactjs": "^2.2.3",
-    "pdfjs-dist": "^2.9.359",
+    "pdfjs-dist": "^2.6.347",
     "precise-ui": "^1.6.2",
     "react": "^16.13.1",
     "react-animated-css": "^1.2.1",

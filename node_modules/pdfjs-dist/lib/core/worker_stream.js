@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -55,9 +55,11 @@ class PDFWorkerStream {
       this._fullRequestReader.cancel(reason);
     }
 
-    for (const reader of this._rangeRequestReaders.slice(0)) {
+    const readers = this._rangeRequestReaders.slice(0);
+
+    readers.forEach(function (reader) {
       reader.cancel(reason);
-    }
+    });
   }
 
 }

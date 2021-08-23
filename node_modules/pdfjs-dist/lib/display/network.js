@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -252,9 +252,11 @@ class PDFNetworkStream {
       this._fullRequestReader.cancel(reason);
     }
 
-    for (const reader of this._rangeRequestReaders.slice(0)) {
+    const readers = this._rangeRequestReaders.slice(0);
+
+    readers.forEach(function (reader) {
       reader.cancel(reason);
-    }
+    });
   }
 
 }
@@ -344,14 +346,14 @@ class PDFNetworkStreamFullRequestReader {
       return;
     }
 
-    for (const requestCapability of this._requests) {
+    this._requests.forEach(function (requestCapability) {
       requestCapability.resolve({
         value: undefined,
         done: true
       });
-    }
+    });
 
-    this._requests.length = 0;
+    this._requests = [];
   }
 
   _onError(status) {
@@ -361,12 +363,12 @@ class PDFNetworkStreamFullRequestReader {
 
     this._headersReceivedCapability.reject(exception);
 
-    for (const requestCapability of this._requests) {
+    this._requests.forEach(function (requestCapability) {
       requestCapability.reject(exception);
-    }
+    });
 
-    this._requests.length = 0;
-    this._cachedChunks.length = 0;
+    this._requests = [];
+    this._cachedChunks = [];
   }
 
   _onProgress(data) {
@@ -431,14 +433,14 @@ class PDFNetworkStreamFullRequestReader {
 
     this._headersReceivedCapability.reject(reason);
 
-    for (const requestCapability of this._requests) {
+    this._requests.forEach(function (requestCapability) {
       requestCapability.resolve({
         value: undefined,
         done: true
       });
-    }
+    });
 
-    this._requests.length = 0;
+    this._requests = [];
 
     if (this._manager.isPendingRequest(this._fullRequestId)) {
       this._manager.abortRequest(this._fullRequestId);
@@ -486,14 +488,14 @@ class PDFNetworkStreamRangeRequestReader {
 
     this._done = true;
 
-    for (const requestCapability of this._requests) {
+    this._requests.forEach(function (requestCapability) {
       requestCapability.resolve({
         value: undefined,
         done: true
       });
-    }
+    });
 
-    this._requests.length = 0;
+    this._requests = [];
 
     this._close();
   }
@@ -537,14 +539,14 @@ class PDFNetworkStreamRangeRequestReader {
   cancel(reason) {
     this._done = true;
 
-    for (const requestCapability of this._requests) {
+    this._requests.forEach(function (requestCapability) {
       requestCapability.resolve({
         value: undefined,
         done: true
       });
-    }
+    });
 
-    this._requests.length = 0;
+    this._requests = [];
 
     if (this._manager.isPendingRequest(this._requestId)) {
       this._manager.abortRequest(this._requestId);

@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -36,20 +36,6 @@ var _document = require("./document.js");
 
 var _stream = require("./stream.js");
 
-function parseDocBaseUrl(url) {
-  if (url) {
-    const absoluteUrl = (0, _util.createValidAbsoluteUrl)(url);
-
-    if (absoluteUrl) {
-      return absoluteUrl.href;
-    }
-
-    (0, _util.warn)(`Invalid absolute docBaseUrl: "${url}".`);
-  }
-
-  return null;
-}
-
 class BasePdfManager {
   constructor() {
     if (this.constructor === BasePdfManager) {
@@ -66,7 +52,19 @@ class BasePdfManager {
   }
 
   get docBaseUrl() {
-    return this._docBaseUrl;
+    let docBaseUrl = null;
+
+    if (this._docBaseUrl) {
+      const absoluteUrl = (0, _util.createValidAbsoluteUrl)(this._docBaseUrl);
+
+      if (absoluteUrl) {
+        docBaseUrl = absoluteUrl.href;
+      } else {
+        (0, _util.warn)(`Invalid absolute docBaseUrl: "${this._docBaseUrl}".`);
+      }
+    }
+
+    return (0, _util.shadow)(this, "docBaseUrl", docBaseUrl);
   }
 
   onLoadedStream() {
@@ -91,10 +89,6 @@ class BasePdfManager {
 
   fontFallback(id, handler) {
     return this.pdfDocument.fontFallback(id, handler);
-  }
-
-  loadXfaFonts(handler, task) {
-    return this.pdfDocument.loadXfaFonts(handler, task);
   }
 
   cleanup(manuallyTriggered = false) {
@@ -128,13 +122,12 @@ class BasePdfManager {
 }
 
 class LocalPdfManager extends BasePdfManager {
-  constructor(docId, data, password, evaluatorOptions, enableXfa, docBaseUrl) {
+  constructor(docId, data, password, evaluatorOptions, docBaseUrl) {
     super();
     this._docId = docId;
     this._password = password;
-    this._docBaseUrl = parseDocBaseUrl(docBaseUrl);
+    this._docBaseUrl = docBaseUrl;
     this.evaluatorOptions = evaluatorOptions;
-    this.enableXfa = enableXfa;
     const stream = new _stream.Stream(data);
     this.pdfDocument = new _document.PDFDocument(this, stream);
     this._loadedStreamPromise = Promise.resolve(stream);
@@ -167,14 +160,13 @@ class LocalPdfManager extends BasePdfManager {
 exports.LocalPdfManager = LocalPdfManager;
 
 class NetworkPdfManager extends BasePdfManager {
-  constructor(docId, pdfNetworkStream, args, evaluatorOptions, enableXfa, docBaseUrl) {
+  constructor(docId, pdfNetworkStream, args, evaluatorOptions, docBaseUrl) {
     super();
     this._docId = docId;
     this._password = args.password;
-    this._docBaseUrl = parseDocBaseUrl(docBaseUrl);
+    this._docBaseUrl = docBaseUrl;
     this.msgHandler = args.msgHandler;
     this.evaluatorOptions = evaluatorOptions;
-    this.enableXfa = enableXfa;
     this.streamManager = new _chunked_stream.ChunkedStreamManager(pdfNetworkStream, {
       msgHandler: args.msgHandler,
       length: args.length,

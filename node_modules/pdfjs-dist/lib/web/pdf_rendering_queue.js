@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,10 +24,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.RenderingStates = exports.PDFRenderingQueue = void 0;
-
-var _pdf = require("../pdf");
-
+exports.PDFRenderingQueue = exports.RenderingStates = void 0;
 const CLEANUP_TIMEOUT = 30000;
 const RenderingStates = {
   INITIAL: 0,
@@ -141,10 +138,6 @@ class PDFRenderingQueue {
         view.draw().finally(() => {
           this.renderHighestPriority();
         }).catch(reason => {
-          if (reason instanceof _pdf.RenderingCancelledException) {
-            return;
-          }
-
           console.error(`renderView: "${reason}"`);
         });
         break;

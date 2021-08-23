@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -54,11 +54,13 @@ describe("colorspace", function () {
   });
   describe("ColorSpace caching", function () {
     let localColorSpaceCache = null;
-    beforeAll(function () {
+    beforeAll(function (done) {
       localColorSpaceCache = new _image_utils.LocalColorSpaceCache();
+      done();
     });
-    afterAll(function () {
+    afterAll(function (done) {
       localColorSpaceCache = null;
+      done();
     });
     it("caching by Name", function () {
       const xref = new _test_utils.XRefMock();

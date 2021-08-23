@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,28 +28,34 @@ exports.Jbig2Stream = void 0;
 
 var _primitives = require("./primitives.js");
 
-var _decode_stream = require("./decode_stream.js");
+var _stream = require("./stream.js");
 
 var _jbig = require("./jbig2.js");
 
 var _util = require("../shared/util.js");
 
-class Jbig2Stream extends _decode_stream.DecodeStream {
-  constructor(stream, maybeLength, params) {
-    super(maybeLength);
+const Jbig2Stream = function Jbig2StreamClosure() {
+  function Jbig2Stream(stream, maybeLength, dict, params) {
     this.stream = stream;
-    this.dict = stream.dict;
     this.maybeLength = maybeLength;
+    this.dict = dict;
     this.params = params;
+
+    _stream.DecodeStream.call(this, maybeLength);
   }
 
-  get bytes() {
-    return (0, _util.shadow)(this, "bytes", this.stream.getBytes(this.maybeLength));
-  }
+  Jbig2Stream.prototype = Object.create(_stream.DecodeStream.prototype);
+  Object.defineProperty(Jbig2Stream.prototype, "bytes", {
+    get() {
+      return (0, _util.shadow)(this, "bytes", this.stream.getBytes(this.maybeLength));
+    },
 
-  ensureBuffer(requested) {}
+    configurable: true
+  });
 
-  readBlock() {
+  Jbig2Stream.prototype.ensureBuffer = function (requested) {};
+
+  Jbig2Stream.prototype.readBlock = function () {
     if (this.eof) {
       return;
     }
@@ -85,8 +91,9 @@ class Jbig2Stream extends _decode_stream.DecodeStream {
     this.buffer = data;
     this.bufferLength = dataLength;
     this.eof = true;
-  }
+  };
 
-}
+  return Jbig2Stream;
+}();
 
 exports.Jbig2Stream = Jbig2Stream;

@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,8 +28,6 @@ exports.GenericL10n = void 0;
 
 require("../external/webL10n/l10n.js");
 
-var _l10n_utils = require("./l10n_utils.js");
-
 const webL10n = document.webL10n;
 
 class GenericL10n {
@@ -52,9 +50,9 @@ class GenericL10n {
     return l10n.getDirection();
   }
 
-  async get(key, args = null, fallback = (0, _l10n_utils.getL10nFallback)(key, args)) {
+  async get(property, args, fallback) {
     const l10n = await this._ready;
-    return l10n.get(key, args, fallback);
+    return l10n.get(property, args, fallback);
   }
 
   async translate(element) {

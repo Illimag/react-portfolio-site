@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,7 +42,7 @@ describe("message_handler", function () {
       expect(typeof readable).toEqual("object");
       expect(typeof readable.getReader).toEqual("function");
     });
-    it("should read using a reader", async function () {
+    it("should read using a reader", function (done) {
       let log = "";
       const port = new _api.LoopbackPort();
       const messageHandler1 = new _message_handler.MessageHandler("main", "worker", port);
@@ -73,18 +73,23 @@ describe("message_handler", function () {
 
       });
       const reader = readable.getReader();
-      await sleep(10);
-      expect(log).toEqual("");
-      let result = await reader.read();
-      expect(log).toEqual("p");
-      expect(result.value).toEqual("hi");
-      expect(result.done).toEqual(false);
-      await sleep(10);
-      result = await reader.read();
-      expect(result.value).toEqual(undefined);
-      expect(result.done).toEqual(true);
+      sleep(10).then(() => {
+        expect(log).toEqual("");
+        return reader.read();
+      }).then(result => {
+        expect(log).toEqual("p");
+        expect(result.value).toEqual("hi");
+        expect(result.done).toEqual(false);
+        return sleep(10);
+      }).then(() => {
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual(undefined);
+        expect(result.done).toEqual(true);
+        done();
+      });
     });
-    it("should not read any data when cancelled", async function () {
+    it("should not read any data when cancelled", function (done) {
       let log = "";
       const port = new _api.LoopbackPort();
       const messageHandler2 = new _message_handler.MessageHandler("worker", "main", port);
@@ -123,17 +128,22 @@ describe("message_handler", function () {
 
       });
       const reader = readable.getReader();
-      await sleep(10);
-      expect(log).toEqual("01");
-      const result = await reader.read();
-      expect(result.value).toEqual([1, 2, 3, 4]);
-      expect(result.done).toEqual(false);
-      await sleep(10);
-      expect(log).toEqual("01p2");
-      await reader.cancel(new _util.AbortException("reader cancelled."));
-      expect(log).toEqual("01p2c4");
+      sleep(10).then(() => {
+        expect(log).toEqual("01");
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual([1, 2, 3, 4]);
+        expect(result.done).toEqual(false);
+        return sleep(10);
+      }).then(() => {
+        expect(log).toEqual("01p2");
+        return reader.cancel(new _util.AbortException("reader cancelled."));
+      }).then(() => {
+        expect(log).toEqual("01p2c4");
+        done();
+      });
     });
-    it("should not read when errored", async function () {
+    it("should not read when errored", function (done) {
       let log = "";
       const port = new _api.LoopbackPort();
       const messageHandler2 = new _message_handler.MessageHandler("worker", "main", port);
@@ -166,22 +176,21 @@ describe("message_handler", function () {
 
       });
       const reader = readable.getReader();
-      await sleep(10);
-      expect(log).toEqual("01");
-      const result = await reader.read();
-      expect(result.value).toEqual([1, 2, 3, 4]);
-      expect(result.done).toEqual(false);
-
-      try {
-        await reader.read();
-        expect(false).toEqual(true);
-      } catch (reason) {
+      sleep(10).then(() => {
+        expect(log).toEqual("01");
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual([1, 2, 3, 4]);
+        expect(result.done).toEqual(false);
+        return reader.read();
+      }).catch(reason => {
         expect(log).toEqual("01pe");
         expect(reason instanceof _util.UnknownErrorException).toEqual(true);
         expect(reason.message).toEqual("should not read when errored");
-      }
+        done();
+      });
     });
-    it("should read data with blocking promise", async function () {
+    it("should read data with blocking promise", function (done) {
       let log = "";
       const port = new _api.LoopbackPort();
       const messageHandler2 = new _message_handler.MessageHandler("worker", "main", port);
@@ -217,23 +226,30 @@ describe("message_handler", function () {
 
       });
       const reader = readable.getReader();
-      await sleep(10);
-      expect(log).toEqual("01");
-      let result = await reader.read();
-      expect(result.value).toEqual([1, 2, 3, 4]);
-      expect(result.done).toEqual(false);
-      await sleep(10);
-      expect(log).toEqual("01p2");
-      result = await reader.read();
-      expect(result.value).toEqual([5, 6, 7, 8]);
-      expect(result.done).toEqual(false);
-      await sleep(10);
-      expect(log).toEqual("01p2p");
-      result = await reader.read();
-      expect(result.value).toEqual(undefined);
-      expect(result.done).toEqual(true);
+      sleep(10).then(() => {
+        expect(log).toEqual("01");
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual([1, 2, 3, 4]);
+        expect(result.done).toEqual(false);
+        return sleep(10);
+      }).then(() => {
+        expect(log).toEqual("01p2");
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual([5, 6, 7, 8]);
+        expect(result.done).toEqual(false);
+        return sleep(10);
+      }).then(() => {
+        expect(log).toEqual("01p2p");
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual(undefined);
+        expect(result.done).toEqual(true);
+        done();
+      });
     });
-    it("should read data with blocking promise and buffer whole data" + " into stream", async function () {
+    it("should read data with blocking promise and buffer whole data" + " into stream", function (done) {
       let log = "";
       const port = new _api.LoopbackPort();
       const messageHandler2 = new _message_handler.MessageHandler("worker", "main", port);
@@ -270,23 +286,30 @@ describe("message_handler", function () {
 
       });
       const reader = readable.getReader();
-      await sleep(10);
-      expect(log).toEqual("012");
-      let result = await reader.read();
-      expect(result.value).toEqual([1, 2, 3, 4]);
-      expect(result.done).toEqual(false);
-      await sleep(10);
-      expect(log).toEqual("012p");
-      result = await reader.read();
-      expect(result.value).toEqual([5, 6, 7, 8]);
-      expect(result.done).toEqual(false);
-      await sleep(10);
-      expect(log).toEqual("012p");
-      result = await reader.read();
-      expect(result.value).toEqual(undefined);
-      expect(result.done).toEqual(true);
+      sleep(10).then(() => {
+        expect(log).toEqual("012");
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual([1, 2, 3, 4]);
+        expect(result.done).toEqual(false);
+        return sleep(10);
+      }).then(() => {
+        expect(log).toEqual("012p");
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual([5, 6, 7, 8]);
+        expect(result.done).toEqual(false);
+        return sleep(10);
+      }).then(() => {
+        expect(log).toEqual("012p");
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual(undefined);
+        expect(result.done).toEqual(true);
+        done();
+      });
     });
-    it("should ignore any pull after close is called", async function () {
+    it("should ignore any pull after close is called", function (done) {
       let log = "";
       const port = new _api.LoopbackPort();
       const capability = (0, _util.createPromiseCapability)();
@@ -319,18 +342,24 @@ describe("message_handler", function () {
 
       });
       const reader = readable.getReader();
-      await sleep(10);
-      expect(log).toEqual("01");
-      capability.resolve();
-      await capability.promise;
-      let result = await reader.read();
-      expect(result.value).toEqual([1, 2, 3, 4]);
-      expect(result.done).toEqual(false);
-      await sleep(10);
-      expect(log).toEqual("01");
-      result = await reader.read();
-      expect(result.value).toEqual(undefined);
-      expect(result.done).toEqual(true);
+      sleep(10).then(() => {
+        expect(log).toEqual("01");
+        capability.resolve();
+        return capability.promise.then(() => {
+          return reader.read();
+        });
+      }).then(result => {
+        expect(result.value).toEqual([1, 2, 3, 4]);
+        expect(result.done).toEqual(false);
+        return sleep(10);
+      }).then(() => {
+        expect(log).toEqual("01");
+        return reader.read();
+      }).then(result => {
+        expect(result.value).toEqual(undefined);
+        expect(result.done).toEqual(true);
+        done();
+      });
     });
   });
 });

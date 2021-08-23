@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.TextLayerBuilder = exports.DefaultTextLayerFactory = void 0;
+exports.DefaultTextLayerFactory = exports.TextLayerBuilder = void 0;
 
 var _pdf = require("../pdf");
 
@@ -140,11 +140,13 @@ class TextLayerBuilder {
     }
 
     const {
+      findController,
       textContentItemsStr
     } = this;
     let i = 0,
         iIndex = 0;
     const end = textContentItemsStr.length - 1;
+    const queryLen = findController.state.query.length;
     const result = [];
 
     for (let m = 0, mm = matches.length; m < mm; m++) {
@@ -165,7 +167,12 @@ class TextLayerBuilder {
           offset: matchIdx - iIndex
         }
       };
-      matchIdx += matchesLength[m];
+
+      if (matchesLength) {
+        matchIdx += matchesLength[m];
+      } else {
+        matchIdx += queryLen;
+      }
 
       while (i !== end && matchIdx > iIndex + textContentItemsStr[i].length) {
         iIndex += textContentItemsStr[i].length;
@@ -306,7 +313,7 @@ class TextLayerBuilder {
       clearedUntilDivIdx = match.end.divIdx + 1;
     }
 
-    if (!findController?.highlightMatches) {
+    if (!findController || !findController.highlightMatches) {
       return;
     }
 

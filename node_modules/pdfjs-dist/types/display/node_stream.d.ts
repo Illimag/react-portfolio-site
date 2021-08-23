@@ -13,8 +13,10 @@ export class PDFNodeStream {
     cancelAllRequests(reason: any): void;
 }
 declare class PDFNodeStreamFsFullReader extends BaseFullReader {
+    constructor(stream: any);
 }
 declare class PDFNodeStreamFullReader extends BaseFullReader {
+    constructor(stream: any);
     _request: any;
 }
 declare class PDFNodeStreamFsRangeReader extends BaseRangeReader {

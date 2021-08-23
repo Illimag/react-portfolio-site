@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.JpegStream = void 0;
 
-var _decode_stream = require("./decode_stream.js");
+var _stream = require("./stream.js");
 
 var _primitives = require("./primitives.js");
 
@@ -34,8 +34,8 @@ var _jpg = require("./jpg.js");
 
 var _util = require("../shared/util.js");
 
-class JpegStream extends _decode_stream.DecodeStream {
-  constructor(stream, maybeLength, params) {
+const JpegStream = function JpegStreamClosure() {
+  function JpegStream(stream, maybeLength, dict, params) {
     let ch;
 
     while ((ch = stream.getByte()) !== -1) {
@@ -45,20 +45,25 @@ class JpegStream extends _decode_stream.DecodeStream {
       }
     }
 
-    super(maybeLength);
     this.stream = stream;
-    this.dict = stream.dict;
     this.maybeLength = maybeLength;
+    this.dict = dict;
     this.params = params;
+
+    _stream.DecodeStream.call(this, maybeLength);
   }
 
-  get bytes() {
-    return (0, _util.shadow)(this, "bytes", this.stream.getBytes(this.maybeLength));
-  }
+  JpegStream.prototype = Object.create(_stream.DecodeStream.prototype);
+  Object.defineProperty(JpegStream.prototype, "bytes", {
+    get: function JpegStream_bytes() {
+      return (0, _util.shadow)(this, "bytes", this.stream.getBytes(this.maybeLength));
+    },
+    configurable: true
+  });
 
-  ensureBuffer(requested) {}
+  JpegStream.prototype.ensureBuffer = function (requested) {};
 
-  readBlock() {
+  JpegStream.prototype.readBlock = function () {
     if (this.eof) {
       return;
     }
@@ -109,8 +114,9 @@ class JpegStream extends _decode_stream.DecodeStream {
     this.buffer = data;
     this.bufferLength = data.length;
     this.eof = true;
-  }
+  };
 
-}
+  return JpegStream;
+}();
 
 exports.JpegStream = JpegStream;

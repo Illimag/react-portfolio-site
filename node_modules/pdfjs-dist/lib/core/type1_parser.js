@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,10 +34,10 @@ var _stream = require("./stream.js");
 
 var _util = require("../shared/util.js");
 
-const HINTING_ENABLED = false;
+var HINTING_ENABLED = false;
 
-const Type1CharString = function Type1CharStringClosure() {
-  const COMMAND_MAP = {
+var Type1CharString = function Type1CharStringClosure() {
+  var COMMAND_MAP = {
     hstem: [1],
     vstem: [3],
     vmoveto: [4],
@@ -55,22 +55,22 @@ const Type1CharString = function Type1CharStringClosure() {
     hvcurveto: [31]
   };
 
-  class Type1CharString {
-    constructor() {
-      this.width = 0;
-      this.lsb = 0;
-      this.flexing = false;
-      this.output = [];
-      this.stack = [];
-    }
+  function Type1CharString() {
+    this.width = 0;
+    this.lsb = 0;
+    this.flexing = false;
+    this.output = [];
+    this.stack = [];
+  }
 
-    convert(encoded, subrs, seacAnalysisEnabled) {
-      const count = encoded.length;
-      let error = false;
-      let wx, sbx, subrNumber;
+  Type1CharString.prototype = {
+    convert: function Type1CharString_convert(encoded, subrs, seacAnalysisEnabled) {
+      var count = encoded.length;
+      var error = false;
+      var wx, sbx, subrNumber;
 
-      for (let i = 0; i < count; i++) {
-        let value = encoded[i];
+      for (var i = 0; i < count; i++) {
+        var value = encoded[i];
 
         if (value < 32) {
           if (value === 12) {
@@ -103,7 +103,7 @@ const Type1CharString = function Type1CharStringClosure() {
                   break;
                 }
 
-                const dy = this.stack.pop();
+                var dy = this.stack.pop();
                 this.stack.push(0, dy);
                 break;
               }
@@ -235,7 +235,7 @@ const Type1CharString = function Type1CharStringClosure() {
 
               this.stack.pop();
               wx = this.stack.pop();
-              const sby = this.stack.pop();
+              var sby = this.stack.pop();
               sbx = this.stack.pop();
               this.lsb = sbx;
               this.width = wx;
@@ -249,8 +249,8 @@ const Type1CharString = function Type1CharStringClosure() {
                 break;
               }
 
-              const num2 = this.stack.pop();
-              const num1 = this.stack.pop();
+              var num2 = this.stack.pop();
+              var num1 = this.stack.pop();
               this.stack.push(num1 / num2);
               break;
 
@@ -261,10 +261,10 @@ const Type1CharString = function Type1CharStringClosure() {
               }
 
               subrNumber = this.stack.pop();
-              const numArgs = this.stack.pop();
+              var numArgs = this.stack.pop();
 
               if (subrNumber === 0 && numArgs === 3) {
-                const flexArgs = this.stack.splice(this.stack.length - 17, 17);
+                var flexArgs = this.stack.splice(this.stack.length - 17, 17);
                 this.stack.push(flexArgs[2] + flexArgs[0], flexArgs[3] + flexArgs[1], flexArgs[4], flexArgs[5], flexArgs[6], flexArgs[7], flexArgs[8], flexArgs[9], flexArgs[10], flexArgs[11], flexArgs[12], flexArgs[13], flexArgs[14]);
                 error = this.executeCommand(13, COMMAND_MAP.flex, true);
                 this.flexing = false;
@@ -306,19 +306,19 @@ const Type1CharString = function Type1CharStringClosure() {
       }
 
       return error;
-    }
+    },
 
     executeCommand(howManyArgs, command, keepStack) {
-      const stackLength = this.stack.length;
+      var stackLength = this.stack.length;
 
       if (howManyArgs > stackLength) {
         return true;
       }
 
-      const start = stackLength - howManyArgs;
+      var start = stackLength - howManyArgs;
 
-      for (let i = start; i < stackLength; i++) {
-        let value = this.stack[i];
+      for (var i = start; i < stackLength; i++) {
+        var value = this.stack[i];
 
         if (Number.isInteger(value)) {
           this.output.push(28, value >> 8 & 0xff, value & 0xff);
@@ -339,14 +339,13 @@ const Type1CharString = function Type1CharStringClosure() {
       return false;
     }
 
-  }
-
+  };
   return Type1CharString;
 }();
 
-const Type1Parser = function Type1ParserClosure() {
-  const EEXEC_ENCRYPT_KEY = 55665;
-  const CHAR_STRS_ENCRYPT_KEY = 4330;
+var Type1Parser = function Type1ParserClosure() {
+  var EEXEC_ENCRYPT_KEY = 55665;
+  var CHAR_STRS_ENCRYPT_KEY = 4330;
 
   function isHexDigit(code) {
     return code >= 48 && code <= 57 || code >= 65 && code <= 70 || code >= 97 && code <= 102;
@@ -357,9 +356,9 @@ const Type1Parser = function Type1ParserClosure() {
       return new Uint8Array(0);
     }
 
-    const c1 = 52845,
-          c2 = 22719;
-    let r = key | 0,
+    var r = key | 0,
+        c1 = 52845,
+        c2 = 22719,
         i,
         j;
 
@@ -367,11 +366,11 @@ const Type1Parser = function Type1ParserClosure() {
       r = (data[i] + r) * c1 + c2 & (1 << 16) - 1;
     }
 
-    const count = data.length - discardNumber;
-    const decrypted = new Uint8Array(count);
+    var count = data.length - discardNumber;
+    var decrypted = new Uint8Array(count);
 
     for (i = discardNumber, j = 0; j < count; i++, j++) {
-      const value = data[i];
+      var value = data[i];
       decrypted[j] = value ^ r >> 8;
       r = (value + r) * c1 + c2 & (1 << 16) - 1;
     }
@@ -380,30 +379,30 @@ const Type1Parser = function Type1ParserClosure() {
   }
 
   function decryptAscii(data, key, discardNumber) {
-    const c1 = 52845,
-          c2 = 22719;
-    let r = key | 0;
-    const count = data.length,
-          maybeLength = count >>> 1;
-    const decrypted = new Uint8Array(maybeLength);
-    let i, j;
+    var r = key | 0,
+        c1 = 52845,
+        c2 = 22719;
+    var count = data.length,
+        maybeLength = count >>> 1;
+    var decrypted = new Uint8Array(maybeLength);
+    var i, j;
 
     for (i = 0, j = 0; i < count; i++) {
-      const digit1 = data[i];
+      var digit1 = data[i];
 
       if (!isHexDigit(digit1)) {
         continue;
       }
 
       i++;
-      let digit2;
+      var digit2;
 
       while (i < count && !isHexDigit(digit2 = data[i])) {
         i++;
       }
 
       if (i < count) {
-        const value = parseInt(String.fromCharCode(digit1, digit2), 16);
+        var value = parseInt(String.fromCharCode(digit1, digit2), 16);
         decrypted[j++] = value ^ r >> 8;
         r = (value + r) * c1 + c2 & (1 << 16) - 1;
       }
@@ -416,25 +415,25 @@ const Type1Parser = function Type1ParserClosure() {
     return c === 0x2f || c === 0x5b || c === 0x5d || c === 0x7b || c === 0x7d || c === 0x28 || c === 0x29;
   }
 
-  class Type1Parser {
-    constructor(stream, encrypted, seacAnalysisEnabled) {
-      if (encrypted) {
-        const data = stream.getBytes();
-        const isBinary = !((isHexDigit(data[0]) || (0, _core_utils.isWhiteSpace)(data[0])) && isHexDigit(data[1]) && isHexDigit(data[2]) && isHexDigit(data[3]) && isHexDigit(data[4]) && isHexDigit(data[5]) && isHexDigit(data[6]) && isHexDigit(data[7]));
-        stream = new _stream.Stream(isBinary ? decrypt(data, EEXEC_ENCRYPT_KEY, 4) : decryptAscii(data, EEXEC_ENCRYPT_KEY, 4));
-      }
-
-      this.seacAnalysisEnabled = !!seacAnalysisEnabled;
-      this.stream = stream;
-      this.nextChar();
+  function Type1Parser(stream, encrypted, seacAnalysisEnabled) {
+    if (encrypted) {
+      var data = stream.getBytes();
+      var isBinary = !((isHexDigit(data[0]) || (0, _core_utils.isWhiteSpace)(data[0])) && isHexDigit(data[1]) && isHexDigit(data[2]) && isHexDigit(data[3]) && isHexDigit(data[4]) && isHexDigit(data[5]) && isHexDigit(data[6]) && isHexDigit(data[7]));
+      stream = new _stream.Stream(isBinary ? decrypt(data, EEXEC_ENCRYPT_KEY, 4) : decryptAscii(data, EEXEC_ENCRYPT_KEY, 4));
     }
 
-    readNumberArray() {
+    this.seacAnalysisEnabled = !!seacAnalysisEnabled;
+    this.stream = stream;
+    this.nextChar();
+  }
+
+  Type1Parser.prototype = {
+    readNumberArray: function Type1Parser_readNumberArray() {
       this.getToken();
-      const array = [];
+      var array = [];
 
       while (true) {
-        const token = this.getToken();
+        var token = this.getToken();
 
         if (token === null || token === "]" || token === "}") {
           break;
@@ -444,30 +443,25 @@ const Type1Parser = function Type1ParserClosure() {
       }
 
       return array;
-    }
-
-    readNumber() {
-      const token = this.getToken();
+    },
+    readNumber: function Type1Parser_readNumber() {
+      var token = this.getToken();
       return parseFloat(token || 0);
-    }
-
-    readInt() {
-      const token = this.getToken();
+    },
+    readInt: function Type1Parser_readInt() {
+      var token = this.getToken();
       return parseInt(token || 0, 10) | 0;
-    }
-
-    readBoolean() {
-      const token = this.getToken();
+    },
+    readBoolean: function Type1Parser_readBoolean() {
+      var token = this.getToken();
       return token === "true" ? 1 : 0;
-    }
-
-    nextChar() {
+    },
+    nextChar: function Type1_nextChar() {
       return this.currentChar = this.stream.getByte();
-    }
-
-    getToken() {
-      let comment = false;
-      let ch = this.currentChar;
+    },
+    getToken: function Type1Parser_getToken() {
+      var comment = false;
+      var ch = this.currentChar;
 
       while (true) {
         if (ch === -1) {
@@ -492,7 +486,7 @@ const Type1Parser = function Type1ParserClosure() {
         return String.fromCharCode(ch);
       }
 
-      let token = "";
+      var token = "";
 
       do {
         token += String.fromCharCode(ch);
@@ -500,30 +494,28 @@ const Type1Parser = function Type1ParserClosure() {
       } while (ch >= 0 && !(0, _core_utils.isWhiteSpace)(ch) && !isSpecial(ch));
 
       return token;
-    }
-
-    readCharStrings(bytes, lenIV) {
+    },
+    readCharStrings: function Type1Parser_readCharStrings(bytes, lenIV) {
       if (lenIV === -1) {
         return bytes;
       }
 
       return decrypt(bytes, CHAR_STRS_ENCRYPT_KEY, lenIV);
-    }
-
-    extractFontProgram(properties) {
-      const stream = this.stream;
-      const subrs = [],
-            charstrings = [];
-      const privateData = Object.create(null);
+    },
+    extractFontProgram: function Type1Parser_extractFontProgram(properties) {
+      var stream = this.stream;
+      var subrs = [],
+          charstrings = [];
+      var privateData = Object.create(null);
       privateData.lenIV = 4;
-      const program = {
+      var program = {
         subrs: [],
         charstrings: [],
         properties: {
           privateData
         }
       };
-      let token, length, data, lenIV, encoded;
+      var token, length, data, lenIV, encoded;
 
       while ((token = this.getToken()) !== null) {
         if (token !== "/") {
@@ -550,7 +542,7 @@ const Type1Parser = function Type1ParserClosure() {
                 continue;
               }
 
-              const glyph = this.getToken();
+              var glyph = this.getToken();
               length = this.readInt();
               this.getToken();
               data = length > 0 ? stream.getBytes(length) : new Uint8Array(0);
@@ -598,7 +590,7 @@ const Type1Parser = function Type1ParserClosure() {
           case "OtherBlues":
           case "FamilyBlues":
           case "FamilyOtherBlues":
-            const blueArray = this.readNumberArray();
+            var blueArray = this.readNumberArray();
 
             if (blueArray.length > 0 && blueArray.length % 2 === 0 && HINTING_ENABLED) {
               program.properties.privateData[token] = blueArray;
@@ -631,12 +623,12 @@ const Type1Parser = function Type1ParserClosure() {
         }
       }
 
-      for (let i = 0; i < charstrings.length; i++) {
-        const glyph = charstrings[i].glyph;
+      for (var i = 0; i < charstrings.length; i++) {
+        glyph = charstrings[i].glyph;
         encoded = charstrings[i].encoded;
-        const charString = new Type1CharString();
-        const error = charString.convert(encoded, subrs, this.seacAnalysisEnabled);
-        let output = charString.output;
+        var charString = new Type1CharString();
+        var error = charString.convert(encoded, subrs, this.seacAnalysisEnabled);
+        var output = charString.output;
 
         if (error) {
           output = [14];
@@ -666,10 +658,9 @@ const Type1Parser = function Type1ParserClosure() {
       }
 
       return program;
-    }
-
-    extractFontHeader(properties) {
-      let token;
+    },
+    extractFontHeader: function Type1Parser_extractFontHeader(properties) {
+      var token;
 
       while ((token = this.getToken()) !== null) {
         if (token !== "/") {
@@ -680,22 +671,22 @@ const Type1Parser = function Type1ParserClosure() {
 
         switch (token) {
           case "FontMatrix":
-            const matrix = this.readNumberArray();
+            var matrix = this.readNumberArray();
             properties.fontMatrix = matrix;
             break;
 
           case "Encoding":
-            const encodingArg = this.getToken();
-            let encoding;
+            var encodingArg = this.getToken();
+            var encoding;
 
             if (!/^\d+$/.test(encodingArg)) {
               encoding = (0, _encodings.getEncoding)(encodingArg);
             } else {
               encoding = [];
-              const size = parseInt(encodingArg, 10) | 0;
+              var size = parseInt(encodingArg, 10) | 0;
               this.getToken();
 
-              for (let j = 0; j < size; j++) {
+              for (var j = 0; j < size; j++) {
                 token = this.getToken();
 
                 while (token !== "dup" && token !== "def") {
@@ -710,9 +701,9 @@ const Type1Parser = function Type1ParserClosure() {
                   break;
                 }
 
-                const index = this.readInt();
+                var index = this.readInt();
                 this.getToken();
-                const glyph = this.getToken();
+                var glyph = this.getToken();
                 encoding[index] = glyph;
                 this.getToken();
               }
@@ -722,7 +713,7 @@ const Type1Parser = function Type1ParserClosure() {
             break;
 
           case "FontBBox":
-            const fontBBox = this.readNumberArray();
+            var fontBBox = this.readNumberArray();
             properties.ascent = Math.max(fontBBox[3], fontBBox[1]);
             properties.descent = Math.min(fontBBox[1], fontBBox[3]);
             properties.ascentScaled = true;
@@ -730,9 +721,7 @@ const Type1Parser = function Type1ParserClosure() {
         }
       }
     }
-
-  }
-
+  };
   return Type1Parser;
 }();
 

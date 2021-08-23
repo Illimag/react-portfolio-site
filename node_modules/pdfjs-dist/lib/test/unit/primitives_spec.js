@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -90,7 +90,7 @@ describe("primitives", function () {
     const testFontFile = "file1";
     const testFontFile2 = "file2";
     const testFontFile3 = "file3";
-    beforeAll(function () {
+    beforeAll(function (done) {
       emptyDict = new _primitives.Dict();
       dictWithSizeKey = new _primitives.Dict();
       dictWithSizeKey.set("Size", storedSize);
@@ -98,6 +98,7 @@ describe("primitives", function () {
       dictWithManyKeys.set("FontFile", testFontFile);
       dictWithManyKeys.set("FontFile2", testFontFile2);
       dictWithManyKeys.set("FontFile3", testFontFile3);
+      done();
     });
     afterAll(function () {
       emptyDict = dictWithSizeKey = dictWithManyKeys = null;
@@ -147,18 +148,26 @@ describe("primitives", function () {
       expect(dictWithManyKeys.get("FontFile2", "FontFile3")).toEqual(testFontFile2);
       expect(dictWithManyKeys.get("FontFile", "FontFile2", "FontFile3")).toEqual(testFontFile);
     });
-    it("should asynchronously fetch unknown keys", async function () {
+    it("should asynchronously fetch unknown keys", function (done) {
       const keyPromises = [dictWithManyKeys.getAsync("Size"), dictWithSizeKey.getAsync("FontFile", "FontFile2", "FontFile3")];
-      const values = await Promise.all(keyPromises);
-      expect(values[0]).toBeUndefined();
-      expect(values[1]).toBeUndefined();
+      Promise.all(keyPromises).then(function (values) {
+        expect(values[0]).toBeUndefined();
+        expect(values[1]).toBeUndefined();
+        done();
+      }).catch(function (reason) {
+        done.fail(reason);
+      });
     });
-    it("should asynchronously fetch correct values for multiple stored keys", async function () {
+    it("should asynchronously fetch correct values for multiple stored keys", function (done) {
       const keyPromises = [dictWithManyKeys.getAsync("FontFile3"), dictWithManyKeys.getAsync("FontFile2", "FontFile3"), dictWithManyKeys.getAsync("FontFile", "FontFile2", "FontFile3")];
-      const values = await Promise.all(keyPromises);
-      expect(values[0]).toEqual(testFontFile3);
-      expect(values[1]).toEqual(testFontFile2);
-      expect(values[2]).toEqual(testFontFile);
+      Promise.all(keyPromises).then(function (values) {
+        expect(values[0]).toEqual(testFontFile3);
+        expect(values[1]).toEqual(testFontFile2);
+        expect(values[2]).toEqual(testFontFile);
+        done();
+      }).catch(function (reason) {
+        done.fail(reason);
+      });
     });
     it("should callback for each stored key", function () {
       const callbackSpy = jasmine.createSpy("spy on callback in dictionary");
@@ -170,7 +179,7 @@ describe("primitives", function () {
       expect(callbackSpyCalls.argsFor(2)).toEqual(["FontFile3", testFontFile3]);
       expect(callbackSpyCalls.count()).toEqual(3);
     });
-    it("should handle keys pointing to indirect objects, both sync and async", async function () {
+    it("should handle keys pointing to indirect objects, both sync and async", function (done) {
       const fontRef = _primitives.Ref.get(1, 0);
 
       const xref = new _test_utils.XRefMock([{
@@ -181,8 +190,12 @@ describe("primitives", function () {
       fontDict.set("FontFile", fontRef);
       expect(fontDict.getRaw("FontFile")).toEqual(fontRef);
       expect(fontDict.get("FontFile", "FontFile2", "FontFile3")).toEqual(testFontFile);
-      const value = await fontDict.getAsync("FontFile", "FontFile2", "FontFile3");
-      expect(value).toEqual(testFontFile);
+      fontDict.getAsync("FontFile", "FontFile2", "FontFile3").then(function (value) {
+        expect(value).toEqual(testFontFile);
+        done();
+      }).catch(function (reason) {
+        done.fail(reason);
+      });
     });
     it("should handle arrays containing indirect objects", function () {
       const minCoordRef = _primitives.Ref.get(1, 0);
@@ -356,8 +369,9 @@ describe("primitives", function () {
     const obj2 = _primitives.Name.get("bar");
 
     let cache;
-    beforeEach(function () {
+    beforeEach(function (done) {
       cache = new _primitives.RefSetCache();
+      done();
     });
     afterEach(function () {
       cache = null;

@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ var _fetch_stream = require("../../display/fetch_stream.js");
 describe("fetch_stream", function () {
   const pdfUrl = new URL("../pdfs/tracemonkey.pdf", window.location).href;
   const pdfLength = 1016315;
-  it("read with streaming", async function () {
+  it("read with streaming", function (done) {
     const stream = new _fetch_stream.PDFFetchStream({
       url: pdfUrl,
       disableStream: false,
@@ -53,12 +53,15 @@ describe("fetch_stream", function () {
       });
     };
 
-    await Promise.all([read(), promise]);
-    expect(len).toEqual(pdfLength);
-    expect(isStreamingSupported).toEqual(true);
-    expect(isRangeSupported).toEqual(false);
+    const readPromise = Promise.all([read(), promise]);
+    readPromise.then(function () {
+      expect(len).toEqual(pdfLength);
+      expect(isStreamingSupported).toEqual(true);
+      expect(isRangeSupported).toEqual(false);
+      done();
+    }).catch(done.fail);
   });
-  it("read ranges with streaming", async function () {
+  it("read ranges with streaming", function (done) {
     const rangeSize = 32768;
     const stream = new _fetch_stream.PDFFetchStream({
       url: pdfUrl,
@@ -95,11 +98,14 @@ describe("fetch_stream", function () {
       });
     };
 
-    await Promise.all([read(rangeReader1, result1), read(rangeReader2, result2), promise]);
-    expect(isStreamingSupported).toEqual(true);
-    expect(isRangeSupported).toEqual(true);
-    expect(fullReaderCancelled).toEqual(true);
-    expect(result1.value).toEqual(rangeSize);
-    expect(result2.value).toEqual(tailSize);
+    const readPromise = Promise.all([read(rangeReader1, result1), read(rangeReader2, result2), promise]);
+    readPromise.then(function () {
+      expect(isStreamingSupported).toEqual(true);
+      expect(isRangeSupported).toEqual(true);
+      expect(fullReaderCancelled).toEqual(true);
+      expect(result1.value).toEqual(rangeSize);
+      expect(result2.value).toEqual(tailSize);
+      done();
+    }).catch(done.fail);
   });
 });

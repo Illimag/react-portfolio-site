@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,11 +30,12 @@ var _util = require("../shared/util.js");
 
 var _core_utils = require("./core_utils.js");
 
-var _stream = require("./stream.js");
-
-class ChunkedStream extends _stream.Stream {
+class ChunkedStream {
   constructor(length, chunkSize, manager) {
-    super(new Uint8Array(length), 0, length, null);
+    this.bytes = new Uint8Array(length);
+    this.start = 0;
+    this.pos = 0;
+    this.end = length;
     this.chunkSize = chunkSize;
     this._loadedChunks = new Set();
     this.numChunks = Math.ceil(length / chunkSize);
@@ -55,11 +56,15 @@ class ChunkedStream extends _stream.Stream {
     return chunks;
   }
 
+  getBaseStreams() {
+    return [this];
+  }
+
   get numChunksLoaded() {
     return this._loadedChunks.size;
   }
 
-  get isDataLoaded() {
+  allChunksLoaded() {
     return this.numChunksLoaded === this.numChunks;
   }
 
@@ -154,6 +159,14 @@ class ChunkedStream extends _stream.Stream {
     return this._loadedChunks.has(chunk);
   }
 
+  get length() {
+    return this.end - this.start;
+  }
+
+  get isEmpty() {
+    return this.length === 0;
+  }
+
   getByte() {
     const pos = this.pos;
 
@@ -166,6 +179,25 @@ class ChunkedStream extends _stream.Stream {
     }
 
     return this.bytes[this.pos++];
+  }
+
+  getUint16() {
+    const b0 = this.getByte();
+    const b1 = this.getByte();
+
+    if (b0 === -1 || b1 === -1) {
+      return -1;
+    }
+
+    return (b0 << 8) + b1;
+  }
+
+  getInt32() {
+    const b0 = this.getByte();
+    const b1 = this.getByte();
+    const b2 = this.getByte();
+    const b3 = this.getByte();
+    return (b0 << 24) + (b1 << 16) + (b2 << 8) + b3;
   }
 
   getBytes(length, forceClamped = false) {
@@ -197,6 +229,22 @@ class ChunkedStream extends _stream.Stream {
     return forceClamped ? new Uint8ClampedArray(subarray) : subarray;
   }
 
+  peekByte() {
+    const peekedByte = this.getByte();
+
+    if (peekedByte !== -1) {
+      this.pos--;
+    }
+
+    return peekedByte;
+  }
+
+  peekBytes(length, forceClamped = false) {
+    const bytes = this.getBytes(length, forceClamped);
+    this.pos -= bytes.length;
+    return bytes;
+  }
+
   getByteRange(begin, end) {
     if (begin < 0) {
       begin = 0;
@@ -213,7 +261,23 @@ class ChunkedStream extends _stream.Stream {
     return this.bytes.subarray(begin, end);
   }
 
-  makeSubStream(start, length, dict = null) {
+  skip(n) {
+    if (!n) {
+      n = 1;
+    }
+
+    this.pos += n;
+  }
+
+  reset() {
+    this.pos = this.start;
+  }
+
+  moveStart() {
+    this.start = this.pos;
+  }
+
+  makeSubStream(start, length, dict) {
     if (length) {
       if (start + length > this.progressiveDataLength) {
         this.ensureRange(start, start + length);
@@ -243,26 +307,19 @@ class ChunkedStream extends _stream.Stream {
       return missingChunks;
     };
 
-    Object.defineProperty(ChunkedStreamSubstream.prototype, "isDataLoaded", {
-      get() {
-        if (this.numChunksLoaded === this.numChunks) {
-          return true;
-        }
+    ChunkedStreamSubstream.prototype.allChunksLoaded = function () {
+      if (this.numChunksLoaded === this.numChunks) {
+        return true;
+      }
 
-        return this.getMissingChunks().length === 0;
-      },
+      return this.getMissingChunks().length === 0;
+    };
 
-      configurable: true
-    });
     const subStream = new ChunkedStreamSubstream();
     subStream.pos = subStream.start = start;
     subStream.end = start + length || this.end;
     subStream.dict = dict;
     return subStream;
-  }
-
-  getBaseStreams() {
-    return [this];
   }
 
 }
@@ -494,7 +551,7 @@ class ChunkedStreamManager {
       this.stream.onReceiveData(begin, chunk);
     }
 
-    if (this.stream.isDataLoaded) {
+    if (this.stream.allChunksLoaded()) {
       this._loadedStreamCapability.resolve(this.stream);
     }
 

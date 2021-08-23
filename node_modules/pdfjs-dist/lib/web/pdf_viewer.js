@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,8 +25,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFViewer = void 0;
-
-var _ui_utils = require("./ui_utils.js");
 
 var _base_viewer = require("./base_viewer.js");
 
@@ -86,7 +84,7 @@ class PDFViewer extends _base_viewer.BaseViewer {
         break;
       }
 
-      if (page.id === currentId && this._scrollMode === _ui_utils.ScrollMode.VERTICAL && this._spreadMode === _ui_utils.SpreadMode.NONE) {
+      if (page.id === currentId) {
         stillFullyVisible = true;
         break;
       }

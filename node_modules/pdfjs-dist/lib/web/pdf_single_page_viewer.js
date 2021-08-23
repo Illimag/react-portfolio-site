@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,10 +41,6 @@ class PDFSinglePageViewer extends _base_viewer.BaseViewer {
 
   get _viewerElement() {
     return (0, _pdf.shadow)(this, "_viewerElement", this._shadowViewer);
-  }
-
-  get _pageWidthScaleFactor() {
-    return 1;
   }
 
   _resetView() {
@@ -135,10 +131,6 @@ class PDFSinglePageViewer extends _base_viewer.BaseViewer {
   _updateScrollMode() {}
 
   _updateSpreadMode() {}
-
-  _getPageAdvance() {
-    return 1;
-  }
 
 }
 

@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,8 +34,6 @@ var _download_manager = require("./download_manager.js");
 
 var _genericl10n = require("./genericl10n.js");
 
-var _generic_scripting = require("./generic_scripting.js");
-
 ;
 const GenericCom = {};
 exports.GenericCom = GenericCom;
@@ -53,7 +51,7 @@ class GenericPreferences extends _preferences.BasePreferences {
 
 class GenericExternalServices extends _app.DefaultExternalServices {
   static createDownloadManager(options) {
-    return new _download_manager.DownloadManager();
+    return new _download_manager.DownloadManager(options);
   }
 
   static createPreferences() {
@@ -64,12 +62,6 @@ class GenericExternalServices extends _app.DefaultExternalServices {
     locale = "en-US"
   }) {
     return new _genericl10n.GenericL10n(locale);
-  }
-
-  static createScripting({
-    sandboxBundleSrc
-  }) {
-    return new _generic_scripting.GenericScripting(sandboxBundleSrc);
   }
 
 }

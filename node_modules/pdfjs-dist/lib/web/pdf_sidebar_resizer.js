@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,12 +25,16 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PDFSidebarResizer = void 0;
+
+var _ui_utils = require("./ui_utils.js");
+
 const SIDEBAR_WIDTH_VAR = "--sidebar-width";
 const SIDEBAR_MIN_WIDTH = 200;
 const SIDEBAR_RESIZING_CLASS = "sidebarResizing";
 
 class PDFSidebarResizer {
-  constructor(options, eventBus, l10n) {
+  constructor(options, eventBus, l10n = _ui_utils.NullL10n) {
+    this.enabled = false;
     this.isRTL = false;
     this.sidebarOpen = false;
     this.doc = document.documentElement;
@@ -40,7 +44,16 @@ class PDFSidebarResizer {
     this.outerContainer = options.outerContainer;
     this.resizer = options.resizer;
     this.eventBus = eventBus;
-    l10n.getDirection().then(dir => {
+    this.l10n = l10n;
+
+    if (typeof CSS === "undefined" || typeof CSS.supports !== "function" || !CSS.supports(SIDEBAR_WIDTH_VAR, `calc(-1 * ${SIDEBAR_MIN_WIDTH}px)`)) {
+      console.warn("PDFSidebarResizer: " + "The browser does not support resizing of the sidebar.");
+      return;
+    }
+
+    this.enabled = true;
+    this.resizer.classList.remove("hidden");
+    this.l10n.getDirection().then(dir => {
       this.isRTL = dir === "rtl";
     });
 
@@ -48,26 +61,26 @@ class PDFSidebarResizer {
   }
 
   get outerContainerWidth() {
-    return this._outerContainerWidth || (this._outerContainerWidth = this.outerContainer.clientWidth);
+    if (!this._outerContainerWidth) {
+      this._outerContainerWidth = this.outerContainer.clientWidth;
+    }
+
+    return this._outerContainerWidth;
   }
 
   _updateWidth(width = 0) {
-    const maxWidth = Math.floor(this.outerContainerWidth / 2);
-
-    if (width > maxWidth) {
-      width = maxWidth;
-    }
-
-    if (width < SIDEBAR_MIN_WIDTH) {
-      width = SIDEBAR_MIN_WIDTH;
-    }
-
-    if (width === this._width) {
+    if (!this.enabled) {
       return false;
     }
 
-    this._width = width;
-    this.doc.style.setProperty(SIDEBAR_WIDTH_VAR, `${width}px`);
+    const newWidth = (0, _ui_utils.clamp)(width, SIDEBAR_MIN_WIDTH, Math.floor(this.outerContainerWidth / 2));
+
+    if (newWidth === this._width) {
+      return false;
+    }
+
+    this._width = newWidth;
+    this.doc.style.setProperty(SIDEBAR_WIDTH_VAR, `${newWidth}px`);
     return true;
   }
 
@@ -92,6 +105,10 @@ class PDFSidebarResizer {
   }
 
   _addEventListeners() {
+    if (!this.enabled) {
+      return;
+    }
+
     const _boundEvents = this._boundEvents;
     _boundEvents.mouseMove = this._mouseMove.bind(this);
     _boundEvents.mouseUp = this._mouseUp.bind(this);
@@ -106,11 +123,11 @@ class PDFSidebarResizer {
     });
 
     this.eventBus._on("sidebarviewchanged", evt => {
-      this.sidebarOpen = !!evt?.view;
+      this.sidebarOpen = !!(evt && evt.view);
     });
 
     this.eventBus._on("resize", evt => {
-      if (evt?.source !== window) {
+      if (!evt || evt.source !== window) {
         return;
       }
 

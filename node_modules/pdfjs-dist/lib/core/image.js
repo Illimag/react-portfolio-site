@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@ var _primitives = require("./primitives.js");
 
 var _colorspace = require("./colorspace.js");
 
-var _decode_stream = require("./decode_stream.js");
+var _stream = require("./stream.js");
 
 var _jpeg_stream = require("./jpeg_stream.js");
 
@@ -51,7 +51,7 @@ function decodeAndClamp(value, addend, coefficient, max) {
 }
 
 function resizeImageMask(src, bpc, w1, h1, w2, h2) {
-  const length = w2 * h2;
+  var length = w2 * h2;
   let dest;
 
   if (bpc <= 8) {
@@ -62,15 +62,15 @@ function resizeImageMask(src, bpc, w1, h1, w2, h2) {
     dest = new Uint32Array(length);
   }
 
-  const xRatio = w1 / w2;
-  const yRatio = h1 / h2;
-  let i,
+  var xRatio = w1 / w2;
+  var yRatio = h1 / h2;
+  var i,
       j,
       py,
       newIndex = 0,
       oldIndex;
-  const xScaled = new Uint16Array(w2);
-  const w1Scanline = w1;
+  var xScaled = new Uint16Array(w2);
+  var w1Scanline = w1;
 
   for (i = 0; i < w2; i++) {
     xScaled[i] = Math.floor(i * xRatio);
@@ -101,13 +101,13 @@ class PDFImage {
     localColorSpaceCache
   }) {
     this.image = image;
-    const dict = image.dict;
+    var dict = image.dict;
     const filter = dict.get("Filter");
 
     if ((0, _primitives.isName)(filter)) {
       switch (filter.name) {
         case "JPXDecode":
-          const jpxImage = new _jpx.JpxImage();
+          var jpxImage = new _jpx.JpxImage();
           jpxImage.parseImageProperties(image.stream);
           image.stream.reset();
           image.width = jpxImage.width;
@@ -141,7 +141,7 @@ class PDFImage {
     this.interpolate = dict.get("Interpolate", "I") || false;
     this.imageMask = dict.get("ImageMask", "IM") || false;
     this.matte = dict.get("Matte") || false;
-    let bitsPerComponent = image.bitsPerComponent;
+    var bitsPerComponent = image.bitsPerComponent;
 
     if (!bitsPerComponent) {
       bitsPerComponent = dict.get("BitsPerComponent", "BPC");
@@ -196,14 +196,14 @@ class PDFImage {
 
     if (this.decode && (this.colorSpace && !this.colorSpace.isDefaultDecode(this.decode, bitsPerComponent) || isMask && !_colorspace.ColorSpace.isDefaultDecode(this.decode, 1))) {
       this.needsDecode = true;
-      const max = (1 << bitsPerComponent) - 1;
+      var max = (1 << bitsPerComponent) - 1;
       this.decodeCoefficients = [];
       this.decodeAddends = [];
       const isIndexed = this.colorSpace && this.colorSpace.name === "Indexed";
 
-      for (let i = 0, j = 0; i < this.decode.length; i += 2, ++j) {
-        const dmin = this.decode[i];
-        const dmax = this.decode[i + 1];
+      for (var i = 0, j = 0; i < this.decode.length; i += 2, ++j) {
+        var dmin = this.decode[i];
+        var dmax = this.decode[i + 1];
         this.decodeCoefficients[j] = isIndexed ? (dmax - dmin) / max : dmax - dmin;
         this.decodeAddends[j] = isIndexed ? dmin : max * dmin;
       }
@@ -220,8 +220,8 @@ class PDFImage {
       });
     } else if (mask) {
       if ((0, _primitives.isStream)(mask)) {
-        const maskDict = mask.dict,
-              imageMask = maskDict.get("ImageMask", "IM");
+        var maskDict = mask.dict,
+            imageMask = maskDict.get("ImageMask", "IM");
 
         if (!imageMask) {
           (0, _util.warn)("Ignoring /Mask in image without /ImageMask.");
@@ -285,10 +285,10 @@ class PDFImage {
     imageIsFromDecodeStream,
     inverseDecode
   }) {
-    const computedLength = (width + 7 >> 3) * height;
-    const actualLength = imgArray.byteLength;
-    const haveFullData = computedLength === actualLength;
-    let data, i;
+    var computedLength = (width + 7 >> 3) * height;
+    var actualLength = imgArray.byteLength;
+    var haveFullData = computedLength === actualLength;
+    var data, i;
 
     if (imageIsFromDecodeStream && (!inverseDecode || haveFullData)) {
       data = imgArray;
@@ -326,12 +326,12 @@ class PDFImage {
   }
 
   decodeBuffer(buffer) {
-    const bpc = this.bpc;
-    const numComps = this.numComps;
-    const decodeAddends = this.decodeAddends;
-    const decodeCoefficients = this.decodeCoefficients;
-    const max = (1 << bpc) - 1;
-    let i, ii;
+    var bpc = this.bpc;
+    var numComps = this.numComps;
+    var decodeAddends = this.decodeAddends;
+    var decodeCoefficients = this.decodeCoefficients;
+    var max = (1 << bpc) - 1;
+    var i, ii;
 
     if (bpc === 1) {
       for (i = 0, ii = buffer.length; i < ii; i++) {
@@ -341,10 +341,10 @@ class PDFImage {
       return;
     }
 
-    let index = 0;
+    var index = 0;
 
     for (i = 0, ii = this.width * this.height; i < ii; i++) {
-      for (let j = 0; j < numComps; j++) {
+      for (var j = 0; j < numComps; j++) {
         buffer[index] = decodeAndClamp(buffer[index], decodeAddends[j], decodeCoefficients[j], max);
         index++;
       }
@@ -352,17 +352,17 @@ class PDFImage {
   }
 
   getComponents(buffer) {
-    const bpc = this.bpc;
+    var bpc = this.bpc;
 
     if (bpc === 8) {
       return buffer;
     }
 
-    const width = this.width;
-    const height = this.height;
-    const numComps = this.numComps;
-    const length = width * height * numComps;
-    let bufferPos = 0;
+    var width = this.width;
+    var height = this.height;
+    var numComps = this.numComps;
+    var length = width * height * numComps;
+    var bufferPos = 0;
     let output;
 
     if (bpc <= 8) {
@@ -373,16 +373,16 @@ class PDFImage {
       output = new Uint32Array(length);
     }
 
-    const rowComps = width * numComps;
-    const max = (1 << bpc) - 1;
-    let i = 0,
+    var rowComps = width * numComps;
+    var max = (1 << bpc) - 1;
+    var i = 0,
         ii,
         buf;
 
     if (bpc === 1) {
-      let mask, loop1End, loop2End;
+      var mask, loop1End, loop2End;
 
-      for (let j = 0; j < height; j++) {
+      for (var j = 0; j < height; j++) {
         loop1End = i + (rowComps & ~7);
         loop2End = i + rowComps;
 
@@ -410,7 +410,7 @@ class PDFImage {
         }
       }
     } else {
-      let bits = 0;
+      var bits = 0;
       buf = 0;
 
       for (i = 0, ii = length; i < ii; ++i) {
@@ -424,7 +424,7 @@ class PDFImage {
           bits += 8;
         }
 
-        const remainingBits = bits - bpc;
+        var remainingBits = bits - bpc;
         let value = buf >> remainingBits;
 
         if (value < 0) {
@@ -443,9 +443,9 @@ class PDFImage {
   }
 
   fillOpacity(rgbaBuf, width, height, actualHeight, image) {
-    const smask = this.smask;
-    const mask = this.mask;
-    let alphaBuf, sw, sh, i, ii, j;
+    var smask = this.smask;
+    var mask = this.mask;
+    var alphaBuf, sw, sh, i, ii, j;
 
     if (smask) {
       sw = smask.width;
@@ -473,15 +473,15 @@ class PDFImage {
         }
       } else if (Array.isArray(mask)) {
         alphaBuf = new Uint8ClampedArray(width * height);
-        const numComps = this.numComps;
+        var numComps = this.numComps;
 
         for (i = 0, ii = width * height; i < ii; ++i) {
-          let opacity = 0;
-          const imageOffset = i * numComps;
+          var opacity = 0;
+          var imageOffset = i * numComps;
 
           for (j = 0; j < numComps; ++j) {
-            const color = image[imageOffset + j];
-            const maskOffset = j * 2;
+            var color = image[imageOffset + j];
+            var maskOffset = j * 2;
 
             if (color < mask[maskOffset] || color > mask[maskOffset + 1]) {
               opacity = 255;
@@ -508,20 +508,20 @@ class PDFImage {
   }
 
   undoPreblend(buffer, width, height) {
-    const matte = this.smask && this.smask.matte;
+    var matte = this.smask && this.smask.matte;
 
     if (!matte) {
       return;
     }
 
-    const matteRgb = this.colorSpace.getRgb(matte, 0);
-    const matteR = matteRgb[0];
-    const matteG = matteRgb[1];
-    const matteB = matteRgb[2];
-    const length = width * height * 4;
+    var matteRgb = this.colorSpace.getRgb(matte, 0);
+    var matteR = matteRgb[0];
+    var matteG = matteRgb[1];
+    var matteB = matteRgb[2];
+    var length = width * height * 4;
 
-    for (let i = 0; i < length; i += 4) {
-      const alpha = buffer[i + 3];
+    for (var i = 0; i < length; i += 4) {
+      var alpha = buffer[i + 3];
 
       if (alpha === 0) {
         buffer[i] = 255;
@@ -530,7 +530,7 @@ class PDFImage {
         continue;
       }
 
-      const k = 255 / alpha;
+      var k = 255 / alpha;
       buffer[i] = (buffer[i] - matteR) * k + matteR;
       buffer[i + 1] = (buffer[i + 1] - matteG) * k + matteG;
       buffer[i + 2] = (buffer[i + 2] - matteB) * k + matteB;
@@ -538,23 +538,23 @@ class PDFImage {
   }
 
   createImageData(forceRGBA = false) {
-    const drawWidth = this.drawWidth;
-    const drawHeight = this.drawHeight;
-    const imgData = {
+    var drawWidth = this.drawWidth;
+    var drawHeight = this.drawHeight;
+    var imgData = {
       width: drawWidth,
       height: drawHeight,
       kind: 0,
       data: null
     };
-    const numComps = this.numComps;
-    const originalWidth = this.width;
-    const originalHeight = this.height;
-    const bpc = this.bpc;
-    const rowBytes = originalWidth * numComps * bpc + 7 >> 3;
-    let imgArray;
+    var numComps = this.numComps;
+    var originalWidth = this.width;
+    var originalHeight = this.height;
+    var bpc = this.bpc;
+    var rowBytes = originalWidth * numComps * bpc + 7 >> 3;
+    var imgArray;
 
     if (!forceRGBA) {
-      let kind;
+      var kind;
 
       if (this.colorSpace.name === "DeviceGray" && bpc === 1) {
         kind = _util.ImageKind.GRAYSCALE_1BPP;
@@ -566,19 +566,19 @@ class PDFImage {
         imgData.kind = kind;
         imgArray = this.getImageBytes(originalHeight * rowBytes);
 
-        if (this.image instanceof _decode_stream.DecodeStream) {
+        if (this.image instanceof _stream.DecodeStream) {
           imgData.data = imgArray;
         } else {
-          const newArray = new Uint8ClampedArray(imgArray.length);
+          var newArray = new Uint8ClampedArray(imgArray.length);
           newArray.set(imgArray);
           imgData.data = newArray;
         }
 
         if (this.needsDecode) {
           (0, _util.assert)(kind === _util.ImageKind.GRAYSCALE_1BPP, "PDFImage.createImageData: The image must be grayscale.");
-          const buffer = imgData.data;
+          var buffer = imgData.data;
 
-          for (let i = 0, ii = buffer.length; i < ii; i++) {
+          for (var i = 0, ii = buffer.length; i < ii; i++) {
             buffer[i] ^= 0xff;
           }
         }
@@ -603,9 +603,9 @@ class PDFImage {
     }
 
     imgArray = this.getImageBytes(originalHeight * rowBytes);
-    const actualHeight = 0 | imgArray.length / rowBytes * drawHeight / originalHeight;
-    const comps = this.getComponents(imgArray);
-    let alpha01, maybeUndoPreblend;
+    var actualHeight = 0 | imgArray.length / rowBytes * drawHeight / originalHeight;
+    var comps = this.getComponents(imgArray);
+    var alpha01, maybeUndoPreblend;
 
     if (!forceRGBA && !this.smask && !this.mask) {
       imgData.kind = _util.ImageKind.RGB_24BPP;
@@ -634,19 +634,19 @@ class PDFImage {
   }
 
   fillGrayBuffer(buffer) {
-    const numComps = this.numComps;
+    var numComps = this.numComps;
 
     if (numComps !== 1) {
       throw new _util.FormatError(`Reading gray scale from a color image: ${numComps}`);
     }
 
-    const width = this.width;
-    const height = this.height;
-    const bpc = this.bpc;
-    const rowBytes = width * numComps * bpc + 7 >> 3;
-    const imgArray = this.getImageBytes(height * rowBytes);
-    const comps = this.getComponents(imgArray);
-    let i, length;
+    var width = this.width;
+    var height = this.height;
+    var bpc = this.bpc;
+    var rowBytes = width * numComps * bpc + 7 >> 3;
+    var imgArray = this.getImageBytes(height * rowBytes);
+    var comps = this.getComponents(imgArray);
+    var i, length;
 
     if (bpc === 1) {
       length = width * height;
@@ -669,7 +669,7 @@ class PDFImage {
     }
 
     length = width * height;
-    const scale = 255 / ((1 << bpc) - 1);
+    var scale = 255 / ((1 << bpc) - 1);
 
     for (i = 0; i < length; ++i) {
       buffer[i] = scale * comps[i];

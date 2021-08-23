@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,8 +31,6 @@ var _pdf_find_controller = require("../../web/pdf_find_controller.js");
 
 var _pdf_link_service = require("../../web/pdf_link_service.js");
 
-const tracemonkeyFileName = "tracemonkey.pdf";
-
 class MockLinkService extends _pdf_link_service.SimpleLinkService {
   constructor() {
     super();
@@ -58,80 +56,68 @@ class MockLinkService extends _pdf_link_service.SimpleLinkService {
 
 }
 
-async function initPdfFindController(filename) {
-  const loadingTask = (0, _api.getDocument)((0, _test_utils.buildGetDocumentParams)(filename || tracemonkeyFileName));
-  const pdfDocument = await loadingTask.promise;
-  const eventBus = new _ui_utils.EventBus();
-  const linkService = new MockLinkService();
-  linkService.setDocument(pdfDocument);
-  const pdfFindController = new _pdf_find_controller.PDFFindController({
-    linkService,
-    eventBus
-  });
-  pdfFindController.setDocument(pdfDocument);
-  return {
-    eventBus,
-    pdfFindController
-  };
-}
-
-function testSearch({
-  eventBus,
-  pdfFindController,
-  parameters,
-  matchesPerPage,
-  selectedMatch,
-  pageMatches = null,
-  pageMatchesLength = null
-}) {
-  return new Promise(function (resolve) {
-    pdfFindController.executeCommand("find", parameters);
-    let totalPages = matchesPerPage.length;
-
-    for (let i = totalPages - 1; i >= 0; i--) {
-      if (matchesPerPage[i] > 0) {
-        totalPages = i + 1;
-        break;
-      }
-    }
-
-    const totalMatches = matchesPerPage.reduce((a, b) => {
-      return a + b;
-    });
-    eventBus.on("updatefindmatchescount", function onUpdateFindMatchesCount(evt) {
-      if (pdfFindController.pageMatches.length !== totalPages) {
-        return;
-      }
-
-      eventBus.off("updatefindmatchescount", onUpdateFindMatchesCount);
-      expect(evt.matchesCount.total).toBe(totalMatches);
-
-      for (let i = 0; i < totalPages; i++) {
-        expect(pdfFindController.pageMatches[i].length).toEqual(matchesPerPage[i]);
-      }
-
-      expect(pdfFindController.selected.pageIdx).toEqual(selectedMatch.pageIndex);
-      expect(pdfFindController.selected.matchIdx).toEqual(selectedMatch.matchIndex);
-
-      if (pageMatches) {
-        expect(pdfFindController.pageMatches).toEqual(pageMatches);
-        expect(pdfFindController.pageMatchesLength).toEqual(pageMatchesLength);
-      }
-
-      resolve();
-    });
-  });
-}
-
 describe("pdf_find_controller", function () {
-  it("performs a normal search", async function () {
-    const {
-      eventBus,
-      pdfFindController
-    } = await initPdfFindController();
-    await testSearch({
-      eventBus,
-      pdfFindController,
+  let eventBus;
+  let pdfFindController;
+  beforeEach(function (done) {
+    const loadingTask = (0, _api.getDocument)((0, _test_utils.buildGetDocumentParams)("tracemonkey.pdf"));
+    loadingTask.promise.then(function (pdfDocument) {
+      eventBus = new _ui_utils.EventBus();
+      const linkService = new MockLinkService();
+      linkService.setDocument(pdfDocument);
+      pdfFindController = new _pdf_find_controller.PDFFindController({
+        linkService,
+        eventBus
+      });
+      pdfFindController.setDocument(pdfDocument);
+      done();
+    });
+  });
+  afterEach(function () {
+    eventBus = null;
+    pdfFindController = null;
+  });
+
+  function testSearch({
+    parameters,
+    matchesPerPage,
+    selectedMatch
+  }) {
+    return new Promise(function (resolve) {
+      pdfFindController.executeCommand("find", parameters);
+      let totalPages = matchesPerPage.length;
+
+      for (let i = totalPages - 1; i >= 0; i--) {
+        if (matchesPerPage[i] > 0) {
+          totalPages = i + 1;
+          break;
+        }
+      }
+
+      const totalMatches = matchesPerPage.reduce((a, b) => {
+        return a + b;
+      });
+      eventBus.on("updatefindmatchescount", function onUpdateFindMatchesCount(evt) {
+        if (pdfFindController.pageMatches.length !== totalPages) {
+          return;
+        }
+
+        eventBus.off("updatefindmatchescount", onUpdateFindMatchesCount);
+        expect(evt.matchesCount.total).toBe(totalMatches);
+
+        for (let i = 0; i < totalPages; i++) {
+          expect(pdfFindController.pageMatches[i].length).toEqual(matchesPerPage[i]);
+        }
+
+        expect(pdfFindController.selected.pageIdx).toEqual(selectedMatch.pageIndex);
+        expect(pdfFindController.selected.matchIdx).toEqual(selectedMatch.matchIndex);
+        resolve();
+      });
+    });
+  }
+
+  it("performs a normal search", function (done) {
+    testSearch({
       parameters: {
         query: "Dynamic",
         caseSensitive: false,
@@ -144,16 +130,10 @@ describe("pdf_find_controller", function () {
         pageIndex: 0,
         matchIndex: 0
       }
-    });
+    }).then(done);
   });
-  it("performs a normal search and finds the previous result", async function () {
-    const {
-      eventBus,
-      pdfFindController
-    } = await initPdfFindController();
-    await testSearch({
-      eventBus,
-      pdfFindController,
+  it("performs a normal search and finds the previous result", function (done) {
+    testSearch({
       parameters: {
         query: "conference",
         caseSensitive: false,
@@ -166,16 +146,10 @@ describe("pdf_find_controller", function () {
         pageIndex: 13,
         matchIndex: 4
       }
-    });
+    }).then(done);
   });
-  it("performs a case sensitive search", async function () {
-    const {
-      eventBus,
-      pdfFindController
-    } = await initPdfFindController();
-    await testSearch({
-      eventBus,
-      pdfFindController,
+  it("performs a case sensitive search", function (done) {
+    testSearch({
       parameters: {
         query: "Dynamic",
         caseSensitive: true,
@@ -188,16 +162,10 @@ describe("pdf_find_controller", function () {
         pageIndex: 0,
         matchIndex: 0
       }
-    });
+    }).then(done);
   });
-  it("performs an entire word search", async function () {
-    const {
-      eventBus,
-      pdfFindController
-    } = await initPdfFindController();
-    await testSearch({
-      eventBus,
-      pdfFindController,
+  it("performs an entire word search", function (done) {
+    testSearch({
       parameters: {
         query: "Government",
         caseSensitive: false,
@@ -210,16 +178,10 @@ describe("pdf_find_controller", function () {
         pageIndex: 12,
         matchIndex: 0
       }
-    });
+    }).then(done);
   });
-  it("performs a multiple term (no phrase) search", async function () {
-    const {
-      eventBus,
-      pdfFindController
-    } = await initPdfFindController();
-    await testSearch({
-      eventBus,
-      pdfFindController,
+  it("performs a multiple term (no phrase) search", function (done) {
+    testSearch({
       parameters: {
         query: "alternate solution",
         caseSensitive: false,
@@ -232,30 +194,6 @@ describe("pdf_find_controller", function () {
         pageIndex: 5,
         matchIndex: 0
       }
-    });
-  });
-  it("performs a normal search, where the text is normalized", async function () {
-    const {
-      eventBus,
-      pdfFindController
-    } = await initPdfFindController("fraction-highlight.pdf");
-    await testSearch({
-      eventBus,
-      pdfFindController,
-      parameters: {
-        query: "fraction",
-        caseSensitive: false,
-        entireWord: false,
-        phraseSearch: true,
-        findPrevious: false
-      },
-      matchesPerPage: [3],
-      selectedMatch: {
-        pageIndex: 0,
-        matchIndex: 0
-      },
-      pageMatches: [[19, 48, 66]],
-      pageMatchesLength: [[8, 8, 8]]
-    });
+    }).then(done);
   });
 });

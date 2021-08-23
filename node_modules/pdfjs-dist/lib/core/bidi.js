@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,8 +28,8 @@ exports.bidi = bidi;
 
 var _util = require("../shared/util.js");
 
-const baseTypes = ["BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "S", "B", "S", "WS", "B", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "B", "B", "B", "S", "WS", "ON", "ON", "ET", "ET", "ET", "ON", "ON", "ON", "ON", "ON", "ES", "CS", "ES", "CS", "CS", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "CS", "ON", "ON", "ON", "ON", "ON", "ON", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "ON", "ON", "ON", "ON", "ON", "ON", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "ON", "ON", "ON", "ON", "BN", "BN", "BN", "BN", "BN", "BN", "B", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "CS", "ON", "ET", "ET", "ET", "ET", "ON", "ON", "ON", "ON", "L", "ON", "ON", "BN", "ON", "ON", "ET", "ET", "EN", "EN", "ON", "L", "ON", "ON", "ON", "EN", "L", "ON", "ON", "ON", "ON", "ON", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "ON", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "ON", "L", "L", "L", "L", "L", "L", "L", "L"];
-const arabicTypes = ["AN", "AN", "AN", "AN", "AN", "AN", "ON", "ON", "AL", "ET", "ET", "AL", "CS", "AL", "ON", "ON", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "AL", "AL", "", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "AN", "AN", "AN", "AN", "AN", "AN", "AN", "AN", "AN", "AN", "ET", "AN", "AN", "AL", "AL", "AL", "NSM", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "AN", "ON", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "AL", "AL", "NSM", "NSM", "ON", "NSM", "NSM", "NSM", "NSM", "AL", "AL", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "AL", "AL", "AL", "AL", "AL", "AL"];
+var baseTypes = ["BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "S", "B", "S", "WS", "B", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "B", "B", "B", "S", "WS", "ON", "ON", "ET", "ET", "ET", "ON", "ON", "ON", "ON", "ON", "ES", "CS", "ES", "CS", "CS", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "CS", "ON", "ON", "ON", "ON", "ON", "ON", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "ON", "ON", "ON", "ON", "ON", "ON", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "ON", "ON", "ON", "ON", "BN", "BN", "BN", "BN", "BN", "BN", "B", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "BN", "CS", "ON", "ET", "ET", "ET", "ET", "ON", "ON", "ON", "ON", "L", "ON", "ON", "BN", "ON", "ON", "ET", "ET", "EN", "EN", "ON", "L", "ON", "ON", "ON", "EN", "L", "ON", "ON", "ON", "ON", "ON", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "ON", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "ON", "L", "L", "L", "L", "L", "L", "L", "L"];
+var arabicTypes = ["AN", "AN", "AN", "AN", "AN", "AN", "ON", "ON", "AL", "ET", "ET", "AL", "CS", "AL", "ON", "ON", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "AL", "AL", "", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "AN", "AN", "AN", "AN", "AN", "AN", "AN", "AN", "AN", "AN", "ET", "AN", "AN", "AL", "AL", "AL", "NSM", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "AL", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "AN", "ON", "NSM", "NSM", "NSM", "NSM", "NSM", "NSM", "AL", "AL", "NSM", "NSM", "ON", "NSM", "NSM", "NSM", "NSM", "AL", "AL", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "EN", "AL", "AL", "AL", "AL", "AL", "AL"];
 
 function isOdd(i) {
   return (i & 1) !== 0;
@@ -40,9 +40,7 @@ function isEven(i) {
 }
 
 function findUnequal(arr, start, value) {
-  let j, jj;
-
-  for (j = start, jj = arr.length; j < jj; ++j) {
+  for (var j = start, jj = arr.length; j < jj; ++j) {
     if (arr[j] !== value) {
       return j;
     }
@@ -52,14 +50,14 @@ function findUnequal(arr, start, value) {
 }
 
 function setValues(arr, start, end, value) {
-  for (let j = start; j < end; ++j) {
+  for (var j = start; j < end; ++j) {
     arr[j] = value;
   }
 }
 
 function reverseValues(arr, start, end) {
-  for (let i = start, j = end - 1; i < j; ++i, --j) {
-    const temp = arr[i];
+  for (var i = start, j = end - 1; i < j; ++i, --j) {
+    var temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
   }
@@ -80,12 +78,12 @@ function createBidiText(str, isLTR, vertical = false) {
   };
 }
 
-const chars = [];
-const types = [];
+var chars = [];
+var types = [];
 
 function bidi(str, startLevel, vertical) {
-  let isLTR = true;
-  const strLength = str.length;
+  var isLTR = true;
+  var strLength = str.length;
 
   if (strLength === 0 || vertical) {
     return createBidiText(str, isLTR, vertical);
@@ -93,13 +91,13 @@ function bidi(str, startLevel, vertical) {
 
   chars.length = strLength;
   types.length = strLength;
-  let numBidi = 0;
-  let i, ii;
+  var numBidi = 0;
+  var i, ii;
 
   for (i = 0; i < strLength; ++i) {
     chars[i] = str.charAt(i);
-    const charCode = str.charCodeAt(i);
-    let charType = "L";
+    var charCode = str.charCodeAt(i);
+    var charType = "L";
 
     if (charCode <= 0x00ff) {
       charType = baseTypes[charCode];
@@ -137,16 +135,16 @@ function bidi(str, startLevel, vertical) {
     }
   }
 
-  const levels = [];
+  var levels = [];
 
   for (i = 0; i < strLength; ++i) {
     levels[i] = startLevel;
   }
 
-  const e = isOdd(startLevel) ? "R" : "L";
-  const sor = e;
-  const eor = sor;
-  let lastType = sor;
+  var e = isOdd(startLevel) ? "R" : "L";
+  var sor = e;
+  var eor = sor;
+  var lastType = sor;
 
   for (i = 0; i < strLength; ++i) {
     if (types[i] === "NSM") {
@@ -157,7 +155,7 @@ function bidi(str, startLevel, vertical) {
   }
 
   lastType = sor;
-  let t;
+  var t;
 
   for (i = 0; i < strLength; ++i) {
     t = types[i];
@@ -189,7 +187,9 @@ function bidi(str, startLevel, vertical) {
 
   for (i = 0; i < strLength; ++i) {
     if (types[i] === "EN") {
-      for (let j = i - 1; j >= 0; --j) {
+      var j;
+
+      for (j = i - 1; j >= 0; --j) {
         if (types[j] !== "ET") {
           break;
         }
@@ -197,7 +197,7 @@ function bidi(str, startLevel, vertical) {
         types[j] = "EN";
       }
 
-      for (let j = i + 1; j < strLength; ++j) {
+      for (j = i + 1; j < strLength; ++j) {
         if (types[j] !== "ET") {
           break;
         }
@@ -229,14 +229,14 @@ function bidi(str, startLevel, vertical) {
 
   for (i = 0; i < strLength; ++i) {
     if (types[i] === "ON") {
-      const end = findUnequal(types, i + 1, "ON");
-      let before = sor;
+      var end = findUnequal(types, i + 1, "ON");
+      var before = sor;
 
       if (i > 0) {
         before = types[i - 1];
       }
 
-      let after = eor;
+      var after = eor;
 
       if (end + 1 < strLength) {
         after = types[end + 1];
@@ -280,9 +280,9 @@ function bidi(str, startLevel, vertical) {
     }
   }
 
-  let highestLevel = -1;
-  let lowestOddLevel = 99;
-  let level;
+  var highestLevel = -1;
+  var lowestOddLevel = 99;
+  var level;
 
   for (i = 0, ii = levels.length; i < ii; ++i) {
     level = levels[i];
@@ -297,7 +297,7 @@ function bidi(str, startLevel, vertical) {
   }
 
   for (level = highestLevel; level >= lowestOddLevel; --level) {
-    let start = -1;
+    var start = -1;
 
     for (i = 0, ii = levels.length; i < ii; ++i) {
       if (levels[i] < level) {
@@ -316,7 +316,7 @@ function bidi(str, startLevel, vertical) {
   }
 
   for (i = 0, ii = chars.length; i < ii; ++i) {
-    const ch = chars[i];
+    var ch = chars[i];
 
     if (ch === "<" || ch === ">") {
       chars[i] = "";

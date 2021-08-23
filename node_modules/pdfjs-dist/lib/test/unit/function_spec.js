@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@ describe("function", function () {
       toMatchArray(util, customEqualityTesters) {
         return {
           compare(actual, expected) {
-            const result = {};
+            var result = {};
 
             if (actual.length !== expected.length) {
               result.pass = false;
@@ -43,9 +43,9 @@ describe("function", function () {
 
             result.pass = true;
 
-            for (let i = 0; i < expected.length; i++) {
-              const a = actual[i],
-                    b = expected[i];
+            for (var i = 0; i < expected.length; i++) {
+              var a = actual[i],
+                  b = expected[i];
 
               if (Array.isArray(b)) {
                 if (a.length !== b.length) {
@@ -53,9 +53,9 @@ describe("function", function () {
                   break;
                 }
 
-                for (let j = 0; j < a.length; j++) {
-                  const suba = a[j],
-                        subb = b[j];
+                for (var j = 0; j < a.length; j++) {
+                  var suba = a[j],
+                      subb = b[j];
 
                   if (suba !== subb) {
                     result.pass = false;
@@ -80,46 +80,46 @@ describe("function", function () {
   });
   describe("PostScriptParser", function () {
     function parse(program) {
-      const stream = new _stream.StringStream(program);
-      const parser = new _ps_parser.PostScriptParser(new _ps_parser.PostScriptLexer(stream));
+      var stream = new _stream.StringStream(program);
+      var parser = new _ps_parser.PostScriptParser(new _ps_parser.PostScriptLexer(stream));
       return parser.parse();
     }
 
     it("parses empty programs", function () {
-      const output = parse("{}");
+      var output = parse("{}");
       expect(output.length).toEqual(0);
     });
     it("parses positive numbers", function () {
-      const number = 999;
-      const program = parse("{ " + number + " }");
-      const expectedProgram = [number];
+      var number = 999;
+      var program = parse("{ " + number + " }");
+      var expectedProgram = [number];
       expect(program).toMatchArray(expectedProgram);
     });
     it("parses negative numbers", function () {
-      const number = -999;
-      const program = parse("{ " + number + " }");
-      const expectedProgram = [number];
+      var number = -999;
+      var program = parse("{ " + number + " }");
+      var expectedProgram = [number];
       expect(program).toMatchArray(expectedProgram);
     });
     it("parses negative floats", function () {
-      const number = 3.3;
-      const program = parse("{ " + number + " }");
-      const expectedProgram = [number];
+      var number = 3.3;
+      var program = parse("{ " + number + " }");
+      var expectedProgram = [number];
       expect(program).toMatchArray(expectedProgram);
     });
     it("parses operators", function () {
-      const program = parse("{ sub }");
-      const expectedProgram = ["sub"];
+      var program = parse("{ sub }");
+      var expectedProgram = ["sub"];
       expect(program).toMatchArray(expectedProgram);
     });
     it("parses if statements", function () {
-      const program = parse("{ { 99 } if }");
-      const expectedProgram = [3, "jz", 99];
+      var program = parse("{ { 99 } if }");
+      var expectedProgram = [3, "jz", 99];
       expect(program).toMatchArray(expectedProgram);
     });
     it("parses ifelse statements", function () {
-      const program = parse("{ { 99 } { 44 } ifelse }");
-      const expectedProgram = [5, "jz", 99, 6, "j", 44];
+      var program = parse("{ { 99 } { 44 } ifelse }");
+      var expectedProgram = [5, "jz", 99, 6, "j", 44];
       expect(program).toMatchArray(expectedProgram);
     });
     it("handles missing brackets", function () {
@@ -128,346 +128,346 @@ describe("function", function () {
       }).toThrow(new Error("Unexpected symbol: found undefined expected 1."));
     });
     it("handles junk after the end", function () {
-      const number = 3.3;
-      const program = parse("{ " + number + " }#");
-      const expectedProgram = [number];
+      var number = 3.3;
+      var program = parse("{ " + number + " }#");
+      var expectedProgram = [number];
       expect(program).toMatchArray(expectedProgram);
     });
   });
   describe("PostScriptEvaluator", function () {
     function evaluate(program) {
-      const stream = new _stream.StringStream(program);
-      const parser = new _ps_parser.PostScriptParser(new _ps_parser.PostScriptLexer(stream));
-      const code = parser.parse();
-      const evaluator = new _function.PostScriptEvaluator(code);
-      const output = evaluator.execute();
+      var stream = new _stream.StringStream(program);
+      var parser = new _ps_parser.PostScriptParser(new _ps_parser.PostScriptLexer(stream));
+      var code = parser.parse();
+      var evaluator = new _function.PostScriptEvaluator(code);
+      var output = evaluator.execute();
       return output;
     }
 
     it("pushes stack", function () {
-      const stack = evaluate("{ 99 }");
-      const expectedStack = [99];
+      var stack = evaluate("{ 99 }");
+      var expectedStack = [99];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles if with true", function () {
-      const stack = evaluate("{ 1 {99} if }");
-      const expectedStack = [99];
+      var stack = evaluate("{ 1 {99} if }");
+      var expectedStack = [99];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles if with false", function () {
-      const stack = evaluate("{ 0 {99} if }");
-      const expectedStack = [];
+      var stack = evaluate("{ 0 {99} if }");
+      var expectedStack = [];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles ifelse with true", function () {
-      const stack = evaluate("{ 1 {99} {77} ifelse }");
-      const expectedStack = [99];
+      var stack = evaluate("{ 1 {99} {77} ifelse }");
+      var expectedStack = [99];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles ifelse with false", function () {
-      const stack = evaluate("{ 0 {99} {77} ifelse }");
-      const expectedStack = [77];
+      var stack = evaluate("{ 0 {99} {77} ifelse }");
+      var expectedStack = [77];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles nested if", function () {
-      const stack = evaluate("{ 1 {1 {77} if} if }");
-      const expectedStack = [77];
+      var stack = evaluate("{ 1 {1 {77} if} if }");
+      var expectedStack = [77];
       expect(stack).toMatchArray(expectedStack);
     });
     it("abs", function () {
-      const stack = evaluate("{ -2 abs }");
-      const expectedStack = [2];
+      var stack = evaluate("{ -2 abs }");
+      var expectedStack = [2];
       expect(stack).toMatchArray(expectedStack);
     });
     it("adds", function () {
-      const stack = evaluate("{ 1 2 add }");
-      const expectedStack = [3];
+      var stack = evaluate("{ 1 2 add }");
+      var expectedStack = [3];
       expect(stack).toMatchArray(expectedStack);
     });
     it("boolean and", function () {
-      const stack = evaluate("{ true false and }");
-      const expectedStack = [false];
+      var stack = evaluate("{ true false and }");
+      var expectedStack = [false];
       expect(stack).toMatchArray(expectedStack);
     });
     it("bitwise and", function () {
-      const stack = evaluate("{ 254 1 and }");
-      const expectedStack = [254 & 1];
+      var stack = evaluate("{ 254 1 and }");
+      var expectedStack = [254 & 1];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates the inverse tangent of a number", function () {
-      const stack = evaluate("{ 90 atan }");
-      const expectedStack = [Math.atan(90)];
+      var stack = evaluate("{ 90 atan }");
+      var expectedStack = [Math.atan(90)];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles bitshifting ", function () {
-      const stack = evaluate("{ 50 2 bitshift }");
-      const expectedStack = [200];
+      var stack = evaluate("{ 50 2 bitshift }");
+      var expectedStack = [200];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates the ceiling value", function () {
-      const stack = evaluate("{ 9.9 ceiling }");
-      const expectedStack = [10];
+      var stack = evaluate("{ 9.9 ceiling }");
+      var expectedStack = [10];
       expect(stack).toMatchArray(expectedStack);
     });
     it("copies", function () {
-      const stack = evaluate("{ 99 98 2 copy }");
-      const expectedStack = [99, 98, 99, 98];
+      var stack = evaluate("{ 99 98 2 copy }");
+      var expectedStack = [99, 98, 99, 98];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates the cosine of a number", function () {
-      const stack = evaluate("{ 90 cos }");
-      const expectedStack = [Math.cos(90)];
+      var stack = evaluate("{ 90 cos }");
+      var expectedStack = [Math.cos(90)];
       expect(stack).toMatchArray(expectedStack);
     });
     it("converts to int", function () {
-      const stack = evaluate("{ 9.9 cvi }");
-      const expectedStack = [9];
+      var stack = evaluate("{ 9.9 cvi }");
+      var expectedStack = [9];
       expect(stack).toMatchArray(expectedStack);
     });
     it("converts negatives to int", function () {
-      const stack = evaluate("{ -9.9 cvi }");
-      const expectedStack = [-9];
+      var stack = evaluate("{ -9.9 cvi }");
+      var expectedStack = [-9];
       expect(stack).toMatchArray(expectedStack);
     });
     it("converts to real", function () {
-      const stack = evaluate("{ 55.34 cvr }");
-      const expectedStack = [55.34];
+      var stack = evaluate("{ 55.34 cvr }");
+      var expectedStack = [55.34];
       expect(stack).toMatchArray(expectedStack);
     });
     it("divides", function () {
-      const stack = evaluate("{ 6 5 div }");
-      const expectedStack = [1.2];
+      var stack = evaluate("{ 6 5 div }");
+      var expectedStack = [1.2];
       expect(stack).toMatchArray(expectedStack);
     });
     it("maps division by zero to infinity", function () {
-      const stack = evaluate("{ 6 0 div }");
-      const expectedStack = [Infinity];
+      var stack = evaluate("{ 6 0 div }");
+      var expectedStack = [Infinity];
       expect(stack).toMatchArray(expectedStack);
     });
     it("duplicates", function () {
-      const stack = evaluate("{ 99 dup }");
-      const expectedStack = [99, 99];
+      var stack = evaluate("{ 99 dup }");
+      var expectedStack = [99, 99];
       expect(stack).toMatchArray(expectedStack);
     });
     it("accepts an equality", function () {
-      const stack = evaluate("{ 9 9 eq }");
-      const expectedStack = [true];
+      var stack = evaluate("{ 9 9 eq }");
+      var expectedStack = [true];
       expect(stack).toMatchArray(expectedStack);
     });
     it("rejects an inequality", function () {
-      const stack = evaluate("{ 9 8 eq }");
-      const expectedStack = [false];
+      var stack = evaluate("{ 9 8 eq }");
+      var expectedStack = [false];
       expect(stack).toMatchArray(expectedStack);
     });
     it("exchanges", function () {
-      const stack = evaluate("{ 44 99 exch }");
-      const expectedStack = [99, 44];
+      var stack = evaluate("{ 44 99 exch }");
+      var expectedStack = [99, 44];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles exponentiation", function () {
-      const stack = evaluate("{ 10 2 exp }");
-      const expectedStack = [100];
+      var stack = evaluate("{ 10 2 exp }");
+      var expectedStack = [100];
       expect(stack).toMatchArray(expectedStack);
     });
     it("pushes false onto the stack", function () {
-      const stack = evaluate("{ false }");
-      const expectedStack = [false];
+      var stack = evaluate("{ false }");
+      var expectedStack = [false];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates the floor value", function () {
-      const stack = evaluate("{ 9.9 floor }");
-      const expectedStack = [9];
+      var stack = evaluate("{ 9.9 floor }");
+      var expectedStack = [9];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles greater than or equal to", function () {
-      const stack = evaluate("{ 10 9 ge }");
-      const expectedStack = [true];
+      var stack = evaluate("{ 10 9 ge }");
+      var expectedStack = [true];
       expect(stack).toMatchArray(expectedStack);
     });
     it("rejects less than for greater than or equal to", function () {
-      const stack = evaluate("{ 8 9 ge }");
-      const expectedStack = [false];
+      var stack = evaluate("{ 8 9 ge }");
+      var expectedStack = [false];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles greater than", function () {
-      const stack = evaluate("{ 10 9 gt }");
-      const expectedStack = [true];
+      var stack = evaluate("{ 10 9 gt }");
+      var expectedStack = [true];
       expect(stack).toMatchArray(expectedStack);
     });
     it("rejects less than or equal for greater than", function () {
-      const stack = evaluate("{ 9 9 gt }");
-      const expectedStack = [false];
+      var stack = evaluate("{ 9 9 gt }");
+      var expectedStack = [false];
       expect(stack).toMatchArray(expectedStack);
     });
     it("divides to integer", function () {
-      const stack = evaluate("{ 2 3 idiv }");
-      const expectedStack = [0];
+      var stack = evaluate("{ 2 3 idiv }");
+      var expectedStack = [0];
       expect(stack).toMatchArray(expectedStack);
     });
     it("divides to negative integer", function () {
-      const stack = evaluate("{ -2 3 idiv }");
-      const expectedStack = [0];
+      var stack = evaluate("{ -2 3 idiv }");
+      var expectedStack = [0];
       expect(stack).toMatchArray(expectedStack);
     });
     it("duplicates index", function () {
-      const stack = evaluate("{ 4 3 2 1 2 index }");
-      const expectedStack = [4, 3, 2, 1, 3];
+      var stack = evaluate("{ 4 3 2 1 2 index }");
+      var expectedStack = [4, 3, 2, 1, 3];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles less than or equal to", function () {
-      const stack = evaluate("{ 9 10 le }");
-      const expectedStack = [true];
+      var stack = evaluate("{ 9 10 le }");
+      var expectedStack = [true];
       expect(stack).toMatchArray(expectedStack);
     });
     it("rejects greater than for less than or equal to", function () {
-      const stack = evaluate("{ 10 9 le }");
-      const expectedStack = [false];
+      var stack = evaluate("{ 10 9 le }");
+      var expectedStack = [false];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates the natural logarithm", function () {
-      const stack = evaluate("{ 10 ln }");
-      const expectedStack = [Math.log(10)];
+      var stack = evaluate("{ 10 ln }");
+      var expectedStack = [Math.log(10)];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates the base 10 logarithm", function () {
-      const stack = evaluate("{ 100 log }");
-      const expectedStack = [2];
+      var stack = evaluate("{ 100 log }");
+      var expectedStack = [2];
       expect(stack).toMatchArray(expectedStack);
     });
     it("handles less than", function () {
-      const stack = evaluate("{ 9 10 lt }");
-      const expectedStack = [true];
+      var stack = evaluate("{ 9 10 lt }");
+      var expectedStack = [true];
       expect(stack).toMatchArray(expectedStack);
     });
     it("rejects greater than or equal to for less than", function () {
-      const stack = evaluate("{ 10 9 lt }");
-      const expectedStack = [false];
+      var stack = evaluate("{ 10 9 lt }");
+      var expectedStack = [false];
       expect(stack).toMatchArray(expectedStack);
     });
     it("performs the modulo operation", function () {
-      const stack = evaluate("{ 4 3 mod }");
-      const expectedStack = [1];
+      var stack = evaluate("{ 4 3 mod }");
+      var expectedStack = [1];
       expect(stack).toMatchArray(expectedStack);
     });
     it("multiplies two numbers (positive result)", function () {
-      const stack = evaluate("{ 9 8 mul }");
-      const expectedStack = [72];
+      var stack = evaluate("{ 9 8 mul }");
+      var expectedStack = [72];
       expect(stack).toMatchArray(expectedStack);
     });
     it("multiplies two numbers (negative result)", function () {
-      const stack = evaluate("{ 9 -8 mul }");
-      const expectedStack = [-72];
+      var stack = evaluate("{ 9 -8 mul }");
+      var expectedStack = [-72];
       expect(stack).toMatchArray(expectedStack);
     });
     it("accepts an inequality", function () {
-      const stack = evaluate("{ 9 8 ne }");
-      const expectedStack = [true];
+      var stack = evaluate("{ 9 8 ne }");
+      var expectedStack = [true];
       expect(stack).toMatchArray(expectedStack);
     });
     it("rejects an equality", function () {
-      const stack = evaluate("{ 9 9 ne }");
-      const expectedStack = [false];
+      var stack = evaluate("{ 9 9 ne }");
+      var expectedStack = [false];
       expect(stack).toMatchArray(expectedStack);
     });
     it("negates", function () {
-      const stack = evaluate("{ 4.5 neg }");
-      const expectedStack = [-4.5];
+      var stack = evaluate("{ 4.5 neg }");
+      var expectedStack = [-4.5];
       expect(stack).toMatchArray(expectedStack);
     });
     it("boolean not", function () {
-      const stack = evaluate("{ true not }");
-      const expectedStack = [false];
+      var stack = evaluate("{ true not }");
+      var expectedStack = [false];
       expect(stack).toMatchArray(expectedStack);
     });
     it("bitwise not", function () {
-      const stack = evaluate("{ 12 not }");
-      const expectedStack = [-13];
+      var stack = evaluate("{ 12 not }");
+      var expectedStack = [-13];
       expect(stack).toMatchArray(expectedStack);
     });
     it("boolean or", function () {
-      const stack = evaluate("{ true false or }");
-      const expectedStack = [true];
+      var stack = evaluate("{ true false or }");
+      var expectedStack = [true];
       expect(stack).toMatchArray(expectedStack);
     });
     it("bitwise or", function () {
-      const stack = evaluate("{ 254 1 or }");
-      const expectedStack = [254 | 1];
+      var stack = evaluate("{ 254 1 or }");
+      var expectedStack = [254 | 1];
       expect(stack).toMatchArray(expectedStack);
     });
     it("pops stack", function () {
-      const stack = evaluate("{ 1 2 pop }");
-      const expectedStack = [1];
+      var stack = evaluate("{ 1 2 pop }");
+      var expectedStack = [1];
       expect(stack).toMatchArray(expectedStack);
     });
     it("rolls stack right", function () {
-      const stack = evaluate("{ 1 3 2 2 4 1 roll }");
-      const expectedStack = [2, 1, 3, 2];
+      var stack = evaluate("{ 1 3 2 2 4 1 roll }");
+      var expectedStack = [2, 1, 3, 2];
       expect(stack).toMatchArray(expectedStack);
     });
     it("rolls stack left", function () {
-      const stack = evaluate("{ 1 3 2 2 4 -1 roll }");
-      const expectedStack = [3, 2, 2, 1];
+      var stack = evaluate("{ 1 3 2 2 4 -1 roll }");
+      var expectedStack = [3, 2, 2, 1];
       expect(stack).toMatchArray(expectedStack);
     });
     it("rounds a number", function () {
-      const stack = evaluate("{ 9.52 round }");
-      const expectedStack = [10];
+      var stack = evaluate("{ 9.52 round }");
+      var expectedStack = [10];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates the sine of a number", function () {
-      const stack = evaluate("{ 90 sin }");
-      const expectedStack = [Math.sin(90)];
+      var stack = evaluate("{ 90 sin }");
+      var expectedStack = [Math.sin(90)];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates a square root (integer)", function () {
-      const stack = evaluate("{ 100 sqrt }");
-      const expectedStack = [10];
+      var stack = evaluate("{ 100 sqrt }");
+      var expectedStack = [10];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates a square root (float)", function () {
-      const stack = evaluate("{ 99 sqrt }");
-      const expectedStack = [Math.sqrt(99)];
+      var stack = evaluate("{ 99 sqrt }");
+      var expectedStack = [Math.sqrt(99)];
       expect(stack).toMatchArray(expectedStack);
     });
     it("subtracts (positive result)", function () {
-      const stack = evaluate("{ 6 4 sub }");
-      const expectedStack = [2];
+      var stack = evaluate("{ 6 4 sub }");
+      var expectedStack = [2];
       expect(stack).toMatchArray(expectedStack);
     });
     it("subtracts (negative result)", function () {
-      const stack = evaluate("{ 4 6 sub }");
-      const expectedStack = [-2];
+      var stack = evaluate("{ 4 6 sub }");
+      var expectedStack = [-2];
       expect(stack).toMatchArray(expectedStack);
     });
     it("pushes true onto the stack", function () {
-      const stack = evaluate("{ true }");
-      const expectedStack = [true];
+      var stack = evaluate("{ true }");
+      var expectedStack = [true];
       expect(stack).toMatchArray(expectedStack);
     });
     it("truncates a number", function () {
-      const stack = evaluate("{ 35.004 truncate }");
-      const expectedStack = [35];
+      var stack = evaluate("{ 35.004 truncate }");
+      var expectedStack = [35];
       expect(stack).toMatchArray(expectedStack);
     });
     it("calculates an exclusive or value", function () {
-      const stack = evaluate("{ 3 9 xor }");
-      const expectedStack = [10];
+      var stack = evaluate("{ 3 9 xor }");
+      var expectedStack = [10];
       expect(stack).toMatchArray(expectedStack);
     });
   });
   describe("PostScriptCompiler", function () {
     function check(code, domain, range, samples) {
-      const compiler = new _function.PostScriptCompiler();
-      const compiledCode = compiler.compile(code, domain, range);
+      var compiler = new _function.PostScriptCompiler();
+      var compiledCode = compiler.compile(code, domain, range);
 
       if (samples === null) {
         expect(compiledCode).toBeNull();
       } else {
         expect(compiledCode).not.toBeNull();
-        const fn = new Function("src", "srcOffset", "dest", "destOffset", compiledCode);
+        var fn = new Function("src", "srcOffset", "dest", "destOffset", compiledCode);
 
-        for (let i = 0; i < samples.length; i++) {
-          const out = new Float32Array(samples[i].output.length);
+        for (var i = 0; i < samples.length; i++) {
+          var out = new Float32Array(samples[i].output.length);
           fn(samples[i].input, 0, out, 0);
           expect(Array.prototype.slice.call(out, 0)).toMatchArray(samples[i].output);
         }
@@ -636,9 +636,9 @@ describe("function", function () {
       }]);
     });
     it("compile optimized", function () {
-      const compiler = new _function.PostScriptCompiler();
-      const code = [0, "add", 1, 1, 3, -1, "roll", "sub", "sub", 1, "mul"];
-      const compiledCode = compiler.compile(code, [0, 1], [0, 1]);
+      var compiler = new _function.PostScriptCompiler();
+      var code = [0, "add", 1, 1, 3, -1, "roll", "sub", "sub", 1, "mul"];
+      var compiledCode = compiler.compile(code, [0, 1], [0, 1]);
       expect(compiledCode).toEqual("dest[destOffset + 0] = Math.max(0, Math.min(1, src[srcOffset + 0]));");
     });
   });

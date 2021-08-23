@@ -2,7 +2,7 @@
  * @licstart The following is the entire license notice for the
  * Javascript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2020 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,8 +32,6 @@ exports.validateResponseStatus = validateResponseStatus;
 var _util = require("../shared/util.js");
 
 var _content_disposition = require("./content_disposition.js");
-
-var _display_utils = require("./display_utils.js");
 
 function validateRangeRequestCapabilities({
   getResponseHeader,
@@ -88,7 +86,7 @@ function extractFilenameFromHeader(getResponseHeader) {
       } catch (ex) {}
     }
 
-    if ((0, _display_utils.isPdfFile)(filename)) {
+    if (/\.pdf$/i.test(filename)) {
       return filename;
     }
   }
@@ -101,7 +99,7 @@ function createResponseStatusError(status, url) {
     return new _util.MissingPDFException('Missing PDF "' + url + '".');
   }
 
-  return new _util.UnexpectedResponseException(`Unexpected server response (${status}) while retrieving PDF "${url}".`, status);
+  return new _util.UnexpectedResponseException("Unexpected server response (" + status + ') while retrieving PDF "' + url + '".', status);
 }
 
 function validateResponseStatus(status) {

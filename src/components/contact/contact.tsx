@@ -12,6 +12,11 @@ import './contact.css';
 import profile from '../../assets/profile.jpg';
 import Vid1 from '../../assets/vids/compress_sf.mp4';
 
+// Import the main component
+import { Viewer } from '@react-pdf-viewer/core';
+
+// Import the styles
+import '@react-pdf-viewer/core/lib/styles/index.css';
 
 export const Contact = () => (
   
@@ -41,32 +46,33 @@ export const Contact = () => (
       {/* img with text */}
       <Row>
         <Col sm>
-          <h3>John (Jae Min) Kim</h3>
-          <h3>San Francisco Bay Area, Silicon Valley</h3>
-          <h3>Email: jaeminkim.com@gmail.com</h3>
-          <h3>Phone: (510)-513-7376</h3>
+          <p className={styles.title}>John (Jae Min) Kim</p>
+          <p className={styles.title}>San Francisco Bay Area, Silicon Valley</p>
+          <p className={styles.title}>Email: jaeminkim.com@gmail.com</p>
+          <p className={styles.title}>Phone: (510)-513-7376</p>
           <br></br>
-          <h3>Many Thanks.</h3>
+          <p className={styles.title}>Many Thanks.</p>
 
+          <Viewer fileUrl="../../assets/resume/resume.pdf" />;
 
          
-          <p>
+          <p className={styles.description}>
       AP Art at Mission San Jose High School, background in Fine Art. Academic background began as an Industrial (Product) Design major at Hongik University in Seoul, South Korea, from Industrial Design to De Anza College (Cupertino, CA) Graphic Design to California College of the Arts (San Francisco, CA and Oakland, CA) Industrial Design to California College of the Arts (San Francisco, CA and Oakland, CA) Interaction Design / minor in Computational Practices to Southern New Hamshire University (Remote) Graphic & Web. Winter 2021 Presidents List for SNHU (https://meritpages.com/Jae-Min-Kim/6415480), Pell Grant, CAL Grant B, Clorox Scholor, CCA Scholor, Federal Work Study.
           </p>
 
-          <p>
+          <p className={styles.description}>
             Immersed into the UI/UX Design field as an intern at a startup in downtown San Francisco (SOMA), at the Spear Tower.
           </p>
 
-          <p>
+          <p className={styles.description}>
             While working as a remote independent contractor since 2010s, worked with clients across the continental United States, Hawaii, Canada, etc.
           </p>
 
-          <p>
+          <p className={styles.description}>
             In-house experience at various startup, small businesses, and corporations, Design Associated Minted, LLC , department of 500, team size 80~, Clorox Building.
           </p>
 
-          <p>
+          <p className={styles.description}>
             With encouragement from co-developer teams, peer pressure, etc, self-taught web coder, web development, front-end development, full-stack development, additionally minor in computational practices at California College of the Arts (CCA), while an Interaction Design major, JavaScript, HTML, CSS, Jquery, wordpress, bootstrap. Favorite Front-end JavaScript Framework = React.JS.
           </p>
 
