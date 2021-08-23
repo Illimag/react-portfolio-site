@@ -27,7 +27,7 @@ import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
 import Dribbble from '../../assets/dribbble.png';
 
-import logo from '../../assets/logo_black.png';
+import logo from '../../assets/jmk_logo-02-01.png';
 
 import styles from './navigation.module.css'
 import './navigation.css'

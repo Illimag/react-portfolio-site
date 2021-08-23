@@ -53,7 +53,7 @@ export const Contact = () => (
           <br></br>
           <p className={styles.title}>Many Thanks.</p>
 
-        <Viewer fileUrl="https://github.com/jaeminkim-com/react-portfolio-site/blob/master/src/assets/resume/resume.pdf" />
+        {/*<Viewer fileUrl="https://github.com/jaeminkim-com/react-portfolio-site/blob/master/src/assets/resume/resume.pdf" />*/}
 
          
           <p className={styles.description}>
