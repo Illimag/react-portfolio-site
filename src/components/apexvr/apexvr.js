@@ -1,7 +1,7 @@
 import React from 'react';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom'
-//import { Slide } from "react-awesome-reveal";
+
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -9,26 +9,11 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import { ProgressBar } from 'react-bootstrap';
 
-//import { LinkContainer } from 'react-router-bootstrap';
-//import Button from 'react-bootstrap/Button';
-
-import Img00 from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
-import Img01 from '../../assets/img/dominos/1-01.jpg';
-import Img02 from '../../assets/img/dominos/1-02.jpg';
-import Img03 from '../../assets/img/dominos/1-03.jpg';
-import Img04 from '../../assets/img/dominos/1-04.jpg';
-import Img05 from '../../assets/img/dominos/1-05.jpg';
-import Img06 from '../../assets/img/dominos/1-06.jpg';
-import Img07 from '../../assets/img/dominos/1-07.jpg';
-import Img08 from '../../assets/img/dominos/1-08.jpg';
-import Img09 from '../../assets/img/dominos/1-09.jpg';
-
 import styles from './apexvr.module.css';
 import './apexvr.css';
-
 import Vid1 from '../../assets/vids/vr_sitting.mp4';
-
 import Codepen from "react-codepen-embed";
+
 import { useDispatch, useSelector } from 'react-redux';
 import { getCurrentProgress, getImages, getLoadingState} from '../../store/imgLoad/reducer'
 import { loadImage } from '../../store/imgLoad/actions';
@@ -57,14 +42,10 @@ export const Apexvr = () => {
   const currentProgress = useSelector(state => getCurrentProgress(state));
   const images = useSelector(state => getImages(state));
 
-  console.log("ImageList: ", images)
-
   useEffect(() => {
     let urls = getImageUrls();
     dispatch(loadImage(urls))
   }, [])
-
-  console.log("Loading State: ", currentLoadingState)
 
   /* Start of JSX Fragment*/
 
@@ -129,7 +110,7 @@ export const Apexvr = () => {
               visual problems, either they had difficulties seeing or they were blinded.
 
               The application that was to be designed to be more inclusive was the Dominos’s Pizza Application.</p>
-            <Image src={Img01} fluid className={styles.imgstyle} />
+            <Image src={images[0]} fluid className={styles.imgstyle} />
           </Col>
         </Row>
 
@@ -144,7 +125,7 @@ export const Apexvr = () => {
               The code would be activated using the Samsung Voice Assistant. When the voice assistant was activated, the user can
               activate the invisible div, will read out the instructions of various things on the app that would be able to able to
               seen and read the elements.</p>
-            <Image src={Img02} fluid className={styles.imgstyle} />
+            <Image src={images[1]} fluid className={styles.imgstyle} />
           </Col>
         </Row>
 
@@ -176,7 +157,7 @@ export const Apexvr = () => {
               be as nice.</p>
           </Col>
           <Col sm>
-            <Image src={Img03} fluid className={styles.imgstyle} />
+            <Image src={images[2]} fluid className={styles.imgstyle} />
           </Col>
         </Row>
 
@@ -184,7 +165,7 @@ export const Apexvr = () => {
         {/* img without text */}
         <Row>
           <Col sm>
-            <Image src={Img04} fluid className={styles.imgstyle} />
+            <Image src={images[3]} fluid className={styles.imgstyle} />
           </Col>
         </Row>
 
@@ -192,7 +173,7 @@ export const Apexvr = () => {
         {/* img without text */}
         <Row>
           <Col sm>
-            <Image src={Img05} fluid className={styles.imgstyle} />
+            <Image src={images[4]} fluid className={styles.imgstyle} />
           </Col>
         </Row>
 
@@ -208,7 +189,7 @@ export const Apexvr = () => {
               able to solve the problems. After the designs were better designed, we did some testing, using user testing, we
               tested the interface with users and we were able to see what users thought about the application, and we also
               got a heat map to see where the user would be clicking on the interface.</p>
-            <Image src={Img06} fluid className={styles.imgstyle} />
+            <Image src={images[5]} fluid className={styles.imgstyle} />
           </Col>
         </Row>
 
@@ -258,7 +239,7 @@ export const Apexvr = () => {
               assistant.</p>
           </Col>
           <Col sm>
-            <Image src={Img07} fluid className="pg1Img" />
+            <Image src={images[6]} fluid className="pg1Img" />
           </Col>
         </Row>
 
@@ -278,7 +259,7 @@ export const Apexvr = () => {
         {/* left img right text */}
         <Row className={styles.test1}>
           <Col sm>
-            <Image src={Img08} fluid className={styles.imgstyle} />
+            <Image src={images[7]} fluid className={styles.imgstyle} />
           </Col>
           <Col sm className={styles.fonttest}>
             <h3>Completion of the
@@ -307,7 +288,7 @@ export const Apexvr = () => {
               be possible for user.</p>
           </Col>
           <Col sm>
-            <Image src={Img09} fluid className={styles.imgstyle} />
+            <Image src={images[8]} fluid className={styles.imgstyle} />
           </Col>
         </Row>
 

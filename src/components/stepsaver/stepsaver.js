@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
+import { ProgressBar } from 'react-bootstrap'
 
 import Img00 from '../../assets/img/stepsaver/banner-05.jpg';
 import Img01 from '../../assets/img/stepsaver/1-01.jpg';
@@ -23,211 +24,248 @@ import styles from './stepsaver.module.css';
 import './stepsaver.css';
 
 import Vid1 from '../../assets/vids/women_driving.mp4';
-//import Banner from '../../assets/vids/compress_vid4.mp4';
 
-export const Stepsaver = () => (
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getCurrentProgress, getImages, getLoadingState } from '../../store/imgLoad/reducer'
+import { loadImage } from '../../store/imgLoad/actions';
+
+const importAll = (r) => {
+  let images = [];
+  let imageUrls = [];
+  r.keys().map((item, index) => { images.push(r(item)); });
+
+  images.map((image) => {
+    imageUrls.push(image);
+  })
+
+  return imageUrls;
+}
+
+export const Stepsaver = () => {
+  const dispatch = useDispatch()
+  const getImageUrls = () => {
+    return importAll(require.context('../../assets/img/stepsaver', false, /\.(png|PNG|jpe?g|svg)$/))
+  }
+
+  const currentLoadingState = useSelector(state => getLoadingState(state));
+  const currentProgress = useSelector(state => getCurrentProgress(state));
+  const images = useSelector(state => getImages(state));
+
+  useEffect(() => {
+    let urls = getImageUrls();
+    dispatch(loadImage(urls))
+  }, [])
+
   /* Start of JSX Fragment*/
-  <>
+  return <>
+    <div style={{ display: currentLoadingState ? "block" : "none", height: "100vh", paddingTop: "30vh" }}>
+      <ProgressBar animated now={currentProgress} />
+      <h1>Loading images...</h1>
+    </div>
 
-    <Container fluid className={styles.containerfluid}>
-      {/* left text right img */}
-      <Row className={styles.displaytest}>
+    {images &&
+    <div style={{ display: currentLoadingState ? "none" : "block" }}>
+      <Container fluid className={styles.containerfluid}>
+        {/* left text right img */}
+        <Row className={styles.displaytest}>
 
-        <Col sm className={styles.overlay}>
-          <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-            <source src={Vid1} type="video/mp4" />
-          </video>
-        </Col>
-
-        <Col sm className={styles.bannerstyles}></Col>
-      </Row>
-
-      {/* img with text */}
-      <Row>
-        <Col sm>
-          <Container fluid className={styles.containerfluid}>
-            <Jumbotron fluid className={styles.test}>
-              <Container className={styles.fonttest}>
-                <h1>Stepsaver</h1>
-                <p>
-                  Houston Valet Company User Interface Designs
-                </p>
-                <p>
-                  October 2017 - January 2018      </p>
-                <p>
-                  User Interface Designer for a valet company that tracks vehicles, using it’s priotory software it would be able to be used.      </p>
-              </Container>
-            </Jumbotron>
-          </Container>
-          <Image src={Img01} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-    </Container>
-
-    <Container fluid>
-      {/* img without text */}
-      <Row>
-        <Col sm>
-          <Image src={Img00} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-    </Container>
-
-    <Container fluid>
-
-      {/* img with text */}
-      <Row className={styles.test1}>
-        <Col sm className={styles.fonttest}>
-          <h3>Web and Mobile Application</h3>
-          <p>Stepsaver is a startup in Houstin Texas, that had a web application and a mobile
-            application that would be able to be used for valets. CEO of Stepsaver was looking for a designer
-            who could do some redesigns for the web application and websits.</p>
-          <Image src={Img01} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-      {/* img with text */}
-      <Row className={styles.test1}>
-        <Col sm className={styles.fonttest}>
-          <h3>Redesign of the Applications</h3>
-          <p>The project was first a redesign of the web application as well as the mobile application.
-            There were only a web application and based on the web application. I created the mobile
-            application designs. There were some designs that neeeded to be done.</p>
-          <Image src={Img02} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-      {/* img without text */}
-      <Row>
-        <Col sm>
-          <Image src={Img03} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-      {/* text */}
-      <Row className={styles.test1}>
-        <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
-            brought into the fold to be sued on the production application. It was a growing experience.
-            I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-            and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-        </Col>
-      </Row>
-
-      {/* left img right text */}
-      <Row className={styles.test1}>
-        <Col sm>
-          <Image src={Img04} fluid className={styles.imgstyle} />
-        </Col>
-        <Col sm className={styles.fonttest}>
-          <h3>Technical Requirements</h3>
-          <p>There were alot of technical requirements
-            of the application. There wasent much to work
-            with. So it was free form, but there were a
-            couple of functionality that needed to be
-            designed.</p>
-        </Col>
-      </Row>
-
-      {/* Video */}
-      <Row>
-        <Col sm>
-          <video autoPlay preload="true" loop playsInline muted>
-            <source src={Vid1} type="video/mp4" />
-          </video>
-        </Col>
-      </Row>
-
-      {/* left text right img */}
-      <Row className={styles.test1}>
-        <Col sm className={styles.fonttest}>
-          <h3>Navigation of the App</h3>
-          <p>The personas and what kind of people
-            would use the app. They were looking for
-            an easy time to navigate through the app.
-
-            The user journey is that they need to go to
-            the web app and being able to go from here.
-            Then using the mobile app would be able to do
-            this.</p>
-        </Col>
-        <Col sm>
-          <Image src={Img05} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-      {/* text */}
-      <Row className={styles.test2}>
-        <Col sm className={styles.fonttest}>
-          <h3>High-Fidelity UI Design</h3>
-          <p>Series of various UI designs, Initially I designed some low level mockups that were
-            brought into the fold to be sued on the production application. It was a growing experience.
-            I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-            and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-        </Col>
-      </Row>
-
-      {/* img without text */}
-      <Row>
-        <Col sm>
-          <Image src={Img06} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-      {/* img with text */}
-      <Row className={styles.test1}>
-        <Col sm className={styles.fonttest}>
-          <h3>Designs from the original web app</h3>
-          <p>Starting with the web app, I took the designs from the original web app. The flow the web app.
-            Then I created a very basic list of functionality that needed to be designed for. Mainly I also created the
-            list of pages, that needed to be considered as a redesign. I created the map of functionality that the web app.
-            I started creating the UI components. I tried to keep it as lose to the original designs as possible. </p>
-          <Image src={Img07} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-
-      {/* img without text */}
-      <Row>
-        <Col sm>
-          <Image src={Img08} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-      {/* img with text */}
-      <Row className={styles.test1}>
-        <Col sm className={styles.fonttest}>
-          <h3>Completion of Designs</h3>
-          <p>Designs was completed and the CEO found it satisfactory and he paid the amount that we discussed.
-            Actually first I sent over the web app, then I renegotiated for the mobile app. Then I completed the mobile app.
-            I was happy to complete the project and that CEO was happy enough with the designs that he paid as we discussed.
-            This was a happy, I don’t know if they had enough funding to continue but overall I was able to spend more time
-            on the designs and take it to the next level..</p>
-          <Image src={Img09} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-    </Container>
-
-    <Jumbotron fluid className={styles.bottomNav}>
-      <Container>
-        <Row className={styles.bottomNavColor}>
-          <Col sm={6}>
-            <h1>Apex VR</h1>
-            <Link to={'/apexvr'}>
-              <h5> View Previous </h5>
-            </Link>
+          <Col sm className={styles.overlay}>
+            <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
+              <source src={Vid1} type="video/mp4" />
+            </video>
           </Col>
-          <Col sm={6}>
-            <h1>DasDas Digital</h1>
-            <Link to={'/dasdasdigital'}>
-              <h5> View Next </h5>
-            </Link>
+
+          <Col sm className={styles.bannerstyles}></Col>
+        </Row>
+
+        {/* img with text */}
+        <Row>
+          <Col sm>
+            <Container fluid className={styles.containerfluid}>
+              <Jumbotron fluid className={styles.test}>
+                <Container className={styles.fonttest}>
+                  <h1>Stepsaver</h1>
+                  <p>
+                    Houston Valet Company User Interface Designs
+                  </p>
+                  <p>
+                    October 2017 - January 2018      </p>
+                  <p>
+                    User Interface Designer for a valet company that tracks vehicles, using it’s priotory software it would be able to be used.      </p>
+                </Container>
+              </Jumbotron>
+            </Container>
+            <Image src={images[0]} fluid className={styles.imgstyle} />
           </Col>
         </Row>
       </Container>
-    </Jumbotron>
 
+      <Container fluid>
+        {/* img without text */}
+        <Row>
+          <Col sm>
+            <Image src={images[9]} fluid className={styles.imgstyle} />
+          </Col>
+        </Row>
+      </Container>
+
+      <Container fluid>
+
+        {/* img with text */}
+        <Row className={styles.test1}>
+          <Col sm className={styles.fonttest}>
+            <h3>Web and Mobile Application</h3>
+            <p>Stepsaver is a startup in Houstin Texas, that had a web application and a mobile
+              application that would be able to be used for valets. CEO of Stepsaver was looking for a designer
+              who could do some redesigns for the web application and websits.</p>
+            <Image src={images[0]} fluid className={styles.imgstyle} />
+          </Col>
+        </Row>
+
+        {/* img with text */}
+        <Row className={styles.test1}>
+          <Col sm className={styles.fonttest}>
+            <h3>Redesign of the Applications</h3>
+            <p>The project was first a redesign of the web application as well as the mobile application.
+              There were only a web application and based on the web application. I created the mobile
+              application designs. There were some designs that neeeded to be done.</p>
+            <Image src={images[1]} fluid className={styles.imgstyle} />
+          </Col>
+        </Row>
+
+        {/* img without text */}
+        <Row>
+          <Col sm>
+            <Image src={images[2]} fluid className={styles.imgstyle} />
+          </Col>
+        </Row>
+
+        {/* text */}
+        <Row className={styles.test1}>
+          <Col sm className={styles.fonttest}>
+            <h3>High-Fidelity UI Design</h3>
+            <p>Series of various UI designs, Initially I designed some low level mockups that were
+              brought into the fold to be sued on the production application. It was a growing experience.
+              I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+              and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+          </Col>
+        </Row>
+
+        {/* left img right text */}
+        <Row className={styles.test1}>
+          <Col sm>
+            <Image src={images[3]} fluid className={styles.imgstyle} />
+          </Col>
+          <Col sm className={styles.fonttest}>
+            <h3>Technical Requirements</h3>
+            <p>There were alot of technical requirements
+              of the application. There wasent much to work
+              with. So it was free form, but there were a
+              couple of functionality that needed to be
+              designed.</p>
+          </Col>
+        </Row>
+
+        {/* Video */}
+        <Row>
+          <Col sm>
+            <video autoPlay preload="true" loop playsInline muted>
+              <source src={Vid1} type="video/mp4" />
+            </video>
+          </Col>
+        </Row>
+
+        {/* left text right img */}
+        <Row className={styles.test1}>
+          <Col sm className={styles.fonttest}>
+            <h3>Navigation of the App</h3>
+            <p>The personas and what kind of people
+              would use the app. They were looking for
+              an easy time to navigate through the app.
+
+              The user journey is that they need to go to
+              the web app and being able to go from here.
+              Then using the mobile app would be able to do
+              this.</p>
+          </Col>
+          <Col sm>
+            <Image src={images[4]} fluid className={styles.imgstyle} />
+          </Col>
+        </Row>
+
+        {/* text */}
+        <Row className={styles.test2}>
+          <Col sm className={styles.fonttest}>
+            <h3>High-Fidelity UI Design</h3>
+            <p>Series of various UI designs, Initially I designed some low level mockups that were
+              brought into the fold to be sued on the production application. It was a growing experience.
+              I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+              and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+          </Col>
+        </Row>
+
+        {/* img without text */}
+        <Row>
+          <Col sm>
+            <Image src={images[5]} fluid className={styles.imgstyle} />
+          </Col>
+        </Row>
+
+        {/* img with text */}
+        <Row className={styles.test1}>
+          <Col sm className={styles.fonttest}>
+            <h3>Designs from the original web app</h3>
+            <p>Starting with the web app, I took the designs from the original web app. The flow the web app.
+              Then I created a very basic list of functionality that needed to be designed for. Mainly I also created the
+              list of pages, that needed to be considered as a redesign. I created the map of functionality that the web app.
+              I started creating the UI components. I tried to keep it as lose to the original designs as possible. </p>
+            <Image src={images[6]} fluid className={styles.imgstyle} />
+          </Col>
+        </Row>
+
+
+        {/* img without text */}
+        <Row>
+          <Col sm>
+            <Image src={images[7]} fluid className={styles.imgstyle} />
+          </Col>
+        </Row>
+
+        {/* img with text */}
+        <Row className={styles.test1}>
+          <Col sm className={styles.fonttest}>
+            <h3>Completion of Designs</h3>
+            <p>Designs was completed and the CEO found it satisfactory and he paid the amount that we discussed.
+              Actually first I sent over the web app, then I renegotiated for the mobile app. Then I completed the mobile app.
+              I was happy to complete the project and that CEO was happy enough with the designs that he paid as we discussed.
+              This was a happy, I don’t know if they had enough funding to continue but overall I was able to spend more time
+              on the designs and take it to the next level..</p>
+            <Image src={images[8]} fluid className={styles.imgstyle} />
+          </Col>
+        </Row>
+      </Container>
+
+      <Jumbotron fluid className={styles.bottomNav}>
+        <Container>
+          <Row className={styles.bottomNavColor}>
+            <Col sm={6}>
+              <h1>Apex VR</h1>
+              <Link to={'/apexvr'}>
+                <h5> View Previous </h5>
+              </Link>
+            </Col>
+            <Col sm={6}>
+              <h1>DasDas Digital</h1>
+              <Link to={'/dasdasdigital'}>
+                <h5> View Next </h5>
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </Jumbotron>
+    </div>
+  }
   </>
   /* End of JSX Fragment*/
-)
+}
