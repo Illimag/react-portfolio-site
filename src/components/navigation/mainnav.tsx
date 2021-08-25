@@ -65,7 +65,7 @@ function TestNav() {
       <Router>
         <ScrollToTop>
           <>
-            <Navbar className={styles.navbar} expand="lg" fixed="top" >
+            <Navbar className={styles.navbar} expand="lg" sticky="top" >
               <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
               <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>
