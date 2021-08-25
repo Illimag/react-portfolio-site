@@ -1,0 +1,88 @@
+.navbarwrap{
+    top:.5rem !important;
+    right: .5rem !important;
+    position: absolute !important;
+}
+
+.navbar{
+    background: rgba(255,255,255,0.4);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    display: block !important;
+    height: 70px;
+    padding: 0rem 0rem !important;
+}
+
+.logo{
+height:4rem;
+width:15rem;
+}
+
+.white{
+    color: #000 !important;
+    font-size: 1em;
+    font-family: 'Source Serif Pro', sans-serif;
+
+}
+
+
+.fonttext{
+    font-size:3em !important;
+}
+
+
+
+.navbarbackground{
+    background: #fff !important;
+    
+    position: relative !important;
+}
+
+.diamond{
+    height:40px;
+    width:40px;
+}
+
+
+.jword{
+    color:#4285f4 !important;
+  }
+
+.aword{
+    color:#ea4335 !important;
+}
+
+.eword{
+    color:#fbbc05 !important;
+}
+
+.mword{
+    color:#34a853 !important;
+}
+
+.iword{
+    color:#4285f4 !important;
+}
+
+.nword{
+    color:#ea4335 !important;
+}
+
+.kword{
+    color:#fbbc05 !important;
+}
+
+.icons{
+    height: 50px;
+    width:50px;
+}
+
+.centericon{
+    text-align: center;
+}
+
+
+.navbarbackgroudcolor{
+    background-color: white;
+}
+

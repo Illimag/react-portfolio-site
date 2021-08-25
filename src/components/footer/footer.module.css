@@ -1,0 +1,23 @@
+.icons{
+    height: 50px;
+    width:50px;
+}
+
+.centertext{
+    margin-top: 5%;
+    text-align: center;
+    color: #000 !important;
+}
+
+.centericon{
+    text-align: center;
+}
+
+.footerBackground{
+    background-color: #fff !important;
+    position: absolute !important;
+}
+
+.socialrow{
+    background-color: #fff !important;
+}

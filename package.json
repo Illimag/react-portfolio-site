@@ -1,0 +1,74 @@
+{
+  "homepage": "https://jaeminkim.com",
+  "name": "jaeminkim.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@rehooks/window-scroll-position": "^1.0.1",
+    "@steveeeie/react-page-transition": "^1.2.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "bootstrap": "^4.5.2",
+    "react": "^16.13.1",
+    "react-animated-css": "^1.2.1",
+    "react-awesome-reveal": "^3.3.1",
+    "react-bootstrap": "^1.0.1",
+    "react-codepen-embed": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-gist": "^1.2.2",
+    "react-highlight.js": "^1.0.7",
+    "react-js-loading-progress-bar": "^0.3.1",
+    "react-justified-grid": "^1.0.0",
+    "react-lazy-load-image-component": "^1.5.0",
+    "react-parallax": "^3.0.3",
+    "react-photo-gallery": "^8.0.0",
+    "react-precache-img": "^2.0.5",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-scroll-top": "^0.2.1",
+    "react-router-transition": "^2.0.0",
+    "react-scripts": "^3.4.3",
+    "react-scroll": "^1.8.1",
+    "react-scroll-parallax": "^2.3.4",
+    "react-scroll-to": "^3.0.0-beta.6",
+    "react-scroll-up-button": "^1.6.4",
+    "react-spinners": "^0.9.0",
+    "react-transition-group": "^4.4.1",
+    "react-typing-animation": "^1.6.2",
+    "react-with-state": "^1.0.0",
+    "redux": "^4.1.1",
+    "redux-action-creator": "^3.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.0",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "file-loader": "^6.1.0",
+    "gh-pages": "^3.2.3"
+  }
+}
