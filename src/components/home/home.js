@@ -1,4 +1,6 @@
 import React from 'react';
+import { useEffect, useRef, useState } from 'react';
+
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 //import Image from 'react-bootstrap/Image';
@@ -63,48 +65,64 @@ import './home.css';
 
 
 
-export const Home = () => (
+import { ProgressBar } from 'react-bootstrap';
+import { useDispatch, useSelector } from 'react-redux';
+import { getCurrentProgress, getImages, getLoadingState} from '../../store/imgLoad/reducer'
+import { loadImage } from '../../store/imgLoad/actions';
+
+const importAll = (r) => {
+  let images = [];
+  let imageUrls = [];
+  r.keys().map((item, index) => { images.push(r(item)); });
+
+  images.map((image) => {
+    imageUrls.push(image);
+  })
+
+  return imageUrls;
+}
+
+
+
+export const Home = () => {
+
+  const dispatch = useDispatch();
+  const getImageUrls = () => {
+    return importAll(require.context('../../assets/home_page_vids', false, /\.(png|jpe?g|svg|mp4|m4v)$/))
+  }
+
+  const currentLoadingState = useSelector(state => getLoadingState(state));
+  const currentProgress = useSelector(state => getCurrentProgress(state));
+  const images = useSelector(state => getImages(state));
+
+  console.log("ImageList: ", images)
+
+  useEffect(() => {
+    let urls = getImageUrls();
+    dispatch(loadImage(urls))
+  }, [])
+
+  console.log("Loading State: ", currentLoadingState)
+
+
+
 
   // myRef = React.createRef();
   /* Start of JSX Fragment*/
-  <>
+  return <>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "30vh" }}>
+      <ProgressBar animated now={currentProgress} />
+      <h1>Loading images...</h1>
+    </div>
+    {images &&
+    <div style={{ display: currentLoadingState ? "none" : "block" }}>
+
+
+
+
     <Container fluid className={styles.containerfluid}>
 
-      {/*
-<Container fluid className={styles.containerfluid}>
-    <Jumbotron fluid className={styles.test}>
-
-    <Container className={styles.fonttest}>
-
-
-    <h5 className={styles.welcometitle}>Welcome</h5>
-
-    <h5 className={styles.welcomesubtitle}>@UI/UX Designer @San Francisco Bay Area @Silicon Valley, California</h5>
-
-    <div className={styles.badgelist}>
-
-<Badge variant="primary" className={styles.first_badge}>UI/UX</Badge>{' '}
-<Badge variant="primary" className={styles.second_badge}>App</Badge>{' '}
-<Badge variant="primary" className={styles.third_badge}>Prototyping</Badge>{' '}
-<Badge variant="primary" className={styles.first_badge}>Web</Badge>{' '}
-<Badge variant="primary" className={styles.second_badge}>E-Commerce</Badge>{' '}
-<Badge variant="primary" className={styles.third_badge}>WordPress</Badge>{' '}
-<Badge variant="primary" className={styles.fourth_badge}>PayPal</Badge>{' '}
-<Badge variant="primary" className={styles.fifth_badge}>HTML/CSS</Badge>{' '}
-<Badge variant="primary" className={styles.second_badge}>VR</Badge>{' '}
-<Badge variant="primary" className={styles.third_badge}>Aframe</Badge>{' '}
-<Badge variant="primary" className={styles.fourth_badge}>Angular.JS</Badge>{' '}
-<Badge variant="primary" className={styles.third_badge}>React.JS</Badge>{' '}
-<Badge variant="primary" className={styles.fourth_badge}>Bootstrap</Badge>{' '}
-
-
-</div>
-
-
-</Container>
-</Jumbotron>
-</Container>
-*/}
+     
       <Container className={styles.test}>
         <Row>
           <Col md={12} className={styles.removepadding}>
@@ -153,7 +171,7 @@ export const Home = () => (
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={Vid02} type="video/mp4" />
+                <source src={images[0]} type="video/mp4" />
               </video>
             </Col>
 
@@ -193,7 +211,7 @@ export const Home = () => (
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={Vid04} type="video/mp4" />
+                <source src={images[1]} type="video/mp4" />
               </video>
 
             </Col>
@@ -228,7 +246,7 @@ export const Home = () => (
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={Vid05} type="video/mp4" />
+                <source src={images[2]} type="video/mp4" />
               </video>
 
             </Col>
@@ -262,7 +280,7 @@ export const Home = () => (
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={Vid06} type="video/mp4" />
+                <source src={images[3]} type="video/mp4" />
               </video>
 
             </Col>
@@ -294,7 +312,7 @@ export const Home = () => (
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={Vid03} type="video/mp4" />
+                <source src={images[4]} type="video/mp4" />
               </video>
 
             </Col>
@@ -326,7 +344,7 @@ export const Home = () => (
               </Jumbotron>
 
               <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={Vid07} type="video/mp4" />
+                <source src={images[5]} type="video/mp4" />
               </video>
             </Col>
           </Row>
@@ -336,126 +354,9 @@ export const Home = () => (
 
 
 
-
-
-
-
-
-
-    {/*
-  <Container fluid className={styles.containerfluid}>
-
-  <Row>
-    <Col className={styles.removepadding}>
-
-    <LinkContainer to="/uguru">
-    <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid01} type="video/mp4" />
-    </video>
-    </LinkContainer>
-    </Col>
-    </Row>
-
-    <Row>
-    <Col md={8} className={styles.removepadding}>
-    <LinkContainer to="/apexvr">
-    <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid02} type="video/mp4" />
-    </video>
-    </LinkContainer>
-    </Col>
-    <Col md={4} className={styles.removepadding}>
-
-    <LinkContainer to="/sanchezcoffeeco">
-    <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid03} type="video/mp4" />
-    </video>
-    </LinkContainer>
-
-    <LinkContainer to="/dasdasdigital">
-    <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid04} type="video/mp4" />
-    </video>
-    </LinkContainer>
-
-    </Col>
-    </Row>
-
-    <Row>
-    <Col md={6} className={styles.removepadding}>
-    <LinkContainer to="/stepsaver">
-    <video autoPlay preload="true" loop playsInline muted>
-      <source src={Vid05} type="video/mp4" />
-    </video>
-    </LinkContainer>
-    </Col>
-    <Col md={6}>
-    <Jumbotron>
-  <h1>Hi</h1>
-  <p>
-    Thank you for taking the time out of your day to visit this website.
-    Please let me know if you are looking to chat. Have a nice day!
-  </p>
-  <LinkContainer to="/Contact">
-  <p>
-    <Button className={styles.mainbutton} variant="primary">Contact Now</Button>
-  </p>
-  </LinkContainer>
-</Jumbotron>
-
-    </Col>
-    </Row>
-
-    </Container>
-*/}
-
-
-
-    {/*
-    <Row className={styles.row}>
-    <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg1">
-    <Image src={Pg1Img} fluid className={styles.pg1Img} />
-    </LinkContainer>
-    </Col>
-    <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg2">
-    <Image src={Pg2Img} fluid className={styles.pg1Img} />
-    </LinkContainer>
-    </Col>
-  </Row>
-  <Row className={styles.row}>
-    <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg3">
-    <Image src={Pg3Img} fluid className={styles.pg1Img} />
-    </LinkContainer>
-    </Col>
-    <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg4">
-    <Image src={Pg4Img} fluid className={styles.pg1Img} />
-    </LinkContainer>
-    </Col>
-  </Row>
-  <Row className={styles.row}>
-    <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg5">
-    <Image src={Pg5Img} fluid className={styles.pg1Img} />
-    </LinkContainer>
-    </Col>
-    <Col sm className={styles.colsm}>
-    <LinkContainer to="/pg6">
-    <Image src={Pg6Img} fluid className={styles.pg1Img} />
-    </LinkContainer>
-    </Col>
-  </Row>
-*/}
-
-
-
-
-
-
+    </div>
+    }
 
   </>
   /* End of JSX Fragment*/
-)
+}
