@@ -81,7 +81,7 @@ export const Apexvr = () => {
         <Row className={styles.displaytest}>
           <Col sm className={styles.overlay}>
             <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-              <source src={Vid1} type="video/mp4" />
+              <source src={images[10]} type="video/mp4" />
             </video>
           </Col>
           <Col sm className={styles.bannerstyles}></Col>

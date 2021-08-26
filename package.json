@@ -4,10 +4,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-pdf-viewer/core": "^2.7.2",
     "@rehooks/window-scroll-position": "^1.0.1",
     "@steveeeie/react-page-transition": "^1.2.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "bootstrap": "^4.5.2",
+    "pdfjs-dist": "^2.9.359",
     "react": "^16.13.1",
     "react-animated-css": "^1.2.1",
     "react-awesome-reveal": "^3.3.1",

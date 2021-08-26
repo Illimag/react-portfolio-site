@@ -8,7 +8,7 @@ import WebFont from 'webfontloader';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import store from './store/index'
+import { store } from './store/index'
 import {Provider} from 'react-redux'
 
 WebFont.load({
