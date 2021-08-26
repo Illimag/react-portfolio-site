@@ -50,7 +50,7 @@ export const Apexvr = () => {
 
   const dispatch = useDispatch();
   const getImageUrls = () => {
-    return importAll(require.context('../../assets/img/dominos', false, /\.(png|jpe?g|svg)$/))
+    return importAll(require.context('../../assets/img/dominos', false, /\.(png|jpe?g|svg|mp4)$/))
   }
 
   const currentLoadingState = useSelector(state => getLoadingState(state));
@@ -65,6 +65,7 @@ export const Apexvr = () => {
   }, [])
 
   console.log("Loading State: ", currentLoadingState)
+
 
   /* Start of JSX Fragment*/
 
@@ -81,7 +82,7 @@ export const Apexvr = () => {
         <Row className={styles.displaytest}>
           <Col sm className={styles.overlay}>
             <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-              <source src={images[10]} type="video/mp4" />
+              <source src={images[11]} type="video/mp4" />
             </video>
           </Col>
           <Col sm className={styles.bannerstyles}></Col>
