@@ -28,18 +28,7 @@ import Codepen from "react-codepen-embed";
 export const Uxdesignsumo = () => (
   /* Start of JSX Fragment*/
   <>
-<Container fluid className={styles.topfillercontainer}></Container>
     <Container fluid className={styles.containerfluid}>
-
-      {/* left text right img */}
-      <Row>
-   
-        <Col sm className={styles.overlay}>
-          <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-            <source src={Vid1} type="video/mp4" />
-          </video>
-        </Col>
-      </Row>
 
 
 
@@ -52,6 +41,9 @@ export const Uxdesignsumo = () => (
             <Jumbotron fluid className={styles.test}>
               <Container className={styles.fonttest}>
                 <div className={styles.spaceing}></div>
+                <p className={styles.description}>
+                  Case Study #6
+                </p>
                 <p className={styles.title}>UX Design Sumo</p>
                 <p className={styles.description}>
                   San Francisco Mobile Application Startup

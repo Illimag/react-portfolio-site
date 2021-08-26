@@ -28,20 +28,7 @@ import Codepen from "react-codepen-embed";
 export const Artrendezvous = () => (
   /* Start of JSX Fragment*/
   <>
-<Container fluid className={styles.topfillercontainer}></Container>
     <Container fluid className={styles.containerfluid}>
-
-      {/* left text right img */}
-      <Row>
-   
-        <Col sm className={styles.overlay}>
-          <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-            <source src={Vid1} type="video/mp4" />
-          </video>
-        </Col>
-      </Row>
-
-
 
 
       {/* img with text */}
@@ -52,6 +39,9 @@ export const Artrendezvous = () => (
             <Jumbotron fluid className={styles.test}>
               <Container className={styles.fonttest}>
                 <div className={styles.spaceing}></div>
+                <p className={styles.description}>
+                  Case Study #3
+                </p>
                 <p className={styles.title}>Art Rendez-Vous</p>
                 <p className={styles.description}>
                   San Francisco Mobile Application Startup
@@ -240,7 +230,7 @@ export const Artrendezvous = () => (
             <p className={styles.title}>Legacy Pictures</p>
             <p className={styles.description}>International Videography Website Redesign</p>
             <Link to={'/legacypictures'}>
-              <p> View Previous </p>
+              <p className={styles.description}> View Previous </p>
             </Link>
           </Col>
           <Col sm={6} >

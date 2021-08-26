@@ -119,7 +119,7 @@ export const Home = () => {
                   <Image src={logo} fluid />
                 </Navbar.Brand>
       
-      <h1>Loading Videos... Please Wait</h1>
+      <h1>Loading Videos...</h1>
       <ProgressBar animated now={currentProgress} />
       <h1>Please wait for an Amazing Digital Home Page Experience</h1>
 

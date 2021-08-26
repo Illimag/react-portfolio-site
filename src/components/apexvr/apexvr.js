@@ -37,37 +37,49 @@ export const Apexvr = () => {
   return <>
    
       <Container fluid className={styles.containerfluid} >
+      {/* img with text */}
+      <Row className={styles.toprow}>
+        <Col sm>
 
-        {/* left text right img */}
-        <Row className={styles.displaytest}>
-          <Col sm className={styles.overlay}>
-            <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-              <source src={Vid1} type="video/mp4" />
-            </video>
-          </Col>
-          <Col sm className={styles.bannerstyles}></Col>
-        </Row>
+          <Container fluid className={styles.containerfluid}>
+            <Jumbotron fluid className={styles.test}>
+              <Container className={styles.fonttest}>
 
-        {/* img with text */}
-        <Row>
-          <Col sm>
-            <Container fluid className={styles.containerfluid}>
-              <Jumbotron fluid className={styles.test}>
-                <Container className={styles.fonttest}>
+                <div className={styles.spaceing}></div>
+                <p className={styles.description}>
+                  Case Study #5
+                </p>
+                <p className={styles.title}>ApexVR</p>
+                <p className={styles.description}>
+                  San Francisco Mobile Application Startup
+                </p>
 
-                  <h1>Apexvr</h1>
-                  <p>
-                    Conceptual Design for Prototyping at CCA      </p>
-                  <p>
-                    October 2019 - January 2020      </p>
-                  <p>
-                    Interaction Design Student Prototyping class assignment for people with visual imparied spectrum.      </p>
-                </Container>
-              </Jumbotron>
-            </Container>
-            <Image src={Img06} fluid className={styles.imgstyle} />
-          </Col>
-        </Row>
+                <p className={styles.title}>Project Date:</p>
+                <p className={styles.description}>
+                October 2016 - January 2017
+                </p>
+
+                <p className={styles.title}>Role:</p>
+                <p className={styles.description}>Graphic UI/UX Designer Intern</p>
+
+                <p className={styles.title}>Location:</p>
+                <p className={styles.description}>San Francisco Bay Area</p>
+
+                <p className={styles.title}>Summary</p>
+                <p className={styles.description}>
+                Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace.
+                </p>
+
+              </Container>
+            </Jumbotron>
+          </Container>
+
+
+        </Col>
+
+
+
+      </Row>
       </Container>
 
       <Container fluid>
@@ -276,23 +288,24 @@ export const Apexvr = () => {
       </Container>
 
       <Jumbotron fluid className={styles.bottomNav}>
-        <Container>
-          <Row className={styles.bottomNavColor}>
-            <Col sm={6}>
-              <h1>Sanchez Coffee Co.</h1>
-              <Link to={'/sanchezcoffeeco'}>
-                <h5> View Previous </h5>
-              </Link>
-            </Col>
-            <Col sm={6}>
-              <h1>Stepsaver</h1>
-              <Link to={'/stepsaver'}>
-                <h5> View Next </h5>
-              </Link>
-            </Col>
-          </Row>
-        </Container>
-      </Jumbotron>
+      <Container>
+        <Row className={styles.bottomNavColor}>
+          <Col sm={6}>
+            <p className={styles.title}>Sanchez Coffee Co.</p>
+            <Link to={'/sanchezcoffeeco'}>
+              <p className={styles.description}> View Previous </p>
+            </Link>
+          </Col>
+          <Col sm={6} >
+            <p className={styles.title}> UX Design Sumo</p>
+            <p className={styles.description}>International Videography Website Redesign</p>
+            <Link to={'/uxdesignsumo'}>
+              <p className={styles.description}> View Next </p>
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+    </Jumbotron>
 
 
   </>

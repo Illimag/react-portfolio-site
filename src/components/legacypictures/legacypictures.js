@@ -30,20 +30,7 @@ import Codepen from "react-codepen-embed";
 export const Legacypictures = () => (
   /* Start of JSX Fragment*/
   <>
-<Container fluid className={styles.topfillercontainer}></Container>
     <Container fluid className={styles.containerfluid}>
-
-      {/* left text right img */}
-      <Row>
-   
-        <Col sm className={styles.overlay}>
-          <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-            <source src={Vid1} type="video/mp4" />
-          </video>
-        </Col>
-      </Row>
-
-
 
 
       {/* img with text */}
@@ -54,7 +41,9 @@ export const Legacypictures = () => (
             <Jumbotron fluid className={styles.test}>
               <Container className={styles.fonttest}>
                 <div className={styles.spaceing}></div>
-               
+                <p className={styles.description}>
+                  Case Study #2
+                </p>
                 <p className={styles.title}>Legacy Pictures</p>
                 <p className={styles.description}>
                   San Francisco Mobile Application Startup
