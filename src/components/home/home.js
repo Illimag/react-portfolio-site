@@ -113,16 +113,16 @@ export const Home = () => {
   // myRef = React.createRef();
   /* Start of JSX Fragment*/
   return <>
-  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "30vh" }}>
-      
-        <h1>Please wait for an Amazing Digital Experience</h1>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "10vh" }}>
+  <h1>Welcome to Jaeminkim.com</h1>
               <Navbar.Brand className={styles.logo}>
                   <Image src={logo} fluid />
                 </Navbar.Brand>
       
-      <h1>Loading images... Please Wait</h1>
+      <h1>Loading Videos... Please Wait</h1>
       <ProgressBar animated now={currentProgress} />
-      <h1>Welcome to Jaeminkim.com</h1>
+      <h1>Please wait for an Amazing Digital Home Page Experience</h1>
+
       <h1></h1>
     
     </div>
