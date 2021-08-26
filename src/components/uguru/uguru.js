@@ -28,7 +28,7 @@ import Img09 from '../../assets/img/uguru/1-09.png';
 
 //import testtest from '../../assets/img/uguru/ttt-01.png';
 
-import Vid1 from '../../assets/vids/compress_vid6.mp4';
+import Vid1 from '../../assets/home_page_vids/compress_vid0.mp4';
 import Vid2 from '../../assets/vids/compressed_vid/vid2.m4v';
 
 

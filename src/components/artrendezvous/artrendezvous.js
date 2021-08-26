@@ -20,7 +20,7 @@ import Img08 from '../../assets/img/dasdasdigital/1-08.jpg';
 import styles from './artrendezvous.module.css';
 import './artrendezvous.css';
 
-import Vid1 from '../../assets/vids/compress_vid2.mp4';
+import Vid1 from '../../assets/home_page_vids/vid2.mp4';
 
 
 import Codepen from "react-codepen-embed";

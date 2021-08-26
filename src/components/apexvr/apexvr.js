@@ -1,5 +1,4 @@
 import React from 'react';
-import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom'
 //import { Slide } from "react-awesome-reveal";
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -7,7 +6,6 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
-import { ProgressBar } from 'react-bootstrap';
 
 //import { LinkContainer } from 'react-router-bootstrap';
 //import Button from 'react-bootstrap/Button';
@@ -26,63 +24,25 @@ import Img09 from '../../assets/img/dominos/1-09.jpg';
 import styles from './apexvr.module.css';
 import './apexvr.css';
 
-import Vid1 from '../../assets/vids/vr_sitting.mp4';
+import Vid1 from '../../assets/home_page_vids/vid5.mp4';
 
 import Codepen from "react-codepen-embed";
-import { useDispatch, useSelector } from 'react-redux';
-import { getCurrentProgress, getImages, getLoadingState} from '../../store/imgLoad/reducer'
-import { loadImage } from '../../store/imgLoad/actions';
-
-const importAll = (r) => {
-  let images = [];
-  let imageUrls = [];
-  r.keys().map((item, index) => { images.push(r(item)); });
-
-  images.map((image) => {
-    imageUrls.push(image);
-  })
-
-  return imageUrls;
-}
 
 
 export const Apexvr = () => {
-
-  const dispatch = useDispatch();
-  const getImageUrls = () => {
-    return importAll(require.context('../../assets/img/dominos', false, /\.(png|jpe?g|svg|mp4)$/))
-  }
-
-  const currentLoadingState = useSelector(state => getLoadingState(state));
-  const currentProgress = useSelector(state => getCurrentProgress(state));
-  const images = useSelector(state => getImages(state));
-
-  console.log("ImageList: ", images)
-
-  useEffect(() => {
-    let urls = getImageUrls();
-    dispatch(loadImage(urls))
-  }, [])
-
-  console.log("Loading State: ", currentLoadingState)
 
 
   /* Start of JSX Fragment*/
 
   return <>
-    <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "30vh" }}>
-      <ProgressBar animated now={currentProgress} />
-      <h1>Loading images...</h1>
-    </div>
-    {images &&
-    <div style={{ display: currentLoadingState ? "none" : "block" }}>
+   
       <Container fluid className={styles.containerfluid} >
 
         {/* left text right img */}
         <Row className={styles.displaytest}>
           <Col sm className={styles.overlay}>
             <video autoPlay preload="true" loop playsInline muted className={styles.vid}>
-              <source src={images[11]} type="video/mp4" />
+              <source src={Vid1} type="video/mp4" />
             </video>
           </Col>
           <Col sm className={styles.bannerstyles}></Col>
@@ -105,7 +65,7 @@ export const Apexvr = () => {
                 </Container>
               </Jumbotron>
             </Container>
-            <Image src={images[0]} fluid className={styles.imgstyle} />
+            <Image src={Img06} fluid className={styles.imgstyle} />
           </Col>
         </Row>
       </Container>
@@ -114,7 +74,7 @@ export const Apexvr = () => {
         {/* img without text */}
         <Row>
           <Col sm>
-            <Image src={images[9]} fluid className={styles.imgstyle} />
+            <Image src={Img06} fluid className={styles.imgstyle} />
           </Col>
         </Row>
       </Container>
@@ -333,8 +293,8 @@ export const Apexvr = () => {
           </Row>
         </Container>
       </Jumbotron>
-    </div>
-  }
+
+
   </>
   /* End of JSX Fragment*/
 }

@@ -115,12 +115,14 @@ export const Home = () => {
   return <>
   <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "30vh" }}>
       
-  <Navbar.Brand className={styles.logo}>
+        <h1>Please wait for an Amazing Digital Experience</h1>
+              <Navbar.Brand className={styles.logo}>
                   <Image src={logo} fluid />
                 </Navbar.Brand>
       
       <h1>Loading images... Please Wait</h1>
       <ProgressBar animated now={currentProgress} />
+      <h1>Welcome to Jaeminkim.com</h1>
       <h1></h1>
     
     </div>

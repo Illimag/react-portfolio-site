@@ -20,7 +20,7 @@ import Img08 from '../../assets/img/dasdasdigital/1-08.jpg';
 import styles from './uxdesignsumo.module.css';
 import './uxdesignsumo.css';
 
-import Vid1 from '../../assets/vids/compress_vid4.mp4';
+import Vid1 from '../../assets/home_page_vids/videotest.mp4';
 
 
 import Codepen from "react-codepen-embed";

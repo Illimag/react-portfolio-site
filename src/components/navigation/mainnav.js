@@ -43,7 +43,7 @@ const routes = [
   { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]
 
-function TestNav() {
+function MainNav() {
   const [change, setChange] = useState(false);
   const changePosition = 300;
 
@@ -147,4 +147,4 @@ function TestNav() {
 }
 
 
-export default TestNav;
+export default MainNav;

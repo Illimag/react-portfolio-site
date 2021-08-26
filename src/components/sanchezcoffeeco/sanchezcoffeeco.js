@@ -29,7 +29,7 @@ import transaction from '../../assets/img/sanchezcoffeeco/transaction.PNG';
 import ordersize from '../../assets/img/sanchezcoffeeco/ordersize.PNG';
 
 
-import Vid1 from '../../assets/vids/compress_vid5.mp4';
+import Vid1 from '../../assets/home_page_vids/vid3.mp4';
 
 //import Banner from '../../assets/vids/compress_vid5.mp4';
 

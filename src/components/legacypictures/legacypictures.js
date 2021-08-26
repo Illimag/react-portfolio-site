@@ -23,7 +23,7 @@ import Img08 from '../../assets/img/uguru/1-08.png';
 import styles from './legacypictures.module.css';
 import './legacypictures.css';
 
-import Vid1 from '../../assets/vids/compress_vid1.mp4';
+import Vid1 from '../../assets/home_page_vids/vid0.mp4';
 
 import Codepen from "react-codepen-embed";
 
