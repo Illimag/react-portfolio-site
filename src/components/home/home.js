@@ -44,6 +44,8 @@ import DasDas_Img from '../../assets/img/dasdasdigital/banner-02.jpg';
 /*
 import Vid06 from '../../assets/vids/compress_vid0.mp4';
 */
+import Image from 'react-bootstrap/Image';
+import { Navbar, Nav } from 'react-bootstrap'
 
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -63,6 +65,7 @@ import Pg6Img from '../../assets/img/home/1-07.jpg';
 import styles from './home.module.css';
 import './home.css';
 
+import logo from '../../assets/jmk_logo-02-01.png';
 
 
 import { ProgressBar } from 'react-bootstrap';
@@ -111,8 +114,15 @@ export const Home = () => {
   /* Start of JSX Fragment*/
   return <>
   <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "30vh" }}>
+      
+  <Navbar.Brand className={styles.logo}>
+                  <Image src={logo} fluid />
+                </Navbar.Brand>
+      
+      <h1>Loading images... Please Wait</h1>
       <ProgressBar animated now={currentProgress} />
-      <h1>Loading images...</h1>
+      <h1></h1>
+    
     </div>
     {images &&
     <div style={{ display: currentLoadingState ? "none" : "block" }}>
