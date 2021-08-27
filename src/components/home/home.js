@@ -117,11 +117,9 @@ export const Home = () => {
   <h1>Welcome to Jaeminkim.com</h1>
 
       
-      <h1>Loading Videos...</h1>
+      
       <ProgressBar animated now={currentProgress} />
-      <h1>Please wait for an Amazing Digital Home Page Experience</h1>
-
-      <h1></h1>
+      <h1>Loading an Amazing Digital Experience just for you...</h1>
     
     </div>
     {images &&

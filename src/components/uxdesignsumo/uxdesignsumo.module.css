@@ -11,7 +11,7 @@
     background-color: #1E2F97 !important;
     */
 
-    background:#2CCCC3 !important;
+    background:#fff !important;
 
     position: relative;
 }
@@ -43,7 +43,7 @@ position: relative;
 }
 
 .fonttest{
-    color: #fff;
+    color: #000;
 }
 
 .vid{

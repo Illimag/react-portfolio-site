@@ -36,256 +36,206 @@ export const Apexvr = () => {
 
   return <>
    
-      <Container fluid className={styles.containerfluid} >
-      {/* img with text */}
-      <Row className={styles.toprow}>
-        <Col sm>
-
-          <Container fluid className={styles.containerfluid}>
-            <Jumbotron fluid className={styles.test}>
-              <Container className={styles.fonttest}>
-
-                <div className={styles.spaceing}></div>
-                <p className={styles.description}>
-                  Case Study #5
-                </p>
-                <p className={styles.title}>ApexVR</p>
-                <p className={styles.description}>
-                  San Francisco Mobile Application Startup
-                </p>
-
-                <p className={styles.title}>Project Date:</p>
-                <p className={styles.description}>
-                October 2016 - January 2017
-                </p>
-
-                <p className={styles.title}>Role:</p>
-                <p className={styles.description}>Graphic UI/UX Designer Intern</p>
-
-                <p className={styles.title}>Location:</p>
-                <p className={styles.description}>San Francisco Bay Area</p>
-
-                <p className={styles.title}>Summary</p>
-                <p className={styles.description}>
-                Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace.
-                </p>
-
-              </Container>
-            </Jumbotron>
-          </Container>
-
-
-        </Col>
+   <Container fluid className={styles.containerfluid}>
 
 
 
-      </Row>
-      </Container>
 
-      <Container fluid>
-        {/* img without text */}
-        <Row>
-          <Col sm>
-            <Image src={Img06} fluid className={styles.imgstyle} />
-          </Col>
-        </Row>
-      </Container>
+{/* img with text */}
+<Row className={styles.toprow}>
+  <Col sm>
 
-      <Container fluid>
+    <Container fluid className={styles.containerfluid}>
+      <Jumbotron fluid className={styles.test}>
+        <Container className={styles.fonttest}>
 
-        {/* img with text */}
-        <Row className={styles.test1}>
-          <Col sm className={styles.fonttest}>
-            <h3>Interaction Design Prototype</h3>
-            <p>The project was centered around inclusive design for Microsoft, mainly we were interested in creating UIs for people
-              who were not the typical users, as so we thought about how to do that. I decided to focuse on people who has
-              visual problems, either they had difficulties seeing or they were blinded.
+          <div className={styles.spaceing}></div>
+          <p className={styles.description}>
+            Case Study #5
+          </p>
+          <p className={styles.title}>ApexVR</p>
+          <p className={styles.description}>
+            San Francisco Mobile Application Startup
+          </p>
 
-              The application that was to be designed to be more inclusive was the Dominos’s Pizza Application.</p>
-            <Image src={Img01} fluid className={styles.imgstyle} />
-          </Col>
-        </Row>
+          <p className={styles.title}>Project Date:</p>
+          <p className={styles.description}>
+          October 2016 - January 2017
+          </p>
 
-        {/* img with text */}
-        <Row className={styles.test1}>
-          <Col sm className={styles.fonttest}>
-            <h3>Samsung Voice Assistant</h3>
-            <p>Additionally I created the prototype with AngularJS and HTML/CSS/JS. Now that the application was able to be coded, I
-              decided to use a solution that would use code to implement of a solution for inclusive design. I created some custom code
-              with HTML and CSS that created an indivisible div, that would not be able to be seen in the visual interface.
+          <p className={styles.title}>Role:</p>
+          <p className={styles.description}>Graphic UI/UX Designer Intern</p>
 
-              The code would be activated using the Samsung Voice Assistant. When the voice assistant was activated, the user can
-              activate the invisible div, will read out the instructions of various things on the app that would be able to able to
-              seen and read the elements.</p>
-            <Image src={Img02} fluid className={styles.imgstyle} />
-          </Col>
-        </Row>
+          <p className={styles.title}>Location:</p>
+          <p className={styles.description}>San Francisco Bay Area</p>
 
-        {/* text */}
-        <Row className={styles.test1}>
-          <Col sm className={styles.fonttest}>
-            <h3>High-Fidelity UI Design</h3>
-            <p>Series of various UI designs, Initially I designed some low level mockups that were
-              brought into the fold to be sued on the production application. It was a growing experience.
-              I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-              and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-          </Col>
-        </Row>
+          <p className={styles.title}>Summary</p>
+          <p className={styles.description}>
+          Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace.
+          </p>
+
+        </Container>
+      </Jumbotron>
+    </Container>
+
+
+  </Col>
 
 
 
-        {/* left text right img */}
-        <Row className={styles.test1}>
-          <Col sm className={styles.fonttest}>
-            <h3>Personas of
-              Limitation Spectrum</h3>
-            <p>I decidede to create this prototype using the
-              original designs, then for the indivudals whom
-              had difficulties seeing I decided to increase the
-              sizes of the elements, particuarly using more
-              the screen to stretch the elements for more
-              visibility, although this would make the
-              appearance of the application would not
-              be as nice.</p>
-          </Col>
-          <Col sm>
-            <Image src={Img03} fluid className={styles.imgstyle} />
-          </Col>
-        </Row>
+</Row>
+
+      
+
+</Container>
+
+<Container fluid>
+{/* left text right img */}
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+    <p className={styles.title}>San Francisco Bay Area & Silicon Valley</p>
+    <p className={styles.description}>Uguru, INC was a startup in San Francisco. The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building.</p>
+  </Col>
+  <Col sm>
+    <Image src={Img00} fluid className={styles.imgstyle} />
+  </Col>
+</Row>
+</Container>
 
 
-        {/* img without text */}
-        <Row>
-          <Col sm>
-            <Image src={Img04} fluid className={styles.imgstyle} />
-          </Col>
-        </Row>
+{/* text */}
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+    <p className={styles.title}>High-Fidelity UI Design</p>
+    <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+      brought into the fold to be sued on the production application. It was a growing experience.
+      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+  </Col>
+</Row>
+
+<Container fluid>
 
 
-        {/* img without text */}
-        <Row>
-          <Col sm>
-            <Image src={Img05} fluid className={styles.imgstyle} />
-          </Col>
-        </Row>
-
-
-
-        {/* img with text */}
-        <Row className={styles.test1}>
-          <Col sm className={styles.fonttest}>
-            <h3>Design Process</h3>
-            <p>Various steps to this application. We started with the sketches because the Microsoft Inclusive Designs had personas
-              that we were designing for. Mainly the Personas was for a person whom be blind or visually impaired, hard to see.
-              After the sketches were done, based on the original app. We tried to come up with various solutions that would be
-              able to solve the problems. After the designs were better designed, we did some testing, using user testing, we
-              tested the interface with users and we were able to see what users thought about the application, and we also
-              got a heat map to see where the user would be clicking on the interface.</p>
-            <Image src={Img06} fluid className={styles.imgstyle} />
-          </Col>
-        </Row>
-
-
-        {/* Video */}
-        <Row>
-          <Col sm>
-            <video autoPlay preload="true" loop playsInline muted>
-              <source src={Vid1} type="video/mp4" />
-            </video>
-          </Col>
-        </Row>
-
-        {/* text */}
-        <Row className={styles.test2}>
-          <Col sm className={styles.fonttest}>
-            <h3>High-Fidelity UI Design</h3>
-            <p>Series of various UI designs, Initially I designed some low level mockups that were
-              brought into the fold to be sued on the production application. It was a growing experience.
-              I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-              and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-          </Col>
-        </Row>
+{/* left text right img */}
+<Row className={styles.test}>
+  <Col sm>
+    <Image src={Img08} fluid className={styles.imgstyle} />
+  </Col>
+  <Col sm className={styles.fonttest}>
+    <p className={styles.title}>Angel Funded Mobile Application Startup in SOMA</p>
+    <p className={styles.description}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
+  </Col>
+</Row>
 
 
 
-        {/* left text right img */}
-        <Row className={styles.test1}>
-          <Col sm className={styles.fonttest}>
-            <h3>Implementation
-              of the Interface</h3>
-            <p>I was not satisfied with the solution, I think
-              I needed something more than something
-              that would be just some static file. I wanted
-              an prototype that would be actually usable
-              and then I could implement an additional
-              solution using code.
-
-              So I created the HTML/CSS and JS prototype,
-              implementing with AngularJS. After I created
-              that prototype, I saw that using the andriod
-              device I could activate the voice assistant using
-              certain finger gestures.
-
-              I implemented the invisible CSS div that was
-              able to be only be seen using the voice
-              assistant.</p>
-          </Col>
-          <Col sm>
-            <Image src={Img07} fluid className="pg1Img" />
-          </Col>
-        </Row>
-
-        {/* codepen*/}
-        <Row>
-          <Col sm>
-            <Codepen
-              hash="WNrqqqe"
-              user="jaemnkm"
-              defaultTab="result"
-              preview={false}
-              height={600}
-            />
-          </Col>
-        </Row>
-
-        {/* left img right text */}
-        <Row className={styles.test1}>
-          <Col sm>
-            <Image src={Img08} fluid className={styles.imgstyle} />
-          </Col>
-          <Col sm className={styles.fonttest}>
-            <h3>Completion of the
-              Prototype</h3>
-            <p>The prototype was created and I was able
-              to present it in class, and I think based
-              on the case files it could be a possible
-              solution for user.</p>
-          </Col>
-        </Row>
+{/* text */}
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+    <p className={styles.title}>High-Fidelity UI Design</p>
+    <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+      brought into the fold to be sued on the production application. It was a growing experience.
+      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+  </Col>
+</Row>
 
 
-        {/* left img right text */}
-        <Row className={styles.test1}>
-          <Col sm className={styles.fonttest}>
-            <h3>Designing and
-              Implementing</h3>
-            <p>Designing and implementing this prototype
-              gave me a sense of happiness, knowing
-              that I was designing something that would
-              help a Personas that needs more care
-              than others. Im happy to see people being
-              helped, and I think that after I was able to
-              create this interface using code it really opened
-              up more possiblities for a solution that would
-              be possible for user.</p>
-          </Col>
-          <Col sm>
-            <Image src={Img09} fluid className={styles.imgstyle} />
-          </Col>
-        </Row>
+{/* img without text */}
+<Row>
+  <Col sm>
+    <Image src={Img03} fluid className={styles.imgstyle} />
+  </Col>
+</Row>
+
+{/* left text right img */}
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+    <p className={styles.title}>Development of
+      the MVP</p>
+    <p className={styles.description}>After the designs were completed
+      they were sent over to me, and I started
+      with the development of the MVP.</p>
+  </Col>
+  <Col sm>
+    <Image src={Img04} fluid className={styles.imgstyle} />
+  </Col>
+</Row>
 
 
-      </Container>
+{/* Video */}
+<Row>
+  <Col sm>
+    <video autoPlay preload="true" loop playsInline muted>
+      <source src={Vid1} type="video/mp4" />
+    </video>
+  </Col>
+</Row>
+
+{/* img with text */}
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+    <p className={styles.title}>Remote Team</p>
+    <p className={styles.description}>The CEO was a software developer located in Oakland, there was a designer, a social media
+      specialist who did the research for the personas, as well as a admin type of person who was
+      in charge of maintain admin stuff.</p>
+    <Image src={Img05} fluid className={styles.imgstyle} />
+  </Col>
+</Row>
+
+{/* text */}
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+    <p className={styles.title}>High-Fidelity UI Design</p>
+    <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+      brought into the fold to be sued on the production application. It was a growing experience.
+      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+  </Col>
+</Row>
+
+
+
+{/* img without text */}
+<Row>
+  <Col sm>
+    <Image src={Img06} fluid className={styles.imgstyle} />
+  </Col>
+</Row>
+
+{/* img with text */}
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+    <p className={styles.title}>Developing the Web Interface</p>
+    <p className={styles.description}>The designer designed it based on Bootstrap 4 UI Components so developing the site was quite easy.
+      I created each page and created the fodler system. Then I implemented each page, using code. After
+      the project was over I went back and I redesigned the home page and other pages, as well as
+      putting the code base onto a React.JS folder system.</p>
+    <Image src={Img07} fluid className={styles.imgstyle} />
+  </Col>
+</Row>
+
+{/* left text right img */}
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+    <p className={styles.title}>Completion of
+      the MVP</p>
+    <p className={styles.description}>The CEO didn’t move any farther
+      with the project and it fell through it
+      and didn’t go anywhere. We can say
+      that the project was closed because of
+      lack of interest, or lack of effort, or
+      people decided as a group that we were
+      going to come apart, maybe we didn’t
+      have enough funding.</p>
+  </Col>
+  <Col sm>
+    <Image src={Img08} fluid className={styles.imgstyle} />
+  </Col>
+</Row>
+
+</Container>
 
       <Jumbotron fluid className={styles.bottomNav}>
       <Container>
