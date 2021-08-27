@@ -65,7 +65,7 @@ function MainNav() {
       <Router>
         <ScrollToTop>
           <>
-            <Navbar className={styles.navbar} expand="lg" sticky="top" >
+            <Navbar collapseOnSelect className={styles.navbar} expand="lg" sticky="top" >
               <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
               <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>
@@ -76,7 +76,10 @@ function MainNav() {
               <Navbar.Collapse id="basic-navbar-nav" className={styles.navbarbackgroudcolor} >
                 <Nav className="ml-auto">
                   {routes.map(route => (
-                    <Nav.Link className={styles.navtextcss}
+                    <Nav.Link 
+                    eventKey="1" as={Link}
+                    
+                    className={styles.navtextcss}
                       key={route.path}
                       as={NavLink}
                       to={route.path}
