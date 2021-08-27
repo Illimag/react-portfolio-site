@@ -115,9 +115,7 @@ export const Home = () => {
   return <>
   <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "10vh" }}>
   <h1>Welcome to Jaeminkim.com</h1>
-              <Navbar.Brand className={styles.logo}>
-                  <Image src={logo} fluid />
-                </Navbar.Brand>
+
       
       <h1>Loading Videos...</h1>
       <ProgressBar animated now={currentProgress} />
