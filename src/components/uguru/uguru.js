@@ -70,26 +70,29 @@ export const Uguru = () => (
                        <Container className={styles.fonttest}>
 
                 <div className={styles.spaceing}></div>
-                <p className={styles.description}>
-                  Case Study #1
-                </p>
                 <p className={styles.title}>Uguru, INC</p>
                 <p className={styles.description}>
                   San Francisco Mobile Application Startup
                 </p>
-
-                <p className={styles.title}>Project Date:</p>
                 <p className={styles.description}>
                 October 2016 - January 2017
                 </p>
-
-                <p className={styles.title}>Role:</p>
                 <p className={styles.description}>Graphic UI/UX Designer Intern</p>
-
-                <p className={styles.title}>Location:</p>
                 <p className={styles.description}>San Francisco Bay Area</p>
 
-              
+                <div className={styles.badgelist}>
+    <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
+    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
+    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
+    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
+  </div>
 
               </Container>
         </Col>
@@ -106,19 +109,7 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
           <p className={styles.description}>Uguru, INC was a startup in San Francisco. The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.
 </p>
 
-<div className={styles.badgelist}>
-    <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
-    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
-    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
-    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
-    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
-    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
-    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
-    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
-    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
-  </div>
+
 
 </Container>
         </Col>
