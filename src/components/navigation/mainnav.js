@@ -40,7 +40,7 @@ const routes = [
   { path: '/sanchezcoffeeco', name: 'SANCHEZ COFFEE CO.', Component: Sanchezcoffeeco },
   { path: '/apexvr', name: 'APEX VR', Component: Apexvr },
   { path: '/uxdesignsumo', name: 'UX DESIGN SUMO', Component: Uxdesignsumo },
-  { path: '/Contact', name: 'CONTACT', Component: Contact },
+  { path: '/Contact', name: 'CONTACT/PROFILE', Component: Contact },
 ]
 
 function MainNav() {

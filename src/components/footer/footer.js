@@ -34,6 +34,12 @@ or in-house positions in the San Francisco Bay Area and Silicon Valley!
 in things related to User Interfaces, User Experiences, Designer Journey, Designer jobs, Freelancing, Contracting, Silicon Valley,
 San Francisco Bay Area, and more, please visit the (in-process) writing of the handbook! Thank you!
 </p>
+
+
+
+
+
+
 <p className={styles.description}><a href="https://github.com/jaeminkim-com/user_interface_and_user_experience_design_handbook">User Interface and User Experience Design Handbook</a>
 
 </p>

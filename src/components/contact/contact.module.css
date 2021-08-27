@@ -20,3 +20,62 @@
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 500;
 }
+
+
+.titletextdark{
+    color:#fff;
+    font-size: 3em !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.secondtitledark{
+    color:#fff;
+    font-size: 2em !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.descriptionmaindark{
+    color:#fff;
+    font-size: 1em !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+
+.testtest{
+    background-color: #000 !important
+}
+
+
+
+
+
+.welcome{
+    margin-top: 2rem;
+    background-color: white !important;
+}
+
+.titletext{
+    font-size: 3em !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.descriptiontext{
+    font-size: 2em !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+
+.descriptionmain{
+    font-size: 1em !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+
+.secondtitle{
+    font-size: 2em !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}

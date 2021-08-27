@@ -7,6 +7,8 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
 // LazyLoadImage } from 'react-lazy-load-image-component';
 
+import { Card } from 'react-bootstrap'
+import { Carousel } from 'react-bootstrap'
 
 
 //import { Slide } from "react-awesome-reveal";
@@ -22,16 +24,10 @@ import Apexvrimg from '../../assets/img/apexvr-01.png';
 import Stepsaverimg from '../../assets/img/ddd-01.png';
 import DasDasimg from '../../assets/img/dasdasdgg-01.png';
 */
-
+import Img01 from '../../assets/img/uguru/ttt-01.png';
 /*
 import Vid01 from '../../assets/vids/compress_vid1.mp4';
 */
-import Vid02 from '../../assets/vids/compress_vid6.mp4';
-import Vid03 from '../../assets/vids/compress_vid0.mp4';
-import Vid04 from '../../assets/vids/compress_vid1.mp4';
-import Vid05 from '../../assets/vids/compress_vid2.mp4';
-import Vid06 from '../../assets/vids/compress_vid5.mp4';
-import Vid07 from '../../assets/vids/compress_vid4.mp4';
 
 /*
 import Uguru_Img from '../../assets/img/uguru/banner-01.jpg';
@@ -41,9 +37,6 @@ import Stepsaver_Img from '../../assets/img/stepsaver/banner-05.jpg';
 import DasDas_Img from '../../assets/img/dasdasdigital/banner-02.jpg';
 */
 
-/*
-import Vid06 from '../../assets/vids/compress_vid0.mp4';
-*/
 import Image from 'react-bootstrap/Image';
 import { Navbar, Nav } from 'react-bootstrap'
 
@@ -69,6 +62,8 @@ import logo from '../../assets/jmk_logo-02-01.png';
 
 
 import { ProgressBar } from 'react-bootstrap';
+import { Spinner } from 'react-bootstrap';
+
 import { useDispatch, useSelector } from 'react-redux';
 import { getCurrentProgress, getImages, getLoadingState} from '../../store/imgLoad/reducer'
 import { loadImage } from '../../store/imgLoad/actions';
@@ -91,7 +86,7 @@ export const Home = () => {
 
   const dispatch = useDispatch();
   const getImageUrls = () => {
-    return importAll(require.context('../../assets/home_page_vids', false, /\.(png|jpe?g|svg|mp4|m4v)$/))
+    return importAll(require.context('../../assets/newhomepagevids', false, /\.(png|jpe?g|svg|mp4|m4v)$/))
   }
 
   const currentLoadingState = useSelector(state => getLoadingState(state));
@@ -114,10 +109,11 @@ export const Home = () => {
   /* Start of JSX Fragment*/
   return <>
   <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "10vh" }}>
+  
   <h1>Welcome to Jaeminkim.com</h1>
 
       
-      
+        
       <ProgressBar animated now={currentProgress} />
       <h1>Loading an Amazing Digital Experience just for you...</h1>
     
@@ -138,20 +134,14 @@ export const Home = () => {
             <Jumbotron className={styles.welcome}>
               <h5 className={styles.titletext}>UI/UX Designer located in the San Francisco Bay Area, and Silicon Valley</h5>
               <p className={styles.descriptionmain}>
-                
                 <span className={styles.available}> Available</span> for In-House, Remote, Full-Time, Part-Time, Contract and Freelance. Have a nice day!
               </p>
               
-
-              <LinkContainer to="/Contact">
-                <p>
-                  <Button className={styles.mainbutton} variant="primary">Contact Now</Button>
-                </p>
-              </LinkContainer>
             </Jumbotron>
 
           </Col>
         </Row>
+
 
         <LinkContainer to="/uguru">
           <Row>

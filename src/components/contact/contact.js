@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
+import { Jumbotron } from 'react-bootstrap';
 
 import styles from './contact.module.css';
 import './contact.css';
@@ -18,31 +19,15 @@ import { Viewer } from '@react-pdf-viewer/core';
 // Import the styles
 import '@react-pdf-viewer/core/lib/styles/index.css';
 
+
 export const Contact = () => (
   
   
   /* Start of JSX Fragment*/
   <>
-    <Container fluid>
-      {/* Video */}
-      <Row>
-        <Col sm>
-          <video autoPlay preload="true" loop playsInline muted>
-            <source src={Vid1} type="video/mp4" />
-          </video>
-        </Col>
-      </Row>
-    </Container>
 
-    <Container fluid className={styles.test}>
-      <Row>
-        <Col xs={6} md={4}>
-          <Image src={profile} roundedCircle />
-        </Col>
-      </Row>
-    </Container>
 
-    <Container fluid className={styles.test}>
+<Container fluid className={styles.test}>
       {/* img with text */}
       <Row>
         <Col sm>
@@ -55,31 +40,84 @@ export const Contact = () => (
 
         {/*<Viewer fileUrl="https://github.com/jaeminkim-com/react-portfolio-site/blob/master/src/assets/resume/resume.pdf" />*/}
          
-          <p className={styles.description}>
-      AP Art at Mission San Jose High School, background in Fine Art. Academic background began as an Industrial (Product) Design major at Hongik University in Seoul, South Korea, from Industrial Design to De Anza College (Cupertino, CA) Graphic Design to California College of the Arts (San Francisco, CA and Oakland, CA) Industrial Design to California College of the Arts (San Francisco, CA and Oakland, CA) Interaction Design / minor in Computational Practices to Southern New Hamshire University (Remote) Graphic & Web. Winter 2021 Presidents List for SNHU (https://meritpages.com/Jae-Min-Kim/6415480), Pell Grant, CAL Grant B, Clorox Scholor, CCA Scholor, Federal Work Study.
-          </p>
-
-          <p className={styles.description}>
-            Immersed into the UI/UX Design field as an intern at a startup in downtown San Francisco (SOMA), at the Spear Tower.
-          </p>
-
-          <p className={styles.description}>
-            While working as a remote independent contractor since 2010s, worked with clients across the continental United States, Hawaii, Canada, etc.
-          </p>
-
-          <p className={styles.description}>
-            In-house experience at various startup, small businesses, and corporations, Design Associated Minted, LLC , department of 500, team size 80~, Clorox Building.
-          </p>
-
-          <p className={styles.description}>
-            With encouragement from co-developer teams, peer pressure, etc, self-taught web coder, web development, front-end development, full-stack development, additionally minor in computational practices at California College of the Arts (CCA), while an Interaction Design major, JavaScript, HTML, CSS, Jquery, wordpress, bootstrap. Favorite Front-end JavaScript Framework = React.JS.
-          </p>
-
-
         </Col>
       </Row>
 
     </Container>
+
+
+    <Container fluid>
+      
+    <Row className={styles.testrow}>
+          <Col md={12} className={styles.removepadding}>
+
+            <Jumbotron className={styles.testtest}>
+              <h5 className={styles.titletextdark}>01/ Services</h5>
+              
+              <p className={styles.secondtitledark}>
+                Web Apps & Corporate Sites
+              </p>
+              
+              <p className={styles.descriptionmaindark}>
+              This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
+              </p>
+
+              <p className={styles.secondtitledark}>
+              Mobile App Design
+              </p>
+              
+              <p className={styles.descriptionmaindark}>
+              Using iOS, Android and an expert vision, I’ll take your application to the next level.
+              </p>
+
+              <p className={styles.secondtitledark}>
+              Front End Development
+              </p>
+              
+              <p className={styles.descriptionmaindark}>
+              I’ll help you to bridge the gap between design and development.
+              </p>
+ 
+            </Jumbotron>
+
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={12} className={styles.removepadding}>
+
+            <Jumbotron className={styles.welcome}>
+              <h5 className={styles.titletext}>02/ Principles</h5>
+              <p className={styles.secondtitle}>
+              UX is the sum of all things.
+              </p>
+              
+              <p className={styles.descriptionmain}>
+              There’s no style over substance here. I bring together form and the function to create something that looks good and performs brilliantly. Simple.              </p>
+              
+
+            </Jumbotron>
+
+          </Col>
+        </Row>
+        
+
+        <Row>
+          <Col md={12} className={styles.removepadding}>
+
+            <Jumbotron className={styles.welcome}>
+              <h5 className={styles.titletext}>03/ Client Comments</h5>
+              <p className={styles.descriptionmain}>
+                Design, Development, 
+              </p>
+              
+
+            </Jumbotron>
+
+          </Col>
+        </Row>
+    </Container>
+
 
 
 
