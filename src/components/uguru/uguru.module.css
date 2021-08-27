@@ -180,7 +180,6 @@ background: rgba(0,0,0,0.5);
 
 .imgstyle{
     object-fit: cover;
-    height: 100vh !important;
     position: static;
     top: 0;
     left: 0;

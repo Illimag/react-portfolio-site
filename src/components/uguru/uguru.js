@@ -26,6 +26,17 @@ import Img07 from '../../assets/img/uguru/1-07.jpg';
 import Img08 from '../../assets/img/uguru/1-08.png';
 import Img09 from '../../assets/img/uguru/1-09.png';
 
+import ImgA from '../../assets/img/uguru/d.jpg';
+import ImgB from '../../assets/img/uguru/dd.jpg';
+import ImgC from '../../assets/img/uguru/ddd.jpg';
+
+import ImgTablet from '../../assets/img/uguru/freeontour-7.jpg';
+
+import testimg from '../../assets/img/uguru/hsl_3.jpg';
+import desktopImg from '../../assets/img/uguru/hsl-biz_3.jpg';
+import Twodesktop from '../../assets/img/uguru/hsl-biz_4.jpg';
+import duo from '../../assets/img/uguru/duo-01.png';
+
 //import testtest from '../../assets/img/uguru/ttt-01.png';
 
 import Vid1 from '../../assets/home_page_vids/compress_vid0.mp4';
@@ -132,9 +143,22 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
         </Col>
         <Col sm>
           <Image src={Img00} fluid className={styles.imgstyle} />
+          
         </Col>
       </Row>
     </Container>
+
+
+      {/* img without text */}
+      <Row>
+        <Col sm>
+          <Image src={desktopImg} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+      </Row>
+
 
 
       {/* text */}
@@ -147,6 +171,33 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
             and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
         </Col>
       </Row>
+
+    <Row className={styles.test}>
+        <Col sm>
+          <Image src={ImgA} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+        <Col sm>
+          <Image src={ImgB} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+        <Col sm>
+          <Image src={ImgC} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+      </Row>
+
+
+
+
+
+
 
     <Container fluid>
 
@@ -164,6 +215,19 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
 
 
 
+
+      {/* img without text */}
+      <Row>
+        <Col sm>
+          <Image src={Twodesktop} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+      </Row>
+
+
+
       {/* text */}
       <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
@@ -176,10 +240,17 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
       </Row>
 
 
+
+
+
+
       {/* img without text */}
       <Row>
         <Col sm>
-          <Image src={Img03} fluid className={styles.imgstyle} />
+          <Image src={testimg} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
         </Col>
       </Row>
 
@@ -233,8 +304,17 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
 
       {/* img without text */}
       <Row>
+      <Col sm>
+          <Image src={ImgTablet} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
         <Col sm>
-          <Image src={Img06} fluid className={styles.imgstyle} />
+          <Image src={ImgC} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
         </Col>
       </Row>
 
@@ -246,7 +326,7 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
             I created each page and created the fodler system. Then I implemented each page, using code. After
             the project was over I went back and I redesigned the home page and other pages, as well as
             putting the code base onto a React.JS folder system.</p>
-          <Image src={Img07} fluid className={styles.imgstyle} />
+          <Image src={duo} fluid className={styles.imgstyle} />
         </Col>
       </Row>
 
