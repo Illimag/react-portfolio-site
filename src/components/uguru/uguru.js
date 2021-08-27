@@ -9,7 +9,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
-//import Badge from 'react-bootstrap/Badge';
+import Badge from 'react-bootstrap/Badge';
 
 //import { LinkContainer } from 'react-router-bootstrap';
 //import Button from 'react-bootstrap/Button';
@@ -51,11 +51,23 @@ export const Uguru = () => (
 
       {/* img with text */}
       <Row className={styles.toprow}>
-        <Col sm>
+        
 
-          <Container fluid className={styles.containerfluid}>
-            <Jumbotron fluid className={styles.test}>
-              <Container className={styles.fonttest}>
+      </Row>
+
+            
+
+    </Container>
+
+
+
+
+    <Container fluid>
+      {/* left text right img */}
+      <Row className={styles.test}>
+
+        <Col sm className={styles.fonttest}>
+                       <Container className={styles.fonttest}>
 
                 <div className={styles.spaceing}></div>
                 <p className={styles.description}>
@@ -77,27 +89,50 @@ export const Uguru = () => (
                 <p className={styles.title}>Location:</p>
                 <p className={styles.description}>San Francisco Bay Area</p>
 
-                <p className={styles.title}>Summary</p>
-                <p className={styles.description}>
-                Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace.
-                </p>
+              
 
               </Container>
-            </Jumbotron>
-          </Container>
-
-
         </Col>
 
+        <Col sm>
 
+        <Container className={styles.fonttest}>
+
+<div className={styles.spaceing}></div>
+
+<p className={styles.title}>Summary</p>
+<p className={styles.description}>
+Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
+          <p className={styles.description}>Uguru, INC was a startup in San Francisco. The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.
+</p>
+
+<div className={styles.badgelist}>
+    <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
+    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
+    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
+    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
+    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
+  </div>
+
+</Container>
+        </Col>
 
       </Row>
-
-            
-
     </Container>
 
+
+
+
+
+
     <Container fluid>
+    <div className={styles.spaceing}></div>
       {/* left text right img */}
       <Row className={styles.test}>
         <Col sm className={styles.fonttest}>
