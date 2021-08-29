@@ -157,7 +157,7 @@ export const Home = () => {
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[13]}/>
+                <source src={images[12]}/>
               </video>
                 }
 
