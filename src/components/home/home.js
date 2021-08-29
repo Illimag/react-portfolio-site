@@ -133,13 +133,49 @@ export const Home = () => {
         <Row>
           <Col md={12} className={styles.removepadding}>
 
-            <Jumbotron className={styles.welcome}>
-              <h5 className={styles.titletext}>UI/UX Designer located in the San Francisco Bay Area, and Silicon Valley</h5>
-              <p className={styles.descriptionmain}>
-                <span className={styles.available}> Available</span> for In-House, Remote, Full-Time, Part-Time, Contract and Freelance. Have a nice day!
-              </p>
-              
-            </Jumbotron>
+          <Jumbotron className={styles.mainfloatback}>
+                <div className={styles.maincontentwrapper}>
+                {/*
+                  <div class="testcontainer">
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <span class="text">Scroll to View Portfolio</span>
+                  </div>
+                */}
+                </div>
+              </Jumbotron>
+
+
+          <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[13]}/>
+              </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[12]}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[12]}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
 
           </Col>
         </Row>
