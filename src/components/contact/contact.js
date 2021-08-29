@@ -13,13 +13,6 @@ import './contact.css';
 import profile from '../../assets/profile.jpg';
 import Vid1 from '../../assets/vids/compress_sf.mp4';
 
-// Import the main component
-import { Viewer } from '@react-pdf-viewer/core';
-
-// Import the styles
-import '@react-pdf-viewer/core/lib/styles/index.css';
-
-
 export const Contact = () => (
   
   
@@ -38,8 +31,6 @@ export const Contact = () => (
           <br></br>
           <p className={styles.title}>Many Thanks.</p>
 
-        {/*<Viewer fileUrl="https://github.com/jaeminkim-com/react-portfolio-site/blob/master/src/assets/resume/resume.pdf" />*/}
-         
         </Col>
       </Row>
 

@@ -505,3 +505,7 @@ Cant figure out how to implement there seens to be an issue related to
 ## Install react-pdf
 
     npm install react-pdf
+
+## Install Media Query for React
+
+    npm install --save react-media

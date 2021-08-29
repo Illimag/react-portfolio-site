@@ -68,6 +68,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getCurrentProgress, getImages, getLoadingState} from '../../store/imgLoad/reducer'
 import { loadImage } from '../../store/imgLoad/actions';
 
+import Media from 'react-media';
+
 const importAll = (r) => {
   let images = [];
   let imageUrls = [];
@@ -168,9 +170,39 @@ export const Home = () => {
                 </div>
               </Jumbotron>
 
-              <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]} type="video/mp4" />
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[0]}/>
               </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[1]}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[1]}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
+
+
             </Col>
 
           </Row>
@@ -208,9 +240,35 @@ export const Home = () => {
               </div>
               </Jumbotron>
 
-              <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={images[1]} type="video/mp4" />
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[2]}/>
               </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[3]}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[3]}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
 
             </Col>
           </Row>
@@ -243,9 +301,35 @@ export const Home = () => {
               </div>
               </Jumbotron>
 
-              <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={images[2]} type="video/mp4" />
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[4]}/>
               </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[5]}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[5]}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
 
             </Col>
 
@@ -277,9 +361,35 @@ export const Home = () => {
               </div>
               </Jumbotron>
 
-              <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={images[3]} type="video/mp4" />
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[6]}/>
               </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[7]}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[7]}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
 
             </Col>
           </Row>
@@ -309,9 +419,37 @@ export const Home = () => {
               </div>  
               </Jumbotron>
 
-              <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={images[4]} type="video/mp4" />
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[8]}/>
               </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[9]}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[9]}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
 
             </Col>
           </Row>
@@ -341,9 +479,37 @@ export const Home = () => {
               </div>
               </Jumbotron>
 
-              <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-                <source src={images[5]} type="video/mp4" />
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[10]}/>
               </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[11]}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[11]}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
             </Col>
           </Row>
         </LinkContainer>
