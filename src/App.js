@@ -5,7 +5,6 @@ import MainNav from './components/navigation/mainnav'
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 
-
 const App = () => (
   <>
     <MainNav></MainNav>

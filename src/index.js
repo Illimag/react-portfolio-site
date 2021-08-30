@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { store } from './store/index'
 import {Provider} from 'react-redux'
 
+
 WebFont.load({
     google: {
         families: [
@@ -28,6 +29,7 @@ ReactDOM.render(
             <App />
         </ParallaxProvider>
         </Provider>
+
     </>,
     document.getElementById('root')
 );

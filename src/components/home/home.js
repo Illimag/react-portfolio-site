@@ -130,6 +130,7 @@ export const Home = () => {
 
      
       <Container className={styles.test}>
+
         <Row>
           <Col md={12} className={styles.removepadding}>
 
@@ -163,13 +164,13 @@ export const Home = () => {
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[12]}/>
+                <source src={images[13]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[12]}/>
+                <source src={images[13]}/>
               </video>
                 }
 
@@ -179,7 +180,6 @@ export const Home = () => {
 
           </Col>
         </Row>
-
 
         <LinkContainer to="/uguru">
           <Row>
