@@ -25,17 +25,17 @@ import Img06 from '../../assets/img/uguru/1-06.jpg';
 import Img07 from '../../assets/img/uguru/1-07.jpg';
 import Img08 from '../../assets/img/uguru/1-08.png';
 import Img09 from '../../assets/img/uguru/1-09.png';
+ 
+import ImgA from '../../assets/img/uguru/testpics-02.png';
+import ImgB from '../../assets/img/uguru/testpics-03.png';
+import ImgC from '../../assets/img/uguru/testpics-03.png';
 
-import ImgA from '../../assets/img/uguru/d.jpg';
-import ImgB from '../../assets/img/uguru/dd.jpg';
-import ImgC from '../../assets/img/uguru/ddd.jpg';
+import ImgTablet from '../../assets/img/uguru/testpics-01.png';
 
-import ImgTablet from '../../assets/img/uguru/freeontour-7.jpg';
-
-import testimg from '../../assets/img/uguru/hsl_3.jpg';
-import desktopImg from '../../assets/img/uguru/hsl-biz_3.jpg';
-import Twodesktop from '../../assets/img/uguru/hsl-biz_4.jpg';
-import duo from '../../assets/img/uguru/duo-01.png';
+import testimg from '../../assets/img/uguru/testpics-05.png';
+import desktopImg from '../../assets/img/uguru/testpics-07.png';
+import Twodesktop from '../../assets/img/uguru/testpics-06.png';
+import duo from '../../assets/img/uguru/testpics-08.png';
 
 //import testtest from '../../assets/img/uguru/ttt-01.png';
 
@@ -56,7 +56,7 @@ export const Uguru = () => (
   <>
   
     <Container fluid className={styles.containerfluid}>
-
+ 
 
 
 
