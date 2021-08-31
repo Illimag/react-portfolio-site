@@ -121,8 +121,12 @@ export const Uguru = () => (
 <div className={styles.spaceing}></div>
 
 <p className={styles.title}>Summary</p>
+<div className={styles.spaceing}></div>
 <p className={styles.description}>
 Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
+
+<div className={styles.spaceing}></div>
+
 <p className={styles.description}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.
 </p>
 
@@ -133,6 +137,78 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
 
       </Row>
     </Container>
+
+
+
+
+
+    <Container fluid>
+
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+
+  <div className={styles.spaceing}></div>
+  <Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+  }}>
+    {matches => (
+      <>
+
+        {matches.small &&
+  <Container>
+
+    <p className={styles.title}>Uguru, INC</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+      brought into the fold to be sued on the production application. It was a growing experience.
+      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+   </Container>
+          }
+
+        {matches.medium &&
+  <Container>
+    <p className={styles.title}>Uguru, INC</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+      brought into the fold to be sued on the production application. It was a growing experience.
+      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+</Container>
+          }
+
+        {matches.large &&
+      <Container>
+    <p className={styles.titlelarge}>Uguru, INC</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlarge}>Series of various UI designs, Initially I designed some low level mockups that were
+      brought into the fold to be sued on the production application. It was a growing experience.
+      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+         </Container>
+          }
+
+      </>
+    )}
+  </Media>
+  <div className={styles.spaceing}></div>
+
+
+  
+  
+  </Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
 
 
 
@@ -155,10 +231,10 @@ Initial sneaker catalog overview
 
     <Container fluid>
 
-<Row className={styles.test}>
+<Row className={styles.blackbackground}>
   <Col sm className={styles.fonttest}>
 
-
+  <div className={styles.spaceing}></div>
   <Media queries={{
     small: "(max-width: 599px)",
     medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -170,8 +246,9 @@ Initial sneaker catalog overview
         {matches.small &&
   <Container>
 
-    <p className={styles.title}>High-Fidelity UI Design</p>
-    <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+    <p className={styles.titleblack}>High-Fidelity UI Design</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionblack}>Series of various UI designs, Initially I designed some low level mockups that were
       brought into the fold to be sued on the production application. It was a growing experience.
       I worked on the onboarding of the mobile app. For this I designed it based on some sketches
       and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -180,8 +257,9 @@ Initial sneaker catalog overview
 
         {matches.medium &&
   <Container>
-    <p className={styles.title}>High-Fidelity UI Design</p>
-    <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+    <p className={styles.titleblack}>High-Fidelity UI Design</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionblack}>Series of various UI designs, Initially I designed some low level mockups that were
       brought into the fold to be sued on the production application. It was a growing experience.
       I worked on the onboarding of the mobile app. For this I designed it based on some sketches
       and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -190,8 +268,9 @@ Initial sneaker catalog overview
 
         {matches.large &&
       <Container>
-    <p className={styles.titlelarge}>High-Fidelity UI Design</p>
-    <p className={styles.descriptionlarge}>Series of various UI designs, Initially I designed some low level mockups that were
+    <p className={styles.titlelargeblack}>High-Fidelity UI Design</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargeblack}>Series of various UI designs, Initially I designed some low level mockups that were
       brought into the fold to be sued on the production application. It was a growing experience.
       I worked on the onboarding of the mobile app. For this I designed it based on some sketches
       and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
@@ -201,7 +280,7 @@ Initial sneaker catalog overview
       </>
     )}
   </Media>
-
+  <div className={styles.spaceing}></div>
 
   
   
@@ -216,7 +295,7 @@ Initial sneaker catalog overview
 
 
 <Container fluid>
-
+<div className={styles.spaceing}></div>
 {/* left text right img */}
 
 
@@ -225,10 +304,60 @@ Initial sneaker catalog overview
   <Col sm>
     <Image src={Img08} fluid className={styles.imgstyle} />
   </Col>
-  <Col sm className={styles.fonttest}>
-    <p className={styles.title}>Angel Funded Mobile Application Startup in SOMA</p>
+
+
+
+
+  <Col sm>
+  <Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+  }}>
+    {matches => (
+      <>
+
+        {matches.small &&
+  <Container>
+
+<p className={styles.title}>Mobile Startup in SOMA</p>
+<div className={styles.spaceing}></div>
     <p className={styles.description}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
+    <div className={styles.spaceing}></div>
+      <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+      brought into the fold to be sued on the production application. It was a growing experience.</p>
+    
+    </Container>
+          }
+
+        {matches.medium &&
+  <Container>
+       <p className={styles.titlemedium}>Mobile Startup in SOMA</p>
+       <div className={styles.spaceing}></div>
+    <p className={styles.descriptionmedium}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
+    <div className={styles.spaceing}></div>
+      <p className={styles.descriptionmedium}>Series of various UI designs, Initially I designed some low level mockups that were
+      brought into the fold to be sued on the production application. It was a growing experience.</p>
+ </Container>
+          }
+
+        {matches.large &&
+      <Container>
+      <p className={styles.titlelarge}>Mobile Startup in SOMA</p>
+      <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlarge}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
+    <div className={styles.spaceing}></div>
+      <p className={styles.descriptionlarge}>Series of various UI designs, Initially I designed some low level mockups that were
+      brought into the fold to be sued on the production application. It was a growing experience.</p>
+         </Container>
+          }
+
+      </>
+    )}
+  </Media>
   </Col>
+
+
 </Row>
 
 
@@ -308,6 +437,38 @@ Initial sneaker catalog overview
 
 
 
+      {/* text */}
+      <Row className={styles.test}>
+        <Col sm className={styles.fonttest}>
+          <p className={styles.title}>High-Fidelity UI Design</p>
+          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+            brought into the fold to be sued on the production application. It was a growing experience.
+            I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+            and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+        </Col>
+      </Row>
+
+    <Row className={styles.test}>
+        <Col sm>
+          <Image src={ImgA} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+        <Col sm>
+          <Image src={ImgB} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+        <Col sm>
+          <Image src={ImgC} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+      </Row>
+
 
 
 
@@ -372,85 +533,6 @@ Tutoring services in a online marketplace. San Francisco Bay Area & Silicon Vall
         </Col>
       </Row>
     </Container>
-
-
-
-
-      {/* text */}
-      <Row className={styles.test}>
-        <Col sm className={styles.fonttest}>
-          <p className={styles.title}>High-Fidelity UI Design</p>
-          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
-            brought into the fold to be sued on the production application. It was a growing experience.
-            I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-            and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-        </Col>
-      </Row>
-
-    <Row className={styles.test}>
-        <Col sm>
-          <Image src={ImgA} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-        </Col>
-        <Col sm>
-          <Image src={ImgB} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-        </Col>
-        <Col sm>
-          <Image src={ImgC} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-        </Col>
-      </Row>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
