@@ -313,18 +313,34 @@ background: rgba(0,0,0,0.5);
 
 .title{
     font-weight: 700;
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 0% !important;
     font-family: 'Montserrat', sans-serif;
 }
 
 .description{
-    font-size: 1em;
+    font-size: 1.3em;
     margin-bottom: 2% !important;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    text-align: justify;
 }
 
 .toprow{
     margin-top: 5%;
+}
+
+.titlelarge{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0% !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.descriptionlarge{
+    font-size: 3rem;
+    margin-bottom: 2% !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: justify;
 }
