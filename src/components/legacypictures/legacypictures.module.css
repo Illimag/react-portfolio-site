@@ -131,7 +131,7 @@ background: rgba(0,0,0,0.5);
 
     font-size: 1rem !important;
     margin-bottom: 0% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     text-align: justify;
 }
@@ -318,7 +318,7 @@ background: rgba(0,0,0,0.5);
     font-weight: 700;
     font-size: 2em;
     margin-bottom: 0% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     color:#fff !important;
 }
@@ -326,7 +326,7 @@ background: rgba(0,0,0,0.5);
 .description{
     font-size: 1.2em;
     margin-bottom: 2% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-align: justify;
     color:#fff !important;
@@ -341,14 +341,14 @@ background: rgba(0,0,0,0.5);
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 0% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color:#fff !important;
 }
 
 .descriptionlarge{
     font-size: 1rem;
     margin-bottom: 2% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-align: justify;
     color:#fff !important;
@@ -367,14 +367,14 @@ background: rgba(0,0,0,0.5);
     font-weight: 700;
     font-size: 2em;
     margin-bottom: 0% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color:#fff !important;
 }
 
 .descriptionblack{
     font-size: 1.2em;
     margin-bottom: 2% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-align: justify;
     color:#fff !important;
@@ -386,13 +386,13 @@ background: rgba(0,0,0,0.5);
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 0% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .descriptionmedium{
     font-size: 2rem;
     margin-bottom: 2% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     text-align: justify;
     color:#fff !important;
@@ -406,14 +406,14 @@ background: rgba(0,0,0,0.5);
     font-weight: 700;
     font-size: 5rem;
     margin-bottom: 0% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color:#fff !important;
 }
 
 .descriptionlargeblack{
     font-size: 2rem;
     margin-bottom: 2% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-align: justify;
     color:#fff !important;
@@ -423,7 +423,7 @@ background: rgba(0,0,0,0.5);
 .descriptionbold{
     font-size: 1.2em;
     margin-bottom: 2% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     text-align: justify;
     color:#fff !important;
@@ -433,7 +433,7 @@ background: rgba(0,0,0,0.5);
     font-weight: 700;
     font-size: 2em;
     margin-bottom: 0% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color:#fff !important;
 
     text-align: center;
@@ -444,7 +444,7 @@ background: rgba(0,0,0,0.5);
     font-weight: 700;
     font-size: 5rem;
     margin-bottom: 0% !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color:#fff !important;
 
     text-align: center;

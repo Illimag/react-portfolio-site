@@ -129,7 +129,7 @@
 .white{
     color: #fff;
     font-size: 2em !important;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     margin-top: 0px !important;
 }
@@ -324,7 +324,7 @@
     color: #fff;
     font-size: 12vw !important;
     margin-top: 0px !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     overflow-wrap: break-word;
 }
@@ -424,13 +424,13 @@
 
 .welcometitle{
     font-size: 1.5em !important;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
 
 .welcomesubtitle{
     font-size: 1em !important;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 100;
 }
 
@@ -453,7 +453,7 @@
 
 .titletext{
     font-size: 5vw !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     color: #fff
 }
@@ -462,20 +462,20 @@
 
 .descriptiontext{
     font-size: 2em !important;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
 
 .descriptionmain{
     font-size: 1em !important;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #fff;
 }
 
 .secondtitle{
     font-size: 2em !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 
