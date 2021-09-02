@@ -181,68 +181,6 @@ export const Home = () => {
           </Col>
         </Row>
 
-        <LinkContainer to="/uguru">
-          <Row>
-            <Col md={12} className={styles.removepadding}>
-              <Jumbotron className={styles.mainfloatback}>
-                <div className={styles.maincontentwrapper}>
-
-                  <h1 className={styles.whitetitle}>Uguru INC.</h1>
-                  <p className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</p>
-
-                  <div className={styles.badgelist}>
-                    <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
-                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
-                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
-                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
-                  </div>
-                </div>
-              </Jumbotron>
-
-
-              <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
-              </video>
-                }
-
-              {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[1]}/>
-              </video>
-                }
-
-              {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[1]}/>
-              </video>
-                }
-
-            </>
-          )}
-        </Media>
-
-
-
-            </Col>
-
-          </Row>
-        </LinkContainer>
 
         <LinkContainer to="/legacypictures">
           <Row>
@@ -286,19 +224,19 @@ export const Home = () => {
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[2]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[3]}/>
+                <source src={images[1]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[3]}/>
+                <source src={images[1]}/>
               </video>
                 }
 
@@ -372,6 +310,69 @@ export const Home = () => {
           </Row>
         </LinkContainer>
 
+
+        <LinkContainer to="/uguru">
+          <Row>
+            <Col md={12} className={styles.removepadding}>
+              <Jumbotron className={styles.mainfloatback}>
+                <div className={styles.maincontentwrapper}>
+
+                  <h1 className={styles.whitetitle}>Uguru INC.</h1>
+                  <p className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</p>
+
+                  <div className={styles.badgelist}>
+                    <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
+                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
+                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
+                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
+                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
+                  </div>
+                </div>
+              </Jumbotron>
+
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[2]}/>
+              </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[3]}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={images[3]}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
+
+
+            </Col>
+
+          </Row>
+        </LinkContainer>
 
         <LinkContainer to="/sanchezcoffeeco">
           <Row>

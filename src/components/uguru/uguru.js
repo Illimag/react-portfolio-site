@@ -651,16 +651,17 @@ Initial sneaker catalog overview
     <Jumbotron fluid className={styles.bottomNav}>
       <Container>
         <Row className={styles.bottomNavColor}>
-          <Col sm={6}>
-            <p className={styles.title}>Home</p>
-            <Link to={'/'}>
-              <p className={styles.description}> Go Home </p>
+        <Col sm={6} >
+            <p className={styles.title}>Artrendezvous</p>
+            <p className={styles.description}>International Videography Website Redesign</p>
+            <Link to={'/artrendezvous'}>
+              <p className={styles.description}> View Previous </p>
             </Link>
           </Col>
           <Col sm={6} >
-            <p className={styles.title}>Legacy Pictures</p>
+            <p className={styles.title}>Sanchez Coffee Co</p>
             <p className={styles.description}>International Videography Website Redesign</p>
-            <Link to={'/legacypictures'}>
+            <Link to={'/sanchezcoffeeco'}>
               <p className={styles.description}> View Next </p>
             </Link>
           </Col>

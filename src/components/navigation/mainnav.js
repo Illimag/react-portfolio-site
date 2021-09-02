@@ -34,9 +34,9 @@ import './navigation.css'
 
 const routes = [
   { path: '/', name: 'HOME', Component: Home },
-  { path: '/uguru', name: 'UGURU INC.', Component: Uguru },
   { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
   { path: '/artrendezvous', name: 'ART RENDEZ-VOUS', Component: Artrendezvous },
+  { path: '/uguru', name: 'UGURU INC.', Component: Uguru },
   { path: '/sanchezcoffeeco', name: 'SANCHEZ COFFEE CO.', Component: Sanchezcoffeeco },
   { path: '/apexvr', name: 'APEX VR', Component: Apexvr },
   { path: '/uxdesignsumo', name: 'UX DESIGN SUMO', Component: Uxdesignsumo },
