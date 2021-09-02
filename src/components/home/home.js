@@ -144,7 +144,21 @@ export const Home = () => {
                     <span class="text">Scroll to View Portfolio</span>
                   </div>
                 */}
+              <h1 className={styles.whitetitle}>hello</h1>
+
+              <h5 className={styles.white}>UI/UX Designer located in the San Francisco Bay Area, and Silicon Valley</h5>
+              <h5 className={styles.white}><span className={styles.available}> Available</span> for In-House, Remote, Full-Time, Part-Time, Contract and Freelance. Have a nice day!</h5>
+            
+
+              <LinkContainer to="/Contact">
+                <p>
+                  <Button className={styles.mainbutton} variant="primary">Contact Now</Button>
+                </p>
+              </LinkContainer>
+
                 </div>
+
+                
               </Jumbotron>
 
 
@@ -185,7 +199,7 @@ export const Home = () => {
         <LinkContainer to="/legacypictures">
           <Row>
             <Col md={12} className={styles.removepadding}>
-              <Jumbotron className={styles.float}>
+              <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Legacy Pictures</h1>
@@ -252,7 +266,7 @@ export const Home = () => {
           <Row>
             <Col md={12} className={styles.removepadding}>
 
-              <Jumbotron className={styles.float}>
+              <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Art Rendez-Vous</h1>
@@ -377,7 +391,7 @@ export const Home = () => {
         <LinkContainer to="/sanchezcoffeeco">
           <Row>
             <Col md={12} className={styles.removepadding}>
-              <Jumbotron className={styles.float}>
+              <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Sanchez Coffee CO.</h1>

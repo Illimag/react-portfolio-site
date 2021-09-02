@@ -87,7 +87,7 @@
 
 .mainfloatback{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.1) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
     height: 100vh;
     object-fit: cover;
     z-index: 10;
@@ -452,10 +452,13 @@
 }
 
 .titletext{
-    font-size: 3em !important;
+    font-size: 5vw !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    color: #fff
 }
+
+
 
 .descriptiontext{
     font-size: 2em !important;
@@ -467,6 +470,7 @@
     font-size: 1em !important;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 500;
+    color: #fff;
 }
 
 .secondtitle{
