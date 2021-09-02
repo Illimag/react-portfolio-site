@@ -33,7 +33,7 @@ import ImgC from '../../assets/img/uguru/testpics-03.png';
 import ImgTablet from '../../assets/img/uguru/testpics-01.png';
 
 import testimg from '../../assets/img/uguru/testpics-05.png';
-import desktopImg from '../../assets/img/uguru/testpics-07.png';
+import desktopImg from '../../assets/img/uguru/fadetestpic.jpg';
 import Twodesktop from '../../assets/img/uguru/testpics-06.png';
 import duo from '../../assets/img/uguru/testpics-08.png';
 
@@ -48,21 +48,48 @@ import Media from 'react-media';
 export const Legacypictures = () => (
   /* Start of JSX Fragment*/
   <>
-    
-    <Container fluid className={styles.containerfluid}>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Container fluid>
  
 
 
 
- {/* img with text */}
- <Row className={styles.toprow}>
-   
 
- </Row>
-
-       
-
-</Container>
 
 
 
@@ -233,17 +260,6 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
 
 
 
-      {/* img without text */}
-      <Row>
-        <Col sm>
-          <Image src={desktopImg} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-        </Col>
-      </Row>
-
-
 
 
 
@@ -264,35 +280,23 @@ Initial sneaker catalog overview
         {matches.small &&
   <Container>
 
-    <p className={styles.titleblack}>High-Fidelity UI Design</p>
+    <p className={styles.titlecenter}>High-Fidelity UI Design</p>
     <div className={styles.spaceing}></div>
-    <p className={styles.descriptionblack}>Series of various UI designs, Initially I designed some low level mockups that were
-      brought into the fold to be sued on the production application. It was a growing experience.
-      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-   </Container>
+       </Container>
           }
 
         {matches.medium &&
   <Container>
-    <p className={styles.titleblack}>High-Fidelity UI Design</p>
+    <p className={styles.titlecenter}>High-Fidelity UI Design</p>
     <div className={styles.spaceing}></div>
-    <p className={styles.descriptionblack}>Series of various UI designs, Initially I designed some low level mockups that were
-      brought into the fold to be sued on the production application. It was a growing experience.
-      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-</Container>
+    </Container>
           }
 
         {matches.large &&
       <Container>
-    <p className={styles.titlelargeblack}>High-Fidelity UI Design</p>
+    <p className={styles.titlelargecenter}>High-Fidelity UI Design</p>
     <div className={styles.spaceing}></div>
-    <p className={styles.descriptionlargeblack}>Series of various UI designs, Initially I designed some low level mockups that were
-      brought into the fold to be sued on the production application. It was a growing experience.
-      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-         </Container>
+            </Container>
           }
 
       </>
@@ -306,6 +310,17 @@ Initial sneaker catalog overview
 </Row>
 </Container>
 
+
+
+      {/* img without text */}
+      <Row>
+        <Col sm>
+          <Image src={desktopImg} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+      </Row>
 
 
 
@@ -666,6 +681,11 @@ Initial sneaker catalog overview
 
     </Container>
 
+
+
+    </Container>
+
+
     <Jumbotron fluid className={styles.bottomNav}>
       <Container>
         <Row className={styles.bottomNavColor}>
@@ -686,7 +706,6 @@ Initial sneaker catalog overview
         </Row>
       </Container>
     </Jumbotron>
-
 
   </>
   /* End of JSX Fragment*/

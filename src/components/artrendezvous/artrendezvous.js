@@ -50,22 +50,8 @@ export const Artrendezvous = () => (
   <>
 
 
-<Container fluid className={styles.containerfluid}>
+<Container fluid>
  
-
-
-
- {/* img with text */}
- <Row className={styles.toprow}>
-   
-
- </Row>
-
-       
-
-</Container>
-
-
 
 
 <Container fluid>
@@ -667,6 +653,12 @@ Initial sneaker catalog overview
  </Row>
 
 </Container>
+
+
+
+</Container>
+
+
 
 <Jumbotron fluid className={styles.bottomNav}>
  <Container>

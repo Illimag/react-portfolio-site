@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background: rgba(255,255,255,1);
+    background: #000;
     backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     display: block !important;
@@ -33,7 +33,7 @@ width:110pt;
 
 
 .navbarbackground{
-    background: #fff !important;
+    background: #000 !important;
     
     position: relative !important;
 
@@ -84,16 +84,16 @@ width:110pt;
 
 
 .navbarbackgroudcolor{
-    background-color: white;
+    background-color: black;
 
-    background: rgba(255,255,255,1);
+    background: #111;
     backdrop-filter: saturate(180%) blur(20px);
 
 }
 
 
 .navtextcss{
-    color: black;
+    color: white !important;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;

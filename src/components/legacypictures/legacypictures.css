@@ -1,11 +1,9 @@
-.container-fluid{
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-}
+
 
 .row{
-    margin-right:0px !important;
-    margin-left:0px !important;
+    margin-right:0% !important;
+    margin-left: 0% !important;
+    background-color: #000 !important;
 }
 
 .col-sm{
@@ -54,5 +52,4 @@ p{
 
     margin-bottom: 5% !important;
 }
-
 
