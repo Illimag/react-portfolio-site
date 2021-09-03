@@ -73,13 +73,8 @@ large: "(min-width: 1200px)"
    {matches.small &&
 <Container>
 
+<p className={styles.title}>02/</p>
 <p className={styles.title}>Art Rendezvous</p>
-<div className={styles.spaceing}></div>
-<p className={styles.description}>San Francisco Mobile Application Startup</p>
-<p className={styles.description}>October 2016 - January 2017</p>
-<p className={styles.description}>Graphic UI/UX Designer Intern</p>
-<p className={styles.description}>San Francisco Bay Area</p>
-
 
 
 </Container>
@@ -87,23 +82,15 @@ large: "(min-width: 1200px)"
 
    {matches.medium &&
 <Container>
+<p className={styles.titlelarge}>02/</p>
 <p className={styles.titlelarge}>Art Rendezvous</p>
-<div className={styles.spaceing}></div>
-<p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
-<p className={styles.descriptionlarge}>October 2016 - January 2017</p>
-<p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
-<p className={styles.descriptionlarge}>San Francisco Bay Area</p>
 </Container>
      }
 
    {matches.large &&
  <Container>
+<p className={styles.titlelarge}>02/</p>
 <p className={styles.titlelarge}>Art Rendezvous</p>
-<div className={styles.spaceing}></div>
-<p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
-<p className={styles.descriptionlarge}>October 2016 - January 2017</p>
-<p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
-<p className={styles.descriptionlarge}>San Francisco Bay Area</p>
     </Container>
      }
 
@@ -113,19 +100,6 @@ large: "(min-width: 1200px)"
 
 
 
-<div className={styles.badgelist}>
-    <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>MOBILE APPLICATION</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>iOS</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>ANDROID</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>PROTOTYPING</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>SILICON VALLEY</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>GRAPHIC DESIGN</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-  </div>
 
            
 
@@ -157,50 +131,56 @@ large: "(min-width: 1200px)"
    {matches.small &&
 <Container>
 
-<p className={styles.title}>Summary</p>
+<p className={styles.title}>Case Study</p>
 <div className={styles.spaceing}></div>
-<p className={styles.description}>
-Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
-
-<div className={styles.spaceing}></div>
-
-<p className={styles.description}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.
-</p>
+<p className={styles.description}>San Francisco Mobile Application Startup</p>
+<p className={styles.description}>October 2016 - January 2017</p>
+<p className={styles.description}>Graphic UI/UX Designer Intern</p>
+<p className={styles.description}>San Francisco Bay Area</p>
 
 </Container>
      }
 
    {matches.medium &&
 <Container>
-<p className={styles.titlelarge}>Summary</p>
+<p className={styles.titlelarge}>Case Study</p>
 <div className={styles.spaceing}></div>
-<p className={styles.descriptionlarge}>
-Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
-
-<div className={styles.spaceing}></div>
-
-<p className={styles.descriptionlarge}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.
-</p>
+<p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
+<p className={styles.descriptionlarge}>October 2016 - January 2017</p>
+<p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
+<p className={styles.descriptionlarge}>San Francisco Bay Area</p>
 </Container>
      }
 
    {matches.large &&
  <Container>
-<p className={styles.titlelarge}>Summary</p>
+<p className={styles.titlelarge}>Case Study</p>
 <div className={styles.spaceing}></div>
-<p className={styles.descriptionlarge}>
-Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
-
-<div className={styles.spaceing}></div>
-
-<p className={styles.descriptionlarge}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.
-</p>
+<p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
+<p className={styles.descriptionlarge}>October 2016 - January 2017</p>
+<p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
+<p className={styles.descriptionlarge}>San Francisco Bay Area</p>
     </Container>
      }
 
  </>
 )}
 </Media>
+
+
+<div className={styles.badgelist}>
+    <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>MOBILE APPLICATION</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>iOS</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>ANDROID</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>PROTOTYPING</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>SILICON VALLEY</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>GRAPHIC DESIGN</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
+  </div>
 
 </Container>
    </Col>

@@ -33,14 +33,14 @@ import styles from './navigation.module.css'
 import './navigation.css'
 
 const routes = [
-  { path: '/', name: 'HOME', Component: Home },
-  { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
-  { path: '/artrendezvous', name: 'ART RENDEZ-VOUS', Component: Artrendezvous },
-  { path: '/uguru', name: 'UGURU INC.', Component: Uguru },
-  { path: '/sanchezcoffeeco', name: 'SANCHEZ COFFEE CO.', Component: Sanchezcoffeeco },
-  { path: '/apexvr', name: 'APEX VR', Component: Apexvr },
-  { path: '/uxdesignsumo', name: 'UX DESIGN SUMO', Component: Uxdesignsumo },
-  { path: '/Contact', name: 'CONTACT/PROFILE', Component: Contact },
+  { path: '/', name: 'Home', Component: Home },
+  { path: '/legacypictures', name: 'Legacy Pictures', Component: Legacypictures },
+  { path: '/artrendezvous', name: 'Art Rendez-Vous', Component: Artrendezvous },
+  { path: '/uguru', name: 'Uguru, INC.', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: 'Sanchez Coffee CO.', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'ApexVR', Component: Apexvr },
+  { path: '/uxdesignsumo', name: 'UX Design Sumo', Component: Uxdesignsumo },
+  { path: '/Contact', name: 'Contact/Profile', Component: Contact },
 ]
 
 function MainNav() {

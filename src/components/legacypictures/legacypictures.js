@@ -92,16 +92,13 @@ export const Legacypictures = () => (
 
 
 
+    <div className={styles.spaceing}></div>
 
-
-<Container fluid>
+<Container fluid className={styles.blacktest}>
  {/* left text right img */}
- <Row className={styles.test}>
 
-   <Col sm className={styles.fonttest}>
-                  <Container className={styles.fonttest}>
+<div className={styles.spaceing}></div>
 
-           <div className={styles.spaceing}></div>
            <Media queries={{
 small: "(max-width: 599px)",
 medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -111,47 +108,28 @@ large: "(min-width: 1200px)"
  <>
 
    {matches.small &&
-<Container>
+ <Row className={styles.rowsmall}>
 
+ <Col sm className={styles.fonttest}>
+<Container className={styles.fonttest}>
+
+<p className={styles.title}>01<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>Legacy Pictures</p>
+
+</Container>
+</Col>
+
+<Col sm>
+
+<Container className={styles.fonttest}>
+
+  
+<p className={styles.title}>Case Study</p>
 <div className={styles.spaceing}></div>
 <p className={styles.description}>San Francisco Mobile Application Startup</p>
 <p className={styles.description}>October 2016 - January 2017</p>
 <p className={styles.description}>Graphic UI/UX Designer Intern</p>
 <p className={styles.description}>San Francisco Bay Area</p>
-
-
-
-</Container>
-     }
-
-   {matches.medium &&
-<Container>
-<p className={styles.titlelarge}>Legacy Pictures</p>
-<div className={styles.spaceing}></div>
-<p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
-<p className={styles.descriptionlarge}>October 2016 - January 2017</p>
-<p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
-<p className={styles.descriptionlarge}>San Francisco Bay Area</p>
-</Container>
-     }
-
-   {matches.large &&
- <Container>
-<p className={styles.titlelarge}>Legacy Pictures</p>
-<div className={styles.spaceing}></div>
-<p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
-<p className={styles.descriptionlarge}>October 2016 - January 2017</p>
-<p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
-<p className={styles.descriptionlarge}>San Francisco Bay Area</p>
-    </Container>
-     }
-
- </>
-)}
-</Media>
-
-
 
 <div className={styles.badgelist}>
     <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
@@ -167,86 +145,113 @@ large: "(min-width: 1200px)"
     <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
   </div>
 
-           
-
-         </Container>
-   </Col>
-
-
-
-
-
-
-
-
-
-   <Col sm>
-
-   <Container className={styles.fonttest}>
-
-<div className={styles.spaceing}></div>
-
-           <Media queries={{
-small: "(max-width: 599px)",
-medium: "(min-width: 600px) and (max-width: 1199px)",
-large: "(min-width: 1200px)"
-}}>
-{matches => (
- <>
-
-   {matches.small &&
-<Container>
-
-<p className={styles.title}>Summary</p>
-<div className={styles.spaceing}></div>
-<p className={styles.description}>
-Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
-
-<div className={styles.spaceing}></div>
-
-<p className={styles.description}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.
-</p>
-
 </Container>
+
+</Col>
+
+</Row>
      }
 
    {matches.medium &&
-<Container>
-<p className={styles.titlelarge}>Summary</p>
-<div className={styles.spaceing}></div>
-<p className={styles.descriptionlarge}>
-Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
+ <Row className={styles.rowmedium}>
 
-<div className={styles.spaceing}></div>
+ <Col sm className={styles.fonttest}>
+<Container className={styles.fonttest}>
 
-<p className={styles.descriptionlarge}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.
-</p>
+<p className={styles.title}>01<span className={styles.grey}>/06</span></p>
+<p className={styles.title}>Legacy Pictures</p>
+
 </Container>
+</Col>
+
+<Col sm>
+
+<Container className={styles.fonttest}>
+
+  
+<p className={styles.title}>Case Study</p>
+<div className={styles.spaceing}></div>
+<p className={styles.description}>San Francisco Mobile Application Startup</p>
+<p className={styles.description}>October 2016 - January 2017</p>
+<p className={styles.description}>Graphic UI/UX Designer Intern</p>
+<p className={styles.description}>San Francisco Bay Area</p>
+
+<div className={styles.badgelist}>
+    <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>MOBILE APPLICATION</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>iOS</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>ANDROID</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>PROTOTYPING</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>SILICON VALLEY</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>GRAPHIC DESIGN</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
+  </div>
+
+</Container>
+
+</Col>
+
+</Row>
      }
 
    {matches.large &&
- <Container>
-<p className={styles.titlelarge}>Summary</p>
-<div className={styles.spaceing}></div>
-<p className={styles.descriptionlarge}>
-Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
+ <Row className={styles.rowlarge}>
 
-<div className={styles.spaceing}></div>
+ <Col sm className={styles.fonttest}>
+<Container className={styles.fonttest}>
 
-<p className={styles.descriptionlarge}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.
-</p>
-    </Container>
+<p className={styles.titlelarge}>01<span className={styles.grey}>/06</span></p>
+<p className={styles.titlelarge}>Legacy Pictures</p>
+
+</Container>
+</Col>
+
+<Col sm>
+
+<Container className={styles.fonttest}>
+
+  
+<p className={styles.titlelarge}>Case Study</p>
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
+<p className={styles.descriptionlarge}>October 2016 - January 2017</p>
+<p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
+<p className={styles.descriptionlarge}>San Francisco Bay Area</p>
+
+<div className={styles.badgelist}>
+    <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>MOBILE APPLICATION</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>iOS</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>ANDROID</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>PROTOTYPING</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>SILICON VALLEY</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>GRAPHIC DESIGN</Badge>{' '}
+    <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
+  </div>
+
+</Container>
+
+</Col>
+
+
+</Row>
      }
 
  </>
 )}
 </Media>
 
+
+
+
+
 </Container>
-   </Col>
-
- </Row>
-</Container>
 
 
 
@@ -263,10 +268,7 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
 
 
 
-    <Container fluid>
-
-<Row className={styles.blackbackground}>
-  <Col sm className={styles.fonttest}>
+    <Container fluid className={styles.blacktest}>
 
   <div className={styles.spaceing}></div>
   <Media queries={{
@@ -278,25 +280,66 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
       <>
 
         {matches.small &&
-  <Container>
+            <Container fluid>
+  <Row className={styles.rowsmall}>
+    <Col sm className={styles.fonttest}>
 
-    <p className={styles.titlecenter}>High-Fidelity UI Design</p>
+    <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
     <div className={styles.spaceing}></div>
-       </Container>
+</Col>
+</Row>
+
+      <Row className={styles.rowsmall}>
+        <Col sm>
+          <Image src={desktopImg} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+        </Col>
+      </Row>
+      </Container>
           }
 
         {matches.medium &&
-  <Container>
-    <p className={styles.titlecenter}>High-Fidelity UI Design</p>
-    <div className={styles.spaceing}></div>
-    </Container>
+          <Container fluid>
+          <Row className={styles.rowmedium}>
+            <Col sm className={styles.fonttest}>
+        
+            <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+            <div className={styles.spaceing}></div>
+        </Col>
+        </Row>
+        
+              <Row className={styles.rowmedium}>
+                <Col sm>
+                  <Image src={desktopImg} fluid className={styles.imgstyle} />
+                  <p className={styles.description}>
+        Initial sneaker catalog overview
+        </p>
+                </Col>
+              </Row>
+              </Container>
           }
 
         {matches.large &&
-      <Container>
-    <p className={styles.titlelargecenter}>High-Fidelity UI Design</p>
-    <div className={styles.spaceing}></div>
-            </Container>
+           <Container fluid>
+           <Row className={styles.rowlarge}>
+             <Col sm className={styles.fonttest}>
+         
+             <p className={styles.titlelargecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+             <div className={styles.spaceing}></div>
+         </Col>
+         </Row>
+         
+               <Row className={styles.rowlarge}>
+                 <Col sm>
+                   <Image src={desktopImg} fluid className={styles.imgstyle} />
+                   <p className={styles.description}>
+         Initial sneaker catalog overview
+         </p>
+                 </Col>
+               </Row>
+               </Container>
           }
 
       </>
@@ -305,22 +348,11 @@ Uguru was a Mobile Application Startup funded by Bay Angels. And they were looki
   <div className={styles.spaceing}></div>
 
   
-  
-  </Col>
-</Row>
 </Container>
 
 
 
-      {/* img without text */}
-      <Row>
-        <Col sm>
-          <Image src={desktopImg} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-        </Col>
-      </Row>
+
 
 
 
@@ -353,7 +385,7 @@ Initial sneaker catalog overview
         {matches.small &&
   <Container>
 
-<p className={styles.title}>Mobile Startup in SOMA</p>
+<p className={styles.title}>Mobile startup in SOMA.</p>
 <div className={styles.spaceing}></div>
     <p className={styles.description}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
     <div className={styles.spaceing}></div>
@@ -365,7 +397,7 @@ Initial sneaker catalog overview
 
         {matches.medium &&
   <Container>
-       <p className={styles.titlemedium}>Mobile Startup in SOMA</p>
+       <p className={styles.titlemedium}>Mobile startup in SOMA.</p>
        <div className={styles.spaceing}></div>
     <p className={styles.descriptionmedium}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
     <div className={styles.spaceing}></div>
@@ -376,7 +408,7 @@ Initial sneaker catalog overview
 
         {matches.large &&
       <Container>
-      <p className={styles.titlelarge}>Mobile Startup in SOMA</p>
+      <p className={styles.titlelarge}>Mobile startup in SOMA.</p>
       <div className={styles.spaceing}></div>
     <p className={styles.descriptionlarge}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
     <div className={styles.spaceing}></div>

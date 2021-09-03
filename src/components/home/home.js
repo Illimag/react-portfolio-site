@@ -130,7 +130,7 @@ export const Home = () => {
 
      
       <Container className={styles.test}>
-
+      
         <Row>
           <Col md={12} className={styles.removepadding}>
 
@@ -194,7 +194,7 @@ export const Home = () => {
 
           </Col>
         </Row>
-
+        <div className={styles.spaceing}></div>
 
         <LinkContainer to="/legacypictures">
           <Row>
@@ -262,6 +262,8 @@ export const Home = () => {
           </Row>
         </LinkContainer>
 
+        <div className={styles.spaceing}></div>
+
         <LinkContainer to="/artrendezvous">
           <Row>
             <Col md={12} className={styles.removepadding}>
@@ -324,6 +326,7 @@ export const Home = () => {
           </Row>
         </LinkContainer>
 
+        <div className={styles.spaceing}></div>
 
         <LinkContainer to="/uguru">
           <Row>
@@ -388,6 +391,8 @@ export const Home = () => {
           </Row>
         </LinkContainer>
 
+        <div className={styles.spaceing}></div>
+
         <LinkContainer to="/sanchezcoffeeco">
           <Row>
             <Col md={12} className={styles.removepadding}>
@@ -445,6 +450,8 @@ export const Home = () => {
             </Col>
           </Row>
         </LinkContainer>
+
+        <div className={styles.spaceing}></div>
 
         <LinkContainer to="/apexvr">
           <Row>
@@ -505,6 +512,8 @@ export const Home = () => {
             </Col>
           </Row>
         </LinkContainer>
+
+        <div className={styles.spaceing}></div>
 
         <LinkContainer to="/uxdesignsumo">
           <Row>

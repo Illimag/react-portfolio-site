@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
-import Github from '../../assets/githublogoback.png';
+import Github from '../../assets/githublogo.png';
 import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
 import Dribbble from '../../assets/dribbble.png';

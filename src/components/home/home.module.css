@@ -94,7 +94,6 @@
     margin-right: 0%;
     margin-left: 0%;
     width: 100%;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
     /*
@@ -111,7 +110,6 @@
     margin-right: 0%;
     margin-left: 0%;
     width: 100%;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0);
     border-radius: 0rem !important;
     cursor: pointer;
     /*
@@ -233,7 +231,6 @@
     margin-right: 0%;
     margin-left: 0%;
     width: 100%;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
     /*border-radius: .8rem !important;*/
   }
 
@@ -483,4 +480,11 @@
 
 .testtest{
     background-color: #000 !important
+}
+
+
+
+.spaceing{
+    height: 1vh;
+    background-color: #000;
 }

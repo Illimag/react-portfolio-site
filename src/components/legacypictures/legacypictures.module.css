@@ -313,23 +313,28 @@ background: rgba(0,0,0,0.5);
     height: 3vh;
     background-color: #000;
 }
+.spaceingwhite{
+    height: 3vh;
+    background-color: #fff;
+}
 
 .title{
     font-weight: 700;
     font-size: 2em;
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     color:#fff !important;
 }
 
 .description{
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 2% !important;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    text-align: justify;
-    color:#fff !important;
+    text-align: left;
+    color:#999 !important;
+    letter-spacing: -1px;
 }
 
 .toprow{
@@ -346,17 +351,18 @@ background: rgba(0,0,0,0.5);
 }
 
 .descriptionlarge{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 2% !important;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    text-align: justify;
-    color:#fff !important;
+    text-align: center;
+    color:#999 !important;
+    letter-spacing: -1px;
 }
 .blackbackground{
     
-    background:#fff !important;
-
+    background-color:#fff !important;
+    color:#fff;
     position: relative;
 
 }
@@ -368,7 +374,7 @@ background: rgba(0,0,0,0.5);
     font-size: 2em;
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
-    color:#fff !important;
+    color:#000 !important;
 }
 
 .descriptionblack{
@@ -377,7 +383,7 @@ background: rgba(0,0,0,0.5);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-align: justify;
-    color:#fff !important;
+    color:#000 !important;
 }
 
 
@@ -407,7 +413,7 @@ background: rgba(0,0,0,0.5);
     font-size: 5rem;
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
-    color:#fff !important;
+    color:#000 !important;
 }
 
 .descriptionlargeblack{
@@ -416,7 +422,7 @@ background: rgba(0,0,0,0.5);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-align: justify;
-    color:#fff !important;
+    color:#000 !important;
 }
 
 
@@ -441,7 +447,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .titlelargecenter{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 5rem;
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
@@ -464,4 +470,39 @@ background: rgba(0,0,0,0.5);
     background-color: #000 !important;
     padding-right:30rem !important;
     padding-left: 30rem !important;
+}
+
+.grey{
+    color: #999
+}
+
+.rowsmall{
+    background:#000 !important;
+
+    position: relative;
+
+    margin-right:0% !important;
+    margin-left: 0% !important;
+}
+
+.rowmedium{
+    background:#000 !important;
+
+    position: relative;
+
+    margin-right:10% !important;
+    margin-left: 10% !important;
+}
+
+.rowlarge{
+    background:#000 !important;
+
+    position: relative;
+
+    margin-right:25% !important;
+    margin-left: 25% !important;
+}
+
+.blacktest{
+    background-color: #000;
 }
