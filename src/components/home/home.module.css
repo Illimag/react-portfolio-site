@@ -126,9 +126,9 @@
 
 .white{
     color: #fff;
-    font-size: 2em !important;
+    font-size: 1.2em !important;
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 0px !important;
 }
 
@@ -485,6 +485,6 @@
 
 
 .spaceing{
-    height: 1vh;
-    background-color: #000;
+    height: .1vh;
+    background-color: #fff;
 }

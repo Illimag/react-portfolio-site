@@ -144,9 +144,9 @@ export const Home = () => {
                     <span class="text">Scroll to View Portfolio</span>
                   </div>
                 */}
-              <h1 className={styles.whitetitle}>hello</h1>
+              <h1 className={styles.whitetitle}>Hi,</h1>
 
-              <h5 className={styles.white}>UI/UX Designer located in the San Francisco Bay Area, and Silicon Valley</h5>
+              <h5 className={styles.white}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
               <h5 className={styles.white}><span className={styles.available}> Available</span> for In-House, Remote, Full-Time, Part-Time, Contract and Freelance. Have a nice day!</h5>
             
 
@@ -203,28 +203,10 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Legacy Pictures</h1>
-                <h5 className={styles.white}>International Videography Web Application User Experience and Redesign</h5>
+                <h5 className={styles.white}>International videography web application user experience and redesign.</h5>
 
-                <div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.first_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.first_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.second_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.third_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.fourth_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.fifth_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>SQUARE</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>PAYMENT PROCESSOR</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.first_badge}>USABILITY</Badge>{' '}
-                </div>
+                <h5 className={styles.white}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma</h5>
+
               </div>
               </Jumbotron>
 
@@ -272,7 +254,7 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Art Rendez-Vous</h1>
-                <h5 className={styles.white}>New York City Art Gallery and Museum Social Media iOS Mobile Application User Experience and Redesign</h5>
+                <h5 className={styles.white}>New York City art gallery and museum social media iOS mobile application user experience and redesign.</h5>
 
                 <div className={styles.badgelist}>
                     <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
@@ -335,7 +317,7 @@ export const Home = () => {
                 <div className={styles.maincontentwrapper}>
 
                   <h1 className={styles.whitetitle}>Uguru INC.</h1>
-                  <p className={styles.white}>UI/UX & Graphic Designer Internship at Mobile Application Startup in Downtown San Francisco</p>
+                  <p className={styles.white}>UI/UX & graphic designer internship at mobile application startup in downtown San Francisco.</p>
 
                   <div className={styles.badgelist}>
                     <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
@@ -400,7 +382,7 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Sanchez Coffee CO.</h1>
-                <h5 className={styles.white}>Los Angeles Coffee Distribution Company Web Payment Platform</h5>
+                <h5 className={styles.white}>Los Angeles coffee distribution company web payment platform.</h5>
 
                 <div className={styles.badgelist}>
                 <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
@@ -460,7 +442,7 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
   
                 <h1 className={styles.whitetitle}>Apex VR</h1>
-                <h5 className={styles.white}>San Leandro Videography Company Virtual Reality Web Application Design</h5>
+                <h5 className={styles.white}>San Leandro videography company virtual reality web application design.</h5>
 
                 <div className={styles.badgelist}>
                 <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
@@ -522,7 +504,7 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
   
                 <h1 className={styles.whitetitle}>UX Design Sumo</h1>
-                <h5 className={styles.white}>User Experience Designer Community Website Design</h5>
+                <h5 className={styles.white}>User experience designer community website design.</h5>
 
                 <div className={styles.badgelist}>
                 <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}

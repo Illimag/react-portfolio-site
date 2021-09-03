@@ -19,8 +19,8 @@ import Img07 from '../../assets/img/stepsaver/1-07.jpg';
 import Img08 from '../../assets/img/stepsaver/1-08.jpg';
 import Img09 from '../../assets/img/stepsaver/1-09.jpg';
 
-import styles from './stepsaver.module.css';
-import './stepsaver.css';
+import styles from '../css/style.module.css';
+import '../css/style.css';
 
 import Vid1 from '../../assets/vids/compress_vid4.mp4';
 //import Banner from '../../assets/vids/compress_vid4.mp4';

@@ -84,9 +84,9 @@ width:110pt;
 
 
 .navbarbackgroudcolor{
-    background-color: black;
+    background-color: #000;
 
-    background: #111;
+    background: #000;
     backdrop-filter: saturate(180%) blur(20px);
 
 }

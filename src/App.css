@@ -22,6 +22,9 @@ body,
   height: 100vh !important;
 }
 
+.container{
+    max-width: 100% !important;
+}
 #root{
     margin: 0;
     padding: 0;
@@ -32,11 +35,6 @@ body,
     width:100%;
 }
 
-.container{
-    padding-right: 0px  !important;
-    padding-left: 0px !important;
-    max-width: 100% !important;
-}
 
 /* This fixes the bug that has random white space under video tag*/
 video{

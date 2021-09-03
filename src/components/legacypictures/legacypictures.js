@@ -22,8 +22,8 @@ import Img07 from '../../assets/img/nikerate/1-07.jpg';
 import Img08 from '../../assets/img/uguru/1-08.png';
 
 
-import styles from './legacypictures.module.css';
-import './legacypictures.css';
+import styles from '../css/style.module.css';
+import '../css/style.css';
 
  
 import ImgA from '../../assets/img/uguru/testpics-02.png';
@@ -126,24 +126,17 @@ large: "(min-width: 1200px)"
   
 <p className={styles.title}>Case Study</p>
 <div className={styles.spaceing}></div>
+<p className={styles.description}>Summary:</p>
 <p className={styles.description}>San Francisco Mobile Application Startup</p>
+<p className={styles.description}>Project Date:</p>
 <p className={styles.description}>October 2016 - January 2017</p>
+<p className={styles.description}>Role:</p>
 <p className={styles.description}>Graphic UI/UX Designer Intern</p>
+<p className={styles.description}>Location:</p>
 <p className={styles.description}>San Francisco Bay Area</p>
 
-<div className={styles.badgelist}>
-    <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>MOBILE APPLICATION</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>iOS</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>ANDROID</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>PROTOTYPING</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>SILICON VALLEY</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>GRAPHIC DESIGN</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-  </div>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+
 
 </Container>
 
@@ -171,24 +164,18 @@ large: "(min-width: 1200px)"
   
 <p className={styles.title}>Case Study</p>
 <div className={styles.spaceing}></div>
+<p className={styles.description}>Summary:</p>
 <p className={styles.description}>San Francisco Mobile Application Startup</p>
+<p className={styles.description}>Project Date:</p>
 <p className={styles.description}>October 2016 - January 2017</p>
+<p className={styles.description}>Role:</p>
 <p className={styles.description}>Graphic UI/UX Designer Intern</p>
+<p className={styles.description}>Location:</p>
 <p className={styles.description}>San Francisco Bay Area</p>
 
-<div className={styles.badgelist}>
-    <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>MOBILE APPLICATION</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>iOS</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>ANDROID</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>PROTOTYPING</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>SILICON VALLEY</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>GRAPHIC DESIGN</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-  </div>
+
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+
 
 </Container>
 
@@ -216,24 +203,18 @@ large: "(min-width: 1200px)"
   
 <p className={styles.titlelarge}>Case Study</p>
 <div className={styles.spaceing}></div>
+<p className={styles.descriptionlarge}>Summary:</p>
 <p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
+<p className={styles.descriptionlarge}>Project Date:</p>
 <p className={styles.descriptionlarge}>October 2016 - January 2017</p>
+<p className={styles.descriptionlarge}>Role:</p>
 <p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
+<p className={styles.descriptionlarge}>Location:</p>
 <p className={styles.descriptionlarge}>San Francisco Bay Area</p>
 
-<div className={styles.badgelist}>
-    <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>MOBILE APPLICATION</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>iOS</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>ANDROID</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>PROTOTYPING</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>SILICON VALLEY</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>GRAPHIC DESIGN</Badge>{' '}
-    <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-  </div>
+
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+
 
 </Container>
 

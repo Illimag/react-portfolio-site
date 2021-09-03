@@ -14,12 +14,12 @@
 }
 
 .footerBackground{
-    background-color: #000 !important;
+    background-color: #fff !important;
     position: absolute !important;
 }
 
 .socialrow{
-    background-color: #000 !important;
+    background-color: #fff !important;
 }
 
 .title{
@@ -36,7 +36,7 @@
     font-weight: 500;
     margin-top: 5%;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 

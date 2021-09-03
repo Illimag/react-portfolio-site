@@ -70,7 +70,7 @@ position: relative;
 }
 
 .bottomNavColor{
-    background:#fff !important;
+    background:#000 !important;
     position: relative;
 }
 
@@ -323,7 +323,6 @@ background: rgba(0,0,0,0.5);
     font-size: 2em;
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
     color:#fff !important;
 }
 
