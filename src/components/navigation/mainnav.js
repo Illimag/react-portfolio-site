@@ -65,7 +65,7 @@ function MainNav() {
       <Router>
         <ScrollToTop>
           <>
-            <Navbar collapseOnSelect className={styles.navbar} expand="lg" sticky="top" >
+            <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" >
               <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
               <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>
