@@ -87,12 +87,7 @@ export const Legacypictures = () => (
     <Container fluid>
  
 
-
-
-
-
-
-    <div className={styles.spaceing}></div>
+    <div className={styles.spaceinglarge}></div>
 
 <Container fluid className={styles.blacktest}>
  {/* left text right img */}
@@ -113,7 +108,7 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.title}>01<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemain}>01<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>Legacy Pictures</p>
 
 </Container>
@@ -135,6 +130,7 @@ large: "(min-width: 1200px)"
 <p className={styles.description}>Location:</p>
 <p className={styles.description}>San Francisco Bay Area</p>
 
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 
 
@@ -151,7 +147,7 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.title}>01<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemain}>01<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>Legacy Pictures</p>
 
 </Container>
@@ -175,6 +171,7 @@ large: "(min-width: 1200px)"
 
 
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 
 
 </Container>
@@ -190,7 +187,7 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlelarge}>01<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemainlarge}>01<span className={styles.grey}>/06</span></p>
 <p className={styles.titlelarge}>Legacy Pictures</p>
 
 </Container>
@@ -213,6 +210,9 @@ large: "(min-width: 1200px)"
 <p className={styles.descriptionlarge}>San Francisco Bay Area</p>
 
 
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 
 

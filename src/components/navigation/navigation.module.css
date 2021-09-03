@@ -85,7 +85,7 @@ width:110pt;
 
 .navbarbackgroudcolor{
 
-    background: transparent;
+    background: rgba(0,0,0,0.3);
     backdrop-filter: saturate(180%) blur(20px);
 
 }

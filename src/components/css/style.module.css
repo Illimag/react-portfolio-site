@@ -317,6 +317,10 @@ background: rgba(0,0,0,0.5);
     height: 3vh;
     background-color: #fff;
 }
+.spaceinglarge{
+    height: 15vh;
+    background-color: #000;
+}
 
 .title{
     font-weight: 700;
@@ -491,4 +495,27 @@ background: rgba(0,0,0,0.5);
 
 .blacktest{
     background-color: #000;
+    overflow: hidden;
+}
+
+.titlemainlarge{
+    font-weight: 700;
+    font-size: 15em;
+    margin-bottom: 0% !important;
+    font-family: 'Inter', sans-serif;
+    color:#fff !important;
+    text-align: justify;
+    font-weight: 700;
+    overflow-wrap: break-word;
+}
+
+
+.titlemain{
+    font-weight: 700;
+    font-size: 5em;
+    margin-bottom: 0% !important;
+    font-family: 'Inter', sans-serif;
+    color:#fff !important;
+    font-weight: 700;
+    overflow-wrap: break-word;
 }
