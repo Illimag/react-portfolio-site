@@ -471,8 +471,8 @@ background: rgba(0,0,0,0.5);
 
     position: relative;
 
-    margin-right:0% !important;
-    margin-left: 0% !important;
+    padding-right:0% !important;
+    padding-left: 0% !important;
 }
 
 .rowmedium{
@@ -480,8 +480,8 @@ background: rgba(0,0,0,0.5);
 
     position: relative;
 
-    margin-right:10% !important;
-    margin-left: 10% !important;
+    padding-right:15% !important;
+    padding-left: 15% !important;
 }
 
 .rowlarge{
@@ -489,8 +489,8 @@ background: rgba(0,0,0,0.5);
 
     position: relative;
 
-    margin-right:25% !important;
-    margin-left: 25% !important;
+    padding-right:20% !important;
+    padding-left: 20% !important;
 }
 
 .blacktest{

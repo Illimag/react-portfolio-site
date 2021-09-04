@@ -62,36 +62,33 @@ export const Sanchezcoffeeco = () => (
     
 
 
+
     <Container fluid>
  
 
-
-
-
-
-
-    <div className={styles.spaceing}></div>
+ <div className={styles.spaceinglarge}></div>
 
 <Container fluid className={styles.blacktest}>
- {/* left text right img */}
+{/* left text right img */}
 
 <div className={styles.spaceing}></div>
 
-           <Media queries={{
+        <Media queries={{
 small: "(max-width: 599px)",
 medium: "(min-width: 600px) and (max-width: 1199px)",
 large: "(min-width: 1200px)"
 }}>
 {matches => (
- <>
+<>
 
-   {matches.small &&
- <Row className={styles.rowsmall}>
+{matches.small &&
 
- <Col sm className={styles.fonttest}>
+<Row className={styles.rowsmall}>
+
+<Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.title}>04<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemain}>04<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>Sanchez Coffee Co.</p>
 
 </Container>
@@ -101,7 +98,7 @@ large: "(min-width: 1200px)"
 
 <Container className={styles.fonttest}>
 
-  
+
 <p className={styles.title}>Case Study</p>
 <div className={styles.spaceing}></div>
 <p className={styles.description}>Summary:</p>
@@ -114,6 +111,7 @@ large: "(min-width: 1200px)"
 <p className={styles.description}>San Francisco Bay Area</p>
 
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 
 
 </Container>
@@ -121,15 +119,17 @@ large: "(min-width: 1200px)"
 </Col>
 
 </Row>
-     }
 
-   {matches.medium &&
- <Row className={styles.rowmedium}>
+  }
 
- <Col sm className={styles.fonttest}>
+{matches.medium &&
+
+<Row className={styles.rowmedium}>
+
+<Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.title}>04<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemain}>04<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>Sanchez Coffee Co.</p>
 
 </Container>
@@ -139,7 +139,7 @@ large: "(min-width: 1200px)"
 
 <Container className={styles.fonttest}>
 
-  
+
 <p className={styles.title}>Case Study</p>
 <div className={styles.spaceing}></div>
 <p className={styles.description}>Summary:</p>
@@ -153,6 +153,7 @@ large: "(min-width: 1200px)"
 
 
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 
 
 </Container>
@@ -160,15 +161,15 @@ large: "(min-width: 1200px)"
 </Col>
 
 </Row>
-     }
+  }
 
-   {matches.large &&
- <Row className={styles.rowlarge}>
+{matches.large &&
+<Row className={styles.rowlarge}>
 
- <Col sm className={styles.fonttest}>
+<Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlelarge}>04<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemainlarge}>04<span className={styles.grey}>/06</span></p>
 <p className={styles.titlelarge}>Sanchez Coffee Co.</p>
 
 </Container>
@@ -178,7 +179,7 @@ large: "(min-width: 1200px)"
 
 <Container className={styles.fonttest}>
 
-  
+
 <p className={styles.titlelarge}>Case Study</p>
 <div className={styles.spaceing}></div>
 <p className={styles.descriptionlarge}>Summary:</p>
@@ -192,6 +193,9 @@ large: "(min-width: 1200px)"
 
 
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 
 
 </Container>
@@ -200,9 +204,9 @@ large: "(min-width: 1200px)"
 
 
 </Row>
-     }
+  }
 
- </>
+</>
 )}
 </Media>
 
@@ -227,86 +231,86 @@ large: "(min-width: 1200px)"
 
 
 
-    <Container fluid className={styles.blacktest}>
+ <Container fluid className={styles.blacktest}>
 
-  <div className={styles.spaceing}></div>
-  <Media queries={{
-    small: "(max-width: 599px)",
-    medium: "(min-width: 600px) and (max-width: 1199px)",
-    large: "(min-width: 1200px)"
-  }}>
-    {matches => (
-      <>
+<div className={styles.spaceing}></div>
+<Media queries={{
+ small: "(max-width: 599px)",
+ medium: "(min-width: 600px) and (max-width: 1199px)",
+ large: "(min-width: 1200px)"
+}}>
+ {matches => (
+   <>
 
-        {matches.small &&
-            <Container fluid>
-  <Row className={styles.rowsmall}>
-    <Col sm className={styles.fonttest}>
+     {matches.small &&
+         <Container fluid>
+<Row className={styles.rowsmall}>
+ <Col sm className={styles.fonttest}>
 
-    <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-    <div className={styles.spaceing}></div>
+ <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+ <div className={styles.spaceing}></div>
 </Col>
 </Row>
 
-      <Row className={styles.rowsmall}>
-        <Col sm>
-          <Image src={desktopImg} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
+   <Row className={styles.rowsmall}>
+     <Col sm>
+       <Image src={desktopImg} fluid className={styles.imgstyle} />
+       <p className={styles.description}>
 Initial sneaker catalog overview
 </p>
-        </Col>
+     </Col>
+   </Row>
+   </Container>
+       }
+
+     {matches.medium &&
+       <Container fluid>
+       <Row className={styles.rowmedium}>
+         <Col sm className={styles.fonttest}>
+     
+         <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+         <div className={styles.spaceing}></div>
+     </Col>
+     </Row>
+     
+           <Row className={styles.rowmedium}>
+             <Col sm>
+               <Image src={desktopImg} fluid className={styles.imgstyle} />
+               <p className={styles.description}>
+     Initial sneaker catalog overview
+     </p>
+             </Col>
+           </Row>
+           </Container>
+       }
+
+     {matches.large &&
+        <Container fluid>
+        <Row className={styles.rowlarge}>
+          <Col sm className={styles.fonttest}>
+      
+          <p className={styles.titlelargecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+          <div className={styles.spaceing}></div>
+      </Col>
       </Row>
-      </Container>
-          }
+      
+            <Row className={styles.rowlarge}>
+              <Col sm>
+                <Image src={desktopImg} fluid className={styles.imgstyle} />
+                <p className={styles.description}>
+      Initial sneaker catalog overview
+      </p>
+              </Col>
+            </Row>
+            </Container>
+       }
 
-        {matches.medium &&
-          <Container fluid>
-          <Row className={styles.rowmedium}>
-            <Col sm className={styles.fonttest}>
-        
-            <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-            <div className={styles.spaceing}></div>
-        </Col>
-        </Row>
-        
-              <Row className={styles.rowmedium}>
-                <Col sm>
-                  <Image src={desktopImg} fluid className={styles.imgstyle} />
-                  <p className={styles.description}>
-        Initial sneaker catalog overview
-        </p>
-                </Col>
-              </Row>
-              </Container>
-          }
+   </>
+ )}
+</Media>
+<div className={styles.spaceing}></div>
 
-        {matches.large &&
-           <Container fluid>
-           <Row className={styles.rowlarge}>
-             <Col sm className={styles.fonttest}>
-         
-             <p className={styles.titlelargecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-             <div className={styles.spaceing}></div>
-         </Col>
-         </Row>
-         
-               <Row className={styles.rowlarge}>
-                 <Col sm>
-                   <Image src={desktopImg} fluid className={styles.imgstyle} />
-                   <p className={styles.description}>
-         Initial sneaker catalog overview
-         </p>
-                 </Col>
-               </Row>
-               </Container>
-          }
 
-      </>
-    )}
-  </Media>
-  <div className={styles.spaceing}></div>
-
-  
 </Container>
 
 
@@ -325,61 +329,61 @@ Initial sneaker catalog overview
 
 {/* left text right img */}
 <Row className={styles.test}>
-  <Col sm>
-    <Image src={Img08} fluid className={styles.imgstyle} />
-  </Col>
+<Col sm>
+ <Image src={Img08} fluid className={styles.imgstyle} />
+</Col>
 
 
 
 
-  <Col sm>
-  <Media queries={{
-    small: "(max-width: 599px)",
-    medium: "(min-width: 600px) and (max-width: 1199px)",
-    large: "(min-width: 1200px)"
-  }}>
-    {matches => (
-      <>
+<Col sm>
+<Media queries={{
+ small: "(max-width: 599px)",
+ medium: "(min-width: 600px) and (max-width: 1199px)",
+ large: "(min-width: 1200px)"
+}}>
+ {matches => (
+   <>
 
-        {matches.small &&
-  <Container>
+     {matches.small &&
+<Container>
 
 <p className={styles.title}>Mobile startup in SOMA.</p>
 <div className={styles.spaceing}></div>
-    <p className={styles.description}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
-    <div className={styles.spaceing}></div>
-      <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
-      brought into the fold to be sued on the production application. It was a growing experience.</p>
-    
-    </Container>
-          }
-
-        {matches.medium &&
-  <Container>
-       <p className={styles.titlemedium}>Mobile startup in SOMA.</p>
-       <div className={styles.spaceing}></div>
-    <p className={styles.descriptionmedium}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
-    <div className={styles.spaceing}></div>
-      <p className={styles.descriptionmedium}>Series of various UI designs, Initially I designed some low level mockups that were
-      brought into the fold to be sued on the production application. It was a growing experience.</p>
+ <p className={styles.description}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
+ <div className={styles.spaceing}></div>
+   <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+   brought into the fold to be sued on the production application. It was a growing experience.</p>
+ 
  </Container>
-          }
+       }
 
-        {matches.large &&
-      <Container>
-      <p className={styles.titlelarge}>Mobile startup in SOMA.</p>
-      <div className={styles.spaceing}></div>
-    <p className={styles.descriptionlarge}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
+     {matches.medium &&
+<Container>
+    <p className={styles.titlemedium}>Mobile startup in SOMA.</p>
     <div className={styles.spaceing}></div>
-      <p className={styles.descriptionlarge}>Series of various UI designs, Initially I designed some low level mockups that were
-      brought into the fold to be sued on the production application. It was a growing experience.</p>
-         </Container>
-          }
+ <p className={styles.descriptionmedium}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
+ <div className={styles.spaceing}></div>
+   <p className={styles.descriptionmedium}>Series of various UI designs, Initially I designed some low level mockups that were
+   brought into the fold to be sued on the production application. It was a growing experience.</p>
+</Container>
+       }
 
-      </>
-    )}
-  </Media>
-  </Col>
+     {matches.large &&
+   <Container>
+   <p className={styles.titlelarge}>Mobile startup in SOMA.</p>
+   <div className={styles.spaceing}></div>
+ <p className={styles.descriptionlarge}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.</p>
+ <div className={styles.spaceing}></div>
+   <p className={styles.descriptionlarge}>Series of various UI designs, Initially I designed some low level mockups that were
+   brought into the fold to be sued on the production application. It was a growing experience.</p>
+      </Container>
+       }
+
+   </>
+ )}
+</Media>
+</Col>
 
 
 </Row>
@@ -388,72 +392,72 @@ Initial sneaker catalog overview
 
 {/* img without text */}
 <Row>
-  <Col sm>
-    <Image src={Twodesktop} fluid className={styles.imgstyle} />
-    <p className={styles.description}>
+<Col sm>
+ <Image src={Twodesktop} fluid className={styles.imgstyle} />
+ <p className={styles.description}>
 Initial sneaker catalog overview
 </p>
-  </Col>
+</Col>
 </Row>
 
 
 
 
 <Row className={styles.test}>
-  <Col sm className={styles.fonttest}>
+<Col sm className={styles.fonttest}>
 
 
-  <Media queries={{
-    small: "(max-width: 599px)",
-    medium: "(min-width: 600px) and (max-width: 1199px)",
-    large: "(min-width: 1200px)"
-  }}>
-    {matches => (
-      <>
+<Media queries={{
+ small: "(max-width: 599px)",
+ medium: "(min-width: 600px) and (max-width: 1199px)",
+ large: "(min-width: 1200px)"
+}}>
+ {matches => (
+   <>
 
-        {matches.small &&
-  <Container>
+     {matches.small &&
+<Container>
 
-    <p className={styles.title}>High-Fidelity UI Design</p>
-    <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
-      brought into the fold to be sued on the production application. It was a growing experience.
-      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-   </Container>
-          }
-
-        {matches.medium &&
-  <Container>
-    <p className={styles.title}>High-Fidelity UI Design</p>
-    <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
-      brought into the fold to be sued on the production application. It was a growing experience.
-      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+ <p className={styles.title}>High-Fidelity UI Design</p>
+ <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+   brought into the fold to be sued on the production application. It was a growing experience.
+   I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+   and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
 </Container>
-          }
+       }
 
-        {matches.large &&
-      <Container>
-    <p className={styles.titlelarge}>High-Fidelity UI Design</p>
-    <p className={styles.descriptionlarge}>Series of various UI designs, Initially I designed some low level mockups that were
-      brought into the fold to be sued on the production application. It was a growing experience.
-      I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-      and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-         </Container>
-          }
+     {matches.medium &&
+<Container>
+ <p className={styles.title}>High-Fidelity UI Design</p>
+ <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+   brought into the fold to be sued on the production application. It was a growing experience.
+   I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+   and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+</Container>
+       }
 
-      </>
-    )}
-  </Media>
+     {matches.large &&
+   <Container>
+ <p className={styles.titlelarge}>High-Fidelity UI Design</p>
+ <p className={styles.descriptionlarge}>Series of various UI designs, Initially I designed some low level mockups that were
+   brought into the fold to be sued on the production application. It was a growing experience.
+   I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+   and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+      </Container>
+       }
+
+   </>
+ )}
+</Media>
 
 
-  
-  
-  </Col>
-  <Col sm>
-    <Image src={Img00} fluid className={styles.imgstyle} />
-    
-  </Col>
+
+
+</Col>
+<Col sm>
+ <Image src={Img00} fluid className={styles.imgstyle} />
+ 
+</Col>
 </Row>
 </Container>
 
@@ -461,220 +465,220 @@ Initial sneaker catalog overview
 
 
 
-      {/* text */}
-      <Row className={styles.test}>
-        <Col sm className={styles.fonttest}>
-          <p className={styles.title}>High-Fidelity UI Design</p>
-          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
-            brought into the fold to be sued on the production application. It was a growing experience.
-            I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-            and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-        </Col>
-      </Row>
+   {/* text */}
+   <Row className={styles.test}>
+     <Col sm className={styles.fonttest}>
+       <p className={styles.title}>High-Fidelity UI Design</p>
+       <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+         brought into the fold to be sued on the production application. It was a growing experience.
+         I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+         and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+     </Col>
+   </Row>
 
-    <Row className={styles.test}>
-        <Col sm>
-          <Image src={ImgA} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
+ <Row className={styles.test}>
+     <Col sm>
+       <Image src={ImgA} fluid className={styles.imgstyle} />
+       <p className={styles.description}>
 Initial sneaker catalog overview
 </p>
-        </Col>
-        <Col sm>
-          <Image src={ImgB} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
+     </Col>
+     <Col sm>
+       <Image src={ImgB} fluid className={styles.imgstyle} />
+       <p className={styles.description}>
 Initial sneaker catalog overview
 </p>
-        </Col>
-        <Col sm>
-          <Image src={ImgC} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
+     </Col>
+     <Col sm>
+       <Image src={ImgC} fluid className={styles.imgstyle} />
+       <p className={styles.description}>
 Initial sneaker catalog overview
 </p>
-        </Col>
-      </Row>
+     </Col>
+   </Row>
 
 
 
 
 
-    <Container fluid>
-    <div className={styles.spaceing}></div>
-      {/* left text right img */}
-      <Row className={styles.test}>
-        
-      <Col sm>
-          <Image src={Img00} fluid className={styles.imgstyle} />
-          
-        </Col>
+ <Container fluid>
+ <div className={styles.spaceing}></div>
+   {/* left text right img */}
+   <Row className={styles.test}>
+     
+   <Col sm>
+       <Image src={Img00} fluid className={styles.imgstyle} />
+       
+     </Col>
 
 
-        <Col sm className={styles.fonttest}>
+     <Col sm className={styles.fonttest}>
 
 
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
+     <Media queries={{
+       small: "(max-width: 599px)",
+       medium: "(min-width: 600px) and (max-width: 1199px)",
+       large: "(min-width: 1200px)"
+     }}>
+       {matches => (
+         <>
 
-              {matches.small &&
-        <Container>
-              <p className={styles.title}>High-Fidelity UI Design</p>
-         <p className={styles.description}>
-         Tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
-         <p className={styles.description}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.</p>
-      </Container>
-                }
+           {matches.small &&
+     <Container>
+           <p className={styles.title}>High-Fidelity UI Design</p>
+      <p className={styles.description}>
+      Tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
+      <p className={styles.description}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.</p>
+   </Container>
+             }
 
-              {matches.medium &&
-        <Container>
-              <p className={styles.title}>High-Fidelity UI Design</p>
-         <p className={styles.description}>
+           {matches.medium &&
+     <Container>
+           <p className={styles.title}>High-Fidelity UI Design</p>
+      <p className={styles.description}>
 Tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
 <p className={styles.description}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.</p>
-    </Container>
-                }
+ </Container>
+             }
 
-              {matches.large &&
-            <Container>
-                  <p className={styles.titlelarge}>High-Fidelity UI Design</p>
-            <p className={styles.titlelarge}>San Francisco Bay Area & Silicon Valley</p>
-            <p className={styles.descriptionlarge}>
-            Tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
-            <p className={styles.descriptionlarge}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.</p>
-            </Container>
-                }
+           {matches.large &&
+         <Container>
+               <p className={styles.titlelarge}>High-Fidelity UI Design</p>
+         <p className={styles.titlelarge}>San Francisco Bay Area & Silicon Valley</p>
+         <p className={styles.descriptionlarge}>
+         Tutoring services in a online marketplace. San Francisco Bay Area & Silicon Valley</p>
+         <p className={styles.descriptionlarge}>The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself.</p>
+         </Container>
+             }
 
-            </>
-          )}
-        </Media>
-
-
-        
-        
-        </Col>
-      </Row>
-    </Container>
+         </>
+       )}
+     </Media>
 
 
-
-
-    <Container fluid>
+     
+     
+     </Col>
+   </Row>
+ </Container>
 
 
 
-      {/* img without text */}
-      <Row>
-        <Col sm>
-          <Image src={testimg} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
+
+ <Container fluid>
+
+
+
+   {/* img without text */}
+   <Row>
+     <Col sm>
+       <Image src={testimg} fluid className={styles.imgstyle} />
+       <p className={styles.description}>
 Initial sneaker catalog overview
 </p>
-        </Col>
-      </Row>
+     </Col>
+   </Row>
 
-      {/* left text right img */}
-      <Row className={styles.test}>
-        <Col sm className={styles.fonttest}>
-          <p className={styles.title}>Development of
-            the MVP</p>
-          <p className={styles.description}>After the designs were completed
-            they were sent over to me, and I started
-            with the development of the MVP.</p>
-        </Col>
-        <Col sm>
-          <Image src={Img04} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-
-      {/* Video */}
-      <Row>
-        <Col sm>
-          <video autoPlay preload="true" loop playsInline muted>
-            <source src={Vid1} type="video/mp4" />
-          </video>
-        </Col>
-      </Row>
-
-      {/* img with text */}
-      <Row className={styles.test}>
-        <Col sm className={styles.fonttest}>
-          <p className={styles.title}>Remote Team</p>
-          <p className={styles.description}>The CEO was a software developer located in Oakland, there was a designer, a social media
-            specialist who did the research for the personas, as well as a admin type of person who was
-            in charge of maintain admin stuff.</p>
-          <Image src={Img05} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-      {/* text */}
-      <Row className={styles.test}>
-        <Col sm className={styles.fonttest}>
-          <p className={styles.title}>High-Fidelity UI Design</p>
-          <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
-            brought into the fold to be sued on the production application. It was a growing experience.
-            I worked on the onboarding of the mobile app. For this I designed it based on some sketches
-            and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
-        </Col>
-      </Row>
+   {/* left text right img */}
+   <Row className={styles.test}>
+     <Col sm className={styles.fonttest}>
+       <p className={styles.title}>Development of
+         the MVP</p>
+       <p className={styles.description}>After the designs were completed
+         they were sent over to me, and I started
+         with the development of the MVP.</p>
+     </Col>
+     <Col sm>
+       <Image src={Img04} fluid className={styles.imgstyle} />
+     </Col>
+   </Row>
 
 
+   {/* Video */}
+   <Row>
+     <Col sm>
+       <video autoPlay preload="true" loop playsInline muted>
+         <source src={Vid1} type="video/mp4" />
+       </video>
+     </Col>
+   </Row>
 
-      {/* img without text */}
-      <Row>
-      <Col sm>
-          <Image src={ImgTablet} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
+   {/* img with text */}
+   <Row className={styles.test}>
+     <Col sm className={styles.fonttest}>
+       <p className={styles.title}>Remote Team</p>
+       <p className={styles.description}>The CEO was a software developer located in Oakland, there was a designer, a social media
+         specialist who did the research for the personas, as well as a admin type of person who was
+         in charge of maintain admin stuff.</p>
+       <Image src={Img05} fluid className={styles.imgstyle} />
+     </Col>
+   </Row>
+
+   {/* text */}
+   <Row className={styles.test}>
+     <Col sm className={styles.fonttest}>
+       <p className={styles.title}>High-Fidelity UI Design</p>
+       <p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were
+         brought into the fold to be sued on the production application. It was a growing experience.
+         I worked on the onboarding of the mobile app. For this I designed it based on some sketches
+         and created a higher fidelity for them. After I created the Rapid Prototype for them using Proto.io.</p>
+     </Col>
+   </Row>
+
+
+
+   {/* img without text */}
+   <Row>
+   <Col sm>
+       <Image src={ImgTablet} fluid className={styles.imgstyle} />
+       <p className={styles.description}>
 Initial sneaker catalog overview
 </p>
-        </Col>
-        <Col sm>
-          <Image src={ImgC} fluid className={styles.imgstyle} />
-          <p className={styles.description}>
+     </Col>
+     <Col sm>
+       <Image src={ImgC} fluid className={styles.imgstyle} />
+       <p className={styles.description}>
 Initial sneaker catalog overview
 </p>
-        </Col>
-      </Row>
+     </Col>
+   </Row>
 
-      {/* img with text */}
-      <Row className={styles.test}>
-        <Col sm className={styles.fonttest}>
-          <p className={styles.title}>Developing the Web Interface</p>
-          <p className={styles.description}>The designer designed it based on Bootstrap 4 UI Components so developing the site was quite easy.
-            I created each page and created the fodler system. Then I implemented each page, using code. After
-            the project was over I went back and I redesigned the home page and other pages, as well as
-            putting the code base onto a React.JS folder system.</p>
-          <Image src={duo} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
+   {/* img with text */}
+   <Row className={styles.test}>
+     <Col sm className={styles.fonttest}>
+       <p className={styles.title}>Developing the Web Interface</p>
+       <p className={styles.description}>The designer designed it based on Bootstrap 4 UI Components so developing the site was quite easy.
+         I created each page and created the fodler system. Then I implemented each page, using code. After
+         the project was over I went back and I redesigned the home page and other pages, as well as
+         putting the code base onto a React.JS folder system.</p>
+       <Image src={duo} fluid className={styles.imgstyle} />
+     </Col>
+   </Row>
 
-      {/* left text right img */}
-      <Row className={styles.test}>
-        <Col sm className={styles.fonttest}>
-          <p className={styles.title}>Completion of
-            the MVP</p>
-          <p className={styles.description}>The CEO didn’t move any farther
-            with the project and it fell through it
-            and didn’t go anywhere. We can say
-            that the project was closed because of
-            lack of interest, or lack of effort, or
-            people decided as a group that we were
-            going to come apart, maybe we didn’t
-            have enough funding.</p>
-        </Col>
-        <Col sm>
-          <Image src={Img08} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
+   {/* left text right img */}
+   <Row className={styles.test}>
+     <Col sm className={styles.fonttest}>
+       <p className={styles.title}>Completion of
+         the MVP</p>
+       <p className={styles.description}>The CEO didn’t move any farther
+         with the project and it fell through it
+         and didn’t go anywhere. We can say
+         that the project was closed because of
+         lack of interest, or lack of effort, or
+         people decided as a group that we were
+         going to come apart, maybe we didn’t
+         have enough funding.</p>
+     </Col>
+     <Col sm>
+       <Image src={Img08} fluid className={styles.imgstyle} />
+     </Col>
+   </Row>
 
-    </Container>
+ </Container>
 
 
 
-    </Container>
+ </Container>
 
     <Jumbotron fluid className={styles.bottomNav}>
       <Container>

@@ -48,16 +48,10 @@ export const Uxdesignsumo = () => (
   <>
  
 
-
  <Container fluid>
  
 
-
-
-
-
-
- <div className={styles.spaceing}></div>
+ <div className={styles.spaceinglarge}></div>
 
 <Container fluid className={styles.blacktest}>
 {/* left text right img */}
@@ -73,12 +67,13 @@ large: "(min-width: 1200px)"
 <>
 
 {matches.small &&
+
 <Row className={styles.rowsmall}>
 
 <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.title}>06<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemain}>06<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>UX Design Sumo</p>
 
 </Container>
@@ -101,6 +96,7 @@ large: "(min-width: 1200px)"
 <p className={styles.description}>San Francisco Bay Area</p>
 
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 
 
 </Container>
@@ -108,15 +104,17 @@ large: "(min-width: 1200px)"
 </Col>
 
 </Row>
+
   }
 
 {matches.medium &&
+
 <Row className={styles.rowmedium}>
 
 <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.title}>06<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemain}>06<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>UX Design Sumo</p>
 
 </Container>
@@ -139,6 +137,7 @@ large: "(min-width: 1200px)"
 <p className={styles.description}>San Francisco Bay Area</p>
 
 
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 
 
@@ -155,7 +154,7 @@ large: "(min-width: 1200px)"
 <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlelarge}>06<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemainlarge}>06<span className={styles.grey}>/06</span></p>
 <p className={styles.titlelarge}>UX Design Sumo</p>
 
 </Container>
@@ -178,6 +177,9 @@ large: "(min-width: 1200px)"
 <p className={styles.descriptionlarge}>San Francisco Bay Area</p>
 
 
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 
 

@@ -103,6 +103,7 @@ large: "(min-width: 1200px)"
  <>
 
    {matches.small &&
+
  <Row className={styles.rowsmall}>
 
  <Col sm className={styles.fonttest}>
@@ -139,9 +140,11 @@ large: "(min-width: 1200px)"
 </Col>
 
 </Row>
+
      }
 
    {matches.medium &&
+
  <Row className={styles.rowmedium}>
 
  <Col sm className={styles.fonttest}>
