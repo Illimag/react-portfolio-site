@@ -65,15 +65,24 @@ function MainNav() {
       <Router>
         <ScrollToTop>
           <>
+         
+         
+         
+         
             <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" >
+
+              
               <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
+             
+              <Navbar.Collapse id="basic-navbar-nav" className={styles.navbarbackgroudcolor} >
+             
               <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>
                   <Image src={logo} fluid />
                 </Navbar.Brand>
               </LinkContainer>
 
-              <Navbar.Collapse id="basic-navbar-nav" className={styles.navbarbackgroudcolor} >
+             
                 <Nav className="ml-auto">
                   {routes.map(route => (
                     <Nav.Link 
@@ -121,6 +130,9 @@ function MainNav() {
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
+
+
+            
 
             <Container className="container">
               {routes.map(({ path, Component }) => (

@@ -30,7 +30,7 @@ import ImgC from '../../assets/img/uguru/testpics-03.png';
 import ImgTablet from '../../assets/img/uguru/testpics-01.png';
 
 import testimg from '../../assets/img/uguru/testpics-05.png';
-import desktopImg from '../../assets/img/uguru/testpics-07.png';
+import desktopImg from '../../assets/img/uguru/fadetestpic.jpg';
 import Twodesktop from '../../assets/img/uguru/testpics-06.png';
 import duo from '../../assets/img/uguru/testpics-08.png';
 

@@ -33,7 +33,7 @@ import ImgC from '../../assets/img/uguru/testpics-03.png';
 import ImgTablet from '../../assets/img/uguru/testpics-01.png';
 
 import testimg from '../../assets/img/uguru/testpics-05.png';
-import desktopImg from '../../assets/img/uguru/fadetestpic.jpg';
+import desktopImg from '../../assets/img/uguru/testpics-07.png';
 import Twodesktop from '../../assets/img/uguru/testpics-06.png';
 import duo from '../../assets/img/uguru/testpics-08.png';
 
@@ -87,12 +87,12 @@ export const Legacypictures = () => (
     <Container fluid>
  
 
-    <div className={styles.spaceinglarge}></div>
+    <div className={styles.spaceinglargewhite}></div>
 
-<Container fluid className={styles.blacktest}>
+<Container fluid className={styles.test}>
  {/* left text right img */}
 
-<div className={styles.spaceing}></div>
+<div className={styles.spaceingwhite}></div>
 
            <Media queries={{
 small: "(max-width: 599px)",
@@ -109,8 +109,8 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemain}>01<span className={styles.grey}>/06</span></p>
-<p className={styles.title}>Legacy Pictures</p>
+<p className={styles.titlemainblack}>01<span className={styles.grey}>/06</span></p>
+<p className={styles.titleblack}>Legacy Pictures</p>
 
 </Container>
 </Col>
@@ -120,16 +120,16 @@ large: "(min-width: 1200px)"
 <Container className={styles.fonttest}>
 
   
-<p className={styles.title}>Case Study</p>
-<div className={styles.spaceing}></div>
+<p className={styles.titleblack}>Case Study</p>
+<div className={styles.spaceingwhite}></div>
 <p className={styles.description}>Summary:</p>
-<p className={styles.description}>San Francisco Mobile Application Startup</p>
+<p className={styles.description}>International Videography Services Company</p>
 <p className={styles.description}>Project Date:</p>
-<p className={styles.description}>October 2016 - January 2017</p>
+<p className={styles.description}>July 2021 - July 2021</p>
 <p className={styles.description}>Role:</p>
-<p className={styles.description}>Graphic UI/UX Designer Intern</p>
+<p className={styles.description}>UI/UX Designer</p>
 <p className={styles.description}>Location:</p>
-<p className={styles.description}>San Francisco Bay Area</p>
+<p className={styles.description}>Los Angelos, CA</p>
 
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
 <p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
@@ -150,7 +150,7 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemain}>01<span className={styles.grey}>/06</span></p>
+<p className={styles.titlemainblack}>01<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>Legacy Pictures</p>
 
 </Container>
@@ -161,8 +161,8 @@ large: "(min-width: 1200px)"
 <Container className={styles.fonttest}>
 
   
-<p className={styles.title}>Case Study</p>
-<div className={styles.spaceing}></div>
+<p className={styles.titleblack}>Case Study</p>
+<div className={styles.spaceingwhite}></div>
 <p className={styles.description}>Summary:</p>
 <p className={styles.description}>San Francisco Mobile Application Startup</p>
 <p className={styles.description}>Project Date:</p>
@@ -190,8 +190,8 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemainlarge}>01<span className={styles.grey}>/06</span></p>
-<p className={styles.titlelarge}>Legacy Pictures</p>
+<p className={styles.titlemainblacklarge}>01/<span className={styles.grey}>06</span></p>
+<p className={styles.titlelargeblack}>Legacy Pictures</p>
 
 </Container>
 </Col>
@@ -201,8 +201,8 @@ large: "(min-width: 1200px)"
 <Container className={styles.fonttest}>
 
   
-<p className={styles.titlelarge}>Case Study</p>
-<div className={styles.spaceing}></div>
+<p className={styles.titlelargeblack}>Case Study</p>
+<div className={styles.spaceingwhite}></div>
 <p className={styles.descriptionlarge}>Summary:</p>
 <p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
 <p className={styles.descriptionlarge}>Project Date:</p>
@@ -252,9 +252,9 @@ large: "(min-width: 1200px)"
 
 
 
-    <Container fluid className={styles.blacktest}>
+    <Container fluid className={styles.test}>
 
-  <div className={styles.spaceing}></div>
+  <div className={styles.spaceingwhite}></div>
   <Media queries={{
     small: "(max-width: 599px)",
     medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -268,8 +268,8 @@ large: "(min-width: 1200px)"
   <Row className={styles.rowsmall}>
     <Col sm className={styles.fonttest}>
 
-    <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-    <div className={styles.spaceing}></div>
+    <p className={styles.titleblack}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+    <div className={styles.spaceingwhite}></div>
 </Col>
 </Row>
 
@@ -289,8 +289,8 @@ Initial sneaker catalog overview
           <Row className={styles.rowmedium}>
             <Col sm className={styles.fonttest}>
         
-            <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-            <div className={styles.spaceing}></div>
+            <p className={styles.titleblack}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+            <div className={styles.spaceingwhite}></div>
         </Col>
         </Row>
         
@@ -310,8 +310,8 @@ Initial sneaker catalog overview
            <Row className={styles.rowlarge}>
              <Col sm className={styles.fonttest}>
          
-             <p className={styles.titlelargecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-             <div className={styles.spaceing}></div>
+             <p className={styles.titlelargeblack}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+             <div className={styles.spaceingwhite}></div>
          </Col>
          </Row>
          
