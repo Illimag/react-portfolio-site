@@ -42,6 +42,11 @@ import duo from '../../assets/img/uguru/testpics-08.png';
 import Vid1 from '../../assets/home_page_vids/compress_vid0.mp4';
 import Vid2 from '../../assets/vids/compressed_vid/vid2.m4v';
 
+import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
+import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
+import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
+
+
 import Media from 'react-media';
 
 
@@ -89,7 +94,7 @@ export const Legacypictures = () => (
 
     <div className={styles.spaceinglargewhite}></div>
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
  {/* left text right img */}
 
 <div className={styles.spaceingwhite}></div>
@@ -252,7 +257,7 @@ large: "(min-width: 1200px)"
 
 
 
-    <Container fluid className={styles.test}>
+    <Container fluid className={styles.test1}>
 
   <div className={styles.spaceingwhite}></div>
   <Media queries={{
@@ -421,7 +426,35 @@ Initial sneaker catalog overview
   </Col>
 </Row>
 
+{/* img without text */}
+<Row>
+  <Col sm>
+    <Image src={TestImg0} fluid className={styles.imgstyle} />
+    <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+  </Col>
+</Row>
 
+{/* img without text */}
+<Row>
+  <Col sm>
+    <Image src={TestImg1} fluid className={styles.imgstyle} />
+    <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+  </Col>
+</Row>
+
+{/* img without text */}
+<Row>
+  <Col sm>
+    <Image src={TestImg2} fluid className={styles.imgstyle} />
+    <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+  </Col>
+</Row>
 
 
 <Row className={styles.test}>

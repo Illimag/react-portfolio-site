@@ -53,7 +53,7 @@ export const Uxdesignsumo = () => (
 
  <div className={styles.spaceinglarge}></div>
 
-<Container fluid className={styles.blacktest}>
+<Container fluid className={styles.test6}>
 {/* left text right img */}
 
 <div className={styles.spaceing}></div>
@@ -216,7 +216,7 @@ large: "(min-width: 1200px)"
 
 
 
- <Container fluid className={styles.blacktest}>
+ <Container fluid className={styles.test6}>
 
 <div className={styles.spaceing}></div>
 <Media queries={{
