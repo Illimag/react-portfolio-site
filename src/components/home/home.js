@@ -203,9 +203,7 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Legacy Pictures</h1>
-                <h5 className={styles.white}>International videography web application user experience and redesign.</h5>
-
-                <h5 className={styles.white}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma</h5>
+                <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
 
               </div>
               </Jumbotron>
@@ -254,22 +252,8 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Art Rendez-Vous</h1>
-                <h5 className={styles.white}>New York City art gallery and museum social media iOS mobile application user experience and redesign.</h5>
+                <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile application user experience and redesign.</h5>
 
-                <div className={styles.badgelist}>
-                    <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
-                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
-                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
-                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
-
-                </div>
               </div>
               </Jumbotron>
 
@@ -317,21 +301,9 @@ export const Home = () => {
                 <div className={styles.maincontentwrapper}>
 
                   <h1 className={styles.whitetitle}>Uguru INC.</h1>
-                  <p className={styles.white}>UI/UX & graphic designer internship at mobile application startup in downtown San Francisco.</p>
+                  <p className={styles.test1title}>UI/UX & graphic designer internship at mobile application startup in downtown San Francisco.</p>
 
-                  <div className={styles.badgelist}>
-                    <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
-                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
-                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
-                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}
-                  </div>
+               
                 </div>
               </Jumbotron>
 
@@ -382,20 +354,8 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Sanchez Coffee CO.</h1>
-                <h5 className={styles.white}>Los Angeles coffee distribution company web payment platform.</h5>
+                <h5 className={styles.test1title}>Los Angeles coffee distribution company web payment platform.</h5>
 
-                <div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
-                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
-                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
-                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}                </div>
               </div>
               </Jumbotron>
 
@@ -442,20 +402,8 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
   
                 <h1 className={styles.whitetitle}>Apex VR</h1>
-                <h5 className={styles.white}>San Leandro videography company virtual reality web application design.</h5>
+                <h5 className={styles.test1title}>San Leandro videography company virtual reality web application design.</h5>
 
-                <div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
-                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
-                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
-                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}                </div>
               </div>  
               </Jumbotron>
 
@@ -504,21 +452,9 @@ export const Home = () => {
               <div className={styles.maincontentwrapper}>
   
                 <h1 className={styles.whitetitle}>UX Design Sumo</h1>
-                <h5 className={styles.white}>User experience designer community website design.</h5>
+                <h5 className={styles.test1title}>User experience designer community website design.</h5>
 
-                <div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.first_badge}>USER EXPERIENCE</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>USER INTERFACE</Badge>{' '}
-                    <Badge variant="primary" className={styles.second_badge}>MOBILE APPLICATION</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>iOS</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>ANDROID</Badge>{' '}
-                    <Badge variant="primary" className={styles.third_badge}>PROTOTYPING</Badge>{' '}
-                    <Badge variant="primary" className={styles.fourth_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SAN FRANCISCO BAY AREA</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>SILICON VALLEY</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>GRAPHIC DESIGN</Badge>{' '}
-                    <Badge variant="primary" className={styles.first_badge}>WEB DESIGN</Badge>{' '}                </div>
-              </div>
+                            </div>
               </Jumbotron>
 
 

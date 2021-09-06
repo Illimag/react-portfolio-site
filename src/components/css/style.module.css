@@ -20,7 +20,7 @@
     /*
     background-color: #797EF6 !important;
     */
-    background: #D56C06 !important;
+    background: #fff !important;
 background: -moz-linear-gradient(40deg, rgba(83,90,245,1) 28%, rgba(121,126,246,1) 78%);
 background: -webkit-linear-gradient(40deg, rgba(83,90,245,1) 28%, rgba(121,126,246,1) 78%);
 background: linear-gradient(40deg, rgba(83,90,245,1) 28%, rgba(121,126,246,1) 78%);
@@ -34,7 +34,7 @@ position: relative;
     background-color: #4ADEDE !important;
     */
 
-    background: #D81C23 !important;
+    background: #000 !important;
 background: -moz-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: -webkit-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
@@ -48,7 +48,7 @@ position: relative;
     background-color: #4ADEDE !important;
     */
 
-    background: #45AF2A !important;
+    background: #000 !important;
 background: -moz-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: -webkit-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
@@ -61,7 +61,7 @@ position: relative;
     background-color: #4ADEDE !important;
     */
 
-    background: #5626C4 !important;
+    background: #000 !important;
 background: -moz-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: -webkit-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
@@ -74,7 +74,7 @@ position: relative;
     background-color: #4ADEDE !important;
     */
 
-    background: #FA3DD0 !important;
+    background: #000 !important;
 background: -moz-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: -webkit-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
@@ -87,7 +87,7 @@ position: relative;
     background-color: #4ADEDE !important;
     */
 
-    background: #2CCCC3 !important;
+    background: #000 !important;
 background: -moz-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: -webkit-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
@@ -398,7 +398,17 @@ background: rgba(0,0,0,0.5);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-align: left;
-    color:#999 !important;
+    color:#333 !important;
+    letter-spacing: -1px;
+}
+
+.descriptionwhite{
+    font-size: 1.2rem;
+    margin-bottom: 2% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    color:#fff !important;
     letter-spacing: -1px;
 }
 
@@ -421,7 +431,7 @@ background: rgba(0,0,0,0.5);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-align: center;
-    color:#999 !important;
+    color:#fff !important;
     letter-spacing: -1px;
 }
 .blackbackground{
@@ -482,7 +492,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .descriptionlargeblack{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 2% !important;
     font-family: 'Inter', sans-serif;
     font-weight: 600;

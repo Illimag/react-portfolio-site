@@ -71,16 +71,17 @@ function MainNav() {
          
             <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" >
 
+            <LinkContainer to="/">
+                <Navbar.Brand className={styles.logo}>
+                  <Image src={logo} fluid />
+                </Navbar.Brand>
+              </LinkContainer>
               
               <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarwrap} />
              
               <Navbar.Collapse id="basic-navbar-nav" className={styles.navbarbackgroudcolor} >
              
-              <LinkContainer to="/">
-                <Navbar.Brand className={styles.logo}>
-                  <Image src={logo} fluid />
-                </Navbar.Brand>
-              </LinkContainer>
+
 
              
                 <Nav className="ml-auto">

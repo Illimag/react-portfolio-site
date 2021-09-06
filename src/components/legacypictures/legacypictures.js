@@ -114,17 +114,8 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemainblack}>01<span className={styles.grey}>/06</span></p>
 <p className={styles.titleblack}>Legacy Pictures</p>
 
-</Container>
-</Col>
-
-<Col sm>
-
-<Container className={styles.fonttest}>
-
-  
 <p className={styles.titleblack}>Case Study</p>
 <div className={styles.spaceingwhite}></div>
 <p className={styles.description}>Summary:</p>
@@ -136,8 +127,24 @@ large: "(min-width: 1200px)"
 <p className={styles.description}>Location:</p>
 <p className={styles.description}>Los Angelos, CA</p>
 
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+
+</Container>
+</Col>
+
+<Col sm>
+
+<Container className={styles.fonttest}>
+
+
+
+<p className={styles.titleblack}>Mobile startup in SOMA.</p>
+
+<p className={styles.description}>
+Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.
+
+</p>
+
+<p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were brought into the fold to be sued on the production application. It was a growing experience.</p>
 
 
 </Container>
@@ -155,17 +162,9 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemainblack}>01<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>Legacy Pictures</p>
 
-</Container>
-</Col>
 
-<Col sm>
-
-<Container className={styles.fonttest}>
-
-  
 <p className={styles.titleblack}>Case Study</p>
 <div className={styles.spaceingwhite}></div>
 <p className={styles.description}>Summary:</p>
@@ -178,9 +177,24 @@ large: "(min-width: 1200px)"
 <p className={styles.description}>San Francisco Bay Area</p>
 
 
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+</Container>
+</Col>
 
+<Col sm>
+
+<Container className={styles.fonttest}>
+
+  
+
+
+<p className={styles.descriptionlargeblack}>Mobile startup in SOMA.</p>
+
+<p className={styles.descriptionlargeblack}>
+Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.
+
+</p>
+
+<p className={styles.descriptionlargeblack}>Series of various UI designs, Initially I designed some low level mockups that were brought into the fold to be sued on the production application. It was a growing experience.</p>
 
 </Container>
 
@@ -195,8 +209,14 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemainblacklarge}>01/<span className={styles.grey}>06</span></p>
 <p className={styles.titlelargeblack}>Legacy Pictures</p>
+
+
+<div className={styles.spaceingwhite}></div>
+<p className={styles.descriptionlargeblack}>Case Study: San Francisco Mobile Application Startup</p>
+<p className={styles.descriptionlargeblack}>Project Date: October 2016 - January 2017</p>
+<p className={styles.descriptionlargeblack}>Role: Graphic UI/UX Designer Intern</p>
+<p className={styles.descriptionlargeblack}>Location: San Francisco Bay Area</p>
 
 </Container>
 </Col>
@@ -206,23 +226,16 @@ large: "(min-width: 1200px)"
 <Container className={styles.fonttest}>
 
   
-<p className={styles.titlelargeblack}>Case Study</p>
-<div className={styles.spaceingwhite}></div>
-<p className={styles.descriptionlarge}>Summary:</p>
-<p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
-<p className={styles.descriptionlarge}>Project Date:</p>
-<p className={styles.descriptionlarge}>October 2016 - January 2017</p>
-<p className={styles.descriptionlarge}>Role:</p>
-<p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
-<p className={styles.descriptionlarge}>Location:</p>
-<p className={styles.descriptionlarge}>San Francisco Bay Area</p>
 
 
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.descriptionlargeblack}>Mobile startup in SOMA.</p>
 
+<p className={styles.descriptionlargeblack}>
+Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.
+
+</p>
+
+<p className={styles.descriptionlargeblack}>Series of various UI designs, Initially I designed some low level mockups that were brought into the fold to be sued on the production application. It was a growing experience.</p>
 
 </Container>
 

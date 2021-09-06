@@ -83,7 +83,6 @@ large: "(min-width: 1200px)"
 <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemain}>02<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>Art Rendez-Vous</p>
 
 </Container>
@@ -124,7 +123,6 @@ large: "(min-width: 1200px)"
 <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemain}>02<span className={styles.grey}>/06</span></p>
 <p className={styles.title}>Art Rendez-Vous</p>
 
 </Container>
@@ -164,7 +162,6 @@ large: "(min-width: 1200px)"
 <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemainlarge}>02<span className={styles.grey}>/06</span></p>
 <p className={styles.titlelarge}>Art Rendez-Vous</p>
 
 </Container>

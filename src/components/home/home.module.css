@@ -326,6 +326,17 @@
     overflow-wrap: break-word;
 }
 
+
+.test1title{
+    color: #fff;
+    font-size: 2em !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    margin-top: 0px !important;
+}
+
+
+
 .whitesubtitle{
     color: #fff;
     font-size: 1rem !important;
