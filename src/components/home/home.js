@@ -144,7 +144,7 @@ export const Home = () => {
                     <span class="text">Scroll to View Portfolio</span>
                   </div>
                 */}
-              <h1 className={styles.whitetitle}>Hi,</h1>
+              <h1 className={styles.whitetitle}>JMK</h1>
 
               <h5 className={styles.white}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
               <h5 className={styles.white}><span className={styles.available}> Available</span> for In-House, Remote, Full-Time, Part-Time, Contract and Freelance. Have a nice day!</h5>
