@@ -10,6 +10,7 @@ import { Sanchezcoffeeco } from '../sanchezcoffeeco/sanchezcoffeeco'
 import { Apexvr } from '../apexvr/apexvr'
 import { Uxdesignsumo } from '../uxdesignsumo/uxdesignsumo'
 import { Legacypictures } from '../legacypictures/legacypictures'
+import { Stepsaver } from '../stepsaver/stepsaver'
 //import { Blog } from '../blog/blog'
 //import { Feed } from '../feed/feed'
 
@@ -39,7 +40,7 @@ const routes = [
   { path: '/uguru', name: 'Uguru, INC.', Component: Uguru },
   { path: '/sanchezcoffeeco', name: 'Sanchez Coffee CO.', Component: Sanchezcoffeeco },
   { path: '/apexvr', name: 'ApexVR', Component: Apexvr },
-  { path: '/uxdesignsumo', name: 'UX Design Sumo', Component: Uxdesignsumo },
+  { path: '/stepsaver', name: 'Stepsaver', Component: Stepsaver },
   { path: '/Contact', name: 'Contact/Profile', Component: Contact },
 ]
 

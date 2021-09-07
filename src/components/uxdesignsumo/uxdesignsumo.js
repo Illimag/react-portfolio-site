@@ -38,7 +38,9 @@ import duo from '../../assets/img/uguru/testpics-08.png';
 import Vid1 from '../../assets/home_page_vids/compress_vid0.mp4';
 import Vid2 from '../../assets/vids/compressed_vid/vid2.m4v';
 
-
+import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
+import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
+import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import Codepen from "react-codepen-embed";
 
 import Media from 'react-media';
@@ -48,15 +50,17 @@ export const Uxdesignsumo = () => (
   <>
  
 
+
+
  <Container fluid>
  
 
- <div className={styles.spaceinglarge}></div>
+ <div className={styles.spaceinglargewhite}></div>
 
-<Container fluid className={styles.test6}>
+<Container fluid className={styles.test1}>
 {/* left text right img */}
 
-<div className={styles.spaceing}></div>
+<div className={styles.spaceingwhite}></div>
 
         <Media queries={{
 small: "(max-width: 599px)",
@@ -73,8 +77,19 @@ large: "(min-width: 1200px)"
 <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemain}>06<span className={styles.grey}>/06</span></p>
-<p className={styles.title}>UX Design Sumo</p>
+<p className={styles.titleblack}>Legacy Pictures</p>
+
+<p className={styles.titleblack}>Case Study</p>
+<div className={styles.spaceingwhite}></div>
+<p className={styles.description}>Summary:</p>
+<p className={styles.description}>International Videography Services Company</p>
+<p className={styles.description}>Project Date:</p>
+<p className={styles.description}>July 2021 - July 2021</p>
+<p className={styles.description}>Role:</p>
+<p className={styles.description}>UI/UX Designer</p>
+<p className={styles.description}>Location:</p>
+<p className={styles.description}>Los Angelos, CA</p>
+
 
 </Container>
 </Col>
@@ -84,19 +99,15 @@ large: "(min-width: 1200px)"
 <Container className={styles.fonttest}>
 
 
-<p className={styles.title}>Case Study</p>
-<div className={styles.spaceing}></div>
-<p className={styles.description}>Summary:</p>
-<p className={styles.description}>San Francisco Mobile Application Startup</p>
-<p className={styles.description}>Project Date:</p>
-<p className={styles.description}>October 2016 - January 2017</p>
-<p className={styles.description}>Role:</p>
-<p className={styles.description}>Graphic UI/UX Designer Intern</p>
-<p className={styles.description}>Location:</p>
-<p className={styles.description}>San Francisco Bay Area</p>
 
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.titleblack}>Mobile startup in SOMA.</p>
+
+<p className={styles.description}>
+Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.
+
+</p>
+
+<p className={styles.description}>Series of various UI designs, Initially I designed some low level mockups that were brought into the fold to be sued on the production application. It was a growing experience.</p>
 
 
 </Container>
@@ -114,19 +125,11 @@ large: "(min-width: 1200px)"
 <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemain}>06<span className={styles.grey}>/06</span></p>
-<p className={styles.title}>UX Design Sumo</p>
-
-</Container>
-</Col>
-
-<Col sm>
-
-<Container className={styles.fonttest}>
+<p className={styles.title}>Legacy Pictures</p>
 
 
-<p className={styles.title}>Case Study</p>
-<div className={styles.spaceing}></div>
+<p className={styles.titleblack}>Case Study</p>
+<div className={styles.spaceingwhite}></div>
 <p className={styles.description}>Summary:</p>
 <p className={styles.description}>San Francisco Mobile Application Startup</p>
 <p className={styles.description}>Project Date:</p>
@@ -137,9 +140,24 @@ large: "(min-width: 1200px)"
 <p className={styles.description}>San Francisco Bay Area</p>
 
 
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+</Container>
+</Col>
 
+<Col sm>
+
+<Container className={styles.fonttest}>
+
+
+
+
+<p className={styles.descriptionlargeblack}>Mobile startup in SOMA.</p>
+
+<p className={styles.descriptionlargeblack}>
+Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.
+
+</p>
+
+<p className={styles.descriptionlargeblack}>Series of various UI designs, Initially I designed some low level mockups that were brought into the fold to be sued on the production application. It was a growing experience.</p>
 
 </Container>
 
@@ -154,8 +172,14 @@ large: "(min-width: 1200px)"
 <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlemainlarge}>06<span className={styles.grey}>/06</span></p>
-<p className={styles.titlelarge}>UX Design Sumo</p>
+<p className={styles.titlelargeblack}>Legacy Pictures</p>
+
+
+<div className={styles.spaceingwhite}></div>
+<p className={styles.descriptionlargeblack}>Case Study: San Francisco Mobile Application Startup</p>
+<p className={styles.descriptionlargeblack}>Project Date: October 2016 - January 2017</p>
+<p className={styles.descriptionlargeblack}>Role: Graphic UI/UX Designer Intern</p>
+<p className={styles.descriptionlargeblack}>Location: San Francisco Bay Area</p>
 
 </Container>
 </Col>
@@ -165,23 +189,16 @@ large: "(min-width: 1200px)"
 <Container className={styles.fonttest}>
 
 
-<p className={styles.titlelarge}>Case Study</p>
-<div className={styles.spaceing}></div>
-<p className={styles.descriptionlarge}>Summary:</p>
-<p className={styles.descriptionlarge}>San Francisco Mobile Application Startup</p>
-<p className={styles.descriptionlarge}>Project Date:</p>
-<p className={styles.descriptionlarge}>October 2016 - January 2017</p>
-<p className={styles.descriptionlarge}>Role:</p>
-<p className={styles.descriptionlarge}>Graphic UI/UX Designer Intern</p>
-<p className={styles.descriptionlarge}>Location:</p>
-<p className={styles.descriptionlarge}>San Francisco Bay Area</p>
 
 
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
-<p className={styles.description}>#UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma #UserExperience #Adobe #Illustrator #Figma </p>
+<p className={styles.descriptionlargeblack}>Mobile startup in SOMA.</p>
 
+<p className={styles.descriptionlargeblack}>
+Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others.
+
+</p>
+
+<p className={styles.descriptionlargeblack}>Series of various UI designs, Initially I designed some low level mockups that were brought into the fold to be sued on the production application. It was a growing experience.</p>
 
 </Container>
 
@@ -216,9 +233,9 @@ large: "(min-width: 1200px)"
 
 
 
- <Container fluid className={styles.test6}>
+ <Container fluid className={styles.test1}>
 
-<div className={styles.spaceing}></div>
+<div className={styles.spaceingwhite}></div>
 <Media queries={{
  small: "(max-width: 599px)",
  medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -232,8 +249,8 @@ large: "(min-width: 1200px)"
 <Row className={styles.rowsmall}>
  <Col sm className={styles.fonttest}>
 
- <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
- <div className={styles.spaceing}></div>
+ <p className={styles.titleblack}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+ <div className={styles.spaceingwhite}></div>
 </Col>
 </Row>
 
@@ -253,8 +270,8 @@ Initial sneaker catalog overview
        <Row className={styles.rowmedium}>
          <Col sm className={styles.fonttest}>
      
-         <p className={styles.titlecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-         <div className={styles.spaceing}></div>
+         <p className={styles.titleblack}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+         <div className={styles.spaceingwhite}></div>
      </Col>
      </Row>
      
@@ -274,8 +291,8 @@ Initial sneaker catalog overview
         <Row className={styles.rowlarge}>
           <Col sm className={styles.fonttest}>
       
-          <p className={styles.titlelargecenter}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-          <div className={styles.spaceing}></div>
+          <p className={styles.titlelargeblack}>High-fidelity <span className={styles.grey}>UI design.</span></p>
+          <div className={styles.spaceingwhite}></div>
       </Col>
       </Row>
       
@@ -385,7 +402,35 @@ Initial sneaker catalog overview
 </Col>
 </Row>
 
+{/* img without text */}
+<Row>
+<Col sm>
+ <Image src={TestImg0} fluid className={styles.imgstyle} />
+ <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+</Col>
+</Row>
 
+{/* img without text */}
+<Row>
+<Col sm>
+ <Image src={TestImg1} fluid className={styles.imgstyle} />
+ <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+</Col>
+</Row>
+
+{/* img without text */}
+<Row>
+<Col sm>
+ <Image src={TestImg2} fluid className={styles.imgstyle} />
+ <p className={styles.description}>
+Initial sneaker catalog overview
+</p>
+</Col>
+</Row>
 
 
 <Row className={styles.test}>

@@ -474,16 +474,16 @@ export const Home = () => {
 
         <div className={styles.spaceing}></div>
 
-        <LinkContainer to="/uxdesignsumo">
+        <LinkContainer to="/stepsaver">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
   
-                <h1 className={styles.whitetitle}>UX Design Sumo</h1>
+                <h1 className={styles.whitetitle}>Stepsaver</h1>
                 <h5 className={styles.test1title}>User experience designer community website design.</h5>
 
-                <LinkContainer to="/uxdesignsumo">
+                <LinkContainer to="/stepsaver">
                 <p>
                   <Button className={styles.mainbutton} variant="primary">Learn More</Button>
                 </p>
