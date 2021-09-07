@@ -110,10 +110,9 @@ large: "(min-width: 1200px)"
 <p className={styles.titleblack}>Introduction:</p>
 
 <p className={styles.description}>
-*Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.*
-</p>
+Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace.</p>
 
-<p className={styles.description}>I was approached by Matt looking for someone to sign a contract with a company looking for a redesign of a website. After the website is designed, Matthew would start development of the website. Over the span of 1-2months, they designed a redesign of their web platform. Used usability testing, as well as getting feedback from the executives,</p>
+<p className={styles.description}>Uguru, INC was a startup in San Francisco. The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building. </p>
 
 
 </Container>
@@ -149,13 +148,12 @@ large: "(min-width: 1200px)"
 
 
 
-<p className={styles.titlelargeblack}>Introduction:</p>
+<p className={styles.titleblack}>Introduction:</p>
 
-<p className={styles.descriptionlargeblack}>
-*Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.*
-</p>
+<p className={styles.description}>
+Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace.</p>
 
-<p className={styles.descriptionlargeblack}>I was approached by Matt looking for someone to sign a contract with a company looking for a redesign of a website. After the website is designed, Matthew would start development of the website. Over the span of 1-2months, they designed a redesign of their web platform. Used usability testing, as well as getting feedback from the executives,</p>
+<p className={styles.description}>Uguru, INC was a startup in San Francisco. The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building. </p>
 
 
 </Container>
@@ -191,10 +189,9 @@ large: "(min-width: 1200px)"
 <p className={styles.titlelargeblack}>Introduction:</p>
 
 <p className={styles.descriptionlargeblack}>
-*Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.*
-</p>
+Uguru was a Mobile Application Startup funded by Bay Angels. And they were looking to launch thier client side app for the use of college students looking for tutoring services in a online marketplace.</p>
 
-<p className={styles.descriptionlargeblack}>I was approached by Matt looking for someone to sign a contract with a company looking for a redesign of a website. After the website is designed, Matthew would start development of the website. Over the span of 1-2months, they designed a redesign of their web platform. Used usability testing, as well as getting feedback from the executives,</p>
+<p className={styles.descriptionlargeblack}>Uguru, INC was a startup in San Francisco. The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building. </p>
 
 </Container>
 
@@ -348,10 +345,15 @@ Initial sneaker catalog overview
 
 <p className={styles.titleblack}>Building Empathy</p>
 <div className={styles.spaceingwhite}></div>
- <p className={styles.descriptionblack}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+ <p className={styles.descriptionblack}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others. Over the feeling of the startup was one where there was alot of uncertainty with how the product was going to be developed and the CEO lacked the experience to really keep the team together and motivated. As well the people involved weren’t exactly knowing what to do.</p>
  <div className={styles.spaceingwhite}></div>
-   <p className={styles.descriptionblack}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.**</p>
+   <p className={styles.descriptionblack}>There was a ad that was looking for someone to be an office admin worker and I replied to the ad and it was the internship at the startup. After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
    <p className={styles.descriptionblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.**This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.**</p>
+   <p className={styles.descriptionblack}>The first screens were mainly for the CEO, the CEO was a developer, who was building a hybrid mobile application with Iconic. Iconic builds hybrid mobile applications that can be used to upload apps to both iOS and Andriod applications.</p>
+   <p className={styles.descriptionblack}>Additionally the CEO had various assets that he was looking for someone to redesign and to reiterate on.The userbase is college students, who are looking to help people as well as receive help for college. This is particularly useful for people that have majors in a particular subject but might need help with another topic.</p>
+   <p className={styles.descriptionblack}>The main demographic that was ever reach was the local UC Berkeley Area. Because actually the CEO was a student at UC Berkeley.</p>
+
+
 
  </Row>
        }
@@ -362,10 +364,13 @@ Initial sneaker catalog overview
 
 <p className={styles.titleblack}>Building Empathy</p>
 <div className={styles.spaceingwhite}></div>
- <p className={styles.descriptionblack}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+<p className={styles.descriptionblack}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others. Over the feeling of the startup was one where there was alot of uncertainty with how the product was going to be developed and the CEO lacked the experience to really keep the team together and motivated. As well the people involved weren’t exactly knowing what to do.</p>
  <div className={styles.spaceingwhite}></div>
-   <p className={styles.descriptionblack}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.**</p>
+   <p className={styles.descriptionblack}>There was a ad that was looking for someone to be an office admin worker and I replied to the ad and it was the internship at the startup. After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
    <p className={styles.descriptionblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.**This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.**</p>
+   <p className={styles.descriptionblack}>The first screens were mainly for the CEO, the CEO was a developer, who was building a hybrid mobile application with Iconic. Iconic builds hybrid mobile applications that can be used to upload apps to both iOS and Andriod applications.</p>
+   <p className={styles.descriptionblack}>Additionally the CEO had various assets that he was looking for someone to redesign and to reiterate on.The userbase is college students, who are looking to help people as well as receive help for college. This is particularly useful for people that have majors in a particular subject but might need help with another topic.</p>
+   <p className={styles.descriptionblack}>The main demographic that was ever reach was the local UC Berkeley Area. Because actually the CEO was a student at UC Berkeley.</p>
 
 
 </Row>
@@ -377,10 +382,13 @@ Initial sneaker catalog overview
 
 <p className={styles.titlelargeblack}>Building Empathy</p>
 <div className={styles.spaceingwhite}></div>
- <p className={styles.descriptionlargeblack}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+<p className={styles.descriptionlargeblack}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others. Over the feeling of the startup was one where there was alot of uncertainty with how the product was going to be developed and the CEO lacked the experience to really keep the team together and motivated. As well the people involved weren’t exactly knowing what to do.</p>
  <div className={styles.spaceingwhite}></div>
-   <p className={styles.descriptionlargeblack}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.**</p>
+   <p className={styles.descriptionlargeblack}>There was a ad that was looking for someone to be an office admin worker and I replied to the ad and it was the internship at the startup. After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
    <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.**This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.**</p>
+   <p className={styles.descriptionlargeblack}>The first screens were mainly for the CEO, the CEO was a developer, who was building a hybrid mobile application with Iconic. Iconic builds hybrid mobile applications that can be used to upload apps to both iOS and Andriod applications.</p>
+   <p className={styles.descriptionlargeblack}>Additionally the CEO had various assets that he was looking for someone to redesign and to reiterate on.The userbase is college students, who are looking to help people as well as receive help for college. This is particularly useful for people that have majors in a particular subject but might need help with another topic.</p>
+   <p className={styles.descriptionlargeblack}>The main demographic that was ever reach was the local UC Berkeley Area. Because actually the CEO was a student at UC Berkeley.</p>
 
       </Row>
        }
@@ -410,10 +418,10 @@ Initial sneaker catalog overview
 <Container>
 
  <p className={styles.titleblack}>Challenge:</p>
- <p className={styles.descriptionblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. The initial scope was to start a redesign process for the website, as well as converting it to new UI/UX Design trends.</p>
-   <p className={styles.descriptionblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website.</p>
-   <p className={styles.descriptionblack}>**I was the sole UI/UX Designer for the whole thing. There were a few stakeholders, for example the CEO of the company, a lead developer who would considering technical parts, etc.**</p>
-   <p className={styles.descriptionblack}>There was an internal team, as well as a larger outside team. Most of the communication was between the CEO, lead developer and myself.</p>
+ <p className={styles.descriptionblack}>The CEO needed a Graphic Designer who could transition into a User Interface Design/User Experience position. He needed someone whom could create high-fidelilty user interface mockups and create the rapid prototypes. As well as needing someone whom could do various other office related tasks.</p>
+   <p className={styles.descriptionblack}>The projects were a series of various User Interface designs. Initially I designed some low level fidelity mockups that were brought into the fold to be used for the interface. I was really happy to get strated on the work. But I think some parts of the trouble was not really knowing how to start. Luckly enoughI was able to become better with time and grow as a person.</p>
+   <p className={styles.descriptionblack}>There were a few designs that I started with for example, I worked on the onboarding of the Mobile app. For this I designed it based on some sketches and created a higher fidelity for them. There were alot of times I didn’t know what to do, but I continued on them and made them as good as I could.</p>
+   <p className={styles.descriptionblack}>After the designs were completed and the CEO okayed them I started on creating rapid prototyping for them. This was done using proto.io and using this animation software I was able to show what the app would be like. Additionally I made designs for the website, and various other parts of the interface. For example I made designs for the home page of the app, the statistics page, and other pages such as they would be used on the production application that would be deployed and used.</p>
 
 
 </Container>
@@ -423,10 +431,11 @@ Initial sneaker catalog overview
 <Container>
  
  <p className={styles.titleblack}>Challenge:</p>
- <p className={styles.descriptionblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. The initial scope was to start a redesign process for the website, as well as converting it to new UI/UX Design trends.</p>
-   <p className={styles.descriptionblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website.</p>
-   <p className={styles.descriptionblack}>**I was the sole UI/UX Designer for the whole thing. There were a few stakeholders, for example the CEO of the company, a lead developer who would considering technical parts, etc.**</p>
-   <p className={styles.descriptionblack}>There was an internal team, as well as a larger outside team. Most of the communication was between the CEO, lead developer and myself.</p>
+ <p className={styles.descriptionblack}>The CEO needed a Graphic Designer who could transition into a User Interface Design/User Experience position. He needed someone whom could create high-fidelilty user interface mockups and create the rapid prototypes. As well as needing someone whom could do various other office related tasks.</p>
+   <p className={styles.descriptionblack}>The projects were a series of various User Interface designs. Initially I designed some low level fidelity mockups that were brought into the fold to be used for the interface. I was really happy to get strated on the work. But I think some parts of the trouble was not really knowing how to start. Luckly enoughI was able to become better with time and grow as a person.</p>
+   <p className={styles.descriptionblack}>There were a few designs that I started with for example, I worked on the onboarding of the Mobile app. For this I designed it based on some sketches and created a higher fidelity for them. There were alot of times I didn’t know what to do, but I continued on them and made them as good as I could.</p>
+   <p className={styles.descriptionblack}>After the designs were completed and the CEO okayed them I started on creating rapid prototyping for them. This was done using proto.io and using this animation software I was able to show what the app would be like. Additionally I made designs for the website, and various other parts of the interface. For example I made designs for the home page of the app, the statistics page, and other pages such as they would be used on the production application that would be deployed and used.</p>
+
 
 </Container>
        }
@@ -435,10 +444,12 @@ Initial sneaker catalog overview
    <Container>
 
 <p className={styles.titlelargeblack}>Challenge:</p>
-<p className={styles.descriptionlargeblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. The initial scope was to start a redesign process for the website, as well as converting it to new UI/UX Design trends.</p>
-   <p className={styles.descriptionlargeblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website.</p>
-   <p className={styles.descriptionlargeblack}>**I was the sole UI/UX Designer for the whole thing. There were a few stakeholders, for example the CEO of the company, a lead developer who would considering technical parts, etc.**</p>
-   <p className={styles.descriptionlargeblack}>There was an internal team, as well as a larger outside team. Most of the communication was between the CEO, lead developer and myself.</p>
+<p className={styles.descriptionlargeblack}>The CEO needed a Graphic Designer who could transition into a User Interface Design/User Experience position. He needed someone whom could create high-fidelilty user interface mockups and create the rapid prototypes. As well as needing someone whom could do various other office related tasks.</p>
+   <p className={styles.descriptionlargeblack}>The projects were a series of various User Interface designs. Initially I designed some low level fidelity mockups that were brought into the fold to be used for the interface. I was really happy to get strated on the work. But I think some parts of the trouble was not really knowing how to start. Luckly enoughI was able to become better with time and grow as a person.</p>
+   <p className={styles.descriptionlargeblack}>There were a few designs that I started with for example, I worked on the onboarding of the Mobile app. For this I designed it based on some sketches and created a higher fidelity for them. There were alot of times I didn’t know what to do, but I continued on them and made them as good as I could.</p>
+   <p className={styles.descriptionlargeblack}>After the designs were completed and the CEO okayed them I started on creating rapid prototyping for them. This was done using proto.io and using this animation software I was able to show what the app would be like. Additionally I made designs for the website, and various other parts of the interface. For example I made designs for the home page of the app, the statistics page, and other pages such as they would be used on the production application that would be deployed and used.</p>
+
+
       </Container>
        }
 
@@ -487,11 +498,9 @@ Initial sneaker catalog overview
 <Container>
 
  <p className={styles.titleblack}>IDEATE:</p>
- <p className={styles.descriptionblack}>Understanding that there are multiple stakeholders as well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
- <p className={styles.descriptionblack}>After the tests, showcased various metrics based on the performance test, showed that an update to the website would greatly improve the performance of the website, which would be a better user experience.</p>
- <p className={styles.descriptionblack}>The designs of the website would have to keep Mobile Responsive methologoies in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
- <p className={styles.descriptionblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
- <p className={styles.descriptionblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</p>
+ <p className={styles.descriptionblack}>Initially most of the designs were based on this fictional guru persona, whom was someone who would be able to teach students. Also the main point of this application is to create a social media, a community of people who could be at a state school, or at a university at California.</p>
+ <p className={styles.descriptionblack}>We started with Card Sorting? We are able to create a demographic of users based off what we know about the student population. Some of it is assumptions. But we are able to create various user journeys, or user flows.</p>
+ <p className={styles.descriptionblack}>Additionally we can start trying to understand our personas pain points. We create Personas of people who would be using the application. For example if they went to state school there can be a few personas like this:</p>
 
       </Container>
        }
@@ -500,11 +509,9 @@ Initial sneaker catalog overview
 <Container>
  
  <p className={styles.titleblack}>IDEATE:</p>
- <p className={styles.descriptionblack}>Understanding that there are multiple stakeholders as well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
- <p className={styles.descriptionblack}>After the tests, showcased various metrics based on the performance test, showed that an update to the website would greatly improve the performance of the website, which would be a better user experience.</p>
- <p className={styles.descriptionblack}>The designs of the website would have to keep Mobile Responsive methologoies in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
- <p className={styles.descriptionblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
- <p className={styles.descriptionblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</p>
+ <p className={styles.descriptionblack}>Initially most of the designs were based on this fictional guru persona, whom was someone who would be able to teach students. Also the main point of this application is to create a social media, a community of people who could be at a state school, or at a university at California.</p>
+ <p className={styles.descriptionblack}>We started with Card Sorting? We are able to create a demographic of users based off what we know about the student population. Some of it is assumptions. But we are able to create various user journeys, or user flows.</p>
+ <p className={styles.descriptionblack}>Additionally we can start trying to understand our personas pain points. We create Personas of people who would be using the application. For example if they went to state school there can be a few personas like this:</p>
 
 
    </Container>
@@ -514,11 +521,9 @@ Initial sneaker catalog overview
    <Container>
 
 <p className={styles.titlelargeblack}>IDEATE:</p>
-<p className={styles.descriptionlargeblack}>Understanding that there are multiple stakeholders as well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
- <p className={styles.descriptionlargeblack}>After the tests, showcased various metrics based on the performance test, showed that an update to the website would greatly improve the performance of the website, which would be a better user experience.</p>
- <p className={styles.descriptionlargeblack}>The designs of the website would have to keep Mobile Responsive methologoies in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
- <p className={styles.descriptionlargeblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
- <p className={styles.descriptionlargeblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</p>
+<p className={styles.descriptionlargeblack}>Initially most of the designs were based on this fictional guru persona, whom was someone who would be able to teach students. Also the main point of this application is to create a social media, a community of people who could be at a state school, or at a university at California.</p>
+ <p className={styles.descriptionlargeblack}>We started with Card Sorting? We are able to create a demographic of users based off what we know about the student population. Some of it is assumptions. But we are able to create various user journeys, or user flows.</p>
+ <p className={styles.descriptionlargeblack}>Additionally we can start trying to understand our personas pain points. We create Personas of people who would be using the application. For example if they went to state school there can be a few personas like this:</p>
 
       </Container>
        }
@@ -561,11 +566,14 @@ Initial sneaker catalog overview
      <Container>
            <p className={styles.titleblack}>Solution:</p>
       <p className={styles.descriptionblack}>
-      *The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.*</p>
+      I was able to create high fidelity mockups for the mobile application. As well as begining the rapid prototypes using static image files and animations. I was the graphic & UI/UX Designer Intern at the company, and later there was a lead designer that came in to help with moving the designs forwards faster. This was very great to learn from this individual and while working with the whole team it really showed me how a team would be able to create a production product.</p>
       <p className={styles.descriptionblack}>
-      Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
-      <p className={styles.descriptionblack}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
-      <p className={styles.descriptionblack}>Initially started with various stylings. Also did a indepth look at various scores that showed where the website was in related to the tests done. There were various scores from various different providers that showed the website can be greatly improve with a few updates. During this ideation phase there was various ideas that were ideated. For example.</p>
+      There were a few people in the team. There was a Project manager type person, the CEO who was also a software enginner, a software engineer intern, a data science intern, and me who was graphic & UI/UX design intern, later a lead designer who specalized in User Interface come in to help move the screen along better as well as building out more of the app flows.</p>
+      <p className={styles.descriptionblack}>There were alot of difficulties with workingon this application. For example the number of hours we were expected to work for example I was working from 8am to 8pm mon - sat or sometimes they expected me to come in on sundays. It was difficult to get to my internship and although the CEO was a cool guy he didnt seen to understand the basic things that are needed for his workers to be able to be successful. Even so we tried our best and worked to make his dream a reality.</p>
+      <p className={styles.descriptionblack}>The User Interface Designs needed to be done, and I pushed hard to get them designed over time, I learned various things to make the designs look better and hopefully made a real difference in how the application would look and feel. For example for the Home page of the user interface in the mobile application, I was able to creating the layout and seeing the different parts of the interface that needed to be created.</p>
+      <p className={styles.descriptionblack}>We needed to do more research, such as what types of people would be using the interface, we were really focused on creating the MVP. But other that that we really didnt know how this was going to happen. After the interface is becoming better, I started creating a higher fidelity interface.</p>
+      <p className={styles.descriptionblack}>I would be putting in the very high number of hours and it began becoming very stressful. Additionally I was For the home page interface after getting the sketch from the CEO and knowing what the layout needed to be I was able to start creating the visual look of the application based on the style guide.</p>
+      <p className={styles.descriptionblack}>I was using tools mainly from adobe such as Illustrator and photoshop. This was before Adobe XD. Additionally I was using rapid prototyping software that was helping me with seeing how the animations of the user Interface would look. This really helped alot when trying to do the Onboarding screens.</p>
    
    </Container>
              }
@@ -574,13 +582,15 @@ Initial sneaker catalog overview
      <Container>
                          <p className={styles.titleblack}>Solution:</p>
                          <p className={styles.descriptionblack}>
-      *The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.*</p>
+      I was able to create high fidelity mockups for the mobile application. As well as begining the rapid prototypes using static image files and animations. I was the graphic & UI/UX Designer Intern at the company, and later there was a lead designer that came in to help with moving the designs forwards faster. This was very great to learn from this individual and while working with the whole team it really showed me how a team would be able to create a production product.</p>
       <p className={styles.descriptionblack}>
-      Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
-      <p className={styles.descriptionblack}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
-      <p className={styles.descriptionblack}>Initially started with various stylings. Also did a indepth look at various scores that showed where the website was in related to the tests done. There were various scores from various different providers that showed the website can be greatly improve with a few updates. During this ideation phase there was various ideas that were ideated. For example.</p>
+      There were a few people in the team. There was a Project manager type person, the CEO who was also a software enginner, a software engineer intern, a data science intern, and me who was graphic & UI/UX design intern, later a lead designer who specalized in User Interface come in to help move the screen along better as well as building out more of the app flows.</p>
+      <p className={styles.descriptionblack}>There were alot of difficulties with workingon this application. For example the number of hours we were expected to work for example I was working from 8am to 8pm mon - sat or sometimes they expected me to come in on sundays. It was difficult to get to my internship and although the CEO was a cool guy he didnt seen to understand the basic things that are needed for his workers to be able to be successful. Even so we tried our best and worked to make his dream a reality.</p>
+      <p className={styles.descriptionblack}>The User Interface Designs needed to be done, and I pushed hard to get them designed over time, I learned various things to make the designs look better and hopefully made a real difference in how the application would look and feel. For example for the Home page of the user interface in the mobile application, I was able to creating the layout and seeing the different parts of the interface that needed to be created.</p>
+      <p className={styles.descriptionblack}>We needed to do more research, such as what types of people would be using the interface, we were really focused on creating the MVP. But other that that we really didnt know how this was going to happen. After the interface is becoming better, I started creating a higher fidelity interface.</p>
+      <p className={styles.descriptionblack}>I would be putting in the very high number of hours and it began becoming very stressful. Additionally I was For the home page interface after getting the sketch from the CEO and knowing what the layout needed to be I was able to start creating the visual look of the application based on the style guide.</p>
+      <p className={styles.descriptionblack}>I was using tools mainly from adobe such as Illustrator and photoshop. This was before Adobe XD. Additionally I was using rapid prototyping software that was helping me with seeing how the animations of the user Interface would look. This really helped alot when trying to do the Onboarding screens.</p>
    
-       
        </Container>
              }
 
@@ -588,11 +598,14 @@ Initial sneaker catalog overview
          <Container>
                          <p className={styles.titlelargeblack}>Solution:</p>
                          <p className={styles.descriptionlargeblack}>
-      *The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.*</p>
-      <p className={styles.descriptionlargeblack}>
-      Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
-      <p className={styles.descriptionlargeblack}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
-      <p className={styles.descriptionlargeblack}>Initially started with various stylings. Also did a indepth look at various scores that showed where the website was in related to the tests done. There were various scores from various different providers that showed the website can be greatly improve with a few updates. During this ideation phase there was various ideas that were ideated. For example.</p>
+      I was able to create high fidelity mockups for the mobile application. As well as begining the rapid prototypes using static image files and animations. I was the graphic & UI/UX Designer Intern at the company, and later there was a lead designer that came in to help with moving the designs forwards faster. This was very great to learn from this individual and while working with the whole team it really showed me how a team would be able to create a production product.</p>
+      <p className={styles.descriptionblack}>
+      There were a few people in the team. There was a Project manager type person, the CEO who was also a software enginner, a software engineer intern, a data science intern, and me who was graphic & UI/UX design intern, later a lead designer who specalized in User Interface come in to help move the screen along better as well as building out more of the app flows.</p>
+      <p className={styles.descriptionlargeblack}>There were alot of difficulties with workingon this application. For example the number of hours we were expected to work for example I was working from 8am to 8pm mon - sat or sometimes they expected me to come in on sundays. It was difficult to get to my internship and although the CEO was a cool guy he didnt seen to understand the basic things that are needed for his workers to be able to be successful. Even so we tried our best and worked to make his dream a reality.</p>
+      <p className={styles.descriptionlargeblack}>The User Interface Designs needed to be done, and I pushed hard to get them designed over time, I learned various things to make the designs look better and hopefully made a real difference in how the application would look and feel. For example for the Home page of the user interface in the mobile application, I was able to creating the layout and seeing the different parts of the interface that needed to be created.</p>
+      <p className={styles.descriptionlargeblack}>We needed to do more research, such as what types of people would be using the interface, we were really focused on creating the MVP. But other that that we really didnt know how this was going to happen. After the interface is becoming better, I started creating a higher fidelity interface.</p>
+      <p className={styles.descriptionlargeblack}>I would be putting in the very high number of hours and it began becoming very stressful. Additionally I was For the home page interface after getting the sketch from the CEO and knowing what the layout needed to be I was able to start creating the visual look of the application based on the style guide.</p>
+      <p className={styles.descriptionlargeblack}>I was using tools mainly from adobe such as Illustrator and photoshop. This was before Adobe XD. Additionally I was using rapid prototyping software that was helping me with seeing how the animations of the user Interface would look. This really helped alot when trying to do the Onboarding screens.</p>
    
                </Container>
              }
@@ -653,11 +666,9 @@ Initial sneaker catalog overview
 <Container>
 
  <p className={styles.titleblack}>DESIGN:</p>
- <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro.**</p>
-   <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow, or just understanding the basic layout of the website, for example the home page, etc. Then based on the original design, a new iteration of the design can be done.</p>
-   <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
-   <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
-
+ <p className={styles.descriptionblack}>When we started to do the design process, it was mainly to do low fidelity prototyping, such as balsamiqs, but preferably started on Adobe Illustrator. Adobe Illustrator which was used because Adobe XD, as well as Figma were both released after 2016.</p>
+   <p className={styles.descriptionblack}>So for designers who did UI/UX Design at SOMA in Downtown San Francisco, we used Adobe Illustrator, which was much nicer to use than Adobe Photoshop to use, because we are able to use vectors rather than pixels.</p>
+   <p className={styles.descriptionblack}>So we designed the User Interfaces on Adobe Illustrator because this was before Adobe XD and Figma. Also it took a few years for Adobe XD to build itself up to the functionalities that are available currently for Adobe XD and similar software applications.</p>
 
 </Container>
        }
@@ -666,10 +677,9 @@ Initial sneaker catalog overview
 <Container>
  
  <p className={styles.titleblack}>DESIGN:</p>
- <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro.**</p>
-   <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow, or just understanding the basic layout of the website, for example the home page, etc. Then based on the original design, a new iteration of the design can be done.</p>
-   <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
-   <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+ <p className={styles.descriptionblack}>When we started to do the design process, it was mainly to do low fidelity prototyping, such as balsamiqs, but preferably started on Adobe Illustrator. Adobe Illustrator which was used because Adobe XD, as well as Figma were both released after 2016.</p>
+   <p className={styles.descriptionblack}>So for designers who did UI/UX Design at SOMA in Downtown San Francisco, we used Adobe Illustrator, which was much nicer to use than Adobe Photoshop to use, because we are able to use vectors rather than pixels.</p>
+   <p className={styles.descriptionblack}>So we designed the User Interfaces on Adobe Illustrator because this was before Adobe XD and Figma. Also it took a few years for Adobe XD to build itself up to the functionalities that are available currently for Adobe XD and similar software applications.</p>
 
 </Container>
        }
@@ -678,10 +688,10 @@ Initial sneaker catalog overview
    <Container>
 
 <p className={styles.titlelargeblack}>DESIGN:</p>
-<p className={styles.descriptionlargeblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro.**</p>
-   <p className={styles.descriptionlargeblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow, or just understanding the basic layout of the website, for example the home page, etc. Then based on the original design, a new iteration of the design can be done.</p>
-   <p className={styles.descriptionlargeblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
-   <p className={styles.descriptionlargeblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+<p className={styles.descriptionlargeblack}>When we started to do the design process, it was mainly to do low fidelity prototyping, such as balsamiqs, but preferably started on Adobe Illustrator. Adobe Illustrator which was used because Adobe XD, as well as Figma were both released after 2016.</p>
+   <p className={styles.descriptionlargeblack}>So for designers who did UI/UX Design at SOMA in Downtown San Francisco, we used Adobe Illustrator, which was much nicer to use than Adobe Photoshop to use, because we are able to use vectors rather than pixels.</p>
+   <p className={styles.descriptionlargeblack}>So we designed the User Interfaces on Adobe Illustrator because this was before Adobe XD and Figma. Also it took a few years for Adobe XD to build itself up to the functionalities that are available currently for Adobe XD and similar software applications.</p>
+
       </Container>
        }
 
@@ -718,25 +728,49 @@ Initial sneaker catalog overview
 <Container>
 
  <p className={styles.titleblack}>Results:</p>
- <p className={styles.descriptionblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
- <p className={styles.descriptionblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
- <p className={styles.descriptionblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
- <p className={styles.descriptionblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
- <p className={styles.descriptionblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
- <p className={styles.descriptionblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
+ <p className={styles.descriptionblack}>After my internship was completed, I continued my journey as a designer. And from this experience I returned to California College of the Arts changing my major from Industrial Design to Interaction design to focus on the User Interface and User Experience Design.</p>
+ <p className={styles.descriptionblack}>The CEO would want me to do the code of the interface but at the time I was unsure about what that would actually require me to do and as so I didn’t really know how to do that. LAter after my intership was over I learned HTML/CSS/JS and the web frameworks that would have been required to let me do what he expected of me.</p>
+ <p className={styles.descriptionblack}>I completed my internship by creating the home page, onboarding screens, etc and I think over the level of quality was ok. I returned back to school.</p>
+ <p className={styles.descriptionblack}>After my internship, this was my first taste of being part of the tech industry and it showed me a little about what direction I needed to go to be successful. For example after high school I was really unsure what to do, but I chose to go into Industrial Design, and I attended Hongik University for Industrial Design. After I came back from Korea, I transferred to De Anza for graphic design because of my art background this made alot of sense to me at the time.</p>
+ <p className={styles.descriptionblack}>Then I transfered to CCA california college of the arts in san francisco as industrial design major. This was because I didnt have any experience in the field and I didnt know what was more relevant for people around this area.</p>
+ <p className={styles.descriptionblack}>When I did my internship I learned what was more relevant for the industry as well being able to make the change from Industrial Design to Interaction Design. I learned what it was like to work as a team.</p>
+      
+ <p className={styles.titleblack}>Prototype:</p>
+ 
+ <p className={styles.descriptionblack}>There were very primate types of rapid prototyping software used such as Proto.io, which were a good way to create rapid prototypes of the application.</p>
+ <p className={styles.descriptionblack}>So taking the high fidelity prototypes and then creating prototypes of them using Proto.io, was what was used instead of the rapid prototyping functionality that is available for Adobe XD and Figma, as well as Sketch, and Invision.</p>
+ <p className={styles.descriptionblack}>But at the time there wasent Adobe XD and Figma, so what we used instead was Adobe Illustrator and Proto.IO to rapid prototype the applications.</p>
+        
+ <p className={styles.titleblack}>Test:</p>
+ 
+ <p className={styles.descriptionblack}>The main application was being developed by the CEO who was the lead developer.</p>
+ <p className={styles.descriptionblack}>There are several ways to test this application. Finding the correct demographic and getting the actual demographic to use the application, is one of the best ways to test this application. There are various User Interfaces that need to be User Tested.</p>
+
+
       </Container>
        }
 
      {matches.medium &&
 <Container>
  
- <p className={styles.titleblack}>Results:</p>
- <p className={styles.descriptionblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
- <p className={styles.descriptionblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
- <p className={styles.descriptionblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
- <p className={styles.descriptionblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
- <p className={styles.descriptionblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
- <p className={styles.descriptionblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
+<p className={styles.titleblack}>Results:</p>
+ <p className={styles.descriptionblack}>After my internship was completed, I continued my journey as a designer. And from this experience I returned to California College of the Arts changing my major from Industrial Design to Interaction design to focus on the User Interface and User Experience Design.</p>
+ <p className={styles.descriptionblack}>The CEO would want me to do the code of the interface but at the time I was unsure about what that would actually require me to do and as so I didn’t really know how to do that. LAter after my intership was over I learned HTML/CSS/JS and the web frameworks that would have been required to let me do what he expected of me.</p>
+ <p className={styles.descriptionblack}>I completed my internship by creating the home page, onboarding screens, etc and I think over the level of quality was ok. I returned back to school.</p>
+ <p className={styles.descriptionblack}>After my internship, this was my first taste of being part of the tech industry and it showed me a little about what direction I needed to go to be successful. For example after high school I was really unsure what to do, but I chose to go into Industrial Design, and I attended Hongik University for Industrial Design. After I came back from Korea, I transferred to De Anza for graphic design because of my art background this made alot of sense to me at the time.</p>
+ <p className={styles.descriptionblack}>Then I transfered to CCA california college of the arts in san francisco as industrial design major. This was because I didnt have any experience in the field and I didnt know what was more relevant for people around this area.</p>
+ <p className={styles.descriptionblack}>When I did my internship I learned what was more relevant for the industry as well being able to make the change from Industrial Design to Interaction Design. I learned what it was like to work as a team.</p>
+      
+ <p className={styles.titleblack}>Prototype:</p>
+ 
+ <p className={styles.descriptionblack}>There were very primate types of rapid prototyping software used such as Proto.io, which were a good way to create rapid prototypes of the application.</p>
+ <p className={styles.descriptionblack}>So taking the high fidelity prototypes and then creating prototypes of them using Proto.io, was what was used instead of the rapid prototyping functionality that is available for Adobe XD and Figma, as well as Sketch, and Invision.</p>
+ <p className={styles.descriptionblack}>But at the time there wasent Adobe XD and Figma, so what we used instead was Adobe Illustrator and Proto.IO to rapid prototype the applications.</p>
+        
+ <p className={styles.titleblack}>Test:</p>
+ 
+ <p className={styles.descriptionblack}>The main application was being developed by the CEO who was the lead developer.</p>
+ <p className={styles.descriptionblack}>There are several ways to test this application. Finding the correct demographic and getting the actual demographic to use the application, is one of the best ways to test this application. There are various User Interfaces that need to be User Tested.</p>
 
 
    </Container>
@@ -746,12 +780,24 @@ Initial sneaker catalog overview
    <Container>
 
 <p className={styles.titlelargeblack}>Results:</p>
-<p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
- <p className={styles.descriptionlargeblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
- <p className={styles.descriptionlargeblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
- <p className={styles.descriptionlargeblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
- <p className={styles.descriptionlargeblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
- <p className={styles.descriptionlargeblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
+<p className={styles.descriptionlargeblack}>After my internship was completed, I continued my journey as a designer. And from this experience I returned to California College of the Arts changing my major from Industrial Design to Interaction design to focus on the User Interface and User Experience Design.</p>
+ <p className={styles.descriptionlargeblack}>The CEO would want me to do the code of the interface but at the time I was unsure about what that would actually require me to do and as so I didn’t really know how to do that. LAter after my intership was over I learned HTML/CSS/JS and the web frameworks that would have been required to let me do what he expected of me.</p>
+ <p className={styles.descriptionlargeblack}>I completed my internship by creating the home page, onboarding screens, etc and I think over the level of quality was ok. I returned back to school.</p>
+ <p className={styles.descriptionlargeblack}>After my internship, this was my first taste of being part of the tech industry and it showed me a little about what direction I needed to go to be successful. For example after high school I was really unsure what to do, but I chose to go into Industrial Design, and I attended Hongik University for Industrial Design. After I came back from Korea, I transferred to De Anza for graphic design because of my art background this made alot of sense to me at the time.</p>
+ <p className={styles.descriptionlargeblack}>Then I transfered to CCA california college of the arts in san francisco as industrial design major. This was because I didnt have any experience in the field and I didnt know what was more relevant for people around this area.</p>
+ <p className={styles.descriptionlargeblack}>When I did my internship I learned what was more relevant for the industry as well being able to make the change from Industrial Design to Interaction Design. I learned what it was like to work as a team.</p>
+      
+ <p className={styles.titlelargeblack}>Prototype:</p>
+ 
+ <p className={styles.descriptionlargeblack}>The prototype was designed with Adobe XD, as well as another software application to showcase a video background image.</p>
+ <p className={styles.descriptionlargeblack}>The initial screen with the video background image prototype, had to be prototyped on another prototyping software application because Adobe XD doesnt allow Videos or Gifs to be used in the Prototyping of the User Interface Screens.</p>
+ <p className={styles.descriptionlargeblack}>So using the other prototyping software application I was able to prototype the iOS Mobile Application using a video background for the home screen of the app. The rest of the screens were prototyped using Adobe XD.</p>
+        
+ <p className={styles.titlelargeblack}>Test:</p>
+ 
+ <p className={styles.descriptionlargeblack}>The testing of the user interface designs were done using a Google Doc, was able to test the user interfaces based on the design of the client, who is a stakeholder in the direction of the designs of the application.</p>
+ <p className={styles.descriptionlargeblack}>The different variations of the designs were selected under a letter “A”, “B”, etc, and then were selected, and then later I redesigned the file using the designs that were selected for the final redesign of the application.</p>
+
 
       </Container>
        }
@@ -847,8 +893,9 @@ Initial sneaker catalog overview
 <Container>
 
  <p className={styles.titleblack}>Reflection:</p>
- <p className={styles.descriptionblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
-   <p className={styles.descriptionblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
+ <p className={styles.descriptionblack}>At my internship at Uguru, INC. It was a challenging task since I did not have the right skillset to be effective at my alloted tasks. Luckly I was working along side a very talented designer and learned by doing. My background in graphics helped me slowly develop my skillsets for User Interface design as well as an understanding of User Experience.</p>
+   <p className={styles.descriptionblack}>This internship was really the first steps for me to being the journey as an UI/UX Designer as well as getting into the tech industry. Although it was difficult at times, and it was unsure for me to know what worked and didnt work, when the CEO suggested that I should start programming it took me a long time to start programming. After I started programming, it really opened up my world to the possibilities of what was possible as well as what types of mediums i would be interested in working in. For example I was interested in working with devices such as mobile devices, and design user Interfaces for mobile applications and websites.</p>
+   <p className={styles.descriptionblack}>After I started learning HTML/CSS to start building these websites that I designed it really opened my world up to understanding what was possible for me as a designer as well as being able to code. As so I continued on with learning how to code and I learned code such as CSS libraries such as bootstrap, and JavaScript frameworks. Eventually I learned how to write logic code with python and even began building little software systems. Additionally I learned more about the technologies surround web languages and web browsers and learning how to code for web browsers, while keeping in mind all the design technicals for an amazin user interface.</p>
 
 </Container>
        }
@@ -857,8 +904,9 @@ Initial sneaker catalog overview
 <Container>
  
  <p className={styles.titleblack}>Reflection:</p>
- <p className={styles.descriptionblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
-   <p className={styles.descriptionblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
+ <p className={styles.descriptionblack}>At my internship at Uguru, INC. It was a challenging task since I did not have the right skillset to be effective at my alloted tasks. Luckly I was working along side a very talented designer and learned by doing. My background in graphics helped me slowly develop my skillsets for User Interface design as well as an understanding of User Experience.</p>
+   <p className={styles.descriptionblack}>This internship was really the first steps for me to being the journey as an UI/UX Designer as well as getting into the tech industry. Although it was difficult at times, and it was unsure for me to know what worked and didnt work, when the CEO suggested that I should start programming it took me a long time to start programming. After I started programming, it really opened up my world to the possibilities of what was possible as well as what types of mediums i would be interested in working in. For example I was interested in working with devices such as mobile devices, and design user Interfaces for mobile applications and websites.</p>
+   <p className={styles.descriptionblack}>After I started learning HTML/CSS to start building these websites that I designed it really opened my world up to understanding what was possible for me as a designer as well as being able to code. As so I continued on with learning how to code and I learned code such as CSS libraries such as bootstrap, and JavaScript frameworks. Eventually I learned how to write logic code with python and even began building little software systems. Additionally I learned more about the technologies surround web languages and web browsers and learning how to code for web browsers, while keeping in mind all the design technicals for an amazin user interface.</p>
 
 </Container>
        }
@@ -867,10 +915,10 @@ Initial sneaker catalog overview
    <Container>
 
 <p className={styles.titlelargeblack}>Reflection:</p>
-<p className={styles.descriptionlargeblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
-   <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
+<p className={styles.descriptionlargeblack}>At my internship at Uguru, INC. It was a challenging task since I did not have the right skillset to be effective at my alloted tasks. Luckly I was working along side a very talented designer and learned by doing. My background in graphics helped me slowly develop my skillsets for User Interface design as well as an understanding of User Experience.</p>
+   <p className={styles.descriptionlargeblack}>This internship was really the first steps for me to being the journey as an UI/UX Designer as well as getting into the tech industry. Although it was difficult at times, and it was unsure for me to know what worked and didnt work, when the CEO suggested that I should start programming it took me a long time to start programming. After I started programming, it really opened up my world to the possibilities of what was possible as well as what types of mediums i would be interested in working in. For example I was interested in working with devices such as mobile devices, and design user Interfaces for mobile applications and websites.</p>
+   <p className={styles.descriptionlargeblack}>After I started learning HTML/CSS to start building these websites that I designed it really opened my world up to understanding what was possible for me as a designer as well as being able to code. As so I continued on with learning how to code and I learned code such as CSS libraries such as bootstrap, and JavaScript frameworks. Eventually I learned how to write logic code with python and even began building little software systems. Additionally I learned more about the technologies surround web languages and web browsers and learning how to code for web browsers, while keeping in mind all the design technicals for an amazin user interface.</p>
 
-     
       </Container>
        }
 
@@ -899,14 +947,14 @@ Initial sneaker catalog overview
       <Container>
         <Row className={styles.bottomNavColor}>
         <Col sm={6} >
-            <p className={styles.title}>Artrendezvous</p>
+            <p className={styles.titleblack}>Artrendezvous</p>
             <p className={styles.description}>International Videography Website Redesign</p>
             <Link to={'/artrendezvous'}>
               <p className={styles.description}> View Previous </p>
             </Link>
           </Col>
           <Col sm={6} >
-            <p className={styles.title}>Sanchez Coffee Co</p>
+            <p className={styles.titleblack}>Sanchez Coffee Co</p>
             <p className={styles.description}>International Videography Website Redesign</p>
             <Link to={'/sanchezcoffeeco'}>
               <p className={styles.description}> View Next </p>

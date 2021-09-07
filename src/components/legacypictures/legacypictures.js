@@ -116,10 +116,10 @@ large: "(min-width: 1200px)"
 
 <p className={styles.titleblack}>Legacy Pictures</p>
 <div className={styles.spaceingwhite}></div>
-<p className={styles.descriptionblack}>Case Study: San Francisco Mobile Application Startup</p>
-<p className={styles.descriptionblack}>Project Date: October 2016 - January 2017</p>
-<p className={styles.descriptionblack}>Role: Graphic UI/UX Designer Intern</p>
-<p className={styles.descriptionblack}>Location: San Francisco Bay Area</p>
+<p className={styles.descriptionblack}>Case Study: Los Angeles Web Application Re-Design</p>
+<p className={styles.descriptionblack}>Project Date: July 2021 - August 2021</p>
+<p className={styles.descriptionblack}>Role: UI/UX Designer</p>
+<p className={styles.descriptionblack}>Location: Los Angeles, CA</p>
 
 
 </Container>
@@ -157,10 +157,10 @@ large: "(min-width: 1200px)"
 
 <p className={styles.titleblack}>Legacy Pictures</p>
 <div className={styles.spaceingwhite}></div>
-<p className={styles.descriptionblack}>Case Study: San Francisco Mobile Application Startup</p>
-<p className={styles.descriptionblack}>Project Date: October 2016 - January 2017</p>
-<p className={styles.descriptionblack}>Role: Graphic UI/UX Designer Intern</p>
-<p className={styles.descriptionblack}>Location: San Francisco Bay Area</p>
+<p className={styles.descriptionblack}>Case Study: Los Angeles Web Application Re-Design</p>
+<p className={styles.descriptionblack}>Project Date: July 2021 - August 2021</p>
+<p className={styles.descriptionblack}>Role: UI/UX Designer</p>
+<p className={styles.descriptionblack}>Location: Los Angeles, CA</p>
 
 
 </Container>
@@ -197,10 +197,10 @@ large: "(min-width: 1200px)"
 
 <p className={styles.titlelargeblack}>Legacy Pictures</p>
 <div className={styles.spaceingwhite}></div>
-<p className={styles.descriptionlargeblack}>Case Study: San Francisco Mobile Application Startup</p>
-<p className={styles.descriptionlargeblack}>Project Date: October 2016 - January 2017</p>
-<p className={styles.descriptionlargeblack}>Role: Graphic UI/UX Designer Intern</p>
-<p className={styles.descriptionlargeblack}>Location: San Francisco Bay Area</p>
+<p className={styles.descriptionlargeblack}>Case Study: Los Angeles Web Application Re-Design</p>
+<p className={styles.descriptionlargeblack}>Project Date: July 2021 - August 2021</p>
+<p className={styles.descriptionlargeblack}>Role: UI/UX Designer</p>
+<p className={styles.descriptionlargeblack}>Location: Los Angeles, CA</p>
 
 </Container>
 </Col>
