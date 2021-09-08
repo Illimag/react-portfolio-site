@@ -48,7 +48,7 @@ position: relative;
     background-color: #4ADEDE !important;
     */
 
-    background: #000 !important;
+    background: #4285f4 !important;
 background: -moz-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: -webkit-linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
 background: linear-gradient(40deg, rgba(74,222,222,1) 28%, rgba(120,230,230,1) 78%);
@@ -383,6 +383,12 @@ background: rgba(0,0,0,0.5);
     background-color: #fff;
 }
 
+.spaceinglargeblack{
+    height: 15vh;
+    background-color: #000;
+}
+
+
 
 .title{
     font-weight: 700;
@@ -617,4 +623,8 @@ background: rgba(0,0,0,0.5);
     color:#000 !important;
     font-weight: 700;
     overflow-wrap: break-word;
+}
+
+.paddingleft{
+    padding-left:20%;
 }

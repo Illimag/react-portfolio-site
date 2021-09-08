@@ -19,7 +19,7 @@ import Img04 from '../../assets/img/nikerate/1-04.jpg';
 import Img05 from '../../assets/img/nikerate/1-05.jpg';
 import Img06 from '../../assets/img/nikerate/1-06.jpg';
 import Img07 from '../../assets/img/nikerate/1-07.jpg';
-import Img08 from '../../assets/img/uguru/1-08.png';
+import Img08 from '../../assets/img/legacypictures/team-of-photographers-MQNU8CK.jpg';
 
 
 import styles from '../css/style.module.css';
@@ -33,9 +33,10 @@ import ImgC from '../../assets/img/uguru/testpics-03.png';
 import ImgTablet from '../../assets/img/uguru/testpics-01.png';
 
 import testimg from '../../assets/img/uguru/testpics-05.png';
-import desktopImg from '../../assets/img/uguru/testpics-07.png';
+import desktopImg from '../../assets/img/legacypictures/Mobile-Mockup.png';
 import Twodesktop from '../../assets/img/uguru/testpics-06.png';
 import duo from '../../assets/img/uguru/testpics-08.png';
+import personas from '../../assets/img/legacypictures/personas.png';
 
 //import testtest from '../../assets/img/uguru/ttt-01.png';
 
@@ -45,6 +46,7 @@ import Vid2 from '../../assets/vids/compressed_vid/vid2.m4v';
 import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
 import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
 import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
+
 
 
 import Media from 'react-media';
@@ -137,9 +139,6 @@ large: "(min-width: 1200px)"
 *Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.*
 </p>
 
-<p className={styles.description}>I was approached by Matt looking for someone to sign a contract with a company looking for a redesign of a website. After the website is designed, Matthew would start development of the website. Over the span of 1-2months, they designed a redesign of their web platform. Used usability testing, as well as getting feedback from the executives,</p>
-
-
 </Container>
 
 </Col>
@@ -179,8 +178,6 @@ large: "(min-width: 1200px)"
 *Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.*
 </p>
 
-<p className={styles.descriptionlargeblack}>I was approached by Matt looking for someone to sign a contract with a company looking for a redesign of a website. After the website is designed, Matthew would start development of the website. Over the span of 1-2months, they designed a redesign of their web platform. Used usability testing, as well as getting feedback from the executives,</p>
-
 
 </Container>
 
@@ -217,8 +214,6 @@ large: "(min-width: 1200px)"
 <p className={styles.descriptionlargeblack}>
 *Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.*
 </p>
-
-<p className={styles.descriptionlargeblack}>I was approached by Matt looking for someone to sign a contract with a company looking for a redesign of a website. After the website is designed, Matthew would start development of the website. Over the span of 1-2months, they designed a redesign of their web platform. Used usability testing, as well as getting feedback from the executives,</p>
 
 </Container>
 
@@ -349,16 +344,114 @@ Initial sneaker catalog overview
 {/* left text right img */}
 
 
-{/* left text right img */}
-<Row className={styles.test}>
-  <Col sm>
-    <Image src={Img08} fluid className={styles.imgstyle} />
+
+
+  <Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+  }}>
+    {matches => (
+      <>
+
+        {matches.small &&
+
+<Row className={styles.rowsmall}>
+<Col sm>
+  <Image src={Img08} fluid className={styles.imgstyle} />
+</Col>
+
+
+<Col sm>
+  <Row className={styles.test}>
+
+<p className={styles.titleblack}>Scope of the Project</p>
+<div className={styles.spaceingwhite}></div>
+    <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
+    <div className={styles.spaceingwhite}></div>
+
+    <div className={styles.paddingleft}>
+    <ol className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>Redesign of a website</li>
+      <li className={styles.descriptionblack}>Usability testing getting feedback from executives</li>
+      <li className={styles.descriptionblack}>Redesign of Web Platform</li>
+    </ol>
+    </div>
+
+    </Row>
   </Col>
+  </Row>
+          }
+
+        {matches.medium &&
+          <Row className={styles.rowmedium}>
+<Col sm>
+  <Image src={Img08} fluid className={styles.imgstyle} />
+</Col>
+
+
+<Col sm>
+  <Row className={styles.test}>
+
+<p className={styles.titleblack}>Scope of the Project</p>
+<div className={styles.spaceingwhite}></div>
+    <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
+    <div className={styles.spaceingwhite}></div>
+
+    <div className={styles.paddingleft}>
+    <ol className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>Redesign of a website</li>
+      <li className={styles.descriptionblack}>Usability testing getting feedback from executives</li>
+      <li className={styles.descriptionblack}>Redesign of Web Platform</li>
+    </ol>
+    </div>
+
+    </Row>
+  </Col>
+  </Row>
+          }
+
+        {matches.large &&
+          <Row className={styles.rowlarge}>
+<Col sm>
+  <Image src={Img08} fluid className={styles.imgstyle} />
+</Col>
+
+
+<Col sm>
+  <Row className={styles.test}>
+
+<p className={styles.titlelargeblack}>Scope of the Project</p>
+<div className={styles.spaceingwhite}></div>
+    <p className={styles.descriptionlargeblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
+    <div className={styles.spaceingwhite}></div>
+
+    <div className={styles.paddingleft}>
+    <ol className={styles.descriptionlargeblack}>
+      <li className={styles.descriptionlargeblack}>Redesign of a website</li>
+      <li className={styles.descriptionlargeblack}>Usability testing getting feedback from executives</li>
+      <li className={styles.descriptionlargeblack}>Redesign of Web Platform</li>
+    </ol>
+    </div>
+
+    </Row>
+  </Col>
+  </Row>
+          }
+
+      </>
+    )}
+  </Media>
 
 
 
 
-  <Col sm>
+
+
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+
+
   <Media queries={{
     small: "(max-width: 599px)",
     medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -370,52 +463,142 @@ Initial sneaker catalog overview
         {matches.small &&
   <Row className={styles.rowsmall}>
 
-<p className={styles.titleblack}>Building Empathy</p>
-<div className={styles.spaceingwhite}></div>
-    <p className={styles.descriptionblack}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
-    <div className={styles.spaceingwhite}></div>
-      <p className={styles.descriptionblack}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.**</p>
-      <p className={styles.descriptionblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.**This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.**</p>
+    <p className={styles.titleblack}>Writing contract with company</p>
+    <p className={styles.descriptionblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+    
+    <p className={styles.titleblack}>Building Empathy</p>
+    <p className={styles.descriptionblack}>Users of the Legacy Pictures website:</p>
+    
+    <div className={styles.paddingleft}>
+    <ul className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>Executives</li>
+      <li className={styles.descriptionblack}>Videographers</li>
+      <li className={styles.descriptionblack}>Creative Managers</li>
+    </ul>
+    </div>
 
-    </Row>
+          <Image src={personas} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+          Initial sneaker catalog overview
+          </p>
+ 
+
+    <p className={styles.titleblack}>Use Case Scenarios</p>
+    <p className={styles.descriptionblack}>Videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representation of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+    
+    <p className={styles.titleblack}>Stakeholders for the website</p>
+    <p className={styles.descriptionblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+    <p className={styles.descriptionblack}>This is related to various stakeholders of the company, on how to design the application. </p>
+    
+    <div className={styles.paddingleft}>
+    <ul className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>Users of the website</li>
+      <li className={styles.descriptionblack}>Executives</li>
+      <li className={styles.descriptionblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    </ul>
+    </div>
+
+         </Row>
           }
 
         {matches.medium &&
   <Row className={styles.rowmedium}>
+    
+    <p className={styles.titleblack}>Writing contract with company</p>
+    <p className={styles.descriptionblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+    
+    <p className={styles.titleblack}>Building Empathy</p>
+    <p className={styles.descriptionblack}>Users of the Legacy Pictures website:</p>
+    
+    <div className={styles.paddingleft}>
+    <ul className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>Executives</li>
+      <li className={styles.descriptionblack}>Videographers</li>
+      <li className={styles.descriptionblack}>Creative Managers</li>
+    </ul>
+    </div>
+
+    <Image src={personas} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+          Initial sneaker catalog overview
+          </p>
+
+    <p className={styles.titleblack}>Use Case Scenarios</p>
+    <p className={styles.descriptionblack}>Videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representation of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+    
+    <p className={styles.titleblack}>Stakeholders for the website</p>
+    <p className={styles.descriptionblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+    <p className={styles.descriptionblack}>This is related to various stakeholders of the company, on how to design the application. </p>
+    
+    <div className={styles.paddingleft}>
+    <ul className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>Users of the website</li>
+      <li className={styles.descriptionblack}>Executives</li>
+      <li className={styles.descriptionblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    </ul>
+    </div>
 
 
-<p className={styles.titleblack}>Building Empathy</p>
-<div className={styles.spaceingwhite}></div>
-    <p className={styles.descriptionblack}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
-    <div className={styles.spaceingwhite}></div>
-      <p className={styles.descriptionblack}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.**</p>
-      <p className={styles.descriptionblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.**This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.**</p>
-  
- 
- </Row>
+      </Row>
           }
 
         {matches.large &&
       <Row className={styles.rowlarge}>
 
-   
-<p className={styles.titlelargeblack}>Building Empathy</p>
-<div className={styles.spaceingwhite}></div>
-    <p className={styles.descriptionlargeblack}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
-    <div className={styles.spaceingwhite}></div>
-      <p className={styles.descriptionlargeblack}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.**</p>
-      <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.**This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.**</p>
-   
+<p className={styles.titlelargeblack}>Writing contract with company</p>
+    <p className={styles.descriptionlargeblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+    
+    <p className={styles.titlelargeblack}>Building Empathy</p>
+    <p className={styles.descriptionlargeblack}>Users of the Legacy Pictures website:</p>
+    
+    <div className={styles.paddingleft}>
+    <ul className={styles.descriptionlargeblack}>
+      <li className={styles.descriptionlargeblack}>Executives</li>
+      <li className={styles.descriptionlargeblack}>Videographers</li>
+      <li className={styles.descriptionlargeblack}>Creative Managers</li>
+    </ul>
+    </div>
+
+    <Image src={personas} fluid className={styles.imgstyle} />
+          <p className={styles.description}>
+          Initial sneaker catalog overview
+          </p>
+
+    <p className={styles.titlelargeblack}>Use Case Scenarios</p>
+    <p className={styles.descriptionlargeblack}>Videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representation of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+    
+    <p className={styles.titlelargeblack}>Stakeholders for the website</p>
+    <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
+    
+    <div className={styles.paddingleft}>
+    <ul className={styles.descriptionlargeblack}>
+      <li className={styles.descriptionlargeblack}>Users of the website</li>
+      <li className={styles.descriptionlargeblack}>Executives</li>
+      <li className={styles.descriptionlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    </ul>
+    </div>
+
          </Row>
           }
 
       </>
     )}
   </Media>
+
+
+  
+  
   </Col>
 
-
 </Row>
+
+
+
+
+
+
+
 
 
 <Row className={styles.test}>
