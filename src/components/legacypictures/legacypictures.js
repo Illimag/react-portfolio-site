@@ -499,12 +499,12 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 <Row className={styles.rowsmall}>
 
 
-<Col sm>
-  <Row className={styles.test}>
 
   <p className={styles.subtitlelargeblack}>Challenge:</p>
     <p className={styles.descriptionblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. </p>
      
+    <Image src={Img07} fluid className={styles.imgstyle} />
+
     <p className={styles.subtitlelargeblack}>Initial Scope :</p>
 
      
@@ -516,23 +516,20 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     </ul>
     </div>
 
-    </Row>
-  </Col>
-  <Col sm>
-  <Image src={Img07} fluid className={styles.imgstyle} />
-</Col>
   </Row>
           }
 
         {matches.medium &&
           <Row className={styles.rowmedium}>
 
-<Col sm>
-  <Row className={styles.test}>
-
   <p className={styles.subtitlelargeblack}>Challenge:</p>
     <p className={styles.descriptionblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. </p>
      
+
+    <Image src={Img07} fluid className={styles.imgstyle} />
+
+
+
     <p className={styles.subtitlelargeblack}>Initial Scope :</p>
 
      
@@ -544,26 +541,21 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     </ul>
     </div>
 
-    </Row>
-  </Col>
-  <Col sm>
-  <Image src={Img07} fluid className={styles.imgstyle} />
-</Col>
+ 
   </Row>
           }
 
         {matches.large &&
           <Row className={styles.rowlarge}>
 
-<Col sm>
-  <Row className={styles.test}>
 
   <p className={styles.subtitlelargeblack}>Challenge:</p>
     <p className={styles.descriptionlargeblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. </p>
      
+    <Image src={Img07} fluid className={styles.imgstyle} />
+
     <p className={styles.subtitlelargeblack}>Initial Scope :</p>
 
-     
       <p className={styles.descriptionlargeblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
       <div className={styles.paddingleft}>
     <ul className={styles.descriptionlargeblack}>
@@ -572,11 +564,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     </ul>
     </div>
 
-    </Row>
-  </Col>
-  <Col sm>
-  <Image src={Img07} fluid className={styles.imgstyle} />
-</Col>
   </Row>
           }
 
@@ -599,8 +586,23 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 </Row>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <Row className={styles.test}>
   <Col sm className={styles.fonttest}>
+
 
 
   <Media queries={{
@@ -612,49 +614,76 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
       <>
 
         {matches.small &&
-  <Container>
 
-    <p className={styles.subtitlelargeblack}>IDEATE:</p>
-    <p className={styles.descriptionblack}>Understanding that there are multiple stakeholders as well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
-    <p className={styles.descriptionblack}>After the tests, showcased various metrics based on the performance test, showed that an update to the website would greatly improve the performance of the website, which would be a better user experience.</p>
-    <p className={styles.descriptionblack}>The designs of the website would have to keep Mobile Responsive methologoies in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
-    <p className={styles.descriptionblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
-    <p className={styles.descriptionblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</p>
+<Row className={styles.rowsmall}>
 
-         </Container>
+
+
+  <p className={styles.subtitlelargeblack}>User Flow</p>
+    <p className={styles.descriptionblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website. I was the sole UI/UX Designer for the whole thing.  </p>
+    
+
+    <p className={styles.subtitlelargeblack}>Initial Scope :</p>
+
+     
+      <p className={styles.descriptionblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
+      <div className={styles.paddingleft}>
+    <ul className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>start a redesign process for the website</li>
+      <li className={styles.descriptionblack}>converting it to new UI/UX Design trends.</li>
+    </ul>
+    </div>
+
+  </Row>
           }
 
         {matches.medium &&
-  <Container>
-    
-    <p className={styles.subtitlelargeblack}>IDEATE:</p>
-    <p className={styles.descriptionblack}>Understanding that there are multiple stakeholders as well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
-    <p className={styles.descriptionblack}>After the tests, showcased various metrics based on the performance test, showed that an update to the website would greatly improve the performance of the website, which would be a better user experience.</p>
-    <p className={styles.descriptionblack}>The designs of the website would have to keep Mobile Responsive methologoies in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
-    <p className={styles.descriptionblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
-    <p className={styles.descriptionblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</p>
+          <Row className={styles.rowmedium}>
+
+  <p className={styles.subtitlelargeblack}>User Flow</p>
+    <p className={styles.descriptionblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website. I was the sole UI/UX Designer for the whole thing. </p>
+     
 
 
-      </Container>
+    <p className={styles.subtitlelargeblack}>Initial Scope :</p>
+
+     
+      <p className={styles.descriptionblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
+      <div className={styles.paddingleft}>
+    <ul className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>start a redesign process for the website</li>
+      <li className={styles.descriptionblack}>converting it to new UI/UX Design trends.</li>
+    </ul>
+    </div>
+
+ 
+  </Row>
           }
 
         {matches.large &&
-      <Container>
+          <Row className={styles.rowlarge}>
 
-<p className={styles.subtitlelargeblack}>IDEATE:</p>
-<p className={styles.descriptionlargeblack}>Understanding that there are multiple stakeholders as well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
-    <p className={styles.descriptionlargeblack}>After the tests, showcased various metrics based on the performance test, showed that an update to the website would greatly improve the performance of the website, which would be a better user experience.</p>
-    <p className={styles.descriptionlargeblack}>The designs of the website would have to keep Mobile Responsive methologoies in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
-    <p className={styles.descriptionlargeblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
-    <p className={styles.descriptionlargeblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</p>
 
-         </Container>
+  <p className={styles.subtitlelargeblack}>User Flow</p>
+    <p className={styles.descriptionlargeblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website. I was the sole UI/UX Designer for the whole thing. </p>
+     
+
+    <p className={styles.subtitlelargeblack}>Initial Scope :</p>
+
+      <p className={styles.descriptionlargeblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
+      <div className={styles.paddingleft}>
+    <ul className={styles.descriptionlargeblack}>
+      <li className={styles.descriptionlargeblack}>start a redesign process for the website</li>
+      <li className={styles.descriptionlargeblack}>converting it to new UI/UX Design trends.</li>
+    </ul>
+    </div>
+
+  </Row>
           }
 
       </>
     )}
   </Media>
-
 
   
   
