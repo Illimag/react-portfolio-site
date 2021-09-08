@@ -462,7 +462,7 @@ background: rgba(0,0,0,0.5);
     font-size: 1.2em;
     margin-bottom: 2% !important;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     text-align: justify;
     color:#000 !important;
 }
@@ -497,11 +497,27 @@ background: rgba(0,0,0,0.5);
     color:#000 !important;
 }
 
+.subtitlelargeblack{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0% !important;
+    font-family: 'Inter', sans-serif;
+    color:#000 !important;
+}
+
+.subtitlelargeblack{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0% !important;
+    font-family: 'Inter', sans-serif;
+    color:#000 !important;
+}
+
 .descriptionlargeblack{
     font-size: 1.5rem;
     margin-bottom: 2% !important;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     text-align: justify;
     color:#000 !important;
 }
@@ -548,8 +564,8 @@ background: rgba(0,0,0,0.5);
 
     position: relative;
 
-    padding-right:0% !important;
-    padding-left: 0% !important;
+    padding-right:7% !important;
+    padding-left: 7% !important;
 }
 
 .rowmedium{
@@ -564,8 +580,8 @@ background: rgba(0,0,0,0.5);
 
     position: relative;
 
-    padding-right:20% !important;
-    padding-left: 20% !important;
+    padding-right:25% !important;
+    padding-left: 25% !important;
 }
 
 
