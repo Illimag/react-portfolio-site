@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf3700a7591b69ebd7b3af3e352e9c73",
+    "revision": "2fd825c610dcf3d5c1c160ad699fffbf",
     "url": "/index.html"
   },
   {
-    "revision": "39a8b99cb7183630f693",
+    "revision": "1eab7fb52f439546aa7a",
     "url": "/static/css/2.46b578d6.chunk.css"
   },
   {
-    "revision": "6af729c4411fe58bc7c2",
-    "url": "/static/css/main.7e205333.chunk.css"
+    "revision": "a04ced4a315b08282f28",
+    "url": "/static/css/main.edc9f3c5.chunk.css"
   },
   {
-    "revision": "39a8b99cb7183630f693",
-    "url": "/static/js/2.a83df486.chunk.js"
+    "revision": "1eab7fb52f439546aa7a",
+    "url": "/static/js/2.3d866511.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.a83df486.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3d866511.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6af729c4411fe58bc7c2",
-    "url": "/static/js/main.f0628204.chunk.js"
+    "revision": "a04ced4a315b08282f28",
+    "url": "/static/js/main.eb28e971.chunk.js"
   },
   {
     "revision": "ac85d4e4ba0d56af43d5",
@@ -152,10 +152,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/1-07.2ddda6a4.jpg"
   },
   {
-    "revision": "c8b138696417f5ec29ed4fd3a0170e41",
-    "url": "/static/media/1-07.4ef93892.jpg"
-  },
-  {
     "revision": "f55bf7179a5bacbc4fdfa6769e2e51d9",
     "url": "/static/media/1-07.bf58b2a0.jpg"
   },
@@ -246,6 +242,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fb67f8b6fdb9b04946efba4a1df40814",
     "url": "/static/media/Mobile-Mockup.4861eff6.png"
+  },
+  {
+    "revision": "88bc504349c6e1ddc1053f7e41ca8e33",
+    "url": "/static/media/Website-User-scenario-workflow.e9e2ac6c.png"
   },
   {
     "revision": "4072dad5b4a3601aa9fa70e8f1eede94",
@@ -350,6 +350,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "80db2340da4308069abda394674835e5",
     "url": "/static/media/vid2.80db2340.m4v"
+  },
+  {
+    "revision": "6635ec8f89aface1e03e362dea277e5d",
+    "url": "/static/media/video-production-concept-operator-working-with-a-c-2JS9M5Q.78665f9b.jpg"
   },
   {
     "revision": "4723d94b110290185288387040d5d9b2",

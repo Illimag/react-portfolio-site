@@ -151,9 +151,9 @@ export const Home = () => {
             
 
               <LinkContainer to="/Contact">
-                <p>
+                <h1>
                   <Button className={styles.mainbutton} variant="primary">Contact Now</Button>
-                </p>
+                </h1>
               </LinkContainer>
 
                 </div>
@@ -206,9 +206,9 @@ export const Home = () => {
                 <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
 
                 <LinkContainer to="/legacypictures">
-                <p>
+                <h1>
                   <Button className={styles.mainbutton} variant="primary">Learn More</Button>
-                </p>
+                </h1>
               </LinkContainer>
 
               </div>
@@ -261,9 +261,9 @@ export const Home = () => {
                 <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile application user experience and redesign.</h5>
 
                 <LinkContainer to="/artrendezvous">
-                <p>
+                <h1>
                   <Button className={styles.mainbutton} variant="primary">Learn More</Button>
-                </p>
+                </h1>
               </LinkContainer>
 
               </div>
@@ -316,9 +316,9 @@ export const Home = () => {
                   <p className={styles.test1title}>UI/UX & graphic designer internship at mobile application startup in downtown San Francisco.</p>
 
                   <LinkContainer to="/uguru">
-                <p>
+                <h1>
                   <Button className={styles.mainbutton} variant="primary">Learn More</Button>
-                </p>
+                </h1>
               </LinkContainer>
                
                 </div>
@@ -374,9 +374,9 @@ export const Home = () => {
                 <h5 className={styles.test1title}>Los Angeles coffee distribution company web payment platform.</h5>
 
                 <LinkContainer to="/sanchezcoffeeco">
-                <p>
+                <h1>
                   <Button className={styles.mainbutton} variant="primary">Learn More</Button>
-                </p>
+                </h1>
               </LinkContainer>
 
               </div>
@@ -428,9 +428,9 @@ export const Home = () => {
                 <h5 className={styles.test1title}>San Leandro videography company virtual reality web application design.</h5>
 
                 <LinkContainer to="/apexvr">
-                <p>
+                <h1>
                   <Button className={styles.mainbutton} variant="primary">Learn More</Button>
-                </p>
+                </h1>
               </LinkContainer>
 
               </div>  
@@ -484,9 +484,9 @@ export const Home = () => {
                 <h5 className={styles.test1title}>User experience designer community website design.</h5>
 
                 <LinkContainer to="/stepsaver">
-                <p>
+                <h1>
                   <Button className={styles.mainbutton} variant="primary">Learn More</Button>
-                </p>
+                </h1>
               </LinkContainer>
 
                             </div>

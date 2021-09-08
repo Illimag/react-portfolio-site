@@ -564,8 +564,8 @@ background: rgba(0,0,0,0.5);
 
     position: relative;
 
-    padding-right:7% !important;
-    padding-left: 7% !important;
+    padding-right:10% !important;
+    padding-left: 10% !important;
 }
 
 .rowmedium{
@@ -642,5 +642,5 @@ background: rgba(0,0,0,0.5);
 }
 
 .paddingleft{
-    padding-left:20%;
+    padding-left:10%;
 }
