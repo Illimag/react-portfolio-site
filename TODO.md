@@ -2,21 +2,16 @@
 
 ## Need to do
 
-- [] Add Parallax to images
-
-- [] Fit footer to fit entire phone screen.
-
-- [] Change logo
-
-- [] Add PWA fullscreen functionality, maybe with a popup or something.
-
-- [] Larger font for 4k smart tv size and larger monitor sizes
-
-- [] Write copywriting more about the work we did in the team, as well as my role in the team.
-
-- [] Responsive Images and Videos for Mobile
-- [] React Asset Loader
-- [] Loading Screen
+- [] The rest of the content for the pieces need to go onto the portfolio.
+- [] The contact page needs to be completed
+- [] The footer needs to be completed
+- [] The loading screen needs to be completed
+- [] The home page videos need to be completed
+- [] The font and padding/spacing needs to be completed
+- [] The missing portfolio pieces need to be completed for example missing personas and mind maps
+- [] Missing Portfolio pieces, also wireframes, and because low quality image, needs to redesign on Adobe illustrator so the quality can be better
+- [] Need to edit the text on the portfolio
+- [] Need to edit the photos on the portfolio
 
 
 ## In-Process
@@ -26,3 +21,5 @@
 ## Completed
 
 - [x] Create TODO.md
+- [x] React Asset Loader
+- [x] Loading Screen

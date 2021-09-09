@@ -396,6 +396,7 @@ background: rgba(0,0,0,0.5);
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
     color:#fff !important;
+    letter-spacing: -1px;
 }
 
 .description{
@@ -406,6 +407,7 @@ background: rgba(0,0,0,0.5);
     text-align: left;
     color:#333 !important;
     letter-spacing: -1px;
+    letter-spacing: -1px;
 }
 
 .descriptionwhite{
@@ -415,6 +417,7 @@ background: rgba(0,0,0,0.5);
     font-weight: 600;
     text-align: left;
     color:#fff !important;
+    letter-spacing: -1px;
     letter-spacing: -1px;
 }
 
@@ -429,6 +432,7 @@ background: rgba(0,0,0,0.5);
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
     color:#fff !important;
+    letter-spacing: -1px;
 }
 
 .descriptionlarge{
@@ -456,15 +460,19 @@ background: rgba(0,0,0,0.5);
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
     color:#000 !important;
+    letter-spacing: -1px;
+    margin-top: 2%;
 }
 
 .descriptionblack{
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 2% !important;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     text-align: justify;
     color:#000 !important;
+    letter-spacing: -1px;
+    margin-top: 2%;
 }
 
 
@@ -474,6 +482,7 @@ background: rgba(0,0,0,0.5);
     font-size: 3rem;
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
+    letter-spacing: -1px;
 }
 
 .descriptionmedium{
@@ -483,6 +492,7 @@ background: rgba(0,0,0,0.5);
     font-weight: 500;
     text-align: justify;
     color:#fff !important;
+    letter-spacing: -1px;
 }
 
 
@@ -495,6 +505,8 @@ background: rgba(0,0,0,0.5);
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
     color:#000 !important;
+    letter-spacing: -1px;
+    margin-top: 2%;
 }
 
 .subtitlelargeblack{
@@ -503,6 +515,7 @@ background: rgba(0,0,0,0.5);
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
     color:#000 !important;
+    letter-spacing: -1px;
 }
 
 .subtitlelargeblack{
@@ -511,15 +524,61 @@ background: rgba(0,0,0,0.5);
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
     color:#000 !important;
+    letter-spacing: -1px;
 }
 
-.descriptionlargeblack{
+.listitemblack{
+    font-size: 1em;
+    margin-bottom: 2% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    color:#000 !important;
+    letter-spacing: -1px;
+}
+
+.listitemlargeblack{
     font-size: 1.5rem;
     margin-bottom: 2% !important;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     text-align: justify;
     color:#000 !important;
+    letter-spacing: -1px;
+}
+
+.listblack{
+    font-size: 1.5em;
+    margin-bottom: 2% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    color:#000 !important;
+    letter-spacing: -1px;
+}
+
+.listlargeblack{
+    font-size: 1.5em;
+    margin-bottom: 2% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    color:#000 !important;
+    letter-spacing: -1px;
+}
+
+
+
+
+.descriptionlargeblack{
+    font-size: 2rem;
+    margin-bottom: 2% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    color:#000 !important;
+    letter-spacing: -1px;
+    margin-top: 2%;
 }
 
 
@@ -530,6 +589,7 @@ background: rgba(0,0,0,0.5);
     font-weight: 900;
     text-align: justify;
     color:#fff !important;
+    letter-spacing: -1px;
 }
 
 .titlecenter{
@@ -540,6 +600,7 @@ background: rgba(0,0,0,0.5);
     color:#fff !important;
 
     text-align: center;
+    letter-spacing: -1px;
 
 }
 
@@ -551,6 +612,7 @@ background: rgba(0,0,0,0.5);
     color:#fff !important;
 
     text-align: center;
+    letter-spacing: -1px;
 
 }
 
@@ -580,8 +642,8 @@ background: rgba(0,0,0,0.5);
 
     position: relative;
 
-    padding-right:25% !important;
-    padding-left: 25% !important;
+    padding-right:30% !important;
+    padding-left: 30% !important;
 }
 
 

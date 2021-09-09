@@ -12,14 +12,19 @@ import Badge from 'react-bootstrap/Badge';
 
 import Img00 from '../../assets/img/dasdasdigital/banner-02.jpg';
 import Banner from '../../assets/img/nikerate/banner-06.jpg';
-import Img01 from '../../assets/img/nikerate/1-01.jpg';
-import Img02 from '../../assets/img/nikerate/1-02.jpg';
-import Img03 from '../../assets/img/nikerate/1-03.jpg';
-import Img04 from '../../assets/img/nikerate/1-04.jpg';
-import Img05 from '../../assets/img/nikerate/1-05.jpg';
-import Img06 from '../../assets/img/nikerate/1-06.jpg';
+import Img01 from '../../assets/img/legacypictures/graphite-s6.png';
+import Img02 from '../../assets/img/legacypictures/legacyfilms.png';
+import Img03 from '../../assets/img/legacypictures/cardsort.jpg';
+import Img04 from '../../assets/img/legacypictures/test.png';
+import Img05 from '../../assets/img/legacypictures/test1.png';
+import Img06 from '../../assets/img/legacypictures/test2.png';
 import Img07 from '../../assets/img/legacypictures/video-production-concept-operator-working-with-a-c-2JS9M5Q.jpg';
 import Img08 from '../../assets/img/legacypictures/team-of-photographers-MQNU8CK.jpg';
+import Img09 from '../../assets/img/legacypictures/bubble-mindmap-template.png';
+import Img10 from '../../assets/img/legacypictures/mind-mapping-diagram-8391.png';
+import Img11 from '../../assets/img/legacypictures/male-videographer-editor-using-pc-computer-editing-R7QYFZS.jpg';
+
+
 
 
 import styles from '../css/style.module.css';
@@ -48,6 +53,8 @@ import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
 import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
+
+
 
 
 import Media from 'react-media';
@@ -118,13 +125,16 @@ large: "(min-width: 1200px)"
 <Container className={styles.fonttest}>
 
 <p className={styles.titleblack}>Legacy Pictures</p>
-<div className={styles.spaceingwhite}></div>
 <p className={styles.descriptionblack}>Case Study: Los Angeles Web Application Re-Design</p>
 <p className={styles.descriptionblack}>Project Date: July 2021 - August 2021</p>
 <p className={styles.descriptionblack}>Role: UI/UX Designer</p>
 <p className={styles.descriptionblack}>Location: Los Angeles, CA</p>
 
+<div className={styles.spaceingwhite}></div>
+
+
 <p className={styles.subtitlelargeblack}>Introduction:</p>
+
 
 <p className={styles.description}>
 Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.*
@@ -145,13 +155,16 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 <Container className={styles.fonttest}>
 
 <p className={styles.titleblack}>Legacy Pictures</p>
-<div className={styles.spaceingwhite}></div>
 <p className={styles.descriptionblack}>Case Study: Los Angeles Web Application Re-Design</p>
 <p className={styles.descriptionblack}>Project Date: July 2021 - August 2021</p>
 <p className={styles.descriptionblack}>Role: UI/UX Designer</p>
 <p className={styles.descriptionblack}>Location: Los Angeles, CA</p>
 
+<div className={styles.spaceingwhite}></div>
+
 <p className={styles.subtitlelargeblack}>Introduction:</p>
+
+
 
 <p className={styles.descriptionlargeblack}>
 Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
@@ -171,11 +184,12 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 <Container className={styles.fonttest}>
 
 <p className={styles.titlelargeblack}>Legacy Pictures</p>
-<div className={styles.spaceingwhite}></div>
 <p className={styles.descriptionlargeblack}>Case Study: Los Angeles Web Application Re-Design</p>
 <p className={styles.descriptionlargeblack}>Project Date: July 2021 - August 2021</p>
 <p className={styles.descriptionlargeblack}>Role: UI/UX Designer</p>
 <p className={styles.descriptionlargeblack}>Location: Los Angeles, CA</p>
+
+<div className={styles.spaceingwhite}></div>
 
 
 <p className={styles.subtitlelargeblack}>Introduction:</p>
@@ -257,15 +271,13 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 <p className={styles.subtitlelargeblack}>Scope of the Project</p>
-<div className={styles.spaceingwhite}></div>
     <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
-    <div className={styles.spaceingwhite}></div>
 
     <div className={styles.paddingleft}>
-    <ol className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>Redesign of a website</li>
-      <li className={styles.descriptionblack}>Usability testing getting feedback from executives</li>
-      <li className={styles.descriptionblack}>Redesign of Web Platform</li>
+    <ol className={styles.listblack}>
+      <li className={styles.listitemblack}>Redesign of a website</li>
+      <li className={styles.listitemblack}>Usability testing getting feedback from executives</li>
+      <li className={styles.listitemblack}>Redesign of Web Platform</li>
     </ol>
     </div>
 
@@ -281,15 +293,13 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 <p className={styles.subtitlelargeblack}>Scope of the Project</p>
-<div className={styles.spaceingwhite}></div>
     <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
-    <div className={styles.spaceingwhite}></div>
 
     <div className={styles.paddingleft}>
-    <ol className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>Redesign of a website</li>
-      <li className={styles.descriptionblack}>Usability testing getting feedback from executives</li>
-      <li className={styles.descriptionblack}>Redesign of Web Platform</li>
+    <ol className={styles.listblack}>
+      <li className={styles.listitemblack}>Redesign of a website</li>
+      <li className={styles.listitemblack}>Usability testing getting feedback from executives</li>
+      <li className={styles.listitemblack}>Redesign of Web Platform</li>
     </ol>
     </div>
 
@@ -303,15 +313,13 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 <p className={styles.subtitlelargeblack}>Scope of the Project</p>
-<div className={styles.spaceingwhite}></div>
     <p className={styles.descriptionlargeblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
-    <div className={styles.spaceingwhite}></div>
 
     <div className={styles.paddingleft}>
-    <ol className={styles.descriptionlargeblack}>
-      <li className={styles.descriptionlargeblack}>Redesign of a website</li>
-      <li className={styles.descriptionlargeblack}>Usability testing getting feedback from executives</li>
-      <li className={styles.descriptionlargeblack}>Redesign of Web Platform</li>
+    <ol className={styles.listlargeblack}>
+      <li className={styles.listitemlargeblack}>Redesign of a website</li>
+      <li className={styles.listitemlargeblack}>Usability testing getting feedback from executives</li>
+      <li className={styles.listitemlargeblack}>Redesign of Web Platform</li>
     </ol>
     </div>
 
@@ -623,16 +631,11 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website. I was the sole UI/UX Designer for the whole thing.  </p>
     
 
-    <p className={styles.subtitlelargeblack}>Initial Scope :</p>
+    <p className={styles.subtitlelargeblack}>User Flow of Previous Website</p>
 
      
-      <p className={styles.descriptionblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
-      <div className={styles.paddingleft}>
-    <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>start a redesign process for the website</li>
-      <li className={styles.descriptionblack}>converting it to new UI/UX Design trends.</li>
-    </ul>
-    </div>
+    <Image src={Img01} fluid className={styles.imgstyle} />
+    <Image src={Img02} fluid className={styles.imgstyle} />
 
   </Row>
           }
@@ -645,17 +648,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
      
 
 
-    <p className={styles.subtitlelargeblack}>Initial Scope :</p>
+    <p className={styles.subtitlelargeblack}>User Flow of Previous Website</p>
 
-     
-      <p className={styles.descriptionblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
-      <div className={styles.paddingleft}>
-    <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>start a redesign process for the website</li>
-      <li className={styles.descriptionblack}>converting it to new UI/UX Design trends.</li>
-    </ul>
-    </div>
-
+    <Image src={Img01} fluid className={styles.imgstyle} />
+    <Image src={Img02} fluid className={styles.imgstyle} />
  
   </Row>
           }
@@ -668,15 +664,209 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionlargeblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website. I was the sole UI/UX Designer for the whole thing. </p>
      
 
-    <p className={styles.subtitlelargeblack}>Initial Scope :</p>
+    <p className={styles.subtitlelargeblack}>User Flow of Previous Website</p>
+    <Image src={Img01} fluid className={styles.imgstyle} />
+    <Image src={Img02} fluid className={styles.imgstyle} />
+  </Row>
+          }
 
-      <p className={styles.descriptionlargeblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
-      <div className={styles.paddingleft}>
-    <ul className={styles.descriptionlargeblack}>
-      <li className={styles.descriptionlargeblack}>start a redesign process for the website</li>
-      <li className={styles.descriptionlargeblack}>converting it to new UI/UX Design trends.</li>
+      </>
+    )}
+  </Media>
+
+  
+  
+  </Col>
+
+</Row>
+
+
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+
+
+
+  <Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+  }}>
+    {matches => (
+      <>
+
+        {matches.small &&
+
+<Row className={styles.rowsmall}>
+
+
+
+  <p className={styles.subtitlelargeblack}>Mindmapping entire company scope</p>
+  <div className={styles.paddingleft}>
+  <ul className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>CEO of the company,</li>
+      <li className={styles.descriptionblack}>lead developer who would considering technical parts, etc.</li>
+      <li className={styles.descriptionblack}>Internal team </li>
+      <li className={styles.descriptionblack}>larger outside team. </li>
     </ul>
     </div>
+
+    <p className={styles.subtitlelargeblack}>Card sorted a certain part of Legacy Pictures to ideate more about the company.</p>
+
+     
+    <Image src={Img03} fluid className={styles.imgstyle} />
+
+  </Row>
+          }
+
+        {matches.medium &&
+          <Row className={styles.rowmedium}>
+
+<p className={styles.subtitlelargeblack}>Mindmapping entire company scope</p>
+
+<div className={styles.paddingleft}>
+  <ul className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>CEO of the company,</li>
+      <li className={styles.descriptionblack}>lead developer who would considering technical parts, etc.</li>
+      <li className={styles.descriptionblack}>Internal team </li>
+      <li className={styles.descriptionblack}>larger outside team. </li>
+    </ul>
+    </div>
+
+    <p className={styles.subtitlelargeblack}>Card sorted a certain part of Legacy Pictures to ideate more about the company.</p>
+
+    <Image src={Img03} fluid className={styles.imgstyle} />
+ 
+  </Row>
+          }
+
+        {matches.large &&
+          <Row className={styles.rowlarge}>
+
+
+<p className={styles.subtitlelargeblack}>Mindmapping entire company scope</p>
+
+<div className={styles.paddingleft}>
+  <ul className={styles.descriptionlargeblack}>
+      <li className={styles.descriptionlargeblack}>CEO of the company,</li>
+      <li className={styles.descriptionlargeblack}>lead developer who would considering technical parts, etc.</li>
+      <li className={styles.descriptionlargeblack}>Internal team </li>
+      <li className={styles.descriptionlargeblack}>larger outside team. </li>
+    </ul>
+    </div>
+
+    <p className={styles.subtitlelargeblack}>Card sorted a certain part of Legacy Pictures to ideate more about the company.</p>
+    
+    <Image src={Img03} fluid className={styles.imgstyle} />
+  </Row>
+          }
+
+      </>
+    )}
+  </Media>
+
+  
+  
+  </Col>
+
+</Row>
+
+
+
+
+
+
+{/* img without text */}
+<Row>
+  <Col sm>
+    <Image src={Twodesktop} fluid className={styles.imgstyle} />
+
+  </Col>
+</Row>
+
+
+
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+
+
+
+  <Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+  }}>
+    {matches => (
+      <>
+
+        {matches.small &&
+
+<Row className={styles.rowsmall}>
+
+
+
+  <p className={styles.subtitlelargeblack}>Understanding that there are multiple stakeholders</p>
+  <p className={styles.descriptionblack}>As well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
+
+  <div className={styles.paddingleft}>
+  <ul className={styles.descriptionblack}>
+      <li className={styles.descriptionblack}>Increase Usability of Website</li>
+      <li className={styles.descriptionblack}>Improve Performance of Website</li>
+      <li className={styles.descriptionblack}>Better User Experience </li>
+    </ul>
+    </div>
+
+     
+    <Image src={Img04} fluid className={styles.imgstyle} />
+    <Image src={Img05} fluid className={styles.imgstyle} />
+    <Image src={Img06} fluid className={styles.imgstyle} />
+
+  </Row>
+          }
+
+        {matches.medium &&
+          <Row className={styles.rowmedium}>
+
+
+<p className={styles.subtitlelargeblack}>Understanding that there are multiple stakeholders</p>
+  <p className={styles.descriptionblack}>As well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
+
+
+  <div className={styles.paddingleft}>
+  <ul className={styles.descriptionblack}>
+  <li className={styles.descriptionblack}>Increase Usability of Website</li>
+      <li className={styles.descriptionblack}>Improve Performance of Website</li>
+      <li className={styles.descriptionblack}>Better User Experience </li>
+    </ul>
+    </div>
+
+    <Image src={Img04} fluid className={styles.imgstyle} />
+    <Image src={Img05} fluid className={styles.imgstyle} />
+    <Image src={Img06} fluid className={styles.imgstyle} />
+ 
+  </Row>
+          }
+
+        {matches.large &&
+          <Row className={styles.rowlarge}>
+
+
+<p className={styles.subtitlelargeblack}>Understanding that there are multiple stakeholders</p>
+  <p className={styles.descriptionlargeblack}>As well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
+
+
+  <div className={styles.paddingleft}>
+  <ul className={styles.descriptionlargeblack}>
+  <li className={styles.descriptionlargeblack}>Increase Usability of Website</li>
+      <li className={styles.descriptionlargeblack}>Improve Performance of Website</li>
+      <li className={styles.descriptionlargeblack}>Better User Experience </li>
+    </ul>
+
+  </div>
+
+  <Image src={Img04} fluid className={styles.imgstyle} />
+    <Image src={Img05} fluid className={styles.imgstyle} />
+    <Image src={Img06} fluid className={styles.imgstyle} />
+
 
   </Row>
           }
@@ -690,6 +880,245 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   </Col>
 
 </Row>
+
+
+
+
+
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+
+
+
+  <Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+  }}>
+    {matches => (
+      <>
+
+        {matches.small &&
+
+<Row className={styles.rowsmall}>
+
+
+
+  <p className={styles.subtitlelargeblack}>Mobile Responsive Web Design for Desktop and Mobile Devices</p>
+  <p className={styles.descriptionblack}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
+
+    <p className={styles.subtitlelargeblack}>Mind Mapping certain aspects centered around the company website.</p>
+
+     
+    <Image src={Img09} fluid className={styles.imgstyle} />
+
+  </Row>
+          }
+
+        {matches.medium &&
+          <Row className={styles.rowmedium}>
+
+<p className={styles.subtitlelargeblack}>Mobile Responsive Web Design for Desktop and Mobile Devices</p>
+<p className={styles.descriptionblack}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
+
+    <p className={styles.subtitlelargeblack}>Mind Mapping certain aspects centered around the company website.</p>
+
+    <Image src={Img09} fluid className={styles.imgstyle} />
+ 
+  </Row>
+          }
+
+        {matches.large &&
+          <Row className={styles.rowlarge}>
+
+
+<p className={styles.subtitlelargeblack}>Mobile Responsive Web Design for Desktop and Mobile Devices</p>
+<p className={styles.descriptionlargeblack}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
+
+    <p className={styles.subtitlelargeblack}>Mind Mapping certain aspects centered around the company website.</p>
+    
+    <Image src={Img09} fluid className={styles.imgstyle} />
+  </Row>
+          }
+
+      </>
+    )}
+  </Media>
+
+  
+  
+  </Col>
+
+</Row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Row className={styles.test}>
+  <Col sm className={styles.fonttest}>
+
+
+
+  <Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+  }}>
+    {matches => (
+      <>
+
+        {matches.small &&
+
+<Row className={styles.rowsmall}>
+
+
+
+  <p className={styles.subtitlelargeblack}>Showcase Website</p>
+  <p className={styles.descriptionblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
+
+    <p className={styles.subtitlelargeblack}>Minding Mapping concepts about the demographic and types of devices used by those individuals</p>
+    <p className={styles.descriptionblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</p>
+
+     
+    <Image src={Img10} fluid className={styles.imgstyle} />
+
+  </Row>
+          }
+
+        {matches.medium &&
+          <Row className={styles.rowmedium}>
+
+<p className={styles.subtitlelargeblack}>Showcase Website</p>
+<p className={styles.descriptionblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
+
+    <p className={styles.subtitlelargeblack}>Minding Mapping concepts about the demographic and types of devices used by those individuals</p>
+    <p className={styles.descriptionblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</p>
+
+    <Image src={Img10} fluid className={styles.imgstyle} />
+ 
+  </Row>
+          }
+
+        {matches.large &&
+          <Row className={styles.rowlarge}>
+
+
+<p className={styles.subtitlelargeblack}>Showcase Website</p>
+<p className={styles.descriptionlargeblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
+
+    <p className={styles.subtitlelargeblack}>Minding Mapping concepts about the demographic and types of devices used by those individuals</p>
+    <p className={styles.descriptionlargeblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</p>
+
+    <Image src={Img10} fluid className={styles.imgstyle} />
+  </Row>
+          }
+
+      </>
+    )}
+  </Media>
+
+  
+  
+  </Col>
+
+</Row>
+
+
+
+
+
+
+
+
+
+
+<Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+  }}>
+    {matches => (
+      <>
+
+        {matches.small &&
+
+<Row className={styles.rowsmall}>
+
+
+
+  <p className={styles.subtitlelargeblack}>Solution:</p>
+    <p className={styles.descriptionblack}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+     
+    <Image src={Img11} fluid className={styles.imgstyle} />
+
+    <p className={styles.subtitlelargeblack}>Redesign of Website</p>
+
+     
+      <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+
+
+  </Row>
+          }
+
+        {matches.medium &&
+          <Row className={styles.rowmedium}>
+
+  <p className={styles.subtitlelargeblack}>Solution:</p>
+    <p className={styles.descriptionblack}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+     
+
+    <Image src={Img11} fluid className={styles.imgstyle} />
+
+
+
+    <p className={styles.subtitlelargeblack}>Redesign of Website</p>
+
+     
+      <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+
+ 
+  </Row>
+          }
+
+        {matches.large &&
+          <Row className={styles.rowlarge}>
+
+
+  <p className={styles.subtitlelargeblack}>Solution:</p>
+    <p className={styles.descriptionlargeblack}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+     
+    <Image src={Img11} fluid className={styles.imgstyle} />
+
+    <p className={styles.subtitlelargeblack}>Redesign of Website</p>
+
+
+
+  </Row>
+          }
+
+      </>
+    )}
+  </Media>
+
+
+
+
+
+
+
+
+
+
+
 
 
     <Container fluid>

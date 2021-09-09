@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
@@ -29,8 +30,6 @@ const Footer = () => (
 to meet in person to discuss details of your project or are you a hiring manager looking to hire someone local, currently looking for remote
 or in-house positions in the San Francisco Bay Area and Silicon Valley!
 </p>
-
-
 
 
 
