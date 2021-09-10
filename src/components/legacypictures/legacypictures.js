@@ -23,6 +23,18 @@ import Img08 from '../../assets/img/legacypictures/team-of-photographers-MQNU8CK
 import Img09 from '../../assets/img/legacypictures/bubble-mindmap-template.png';
 import Img10 from '../../assets/img/legacypictures/mind-mapping-diagram-8391.png';
 import Img11 from '../../assets/img/legacypictures/male-videographer-editor-using-pc-computer-editing-R7QYFZS.jpg';
+import Img12 from '../../assets/img/legacypictures/copy.png';
+import Img13 from '../../assets/img/legacypictures/1.PNG';
+import Img14 from '../../assets/img/legacypictures/2.PNG';
+import Img15 from '../../assets/img/legacypictures/4.PNG';
+import Img16 from '../../assets/img/legacypictures/comedy-funny-movie-movie-evening-together-at-home--YS7NQEP.jpg';
+import Img17 from '../../assets/img/legacypictures/5.PNG';
+import Img18 from '../../assets/img/legacypictures/3.PNG';
+import Img19 from '../../assets/img/legacypictures/hsl_3.jpg';
+import Img20 from '../../assets/img/legacypictures/hsl-biz_3.jpg';
+import Img21 from '../../assets/img/legacypictures/hsl-biz_4.jpg';
+import Img22 from '../../assets/img/legacypictures/Capture.PNG';
+import Img23 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
 
 
 
@@ -359,10 +371,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionblack}>Users of the Legacy Pictures website:</p>
     
     <div className={styles.paddingleft}>
-    <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>Executives</li>
-      <li className={styles.descriptionblack}>Videographers</li>
-      <li className={styles.descriptionblack}>Creative Managers</li>
+    <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>Executives</li>
+      <li className={styles.listitemblack}>Videographers</li>
+      <li className={styles.listitemblack}>Creative Managers</li>
     </ul>
     </div>
 
@@ -381,10 +393,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionblack}>This is related to various stakeholders of the company, on how to design the application. </p>
     
     <div className={styles.paddingleft}>
-    <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>Users of the website</li>
-      <li className={styles.descriptionblack}>Executives</li>
-      <li className={styles.descriptionblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>Users of the website</li>
+      <li className={styles.listitemblack}>Executives</li>
+      <li className={styles.listitemblack}>Creative Managers who are looking to hire Legacy Pictures</li>
     </ul>
     </div>
 
@@ -401,10 +413,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionblack}>Users of the Legacy Pictures website:</p>
     
     <div className={styles.paddingleft}>
-    <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>Executives</li>
-      <li className={styles.descriptionblack}>Videographers</li>
-      <li className={styles.descriptionblack}>Creative Managers</li>
+    <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>Executives</li>
+      <li className={styles.listitemblack}>Videographers</li>
+      <li className={styles.listitemblack}>Creative Managers</li>
     </ul>
     </div>
 
@@ -422,10 +434,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionblack}>This is related to various stakeholders of the company, on how to design the application. </p>
     
     <div className={styles.paddingleft}>
-    <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>Users of the website</li>
-      <li className={styles.descriptionblack}>Executives</li>
-      <li className={styles.descriptionblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>Users of the website</li>
+      <li className={styles.listitemblack}>Executives</li>
+      <li className={styles.listitemblack}>Creative Managers who are looking to hire Legacy Pictures</li>
     </ul>
     </div>
 
@@ -443,10 +455,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionlargeblack}>Users of the Legacy Pictures website:</p>
     
     <div className={styles.paddingleft}>
-    <ul className={styles.descriptionlargeblack}>
-      <li className={styles.descriptionlargeblack}>Executives</li>
-      <li className={styles.descriptionlargeblack}>Videographers</li>
-      <li className={styles.descriptionlargeblack}>Creative Managers</li>
+    <ul className={styles.listlargeblack}>
+      <li className={styles.listitemlargeblack}>Executives</li>
+      <li className={styles.listitemlargeblack}>Videographers</li>
+      <li className={styles.listitemlargeblack}>Creative Managers</li>
     </ul>
     </div>
 
@@ -462,10 +474,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
     
     <div className={styles.paddingleft}>
-    <ul className={styles.descriptionlargeblack}>
-      <li className={styles.descriptionlargeblack}>Users of the website</li>
-      <li className={styles.descriptionlargeblack}>Executives</li>
-      <li className={styles.descriptionlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    <ul className={styles.listlargeblack}>
+      <li className={styles.listitemlargeblack}>Users of the website</li>
+      <li className={styles.listitemlargeblack}>Executives</li>
+      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
     </ul>
     </div>
 
@@ -518,9 +530,9 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
      
       <p className={styles.descriptionblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
       <div className={styles.paddingleft}>
-    <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>start a redesign process for the website</li>
-      <li className={styles.descriptionblack}>converting it to new UI/UX Design trends.</li>
+    <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>start a redesign process for the website</li>
+      <li className={styles.listitemblack}>converting it to new UI/UX Design trends.</li>
     </ul>
     </div>
 
@@ -543,9 +555,9 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
      
       <p className={styles.descriptionblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
       <div className={styles.paddingleft}>
-    <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>start a redesign process for the website</li>
-      <li className={styles.descriptionblack}>converting it to new UI/UX Design trends.</li>
+    <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>start a redesign process for the website</li>
+      <li className={styles.listitemblack}>converting it to new UI/UX Design trends.</li>
     </ul>
     </div>
 
@@ -566,9 +578,9 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
       <p className={styles.descriptionlargeblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
       <div className={styles.paddingleft}>
-    <ul className={styles.descriptionlargeblack}>
-      <li className={styles.descriptionlargeblack}>start a redesign process for the website</li>
-      <li className={styles.descriptionlargeblack}>converting it to new UI/UX Design trends.</li>
+    <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>start a redesign process for the website</li>
+      <li className={styles.listitemblack}>converting it to new UI/UX Design trends.</li>
     </ul>
     </div>
 
@@ -702,11 +714,11 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
   <p className={styles.subtitlelargeblack}>Mindmapping entire company scope</p>
   <div className={styles.paddingleft}>
-  <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>CEO of the company,</li>
-      <li className={styles.descriptionblack}>lead developer who would considering technical parts, etc.</li>
-      <li className={styles.descriptionblack}>Internal team </li>
-      <li className={styles.descriptionblack}>larger outside team. </li>
+  <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>CEO of the company,</li>
+      <li className={styles.listitemblack}>lead developer who would considering technical parts, etc.</li>
+      <li className={styles.listitemblack}>Internal team </li>
+      <li className={styles.listitemblack}>larger outside team. </li>
     </ul>
     </div>
 
@@ -724,11 +736,11 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 <p className={styles.subtitlelargeblack}>Mindmapping entire company scope</p>
 
 <div className={styles.paddingleft}>
-  <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>CEO of the company,</li>
-      <li className={styles.descriptionblack}>lead developer who would considering technical parts, etc.</li>
+  <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>CEO of the company,</li>
+      <li className={styles.listitemblack}>lead developer who would considering technical parts, etc.</li>
       <li className={styles.descriptionblack}>Internal team </li>
-      <li className={styles.descriptionblack}>larger outside team. </li>
+      <li className={styles.listitemblack}>larger outside team. </li>
     </ul>
     </div>
 
@@ -746,11 +758,11 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 <p className={styles.subtitlelargeblack}>Mindmapping entire company scope</p>
 
 <div className={styles.paddingleft}>
-  <ul className={styles.descriptionlargeblack}>
-      <li className={styles.descriptionlargeblack}>CEO of the company,</li>
-      <li className={styles.descriptionlargeblack}>lead developer who would considering technical parts, etc.</li>
-      <li className={styles.descriptionlargeblack}>Internal team </li>
-      <li className={styles.descriptionlargeblack}>larger outside team. </li>
+  <ul className={styles.listlargeblack}>
+      <li className={styles.listitemlargeblack}>CEO of the company,</li>
+      <li className={styles.listitemlargeblack}>lead developer who would considering technical parts, etc.</li>
+      <li className={styles.listitemlargeblack}>Internal team </li>
+      <li className={styles.listitemlargeblack}>larger outside team. </li>
     </ul>
     </div>
 
@@ -808,10 +820,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   <p className={styles.descriptionblack}>As well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
 
   <div className={styles.paddingleft}>
-  <ul className={styles.descriptionblack}>
-      <li className={styles.descriptionblack}>Increase Usability of Website</li>
-      <li className={styles.descriptionblack}>Improve Performance of Website</li>
-      <li className={styles.descriptionblack}>Better User Experience </li>
+  <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>Increase Usability of Website</li>
+      <li className={styles.listitemblack}>Improve Performance of Website</li>
+      <li className={styles.listitemblack}>Better User Experience </li>
     </ul>
     </div>
 
@@ -832,10 +844,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
   <div className={styles.paddingleft}>
-  <ul className={styles.descriptionblack}>
-  <li className={styles.descriptionblack}>Increase Usability of Website</li>
-      <li className={styles.descriptionblack}>Improve Performance of Website</li>
-      <li className={styles.descriptionblack}>Better User Experience </li>
+  <ul className={styles.listblack}>
+  <li className={styles.listitemblack}>Increase Usability of Website</li>
+      <li className={styles.listitemblack}>Improve Performance of Website</li>
+      <li className={styles.listitemblack}>Better User Experience </li>
     </ul>
     </div>
 
@@ -855,12 +867,11 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
   <div className={styles.paddingleft}>
-  <ul className={styles.descriptionlargeblack}>
-  <li className={styles.descriptionlargeblack}>Increase Usability of Website</li>
-      <li className={styles.descriptionlargeblack}>Improve Performance of Website</li>
-      <li className={styles.descriptionlargeblack}>Better User Experience </li>
+  <ul className={styles.listlargeblack}>
+  <li className={styles.listitemblack}>Increase Usability of Website</li>
+      <li className={styles.listitemlargeblack}>Improve Performance of Website</li>
+      <li className={styles.listitemlargeblack}>Better User Experience </li>
     </ul>
-
   </div>
 
   <Image src={Img04} fluid className={styles.imgstyle} />
@@ -1061,9 +1072,46 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <Image src={Img11} fluid className={styles.imgstyle} />
 
     <p className={styles.subtitlelargeblack}>Redesign of Website</p>
-
-     
       <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+
+      <Image src={Img12} fluid className={styles.imgstyle} />
+
+      <p className={styles.subtitlelargeblack}>Feedback from team</p>
+      <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+
+
+      <Image src={Img13} fluid className={styles.imgstyle} />
+      <Image src={Img14} fluid className={styles.imgstyle} />
+      <Image src={Img15} fluid className={styles.imgstyle} />
+
+      
+      <p className={styles.subtitlelargeblack}>UI Variant Iterations</p>
+      <p className={styles.descriptionblack}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
+
+
+      <p className={styles.subtitlelargeblack}>User Interface Design</p>
+      <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
+
+      <div className={styles.paddingleft}>
+  <ul className={styles.listblack}>
+  <li className={styles.listitemblack}>Usability testing for the User Interface Designs</li>
+      <li className={styles.listitemblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</li>
+    </ul>
+  </div>
+
+  <Image src={Img16} fluid className={styles.imgstyle} />
+  <Image src={Img17} fluid className={styles.imgstyle} />
+
+        
+  <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
+      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
+
+      <Image src={Img18} fluid className={styles.imgstyle} />
+
+      
+  <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
+      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
+
 
 
   </Row>
@@ -1081,11 +1129,46 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
     <p className={styles.subtitlelargeblack}>Redesign of Website</p>
-
-     
       <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
 
- 
+      <Image src={Img12} fluid className={styles.imgstyle} />
+
+      
+      <p className={styles.subtitlelargeblack}>Feedback from team</p>
+      <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+
+      <Image src={Img13} fluid className={styles.imgstyle} />
+      <Image src={Img14} fluid className={styles.imgstyle} />
+      <Image src={Img15} fluid className={styles.imgstyle} />
+
+      <p className={styles.subtitlelargeblack}>UI Variant Iterations</p>
+      <p className={styles.descriptionblack}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
+
+      <p className={styles.subtitlelargeblack}>User Interface Design</p>
+      <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
+
+      <div className={styles.paddingleft}>
+  <ul className={styles.listblack}>
+  <li className={styles.listitemblack}>just understanding the basic layout of the website, for example the home page, etc. </li>
+      <li className={styles.listitemblack}>Then based on the original design, a new iteration of the design can be done.</li>
+    </ul>
+  </div>
+
+  <Image src={Img16} fluid className={styles.imgstyle} />
+  <Image src={Img17} fluid className={styles.imgstyle} />
+
+        
+  <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
+      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
+
+      <Image src={Img18} fluid className={styles.imgstyle} />
+
+      
+  <p className={styles.subtitlelargeblack}>Usability testing for the User Interface Designs</p>
+      <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+
+
+
   </Row>
           }
 
@@ -1099,6 +1182,180 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <Image src={Img11} fluid className={styles.imgstyle} />
 
     <p className={styles.subtitlelargeblack}>Redesign of Website</p>
+    <p className={styles.descriptionlargeblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+
+    <Image src={Img12} fluid className={styles.imgstyle} />
+
+    
+    <p className={styles.subtitlelargeblack}>Feedback from team</p>
+      <p className={styles.descriptionlargeblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+
+      <Image src={Img13} fluid className={styles.imgstyle} />
+      <Image src={Img14} fluid className={styles.imgstyle} />
+      <Image src={Img15} fluid className={styles.imgstyle} />
+
+      <p className={styles.subtitlelargeblack}>UI Variant Iterations</p>
+      <p className={styles.descriptionlargeblack}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
+
+      <p className={styles.subtitlelargeblack}>User Interface Design</p>
+      <p className={styles.descriptionlargeblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
+
+      <div className={styles.paddingleft}>
+  <ul className={styles.listlargeblack}>
+  <li className={styles.listitemlargeblack}>just understanding the basic layout of the website, for example the home page, etc. </li>
+      <li className={styles.listitemlargeblack}>Then based on the original design, a new iteration of the design can be done.</li>
+    </ul>
+  </div>
+
+  <Image src={Img16} fluid className={styles.imgstyle} />
+  <Image src={Img17} fluid className={styles.imgstyle} />
+
+        
+  <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
+      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
+
+      <Image src={Img18} fluid className={styles.imgstyle} />
+
+      
+  <p className={styles.subtitlelargeblack}>Usability testing for the User Interface Designs</p>
+      <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+
+
+
+  </Row>
+          }
+
+      </>
+    )}
+  </Media>
+
+
+
+
+
+
+
+
+  <Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+  }}>
+    {matches => (
+      <>
+
+        {matches.small &&
+
+<Row className={styles.rowsmall}>
+
+
+
+  <p className={styles.subtitlelargeblack}>Results:</p>
+  <p className={styles.subtitlelargeblack}>Redesign of the Web Application User Interface</p>
+    <p className={styles.descriptionblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
+     
+    <Image src={Img19} fluid className={styles.imgstyle} />
+
+    <p className={styles.subtitlelargeblack}>Adobe Creative Suite </p>
+      <p className={styles.descriptionblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
+
+      <Image src={Img20} fluid className={styles.imgstyle} />
+
+      <p className={styles.subtitlelargeblack}>Usability testing with Usabilityhub.com</p>
+      <p className={styles.descriptionblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
+
+
+      <Image src={Img21} fluid className={styles.imgstyle} />
+
+      
+      <p className={styles.subtitlelargeblack}>Starting the Rapid Prototyping</p>
+      <p className={styles.descriptionblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
+
+
+      <p className={styles.subtitlelargeblack}>Getting Tests from the Users</p>
+      <p className={styles.descriptionblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
+
+  <p className={styles.subtitlelargeblack}>Heat Map Testing</p>
+      <p className={styles.descriptionblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
+
+      <Image src={Img22} fluid className={styles.imgstyle} />
+
+
+
+  </Row>
+          }
+
+        {matches.medium &&
+          <Row className={styles.rowmedium}>
+
+<p className={styles.subtitlelargeblack}>Results:</p>
+  <p className={styles.subtitlelargeblack}>Redesign of the Web Application User Interface</p>
+    <p className={styles.descriptionblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
+     
+    <Image src={Img19} fluid className={styles.imgstyle} />
+
+    <p className={styles.subtitlelargeblack}>Adobe Creative Suite </p>
+      <p className={styles.descriptionblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
+
+      <Image src={Img20} fluid className={styles.imgstyle} />
+
+      <p className={styles.subtitlelargeblack}>Usability testing with Usabilityhub.com</p>
+      <p className={styles.descriptionblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
+
+
+      <Image src={Img21} fluid className={styles.imgstyle} />
+
+      
+      <p className={styles.subtitlelargeblack}>Starting the Rapid Prototyping</p>
+      <p className={styles.descriptionblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
+
+
+      <p className={styles.subtitlelargeblack}>Getting Tests from the Users</p>
+      <p className={styles.descriptionblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
+
+  <p className={styles.subtitlelargeblack}>Heat Map Testing</p>
+      <p className={styles.descriptionblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
+
+      <Image src={Img22} fluid className={styles.imgstyle} />
+
+
+
+
+  </Row>
+          }
+
+        {matches.large &&
+          <Row className={styles.rowlarge}>
+
+<p className={styles.subtitlelargeblack}>Results:</p>
+  <p className={styles.subtitlelargeblack}>Redesign of the Web Application User Interface</p>
+    <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
+     
+    <Image src={Img19} fluid className={styles.imgstyle} />
+
+    <p className={styles.subtitlelargeblack}>Adobe Creative Suite </p>
+      <p className={styles.descriptionlargeblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
+
+      <Image src={Img20} fluid className={styles.imgstyle} />
+
+      <p className={styles.subtitlelargeblack}>Usability testing with Usabilityhub.com</p>
+      <p className={styles.descriptionlargeblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
+
+
+      <Image src={Img21} fluid className={styles.imgstyle} />
+
+      
+      <p className={styles.subtitlelargeblack}>Starting the Rapid Prototyping</p>
+      <p className={styles.descriptionlargeblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
+
+
+      <p className={styles.subtitlelargeblack}>Getting Tests from the Users</p>
+      <p className={styles.descriptionlargeblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
+
+  <p className={styles.subtitlelargeblack}>Heat Map Testing</p>
+      <p className={styles.descriptionlargeblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
+
+      <Image src={Img22} fluid className={styles.imgstyle} />
 
 
 
@@ -1117,110 +1374,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 
-
-
-
-
-    <Container fluid>
-    <div className={styles.spaceingwhite}></div>
-      {/* left text right img */}
-      <Row className={styles.test}>
-        
-      <Col sm>
-          <Image src={Img00} fluid className={styles.imgstyle} />
-          
-        </Col>
-
-
-        <Col sm className={styles.fonttest}>
-
-
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-        <Container>
-              <p className={styles.subtitlelargeblack}>Solution:</p>
-         <p className={styles.descriptionblack}>
-         *The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.*</p>
-         <p className={styles.descriptionblack}>
-         Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
-         <p className={styles.descriptionblack}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
-         <p className={styles.descriptionblack}>Initially started with various stylings. Also did a indepth look at various scores that showed where the website was in related to the tests done. There were various scores from various different providers that showed the website can be greatly improve with a few updates. During this ideation phase there was various ideas that were ideated. For example.</p>
-      
-      </Container>
-                }
-
-              {matches.medium &&
-        <Container>
-                            <p className={styles.subtitlelargeblack}>Solution:</p>
-                            <p className={styles.descriptionblack}>
-         *The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.*</p>
-         <p className={styles.descriptionblack}>
-         Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
-         <p className={styles.descriptionblack}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
-         <p className={styles.descriptionblack}>Initially started with various stylings. Also did a indepth look at various scores that showed where the website was in related to the tests done. There were various scores from various different providers that showed the website can be greatly improve with a few updates. During this ideation phase there was various ideas that were ideated. For example.</p>
-      
-          
-          </Container>
-                }
-
-              {matches.large &&
-            <Container>
-                            <p className={styles.subtitlelargeblack}>Solution:</p>
-                            <p className={styles.descriptionlargeblack}>
-         *The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.*</p>
-         <p className={styles.descriptionlargeblack}>
-         Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
-         <p className={styles.descriptionlargeblack}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
-         <p className={styles.descriptionlargeblack}>Initially started with various stylings. Also did a indepth look at various scores that showed where the website was in related to the tests done. There were various scores from various different providers that showed the website can be greatly improve with a few updates. During this ideation phase there was various ideas that were ideated. For example.</p>
-      
-                  </Container>
-                }
-
-            </>
-          )}
-        </Media>
-
-
-        
-        
-        </Col>
-      </Row>
-    </Container>
-
-
-
-
-    <Container fluid>
-
-
-
- 
-
-
-      {/* img without text */}
-      <Row>
-      <Col sm>
-          <Image src={ImgTablet} fluid className={styles.imgstyle} />
-        </Col>
-        <Col sm>
-          <Image src={ImgC} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-
-
-
-      <Row className={styles.test}>
-  <Col sm className={styles.fonttest}>
-
-
   <Media queries={{
     small: "(max-width: 599px)",
     medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -1230,227 +1383,63 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
       <>
 
         {matches.small &&
-  <Container>
 
-    <p className={styles.subtitlelargeblack}>DESIGN:</p>
-    <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro.**</p>
-      <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow, or just understanding the basic layout of the website, for example the home page, etc. Then based on the original design, a new iteration of the design can be done.</p>
-      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
-      <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
-
-  
-   </Container>
-          }
-
-        {matches.medium &&
-  <Container>
-    
-    <p className={styles.subtitlelargeblack}>DESIGN:</p>
-    <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro.**</p>
-      <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow, or just understanding the basic layout of the website, for example the home page, etc. Then based on the original design, a new iteration of the design can be done.</p>
-      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
-      <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
-
-</Container>
-          }
-
-        {matches.large &&
-      <Container>
-
-<p className={styles.subtitlelargeblack}>DESIGN:</p>
-<p className={styles.descriptionlargeblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro.**</p>
-      <p className={styles.descriptionlargeblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow, or just understanding the basic layout of the website, for example the home page, etc. Then based on the original design, a new iteration of the design can be done.</p>
-      <p className={styles.descriptionlargeblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
-      <p className={styles.descriptionlargeblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
-         </Container>
-          }
-
-      </>
-    )}
-  </Media>
-
-
-  
-  
-  </Col>
-  <Col sm>
-    <Image src={Img00} fluid className={styles.imgstyle} />
-    
-  </Col>
-</Row>
+<Row className={styles.rowsmall}>
 
 
 
-
-<Row className={styles.test}>
-  <Col sm className={styles.fonttest}>
-
-
-  <Media queries={{
-    small: "(max-width: 599px)",
-    medium: "(min-width: 600px) and (max-width: 1199px)",
-    large: "(min-width: 1200px)"
-  }}>
-    {matches => (
-      <>
-
-        {matches.small &&
-  <Container>
-
-    <p className={styles.subtitlelargeblack}>Results:</p>
-    <p className={styles.descriptionblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-    <p className={styles.descriptionblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
-    <p className={styles.descriptionblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
-    <p className={styles.descriptionblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
-    <p className={styles.descriptionblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
-    <p className={styles.descriptionblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
-         </Container>
-          }
-
-        {matches.medium &&
-  <Container>
-    
-    <p className={styles.subtitlelargeblack}>Results:</p>
-    <p className={styles.descriptionblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-    <p className={styles.descriptionblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
-    <p className={styles.descriptionblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
-    <p className={styles.descriptionblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
-    <p className={styles.descriptionblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
-    <p className={styles.descriptionblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
-
-
-      </Container>
-          }
-
-        {matches.large &&
-      <Container>
-
-<p className={styles.subtitlelargeblack}>Results:</p>
-<p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-    <p className={styles.descriptionlargeblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
-    <p className={styles.descriptionlargeblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
-    <p className={styles.descriptionlargeblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
-    <p className={styles.descriptionlargeblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
-    <p className={styles.descriptionlargeblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
-
-         </Container>
-          }
-
-      </>
-    )}
-  </Media>
-
-
-  
-  
-  </Col>
-
-</Row>
-
-
-
-
-
-
-
-
-
-{/* img without text */}
-<Row>
-  <Col sm>
-    <Image src={TestImg0} fluid className={styles.imgstyle} />
-  </Col>
-</Row>
-
-{/* img without text */}
-<Row>
-  <Col sm>
-    <Image src={TestImg1} fluid className={styles.imgstyle} />
-  </Col>
-</Row>
-
-{/* img without text */}
-<Row>
-  <Col sm>
-    <Image src={TestImg2} fluid className={styles.imgstyle} />
-  </Col>
-</Row>
-
-
-
-
-      
-    <Row className={styles.test}>
-        <Col sm>
-          <Image src={ImgA} fluid className={styles.imgstyle} />
-        </Col>
-        <Col sm>
-          <Image src={ImgB} fluid className={styles.imgstyle} />
-        </Col>
-        <Col sm>
-          <Image src={ImgC} fluid className={styles.imgstyle} />
-        </Col>
-      </Row>
-
-
-      <Row className={styles.test}>
-  <Col sm className={styles.fonttest}>
-
-
-  <Media queries={{
-    small: "(max-width: 599px)",
-    medium: "(min-width: 600px) and (max-width: 1199px)",
-    large: "(min-width: 1200px)"
-  }}>
-    {matches => (
-      <>
-
-        {matches.small &&
-  <Container>
-
-    <p className={styles.subtitlelargeblack}>Reflection:</p>
+  <p className={styles.subtitlelargeblack}>Reflection:</p>
+  <p className={styles.subtitlelargeblack}>More Time to explore UI and UX</p>
     <p className={styles.descriptionblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
+     
+    <Image src={Img23} fluid className={styles.imgstyle} />
+
+    <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
       <p className={styles.descriptionblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
 
-   </Container>
+
+  </Row>
           }
 
         {matches.medium &&
-  <Container>
-    
-    <p className={styles.subtitlelargeblack}>Reflection:</p>
-    <p className={styles.descriptionblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
-      <p className={styles.descriptionblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
-
-</Container>
-          }
-
-        {matches.large &&
-      <Container>
+          <Row className={styles.rowmedium}>
 
 <p className={styles.subtitlelargeblack}>Reflection:</p>
-<p className={styles.descriptionlargeblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
+  <p className={styles.subtitlelargeblack}>More Time to explore UI and UX</p>
+    <p className={styles.descriptionlargeblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
+     
+    <Image src={Img23} fluid className={styles.imgstyle} />
+
+    <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
       <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
 
-        
-         </Container>
+
+
+
+  </Row>
+          }
+
+        {matches.large &&
+          <Row className={styles.rowlarge}>
+
+<p className={styles.subtitlelargeblack}>Reflection:</p>
+  <p className={styles.subtitlelargeblack}>More Time to explore UI and UX</p>
+    <p className={styles.descriptionlargeblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
+     
+    <Image src={Img23} fluid className={styles.imgstyle} />
+
+    <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
+      <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
+
+
+
+  </Row>
           }
 
       </>
     )}
   </Media>
 
-
-  
-  
-  </Col>
-  <Col sm>
-    <Image src={Img00} fluid className={styles.imgstyle} />
-    
-  </Col>
-</Row>
-
-    </Container>
 
 
 
