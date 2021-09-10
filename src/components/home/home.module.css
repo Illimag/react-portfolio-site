@@ -87,7 +87,7 @@
 
 .mainfloatback{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
     height: 100vh;
     object-fit: cover;
     z-index: 10;

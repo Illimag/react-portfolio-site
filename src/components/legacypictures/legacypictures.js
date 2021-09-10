@@ -35,7 +35,7 @@ import Img20 from '../../assets/img/legacypictures/hsl-biz_3.jpg';
 import Img21 from '../../assets/img/legacypictures/hsl-biz_4.jpg';
 import Img22 from '../../assets/img/legacypictures/Capture.PNG';
 import Img23 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
-
+import Img24 from '../../assets/img/legacypictures/ttt-01.png';
 
 
 
@@ -120,6 +120,10 @@ export const Legacypictures = () => (
  {/* left text right img */}
 
 <div className={styles.spaceingwhite}></div>
+
+
+
+
 
            <Media queries={{
 small: "(max-width: 599px)",
@@ -235,27 +239,14 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 
+<Container fluid className={styles.test1}>
+
+<div className={styles.spaceingwhite}></div>
+<Image src={Img08} fluid className={styles.imgouterstyle} />
+<div className={styles.spaceingwhite}></div>
 
 
-
-
-
-
-
-
-    <Container fluid className={styles.test1}>
-
-  <div className={styles.spaceingwhite}></div>
-  <Image src={desktopImg} fluid className={styles.imgstyle} />
-  <div className={styles.spaceingwhite}></div>
-
-  
 </Container>
-
-
-
-
-
 
 
 
@@ -293,8 +284,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     </ol>
     </div>
 
-    <Image src={Img08} fluid className={styles.imgstyle} />
-
     
   </Row>
           }
@@ -315,8 +304,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     </ol>
     </div>
 
-    <Image src={Img08} fluid className={styles.imgstyle} />
-
   </Row>
           }
 
@@ -334,8 +321,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
       <li className={styles.listitemlargeblack}>Redesign of Web Platform</li>
     </ol>
     </div>
-
-    <Image src={Img08} fluid className={styles.imgstyle} />
 
   </Row>
           }
@@ -506,6 +491,9 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 
+
+
+
 <Media queries={{
     small: "(max-width: 599px)",
     medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -523,8 +511,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   <p className={styles.subtitlelargeblack}>Challenge:</p>
     <p className={styles.descriptionblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. </p>
      
-    <Image src={Img07} fluid className={styles.imgstyle} />
-
     <p className={styles.subtitlelargeblack}>Initial Scope :</p>
 
      
@@ -535,6 +521,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
       <li className={styles.listitemblack}>converting it to new UI/UX Design trends.</li>
     </ul>
     </div>
+
+    
+<Image src={Img24} fluid className={styles.imgstyle} />
+
 
   </Row>
           }
@@ -546,12 +536,9 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. </p>
      
 
-    <Image src={Img07} fluid className={styles.imgstyle} />
-
-
-
     <p className={styles.subtitlelargeblack}>Initial Scope :</p>
 
+    
      
       <p className={styles.descriptionblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
       <div className={styles.paddingleft}>
@@ -560,6 +547,11 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
       <li className={styles.listitemblack}>converting it to new UI/UX Design trends.</li>
     </ul>
     </div>
+
+    
+<Image src={Img24} fluid className={styles.imgstyle} />
+
+
 
  
   </Row>
@@ -572,9 +564,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   <p className={styles.subtitlelargeblack}>Challenge:</p>
     <p className={styles.descriptionlargeblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. </p>
      
-    <Image src={Img07} fluid className={styles.imgstyle} />
 
     <p className={styles.subtitlelargeblack}>Initial Scope :</p>
+
+  
 
       <p className={styles.descriptionlargeblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
       <div className={styles.paddingleft}>
@@ -583,6 +576,10 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
       <li className={styles.listitemblack}>converting it to new UI/UX Design trends.</li>
     </ul>
     </div>
+
+    
+<Image src={Img24} fluid className={styles.imgstyle} />
+
 
   </Row>
           }
@@ -593,17 +590,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 </Container>
-
-
-
-
-{/* img without text */}
-<Row>
-  <Col sm>
-    <Image src={Twodesktop} fluid className={styles.imgstyle} />
-
-  </Col>
-</Row>
 
 
 
@@ -1050,8 +1036,14 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 
+<div className={styles.spaceingwhite}></div>
+<Image src={Img11} fluid className={styles.imgouterstyle} />
+<div className={styles.spaceingblack}></div>
 
 
+</Container>
+
+<Container fluid className={styles.test3}>
 <Media queries={{
     small: "(max-width: 599px)",
     medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -1066,18 +1058,16 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 
-  <p className={styles.subtitlelargeblack}>Solution:</p>
-    <p className={styles.descriptionblack}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+  <p className={styles.subtitlelargewhite}>Solution:</p>
+    <p className={styles.descriptionwhite}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
      
-    <Image src={Img11} fluid className={styles.imgstyle} />
-
-    <p className={styles.subtitlelargeblack}>Redesign of Website</p>
-      <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+    <p className={styles.subtitlelargewhite}>Redesign of Website</p>
+      <p className={styles.descriptionwhite}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
 
       <Image src={Img12} fluid className={styles.imgstyle} />
 
-      <p className={styles.subtitlelargeblack}>Feedback from team</p>
-      <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+      <p className={styles.subtitlelargewhite}>Feedback from team</p>
+      <p className={styles.descriptionwhite}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
 
 
       <Image src={Img13} fluid className={styles.imgstyle} />
@@ -1085,17 +1075,17 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
       <Image src={Img15} fluid className={styles.imgstyle} />
 
       
-      <p className={styles.subtitlelargeblack}>UI Variant Iterations</p>
-      <p className={styles.descriptionblack}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
+      <p className={styles.subtitlelargewhite}>UI Variant Iterations</p>
+      <p className={styles.descriptionwhite}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
 
 
-      <p className={styles.subtitlelargeblack}>User Interface Design</p>
-      <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
+      <p className={styles.subtitlelargewhite}>User Interface Design</p>
+      <p className={styles.descriptionwhite}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
 
       <div className={styles.paddingleft}>
-  <ul className={styles.listblack}>
-  <li className={styles.listitemblack}>Usability testing for the User Interface Designs</li>
-      <li className={styles.listitemblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</li>
+  <ul className={styles.listwhite}>
+  <li className={styles.listitemwhite}>Usability testing for the User Interface Designs</li>
+      <li className={styles.listitemwhite}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</li>
     </ul>
   </div>
 
@@ -1103,14 +1093,14 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   <Image src={Img17} fluid className={styles.imgstyle} />
 
         
-  <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
-      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
+  <p className={styles.subtitlelargewhite}>Adobe XD for User Interface Designs</p>
+      <p className={styles.descriptionwhite}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
 
       <Image src={Img18} fluid className={styles.imgstyle} />
 
       
-  <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
-      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
+  <p className={styles.subtitlelargewhite}>Adobe XD for User Interface Designs</p>
+      <p className={styles.descriptionwhite}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
 
 
 
@@ -1120,37 +1110,35 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
         {matches.medium &&
           <Row className={styles.rowmedium}>
 
-  <p className={styles.subtitlelargeblack}>Solution:</p>
-    <p className={styles.descriptionblack}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+  <p className={styles.subtitlelargewhite}>Solution:</p>
+    <p className={styles.descriptionwhite}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
      
 
-    <Image src={Img11} fluid className={styles.imgstyle} />
 
 
-
-    <p className={styles.subtitlelargeblack}>Redesign of Website</p>
-      <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+    <p className={styles.subtitlelargewhite}>Redesign of Website</p>
+      <p className={styles.descriptionwhite}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
 
       <Image src={Img12} fluid className={styles.imgstyle} />
 
       
-      <p className={styles.subtitlelargeblack}>Feedback from team</p>
-      <p className={styles.descriptionblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+      <p className={styles.subtitlelargewhite}>Feedback from team</p>
+      <p className={styles.descriptionwhite}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
 
       <Image src={Img13} fluid className={styles.imgstyle} />
       <Image src={Img14} fluid className={styles.imgstyle} />
       <Image src={Img15} fluid className={styles.imgstyle} />
 
-      <p className={styles.subtitlelargeblack}>UI Variant Iterations</p>
-      <p className={styles.descriptionblack}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
+      <p className={styles.subtitlelargewhite}>UI Variant Iterations</p>
+      <p className={styles.descriptionwhite}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
 
-      <p className={styles.subtitlelargeblack}>User Interface Design</p>
-      <p className={styles.descriptionblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
+      <p className={styles.subtitlelargewhite}>User Interface Design</p>
+      <p className={styles.descriptionwhite}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
 
       <div className={styles.paddingleft}>
-  <ul className={styles.listblack}>
-  <li className={styles.listitemblack}>just understanding the basic layout of the website, for example the home page, etc. </li>
-      <li className={styles.listitemblack}>Then based on the original design, a new iteration of the design can be done.</li>
+  <ul className={styles.listwhite}>
+  <li className={styles.listitemwhite}>just understanding the basic layout of the website, for example the home page, etc. </li>
+      <li className={styles.listitemwhite}>Then based on the original design, a new iteration of the design can be done.</li>
     </ul>
   </div>
 
@@ -1158,14 +1146,14 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   <Image src={Img17} fluid className={styles.imgstyle} />
 
         
-  <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
-      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
+  <p className={styles.subtitlelargewhite}>Adobe XD for User Interface Designs</p>
+      <p className={styles.descriptionwhite}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
 
       <Image src={Img18} fluid className={styles.imgstyle} />
 
       
-  <p className={styles.subtitlelargeblack}>Usability testing for the User Interface Designs</p>
-      <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+  <p className={styles.subtitlelargewhite}>Usability testing for the User Interface Designs</p>
+      <p className={styles.descriptionwhite}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
 
 
 
@@ -1176,34 +1164,32 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
           <Row className={styles.rowlarge}>
 
 
-  <p className={styles.subtitlelargeblack}>Solution:</p>
-    <p className={styles.descriptionlargeblack}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+  <p className={styles.subtitlelargewhite}>Solution:</p>
+    <p className={styles.descriptionlargewhite}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
      
-    <Image src={Img11} fluid className={styles.imgstyle} />
-
-    <p className={styles.subtitlelargeblack}>Redesign of Website</p>
-    <p className={styles.descriptionlargeblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+    <p className={styles.subtitlelargewhite}>Redesign of Website</p>
+    <p className={styles.descriptionlargewhite}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
 
     <Image src={Img12} fluid className={styles.imgstyle} />
 
     
-    <p className={styles.subtitlelargeblack}>Feedback from team</p>
-      <p className={styles.descriptionlargeblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+    <p className={styles.subtitlelargewhite}>Feedback from team</p>
+      <p className={styles.descriptionlargewhite}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
 
       <Image src={Img13} fluid className={styles.imgstyle} />
       <Image src={Img14} fluid className={styles.imgstyle} />
       <Image src={Img15} fluid className={styles.imgstyle} />
 
-      <p className={styles.subtitlelargeblack}>UI Variant Iterations</p>
-      <p className={styles.descriptionlargeblack}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
+      <p className={styles.subtitlelargewhite}>UI Variant Iterations</p>
+      <p className={styles.descriptionlargewhite}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
 
-      <p className={styles.subtitlelargeblack}>User Interface Design</p>
-      <p className={styles.descriptionlargeblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
+      <p className={styles.subtitlelargewhite}>User Interface Design</p>
+      <p className={styles.descriptionlargewhite}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
 
       <div className={styles.paddingleft}>
-  <ul className={styles.listlargeblack}>
-  <li className={styles.listitemlargeblack}>just understanding the basic layout of the website, for example the home page, etc. </li>
-      <li className={styles.listitemlargeblack}>Then based on the original design, a new iteration of the design can be done.</li>
+  <ul className={styles.listlargewhite}>
+  <li className={styles.listitemlargewhite}>just understanding the basic layout of the website, for example the home page, etc. </li>
+      <li className={styles.listitemlargewhite}>Then based on the original design, a new iteration of the design can be done.</li>
     </ul>
   </div>
 
@@ -1211,14 +1197,14 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   <Image src={Img17} fluid className={styles.imgstyle} />
 
         
-  <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
-      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
+  <p className={styles.subtitlelargewhite}>Adobe XD for User Interface Designs</p>
+      <p className={styles.descriptionwhite}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
 
       <Image src={Img18} fluid className={styles.imgstyle} />
 
       
-  <p className={styles.subtitlelargeblack}>Usability testing for the User Interface Designs</p>
-      <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+  <p className={styles.subtitlelargewhite}>Usability testing for the User Interface Designs</p>
+      <p className={styles.descriptionwhite}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
 
 
 
@@ -1235,7 +1221,16 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 
+  <Container fluid className={styles.test1}>
 
+<div className={styles.spaceingblack}></div>
+<Image src={desktopImg} fluid className={styles.imgouterstyle} />
+<div className={styles.spaceingwhite}></div>
+
+
+</Container>
+
+<Container fluid className={styles.test1}>
   <Media queries={{
     small: "(max-width: 599px)",
     medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -1366,13 +1361,21 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     )}
   </Media>
 
+  </Container>
 
 
 
+  <Container fluid className={styles.test1}>
+
+<div className={styles.spaceingwhite}></div>
+<Image src={Img23} fluid className={styles.imgouterstyle} />
+<div className={styles.spaceingwhite}></div>
 
 
+</Container>
 
 
+  <Container fluid className={styles.test4}>
 
   <Media queries={{
     small: "(max-width: 599px)",
@@ -1392,8 +1395,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   <p className={styles.subtitlelargeblack}>More Time to explore UI and UX</p>
     <p className={styles.descriptionblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
      
-    <Image src={Img23} fluid className={styles.imgstyle} />
-
     <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
       <p className={styles.descriptionblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
 
@@ -1408,8 +1409,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   <p className={styles.subtitlelargeblack}>More Time to explore UI and UX</p>
     <p className={styles.descriptionlargeblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
      
-    <Image src={Img23} fluid className={styles.imgstyle} />
-
     <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
       <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
 
@@ -1426,8 +1425,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
   <p className={styles.subtitlelargeblack}>More Time to explore UI and UX</p>
     <p className={styles.descriptionlargeblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
      
-    <Image src={Img23} fluid className={styles.imgstyle} />
-
     <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
       <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
 
@@ -1440,6 +1437,7 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     )}
   </Media>
 
+</Container>
 
 
 
