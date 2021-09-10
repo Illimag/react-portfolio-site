@@ -141,20 +141,20 @@ large: "(min-width: 1200px)"
 <Container className={styles.fonttest}>
 
 <p className={styles.titleblack}>Legacy Pictures</p>
-<p className={styles.descriptionblack}>Case Study: Los Angeles Web Application Re-Design</p>
-<p className={styles.descriptionblack}>Project Date: July 2021 - August 2021</p>
-<p className={styles.descriptionblack}>Role: UI/UX Designer</p>
-<p className={styles.descriptionblack}>Location: Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Case Study:</p>
+<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
+<p className={styles.subtitlelargeblack}>Project Date:</p>
+<p className={styles.descriptionblack}>July 2021 - August 2021</p>
+<p className={styles.subtitlelargeblack}>Role:</p>
+<p className={styles.descriptionblack}>UI/UX Designer</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionblack}>Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Summary:</p>
+<p className={styles.descriptionblack}>Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.</p>
 
 <div className={styles.spaceingwhite}></div>
 
 
-<p className={styles.subtitlelargeblack}>Introduction:</p>
-
-
-<p className={styles.description}>
-Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.*
-</p>
 
 </Container>
 </Col>
@@ -171,20 +171,18 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 <Container className={styles.fonttest}>
 
 <p className={styles.titleblack}>Legacy Pictures</p>
-<p className={styles.descriptionblack}>Case Study: Los Angeles Web Application Re-Design</p>
-<p className={styles.descriptionblack}>Project Date: July 2021 - August 2021</p>
-<p className={styles.descriptionblack}>Role: UI/UX Designer</p>
-<p className={styles.descriptionblack}>Location: Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Case Study:</p>
+<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
+<p className={styles.subtitlelargeblack}>Project Date:</p>
+<p className={styles.descriptionblack}>July 2021 - August 2021</p>
+<p className={styles.subtitlelargeblack}>Role:</p>
+<p className={styles.descriptionblack}>UI/UX Designer</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionblack}>Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Summary:</p>
+<p className={styles.descriptionlargeblack}>Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.</p>
 
 <div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>Introduction:</p>
-
-
-
-<p className={styles.descriptionlargeblack}>
-Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
 
 </Container>
 </Col>
@@ -200,19 +198,20 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 <Container className={styles.fonttest}>
 
 <p className={styles.titlelargeblack}>Legacy Pictures</p>
-<p className={styles.descriptionlargeblack}>Case Study: Los Angeles Web Application Re-Design</p>
-<p className={styles.descriptionlargeblack}>Project Date: July 2021 - August 2021</p>
-<p className={styles.descriptionlargeblack}>Role: UI/UX Designer</p>
-<p className={styles.descriptionlargeblack}>Location: Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Case Study:</p>
+<p className={styles.descriptionlargeblack}>Los Angeles Web Application Re-Design</p>
+<p className={styles.subtitlelargeblack}>Project Date:</p>
+<p className={styles.descriptionlargeblack}>July 2021 - August 2021</p>
+<p className={styles.subtitlelargeblack}>Role:</p>
+<p className={styles.descriptionlargeblack}>UI/UX Designer</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionlargeblack}>Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Summary:</p>
+<p className={styles.descriptionlargeblack}>Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.</p>
+
 
 <div className={styles.spaceingwhite}></div>
 
-
-<p className={styles.subtitlelargeblack}>Introduction:</p>
-
-<p className={styles.descriptionlargeblack}>
-Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
 
 </Container>
 </Col>
@@ -271,7 +270,11 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 <Row className={styles.rowsmall}>
 
+<p className={styles.subtitlelargeblack}>Introduction:</p>
 
+<p className={styles.descriptionblack}>
+Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
 
 <p className={styles.subtitlelargeblack}>Scope of the Project</p>
     <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
@@ -292,6 +295,13 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
           <Row className={styles.rowmedium}>
 
 
+<p className={styles.subtitlelargeblack}>Introduction:</p>
+
+
+
+<p className={styles.descriptionlargeblack}>
+Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
 
 <p className={styles.subtitlelargeblack}>Scope of the Project</p>
     <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
@@ -310,6 +320,13 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
         {matches.large &&
           <Row className={styles.rowlarge}>
 
+<p className={styles.subtitlelargeblack}>Introduction:</p>
+
+
+
+<p className={styles.descriptionlargeblack}>
+Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
 
 <p className={styles.subtitlelargeblack}>Scope of the Project</p>
     <p className={styles.descriptionlargeblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
@@ -353,7 +370,7 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
     
     <p className={styles.subtitlelargeblack}>Building Empathy</p>
-    <p className={styles.descriptionblack}>Users of the Legacy Pictures website:</p>
+    <p className={styles.descriptionblack}>Users of the Legacy Pictures website are demographics that are as follow:</p>
     
     <div className={styles.paddingleft}>
     <ul className={styles.listblack}>
@@ -395,7 +412,7 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
     
     <p className={styles.subtitlelargeblack}>Building Empathy</p>
-    <p className={styles.descriptionblack}>Users of the Legacy Pictures website:</p>
+    <p className={styles.descriptionblack}>Users of the Legacy Pictures website are demographics that are as follow:</p>
     
     <div className={styles.paddingleft}>
     <ul className={styles.listblack}>
@@ -437,7 +454,7 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
     <p className={styles.descriptionlargeblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
     
     <p className={styles.subtitlelargeblack}>Building Empathy</p>
-    <p className={styles.descriptionlargeblack}>Users of the Legacy Pictures website:</p>
+    <p className={styles.descriptionlargeblack}>Users of the Legacy Pictures website are demographics that are as follow:</p>
     
     <div className={styles.paddingleft}>
     <ul className={styles.listlargeblack}>
@@ -1369,7 +1386,7 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 <div className={styles.spaceingwhite}></div>
 <Image src={Img23} fluid className={styles.imgouterstyle} />
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhitetest4}></div>
 
 
 </Container>
