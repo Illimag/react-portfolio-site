@@ -1,118 +1,137 @@
 import React from 'react';
-import { useEffect, useRef, useState } from 'react';
 
-import Container from 'react-bootstrap/Container';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-//import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button';
-// LazyLoadImage } from 'react-lazy-load-image-component';
-
-import { Card } from 'react-bootstrap'
-import { Carousel } from 'react-bootstrap'
-
-
-//import { Slide } from "react-awesome-reveal";
-//import Typing from 'react-typing-animation';
-
-import Badge from 'react-bootstrap/Badge';
+import { Link } from 'react-router-dom'
 
 import { LinkContainer } from 'react-router-bootstrap';
-/*
-import Img01 from '../../assets/img/uguru/ttt-01.png';
-import Sanchezcoffeeimg from '../../assets/img/san.png';
-import Apexvrimg from '../../assets/img/apexvr-01.png';
-import Stepsaverimg from '../../assets/img/ddd-01.png';
-import DasDasimg from '../../assets/img/dasdasdgg-01.png';
-*/
-import Img01 from '../../assets/img/uguru/ttt-01.png';
-import Video from '../../assets/img/home/5.mp4';
-import Videomobile from '../../assets/img/home/5-1.mp4';
-
-/*
-import Vid01 from '../../assets/vids/compress_vid1.mp4';
-*/
-
-/*
-import Uguru_Img from '../../assets/img/uguru/banner-01.jpg';
-import Sanchezcoffeeco_Img from '../../assets/img/sanchezcoffeeco/banner-03.jpg';
-import Apexvr_Img from '../../assets/img/dominos/1-01.jpg';
-import Stepsaver_Img from '../../assets/img/stepsaver/banner-05.jpg';
-import DasDas_Img from '../../assets/img/dasdasdigital/banner-02.jpg';
-*/
-
-import Image from 'react-bootstrap/Image';
-import { Navbar, Nav } from 'react-bootstrap'
-
+import Button from 'react-bootstrap/Button';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
-/*
 import Image from 'react-bootstrap/Image';
-import Pg1Img from '../../assets/img/home/1-02.jpg';
-*/
-/*
-import Pg2Img from '../../assets/img/home/1-03.jpg';
-import Pg3Img from '../../assets/img/home/1-04.jpg';
-import Pg4Img from '../../assets/img/home/1-05.jpg';
-import Pg5Img from '../../assets/img/home/1-06.jpg';
-import Pg6Img from '../../assets/img/home/1-07.jpg';
-*/
+import Badge from 'react-bootstrap/Badge';
+import Card from 'react-bootstrap/Card';
+import ListGroupItem from 'react-bootstrap/ListGroupItem';
+import ListGroup from 'react-bootstrap/ListGroup';
+import CardGroup from 'react-bootstrap/CardGroup';
 
-import styles from './home.module.css';
-import './home.css';
 
-import logo from '../../assets/jmk_logo-02-01.png';
+import Img00 from '../../assets/img/dasdasdigital/banner-02.jpg';
+import Banner from '../../assets/img/nikerate/banner-06.jpg';
+import Img01 from '../../assets/img/legacypictures/graphite-s6.png';
+import Img02 from '../../assets/img/legacypictures/legacyfilms.png';
+import Img03 from '../../assets/img/legacypictures/cardsort.jpg';
+import Img04 from '../../assets/img/legacypictures/test.png';
+import Img05 from '../../assets/img/legacypictures/test1.png';
+import Img06 from '../../assets/img/legacypictures/test2.png';
+import Img07 from '../../assets/img/legacypictures/video-production-concept-operator-working-with-a-c-2JS9M5Q.jpg';
+import Img08 from '../../assets/img/legacypictures/los-angeles-california-P5YD66H.jpg';
+import Img09 from '../../assets/img/legacypictures/bubble-mindmap-template.png';
+import Img10 from '../../assets/img/legacypictures/mind-mapping-diagram-8391.png';
+import Img11 from '../../assets/img/legacypictures/male-videographer-editor-using-pc-computer-editing-R7QYFZS.jpg';
+import Img12 from '../../assets/img/legacypictures/copy.png';
+import Img13 from '../../assets/img/legacypictures/1.PNG';
+import Img14 from '../../assets/img/legacypictures/2.PNG';
+import Img15 from '../../assets/img/legacypictures/4.PNG';
+import Img16 from '../../assets/img/legacypictures/comedy-funny-movie-movie-evening-together-at-home--YS7NQEP.jpg';
+import Img17 from '../../assets/img/legacypictures/5.PNG';
+import Img18 from '../../assets/img/legacypictures/3.PNG';
+import Img19 from '../../assets/img/legacypictures/hsl_3.jpg';
+import Img20 from '../../assets/img/legacypictures/hsl-biz_3.jpg';
+import Img21 from '../../assets/img/legacypictures/hsl-biz_4.jpg';
+import Img22 from '../../assets/img/legacypictures/Capture.PNG';
+import Img23 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
+import Img24 from '../../assets/img/legacypictures/ttt-01.png';
+
+
+
+import styles from '../css/style.module.css';
+import '../css/style.css';
+
+ 
+import ImgA from '../../assets/img/uguru/testpics-02.png';
+import ImgB from '../../assets/img/uguru/testpics-03.png';
+import ImgC from '../../assets/img/uguru/testpics-03.png';
+
+import ImgTablet from '../../assets/img/uguru/testpics-01.png';
+
+import testimg from '../../assets/img/uguru/testpics-05.png';
+import desktopImg from '../../assets/img/legacypictures/Mobile-Mockup.png';
+import Twodesktop from '../../assets/img/uguru/testpics-06.png';
+import duo from '../../assets/img/uguru/testpics-08.png';
+import personas from '../../assets/img/legacypictures/personas.png';
+
+//import testtest from '../../assets/img/uguru/ttt-01.png';
+
+import Vid1 from '../../assets/home_page_vids/compress_vid0.mp4';
+import Vid2 from '../../assets/vids/compressed_vid/vid2.m4v';
+
+import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
+import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
+import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
+
+import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
+
+
+import video from '../../assets/newhomepagevids/1.mp4';
+import videomobile from '../../assets/newhomepagevids/1-1.mp4';
+
 
 
 import Media from 'react-media';
 
 
-export const Home = () => {
-
-  // myRef = React.createRef();
+export const Home = () => (
   /* Start of JSX Fragment*/
-  return <>
+  <>
 
 
 
 
-    <Container fluid className={styles.containerfluid}>
 
-     
-      <Container className={styles.test}>
-      
-        <Row>
-          <Col md={12} className={styles.removepadding}>
 
-          <Jumbotron className={styles.mainfloatback}>
-                <div className={styles.maincontentwrapper}>
-                {/*
-                  <div class="testcontainer">
-                    <div class="chevron"></div>
-                    <div class="chevron"></div>
-                    <div class="chevron"></div>
-                    <span class="text">Scroll to View Portfolio</span>
-                  </div>
-                */}
-              <h1 className={styles.whitetitle}>JMK</h1>
 
-              <h5 className={styles.test1title}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
-              <h5 className={styles.test1title}><span className={styles.available}> Available</span> for In-House, Remote, Full-Time, Part-Time, Contract and Freelance. Have a nice day!</h5>
-            
 
-              <LinkContainer to="/Portfolio">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container className={styles.test}>
+          <Row>
+            <Col md={12} className={styles.removepadding}>
+              <Jumbotron className={styles.mainfloatback}>
+              <div className={styles.maincontentwrapper}>
+
+                <h1 className={styles.whitetitle}>JMK</h1>
+                <h5 className={styles.test1title}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
+                <h5 className={styles.test1title}>Available for In-House, Remote, Full-Time, Part-Time, Contract, and Freelance. Have a nice day!</h5>
+
+
+                <LinkContainer to="/legacypictures">
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">View Portfolio</Button>
+                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
                 </h1>
               </LinkContainer>
 
-                </div>
-
-                
+              </div>
               </Jumbotron>
 
-
-          <Media queries={{
+              <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
           large: "(min-width: 1200px)"
@@ -122,19 +141,19 @@ export const Home = () => {
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={Videomobile}/>
+                <source src={videomobile}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={Video}/>
+                <source src={video}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={Video}/>
+                <source src={video}/>
               </video>
                 }
 
@@ -142,15 +161,11 @@ export const Home = () => {
           )}
         </Media>
 
-          </Col>
-        </Row>
+            </Col>
+          </Row>
+        </Container>
 
 
-
-
-
-
-      </Container>
 
 
 
@@ -158,82 +173,557 @@ export const Home = () => {
 
 
 
-      
-    </Container>
-
-
-    <Container fluid>
-      
-    <Row className={styles.testrow}>
-          <Col md={12} className={styles.removepadding}>
-
-            <Jumbotron className={styles.testtest}>
-              <h5 className={styles.titletextdark}>01/ Services</h5>
-              
-              <p className={styles.secondtitledark}>
-                Web Apps & Corporate Sites
-              </p>
-              
-              <p className={styles.descriptionmaindark}>
-              This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
-              </p>
-
-              <p className={styles.secondtitledark}>
-              Mobile App Design
-              </p>
-              
-              <p className={styles.descriptionmaindark}>
-              Using iOS, Android and an expert vision, I’ll take your application to the next level.
-              </p>
-
-              <p className={styles.secondtitledark}>
-              Front End Development
-              </p>
-              
-              <p className={styles.descriptionmaindark}>
-              I’ll help you to bridge the gap between design and development.
-              </p>
  
-            </Jumbotron>
+<Container fluid className={styles.mainfullscreen}>
+ {/* left text right img */}
 
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+
+
+
+           <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+ <>
+
+   {matches.small &&
+
+ <Row className={styles.rowsmall}>
+
+ <Col sm className={styles.fonttest}>
+<Container className={styles.fonttest}>
+
+<p className={styles.subtitlelargeblack}>Client</p>
+<p className={styles.descriptionblack}>Legacy Pictures</p>
+<p className={styles.subtitlelargeblack}>Project Date:</p>
+<p className={styles.descriptionblack}>July 2021 - August 2021</p>
+<p className={styles.subtitlelargeblack}>Role:</p>
+<p className={styles.descriptionblack}>UI/UX Designer</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionblack}>Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Summary:</p>
+<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Card>
+  <Card.Header as="h5">Featured</Card.Header>
+  <Card.Body>
+    <Card.Title>Special title treatment</Card.Title>
+    <Card.Text>
+      With supporting text below as a natural lead-in to additional content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This card has supporting text below as a natural lead-in to additional
+        content.{' '}
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This card has even longer content than the first to
+        show that equal height action.
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+</CardGroup>
+
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Row xs={1} md={2} className="g-4">
+
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+</Row>
+
+
+
+
+
+
+</Container>
+</Col>
+
+</Row>
+
+     }
+
+   {matches.medium &&
+
+ <Row className={styles.rowmedium}>
+
+ <Col sm className={styles.fonttest}>
+<Container className={styles.fonttest}>
+
+<p className={styles.subtitlelargeblack}>Client</p>
+<p className={styles.descriptionblack}>Legacy Pictures</p>
+<p className={styles.subtitlelargeblack}>Project Date:</p>
+<p className={styles.descriptionblack}>July 2021 - August 2021</p>
+<p className={styles.subtitlelargeblack}>Role:</p>
+<p className={styles.descriptionblack}>UI/UX Designer</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionblack}>Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Summary:</p>
+<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
+
+<div className={styles.spaceingwhite}></div>
+
+\
+<Card>
+  <Card.Header as="h5">Featured</Card.Header>
+  <Card.Body>
+    <Card.Title>Special title treatment</Card.Title>
+    <Card.Text>
+      With supporting text below as a natural lead-in to additional content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This card has supporting text below as a natural lead-in to additional
+        content.{' '}
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This card has even longer content than the first to
+        show that equal height action.
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+</CardGroup>
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Row xs={1} md={2} className="g-4">
+
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+</Row>
+
+</Container>
+</Col>
+
+
+</Row>
+     }
+
+   {matches.large &&
+ <Row className={styles.rowlarge}>
+
+ <Col sm className={styles.fonttest}>
+<Container className={styles.fonttest}>
+
+<p className={styles.subtitlelargeblack}>Client</p>
+<p className={styles.descriptionlargeblack}>Legacy Pictures</p>
+<p className={styles.subtitlelargeblack}>Project Date:</p>
+<p className={styles.descriptionlargeblack}>July 2021 - August 2021</p>
+<p className={styles.subtitlelargeblack}>Role:</p>
+<p className={styles.descriptionlargeblack}>UI/UX Designer</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionlargeblack}>Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Summary:</p>
+<p className={styles.descriptionlargeblack}>Los Angeles Web Application Re-Design</p>
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Card>
+  <Card.Header as="h5">Featured</Card.Header>
+  <Card.Body>
+    <Card.Title>Special title treatment</Card.Title>
+    <Card.Text>
+      With supporting text below as a natural lead-in to additional content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This card has supporting text below as a natural lead-in to additional
+        content.{' '}
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This card has even longer content than the first to
+        show that equal height action.
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+</CardGroup>
+
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Row xs={1} md={2} className="g-4">
+
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+</Row>
+
+
+
+
+
+
+
+</Container>
+</Col>
+
+
+
+</Row>
+     }
+
+ </>
+)}
+</Media>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Jumbotron fluid className={styles.bottomNav}>
+      <Container>
+        <Row className={styles.bottomNavColor}>
+        <Col sm={6} >
+            <p className={styles.titleblack}>Go Home</p>
+            <p className={styles.description}>Go Back Home</p>
+            <Link to={'/'}>
+              <p className={styles.description}> Go Home </p>
+            </Link>
+          </Col>
+          <Col sm={6} >
+            <p className={styles.titleblack}>Art Rendezvous</p>
+            <p className={styles.description}>International Videography Website Redesign</p>
+            <Link to={'/artrendezvous'}>
+              <p className={styles.description}> View Next </p>
+            </Link>
           </Col>
         </Row>
-
-        <Row>
-          <Col md={12} className={styles.removepadding}>
-
-            <Jumbotron className={styles.welcome}>
-              <h5 className={styles.titletext}>02/ Principles</h5>
-              <p className={styles.secondtitle}>
-              UX is the sum of all things.
-              </p>
-              
-              <p className={styles.descriptionmain}>
-              There’s no style over substance here. I bring together form and the function to create something that looks good and performs brilliantly. Simple.              </p>
-              
-
-            </Jumbotron>
-
-          </Col>
-        </Row>
-        
-
-        <Row>
-          <Col md={12} className={styles.removepadding}>
-
-            <Jumbotron className={styles.welcome}>
-              <h5 className={styles.titletext}>03/ Client Comments</h5>
-              <p className={styles.descriptionmain}>
-                Design, Development, 
-              </p>
-              
-
-            </Jumbotron>
-
-          </Col>
-        </Row>
-    </Container>
+      </Container>
+    </Jumbotron>
 
   </>
   /* End of JSX Fragment*/
-}
+)

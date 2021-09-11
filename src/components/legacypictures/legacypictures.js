@@ -21,7 +21,7 @@ import Img04 from '../../assets/img/legacypictures/test.png';
 import Img05 from '../../assets/img/legacypictures/test1.png';
 import Img06 from '../../assets/img/legacypictures/test2.png';
 import Img07 from '../../assets/img/legacypictures/video-production-concept-operator-working-with-a-c-2JS9M5Q.jpg';
-import Img08 from '../../assets/img/legacypictures/team-of-photographers-MQNU8CK.jpg';
+import Img08 from '../../assets/img/legacypictures/los-angeles-california-P5YD66H.jpg';
 import Img09 from '../../assets/img/legacypictures/bubble-mindmap-template.png';
 import Img10 from '../../assets/img/legacypictures/mind-mapping-diagram-8391.png';
 import Img11 from '../../assets/img/legacypictures/male-videographer-editor-using-pc-computer-editing-R7QYFZS.jpg';
@@ -107,26 +107,16 @@ export const Legacypictures = () => (
 
 
 
-
-
-
-
-
-
-
-
-
-    <Container fluid>
-
-
-    <Container className={styles.test}>
+<Container className={styles.test}>
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>Legacy Pictures</h1>
-                <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
+                <h1 className={styles.whitetitle}>Making Changes</h1>
+                <h5 className={styles.test1title}>Case Study:</h5>
+                <h5 className={styles.test1title}>Legacy Pictures</h5>
+
 
                 <LinkContainer to="/legacypictures">
                 <h1>
@@ -172,10 +162,18 @@ export const Legacypictures = () => (
         </Container>
 
 
+
+
+
+
+
+
+    <Container fluid>
+
+
+
+
  
-
-    <div className={styles.spaceinglargewhite}></div>
-
 <Container fluid className={styles.mainfullscreen}>
  {/* left text right img */}
 
@@ -202,9 +200,8 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titleblack}>Legacy Pictures</p>
-<p className={styles.subtitlelargeblack}>Case Study:</p>
-<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
+<p className={styles.subtitlelargeblack}>Client</p>
+<p className={styles.descriptionblack}>Legacy Pictures</p>
 <p className={styles.subtitlelargeblack}>Project Date:</p>
 <p className={styles.descriptionblack}>July 2021 - August 2021</p>
 <p className={styles.subtitlelargeblack}>Role:</p>
@@ -212,14 +209,9 @@ large: "(min-width: 1200px)"
 <p className={styles.subtitlelargeblack}>Location:</p>
 <p className={styles.descriptionblack}>Los Angeles, CA</p>
 <p className={styles.subtitlelargeblack}>Summary:</p>
-<p className={styles.descriptionblack}>Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.</p>
+<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
 
 
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>Scroll to View More:</p>
 
 <div className={styles.spaceingwhite}></div>
 
@@ -238,9 +230,8 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titleblack}>Legacy Pictures</p>
-<p className={styles.subtitlelargeblack}>Case Study:</p>
-<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
+<p className={styles.subtitlelargeblack}>Client</p>
+<p className={styles.descriptionblack}>Legacy Pictures</p>
 <p className={styles.subtitlelargeblack}>Project Date:</p>
 <p className={styles.descriptionblack}>July 2021 - August 2021</p>
 <p className={styles.subtitlelargeblack}>Role:</p>
@@ -248,11 +239,7 @@ large: "(min-width: 1200px)"
 <p className={styles.subtitlelargeblack}>Location:</p>
 <p className={styles.descriptionblack}>Los Angeles, CA</p>
 <p className={styles.subtitlelargeblack}>Summary:</p>
-<p className={styles.descriptionlargeblack}>Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.</p>
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>Scroll to View More:</p>
+<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
 
 <div className={styles.spaceingwhite}></div>
 
@@ -271,9 +258,8 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.titlelargeblack}>Legacy Pictures</p>
-<p className={styles.subtitlelargeblack}>Case Study:</p>
-<p className={styles.descriptionlargeblack}>Los Angeles Web Application Re-Design</p>
+<p className={styles.subtitlelargeblack}>Client</p>
+<p className={styles.descriptionlargeblack}>Legacy Pictures</p>
 <p className={styles.subtitlelargeblack}>Project Date:</p>
 <p className={styles.descriptionlargeblack}>July 2021 - August 2021</p>
 <p className={styles.subtitlelargeblack}>Role:</p>
@@ -281,12 +267,7 @@ large: "(min-width: 1200px)"
 <p className={styles.subtitlelargeblack}>Location:</p>
 <p className={styles.descriptionlargeblack}>Los Angeles, CA</p>
 <p className={styles.subtitlelargeblack}>Summary:</p>
-<p className={styles.descriptionlargeblack}>Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.</p>
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>Scroll to View More:</p>
+<p className={styles.descriptionlargeblack}>Los Angeles Web Application Re-Design</p>
 
 <div className={styles.spaceingwhite}></div>
 
@@ -330,7 +311,7 @@ large: "(min-width: 1200px)"
 
 
 
-<Container fluid>
+<Container fluid className={styles.test1}>
 <div className={styles.spaceingwhite}></div>
 {/* left text right img */}
 
@@ -585,11 +566,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 
-
-
-
-
-
 <Media queries={{
     small: "(max-width: 599px)",
     medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -698,7 +674,7 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
 
 
-
+<Container fluid className={styles.test1}>
 
 
 
@@ -1126,20 +1102,27 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 </Row>
 
 
+</Container>
 
 
 
 
 
+
+
+
+</Container>
+
+
+
+
+<Container fluid className={styles.test3}>
 
 <div className={styles.spaceingwhite}></div>
 <Image src={Img11} fluid className={styles.imgouterstyle} />
 <div className={styles.spaceingblack}></div>
 
 
-</Container>
-
-<Container fluid className={styles.test3}>
 <Media queries={{
     small: "(max-width: 599px)",
     medium: "(min-width: 600px) and (max-width: 1199px)",
