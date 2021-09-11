@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
 import { CSSTransition } from 'react-transition-group'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import { Home } from '../home/home'
+
 import { Contact } from '../contact/contact'
 import { Uguru } from '../uguru/uguru'
 import { Artrendezvous } from '../artrendezvous/artrendezvous'
@@ -11,6 +12,8 @@ import { Apexvr } from '../apexvr/apexvr'
 import { Uxdesignsumo } from '../uxdesignsumo/uxdesignsumo'
 import { Legacypictures } from '../legacypictures/legacypictures'
 import { Stepsaver } from '../stepsaver/stepsaver'
+import { Portfolio } from '../portfolio/portfolio'
+
 //import { Blog } from '../blog/blog'
 //import { Feed } from '../feed/feed'
 
@@ -35,6 +38,7 @@ import './navigation.css'
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
+  { path: '/portfolio', name: 'Portfolio', Component: Portfolio },
   { path: '/legacypictures', name: 'Legacy Pictures', Component: Legacypictures },
   { path: '/artrendezvous', name: 'Art Rendez-Vous', Component: Artrendezvous },
   { path: '/uguru', name: 'Uguru, INC.', Component: Uguru },
@@ -70,7 +74,7 @@ function MainNav() {
          
          
          
-            <Navbar collapseOnSelect className={styles.navbar} expand="lg" sticky="top" >
+            <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" >
 
             <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>

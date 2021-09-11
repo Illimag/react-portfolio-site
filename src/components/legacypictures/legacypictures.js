@@ -116,7 +116,7 @@ export const Legacypictures = () => (
 
     <div className={styles.spaceinglargewhite}></div>
 
-<Container fluid className={styles.test1}>
+<Container fluid className={styles.mainfullscreen}>
  {/* left text right img */}
 
 <div className={styles.spaceingwhite}></div>
