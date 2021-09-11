@@ -122,9 +122,9 @@ export const Home = () => (
                 <h5 className={styles.test1title}>Available for In-House, Remote, Full-Time, Part-Time, Contract, and Freelance. Have a nice day!</h5>
 
 
-                <LinkContainer to="/legacypictures">
+                <LinkContainer to="/portfolio">
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                  <Button className={styles.mainbutton} variant="primary">View Portfolio</Button>
                 </h1>
               </LinkContainer>
 
@@ -140,19 +140,19 @@ export const Home = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={videomobile}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
@@ -197,52 +197,26 @@ large: "(min-width: 1200px)"
 
  <Row className={styles.rowsmall}>
 
- <Col sm className={styles.fonttest}>
+<Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.subtitlelargeblack}>Client</p>
-<p className={styles.descriptionblack}>Legacy Pictures</p>
-<p className={styles.subtitlelargeblack}>Project Date:</p>
-<p className={styles.descriptionblack}>July 2021 - August 2021</p>
-<p className={styles.subtitlelargeblack}>Role:</p>
-<p className={styles.descriptionblack}>UI/UX Designer</p>
-<p className={styles.subtitlelargeblack}>Location:</p>
-<p className={styles.descriptionblack}>Los Angeles, CA</p>
-<p className={styles.subtitlelargeblack}>Summary:</p>
-<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
-
-
-
 
 <div className={styles.spaceingwhite}></div>
 
 
-
-<Card>
-  <Card.Header as="h5">Featured</Card.Header>
-  <Card.Body>
-    <Card.Title>Special title treatment</Card.Title>
-    <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-
-
+<p className={styles.subtitlelargeblack}>01/ Services</p>
 <div className={styles.spaceingwhite}></div>
-
-
 
 
 <CardGroup>
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Web Apps & Corporate Sites</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
+
+
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -252,10 +226,10 @@ large: "(min-width: 1200px)"
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Mobile App Design</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+      Using iOS, Android and an expert vision, I’ll take your application to the next level.
+
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -265,11 +239,11 @@ large: "(min-width: 1200px)"
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Front-End Development</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      I’ll help you to bridge the gap between design and development.
+
+
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -284,6 +258,8 @@ large: "(min-width: 1200px)"
 
 <div className={styles.spaceingwhite}></div>
 
+<p className={styles.subtitlelargeblack}>02/ Principles</p>
+<div className={styles.spaceingwhite}></div>
 
 
 <Row xs={1} md={2} className="g-4">
@@ -342,6 +318,83 @@ large: "(min-width: 1200px)"
 
 
 
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Card>
+  <Card.Header as="h5">Interested in a Chat?</Card.Header>
+  <Card.Body>
+    <Card.Title>Contact Directly to get started!</Card.Title>
+    <Card.Text>
+      With supporting text below as a natural lead-in to additional content.
+    </Card.Text>
+    <Button variant="primary">Contact Now</Button>
+  </Card.Body>
+</Card>
 
 
 </Container>
@@ -355,48 +408,26 @@ large: "(min-width: 1200px)"
 
  <Row className={styles.rowmedium}>
 
- <Col sm className={styles.fonttest}>
+<Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.subtitlelargeblack}>Client</p>
-<p className={styles.descriptionblack}>Legacy Pictures</p>
-<p className={styles.subtitlelargeblack}>Project Date:</p>
-<p className={styles.descriptionblack}>July 2021 - August 2021</p>
-<p className={styles.subtitlelargeblack}>Role:</p>
-<p className={styles.descriptionblack}>UI/UX Designer</p>
-<p className={styles.subtitlelargeblack}>Location:</p>
-<p className={styles.descriptionblack}>Los Angeles, CA</p>
-<p className={styles.subtitlelargeblack}>Summary:</p>
-<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
-
-<div className={styles.spaceingwhite}></div>
-
-\
-<Card>
-  <Card.Header as="h5">Featured</Card.Header>
-  <Card.Body>
-    <Card.Title>Special title treatment</Card.Title>
-    <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-
 
 <div className={styles.spaceingwhite}></div>
 
 
+<p className={styles.subtitlelargeblack}>01/ Services</p>
+<div className={styles.spaceingwhite}></div>
 
 
 <CardGroup>
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Web Apps & Corporate Sites</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
+
+
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -406,10 +437,10 @@ large: "(min-width: 1200px)"
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Mobile App Design</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+      Using iOS, Android and an expert vision, I’ll take your application to the next level.
+
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -419,11 +450,11 @@ large: "(min-width: 1200px)"
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Front-End Development</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      I’ll help you to bridge the gap between design and development.
+
+
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -435,8 +466,11 @@ large: "(min-width: 1200px)"
 
 
 
+
 <div className={styles.spaceingwhite}></div>
 
+<p className={styles.subtitlelargeblack}>02/ Principles</p>
+<div className={styles.spaceingwhite}></div>
 
 
 <Row xs={1} md={2} className="g-4">
@@ -491,6 +525,88 @@ large: "(min-width: 1200px)"
     </Col>
 
 </Row>
+
+
+
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Card>
+  <Card.Header as="h5">Interested in a Chat?</Card.Header>
+  <Card.Body>
+    <Card.Title>Contact Directly to get started!</Card.Title>
+    <Card.Text>
+      With supporting text below as a natural lead-in to additional content.
+    </Card.Text>
+    <Button variant="primary">Contact Now</Button>
+  </Card.Body>
+</Card>
+
 
 </Container>
 </Col>
@@ -505,45 +621,23 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.subtitlelargeblack}>Client</p>
-<p className={styles.descriptionlargeblack}>Legacy Pictures</p>
-<p className={styles.subtitlelargeblack}>Project Date:</p>
-<p className={styles.descriptionlargeblack}>July 2021 - August 2021</p>
-<p className={styles.subtitlelargeblack}>Role:</p>
-<p className={styles.descriptionlargeblack}>UI/UX Designer</p>
-<p className={styles.subtitlelargeblack}>Location:</p>
-<p className={styles.descriptionlargeblack}>Los Angeles, CA</p>
-<p className={styles.subtitlelargeblack}>Summary:</p>
-<p className={styles.descriptionlargeblack}>Los Angeles Web Application Re-Design</p>
 
 <div className={styles.spaceingwhite}></div>
 
 
-
-<Card>
-  <Card.Header as="h5">Featured</Card.Header>
-  <Card.Body>
-    <Card.Title>Special title treatment</Card.Title>
-    <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-
+<p className={styles.subtitlelargeblack}>01/ Services</p>
 <div className={styles.spaceingwhite}></div>
-
-
 
 
 <CardGroup>
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Web Apps & Corporate Sites</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
+
+
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -553,10 +647,10 @@ large: "(min-width: 1200px)"
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Mobile App Design</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+      Using iOS, Android and an expert vision, I’ll take your application to the next level.
+
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -566,11 +660,11 @@ large: "(min-width: 1200px)"
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Front-End Development</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      I’ll help you to bridge the gap between design and development.
+
+
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -585,6 +679,8 @@ large: "(min-width: 1200px)"
 
 <div className={styles.spaceingwhite}></div>
 
+<p className={styles.subtitlelargeblack}>02/ Principles</p>
+<div className={styles.spaceingwhite}></div>
 
 
 <Row xs={1} md={2} className="g-4">
@@ -644,6 +740,82 @@ large: "(min-width: 1200px)"
 
 
 
+
+
+<div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Card>
+  <Card.Header as="h5">Interested in a Chat?</Card.Header>
+  <Card.Body>
+    <Card.Title>Contact Directly to get started!</Card.Title>
+    <Card.Text>
+      With supporting text below as a natural lead-in to additional content.
+    </Card.Text>
+    <Button variant="primary">Contact Now</Button>
+  </Card.Body>
+</Card>
 
 
 </Container>

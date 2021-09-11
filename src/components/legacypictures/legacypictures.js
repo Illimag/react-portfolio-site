@@ -136,19 +136,19 @@ export const Legacypictures = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={videomobile}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
