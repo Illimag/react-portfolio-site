@@ -26,7 +26,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
-import Github from '../../assets/githublogoback.png';
+import Github from '../../assets/githublogo.png';
 import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
 import Dribbble from '../../assets/dribbble.png';
@@ -39,13 +39,13 @@ import './navigation.css'
 const routes = [
   { path: '/', name: 'Home', Component: Home },
   { path: '/portfolio', name: 'Portfolio', Component: Portfolio },
-  { path: '/legacypictures', name: 'Legacy Pictures', Component: Legacypictures },
-  { path: '/artrendezvous', name: 'Art Rendez-Vous', Component: Artrendezvous },
-  { path: '/uguru', name: 'Uguru, INC.', Component: Uguru },
-  { path: '/sanchezcoffeeco', name: 'Sanchez Coffee CO.', Component: Sanchezcoffeeco },
-  { path: '/apexvr', name: 'ApexVR', Component: Apexvr },
-  { path: '/stepsaver', name: 'Stepsaver', Component: Stepsaver },
-  { path: '/Contact', name: 'Contact/Profile', Component: Contact },
+  { path: '/legacypictures', name: '• Legacy Pictures', Component: Legacypictures },
+  { path: '/artrendezvous', name: '• Art•Rendez-Vous', Component: Artrendezvous },
+  { path: '/uguru', name: '• Uguru, INC.', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: '• Sanchez Coffee CO.', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: '• ApexVR', Component: Apexvr },
+  { path: '/stepsaver', name: '• Stepsaver', Component: Stepsaver },
+  { path: '/Contact', name: 'Contact', Component: Contact },
 ]
 
 function MainNav() {
@@ -74,7 +74,7 @@ function MainNav() {
          
          
          
-            <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" >
+            <Navbar collapseOnSelect className={styles.navbar} expand="lg" sticky="top" >
 
             <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>

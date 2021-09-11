@@ -151,9 +151,88 @@ export const Home = () => {
 
 
       </Container>
+
+
+
+
+
+
+
+      
     </Container>
 
 
+    <Container fluid>
+      
+    <Row className={styles.testrow}>
+          <Col md={12} className={styles.removepadding}>
+
+            <Jumbotron className={styles.testtest}>
+              <h5 className={styles.titletextdark}>01/ Services</h5>
+              
+              <p className={styles.secondtitledark}>
+                Web Apps & Corporate Sites
+              </p>
+              
+              <p className={styles.descriptionmaindark}>
+              This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
+              </p>
+
+              <p className={styles.secondtitledark}>
+              Mobile App Design
+              </p>
+              
+              <p className={styles.descriptionmaindark}>
+              Using iOS, Android and an expert vision, I’ll take your application to the next level.
+              </p>
+
+              <p className={styles.secondtitledark}>
+              Front End Development
+              </p>
+              
+              <p className={styles.descriptionmaindark}>
+              I’ll help you to bridge the gap between design and development.
+              </p>
+ 
+            </Jumbotron>
+
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={12} className={styles.removepadding}>
+
+            <Jumbotron className={styles.welcome}>
+              <h5 className={styles.titletext}>02/ Principles</h5>
+              <p className={styles.secondtitle}>
+              UX is the sum of all things.
+              </p>
+              
+              <p className={styles.descriptionmain}>
+              There’s no style over substance here. I bring together form and the function to create something that looks good and performs brilliantly. Simple.              </p>
+              
+
+            </Jumbotron>
+
+          </Col>
+        </Row>
+        
+
+        <Row>
+          <Col md={12} className={styles.removepadding}>
+
+            <Jumbotron className={styles.welcome}>
+              <h5 className={styles.titletext}>03/ Client Comments</h5>
+              <p className={styles.descriptionmain}>
+                Design, Development, 
+              </p>
+              
+
+            </Jumbotron>
+
+          </Col>
+        </Row>
+    </Container>
 
   </>
   /* End of JSX Fragment*/
