@@ -443,8 +443,8 @@
 }
 
 .maincontentwrapper{
-    margin-bottom: 3em;
-    bottom: 0;
+    margin-top: 3em;
+    bottom:10rem;
     position: absolute;
 }
 

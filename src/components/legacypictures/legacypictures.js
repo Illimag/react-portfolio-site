@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Link } from 'react-router-dom'
 
+import { LinkContainer } from 'react-router-bootstrap';
+import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -67,6 +69,9 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
+import video from '../../assets/newhomepagevids/1.mp4';
+import videomobile from '../../assets/newhomepagevids/1-1.mp4';
+
 
 
 import Media from 'react-media';
@@ -112,6 +117,61 @@ export const Legacypictures = () => (
 
 
     <Container fluid>
+
+
+    <Container className={styles.test}>
+          <Row>
+            <Col md={12} className={styles.removepadding}>
+              <Jumbotron className={styles.mainfloatback}>
+              <div className={styles.maincontentwrapper}>
+
+                <h1 className={styles.whitetitle}>Legacy Pictures</h1>
+                <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
+
+                <LinkContainer to="/legacypictures">
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                </h1>
+              </LinkContainer>
+
+              </div>
+              </Jumbotron>
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={videomobile}/>
+              </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
+            </Col>
+          </Row>
+        </Container>
+
+
  
 
     <div className={styles.spaceinglargewhite}></div>
@@ -120,6 +180,8 @@ export const Legacypictures = () => (
  {/* left text right img */}
 
 <div className={styles.spaceingwhite}></div>
+
+
 
 
 
@@ -152,8 +214,14 @@ large: "(min-width: 1200px)"
 <p className={styles.subtitlelargeblack}>Summary:</p>
 <p className={styles.descriptionblack}>Legacy Films is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.</p>
 
+
+
+
 <div className={styles.spaceingwhite}></div>
 
+<p className={styles.subtitlelargeblack}>Scroll to View More:</p>
+
+<div className={styles.spaceingwhite}></div>
 
 
 </Container>
@@ -184,6 +252,12 @@ large: "(min-width: 1200px)"
 
 <div className={styles.spaceingwhite}></div>
 
+<p className={styles.subtitlelargeblack}>Scroll to View More:</p>
+
+<div className={styles.spaceingwhite}></div>
+
+
+
 </Container>
 </Col>
 
@@ -211,6 +285,11 @@ large: "(min-width: 1200px)"
 
 
 <div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>Scroll to View More:</p>
+
+<div className={styles.spaceingwhite}></div>
+
 
 
 </Container>

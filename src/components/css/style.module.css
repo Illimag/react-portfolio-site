@@ -317,6 +317,12 @@ background: rgba(0,0,0,0.5);
     padding-left: 0rem !important;
 
 }
+
+
+
+
+
+
 .float{
     position: absolute;
     background-color: rgba(0,0,0,0.5) !important;
@@ -801,3 +807,49 @@ background: rgba(0,0,0,0.5);
     color:#fff !important;
     letter-spacing: -1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whitetitle{
+    color: #fff;
+    font-size: 12vw !important;
+    margin-top: 0px !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    overflow-wrap: break-word;
+}
+
+
+
+.test1title{
+    color: #fff;
+    font-size: 2em !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    margin-top: 0px !important;
+}
+
