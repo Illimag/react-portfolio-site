@@ -124,7 +124,7 @@ export const Legacypictures = () => (
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>AKA how I Re-Designed a Web App in 2021</h5>
+                <h5 className={styles.test1title}>AKA how to Re-Designed a Web App in 2021</h5>
                 <h5 className={styles.test1title}>Case Study: Legacy Pictures</h5>
 
                 <AnchorLink href='#test' className={styles.paddingleft}>                
