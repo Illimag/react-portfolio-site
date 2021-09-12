@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ed140c5.chunk.css",
-    "main.js": "/static/js/main.855a4f86.chunk.js",
-    "main.js.map": "/static/js/main.855a4f86.chunk.js.map",
+    "main.css": "/static/css/main.f31a944d.chunk.css",
+    "main.js": "/static/js/main.737b90a5.chunk.js",
+    "main.js.map": "/static/js/main.737b90a5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82579a8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.82579a8e.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
-    "static/js/2.66b2942e.chunk.js": "/static/js/2.66b2942e.chunk.js",
-    "static/js/2.66b2942e.chunk.js.map": "/static/js/2.66b2942e.chunk.js.map",
+    "static/js/2.29e0a9f9.chunk.js": "/static/js/2.29e0a9f9.chunk.js",
+    "static/js/2.29e0a9f9.chunk.js.map": "/static/js/2.29e0a9f9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cdda19b8a8c0be885e665eefa82e534e.js": "/precache-manifest.cdda19b8a8c0be885e665eefa82e534e.js",
+    "precache-manifest.3752cbe9bc460987ec5d53905403a449.js": "/precache-manifest.3752cbe9bc460987ec5d53905403a449.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
-    "static/css/main.3ed140c5.chunk.css.map": "/static/css/main.3ed140c5.chunk.css.map",
-    "static/js/2.66b2942e.chunk.js.LICENSE.txt": "/static/js/2.66b2942e.chunk.js.LICENSE.txt",
+    "static/css/main.f31a944d.chunk.css.map": "/static/css/main.f31a944d.chunk.css.map",
+    "static/js/2.29e0a9f9.chunk.js.LICENSE.txt": "/static/js/2.29e0a9f9.chunk.js.LICENSE.txt",
     "static/media/1-01.071bc6ba.jpg": "/static/media/1-01.071bc6ba.jpg",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
     "static/media/1-01.f0f1b667.jpg": "/static/media/1-01.f0f1b667.jpg",
@@ -76,7 +76,6 @@
     "static/media/bubble-mindmap-template.b8550199.png": "/static/media/bubble-mindmap-template.b8550199.png",
     "static/media/cardsort.74923b9e.jpg": "/static/media/cardsort.74923b9e.jpg",
     "static/media/comedy-funny-movie-movie-evening-together-at-home--YS7NQEP.abfc14a8.jpg": "/static/media/comedy-funny-movie-movie-evening-together-at-home--YS7NQEP.abfc14a8.jpg",
-    "static/media/compress_sf.mp4": "/static/media/compress_sf.76ec8c31.mp4",
     "static/media/compress_vid0.mp4": "/static/media/compress_vid0.3c375be0.mp4",
     "static/media/copy.486e8aba.png": "/static/media/copy.486e8aba.png",
     "static/media/customer_location.PNG": "/static/media/customer_location.68ba829d.PNG",
@@ -87,6 +86,7 @@
     "static/media/hsl-biz_3.1e60297c.jpg": "/static/media/hsl-biz_3.1e60297c.jpg",
     "static/media/hsl-biz_4.7dd55212.jpg": "/static/media/hsl-biz_4.7dd55212.jpg",
     "static/media/hsl_3.5bf5e383.jpg": "/static/media/hsl_3.5bf5e383.jpg",
+    "static/media/jmk_logo-02-01.98c4178d.png": "/static/media/jmk_logo-02-01.98c4178d.png",
     "static/media/legacyfilms.15a22d82.png": "/static/media/legacyfilms.15a22d82.png",
     "static/media/los-angeles-california-P5YD66H.23421950.jpg": "/static/media/los-angeles-california-P5YD66H.23421950.jpg",
     "static/media/male-videographer-editor-using-pc-computer-editing-R7QYFZS.0480d8fa.jpg": "/static/media/male-videographer-editor-using-pc-computer-editing-R7QYFZS.0480d8fa.jpg",
@@ -113,8 +113,8 @@
   "entrypoints": [
     "static/js/runtime-main.82579a8e.js",
     "static/css/2.46b578d6.chunk.css",
-    "static/js/2.66b2942e.chunk.js",
-    "static/css/main.3ed140c5.chunk.css",
-    "static/js/main.855a4f86.chunk.js"
+    "static/js/2.29e0a9f9.chunk.js",
+    "static/css/main.f31a944d.chunk.css",
+    "static/js/main.737b90a5.chunk.js"
   ]
 }
