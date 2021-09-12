@@ -14,6 +14,7 @@ html{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+
 }
 
 html,
@@ -22,8 +23,11 @@ body,
   height: 100vh !important;
 }
 
+
+
 .container{
     max-width: 100% !important;
+    
 }
 #root{
     margin: 0;
@@ -33,6 +37,7 @@ body,
     font: inherit;
     vertical-align: baseline;
     width:100%;
+    
 }
 
 

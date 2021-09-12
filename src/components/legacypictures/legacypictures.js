@@ -11,6 +11,13 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
 
+import Card from 'react-bootstrap/Card';
+import ListGroupItem from 'react-bootstrap/ListGroupItem';
+import ListGroup from 'react-bootstrap/ListGroup';
+import CardGroup from 'react-bootstrap/CardGroup';
+
+
+
 
 import Img00 from '../../assets/img/dasdasdigital/banner-02.jpg';
 import Banner from '../../assets/img/nikerate/banner-06.jpg';
@@ -39,6 +46,8 @@ import Img22 from '../../assets/img/legacypictures/Capture.PNG';
 import Img23 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
 import Img24 from '../../assets/img/legacypictures/ttt-01.png';
 
+
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 import styles from '../css/style.module.css';
@@ -72,6 +81,7 @@ import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-
 import video from '../../assets/newhomepagevids/1.mp4';
 import videomobile from '../../assets/newhomepagevids/1-1.mp4';
 
+import scrolldown from '../../assets/scrolldown-01.png';
 
 
 import Media from 'react-media';
@@ -114,15 +124,12 @@ export const Legacypictures = () => (
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>Case Study:</h5>
-                <h5 className={styles.test1title}>Legacy Pictures</h5>
+                <h5 className={styles.test1title}>AKA how I Re-Designed a Web App in 2021</h5>
+                <h5 className={styles.test1title}>Case Study: Legacy Pictures</h5>
 
-
-                <LinkContainer to="/legacypictures">
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
-                </h1>
-              </LinkContainer>
+                <AnchorLink href='#test' className={styles.paddingleft}>                
+                <Image src={scrolldown}/>
+                </AnchorLink>
 
               </div>
               </Jumbotron>
@@ -174,13 +181,13 @@ export const Legacypictures = () => (
 
 
  
-<Container fluid className={styles.mainfullscreen}>
+<Container fluid className={styles.mainfullscreen} >
  {/* left text right img */}
 
 <div className={styles.spaceingwhite}></div>
 
 
-
+<div id="test"></div>
 
 
 
@@ -215,6 +222,23 @@ large: "(min-width: 1200px)"
 
 <div className={styles.spaceingwhite}></div>
 
+<Card>
+  <Card.Header>Introduction:</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+
+{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
 
 </Container>
 </Col>
@@ -244,6 +268,24 @@ large: "(min-width: 1200px)"
 <div className={styles.spaceingwhite}></div>
 
 
+<Card>
+  <Card.Header>Introduction:</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+
+{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+
 
 </Container>
 </Col>
@@ -258,6 +300,25 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
+<div className={styles.spaceingwhite}></div>
+
+
+<Card>
+  <Card.Header>Introduction:</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+
+{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+
+    
 <p className={styles.subtitlelargeblack}>Client</p>
 <p className={styles.descriptionlargeblack}>Legacy Pictures</p>
 <p className={styles.subtitlelargeblack}>Project Date:</p>
@@ -269,8 +330,10 @@ large: "(min-width: 1200px)"
 <p className={styles.subtitlelargeblack}>Summary:</p>
 <p className={styles.descriptionlargeblack}>Los Angeles Web Application Re-Design</p>
 
-<div className={styles.spaceingwhite}></div>
+  </Card.Body>
 
+  
+</Card>
 
 
 </Container>
@@ -330,12 +393,6 @@ large: "(min-width: 1200px)"
 
 <Row className={styles.rowsmall}>
 
-<p className={styles.subtitlelargeblack}>Introduction:</p>
-
-<p className={styles.descriptionblack}>
-Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-
 <p className={styles.subtitlelargeblack}>Scope of the Project</p>
     <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
 
@@ -355,13 +412,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
           <Row className={styles.rowmedium}>
 
 
-<p className={styles.subtitlelargeblack}>Introduction:</p>
-
-
-
-<p className={styles.descriptionlargeblack}>
-Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
 
 <p className={styles.subtitlelargeblack}>Scope of the Project</p>
     <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
@@ -379,14 +429,6 @@ Legacy Pictures is a Los Angeles Videography Company with offices in North Ameri
 
         {matches.large &&
           <Row className={styles.rowlarge}>
-
-<p className={styles.subtitlelargeblack}>Introduction:</p>
-
-
-
-<p className={styles.descriptionlargeblack}>
-Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
 
 <p className={styles.subtitlelargeblack}>Scope of the Project</p>
     <p className={styles.descriptionlargeblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
