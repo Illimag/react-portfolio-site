@@ -78,7 +78,8 @@ function MainNav() {
 
             <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>
-                  <Image src={logo} fluid />
+                <h5 className={styles.test1title}>JMK</h5>
+
                 </Navbar.Brand>
               </LinkContainer>
               
