@@ -78,8 +78,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
-import video from '../../assets/newhomepagevids/1.mp4';
-import videomobile from '../../assets/newhomepagevids/1-1.mp4';
+import video from '../../assets/newhomepagevids/2.mp4';
+import videomobile from '../../assets/newhomepagevids/2-1.mp4';
 
 import scrolldown from '../../assets/scrolldown-01.png';
 

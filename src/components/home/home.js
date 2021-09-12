@@ -73,8 +73,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
-import video from '../../assets/newhomepagevids/1.mp4';
-import videomobile from '../../assets/newhomepagevids/1-1.mp4';
+import video from '../../assets/newhomepagevids/7.mp4';
+import videomobile from '../../assets/newhomepagevids/7-1.mp4';
 
 
 
@@ -145,19 +145,19 @@ export const Home = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={videomobile}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
@@ -175,6 +175,688 @@ export const Home = () => (
 
 
 
+
+
+
+
+ 
+        <Container fluid className={styles.mainfullscreen}>
+ {/* left text right img */}
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+
+
+
+           <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+ <>
+
+   {matches.small &&
+
+ <Row className={styles.rowsmall}>
+
+<Col sm className={styles.fonttest}>
+<Container className={styles.fonttest}>
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+<p className={styles.subtitlelargeblack}>01/ Services</p>
+<div className={styles.spaceingwhite}></div>
+
+
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Web Apps & Corporate Sites</Card.Title>
+      <Card.Text>
+      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
+
+
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Mobile App Design</Card.Title>
+      <Card.Text>
+      Using iOS, Android and an expert vision, I’ll take your application to the next level.
+
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Front-End Development</Card.Title>
+      <Card.Text>
+      I’ll help you to bridge the gap between design and development.
+
+
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+</CardGroup>
+
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>02/ Principles</p>
+<div className={styles.spaceingwhite}></div>
+
+
+<Row xs={1} md={2} className="g-4">
+
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+</Row>
+
+
+
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Card>
+  <Card.Header as="h5">Interested in a Chat?</Card.Header>
+  <Card.Body>
+    <Card.Title>Contact Directly to get started!</Card.Title>
+    <Card.Text>
+      With supporting text below as a natural lead-in to additional content.
+    </Card.Text>
+    <Button variant="primary">Contact Now</Button>
+  </Card.Body>
+</Card>
+
+
+</Container>
+</Col>
+
+</Row>
+
+     }
+
+   {matches.medium &&
+
+ <Row className={styles.rowmedium}>
+
+<Col sm className={styles.fonttest}>
+<Container className={styles.fonttest}>
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+<p className={styles.subtitlelargeblack}>01/ Services</p>
+<div className={styles.spaceingwhite}></div>
+
+
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Web Apps & Corporate Sites</Card.Title>
+      <Card.Text>
+      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
+
+
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Mobile App Design</Card.Title>
+      <Card.Text>
+      Using iOS, Android and an expert vision, I’ll take your application to the next level.
+
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Front-End Development</Card.Title>
+      <Card.Text>
+      I’ll help you to bridge the gap between design and development.
+
+
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+</CardGroup>
+
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>02/ Principles</p>
+<div className={styles.spaceingwhite}></div>
+
+
+<Row xs={1} md={2} className="g-4">
+
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+</Row>
+
+
+
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Card>
+  <Card.Header as="h5">Interested in a Chat?</Card.Header>
+  <Card.Body>
+    <Card.Title>Contact Directly to get started!</Card.Title>
+    <Card.Text>
+      With supporting text below as a natural lead-in to additional content.
+    </Card.Text>
+    <Button variant="primary">Contact Now</Button>
+  </Card.Body>
+</Card>
+
+
+</Container>
+</Col>
+
+
+</Row>
+     }
+
+   {matches.large &&
+ <Row className={styles.rowlarge}>
+
+ <Col sm className={styles.fonttest}>
+<Container className={styles.fonttest}>
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+<p className={styles.subtitlelargeblack}>01/ Services</p>
+<div className={styles.spaceingwhite}></div>
+
+
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Web Apps & Corporate Sites</Card.Title>
+      <Card.Text>
+      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
+
+
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Mobile App Design</Card.Title>
+      <Card.Text>
+      Using iOS, Android and an expert vision, I’ll take your application to the next level.
+
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Front-End Development</Card.Title>
+      <Card.Text>
+      I’ll help you to bridge the gap between design and development.
+
+
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+</CardGroup>
+
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>02/ Principles</p>
+<div className={styles.spaceingwhite}></div>
+
+
+<Row xs={1} md={2} className="g-4">
+
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+</Row>
+
+
+
+
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
+<div className={styles.spaceingwhite}></div>
+
+
+
+
+
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+<Card>
+  <Card.Header>Quote</Card.Header>
+  <Card.Body>
+    <blockquote className="blockquote mb-0">
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.{' '}
+      </p>
+      <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+  </Card.Body>
+</Card>
+
+
+
+<div className={styles.spaceingwhite}></div>
+
+
+
+<Card>
+  <Card.Header as="h5">Interested in a Chat?</Card.Header>
+  <Card.Body>
+    <Card.Title>Contact Directly to get started!</Card.Title>
+    <Card.Text>
+      With supporting text below as a natural lead-in to additional content.
+    </Card.Text>
+    <Button variant="primary">Contact Now</Button>
+  </Card.Body>
+</Card>
+
+
+</Container>
+</Col>
+
+
+
+</Row>
+     }
+
+ </>
+)}
+</Media>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Container>
 
 
 

@@ -110,15 +110,13 @@ export const Contact = () => (
 
 
 
-
- 
-        <Container fluid className={styles.mainfullscreen}>
+<Container fluid className={styles.mainfullscreen} >
  {/* left text right img */}
 
 <div className={styles.spaceingwhite}></div>
 
 
-
+<div id="test"></div>
 
 
 
@@ -135,202 +133,58 @@ large: "(min-width: 1200px)"
 
  <Row className={styles.rowsmall}>
 
-<Col sm className={styles.fonttest}>
+ <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
+<p className={styles.subtitlelargeblack}>Name:</p>
+<p className={styles.descriptionblack}>Jae Min Kim</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionblack}>Fremont, CA 94538</p>
+<p className={styles.subtitlelargeblack}>Phone:</p>
+<p className={styles.descriptionblack}>(510)-513-7376</p>
+<p className={styles.subtitlelargeblack}>Email:</p>
+<p className={styles.descriptionblack}>jaeminkim.com@gmail.com</p>
+<p className={styles.subtitlelargeblack}>Summery:</p>
+<div className={styles.paddingleft}>
+    <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>5+ years of UI/UX, Web, design experience as a Remote Contractor and In-House Experience, In Teams, Startups, Businesses And Corporations.</li>
+      <li className={styles.listitemblack}>Designed User Interface and User Experience Designs for Clients across the United States and Canada.
+</li>
+<li className={styles.listitemblack}>Expert in Adobe Creative Suite, Design Thinking, Balsamiq, Cross-Browser, Interface Design, Sketching, User Interface, Mockups, Wireframes, Balsamiq, Figma, Adobe XD, Adobe Illustrator, Adobe Photoshop.
+</li>
 
-<div className={styles.spaceingwhite}></div>
-
-
-<p className={styles.subtitlelargeblack}>01/ Services</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<CardGroup>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Web Apps & Corporate Sites</Card.Title>
-      <Card.Text>
-      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
-
-
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Mobile App Design</Card.Title>
-      <Card.Text>
-      Using iOS, Android and an expert vision, I’ll take your application to the next level.
-
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Front-End Development</Card.Title>
-      <Card.Text>
-      I’ll help you to bridge the gap between design and development.
-
-
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-</CardGroup>
-
-
-
+<li className={styles.listitemblack}>Designed High Fidelity UI design mockups in Adobe Illustrator, XD and Figma for production applications.
+</li>
+<li className={styles.listitemblack}>Modern JavaScript Web Frameworks, React.JS and HTML/CSS.
+</li>
+<li className={styles.listitemblack}>Git, WordPress, </li>
+<li className={styles.listitemblack}>Excellent communication and interpersonal skills. </li>
+    </ul>
+    </div>
 
 
 <div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>02/ Principles</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<Row xs={1} md={2} className="g-4">
-
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-
-</Row>
-
-
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
-<div className={styles.spaceingwhite}></div>
-
-
-
-
-
 
 <Card>
-  <Card.Header>Quote</Card.Header>
+  <Card.Header>Technical Skills:</Card.Header>
   <Card.Body>
     <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
-      </p>
-      <footer className="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </footer>
+    <p className={styles.subtitlelargeblack}>Design:</p>
+<p className={styles.descriptionblack}>Adobe Creative Suite, Design Thinking, Balsamiq, Cross-Browser, Interface Design,
+Sketching, User Interface, Mockups, Wireframes, Balsamiq, Figma, Adobe Xd, Adobe Illustrator, Adobe Photoshop, Style Guide, Branding, Visual Design, Interaction Design, User Research, Sitemaps, Storytelling, 
+</p>
+
+<p className={styles.subtitlelargeblack}>Prototyping:</p>
+<p className={styles.descriptionblack}>HTML, CSS, Javascript, Bootstrap, React.Js, WordPress, Web App Development,
+Proto.IO, Figma, Photoshop, Adobe XD, Sketch, Indesign, Miro, Invision, Indesig
+</p>
+
+<p className={styles.subtitlelargeblack}>Research:</p>
+<p className={styles.descriptionblack}>UX Wireframes, UI Design, Prototyping, User Research, Visual Design, Interaction
+Design, Web Design, Storyboarding, Card Sort, Problem-solving, Innovative, Communication, Leadership, Empathy, Collaboratively
+
+</p>
     </blockquote>
-  </Card.Body>
-</Card>
-
-<Card>
-  <Card.Header>Quote</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
-      </p>
-      <footer className="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-<Card>
-  <Card.Header>Quote</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
-      </p>
-      <footer className="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-
-
-<Card>
-  <Card.Header as="h5">Interested in a Chat?</Card.Header>
-  <Card.Body>
-    <Card.Title>Contact Directly to get started!</Card.Title>
-    <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
-    <Button variant="primary">Contact Now</Button>
   </Card.Body>
 </Card>
 
@@ -346,148 +200,32 @@ large: "(min-width: 1200px)"
 
  <Row className={styles.rowmedium}>
 
-<Col sm className={styles.fonttest}>
+ <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
+<p className={styles.subtitlelargeblack}>Client</p>
+<p className={styles.descriptionblack}>Legacy Pictures</p>
+<p className={styles.subtitlelargeblack}>Project Date:</p>
+<p className={styles.descriptionblack}>July 2021 - August 2021</p>
+<p className={styles.subtitlelargeblack}>Role:</p>
+<p className={styles.descriptionblack}>UI/UX Designer</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionblack}>Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Summary:</p>
+<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
 
 <div className={styles.spaceingwhite}></div>
-
-
-<p className={styles.subtitlelargeblack}>01/ Services</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<CardGroup>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Web Apps & Corporate Sites</Card.Title>
-      <Card.Text>
-      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
-
-
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Mobile App Design</Card.Title>
-      <Card.Text>
-      Using iOS, Android and an expert vision, I’ll take your application to the next level.
-
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Front-End Development</Card.Title>
-      <Card.Text>
-      I’ll help you to bridge the gap between design and development.
-
-
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-</CardGroup>
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>02/ Principles</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<Row xs={1} md={2} className="g-4">
-
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-
-</Row>
-
-
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
-<div className={styles.spaceingwhite}></div>
-
-
-
-
 
 
 <Card>
-  <Card.Header>Quote</Card.Header>
+  <Card.Header>Introduction:</Card.Header>
   <Card.Body>
     <blockquote className="blockquote mb-0">
       <p>
         {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
+        Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+
+{' '}
       </p>
       <footer className="blockquote-footer">
         Someone famous in <cite title="Source Title">Source Title</cite>
@@ -496,54 +234,6 @@ large: "(min-width: 1200px)"
   </Card.Body>
 </Card>
 
-<Card>
-  <Card.Header>Quote</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
-      </p>
-      <footer className="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-<Card>
-  <Card.Header>Quote</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
-      </p>
-      <footer className="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-
-
-<Card>
-  <Card.Header as="h5">Interested in a Chat?</Card.Header>
-  <Card.Body>
-    <Card.Title>Contact Directly to get started!</Card.Title>
-    <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
-    <Button variant="primary">Contact Now</Button>
-  </Card.Body>
-</Card>
 
 
 </Container>
@@ -559,200 +249,39 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-
 <div className={styles.spaceingwhite}></div>
-
-
-<p className={styles.subtitlelargeblack}>01/ Services</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<CardGroup>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Web Apps & Corporate Sites</Card.Title>
-      <Card.Text>
-      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
-
-
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Mobile App Design</Card.Title>
-      <Card.Text>
-      Using iOS, Android and an expert vision, I’ll take your application to the next level.
-
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Front-End Development</Card.Title>
-      <Card.Text>
-      I’ll help you to bridge the gap between design and development.
-
-
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-</CardGroup>
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>02/ Principles</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<Row xs={1} md={2} className="g-4">
-
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-
-</Row>
-
-
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
-<div className={styles.spaceingwhite}></div>
-
-
-
-
 
 
 <Card>
-  <Card.Header>Quote</Card.Header>
+  <Card.Header>Introduction:</Card.Header>
   <Card.Body>
     <blockquote className="blockquote mb-0">
       <p>
         {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
+        Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+
+{' '}
       </p>
       <footer className="blockquote-footer">
         Someone famous in <cite title="Source Title">Source Title</cite>
       </footer>
     </blockquote>
+
+    
+<p className={styles.subtitlelargeblack}>Client</p>
+<p className={styles.descriptionlargeblack}>Legacy Pictures</p>
+<p className={styles.subtitlelargeblack}>Project Date:</p>
+<p className={styles.descriptionlargeblack}>July 2021 - August 2021</p>
+<p className={styles.subtitlelargeblack}>Role:</p>
+<p className={styles.descriptionlargeblack}>UI/UX Designer</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionlargeblack}>Los Angeles, CA</p>
+<p className={styles.subtitlelargeblack}>Summary:</p>
+<p className={styles.descriptionlargeblack}>Los Angeles Web Application Re-Design</p>
+
   </Card.Body>
-</Card>
 
-<Card>
-  <Card.Header>Quote</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
-      </p>
-      <footer className="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-<Card>
-  <Card.Header>Quote</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
-      </p>
-      <footer className="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-
-
-<Card>
-  <Card.Header as="h5">Interested in a Chat?</Card.Header>
-  <Card.Body>
-    <Card.Title>Contact Directly to get started!</Card.Title>
-    <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
-    <Button variant="primary">Contact Now</Button>
-  </Card.Body>
+  
 </Card>
 
 
@@ -772,32 +301,7 @@ large: "(min-width: 1200px)"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Container>
-
-
-
-
-
-
-
-
-
 
 
 
