@@ -139,8 +139,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-
-              <h5 className={styles.test2title}>Legacy Pictures</h5>
+              <h1 className={styles.whitetitle}>Legacy Pictures</h1>
                 <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
                
           
@@ -191,7 +190,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h5 className={styles.test2title}>Art Rendez-Vous</h5>
+                <h1 className={styles.whitetitle}>Art Rendez-Vous</h1>
                 <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile application user experience and redesign.</h5>
 
               
@@ -242,8 +241,8 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
                 <div className={styles.maincontentwrapper}>
 
-                  <h5 className={styles.test2title}>Uguru INC.</h5>
-                  <p className={styles.test1title}>UI/UX & graphic designer internship at mobile application startup in downtown San Francisco.</p>
+                <h1 className={styles.whitetitle}>Uguru, INC.</h1>
+                  <h5 className={styles.test1title}>UI/UX & graphic designer internship at mobile application startup in downtown San Francisco.</h5>
 
             
                
@@ -296,7 +295,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h5 className={styles.test2title}>Sanchez Coffee CO.</h5>
+              <h1 className={styles.whitetitle}>Sanchez Coffee Co.</h1>
                 <h5 className={styles.test1title}>Los Angeles coffee distribution company web payment platform.</h5>
 
               
@@ -346,7 +345,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h5 className={styles.test2title}>Apex VR</h5>
+                <h1 className={styles.whitetitle}>Apex VR</h1>
                 <h5 className={styles.test1title}>San Leandro videography company virtual reality web application design.</h5>
 
              
@@ -398,7 +397,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
   
-                <h5 className={styles.test2title}>Stepsaver</h5>
+                <h1 className={styles.whitetitle}>Stepsaver</h1>
                 <h5 className={styles.test1title}>User experience designer community website design.</h5>
 
                             </div>
