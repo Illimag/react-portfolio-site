@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad7ac98b0d40f5889dbdf58e90a1b0a0",
+    "revision": "a6ddb80b2150bd7d2adec843e11aeee1",
     "url": "/index.html"
   },
   {
-    "revision": "44dd23b95849d719328c",
+    "revision": "061c579ed84b3ae0a6d3",
     "url": "/static/css/2.46b578d6.chunk.css"
   },
   {
-    "revision": "10bdd848f802167ac915",
-    "url": "/static/css/main.f31a944d.chunk.css"
+    "revision": "86323e86709da35c5fa3",
+    "url": "/static/css/main.da701927.chunk.css"
   },
   {
-    "revision": "44dd23b95849d719328c",
-    "url": "/static/js/2.29e0a9f9.chunk.js"
+    "revision": "061c579ed84b3ae0a6d3",
+    "url": "/static/js/2.afc46ccb.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.29e0a9f9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.afc46ccb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10bdd848f802167ac915",
-    "url": "/static/js/main.737b90a5.chunk.js"
+    "revision": "86323e86709da35c5fa3",
+    "url": "/static/js/main.dfdd6903.chunk.js"
   },
   {
     "revision": "ac85d4e4ba0d56af43d5",
@@ -314,10 +314,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3823a7e28af6469eaab6527fdd2a878c",
     "url": "/static/media/hsl_3.5bf5e383.jpg"
-  },
-  {
-    "revision": "15eef91660ea5090264fe617432dec1e",
-    "url": "/static/media/jmk_logo-02-01.98c4178d.png"
   },
   {
     "revision": "16f94402f3af5c3b20afae3c1448b515",
