@@ -515,3 +515,8 @@
     height: .1vh;
     background-color: #fff;
 }
+
+.maincontentwrapper{
+    bottom:10%;
+    position: absolute;
+}

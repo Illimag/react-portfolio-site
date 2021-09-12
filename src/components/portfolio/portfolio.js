@@ -142,7 +142,11 @@ export const Portfolio = () => {
               <h1 className={styles.whitetitle}>Legacy Pictures</h1>
                 <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
                
-          
+                <LinkContainer to="/legacypictures">
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                </h1>
+              </LinkContainer>
 
               </div>
               </Jumbotron>
@@ -192,7 +196,11 @@ export const Portfolio = () => {
 
                 <h1 className={styles.whitetitle}>Art Rendez-Vous</h1>
                 <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile application user experience and redesign.</h5>
-
+                <LinkContainer to="/artrendezvous">
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                </h1>
+              </LinkContainer>
               
 
               </div>
@@ -243,7 +251,11 @@ export const Portfolio = () => {
 
                 <h1 className={styles.whitetitle}>Uguru, INC.</h1>
                   <h5 className={styles.test1title}>UI/UX & graphic designer internship at mobile application startup in downtown San Francisco.</h5>
-
+                  <LinkContainer to="/uguru">
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                </h1>
+              </LinkContainer>
             
                
                 </div>
@@ -297,7 +309,11 @@ export const Portfolio = () => {
 
               <h1 className={styles.whitetitle}>Sanchez Coffee Co.</h1>
                 <h5 className={styles.test1title}>Los Angeles coffee distribution company web payment platform.</h5>
-
+                <LinkContainer to="/sanchezcoffeeco">
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                </h1>
+              </LinkContainer>
               
 
               </div>
@@ -347,7 +363,11 @@ export const Portfolio = () => {
 
                 <h1 className={styles.whitetitle}>Apex VR</h1>
                 <h5 className={styles.test1title}>San Leandro videography company virtual reality web application design.</h5>
-
+                <LinkContainer to="/apexvr">
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                </h1>
+              </LinkContainer>
              
 
               </div>  
@@ -399,6 +419,14 @@ export const Portfolio = () => {
   
                 <h1 className={styles.whitetitle}>Stepsaver</h1>
                 <h5 className={styles.test1title}>User experience designer community website design.</h5>
+                <LinkContainer to="/stepsaver">
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                </h1>
+              </LinkContainer>
+
+
+
 
                             </div>
               </Jumbotron>

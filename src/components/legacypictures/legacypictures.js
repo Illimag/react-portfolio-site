@@ -124,11 +124,15 @@ export const Legacypictures = () => (
               <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>AKA how to Re-Designed a Web App in 2021</h5>
-                <h5 className={styles.test1title}>Case Study: Legacy Pictures</h5>
+                <h5 className={styles.test1title}>How to Re-Design a Web App in 2021</h5>
+                <h5 className={styles.test1title}>Legacy Pictures</h5>
 
                 <AnchorLink href='#test' className={styles.paddingleft}>                
-                <Image src={scrolldown}/>
+
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">Case Study</Button>
+                </h1>
+
                 </AnchorLink>
 
               </div>

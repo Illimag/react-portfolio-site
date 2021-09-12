@@ -117,10 +117,9 @@ export const Home = () => (
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>Hi there,</h1>
-                <h5 className={styles.test1title}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
-                <h5 className={styles.test1title}>Available for In-House, Remote, Full-Time, Part-Time, Contract, and Freelance. Have a nice day!</h5>
-
+                <h1 className={styles.whitetitle}>Hi,</h1>
+                <h5 className={styles.test1title}>UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
+        
 
                 <LinkContainer to="/portfolio">
                 <h1>

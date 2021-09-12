@@ -863,3 +863,9 @@ background: rgba(0,0,0,0.5);
     padding-left: 10% !important;
     
 }
+
+
+.maincontentwrapper{
+    bottom:10%;
+    position: absolute;
+}
