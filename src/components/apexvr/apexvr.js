@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
+import { LinkContainer } from 'react-router-bootstrap';
 
 
 //import { LinkContainer } from 'react-router-bootstrap';
@@ -92,17 +93,23 @@ export const Apexvr = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>How to Re-Design a Web App in 2021</h5>
-                <h5 className={styles.test1title}>Legacy Pictures</h5>
+                <h1 className={styles.whitetitle}>VR Website</h1>
+                <h5 className={styles.test1title}>Company VR website for VR Videography Company</h5>
+                <h5 className={styles.test1title}>Case Study: ApexVR</h5>
 
                 <AnchorLink href='#test' className={styles.paddingleft}>                
 
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Case Study</Button>
+                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
                 </h1>
 
                 </AnchorLink>
+
+                <LinkContainer to="/portfolio">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">Go to Portfolio</Button>
+                </h1>
+              </LinkContainer>
 
               </div>
               </Jumbotron>

@@ -93,6 +93,7 @@
     z-index: 10;
     margin-right: 0%;
     margin-left: 0%;
+    padding-top:5% !important;
     width: 100%;
     border-radius: 0rem !important;
     cursor: pointer;
@@ -338,18 +339,20 @@
 
 .test1title{
     color: #fff;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    margin-top: 0px !important;
+    margin-right: 0px !important;
+    overflow-wrap: break-word;
 }
 
 .test2title{
     color: #fff;
-    font-size: 4rem !important;
+    font-size: 2.5rem !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    margin-top: 0px !important;
+    margin-right: 0px !important;
+    overflow-wrap: break-word;
 }
 
 
@@ -357,7 +360,7 @@
 .whitesubtitle{
     color: #fff;
     font-size: 1rem !important;
-    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 
@@ -462,6 +465,7 @@
 .maincontentwrapper{
     margin-bottom: 3em;
     position: absolute;
+    left:10%
 }
 
 .available{

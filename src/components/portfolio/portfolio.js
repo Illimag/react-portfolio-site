@@ -137,8 +137,6 @@ export const Portfolio = () => {
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
-
               <h1 className={styles.test2title}>Legacy Pictures</h1>
                 <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
                
@@ -148,7 +146,6 @@ export const Portfolio = () => {
                 </h1>
               </LinkContainer>
 
-              </div>
               </Jumbotron>
 
               <Media queries={{
@@ -192,10 +189,9 @@ export const Portfolio = () => {
             <Col md={12} className={styles.removepadding}>
 
               <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.test2title}>Art Rendez-Vous</h1>
-                <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile application user experience and redesign.</h5>
+                <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile</h5>
                 <LinkContainer to="/artrendezvous">
                 <h1>
                   <Button className={styles.mainbutton} variant="primary">Learn More</Button>
@@ -203,7 +199,6 @@ export const Portfolio = () => {
               </LinkContainer>
               
 
-              </div>
               </Jumbotron>
 
               <Media queries={{
@@ -247,10 +242,9 @@ export const Portfolio = () => {
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
-                <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.test2title}>Uguru, INC.</h1>
-                  <h5 className={styles.test1title}>UI/UX & graphic designer internship at mobile application startup in downtown San Francisco.</h5>
+                  <h5 className={styles.test1title}>UI/UX & graphic designer internship at mobile application</h5>
                   <LinkContainer to="/uguru">
                 <h1>
                   <Button className={styles.mainbutton} variant="primary">Learn More</Button>
@@ -258,7 +252,6 @@ export const Portfolio = () => {
               </LinkContainer>
             
                
-                </div>
               </Jumbotron>
 
 
@@ -305,7 +298,6 @@ export const Portfolio = () => {
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
 
               <h1 className={styles.test2title}>Sanchez Coffee</h1>
                 <h5 className={styles.test1title}>Los Angeles coffee distribution company web payment platform.</h5>
@@ -316,7 +308,6 @@ export const Portfolio = () => {
               </LinkContainer>
               
 
-              </div>
               </Jumbotron>
 
               <Media queries={{
@@ -359,7 +350,6 @@ export const Portfolio = () => {
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
 
                 <h1 className={styles.test2title}>Apex VR</h1>
                 <h5 className={styles.test1title}>San Leandro videography company virtual reality web application design.</h5>
@@ -370,7 +360,6 @@ export const Portfolio = () => {
               </LinkContainer>
              
 
-              </div>  
               </Jumbotron>
 
 
@@ -415,7 +404,7 @@ export const Portfolio = () => {
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
+
   
                 <h1 className={styles.test2title}>Stepsaver</h1>
                 <h5 className={styles.test1title}>User experience designer community website design.</h5>
@@ -427,8 +416,6 @@ export const Portfolio = () => {
 
 
 
-
-                            </div>
               </Jumbotron>
 
 

@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
-import Github from '../../assets/githublogo.png';
+import Github from '../../assets/githublogoback.png';
 import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
 import Dribbble from '../../assets/dribbble.png';
@@ -26,11 +26,6 @@ const Footer = () => (
 
 <Jumbotron fluid className={styles.footerBackground}>
   <Container>
-<p className={styles.description}>Are you looking for an UI/UX Designer local to the San Francisco Bay Area and Silicon Valley, 
-to meet in person to discuss details of your project or are you a hiring manager looking to hire someone local, currently looking for remote
-or in-house positions in the San Francisco Bay Area and Silicon Valley!
-</p>
-
 
 
   <Row className={styles.socialrow}>
@@ -60,7 +55,7 @@ or in-house positions in the San Francisco Bay Area and Silicon Valley!
 
 
     <p className={styles.description}>
-      All Rights Reserved
+      jaeminkim.com
     </p>
     <p className={styles.description}>
     2021

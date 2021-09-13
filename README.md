@@ -1,6 +1,6 @@
 # Jaeminkim.com
 
-![portfolio](img/portfolio.jpeg)
+![Home](img/IMG-1081.jpg)
 
 ## UI/UX Designer Portfolio Website built with React.JS, Bootstrap 4, hosted with Github Pages.
 

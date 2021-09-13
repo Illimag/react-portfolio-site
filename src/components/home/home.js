@@ -76,7 +76,14 @@ import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-
 import video from '../../assets/newhomepagevids2/2.mp4';
 import videomobile from '../../assets/newhomepagevids2/2-1.mp4';
 
+import icon1 from '../../assets/icon-01.png';
+import icon2 from '../../assets/icon-02.png';
+import icon3 from '../../assets/icon-03.png';
 
+import test from '../../assets/black-man-sitting-in-a-cafe-and-drinking-a-coffee-2S4RKJM.jpg';
+import test1 from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
+import test2 from '../../assets/businesswoman-planning-with-adhesive-notes-on-glas-JX7K3ZV.jpg';
+import test3 from '../../assets/aerial-cityscape-view-of-san-francisco-and-the-bay-2FPCNKG.jpg';
 
 import Media from 'react-media';
 
@@ -637,45 +644,35 @@ large: "(min-width: 1200px)"
 
 <CardGroup>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={icon1} />
     <Card.Body>
-      <Card.Title>Web Apps & Corporate Sites</Card.Title>
+      <Card.Title>User Experience and User Interface Design</Card.Title>
       <Card.Text>
-      This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.
-
+      As a UI/UX Designer for the past 5 years, have indepth knowledge of User Interface and User Experience methodologies.
 
       </Card.Text>
     </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={icon2} />
     <Card.Body>
-      <Card.Title>Mobile App Design</Card.Title>
+      <Card.Title>Mobile Responsive Web App Design</Card.Title>
       <Card.Text>
-      Using iOS, Android and an expert vision, I’ll take your application to the next level.
+      Knowledge of iOS, Android apps, as well as modern SPA Web Apps.
 
       </Card.Text>
     </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={icon3} />
     <Card.Body>
-      <Card.Title>Front-End Development</Card.Title>
+      <Card.Title>E-Commerce, Corporate, Company Sites </Card.Title>
       <Card.Text>
-      I’ll help you to bridge the gap between design and development.
+      Experience working with industries such as E-Commerce, Corporate, and Company Sites.
 
 
       </Card.Text>
     </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
   </Card>
 </CardGroup>
 
@@ -693,7 +690,7 @@ large: "(min-width: 1200px)"
 
     <Col>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={test} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -705,7 +702,7 @@ large: "(min-width: 1200px)"
     </Col>
     <Col>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={test1} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -717,7 +714,7 @@ large: "(min-width: 1200px)"
     </Col>
     <Col>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={test2} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -729,7 +726,7 @@ large: "(min-width: 1200px)"
     </Col>
     <Col>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={test3} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>

@@ -51,6 +51,7 @@ import video from '../../assets/newhomepagevids/6.mp4';
 import videomobile from '../../assets/newhomepagevids/6-6.mp4';
 
 
+import { LinkContainer } from 'react-router-bootstrap';
 
 
 
@@ -82,17 +83,23 @@ export const Stepsaver = () => (
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>How to Re-Design a Web App in 2021</h5>
-                <h5 className={styles.test1title}>Legacy Pictures</h5>
+                <h1 className={styles.whitetitle}>Getting Back</h1>
+                <h5 className={styles.test1title}>Houston Tech startup has app for UI/UX Re-Design</h5>
+                <h5 className={styles.test1title}>Case Study: Stepsaver</h5>
 
                 <AnchorLink href='#test' className={styles.paddingleft}>                
 
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Case Study</Button>
+                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
                 </h1>
 
                 </AnchorLink>
+
+                <LinkContainer to="/portfolio">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">Go to Portfolio</Button>
+                </h1>
+              </LinkContainer>
 
               </div>
               </Jumbotron>

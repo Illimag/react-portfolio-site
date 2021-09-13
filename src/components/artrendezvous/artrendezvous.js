@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
+import { LinkContainer } from 'react-router-bootstrap';
 
 
 import Img00 from '../../assets/img/dasdasdigital/banner-02.jpg';
@@ -77,6 +78,13 @@ export const Artrendezvous = () => (
                 </h1>
 
                 </AnchorLink>
+
+                
+                <LinkContainer to="/portfolio">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">Go to Portfolio</Button>
+                </h1>
+              </LinkContainer>
 
               </div>
               </Jumbotron>

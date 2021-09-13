@@ -16,10 +16,13 @@
 .footerBackground{
     background-color: #fff !important;
     position: absolute !important;
+    width:100%;
 }
 
 .socialrow{
     background-color: #fff !important;
+    padding-right:25% !important;
+    padding-left: 25% !important;
 }
 
 .title{
@@ -30,13 +33,15 @@
 }
 
 .description{
-    font-size: 1em;
-    margin-bottom: 5% !important;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 500;
-    margin-top: 5%;
+
     text-align: center;
-    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 1% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color:#000 !important;
+    letter-spacing: -1px;
+    margin-top: 2%;
 }
 
 

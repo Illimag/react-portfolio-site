@@ -135,6 +135,12 @@ export const Legacypictures = () => (
 
                 </AnchorLink>
 
+                <LinkContainer to="/portfolio">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">Go to Portfolio</Button>
+                </h1>
+              </LinkContainer>
+
               </div>
               </Jumbotron>
 

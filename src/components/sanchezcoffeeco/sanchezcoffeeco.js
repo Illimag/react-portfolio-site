@@ -11,6 +11,8 @@ import Badge from 'react-bootstrap/Badge';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Button from 'react-bootstrap/Button';
 
+import { LinkContainer } from 'react-router-bootstrap';
+
 //import { LinkContainer } from 'react-router-bootstrap';
 //import Button from 'react-bootstrap/Button';
 import Gist from 'react-gist';
@@ -76,17 +78,24 @@ export const Sanchezcoffeeco = () => (
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>How to Re-Design a Web App in 2021</h5>
-                <h5 className={styles.test1title}>Legacy Pictures</h5>
+                <h1 className={styles.whitetitle}>Coffee E-Store</h1>
+                <h5 className={styles.test1title}>E-Commerce Payment Platform needed Re-Design and implementation</h5>
+                <h5 className={styles.test1title}>Case Study: Sanchez Coffee Co.</h5>
 
                 <AnchorLink href='#test' className={styles.paddingleft}>                
 
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Case Study</Button>
+                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
                 </h1>
 
                 </AnchorLink>
+
+                
+                <LinkContainer to="/portfolio">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">Go to Portfolio</Button>
+                </h1>
+              </LinkContainer>
 
               </div>
               </Jumbotron>
