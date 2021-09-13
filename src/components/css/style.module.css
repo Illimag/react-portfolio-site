@@ -842,7 +842,7 @@ background: rgba(0,0,0,0.5);
 
 .whitetitle{
     color: #fff;
-    font-size: 10vw !important;
+    font-size: 8vw !important;
     margin-top: 0px !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
@@ -853,7 +853,7 @@ background: rgba(0,0,0,0.5);
 
 .test1title{
     color: #fff;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     margin-top: 0px !important;
@@ -866,6 +866,6 @@ background: rgba(0,0,0,0.5);
 
 
 .maincontentwrapper{
-    bottom:20%;
+    bottom:30%;
     position: absolute;
 }
