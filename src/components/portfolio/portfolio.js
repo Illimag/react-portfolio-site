@@ -139,7 +139,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-              <h1 className={styles.whitetitle}>Legacy Pictures</h1>
+              <h1 className={styles.test2title}>Legacy Pictures</h1>
                 <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
                
                 <LinkContainer to="/legacypictures">
@@ -160,19 +160,19 @@ export const Portfolio = () => {
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[0]}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[1]}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[1]}/>
               </video>
                 }
@@ -194,7 +194,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>Art Rendez-Vous</h1>
+                <h1 className={styles.test2title}>Art Rendez-Vous</h1>
                 <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile application user experience and redesign.</h5>
                 <LinkContainer to="/artrendezvous">
                 <h1>
@@ -215,19 +215,19 @@ export const Portfolio = () => {
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[4]}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[5]}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[5]}/>
               </video>
                 }
@@ -249,7 +249,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
                 <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>Uguru, INC.</h1>
+                <h1 className={styles.test2title}>Uguru, INC.</h1>
                   <h5 className={styles.test1title}>UI/UX & graphic designer internship at mobile application startup in downtown San Francisco.</h5>
                   <LinkContainer to="/uguru">
                 <h1>
@@ -271,19 +271,19 @@ export const Portfolio = () => {
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[2]}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[3]}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[3]}/>
               </video>
                 }
@@ -307,7 +307,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-              <h1 className={styles.whitetitle}>Sanchez Coffee Co.</h1>
+              <h1 className={styles.test2title}>Sanchez Coffee</h1>
                 <h5 className={styles.test1title}>Los Angeles coffee distribution company web payment platform.</h5>
                 <LinkContainer to="/sanchezcoffeeco">
                 <h1>
@@ -328,19 +328,19 @@ export const Portfolio = () => {
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[6]}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[7]}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[7]}/>
               </video>
                 }
@@ -361,7 +361,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>Apex VR</h1>
+                <h1 className={styles.test2title}>Apex VR</h1>
                 <h5 className={styles.test1title}>San Leandro videography company virtual reality web application design.</h5>
                 <LinkContainer to="/apexvr">
                 <h1>
@@ -383,19 +383,19 @@ export const Portfolio = () => {
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[8]}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[9]}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[9]}/>
               </video>
                 }
@@ -417,7 +417,7 @@ export const Portfolio = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
   
-                <h1 className={styles.whitetitle}>Stepsaver</h1>
+                <h1 className={styles.test2title}>Stepsaver</h1>
                 <h5 className={styles.test1title}>User experience designer community website design.</h5>
                 <LinkContainer to="/stepsaver">
                 <h1>
@@ -441,19 +441,19 @@ export const Portfolio = () => {
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[10]}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[11]}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={images[11]}/>
               </video>
                 }

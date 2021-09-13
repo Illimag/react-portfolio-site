@@ -78,8 +78,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
-import video from '../../assets/newhomepagevids/2.mp4';
-import videomobile from '../../assets/newhomepagevids/2-1.mp4';
+import video from '../../assets/newhomepagevids/1.mp4';
+import videomobile from '../../assets/newhomepagevids/1-1.mp4';
 
 import scrolldown from '../../assets/scrolldown-01.png';
 
@@ -125,12 +125,12 @@ export const Legacypictures = () => (
 
                 <h1 className={styles.whitetitle}>Making Changes</h1>
                 <h5 className={styles.test1title}>How to Re-Design a Web App in 2021</h5>
-                <h5 className={styles.test1title}>Legacy Pictures</h5>
+                <h5 className={styles.test1title}>Case Study: Legacy Pictures</h5>
 
                 <AnchorLink href='#test' className={styles.paddingleft}>                
 
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Case Study</Button>
+                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
                 </h1>
 
                 </AnchorLink>
@@ -147,19 +147,19 @@ export const Legacypictures = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={videomobile}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }

@@ -18,6 +18,8 @@ import Img05 from '../../assets/img/dasdasdigital/1-05.jpg';
 import Img06 from '../../assets/img/dasdasdigital/1-06.jpg';
 import Img07 from '../../assets/img/dasdasdigital/1-07.jpg';
 import Img08 from '../../assets/img/dasdasdigital/1-08.jpg';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Button from 'react-bootstrap/Button';
 
 import styles from '../css/style.module.css';
 import '../css/style.css';
@@ -43,11 +45,78 @@ import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
 import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
 import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 
+import video from '../../assets/newhomepagevids/2.mp4';
+import videomobile from '../../assets/newhomepagevids/2-1.mp4';
+
+
+
+
+
 import Media from 'react-media';
 
 export const Artrendezvous = () => (
   /* Start of JSX Fragment*/
   <>
+
+
+
+<Container className={styles.test}>
+          <Row>
+            <Col md={12} className={styles.removepadding}>
+              <Jumbotron className={styles.mainfloatback}>
+              <div className={styles.maincontentwrapper}>
+
+                <h1 className={styles.whitetitle}>Fine Art App</h1>
+                <h5 className={styles.test1title}>Re-Designing a Fine Art Mobile App Community iOS App</h5>
+                <h5 className={styles.test1title}>Case Study: Art Rezden-vous</h5>
+
+                <AnchorLink href='#test' className={styles.paddingleft}>                
+
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
+                </h1>
+
+                </AnchorLink>
+
+              </div>
+              </Jumbotron>
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={videomobile}/>
+              </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
+            </Col>
+          </Row>
+        </Container>
+
+
+
 
 
 

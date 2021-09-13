@@ -22,6 +22,10 @@ import Img06 from '../../assets/img/dominos/1-06.jpg';
 import Img07 from '../../assets/img/dominos/1-07.jpg';
 import Img08 from '../../assets/img/dominos/1-08.jpg';
 import Img09 from '../../assets/img/dominos/1-09.jpg';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Button from 'react-bootstrap/Button';
+
+
 
 import styles from '../css/style.module.css';
 import '../css/style.css';
@@ -51,6 +55,17 @@ import Codepen from "react-codepen-embed";
 
 import Media from 'react-media';
 
+import video from '../../assets/newhomepagevids/5.mp4';
+import videomobile from '../../assets/newhomepagevids/5-1.mp4';
+
+
+
+
+
+
+
+
+
 export const Apexvr = () => {
 
 
@@ -58,6 +73,84 @@ export const Apexvr = () => {
 
   return <>
       
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <Container className={styles.test}>
+          <Row>
+            <Col md={12} className={styles.removepadding}>
+              <Jumbotron className={styles.mainfloatback}>
+              <div className={styles.maincontentwrapper}>
+
+                <h1 className={styles.whitetitle}>Making Changes</h1>
+                <h5 className={styles.test1title}>How to Re-Design a Web App in 2021</h5>
+                <h5 className={styles.test1title}>Legacy Pictures</h5>
+
+                <AnchorLink href='#test' className={styles.paddingleft}>                
+
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">Case Study</Button>
+                </h1>
+
+                </AnchorLink>
+
+              </div>
+              </Jumbotron>
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={videomobile}/>
+              </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
+            </Col>
+          </Row>
+        </Container>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
