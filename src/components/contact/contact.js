@@ -76,7 +76,7 @@ import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-
 import video from '../../assets/newhomepagevids/1.mp4';
 import videomobile from '../../assets/newhomepagevids/1-1.mp4';
 
-
+import headshot from '../../assets/profile.jpg';
 
 import Media from 'react-media';
 
@@ -136,56 +136,31 @@ large: "(min-width: 1200px)"
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.subtitlelargeblack}>Name:</p>
-<p className={styles.descriptionblack}>Jae Min Kim</p>
-<p className={styles.subtitlelargeblack}>Location:</p>
-<p className={styles.descriptionblack}>Fremont, CA 94538</p>
-<p className={styles.subtitlelargeblack}>Phone:</p>
-<p className={styles.descriptionblack}>(510)-513-7376</p>
-<p className={styles.subtitlelargeblack}>Email:</p>
-<p className={styles.descriptionblack}>jaeminkim.com@gmail.com</p>
-<p className={styles.subtitlelargeblack}>Summery:</p>
-<div className={styles.paddingleft}>
-    <ul className={styles.listblack}>
-      <li className={styles.listitemblack}>5+ years of UI/UX, Web, design experience as a Remote Contractor and In-House Experience, In Teams, Startups, Businesses And Corporations.</li>
-      <li className={styles.listitemblack}>Designed User Interface and User Experience Designs for Clients across the United States and Canada.
-</li>
-<li className={styles.listitemblack}>Expert in Adobe Creative Suite, Design Thinking, Balsamiq, Cross-Browser, Interface Design, Sketching, User Interface, Mockups, Wireframes, Balsamiq, Figma, Adobe XD, Adobe Illustrator, Adobe Photoshop.
-</li>
-
-<li className={styles.listitemblack}>Designed High Fidelity UI design mockups in Adobe Illustrator, XD and Figma for production applications.
-</li>
-<li className={styles.listitemblack}>Modern JavaScript Web Frameworks, React.JS and HTML/CSS.
-</li>
-<li className={styles.listitemblack}>Git, WordPress, </li>
-<li className={styles.listitemblack}>Excellent communication and interpersonal skills. </li>
-    </ul>
-    </div>
-
-
-<div className={styles.spaceingwhite}></div>
-
 <Card>
-  <Card.Header>Technical Skills:</Card.Header>
+  <Card.Header>Contact Info:</Card.Header>
   <Card.Body>
-    <blockquote className="blockquote mb-0">
-    <p className={styles.subtitlelargeblack}>Design:</p>
-<p className={styles.descriptionblack}>Adobe Creative Suite, Design Thinking, Balsamiq, Cross-Browser, Interface Design,
-Sketching, User Interface, Mockups, Wireframes, Balsamiq, Figma, Adobe Xd, Adobe Illustrator, Adobe Photoshop, Style Guide, Branding, Visual Design, Interaction Design, User Research, Sitemaps, Storytelling, 
-</p>
 
-<p className={styles.subtitlelargeblack}>Prototyping:</p>
-<p className={styles.descriptionblack}>HTML, CSS, Javascript, Bootstrap, React.Js, WordPress, Web App Development,
-Proto.IO, Figma, Photoshop, Adobe XD, Sketch, Indesign, Miro, Invision, Indesig
-</p>
+    
+  <Image src={headshot} />
 
-<p className={styles.subtitlelargeblack}>Research:</p>
-<p className={styles.descriptionblack}>UX Wireframes, UI Design, Prototyping, User Research, Visual Design, Interaction
-Design, Web Design, Storyboarding, Card Sort, Problem-solving, Innovative, Communication, Leadership, Empathy, Collaboratively
+<p className={styles.subtitlelargeblack}>Name:</p>
+<p className={styles.descriptionlargeblack}>Jae Min (John) Kim</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionlargeblack}>Fremont, CA 94538</p>
+<p className={styles.subtitlelargeblack}>Phone:</p>
+<p className={styles.descriptionlargeblack}>(510)-513-7376</p>
+<p className={styles.subtitlelargeblack}>Email:</p>
+<p className={styles.descriptionlargeblack}>jaeminkim.com@gmail.com</p>
 
-</p>
-    </blockquote>
+
+
   </Card.Body>
+
+  <a href="https://github.com/jaeminkim-com/job_hunt/blob/master/resume.pdf" target="_blank">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">Download Resume</Button>
+                </h1>
+              </a>
 </Card>
 
 
@@ -203,35 +178,28 @@ Design, Web Design, Storyboarding, Card Sort, Problem-solving, Innovative, Commu
  <Col sm className={styles.fonttest}>
 <Container className={styles.fonttest}>
 
-<p className={styles.subtitlelargeblack}>Client</p>
-<p className={styles.descriptionblack}>Legacy Pictures</p>
-<p className={styles.subtitlelargeblack}>Project Date:</p>
-<p className={styles.descriptionblack}>July 2021 - August 2021</p>
-<p className={styles.subtitlelargeblack}>Role:</p>
-<p className={styles.descriptionblack}>UI/UX Designer</p>
-<p className={styles.subtitlelargeblack}>Location:</p>
-<p className={styles.descriptionblack}>Los Angeles, CA</p>
-<p className={styles.subtitlelargeblack}>Summary:</p>
-<p className={styles.descriptionblack}>Los Angeles Web Application Re-Design</p>
-
-<div className={styles.spaceingwhite}></div>
-
-
 <Card>
-  <Card.Header>Introduction:</Card.Header>
+  <Card.Header>Contact Info:</Card.Header>
   <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 
-{' '}
-      </p>
-      <footer className="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
+  <Image src={headshot}/>
+    
+<p className={styles.subtitlelargeblack}>Name:</p>
+<p className={styles.descriptionlargeblack}>Jae Min (John) Kim</p>
+<p className={styles.subtitlelargeblack}>Location:</p>
+<p className={styles.descriptionlargeblack}>Fremont, CA 94538</p>
+<p className={styles.subtitlelargeblack}>Phone:</p>
+<p className={styles.descriptionlargeblack}>(510)-513-7376</p>
+<p className={styles.subtitlelargeblack}>Email:</p>
+<p className={styles.descriptionlargeblack}>jaeminkim.com@gmail.com</p>
+
   </Card.Body>
+  <a href="https://github.com/jaeminkim-com/job_hunt/blob/master/resume.pdf" target="_blank">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">Download Resume</Button>
+                </h1>
+              </a>
+  
 </Card>
 
 
@@ -253,34 +221,26 @@ Design, Web Design, Storyboarding, Card Sort, Problem-solving, Innovative, Commu
 
 
 <Card>
-  <Card.Header>Introduction:</Card.Header>
+  <Card.Header>Contact Info:</Card.Header>
   <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 
-{' '}
-      </p>
-      <footer className="blockquote-footer">
-        Someone famous in <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
-
+  <Image src={headshot} />
     
-<p className={styles.subtitlelargeblack}>Client</p>
-<p className={styles.descriptionlargeblack}>Legacy Pictures</p>
-<p className={styles.subtitlelargeblack}>Project Date:</p>
-<p className={styles.descriptionlargeblack}>July 2021 - August 2021</p>
-<p className={styles.subtitlelargeblack}>Role:</p>
-<p className={styles.descriptionlargeblack}>UI/UX Designer</p>
+<p className={styles.subtitlelargeblack}>Name:</p>
+<p className={styles.descriptionlargeblack}>Jae Min (John) Kim</p>
 <p className={styles.subtitlelargeblack}>Location:</p>
-<p className={styles.descriptionlargeblack}>Los Angeles, CA</p>
-<p className={styles.subtitlelargeblack}>Summary:</p>
-<p className={styles.descriptionlargeblack}>Los Angeles Web Application Re-Design</p>
+<p className={styles.descriptionlargeblack}>Fremont, CA 94538</p>
+<p className={styles.subtitlelargeblack}>Phone:</p>
+<p className={styles.descriptionlargeblack}>(510)-513-7376</p>
+<p className={styles.subtitlelargeblack}>Email:</p>
+<p className={styles.descriptionlargeblack}>jaeminkim.com@gmail.com</p>
 
   </Card.Body>
-
+  <a href="https://github.com/jaeminkim-com/job_hunt/blob/master/resume.pdf" target="_blank">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">Download Resume</Button>
+                </h1>
+              </a>
   
 </Card>
 

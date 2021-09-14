@@ -110,7 +110,7 @@ export const Portfolio = () => {
   // myRef = React.createRef();
   /* Start of JSX Fragment*/
   return <>
-  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "40vh" }}>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "40vh", background: "#f5f5f7", }}>
   
   <h1 className={styles.test3title}>Loading</h1>
 
