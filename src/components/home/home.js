@@ -74,8 +74,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
-import video from '../../assets/newhomepagevids/2.mp4';
-import videomobile from '../../assets/newhomepagevids/2-1.mp4';
+import video from '../../assets/san-francisco-sunset-9Q2MYSB.mov';
+import videomobile from '../../assets/san-francisco-sunset-9Q2MYSB.mov';
 
 import icon1 from '../../assets/icon-01.png';
 import icon2 from '../../assets/icon-02.png';
@@ -130,16 +130,15 @@ export const Home = () => (
                 <h1 className={styles.whitetitle}>Welcome!</h1>
                 <h5 className={styles.test1title}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
       
+                <LinkContainer to="/portfolio">
+                <h1>
+                  <Button className={styles.mainbutton} variant="primary">View Portfolio</Button>
+                </h1>
+              </LinkContainer>
 
               <LinkContainer to="/contact">
                 <h1>
                   <Button className={styles.mainbutton} variant="secondary">Contact Now</Button>
-                </h1>
-              </LinkContainer>
-
-              <LinkContainer to="/portfolio">
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">View Portfolio</Button>
                 </h1>
               </LinkContainer>
 
