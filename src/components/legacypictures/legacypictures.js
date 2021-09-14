@@ -78,8 +78,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
-import video from '../../assets/newhomepagevids/1.mp4';
-import videomobile from '../../assets/newhomepagevids/1-1.mp4';
+import video from '../../assets/home_page_vids2/5.mp4';
+import videomobile from '../../assets/home_page_vids2/5-5.mp4';
 
 import scrolldown from '../../assets/scrolldown-01.png';
 
@@ -137,7 +137,7 @@ export const Legacypictures = () => (
 
                 <LinkContainer to="/portfolio">
                 <h1>
-                  <Button className={styles.mainbutton} variant="secondary">Go to Portfolio</Button>
+                  <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
                 </h1>
               </LinkContainer>
 

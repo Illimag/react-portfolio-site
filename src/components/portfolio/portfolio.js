@@ -70,6 +70,11 @@ import { loadImage } from '../../store/imgLoad/actions';
 
 import Media from 'react-media';
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+
+
+
 const importAll = (r) => {
   let images = [];
   let imageUrls = [];
@@ -126,19 +131,17 @@ export const Portfolio = () => {
 
 
 
-
-    <Container fluid className={styles.containerfluid}>
-
      
       <Container className={styles.test}>
-      
+      <div id="test5"></div>
         <div className={styles.spaceing}></div>
 
         <LinkContainer to="/legacypictures">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
-              <h1 className={styles.test2title}>Legacy Pictures</h1>
+              <div className={styles.maincontentwrapper}>
+              <h1 className={styles.whitetitle}>Legacy Pictures</h1>
                 <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
                
                 <LinkContainer to="/legacypictures">
@@ -147,6 +150,14 @@ export const Portfolio = () => {
                 </h1>
               </LinkContainer>
 
+              <AnchorLink href='#test' className={styles.paddingleft}>                
+
+              <h1>
+                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
+              </h1>
+
+              </AnchorLink>
+            </div>
               </Jumbotron>
 
               <Media queries={{
@@ -184,14 +195,15 @@ export const Portfolio = () => {
         </LinkContainer>
 
         <div className={styles.spaceing}></div>
-
+        <div id="test"></div>
         <LinkContainer to="/artrendezvous">
           <Row>
             <Col md={12} className={styles.removepadding}>
 
               <Jumbotron className={styles.mainfloatback}>
+              <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.test2title}>Art Rendez-Vous</h1>
+                <h1 className={styles.whitetitle}>Art Rendez-Vous</h1>
                 <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile</h5>
                 <LinkContainer to="/artrendezvous">
                 <h1>
@@ -199,7 +211,15 @@ export const Portfolio = () => {
                 </h1>
               </LinkContainer>
               
+              <AnchorLink href='#test1' className={styles.paddingleft}>                
 
+              <h1>
+                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
+              </h1>
+
+              </AnchorLink>
+
+              </div>
               </Jumbotron>
 
               <Media queries={{
@@ -238,21 +258,31 @@ export const Portfolio = () => {
         </LinkContainer>
 
         <div className={styles.spaceing}></div>
+        <div id="test1"></div>
 
         <LinkContainer to="/uguru">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
+              <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.test2title}>Uguru, INC.</h1>
+                <h1 className={styles.whitetitle}>Uguru, INC.</h1>
                   <h5 className={styles.test1title}>UI/UX & graphic designer internship at mobile application</h5>
                   <LinkContainer to="/uguru">
                 <h1>
                   <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
                 </h1>
               </LinkContainer>
+              
+              <AnchorLink href='#test2' className={styles.paddingleft}>                
+
+              <h1>
+                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
+              </h1>
+
+              </AnchorLink>
             
-               
+               </div>
               </Jumbotron>
 
 
@@ -294,21 +324,32 @@ export const Portfolio = () => {
         </LinkContainer>
 
         <div className={styles.spaceing}></div>
+        <div id="test2"></div>
 
         <LinkContainer to="/sanchezcoffeeco">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
+              <div className={styles.maincontentwrapper}>
 
-              <h1 className={styles.test2title}>Sanchez Coffee</h1>
+              <h1 className={styles.whitetitle}>Sanchez Coffee</h1>
                 <h5 className={styles.test1title}>Los Angeles coffee distribution company web payment platform.</h5>
                 <LinkContainer to="/sanchezcoffeeco">
                 <h1>
                   <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
                 </h1>
               </LinkContainer>
-              
 
+              
+              <AnchorLink href='#test3' className={styles.paddingleft}>                
+
+              <h1>
+                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
+              </h1>
+
+              </AnchorLink>
+              
+              </div>
               </Jumbotron>
 
               <Media queries={{
@@ -346,21 +387,32 @@ export const Portfolio = () => {
         </LinkContainer>
 
         <div className={styles.spaceing}></div>
+        <div id="test3"></div>
 
         <LinkContainer to="/apexvr">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
+              <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.test2title}>Apex VR</h1>
+                <h1 className={styles.whitetitle}>Apex VR</h1>
                 <h5 className={styles.test1title}>San Leandro videography company virtual reality web application design.</h5>
                 <LinkContainer to="/apexvr">
                 <h1>
                   <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
                 </h1>
               </LinkContainer>
-             
 
+              
+              <AnchorLink href='#test4' className={styles.paddingleft}>                
+
+              <h1>
+                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
+              </h1>
+
+              </AnchorLink>
+             
+                </div>
               </Jumbotron>
 
 
@@ -400,14 +452,15 @@ export const Portfolio = () => {
         </LinkContainer>
 
         <div className={styles.spaceing}></div>
+        <div id="test4"></div>
 
         <LinkContainer to="/stepsaver">
           <Row>
             <Col md={12} className={styles.removepadding}>
               <Jumbotron className={styles.mainfloatback}>
-
+              <div className={styles.maincontentwrapper}>
   
-                <h1 className={styles.test2title}>Stepsaver</h1>
+                <h1 className={styles.whitetitle}>Stepsaver</h1>
                 <h5 className={styles.test1title}>User experience designer community website design.</h5>
                 <LinkContainer to="/stepsaver">
                 <h1>
@@ -416,7 +469,15 @@ export const Portfolio = () => {
               </LinkContainer>
 
 
+              <AnchorLink href='#test5' className={styles.paddingleft}>                
 
+              <h1>
+                <Button className={styles.mainbutton} variant="primary">Go Back to Top</Button>
+              </h1>
+
+              </AnchorLink>
+
+                </div>
               </Jumbotron>
 
 
@@ -454,7 +515,6 @@ export const Portfolio = () => {
           </Row>
         </LinkContainer>
       </Container>
-    </Container>
 
 
 

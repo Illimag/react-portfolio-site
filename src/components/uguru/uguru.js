@@ -47,8 +47,8 @@ import duo from '../../assets/img/uguru/testpics-08.png';
 import Vid1 from '../../assets/home_page_vids/compress_vid0.mp4';
 import Vid2 from '../../assets/vids/compressed_vid/vid2.m4v';
 
-import video from '../../assets/newhomepagevids/3.mp4';
-import videomobile from '../../assets/newhomepagevids/3-1.mp4';
+import video from '../../assets/home_page_vids2/3.mp4';
+import videomobile from '../../assets/home_page_vids2/3-3.mp4';
 
 
 

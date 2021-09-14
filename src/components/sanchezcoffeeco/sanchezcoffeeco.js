@@ -60,8 +60,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 
 import Media from 'react-media';
 
-import video from '../../assets/newhomepagevids/4.mp4';
-import videomobile from '../../assets/newhomepagevids/4-1.mp4';
+import video from '../../assets/home_page_vids2/1.mp4';
+import videomobile from '../../assets/home_page_vids2/1-1.mp4';
 
 
 

@@ -46,8 +46,8 @@ import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
 import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
 import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 
-import video from '../../assets/newhomepagevids/2.mp4';
-import videomobile from '../../assets/newhomepagevids/2-1.mp4';
+import video from '../../assets/home_page_vids2/2.mp4';
+import videomobile from '../../assets/home_page_vids2/2-2.mp4';
 
 
 
