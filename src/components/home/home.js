@@ -129,16 +129,17 @@ export const Home = () => (
 
                 <h1 className={styles.whitetitle}>Welcome!</h1>
                 <h5 className={styles.test1title}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
-      
-                <LinkContainer to="/portfolio">
+    
+
+              <LinkContainer to="/legacypictures">
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">View Portfolio</Button>
+                  <Button className={styles.mainbutton} variant="primary">Looking for Case Study?</Button>
                 </h1>
               </LinkContainer>
 
               <LinkContainer to="/contact">
                 <h1>
-                  <Button className={styles.mainbutton} variant="secondary">Contact Now</Button>
+                  <Button className={styles.mainbutton} variant="secondary">Contact Now!</Button>
                 </h1>
               </LinkContainer>
 

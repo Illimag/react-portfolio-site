@@ -47,8 +47,9 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import Codepen from "react-codepen-embed";
 
 
-import video from '../../assets/home_page_vids2/6.mp4';
-import videomobile from '../../assets/home_page_vids2/6-6.mp4';
+
+import video from '../../assets/newhomepagevids/6.mp4';
+import videomobile from '../../assets/newhomepagevids/6-1.mp4';
 
 
 import { LinkContainer } from 'react-router-bootstrap';

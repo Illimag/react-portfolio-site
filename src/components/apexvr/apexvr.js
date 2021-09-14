@@ -56,8 +56,9 @@ import Codepen from "react-codepen-embed";
 
 import Media from 'react-media';
 
-import video from '../../assets/home_page_vids2/4.mp4';
-import videomobile from '../../assets/home_page_vids2/4-4.mp4';
+
+import video from '../../assets/newhomepagevids/5.mp4';
+import videomobile from '../../assets/newhomepagevids/5-1.mp4';
 
 
 
