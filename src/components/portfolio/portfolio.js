@@ -143,7 +143,7 @@ export const Portfolio = () => {
                
                 <LinkContainer to="/legacypictures">
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
                 </h1>
               </LinkContainer>
 
@@ -195,7 +195,7 @@ export const Portfolio = () => {
                 <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile</h5>
                 <LinkContainer to="/artrendezvous">
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
                 </h1>
               </LinkContainer>
               
@@ -248,7 +248,7 @@ export const Portfolio = () => {
                   <h5 className={styles.test1title}>UI/UX & graphic designer internship at mobile application</h5>
                   <LinkContainer to="/uguru">
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
                 </h1>
               </LinkContainer>
             
@@ -304,7 +304,7 @@ export const Portfolio = () => {
                 <h5 className={styles.test1title}>Los Angeles coffee distribution company web payment platform.</h5>
                 <LinkContainer to="/sanchezcoffeeco">
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
                 </h1>
               </LinkContainer>
               
@@ -356,7 +356,7 @@ export const Portfolio = () => {
                 <h5 className={styles.test1title}>San Leandro videography company virtual reality web application design.</h5>
                 <LinkContainer to="/apexvr">
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
                 </h1>
               </LinkContainer>
              
@@ -411,7 +411,7 @@ export const Portfolio = () => {
                 <h5 className={styles.test1title}>User experience designer community website design.</h5>
                 <LinkContainer to="/stepsaver">
                 <h1>
-                  <Button className={styles.mainbutton} variant="primary">Learn More</Button>
+                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
                 </h1>
               </LinkContainer>
 

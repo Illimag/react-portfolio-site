@@ -88,7 +88,7 @@
 .mainfloatback{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.2) !important;
-    height: 40vh;
+    height: 30vh;
     object-fit: cover;
     z-index: 10;
     margin-right: 0%;
@@ -234,7 +234,7 @@
 .mainvideo {
     object-fit: cover;
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     position: static;
     top: 0;
     left: 0;

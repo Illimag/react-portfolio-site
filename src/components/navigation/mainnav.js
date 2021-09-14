@@ -13,6 +13,7 @@ import { Uxdesignsumo } from '../uxdesignsumo/uxdesignsumo'
 import { Legacypictures } from '../legacypictures/legacypictures'
 import { Stepsaver } from '../stepsaver/stepsaver'
 import { Portfolio } from '../portfolio/portfolio'
+import { Profile } from '../profile/profile'
 
 //import { Blog } from '../blog/blog'
 //import { Feed } from '../feed/feed'
@@ -45,6 +46,7 @@ const routes = [
   { path: '/sanchezcoffeeco', name: '• Sanchez Coffee CO.', Component: Sanchezcoffeeco },
   { path: '/apexvr', name: '• ApexVR', Component: Apexvr },
   { path: '/stepsaver', name: '• Stepsaver', Component: Stepsaver },
+  { path: '/profile', name: 'Profile', Component: Profile },
   { path: '/Contact', name: 'Contact', Component: Contact },
 ]
 
