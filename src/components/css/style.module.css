@@ -669,8 +669,8 @@ background: rgba(0,0,0,0.5);
 
     position: relative;
 
-    padding-right:25% !important;
-    padding-left: 25% !important;
+    padding-right:30% !important;
+    padding-left: 30% !important;
 }
 
 
@@ -865,7 +865,7 @@ background: rgba(0,0,0,0.5);
 
 
 .maincontentwrapper{
-    bottom:30%;
+    bottom:20%;
     position: absolute;
 }
 

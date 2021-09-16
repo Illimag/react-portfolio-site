@@ -34,7 +34,7 @@ import Img08 from '../../assets/img/legacypictures/los-angeles-california-P5YD66
 import Img09 from '../../assets/img/legacypictures/bubble-mindmap-template.png';
 import Img10 from '../../assets/img/legacypictures/mind-mapping-diagram-8391.png';
 import Img11 from '../../assets/img/legacypictures/male-videographer-editor-using-pc-computer-editing-R7QYFZS.jpg';
-import Img12 from '../../assets/img/legacypictures/copy.png';
+import Img12 from '../../assets/img/legacypictures/legacyfilms.png';
 import Img13 from '../../assets/img/legacypictures/1.PNG';
 import Img14 from '../../assets/img/legacypictures/2.PNG';
 import Img15 from '../../assets/img/legacypictures/4.PNG';
@@ -1905,20 +1905,92 @@ export const Legacypictures = () => (
 
 
 
+<Container fluid className={styles.test1}>
+
+<Media queries={{
+  small: "(max-width: 599px)",
+  medium: "(min-width: 600px) and (max-width: 1199px)",
+  large: "(min-width: 1200px)"
+}}>
+  {matches => (
+    <>
+
+      {matches.small &&
+
+<Row className={styles.rowsmall}>
+
+
+
+<p className={styles.subtitlelargeblack}>Reflection:</p>
+<p className={styles.subtitlelargeblack}>More Time to explore UI and UX</p>
+  <p className={styles.descriptionblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
+   
+  <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
+    <p className={styles.descriptionblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
+
+
+</Row>
+        }
+
+      {matches.medium &&
+        <Row className={styles.rowmedium}>
+
+<p className={styles.subtitlelargeblack}>Reflection:</p>
+<p className={styles.subtitlelargeblack}>More Time to explore UI and UX</p>
+  <p className={styles.descriptionlargeblack}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
+   
+  <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
+    <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
+
+
+
+
+</Row>
+        }
+
+      {matches.large &&
+        <Row className={styles.rowlarge}>
+
+<h5 className={styles.subtitlelargeblack}>Go to Portfolio:</h5>
+<div className={styles.spaceingwhite}></div>
+
+  <h5 className={styles.descriptionlargeblack}>Go Back to Portfolio</h5>
+  <div className={styles.spaceingwhite}></div>
+
+  <LinkContainer to="/">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
+                </h1>
+              </LinkContainer>
+
+
+</Row>
+        }
+
+    </>
+  )}
+</Media>
+
+</Container>
     </Container>
+
+
+
 
 
     <Jumbotron fluid className={styles.bottomNav}>
       <Container>
         <Row className={styles.bottomNavColor}>
-        <Col sm={6} >
+        <Col sm={12} >
             <p className={styles.titleblack}>Go Home</p>
             <p className={styles.description}>Go Back Home</p>
-            <Link to={'/'}>
-              <p className={styles.description}> Go Home </p>
-            </Link>
+            <LinkContainer to="/">
+                <h1>
+                  <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
+                </h1>
+              </LinkContainer>
           </Col>
-          <Col sm={6} >
+          <Col sm={12} >
             <p className={styles.titleblack}>Art Rendezvous</p>
             <p className={styles.description}>International Videography Website Redesign</p>
             <Link to={'/artrendezvous'}>
