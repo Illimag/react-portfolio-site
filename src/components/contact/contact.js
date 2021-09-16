@@ -194,7 +194,8 @@ large: "(min-width: 1200px)"
 <p className={styles.descriptionlargeblack}>jaeminkim.com@gmail.com</p>
 
   </Card.Body>
-  <a href="https://github.com/jaeminkim-com/job_hunt/blob/master/resume.pdf" target="_blank">
+  <a href="https://github.com/jaeminkim-com/react-portfolio-site/tree/master/src/assets/resume/newresume.pdf" target="_blank">
+
                 <h1>
                   <Button className={styles.mainbutton} variant="secondary">Download Resume</Button>
                 </h1>
@@ -236,7 +237,7 @@ large: "(min-width: 1200px)"
 <p className={styles.descriptionlargeblack}>jaeminkim.com@gmail.com</p>
 
   </Card.Body>
-  <a href="https://github.com/jaeminkim-com/job_hunt/blob/master/resume.pdf" target="_blank">
+  <a href="https://github.com/jaeminkim-com/react-portfolio-site/tree/master/src/assets/resume/newresume.pdf" target="_blank">
                 <h1>
                   <Button className={styles.mainbutton} variant="secondary">Download Resume</Button>
                 </h1>

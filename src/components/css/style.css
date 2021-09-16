@@ -1,5 +1,6 @@
 .row{
     margin-right:0px !important;
+    margin-left:0px !important;
     background-color: transparent !important;
 }
 
@@ -27,7 +28,7 @@ h5{
     padding-left: 10%;
     padding-right: 10%;
 
-    font-size: 1.5em !important;
+    font-size: 1.2em !important;
 }
 
 h3{

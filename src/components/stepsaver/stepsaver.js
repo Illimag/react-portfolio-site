@@ -8,19 +8,46 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
 
+import Button from 'react-bootstrap/Button';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+
+import Card from 'react-bootstrap/Card';
+import ListGroupItem from 'react-bootstrap/ListGroupItem';
+import ListGroup from 'react-bootstrap/ListGroup';
+import CardGroup from 'react-bootstrap/CardGroup';
+
+
+import icon1 from '../../assets/icon-01.png';
+import icon2 from '../../assets/icon-02.png';
+import icon3 from '../../assets/icon-03.png';
 
 import Img00 from '../../assets/img/dasdasdigital/banner-02.jpg';
-import Img01 from '../../assets/img/dasdasdigital/1-01.jpg';
-import Img02 from '../../assets/img/dasdasdigital/1-02.jpg';
-import Img03 from '../../assets/img/dasdasdigital/1-03.jpg';
-import Img04 from '../../assets/img/dasdasdigital/1-04.jpg';
-import Img05 from '../../assets/img/dasdasdigital/1-05.jpg';
-import Img06 from '../../assets/img/dasdasdigital/1-06.jpg';
-import Img07 from '../../assets/img/dasdasdigital/1-07.jpg';
-import Img08 from '../../assets/img/dasdasdigital/1-08.jpg';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Button from 'react-bootstrap/Button';
-
+import Banner from '../../assets/img/nikerate/banner-06.jpg';
+import Img01 from '../../assets/img/legacypictures/graphite-s6.png';
+import Img02 from '../../assets/img/legacypictures/legacyfilms.png';
+import Img03 from '../../assets/img/legacypictures/cardsort.jpg';
+import Img04 from '../../assets/img/legacypictures/test.png';
+import Img05 from '../../assets/img/legacypictures/test1.png';
+import Img06 from '../../assets/img/legacypictures/test2.png';
+import Img07 from '../../assets/img/legacypictures/video-production-concept-operator-working-with-a-c-2JS9M5Q.jpg';
+import Img08 from '../../assets/img/legacypictures/los-angeles-california-P5YD66H.jpg';
+import Img09 from '../../assets/img/legacypictures/bubble-mindmap-template.png';
+import Img10 from '../../assets/img/legacypictures/mind-mapping-diagram-8391.png';
+import Img11 from '../../assets/img/legacypictures/male-videographer-editor-using-pc-computer-editing-R7QYFZS.jpg';
+import Img12 from '../../assets/img/legacypictures/legacyfilms.png';
+import Img13 from '../../assets/img/legacypictures/1.PNG';
+import Img14 from '../../assets/img/legacypictures/2.PNG';
+import Img15 from '../../assets/img/legacypictures/4.PNG';
+import Img16 from '../../assets/img/legacypictures/comedy-funny-movie-movie-evening-together-at-home--YS7NQEP.jpg';
+import Img17 from '../../assets/img/legacypictures/5.PNG';
+import Img18 from '../../assets/img/legacypictures/3.PNG';
+import Img19 from '../../assets/img/legacypictures/hsl_3.jpg';
+import Img20 from '../../assets/img/legacypictures/hsl-biz_3.jpg';
+import Img21 from '../../assets/img/legacypictures/hsl-biz_4.jpg';
+import Img22 from '../../assets/img/legacypictures/Capture.PNG';
+import Img23 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
+import Img24 from '../../assets/img/legacypictures/ttt-01.png';
 
 import styles from '../css/style.module.css';
 import '../css/style.css';
@@ -148,858 +175,631 @@ export const Stepsaver = () => (
 
 
 
+        <Container fluid>
 
- <Container fluid>
- 
 
- <div className={styles.spaceinglargewhite}></div>
+
+
+<div id="test"></div>
+
+
+
+
+
+
+
+
+
+
 
 <Container fluid className={styles.test1}>
-{/* left text right img */}
 
-<div className={styles.spaceingwhite}></div>
-
-        <Media queries={{
-small: "(max-width: 599px)",
-medium: "(min-width: 600px) and (max-width: 1199px)",
-large: "(min-width: 1200px)"
-}}>
-{matches => (
-<>
-
-{matches.small &&
-
-<Row className={styles.rowsmall}>
-
-<Col sm className={styles.fonttest}>
-<Container className={styles.fonttest}>
-
-<p className={styles.titleblack}>Stepsaver</p>
-<div className={styles.spaceingwhite}></div>
-<p className={styles.descriptionblack}>Case Study: Houston Valet Company User Interface Designs</p>
-<p className={styles.descriptionblack}>Project Date: October 2017 - January 2018</p>
-<p className={styles.descriptionblack}>Role: User Interface Designer</p>
-<p className={styles.descriptionblack}>Location: Houston, TX (REMOTE)</p>
-
-
-</Container>
-</Col>
-
-<Col sm>
-
-<Container className={styles.fonttest}>
-
-
-
-<p className={styles.titleblack}>Introduction:</p>
-
-<p className={styles.descriptionblack}>
-Stepsaver is an valet company that tracks vehicles, using it’s priotory softwre it would be able to be used and people would pay for it.</p>
-
-<p className={styles.descriptionblack}>Stepsaver was a startup in Houston Texas, that had a web application and a mobile application that would be able to be used for valets. Basically it made it easier for people to find their cars where they parked based on gps tracking.</p>
-
-
-</Container>
-
-</Col>
-
-</Row>
-
-  }
-
-{matches.medium &&
-
-<Row className={styles.rowmedium}>
-
-<Col sm className={styles.fonttest}>
-<Container className={styles.fonttest}>
-
-<p className={styles.titleblack}>Stepsaver</p>
-<div className={styles.spaceingwhite}></div>
-<p className={styles.descriptionblack}>Case Study: Houston Valet Company User Interface Designs</p>
-<p className={styles.descriptionblack}>Project Date: October 2017 - January 2018</p>
-<p className={styles.descriptionblack}>Role: User Interface Designer</p>
-<p className={styles.descriptionblack}>Location: Houston, TX (REMOTE)</p>
-
-
-</Container>
-</Col>
-
-<Col sm>
-
-<Container className={styles.fonttest}>
-
-
-
-
-<p className={styles.titlelargeblack}>Introduction:</p>
-
-<p className={styles.descriptionblack}>
-Stepsaver is an valet company that tracks vehicles, using it’s priotory softwre it would be able to be used and people would pay for it.</p>
-
-<p className={styles.descriptionblack}>Stepsaver was a startup in Houston Texas, that had a web application and a mobile application that would be able to be used for valets. Basically it made it easier for people to find their cars where they parked based on gps tracking.</p>
-
-
-</Container>
-
-</Col>
-
-</Row>
-  }
-
-{matches.large &&
-<Row className={styles.rowlarge}>
-
-<Col sm className={styles.fonttest}>
-<Container className={styles.fonttest}>
-
-<p className={styles.titlelargeblack}>Stepsaver</p>
-<div className={styles.spaceingwhite}></div>
-<p className={styles.descriptionlargeblack}>Case Study: Houston Valet Company User Interface Designs</p>
-<p className={styles.descriptionlargeblack}>Project Date: October 2017 - January 2018</p>
-<p className={styles.descriptionlargeblack}>Role: User Interface Designer</p>
-<p className={styles.descriptionlargeblack}>Location: Houston, TX (REMOTE)</p>
-
-
-</Container>
-</Col>
-
-<Col sm>
-
-<Container className={styles.fonttest}>
-
-
-
-
-<p className={styles.titlelargeblack}>Introduction:</p>
-
-<p className={styles.descriptionlargeblack}>
-Stepsaver is an valet company that tracks vehicles, using it’s priotory softwre it would be able to be used and people would pay for it.</p>
-
-<p className={styles.descriptionlargeblack}>Stepsaver was a startup in Houston Texas, that had a web application and a mobile application that would be able to be used for valets. Basically it made it easier for people to find their cars where they parked based on gps tracking.</p>
-
-</Container>
-
-</Col>
-
-
-</Row>
-  }
-
-</>
-)}
-</Media>
-
-
-
-
-
-</Container>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <Container fluid className={styles.test1}>
-
-<div className={styles.spaceingwhite}></div>
-<Media queries={{
- small: "(max-width: 599px)",
- medium: "(min-width: 600px) and (max-width: 1199px)",
- large: "(min-width: 1200px)"
-}}>
- {matches => (
-   <>
-
-     {matches.small &&
-         <Container fluid>
-<Row className={styles.rowsmall}>
- <Col sm className={styles.fonttest}>
-
- <p className={styles.titleblack}>High-fidelity <span className={styles.grey}>UI design.</span></p>
- <div className={styles.spaceingwhite}></div>
-</Col>
-</Row>
-
-   <Row className={styles.rowsmall}>
-     <Col sm>
-       <Image src={desktopImg} fluid className={styles.imgstyle} />
-       <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-     </Col>
-   </Row>
-   </Container>
-       }
-
-     {matches.medium &&
-       <Container fluid>
-       <Row className={styles.rowmedium}>
-         <Col sm className={styles.fonttest}>
-     
-         <p className={styles.titleblack}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-         <div className={styles.spaceingwhite}></div>
-     </Col>
-     </Row>
-     
-           <Row className={styles.rowmedium}>
-             <Col sm>
-               <Image src={desktopImg} fluid className={styles.imgstyle} />
-               <p className={styles.description}>
-     Initial sneaker catalog overview
-     </p>
-             </Col>
-           </Row>
-           </Container>
-       }
-
-     {matches.large &&
-        <Container fluid>
-        <Row className={styles.rowlarge}>
-          <Col sm className={styles.fonttest}>
-      
-          <p className={styles.titlelargeblack}>High-fidelity <span className={styles.grey}>UI design.</span></p>
-          <div className={styles.spaceingwhite}></div>
-      </Col>
-      </Row>
-      
-            <Row className={styles.rowlarge}>
-              <Col sm>
-                <Image src={desktopImg} fluid className={styles.imgstyle} />
-                <p className={styles.description}>
-      Initial sneaker catalog overview
-      </p>
-              </Col>
-            </Row>
-            </Container>
-       }
-
-   </>
- )}
-</Media>
-<div className={styles.spaceingwhite}></div>
-
-
-</Container>
-
-
-
-
-
-
-
-
-
-
-<Container fluid>
 <div className={styles.spaceingwhite}></div>
 {/* left text right img */}
 
+<Row className="justify-content-md-center">
+<Col xs lg="6">
+<p className={styles.subtitlelargeblack}>Introduction:</p>
 
-{/* left text right img */}
-<Row className={styles.test}>
-<Col sm>
- <Image src={Img08} fluid className={styles.imgstyle} />
-</Col>
+<p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
 
-
-
-
-<Col sm>
-<Media queries={{
- small: "(max-width: 599px)",
- medium: "(min-width: 600px) and (max-width: 1199px)",
- large: "(min-width: 1200px)"
-}}>
- {matches => (
-   <>
-
-     {matches.small &&
-<Row className={styles.rowsmall}>
-
-<p className={styles.titleblack}>Building Empathy</p>
-<div className={styles.spaceingwhite}></div>
- <p className={styles.descriptionblack}>The CEO of Stepsaver was looking for a designer who could do some redesigns for the web application and website.</p>
- <div className={styles.spaceingwhite}></div>
-   <p className={styles.descriptionblack}>This project was done remotely, and all communication was done over the phone. I was selected because of my rate and the CEO thought I could do a nice redesign for the application.</p>
-   <p className={styles.descriptionblack}>Stepsaver had Personas that it offered it’s services to. There were stakeholders such as the CEO, as well as the lead developer for the website.</p>
-   <p className={styles.descriptionblack}>Personas related to the startup whom would be using the application would be people that would be using Valets, or parking alot in various parking structures. Sometimes people can get easily lost, as so there is an web app that allows people to find their cars with a GPS signal.</p>
-   <p className={styles.descriptionblack}>When the Persona finds the signal and tracks the location of their vehicle, they are able to safely access their accounts via Stepsaver.</p>
-
- </Row>
-       }
-
-     {matches.medium &&
-<Row className={styles.rowmedium}>
+<p className={styles.subtitlelargeblack}>Los Angeles Skyline</p>
+<Image src={Img08} fluid className={styles.imgstyle} />
 
 
-<p className={styles.titleblack}>Building Empathy</p>
-<div className={styles.spaceingwhite}></div>
-<p className={styles.descriptionblack}>The CEO of Stepsaver was looking for a designer who could do some redesigns for the web application and website.</p>
- <div className={styles.spaceingwhite}></div>
-   <p className={styles.descriptionblack}>This project was done remotely, and all communication was done over the phone. I was selected because of my rate and the CEO thought I could do a nice redesign for the application.</p>
-   <p className={styles.descriptionblack}>Stepsaver had Personas that it offered it’s services to. There were stakeholders such as the CEO, as well as the lead developer for the website.</p>
-   <p className={styles.descriptionblack}>Personas related to the startup whom would be using the application would be people that would be using Valets, or parking alot in various parking structures. Sometimes people can get easily lost, as so there is an web app that allows people to find their cars with a GPS signal.</p>
-   <p className={styles.descriptionblack}>When the Persona finds the signal and tracks the location of their vehicle, they are able to safely access their accounts via Stepsaver.</p>
 
-</Row>
-       }
+<CardGroup>
+<Card>
+  <Card.Header>
+    
+  <p className={styles.subtitlelargeblack}>Scope of the Project</p>
+  </Card.Header>
+  <Card.Body>
+  <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
 
-     {matches.large &&
-   <Row className={styles.rowlarge}>
+  <div className={styles.paddingleft}>
+    <ol className={styles.listblack}>
+      <li className={styles.listitemblack}>Redesign of a website</li>
+      <li className={styles.listitemblack}>Usability testing getting feedback from executives</li>
+      <li className={styles.listitemblack}>Redesign of Web Platform</li>
+    </ol>
+    </div>
+  </Card.Body>
 
-
-<p className={styles.titlelargeblack}>Building Empathy</p>
-<div className={styles.spaceingwhite}></div>
-<p className={styles.descriptionlargeblack}>The CEO of Stepsaver was looking for a designer who could do some redesigns for the web application and website.</p>
- <div className={styles.spaceingwhite}></div>
-   <p className={styles.descriptionlargeblack}>This project was done remotely, and all communication was done over the phone. I was selected because of my rate and the CEO thought I could do a nice redesign for the application.</p>
-   <p className={styles.descriptionlargeblack}>Stepsaver had Personas that it offered it’s services to. There were stakeholders such as the CEO, as well as the lead developer for the website.</p>
-   <p className={styles.descriptionlargeblack}>Personas related to the startup whom would be using the application would be people that would be using Valets, or parking alot in various parking structures. Sometimes people can get easily lost, as so there is an web app that allows people to find their cars with a GPS signal.</p>
-   <p className={styles.descriptionlargeblack}>When the Persona finds the signal and tracks the location of their vehicle, they are able to safely access their accounts via Stepsaver.</p>
-
-      </Row>
-       }
-
-   </>
- )}
-</Media>
-</Col>
-
-
-</Row>
-
-
-<Row className={styles.test}>
-<Col sm className={styles.fonttest}>
-
-
-<Media queries={{
- small: "(max-width: 599px)",
- medium: "(min-width: 600px) and (max-width: 1199px)",
- large: "(min-width: 1200px)"
-}}>
- {matches => (
-   <>
-
-     {matches.small &&
-<Container>
-
- <p className={styles.titleblack}>Challenge:</p>
- <p className={styles.descriptionblack}>The CEO wanted a redesign of the current interface. There was a mobile app as well as a website. Both needed to be redesigned..</p>
-   <p className={styles.descriptionblack}>The project was first a redesign of the Web Application as well as the Mobile Application. There were only a web application and based on the web application, I created the mobile application designs. There were some designs that needed to be done.</p>
-   <p className={styles.descriptionblack}>My role was as a contract designer just for the redesign of the web application and the design of the mobile application based on the web application. There was alot of it based on the technical requirement of the application. There really wasent much there, to work with. So it was free form, but there were a couple of functionality that needed to be designed for.</p>
-   <p className={styles.descriptionblack}>I was the sole contract responsible for the designs of the user interface. I worked directly with the CEO for stepsaver.</p>
-
-
-</Container>
-       }
-
-     {matches.medium &&
-<Container>
+  
+</Card>
+<Card>
+  <Card.Header>
+    
+<p className={styles.subtitlelargeblack}>Writing contract with company</p>
+  </Card.Header>
+  <Card.Body>
  
- <p className={styles.titleblack}>Challenge:</p>
- <p className={styles.descriptionblack}>The CEO wanted a redesign of the current interface. There was a mobile app as well as a website. Both needed to be redesigned..</p>
-   <p className={styles.descriptionblack}>The project was first a redesign of the Web Application as well as the Mobile Application. There were only a web application and based on the web application, I created the mobile application designs. There were some designs that needed to be done.</p>
-   <p className={styles.descriptionblack}>My role was as a contract designer just for the redesign of the web application and the design of the mobile application based on the web application. There was alot of it based on the technical requirement of the application. There really wasent much there, to work with. So it was free form, but there were a couple of functionality that needed to be designed for.</p>
-   <p className={styles.descriptionblack}>I was the sole contract responsible for the designs of the user interface. I worked directly with the CEO for stepsaver.</p>
+    <p className={styles.descriptionblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+    
+  </Card.Body>
+
+  
+</Card>
+<Card>
+  <Card.Header>
+    
+  <p className={styles.subtitlelargeblack}>Building Empathy</p>
+  </Card.Header>
+  <Card.Body>
+ 
+  <p className={styles.descriptionblack}>Users of the Legacy Pictures website are demographics that are as follow:</p>
+    
+    <div className={styles.paddingleft}>
+    <ul className={styles.listblack}>
+      <li className={styles.listitemblack}>Executives</li>
+      <li className={styles.listitemblack}>Videographers</li>
+      <li className={styles.listitemblack}>Creative Managers</li>
+    </ul>
+    </div>
+  </Card.Body>
+
+  
+</Card>
+</CardGroup>
 
 
-</Container>
-       }
-
-     {matches.large &&
-   <Container>
-
-<p className={styles.titlelargeblack}>Challenge:</p>
-<p className={styles.descriptionlargeblack}>The CEO wanted a redesign of the current interface. There was a mobile app as well as a website. Both needed to be redesigned..</p>
-   <p className={styles.descriptionlargeblack}>The project was first a redesign of the Web Application as well as the Mobile Application. There were only a web application and based on the web application, I created the mobile application designs. There were some designs that needed to be done.</p>
-   <p className={styles.descriptionlargeblack}>My role was as a contract designer just for the redesign of the web application and the design of the mobile application based on the web application. There was alot of it based on the technical requirement of the application. There really wasent much there, to work with. So it was free form, but there were a couple of functionality that needed to be designed for.</p>
-   <p className={styles.descriptionlargeblack}>I was the sole contract responsible for the designs of the user interface. I worked directly with the CEO for stepsaver.</p>
 
 
+
+
+
+
+
+<Row xs={1} md={2} className="g-4">
+
+
+
+
+
+    <Col>
+      <Card>
+      <Image src={Img04} fluid className={styles.imgstyle} />
+        <Card.Body>
+          <Card.Title>    
+            <p className={styles.subtitlelargeblack}>Use Case Scenarios</p>
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionlargeblack}>Videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representation of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+    
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+        <Card.Body>
+          <Card.Title>
+          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
+              
+    <div className={styles.paddingleft}>
+    <ul className={styles.listlargeblack}>
+      <li className={styles.listitemlargeblack}>Users of the website</li>
+      <li className={styles.listitemlargeblack}>Executives</li>
+      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    </ul>
+    </div>
+              </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+
+
+</Row>
+
+
+
+
+<Col>
+
+
+<p className={styles.subtitlelargeblack}>Challenge:</p>
+
+<p className={styles.descriptionlargeblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. </p>
+   
+
+<div className={styles.spaceingwhite}></div>
+
+
+<p className={styles.subtitlelargeblack}>Videographer Community</p>
+
+<Image src={Img07} fluid className={styles.imgstyle} />
+
+<Card>
+<Card.Header>
+
+<p className={styles.subtitlelargeblack}>Initial Scope</p>
+</Card.Header>
+<Card.Body>
+
+<p className={styles.descriptionlargeblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
+    <div className={styles.paddingleft}>
+  <ul className={styles.listblack}>
+    <li className={styles.listitemblack}>start a redesign process for the website</li>
+    <li className={styles.listitemblack}>converting it to new UI/UX Design trends.</li>
+  </ul>
+  </div>
+
+</Card.Body>
+
+
+</Card>
+
+
+
+</Col>
+
+
+<Row xs={1} md={3} className="g-4">
+
+  
+
+    <Col>
+      <Card>
+
+        <Card.Body>
+          <Card.Title>    
+          <p className={styles.subtitlelargeblack}>User Flow</p>
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionlargeblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website. I was the sole UI/UX Designer for the whole thing. </p>
+         
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+    <Col>
+      <Card>
+        <Card.Body>
+          <Card.Title>
+          <p className={styles.subtitlelargeblack}>User Flow of Previous Website</p>
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
+              
+    <div className={styles.paddingleft}>
+    <ul className={styles.listlargeblack}>
+      <li className={styles.listitemlargeblack}>Users of the website</li>
+      <li className={styles.listitemlargeblack}>Executives</li>
+      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    </ul>
+    </div>
+              </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+
+<Col>
+<Card>
+  
+  <Card.Body>
+  <p className={styles.subtitlelargeblack}>Mindmapping entire company scope</p>
+
+  <div className={styles.paddingleft}>
+  <ul className={styles.listlargeblack}>
+      <li className={styles.listitemlargeblack}>CEO of the company,</li>
+      <li className={styles.listitemlargeblack}>lead developer who would considering technical parts, etc.</li>
+      <li className={styles.listitemlargeblack}>Internal team </li>
+      <li className={styles.listitemlargeblack}>larger outside team. </li>
+    </ul>
+    </div>
+  </Card.Body>
+
+  
+</Card>
+</Col>
+
+
+
+
+</Row>
+
+
+
+<Col>
+
+<Card>
+  <Card.Header>
+  
+  <p className={styles.subtitlelargeblack}>Understanding that there are multiple stakeholders</p>
+
+  </Card.Header>
+  <Card.Body>
+  <p className={styles.descriptionlargeblack}>As well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
+
+
+  <div className={styles.paddingleft}>
+  <ul className={styles.listlargeblack}>
+  <li className={styles.listitemblack}>Increase Usability of Website</li>
+      <li className={styles.listitemlargeblack}>Improve Performance of Website</li>
+      <li className={styles.listitemlargeblack}>Better User Experience </li>
+    </ul>
+  </div>
+  </Card.Body>
+
+  
+</Card>
+</Col>
+
+
+
+
+
+<Row xs={1} md={2} className="g-4">
+
+    <Col>
+      <Card>
+      <Image src={Img04} fluid className={styles.imgstyle} />
+        <Card.Body>
+          <Card.Title>    
+          <p className={styles.subtitlelargeblack}>Mobile Responsive Web Design for Desktop and Mobile Devices</p>
+
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionlargeblack}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
+    
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    <Col>
+      <Card>
+      <Image src={Img09} fluid className={styles.imgstyle} />
+        <Card.Body>
+          <Card.Title>
+          <p className={styles.subtitlelargeblack}>Showcase Website</p>
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
+   
+              </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+    <Col>
+      <Card>
+      <Image src={Img10} fluid className={styles.imgstyle} />
+        <Card.Body>
+          <Card.Title>
+          <p className={styles.subtitlelargeblack}>Minding Mapping concepts about the demographic and types of devices used by those individuals
+</p>
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.
+
+</p>
+   
+              </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+</Row>
+
+
+
+
+<Col>
+
+<p className={styles.subtitlelargeblack}>Solution:</p>
+    <p className={styles.descriptionlargeblack}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+     
+
+
+    <p className={styles.subtitlelargeblack}>Los Angeles Skyline</p>
+
+<Image src={Img08} fluid className={styles.imgstyle} />
+
+</Col>
+
+    <Row xs={1} md={2} className="g-4">
+
+<Col>
+  <Card>
+  <Image src={Img12} fluid className={styles.imgstyle} />
+    <Card.Body>
+      <Card.Title>    
+      <p className={styles.subtitlelargeblack}>Redesign of Website</p>
+
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionlargeblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+<Col>
+  <Card>
+  <Image src={Img13} fluid className={styles.imgstyle} />
+    <Card.Body>
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>Feedback from team</p>
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionlargeblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+<Col>
+  <Card>
+  <Image src={Img14} fluid className={styles.imgstyle} />
+    <Card.Body>
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>UI Variant Iterations</p>
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionlargeblack}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+
+
+<Col>
+  <Card>
+  <Image src={Img16} fluid className={styles.imgstyle} />
+    <Card.Body>
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>User Interface Design</p>
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionlargeblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
+
+      <div className={styles.paddingleft}>
+  <ul className={styles.listlargeblack}>
+  <li className={styles.listitemlargeblack}>just understanding the basic layout of the website, for example the home page, etc. </li>
+      <li className={styles.listitemlargeblack}>Then based on the original design, a new iteration of the design can be done.</li>
+    </ul>
+  </div>
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+<Col>
+  <Card>
+  <Image src={Img17} fluid className={styles.imgstyle} />
+    <Card.Body>
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
+
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
+
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+<Col>
+  <Card>
+  <Image src={Img18} fluid className={styles.imgstyle} />
+    <Card.Body>
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>Usability testing for the User Interface Designs</p>
+
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+
+
+
+
+
+<Col>
+  <Card>
+    <Card.Body>
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>Adobe Creative Suite</p>
+
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
+
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+<Col>
+  <Card>
+    <Card.Body>
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>Usability testing with Usabilityhub.com</p>
+
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
+
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+
+
+
+<Col>
+  <Card>
+    <Card.Body>
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>Starting the Rapid Prototyping</p>
+            </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionlargeblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+
+
+<Col>
+  <Card>
+    <Card.Body>
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>Getting Tests from the Users</p>
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionlargeblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
+
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+<Col>
+  <Card>
+    <Card.Body>
+    <Image src={Img22} fluid className={styles.imgstyle} />
+
+      <Card.Title>
+      <p className={styles.subtitlelargeblack}>Heat Map Testing</p>
+      </Card.Title>
+      <Card.Text>
+      <p className={styles.descriptionlargeblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
+
+
+          </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
+
+</Row>
+
+<Col>
+
+<p className={styles.subtitlelargeblack}>Results:</p>
+    <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
+     
+    <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
+      <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
+
+
+      <p className={styles.subtitlelargeblack}>User Interface Designs1 </p>
+      <Image src={Img19} fluid className={styles.imgstyle} />
+
+      <p className={styles.subtitlelargeblack}>User Interface Designs2 </p>
+      <Image src={Img20} fluid className={styles.imgstyle} />
       
-      </Container>
-       }
+      <p className={styles.subtitlelargeblack}>User Interface Designs3 </p>
+      <Image src={Img21} fluid className={styles.imgstyle} />
 
-   </>
- )}
-</Media>
+</Col>
 
 
+<Col>
+
+<p className={styles.subtitlelargeblack}>Art RendexVous</p>
+<div className={styles.spaceingwhite}></div>
+
+  <p className={styles.descriptionlargeblack}>Mobile App Redesign for Art Community iOS App</p>
+  <div className={styles.spaceingwhite}></div>
+
+  <LinkContainer to="/artrendezvous">
+                <p>
+                  <Button className={styles.mainbutton} variant="primary">View Next</Button>
+                </p>
+              </LinkContainer>
+
+              <p className={styles.subtitlelargeblack}>Go to Portfolio:</p>
+<div className={styles.spaceingwhite}></div>
+
+  <p className={styles.descriptionlargeblack}>Go Back to Portfolio</p>
+  <div className={styles.spaceingwhite}></div>
+
+  <LinkContainer to="/portfolio">
+                <p>
+                  <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
+                </p>
+              </LinkContainer>
+              
+</Col>
 
 
 </Col>
-<Col sm>
- <Image src={Img00} fluid className={styles.imgstyle} />
- 
-</Col>
-</Row>
-</Container>
 
 
 
-
-{/* img without text */}
-<Row>
-<Col sm>
- <Image src={Twodesktop} fluid className={styles.imgstyle} />
- <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-</Col>
-</Row>
-
-
-   <Row className={styles.test}>
-<Col sm className={styles.fonttest}>
-
-
-<Media queries={{
- small: "(max-width: 599px)",
- medium: "(min-width: 600px) and (max-width: 1199px)",
- large: "(min-width: 1200px)"
-}}>
- {matches => (
-   <>
-
-     {matches.small &&
-<Container>
-
- <p className={styles.titleblack}>IDEATE:</p>
- <p className={styles.descriptionblack}>Creating various methods to ideate and understand the user base to better cater to them. For example the application would be used by valets, as well as people that use the application online.</p>
- <p className={styles.descriptionblack}>So sometimes the application would be catering to a Customer or sometimes to a business operator. As so the application should be streamlined for people looking to get to their vehicles.</p>
- <p className={styles.descriptionblack}>Understanding where the target demographic might be located, as well as what kind of interests, or topics that would be something that can be something to build a mental model of the Personas that need to be created.</p>
- 
-
-      </Container>
-       }
-
-     {matches.medium &&
-<Container>
- 
- <p className={styles.titleblack}>IDEATE:</p>
- <p className={styles.descriptionblack}>Creating various methods to ideate and understand the user base to better cater to them. For example the application would be used by valets, as well as people that use the application online.</p>
- <p className={styles.descriptionblack}>So sometimes the application would be catering to a Customer or sometimes to a business operator. As so the application should be streamlined for people looking to get to their vehicles.</p>
- <p className={styles.descriptionblack}>Understanding where the target demographic might be located, as well as what kind of interests, or topics that would be something that can be something to build a mental model of the Personas that need to be created.</p>
- 
-
-   </Container>
-       }
-
-     {matches.large &&
-   <Container>
-
-<p className={styles.titlelargeblack}>IDEATE:</p>
-<p className={styles.descriptionlargeblack}>Creating various methods to ideate and understand the user base to better cater to them. For example the application would be used by valets, as well as people that use the application online.</p>
- <p className={styles.descriptionlargeblack}>So sometimes the application would be catering to a Customer or sometimes to a business operator. As so the application should be streamlined for people looking to get to their vehicles.</p>
- <p className={styles.descriptionlargeblack}>Understanding where the target demographic might be located, as well as what kind of interests, or topics that would be something that can be something to build a mental model of the Personas that need to be created.</p>
- 
-      </Container>
-       }
-
-   </>
- )}
-</Media>
-
-
-
-
-</Col>
+    
 
 </Row>
 
 
- <Container fluid>
- <div className={styles.spaceingwhite}></div>
-   {/* left text right img */}
-   <Row className={styles.test}>
-     
-   <Col sm>
-       <Image src={Img00} fluid className={styles.imgstyle} />
-       
-     </Col>
-
-
-     <Col sm className={styles.fonttest}>
-
-
-     <Media queries={{
-       small: "(max-width: 599px)",
-       medium: "(min-width: 600px) and (max-width: 1199px)",
-       large: "(min-width: 1200px)"
-     }}>
-       {matches => (
-         <>
-
-           {matches.small &&
-     <Container>
-           <p className={styles.titleblack}>Solution:</p>
-      <p className={styles.descriptionblack}>
-      I was able to redesign bothe the app and the website, keeping all the elements the same and keeping the color scheme.</p>
-      <p className={styles.descriptionblack}>
-      What kind of people would be using this app? The personas what does this look like, the people who would use the app, arnt really looking for an app that is difficult to use, they are looking for their car they arnt looking to hard a difficult time navigating through an app.</p>
-      <p className={styles.descriptionblack}>The user journey is that they need to go on the web app and being able to go from here to here to here. Then using the mobile app they would be able to do this and this.</p>
-      <p className={styles.descriptionblack}>Starting with the web application, I took the designs from the original web app, then I figured out how every page fit with each other, the flow the web app. Then I created a very basic list of functionality that needed to be designed for. Mainly I also created the list of pages that were needed to be considered as a redesign.</p>
-      <p className={styles.descriptionblack}>After I put together this map of functionality that the web app had, I started creating the UI Components that were needed, I tried to keep as close to the original design as possible without moving to far in any direct, also it was something where I wanted to see if there were any kinds of app flows that were unnecessary as well as seeing what kinds of implementation would need to be done.</p>
-   
-   </Container>
-             }
-
-           {matches.medium &&
-     <Container>
-                         <p className={styles.titleblack}>Solution:</p>
-                         <p className={styles.descriptionblack}>
-      I was able to redesign bothe the app and the website, keeping all the elements the same and keeping the color scheme.</p>
-      <p className={styles.descriptionblack}>
-      What kind of people would be using this app? The personas what does this look like, the people who would use the app, arnt really looking for an app that is difficult to use, they are looking for their car they arnt looking to hard a difficult time navigating through an app.</p>
-      <p className={styles.descriptionblack}>The user journey is that they need to go on the web app and being able to go from here to here to here. Then using the mobile app they would be able to do this and this.</p>
-      <p className={styles.descriptionblack}>Starting with the web application, I took the designs from the original web app, then I figured out how every page fit with each other, the flow the web app. Then I created a very basic list of functionality that needed to be designed for. Mainly I also created the list of pages that were needed to be considered as a redesign.</p>
-      <p className={styles.descriptionblack}>After I put together this map of functionality that the web app had, I started creating the UI Components that were needed, I tried to keep as close to the original design as possible without moving to far in any direct, also it was something where I wanted to see if there were any kinds of app flows that were unnecessary as well as seeing what kinds of implementation would need to be done.</p>
-   
-       
-       </Container>
-             }
-
-           {matches.large &&
-         <Container>
-                         <p className={styles.titlelargeblack}>Solution:</p>
-                         <p className={styles.descriptionlargeblack}>
-      I was able to redesign bothe the app and the website, keeping all the elements the same and keeping the color scheme.</p>
-      <p className={styles.descriptionlargeblack}>
-      What kind of people would be using this app? The personas what does this look like, the people who would use the app, arnt really looking for an app that is difficult to use, they are looking for their car they arnt looking to hard a difficult time navigating through an app.</p>
-      <p className={styles.descriptionlargeblack}>The user journey is that they need to go on the web app and being able to go from here to here to here. Then using the mobile app they would be able to do this and this.</p>
-      <p className={styles.descriptionlargeblack}>Starting with the web application, I took the designs from the original web app, then I figured out how every page fit with each other, the flow the web app. Then I created a very basic list of functionality that needed to be designed for. Mainly I also created the list of pages that were needed to be considered as a redesign.</p>
-      <p className={styles.descriptionlargeblack}>After I put together this map of functionality that the web app had, I started creating the UI Components that were needed, I tried to keep as close to the original design as possible without moving to far in any direct, also it was something where I wanted to see if there were any kinds of app flows that were unnecessary as well as seeing what kinds of implementation would need to be done.</p>
-   
-               </Container>
-             }
-
-         </>
-       )}
-     </Media>
-
-
-     
-     
-     </Col>
-   </Row>
- </Container>
-
-
-
-
- <Container fluid>
 
 
 
 
 
 
-   {/* img without text */}
-   <Row>
-   <Col sm>
-       <Image src={ImgTablet} fluid className={styles.imgstyle} />
-       <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-     </Col>
-     <Col sm>
-       <Image src={ImgC} fluid className={styles.imgstyle} />
-       <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-     </Col>
-   </Row>
 
 
 
 
-   <Row className={styles.test}>
-<Col sm className={styles.fonttest}>
 
 
-<Media queries={{
- small: "(max-width: 599px)",
- medium: "(min-width: 600px) and (max-width: 1199px)",
- large: "(min-width: 1200px)"
-}}>
- {matches => (
-   <>
 
-     {matches.small &&
-<Container>
 
- <p className={styles.titleblack}>DESIGN:</p>
- <p className={styles.descriptionblack}>The designs needed to be redesigns of the Mobile iOS Application, as well as a design of the web application. There were various user flows that need to be done to understand which user Interfaces screens need to be created, as well as understand the various contents, and User Interface Elements that need to be implemented into the design of the Mobile Application.</p>
-   <p className={styles.descriptionblack}>The Desktop application also was designed based off of the Mobile application, as so the user flows are the same, and showcase similar information. The desktop version needed a login screen, and there were various edits done based on the feedback of the CEO. The designs were done in Adobe Illustrator.</p>
-   
+
 
 </Container>
-       }
-
-     {matches.medium &&
-<Container>
- 
- <p className={styles.titleblack}>DESIGN:</p>
- <p className={styles.descriptionblack}>The designs needed to be redesigns of the Mobile iOS Application, as well as a design of the web application. There were various user flows that need to be done to understand which user Interfaces screens need to be created, as well as understand the various contents, and User Interface Elements that need to be implemented into the design of the Mobile Application.</p>
-   <p className={styles.descriptionblack}>The Desktop application also was designed based off of the Mobile application, as so the user flows are the same, and showcase similar information. The desktop version needed a login screen, and there were various edits done based on the feedback of the CEO. The designs were done in Adobe Illustrator.</p>
-   
-</Container>
-       }
-
-     {matches.large &&
-   <Container>
-
-<p className={styles.titlelargeblack}>DESIGN:</p>
-<p className={styles.descriptionlargeblack}>The designs needed to be redesigns of the Mobile iOS Application, as well as a design of the web application. There were various user flows that need to be done to understand which user Interfaces screens need to be created, as well as understand the various contents, and User Interface Elements that need to be implemented into the design of the Mobile Application.</p>
-   <p className={styles.descriptionlargeblack}>The Desktop application also was designed based off of the Mobile application, as so the user flows are the same, and showcase similar information. The desktop version needed a login screen, and there were various edits done based on the feedback of the CEO. The designs were done in Adobe Illustrator.</p>
-   
-      
-      </Container>
-       }
-
-   </>
- )}
-</Media>
-
-
-
-
-</Col>
-<Col sm>
- <Image src={Img00} fluid className={styles.imgstyle} />
- 
-</Col>
-</Row>
-
-
-
-
-<Row className={styles.test}>
-<Col sm className={styles.fonttest}>
-
-
-<Media queries={{
- small: "(max-width: 599px)",
- medium: "(min-width: 600px) and (max-width: 1199px)",
- large: "(min-width: 1200px)"
-}}>
- {matches => (
-   <>
-
-     {matches.small &&
-<Container>
-
- <p className={styles.titleblack}>Results:</p>
- <p className={styles.descriptionblack}>I redesigned the web application and the designed the mobile application.</p>
- <p className={styles.descriptionblack}>The design was completed and the CEo found it to be satisfactory and he paid the amount that we discussed. Actually first I sent over the web app, then we renegotiated for the mobile app. Then I completed the mobile app and he paid for the mobile app.</p>
- <p className={styles.descriptionblack}>I was happy to complete the project and that the CEO was happy enough with the designs that he paid as we discussed. This was a happy confront and every left happy, afterwards, I dont know if they got enough funding to continue but overall I wish I was able to spend more time on the designs to make ti really to the next level.</p>
- <p className={styles.descriptionblack}>The mobile application was redesigned and the desktop application was designed. Sending the deliverables to the development team, who appreciated the help with the new designs.</p>
- <p className={styles.descriptionblack}>Also the loading screen was something that had to be designed and the development of the loading screen was something that had to have some custom css to be able to develop.</p>
- 
-       </Container>
-       }
-
-     {matches.medium &&
-<Container>
- 
- <p className={styles.titleblack}>Results:</p>
- <p className={styles.descriptionblack}>I redesigned the web application and the designed the mobile application.</p>
- <p className={styles.descriptionblack}>The design was completed and the CEo found it to be satisfactory and he paid the amount that we discussed. Actually first I sent over the web app, then we renegotiated for the mobile app. Then I completed the mobile app and he paid for the mobile app.</p>
- <p className={styles.descriptionblack}>I was happy to complete the project and that the CEO was happy enough with the designs that he paid as we discussed. This was a happy confront and every left happy, afterwards, I dont know if they got enough funding to continue but overall I wish I was able to spend more time on the designs to make ti really to the next level.</p>
- <p className={styles.descriptionblack}>The mobile application was redesigned and the desktop application was designed. Sending the deliverables to the development team, who appreciated the help with the new designs.</p>
- <p className={styles.descriptionblack}>Also the loading screen was something that had to be designed and the development of the loading screen was something that had to have some custom css to be able to develop.</p>
- 
-
-   </Container>
-       }
-
-     {matches.large &&
-   <Container>
-
-<p className={styles.titlelargeblack}>Results:</p>
-<p className={styles.descriptionlargeblack}>I redesigned the web application and the designed the mobile application.</p>
- <p className={styles.descriptionlargeblack}>The design was completed and the CEo found it to be satisfactory and he paid the amount that we discussed. Actually first I sent over the web app, then we renegotiated for the mobile app. Then I completed the mobile app and he paid for the mobile app.</p>
- <p className={styles.descriptionlargeblack}>I was happy to complete the project and that the CEO was happy enough with the designs that he paid as we discussed. This was a happy confront and every left happy, afterwards, I dont know if they got enough funding to continue but overall I wish I was able to spend more time on the designs to make ti really to the next level.</p>
- <p className={styles.descriptionlargeblack}>The mobile application was redesigned and the desktop application was designed. Sending the deliverables to the development team, who appreciated the help with the new designs.</p>
- <p className={styles.descriptionlargeblack}>Also the loading screen was something that had to be designed and the development of the loading screen was something that had to have some custom css to be able to develop.</p>
- 
-      </Container>
-       }
-
-   </>
- )}
-</Media>
-
-
-
-
-</Col>
-
-</Row>
-
-
-
-
-
-
-
-
-
-{/* img without text */}
-<Row>
-<Col sm>
- <Image src={TestImg0} fluid className={styles.imgstyle} />
- <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-</Col>
-</Row>
-
-{/* img without text */}
-<Row>
-<Col sm>
- <Image src={TestImg1} fluid className={styles.imgstyle} />
- <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-</Col>
-</Row>
-
-{/* img without text */}
-<Row>
-<Col sm>
- <Image src={TestImg2} fluid className={styles.imgstyle} />
- <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-</Col>
-</Row>
-
-
-
-
-   
- <Row className={styles.test}>
-     <Col sm>
-       <Image src={ImgA} fluid className={styles.imgstyle} />
-       <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-     </Col>
-     <Col sm>
-       <Image src={ImgB} fluid className={styles.imgstyle} />
-       <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-     </Col>
-     <Col sm>
-       <Image src={ImgC} fluid className={styles.imgstyle} />
-       <p className={styles.description}>
-Initial sneaker catalog overview
-</p>
-     </Col>
-   </Row>
-
-
-   <Row className={styles.test}>
-<Col sm className={styles.fonttest}>
-
-
-<Media queries={{
- small: "(max-width: 599px)",
- medium: "(min-width: 600px) and (max-width: 1199px)",
- large: "(min-width: 1200px)"
-}}>
- {matches => (
-   <>
-
-     {matches.small &&
-<Container>
-
- <p className={styles.titleblack}>Reflection:</p>
- <p className={styles.descriptionblack}>I wish I could work with companies that are more established with a income stream so I can have more consitten workj.</p>
-   <p className={styles.descriptionblack}>What I learned while working for stepsaver is that remote work is possible with good communication with the stakeholders, as well as clear scope, and an understanding of the quality of the deliverables.</p>
-   <p className={styles.descriptionblack}>Over it was an rewarding experience to be able to be part of the team at Stepsaver, and being able to contribute an important part of the startup’s applications.</p>
-
-</Container>
-       }
-
-     {matches.medium &&
-<Container>
- 
- <p className={styles.titleblack}>Reflection:</p>
- <p className={styles.descriptionblack}>I wish I could work with companies that are more established with a income stream so I can have more consitten workj.</p>
-   <p className={styles.descriptionblack}>What I learned while working for stepsaver is that remote work is possible with good communication with the stakeholders, as well as clear scope, and an understanding of the quality of the deliverables.</p>
-   <p className={styles.descriptionblack}>Over it was an rewarding experience to be able to be part of the team at Stepsaver, and being able to contribute an important part of the startup’s applications.</p>
-   
-</Container>
-       }
-
-     {matches.large &&
-   <Container>
-
-<p className={styles.titlelargeblack}>Reflection:</p>
-<p className={styles.descriptionlargeblack}>I wish I could work with companies that are more established with a income stream so I can have more consitten workj.</p>
-   <p className={styles.descriptionlargeblack}>What I learned while working for stepsaver is that remote work is possible with good communication with the stakeholders, as well as clear scope, and an understanding of the quality of the deliverables.</p>
-   <p className={styles.descriptionlargeblack}>Over it was an rewarding experience to be able to be part of the team at Stepsaver, and being able to contribute an important part of the startup’s applications.</p>
-   
-     
-      </Container>
-       }
-
-   </>
- )}
-</Media>
-
-
-
-
-</Col>
-<Col sm>
- <Image src={Img00} fluid className={styles.imgstyle} />
- 
-</Col>
-</Row>
-
- </Container>
-
-
-
- </Container>
-
-    <Jumbotron fluid className={styles.bottomNav}>
-      <Container>
-        <Row className={styles.bottomNavColor}>
-          <Col sm={6}>
-            <p className={styles.title}>Apex VR</p>
-            <p className={styles.description}>New York City Art Community iOS App Redesign</p>
-            <Link to={'/apexvr'}>
-              <p className={styles.description}> View Previous </p>
-            </Link>
-          </Col>
-          <Col sm={6} >
-            <p className={styles.title}>Contact Info</p>
-            <p className={styles.description}>Questions or just want to say hi?</p>
-            <Link to={'/contact'}>
-              <p className={styles.description}> Contact Now </p>
-            </Link>
-          </Col>
-        </Row>
-      </Container>
-    </Jumbotron>
+    </Container>
 
   </>
   /* End of JSX Fragment*/
