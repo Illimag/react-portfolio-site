@@ -74,8 +74,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
-import video from '../../assets/san-francisco-sunset-9Q2MYSB.mov';
-import videomobile from '../../assets/san-francisco-sunset-9Q2MYSB.mov';
+import video from '../../assets/san-francisco-sunset-9Q2MYSB.mp4';
+import videomobile from '../../assets/san-francisco-sunset-9Q2MYSB.mp4';
 
 import icon1 from '../../assets/icon-01.png';
 import icon2 from '../../assets/icon-02.png';
@@ -586,7 +586,7 @@ Click on the button below to Contact Now
   <Card className={styles.cardbackground}>
     <Card.Img variant="top" src={icon1} />
     <Card.Body >
-      <Card.Title><p className={styles.subtitlelargeblack}>User Experience and User Interface Design</p></Card.Title>
+      <Card.Title><p className={styles.subtitlelargeblack}>UI/UX</p></Card.Title>
       <Card.Text>
       <p className={styles.descriptionblack}>As a UI/UX Designer, have indepth knowledge of User Interface and User Experience methodologies.</p>
       </Card.Text>

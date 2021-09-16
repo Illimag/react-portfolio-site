@@ -74,8 +74,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
-import video from '../../assets/san-francisco-sunset-9Q2MYSB.mov';
-import videomobile from '../../assets/san-francisco-sunset-9Q2MYSB.mov';
+import video from '../../assets/newhomepagevids/2.mp4';
+import videomobile from '../../assets/newhomepagevids/2-1.mp4';
 
 import icon1 from '../../assets/icon-01.png';
 import icon2 from '../../assets/icon-02.png';

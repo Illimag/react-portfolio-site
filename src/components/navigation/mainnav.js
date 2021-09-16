@@ -40,12 +40,12 @@ import './navigation.css'
 const routes = [
   { path: '/', name: 'HOME', Component: Home },
   { path: '/portfolio', name: 'PORTFOLIO', Component: Portfolio },
-  { path: '/legacypictures', name: '• Legacy Pictures', Component: Legacypictures },
-  { path: '/artrendezvous', name: '• Art•Rendez-Vous', Component: Artrendezvous },
-  { path: '/uguru', name: '• Uguru, INC.', Component: Uguru },
-  { path: '/sanchezcoffeeco', name: '• Sanchez Coffee CO.', Component: Sanchezcoffeeco },
-  { path: '/apexvr', name: '• ApexVR', Component: Apexvr },
-  { path: '/stepsaver', name: '• Stepsaver', Component: Stepsaver },
+  { path: '/legacypictures', name: 'Legacy Pictures', Component: Legacypictures },
+  { path: '/artrendezvous', name: 'Art•Rendez-Vous', Component: Artrendezvous },
+  { path: '/uguru', name: 'Uguru, INC.', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: 'Sanchez Coffee CO.', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'ApexVR', Component: Apexvr },
+  { path: '/stepsaver', name: 'Stepsaver', Component: Stepsaver },
   { path: '/profile', name: 'ABOUT', Component: Profile },
   { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]

@@ -10,13 +10,13 @@
     backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     display: block !important;
-    height: 70px;
+    height: 60px;
     padding: 0rem 0rem !important;
 }
 
 .logo{
-height:50pt;
-width:110pt;
+height:30pt;
+width:40pt;
 }
 
 .white{
