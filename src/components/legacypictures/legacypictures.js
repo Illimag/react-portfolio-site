@@ -265,6 +265,9 @@ export const Legacypictures = () => (
   <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
 
+<p className={styles.subtitlelargeblack}>Los Angeles Skyline</p>
+
+      <Image src={Img08} fluid className={styles.imgstyle} />
 
   </Row>
           }
@@ -780,6 +783,11 @@ export const Legacypictures = () => (
      
 
   <div className={styles.spaceingwhite}></div>
+
+  
+<p className={styles.subtitlelargeblack}>Videographer Community</p>
+
+<Image src={Img07} fluid className={styles.imgstyle} />
 
 <Card>
   <Card.Header>
@@ -1502,7 +1510,9 @@ export const Legacypictures = () => (
      
 
 
+    <p className={styles.subtitlelargeblack}>Los Angeles Skyline</p>
 
+<Image src={Img08} fluid className={styles.imgstyle} />
 
 
 
@@ -1888,9 +1898,13 @@ export const Legacypictures = () => (
       <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
 
 
-
+      <p className={styles.subtitlelargeblack}>User Interface Designs1 </p>
       <Image src={Img19} fluid className={styles.imgstyle} />
+
+      <p className={styles.subtitlelargeblack}>User Interface Designs2 </p>
       <Image src={Img20} fluid className={styles.imgstyle} />
+      
+      <p className={styles.subtitlelargeblack}>User Interface Designs3 </p>
       <Image src={Img21} fluid className={styles.imgstyle} />
 
 
