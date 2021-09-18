@@ -18,23 +18,21 @@ button:focus{
 }
 
 .page-enter {
-  opacity: 0.5;
-  transform: scale(1.1);
+  opacity: 0.1;
+  transition: opacity 900ms, transform 900ms;
 }
 
 .page-enter-active {
-  opacity: 1;
-  transform: scale(1);
+  opacity: 0.1;
   transition: opacity 900ms, transform 900ms;
 }
 
 .page-exit {
-  opacity: 1;
-  transform: scale(1);
+  opacity: 0.1;
+  transition: opacity 900ms, transform 900ms;
 }
 
 .page-exit-active {
-  opacity: 0;
-  transform: scale(0.9);
+  opacity: 0.1;
   transition: opacity 900ms, transform 900ms;
 }

@@ -109,9 +109,9 @@ export const Artrendezvous = () => (
                 </AnchorLink>
 
                 
-                <LinkContainer to="/portfolio">
+                <LinkContainer to="/uguru">
                 <h1>
-                  <Button className={styles.mainbutton} variant="secondary">Go to Portfolio</Button>
+                <Button className={styles.mainbutton} variant="secondary">View Next</Button>
                 </h1>
               </LinkContainer>
 

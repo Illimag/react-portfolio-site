@@ -139,9 +139,9 @@ export const Legacypictures = () => (
 
                 </AnchorLink>
 
-                <LinkContainer to="/portfolio">
+                <LinkContainer to="/artrendezvous">
                 <h1>
-                  <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
+                  <Button className={styles.mainbutton} variant="secondary">View Next</Button>
                 </h1>
               </LinkContainer>
 
