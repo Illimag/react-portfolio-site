@@ -820,7 +820,11 @@ background: rgba(0,0,0,0.5);
 
 
 
-
+.secondbutton{
+    background-color: red !important;
+    border-color: #000 !important;
+    opacity: 1 !important;
+}
 
 
 

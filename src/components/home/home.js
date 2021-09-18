@@ -137,9 +137,9 @@ export const Home = () => (
                 </h1>
               </LinkContainer>
 
-              <LinkContainer to="/contact">
+              <LinkContainer to="/portfolio">
                 <h1>
-                  <Button className={styles.mainbutton} variant="secondary">Contact Now!</Button>
+                  <Button className={styles.secondbutton} variant="secondary">View Portfolio</Button>
                 </h1>
               </LinkContainer>
 
