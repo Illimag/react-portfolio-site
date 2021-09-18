@@ -109,7 +109,8 @@ export const Portfolio = () => {
 
   console.log("Loading State: ", currentLoadingState)
 
-
+  console.log("percentage: ", currentProgress)
+const now = currentProgress;
 
 
   // myRef = React.createRef();
@@ -125,7 +126,7 @@ export const Portfolio = () => {
 
       
         
-      <ProgressBar animated now={currentProgress} />
+      <ProgressBar animated now={now} label={`${now}%`}/>
     
     </div>
     {images &&
