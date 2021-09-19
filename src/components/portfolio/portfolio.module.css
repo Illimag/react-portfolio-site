@@ -339,6 +339,7 @@
     font-weight: 900;
     margin-right: 0px !important;
     overflow-wrap: break-word;
+    text-align: center;
 }
 
 .test2title{
@@ -351,7 +352,7 @@
 }
 
 .test3title{
-    color: #000;
+    color: #fff;
     font-size: 2.5rem !important;
     font-family: 'Inter', sans-serif;
     font-weight: 500;

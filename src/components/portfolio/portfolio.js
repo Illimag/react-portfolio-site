@@ -109,26 +109,35 @@ export const Portfolio = () => {
 
   console.log("Loading State: ", currentLoadingState)
 
-  console.log("percentage: ", currentProgress)
-const now = currentProgress;
+var num = currentProgress;
+var numberconverted = parseInt(num, 10)
+
+  console.log("percentage: ", numberconverted)
+const now = numberconverted;
 
 
   // myRef = React.createRef();
   /* Start of JSX Fragment*/
   return <>
-  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "40vh", background: "#f5f5f7", }}>
+
+
+  <div style={{ background: "#000", }}>
+  <div style={{ top: "50%",}}>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "40vh", }}>
   
 
 
-  <h1 className={styles.test3title}>Loading</h1>
+                <h5 className={styles.test1title}>JMK</h5>
 
-  
 
       
         
       <ProgressBar animated now={now} label={`${now}%`}/>
     
     </div>
+    </div>
+
+</div>
     {images &&
     <div style={{ display: currentLoadingState ? "none" : "block" }}>
 
