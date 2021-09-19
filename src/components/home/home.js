@@ -122,18 +122,18 @@ const now = numberconverted;
   return <>
 
 
-  <div style={{ background: "#000", }}>
+  <div style={{ background: "#111", }}>
   <div style={{ top: "50%",}}>
   <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "40vh", }}>
   
 
 
-                <h5 className={styles.test1title}>JMK</h5>
-
+                <h5 className={styles.test1title}>Welcome to Jaeminkim.com</h5>
+                <h5 className={styles.test1title}>Loading please wait</h5>
 
       
         
-      <ProgressBar animated now={now} label={`${now}%`}/>
+      <ProgressBar animated now={now} label={`${now}% completed`}/>
     
     </div>
     </div>
