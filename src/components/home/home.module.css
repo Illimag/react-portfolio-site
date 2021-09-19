@@ -324,7 +324,7 @@
 
 .whitetitle{
     color: #fff;
-    font-size: 10vw !important;
+    font-size: 6vw !important;
     margin-top: 0px !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
@@ -334,12 +334,12 @@
 
 .test1title{
     color: #fff;
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     margin-right: 0px !important;
     overflow-wrap: break-word;
-    text-align: center;
+    text-align: left;
 }
 
 .test2title{
