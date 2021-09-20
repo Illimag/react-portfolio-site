@@ -64,10 +64,6 @@ import logo from '../../assets/jmk_logo-02-01.png';
 import { ProgressBar } from 'react-bootstrap';
 import { Spinner } from 'react-bootstrap';
 
-import { useDispatch, useSelector } from 'react-redux';
-import { getCurrentProgress, getImages, getLoadingState} from '../../store/imgLoad/reducer'
-import { loadImage } from '../../store/imgLoad/actions';
-
 import Media from 'react-media';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -75,72 +71,25 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import video from '../../assets/newhomepagevids/2.mp4';
 import videomobile from '../../assets/newhomepagevids/2-1.mp4';
 
-
-const importAll = (r) => {
-  let images = [];
-  let imageUrls = [];
-  r.keys().map((item, index) => { images.push(r(item)); });
-
-  images.map((image) => {
-    imageUrls.push(image);
-  })
-
-  return imageUrls;
-}
-
-
+import vid1 from '../../assets/newhomepagevids/1.mp4'
+import vid11 from '../../assets/newhomepagevids/1-1.mp4'
+import vid2 from '../../assets/newhomepagevids/2.mp4'
+import vid22 from '../../assets/newhomepagevids/2-1.mp4'
+import vid3 from '../../assets/newhomepagevids/3.mp4'
+import vid33 from '../../assets/newhomepagevids/3-1.mp4'
+import vid4 from '../../assets/newhomepagevids/4.mp4'
+import vid44 from '../../assets/newhomepagevids/4-1.mp4'
+import vid5 from '../../assets/newhomepagevids/5.mp4'
+import vid55 from '../../assets/newhomepagevids/5-1.mp4'
+import vid6 from '../../assets/newhomepagevids/6.mp4'
+import vid66 from '../../assets/newhomepagevids/6-1.mp4'
 
 export const Home = () => {
-
-  const dispatch = useDispatch();
-  const getImageUrls = () => {
-    return importAll(require.context('../../assets/newhomepagevids', false, /\.(png|jpe?g|svg|mp4|m4v)$/))
-  }
-
-  const currentLoadingState = useSelector(state => getLoadingState(state));
-  const currentProgress = useSelector(state => getCurrentProgress(state));
-  const images = useSelector(state => getImages(state));
-
-  console.log("ImageList: ", images)
-
-  useEffect(() => {
-    let urls = getImageUrls();
-    dispatch(loadImage(urls))
-  }, [])
-
-  console.log("Loading State: ", currentLoadingState)
-
-var num = currentProgress;
-var numberconverted = parseInt(num, 10)
-
-  console.log("percentage: ", numberconverted)
-const now = numberconverted;
 
 
   // myRef = React.createRef();
   /* Start of JSX Fragment*/
   return <>
-
-
-  <div style={{ background: "#111", }}>
-  <div style={{ top: "50%",}}>
-  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "40vh", }}>
-  
-
-
-                <h5 className={styles.test1title}>Welcome to Jaeminkim.com</h5>
-                <h5 className={styles.test1title}>Loading please wait</h5>
-
-      
-        
-      <ProgressBar animated now={now} label={`${now}% completed`}/>
-    
-    </div>
-    </div>
-
-</div>
-    {images &&
-    <div style={{ display: currentLoadingState ? "none" : "block" }}>
 
 
 
@@ -249,19 +198,19 @@ const now = numberconverted;
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
+                <source src={vid11}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[1]}/>
+                <source src={vid1}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[1]}/>
+                <source src={vid1}/>
               </video>
                 }
 
@@ -311,19 +260,19 @@ const now = numberconverted;
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[4]}/>
+                <source src={vid22}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[5]}/>
+                <source src={vid2}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[5]}/>
+                <source src={vid2}/>
               </video>
                 }
 
@@ -375,19 +324,19 @@ const now = numberconverted;
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[2]}/>
+                <source src={vid33}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[3]}/>
+                <source src={vid3}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[3]}/>
+                <source src={vid3}/>
               </video>
                 }
 
@@ -441,19 +390,19 @@ const now = numberconverted;
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[6]}/>
+                <source src={vid44}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[7]}/>
+                <source src={vid4}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[7]}/>
+                <source src={vid4}/>
               </video>
                 }
 
@@ -505,19 +454,19 @@ const now = numberconverted;
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[8]}/>
+                <source src={vid55}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[9]}/>
+                <source src={vid5}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[9]}/>
+                <source src={vid5}/>
               </video>
                 }
 
@@ -570,19 +519,19 @@ const now = numberconverted;
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[10]}/>
+                <source src={vid66}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[11]}/>
+                <source src={vid6}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[11]}/>
+                <source src={vid6}/>
               </video>
                 }
 
@@ -597,8 +546,6 @@ const now = numberconverted;
 
 
 
-    </div>
-    }
 
   </>
   /* End of JSX Fragment*/
