@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.59d1b0bc.chunk.css",
-    "main.js": "/static/js/main.fe4ff2e2.chunk.js",
-    "main.js.map": "/static/js/main.fe4ff2e2.chunk.js.map",
+    "main.js": "/static/js/main.ac9b5feb.chunk.js",
+    "main.js.map": "/static/js/main.ac9b5feb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82579a8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.82579a8e.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
-    "static/js/2.2723a816.chunk.js": "/static/js/2.2723a816.chunk.js",
-    "static/js/2.2723a816.chunk.js.map": "/static/js/2.2723a816.chunk.js.map",
+    "static/js/2.fc28dc3b.chunk.js": "/static/js/2.fc28dc3b.chunk.js",
+    "static/js/2.fc28dc3b.chunk.js.map": "/static/js/2.fc28dc3b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.670229e9cbb9c7b5a69b29e6f6988740.js": "/precache-manifest.670229e9cbb9c7b5a69b29e6f6988740.js",
+    "precache-manifest.63fb84ab66bbf43121ea2473118cf5dd.js": "/precache-manifest.63fb84ab66bbf43121ea2473118cf5dd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
     "static/css/main.59d1b0bc.chunk.css.map": "/static/css/main.59d1b0bc.chunk.css.map",
-    "static/js/2.2723a816.chunk.js.LICENSE.txt": "/static/js/2.2723a816.chunk.js.LICENSE.txt",
+    "static/js/2.fc28dc3b.chunk.js.LICENSE.txt": "/static/js/2.fc28dc3b.chunk.js.LICENSE.txt",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
     "static/media/1-02.c77d53ba.jpg": "/static/media/1-02.c77d53ba.jpg",
     "static/media/1-03.e4007bca.jpg": "/static/media/1-03.e4007bca.jpg",
@@ -39,8 +39,6 @@
     "static/media/5.mp4": "/static/media/5.fe411d9f.mp4",
     "static/media/6-1.mp4": "/static/media/6-1.bb1f59ac.mp4",
     "static/media/6.mp4": "/static/media/6.95899b6c.mp4",
-    "static/media/7-1.mp4": "/static/media/7-1.e3a15afb.mp4",
-    "static/media/7.mp4": "/static/media/7.9557722a.mp4",
     "static/media/Capture.PNG": "/static/media/Capture.c2366a33.PNG",
     "static/media/Mobile-Mockup.4861eff6.png": "/static/media/Mobile-Mockup.4861eff6.png",
     "static/media/Website-User-scenario-workflow.e9e2ac6c.png": "/static/media/Website-User-scenario-workflow.e9e2ac6c.png",
@@ -94,8 +92,8 @@
   "entrypoints": [
     "static/js/runtime-main.82579a8e.js",
     "static/css/2.46b578d6.chunk.css",
-    "static/js/2.2723a816.chunk.js",
+    "static/js/2.fc28dc3b.chunk.js",
     "static/css/main.59d1b0bc.chunk.css",
-    "static/js/main.fe4ff2e2.chunk.js"
+    "static/js/main.ac9b5feb.chunk.js"
   ]
 }
