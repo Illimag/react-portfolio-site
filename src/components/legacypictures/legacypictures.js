@@ -147,72 +147,50 @@ export const Legacypictures = () => (
 
 
 
-<Container fluid className={styles.test1}>
+<Container fluid className={styles.test2}>
 
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingblack}></div>
+
 {/* left text right img */}
 
 
 
 <Row className="justify-content-md-center">
-<Col xs lg="12">
+<Col xs lg="8">
 
 
-<p className={styles.blacktitle}>Legacy Pictures</p>
-
-
+<p className={styles.whitetitle}>LEGACY PICTURES</p>
+<p className={styles.subtitlelargewhite}>INTRODUCTION</p>
+ 
+ <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargeblack}>Date</p>
-  <p className={styles.descriptionblack}>July 2021 - Present</p>
+  <p className={styles.subtitlelargewhite}>DATE</p>
+  <p className={styles.descriptionwhite}>July 2021 - Present</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargeblack}>Role</p>
-  <p className={styles.descriptionblack}>UI/UX Designer</p>
+  <p className={styles.subtitlelargewhite}>ROLE</p>
+  <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargeblack}>Location</p>
-  <p className={styles.descriptionblack}>Los Angeles, CA</p>
+  <p className={styles.subtitlelargewhite}>LOCATION</p>
+  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
 </CardGroup>
 </Col>
 </Row>
 
-
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="12">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
 
 
 

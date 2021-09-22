@@ -37,15 +37,15 @@ import styles from './navigation.module.css'
 import './navigation.css'
 
 const routes = [
-  { path: '/', name: 'Home', Component: Home },
-  { path: '/legacypictures', name: 'Legacy Pictures', Component: Legacypictures },
-  { path: '/artrendezvous', name: 'Art•Rendez-Vous', Component: Artrendezvous },
-  { path: '/uguru', name: 'Uguru, INC.', Component: Uguru },
-  { path: '/sanchezcoffeeco', name: 'Sanchez Coffee CO.', Component: Sanchezcoffeeco },
-  { path: '/apexvr', name: 'ApexVR', Component: Apexvr },
-  { path: '/stepsaver', name: 'Stepsaver', Component: Stepsaver },
-  { path: '/profile', name: 'About', Component: Profile },
-  { path: '/Contact', name: 'Contact', Component: Contact },
+  { path: '/', name: 'HOME', Component: Home },
+  { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
+  { path: '/artrendezvous', name: 'ART•RENDEZ-VOUS', Component: Artrendezvous },
+  { path: '/uguru', name: 'UGURU', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: 'SANCHEZCOFFEE', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'APEXVR', Component: Apexvr },
+  { path: '/stepsaver', name: 'STEPSAVER', Component: Stepsaver },
+  { path: '/profile', name: 'ABOUT', Component: Profile },
+  { path: '/Contact', name: 'CONTACT', Component: Contact },
 ]
 
 function MainNav() {

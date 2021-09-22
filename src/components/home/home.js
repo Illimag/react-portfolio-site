@@ -102,7 +102,7 @@ export const Home = () => {
               <Jumbotron className={styles.mainfloatback}>
               <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>Welcome!</h1>
+                <h1 className={styles.whitetitle}>WELCOME</h1>
                 <h5 className={styles.test1title}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
     
                 <div className={styles.spaceingwhite}></div>
@@ -110,7 +110,7 @@ export const Home = () => {
                 <AnchorLink href='#test5' className={styles.paddingleft}>                
 
                         <h1 className={styles.mainbutton}>
-                     View Portfolio
+                        → VIEW PORTFOLIO
                         </h1>
 
                         </AnchorLink>
@@ -120,7 +120,7 @@ export const Home = () => {
 
               <LinkContainer to="/contact">
               <h1 className={styles.mainbutton}>
-                     Contact
+                     CONTACT
                         </h1>
               </LinkContainer>
 
@@ -181,7 +181,7 @@ export const Home = () => {
 
                 <LinkContainer to="/legacypictures">
                 <h1 className={styles.mainbutton}>
-                  Learn More
+                Learn More
                 </h1>
               </LinkContainer>
 
@@ -191,7 +191,7 @@ export const Home = () => {
               <AnchorLink href='#test' className={styles.paddingleft}>                
 
               <h1 className={styles.mainbutton}>
-               Next
+              Next
               </h1>
 
               </AnchorLink>

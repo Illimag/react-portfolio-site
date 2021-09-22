@@ -511,7 +511,16 @@ background: rgba(0,0,0,0.5);
     margin-top: 2%;
 }
 
-
+.descriptionwhite{
+    font-size: 1.5em;
+    margin-bottom: 0% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    color:#fff !important;
+    letter-spacing: -1px;
+    margin-top: 2%;
+}
 
 .titlemedium{
     font-weight: 700;
@@ -546,7 +555,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .subtitlelargeblack{
-    font-weight: 700;
+    font-weight: 900;
     font-size: 1.5em;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
@@ -554,6 +563,18 @@ background: rgba(0,0,0,0.5);
     color:#000 !important;
     letter-spacing: -1px;
 }
+
+
+.subtitlelargewhite{
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-bottom: -1% !important;
+    margin-top: 1% !important;
+    font-family: 'Inter', sans-serif;
+    color:#fff !important;
+    letter-spacing: -1px;
+}
+
 
 .listitemblack{
     font-size: 1em;
@@ -608,7 +629,16 @@ background: rgba(0,0,0,0.5);
     letter-spacing: -1px;
     margin-top: 2%;
 }
-
+.descriptionlargewhite{
+    font-size: 1.5em;
+    margin-bottom: 1% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    color:#fff !important;
+    letter-spacing: -1px;
+    margin-top: 2%;
+}
 
 .descriptionbold{
     font-size: 1.2em;
@@ -847,20 +877,25 @@ background: rgba(0,0,0,0.5);
 
 .whitetitle{
     color: #fff;
-    font-size: 4vw !important;
+    font-size: 8vw !important;
     margin-top: 0px !important;
+    margin-bottom: 0px !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 100%;
 }
 
 
 .blacktitle{
     color: #000;
-    font-size: 6vw !important;
+    font-size: 8vw !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 100%;
 }
 
 .test1title{
@@ -901,6 +936,7 @@ background: rgba(0,0,0,0.5);
 .cardborder{
     border: transparent !important;
     margin-bottom: 0 !important;
+    background-color: transparent !important;
 }
 
 
