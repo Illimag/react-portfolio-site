@@ -136,7 +136,6 @@ export const Legacypictures = () => (
 
 
 
-<div id="test"></div>
 
 
 
@@ -146,11 +145,12 @@ export const Legacypictures = () => (
 
 
 
+<Container fluid className={styles.test1}>
 
-<Container fluid className={styles.test2}>
-
-<div className={styles.spaceingblack}></div>
-<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
 
 {/* left text right img */}
 
@@ -160,145 +160,54 @@ export const Legacypictures = () => (
 <Col xs lg="8">
 
 
-<p className={styles.whitetitle}>LEGACY PICTURES</p>
-<p className={styles.subtitlelargewhite}>INTRODUCTION</p>
+<p className={styles.blacktitle}>LEGACY PICTURES</p>
+
+<p className={styles.subtitlelargeblack}>INTRODUCTION</p>
  
- <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+ <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>DATE</p>
-  <p className={styles.descriptionwhite}>July 2021 - Present</p>
+  <p className={styles.subtitlelargeblack}>DATE</p>
+  <p className={styles.descriptionblack}>July 2021 - Present</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>ROLE</p>
-  <p className={styles.descriptionwhite}>UI/UX Designer</p>
+  <p className={styles.subtitlelargeblack}>ROLE</p>
+  <p className={styles.descriptionblack}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>LOCATION</p>
-  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
+  <p className={styles.subtitlelargeblack}>LOCATION</p>
+  <p className={styles.descriptionblack}>Los Angeles, CA</p>
   
 </Card>
 </CardGroup>
-</Col>
-</Row>
-
-
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img08} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img23} fluid />
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img11} fluid />
-
-
-  
-</Card>
-</CardGroup>
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="12">
-
-
-
-
-<CardGroup>
-<Card>
-  <Card.Header>
-    
-  <p className={styles.subtitlelargeblack}>Scope of the Project</p>
-  </Card.Header>
-  <Card.Body>
-  <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
-
-  <div className={styles.paddingleft}>
-    <ol className={styles.listblack}>
-      <li className={styles.listitemblack}>Redesign of a website</li>
-      <li className={styles.listitemblack}>Usability testing getting feedback from executives</li>
-      <li className={styles.listitemblack}>Redesign of Web Platform</li>
-    </ol>
-    </div>
-  </Card.Body>
-
-  
-</Card>
-<Card>
-  <Card.Header>
-    
-<p className={styles.subtitlelargeblack}>Writing contract with company</p>
-  </Card.Header>
-  <Card.Body>
- 
-    <p className={styles.descriptionblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
-    
-  </Card.Body>
-
-  
-</Card>
-<Card>
-  <Card.Header>
-    
-  <p className={styles.subtitlelargeblack}>Building Empathy</p>
-  </Card.Header>
-  <Card.Body>
- 
-  <p className={styles.descriptionblack}>Users of the Legacy Pictures website are demographics that are as follow:</p>
-    
-    <div className={styles.paddingleft}>
-    <ul className={styles.listblack}>
-      <li className={styles.listitemblack}>Executives</li>
-      <li className={styles.listitemblack}>Videographers</li>
-      <li className={styles.listitemblack}>Creative Managers</li>
-    </ul>
-    </div>
-  </Card.Body>
-
-  
-</Card>
-</CardGroup>
-
-
-
-
 
 </Col>
 </Row>
 
+<div className={styles.spaceingwhite}></div>
+  
 
 
+
+<div className={styles.spaceingwhite}></div>
 
 
 
 
 
 <Image src={desktopImg} fluid className={styles.imgstyle} />
-
+<div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="12">
+<Col xs lg="10">
 
 <CardGroup>
       <Card>
@@ -336,7 +245,7 @@ export const Legacypictures = () => (
 
     </Col>
 </Row>
-
+<div className={styles.spaceingwhite}></div>
 
 <CardGroup>
 <Card className={styles.cardborder}>

@@ -68,8 +68,8 @@ import Media from 'react-media';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import video from '../../assets/newhomepagevids/2.mp4';
-import videomobile from '../../assets/newhomepagevids/2-1.mp4';
+import video from '../../assets/san-francisco-sunset-9Q2MYSB.mp4';
+import videomobile from '../../assets/san-francisco-sunset-9Q2MYSB.mp4';
 
 import vid1 from '../../assets/newhomepagevids/1.mp4'
 import vid11 from '../../assets/newhomepagevids/1-1.mp4'
@@ -110,7 +110,7 @@ export const Home = () => {
                 <AnchorLink href='#test5' className={styles.paddingleft}>                
 
                         <h1 className={styles.mainbutton}>
-                        → VIEW PORTFOLIO
+                      VIEW PORTFOLIO
                         </h1>
 
                         </AnchorLink>
