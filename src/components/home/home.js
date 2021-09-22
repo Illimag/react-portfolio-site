@@ -105,19 +105,23 @@ export const Home = () => {
                 <h1 className={styles.whitetitle}>Welcome!</h1>
                 <h5 className={styles.test1title}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
     
+                <div className={styles.spaceingwhite}></div>
 
                 <AnchorLink href='#test5' className={styles.paddingleft}>                
 
-                        <h1>
-                          <Button className={styles.mainbutton} variant="primary">View Portfolio</Button>
+                        <h1 className={styles.mainbutton}>
+                     View Portfolio
                         </h1>
 
                         </AnchorLink>
 
+                        <div className={styles.spaceingwhite}></div>
+
+
               <LinkContainer to="/contact">
-                <h1>
-                  <Button className={styles.secondbutton} variant="secondary">Contact Now!</Button>
-                </h1>
+              <h1 className={styles.mainbutton}>
+                     Contact
+                        </h1>
               </LinkContainer>
 
               </div>
@@ -172,16 +176,22 @@ export const Home = () => {
               <h1 className={styles.whitetitle}>Legacy Pictures</h1>
                 <h5 className={styles.test1title}>International videography web application user experience and redesign.</h5>
                
+                <div className={styles.spaceingwhite}></div>
+
+
                 <LinkContainer to="/legacypictures">
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
+                <h1 className={styles.mainbutton}>
+                  Learn More
                 </h1>
               </LinkContainer>
 
+              <div className={styles.spaceingwhite}></div>
+
+
               <AnchorLink href='#test' className={styles.paddingleft}>                
 
-              <h1>
-                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
+              <h1 className={styles.mainbutton}>
+               Next
               </h1>
 
               </AnchorLink>
@@ -233,19 +243,25 @@ export const Home = () => {
 
                 <h1 className={styles.whitetitle}>Art Rendez-Vous</h1>
                 <h5 className={styles.test1title}>New York City art gallery and museum social media iOS mobile</h5>
-                <LinkContainer to="/artrendezvous">
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
-                </h1>
-              </LinkContainer>
-              
-              <AnchorLink href='#test1' className={styles.paddingleft}>                
+                <div className={styles.spaceingwhite}></div>
 
-              <h1>
-                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
-              </h1>
 
-              </AnchorLink>
+<LinkContainer to="/artrendezvous">
+<h1 className={styles.mainbutton}>
+  Learn More
+</h1>
+</LinkContainer>
+
+<div className={styles.spaceingwhite}></div>
+
+
+<AnchorLink href='#test1' className={styles.paddingleft}>                
+
+<h1 className={styles.mainbutton}>
+Next
+</h1>
+
+</AnchorLink>
 
               </div>
               </Jumbotron>
@@ -296,19 +312,25 @@ export const Home = () => {
 
                 <h1 className={styles.whitetitle}>Uguru, INC.</h1>
                   <h5 className={styles.test1title}>UI/UX & graphic designer internship at mobile application</h5>
-                  <LinkContainer to="/uguru">
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
-                </h1>
-              </LinkContainer>
-              
-              <AnchorLink href='#test2' className={styles.paddingleft}>                
+                  <div className={styles.spaceingwhite}></div>
 
-              <h1>
-                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
-              </h1>
 
-              </AnchorLink>
+<LinkContainer to="/uguru">
+<h1 className={styles.mainbutton}>
+  Learn More
+</h1>
+</LinkContainer>
+
+<div className={styles.spaceingwhite}></div>
+
+
+<AnchorLink href='#test2' className={styles.paddingleft}>                
+
+<h1 className={styles.mainbutton}>
+Next
+</h1>
+
+</AnchorLink>
             
                </div>
               </Jumbotron>
@@ -362,20 +384,25 @@ export const Home = () => {
 
               <h1 className={styles.whitetitle}>Sanchez Coffee</h1>
                 <h5 className={styles.test1title}>Los Angeles coffee distribution company web payment platform.</h5>
-                <LinkContainer to="/sanchezcoffeeco">
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
-                </h1>
-              </LinkContainer>
+                <div className={styles.spaceingwhite}></div>
 
-              
-              <AnchorLink href='#test3' className={styles.paddingleft}>                
 
-              <h1>
-                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
-              </h1>
+<LinkContainer to="/sanchezcoffeeco">
+<h1 className={styles.mainbutton}>
+  Learn More
+</h1>
+</LinkContainer>
 
-              </AnchorLink>
+<div className={styles.spaceingwhite}></div>
+
+
+<AnchorLink href='#test3' className={styles.paddingleft}>                
+
+<h1 className={styles.mainbutton}>
+Next
+</h1>
+
+</AnchorLink>
               
               </div>
               </Jumbotron>
@@ -425,20 +452,25 @@ export const Home = () => {
 
                 <h1 className={styles.whitetitle}>Apex VR</h1>
                 <h5 className={styles.test1title}>San Leandro videography company virtual reality web application design.</h5>
-                <LinkContainer to="/apexvr">
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
-                </h1>
-              </LinkContainer>
+                <div className={styles.spaceingwhite}></div>
 
-              
-              <AnchorLink href='#test4' className={styles.paddingleft}>                
 
-              <h1>
-                <Button className={styles.mainbutton} variant="primary">View Next Piece</Button>
-              </h1>
+<LinkContainer to="/apexvr">
+<h1 className={styles.mainbutton}>
+  Learn More
+</h1>
+</LinkContainer>
 
-              </AnchorLink>
+<div className={styles.spaceingwhite}></div>
+
+
+<AnchorLink href='#test4' className={styles.paddingleft}>                
+
+<h1 className={styles.mainbutton}>
+Next
+</h1>
+
+</AnchorLink>
              
                 </div>
               </Jumbotron>
@@ -490,20 +522,25 @@ export const Home = () => {
   
                 <h1 className={styles.whitetitle}>Stepsaver</h1>
                 <h5 className={styles.test1title}>User experience designer community website design.</h5>
-                <LinkContainer to="/stepsaver">
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">Click to Learn More</Button>
-                </h1>
-              </LinkContainer>
+                <div className={styles.spaceingwhite}></div>
 
 
-              <AnchorLink href='#test5' className={styles.paddingleft}>                
+<LinkContainer to="/stepsaver">
+<h1 className={styles.mainbutton}>
+  Learn More
+</h1>
+</LinkContainer>
 
-              <h1>
-                <Button className={styles.mainbutton} variant="primary">Go Back to Top</Button>
-              </h1>
+<div className={styles.spaceingwhite}></div>
 
-              </AnchorLink>
+
+<AnchorLink href='#test5' className={styles.paddingleft}>                
+
+<h1 className={styles.mainbutton}>
+Next
+</h1>
+
+</AnchorLink>
 
                 </div>
               </Jumbotron>

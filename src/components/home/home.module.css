@@ -206,9 +206,14 @@
 }
 
 .mainbutton{
-    background-color: red !important;
-    border-color: #000 !important;
-    opacity: 1 !important;
+    color: #fff;
+
+    font-size: 2rem !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900 !important;
+    margin-right: 0px !important;
+    text-decoration: underline;
+    
 }
 
 .vr_badge{
@@ -328,7 +333,6 @@
     margin-top: 0px !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
-    overflow-wrap: break-word;
 }
 
 
@@ -523,3 +527,7 @@
     background-color: #fff;
 }
 
+.spaceingwhite{
+    height: 1vh;
+    background-color: transparent;
+}
