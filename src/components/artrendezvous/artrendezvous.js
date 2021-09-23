@@ -95,8 +95,6 @@ export const Artrendezvous = () => (
 
 
 
-
-
 <Container fluid>
 
 
@@ -111,7 +109,7 @@ export const Artrendezvous = () => (
 
 
 
-<Container fluid className={styles.test2}>
+<Container fluid className={styles.test1}>
 
 <div className={styles.spaceingblack}></div>
 <div className={styles.spaceingblack}></div>
@@ -121,14 +119,13 @@ export const Artrendezvous = () => (
 {/* left text right img */}
 
 
-
+<Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
 <Col xs lg="8">
 
+<p className={styles.subtitlelargewhite}>ARTRENDEZ-VOUS</p>
 
-<p className={styles.whitetitle}>ARTRENDEZ-VOUS</p>
-
-<p className={styles.subtitlelargewhite}>INTRODUCTION</p>
+<p className={styles.whitetitle}>Art Community Mobile App</p>
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
@@ -158,75 +155,10 @@ export const Artrendezvous = () => (
 
 </Col>
 </Row>
-
+</Container>
 <div className={styles.spaceingblack}></div>
   
 
-
-<Row className="justify-content-md-center">
-<Col xs lg="10">
-
-<CardGroup>
-<Card>
-  <Card.Header>
-    
-  <p className={styles.subtitlelargeblack}>Scope of the Project</p>
-  </Card.Header>
-  <Card.Body>
-  <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
-
-  <div className={styles.paddingleft}>
-    <ol className={styles.listblack}>
-      <li className={styles.listitemblack}>Redesign of a website</li>
-      <li className={styles.listitemblack}>Usability testing getting feedback from executives</li>
-      <li className={styles.listitemblack}>Redesign of Web Platform</li>
-    </ol>
-    </div>
-  </Card.Body>
-
-  
-</Card>
-<Card>
-  <Card.Header>
-    
-<p className={styles.subtitlelargeblack}>Writing contract with company</p>
-  </Card.Header>
-  <Card.Body>
- 
-    <p className={styles.descriptionblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
-    
-  </Card.Body>
-
-  
-</Card>
-<Card>
-  <Card.Header>
-    
-  <p className={styles.subtitlelargeblack}>Building Empathy</p>
-  </Card.Header>
-  <Card.Body>
- 
-  <p className={styles.descriptionblack}>Users of the Legacy Pictures website are demographics that are as follow:</p>
-    
-    <div className={styles.paddingleft}>
-    <ul className={styles.listblack}>
-      <li className={styles.listitemblack}>Executives</li>
-      <li className={styles.listitemblack}>Videographers</li>
-      <li className={styles.listitemblack}>Creative Managers</li>
-    </ul>
-    </div>
-  </Card.Body>
-
-  
-</Card>
-</CardGroup>
-
-
-
-
-
-</Col>
-</Row>
 
 
 <div className={styles.spaceingblack}></div>
@@ -236,7 +168,7 @@ export const Artrendezvous = () => (
 
 
 <Image src={desktopImg} fluid className={styles.imgstyle} />
-<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
 <Col xs lg="10">
 
@@ -276,7 +208,7 @@ export const Artrendezvous = () => (
 
     </Col>
 </Row>
-<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingwhite}></div>
 
 <CardGroup>
 <Card className={styles.cardborder}>

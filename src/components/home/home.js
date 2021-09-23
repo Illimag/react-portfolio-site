@@ -68,11 +68,11 @@ import Media from 'react-media';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import video from '../../assets/san-francisco-sunset-9Q2MYSB.mp4';
-import videomobile from '../../assets/san-francisco-sunset-9Q2MYSB.mp4';
+import video from '../../assets/newhomepagevids/1.mp4';
+import videomobile from '../../assets/newhomepagevids/1-1.mp4';
 
-import vid1 from '../../assets/newhomepagevids/1.mp4'
-import vid11 from '../../assets/newhomepagevids/1-1.mp4'
+import vid1 from '../../assets/newhomepagevids/6.mp4'
+import vid11 from '../../assets/newhomepagevids/6-1.mp4'
 import vid2 from '../../assets/newhomepagevids/2.mp4'
 import vid22 from '../../assets/newhomepagevids/2-1.mp4'
 import vid3 from '../../assets/newhomepagevids/3.mp4'
@@ -81,8 +81,8 @@ import vid4 from '../../assets/newhomepagevids/4.mp4'
 import vid44 from '../../assets/newhomepagevids/4-1.mp4'
 import vid5 from '../../assets/newhomepagevids/5.mp4'
 import vid55 from '../../assets/newhomepagevids/5-1.mp4'
-import vid6 from '../../assets/newhomepagevids/6.mp4'
-import vid66 from '../../assets/newhomepagevids/6-1.mp4'
+import vid6 from '../../assets/newhomepagevids/1.mp4'
+import vid66 from '../../assets/newhomepagevids/1-1.mp4'
 
 export const Home = () => {
 

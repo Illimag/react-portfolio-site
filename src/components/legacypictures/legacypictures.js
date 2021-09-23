@@ -147,58 +147,58 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test1}>
 
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingblack}></div>
 
 {/* left text right img */}
 
 
-
+<Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
 <Col xs lg="8">
 
+<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+<p className={styles.whitetitle}>REDESIGNING COMPANY WEBSITE</p>
 
-<p className={styles.blacktitle}>LEGACY PICTURES</p>
 
-<p className={styles.subtitlelargeblack}>INTRODUCTION</p>
  
- <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+ <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargeblack}>DATE</p>
-  <p className={styles.descriptionblack}>July 2021 - Present</p>
+  <p className={styles.subtitlelargewhite}>DATE</p>
+  <p className={styles.descriptionwhite}>July 2021 - Present</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargeblack}>ROLE</p>
-  <p className={styles.descriptionblack}>UI/UX Designer</p>
+  <p className={styles.subtitlelargewhite}>ROLE</p>
+  <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargeblack}>LOCATION</p>
-  <p className={styles.descriptionblack}>Los Angeles, CA</p>
+  <p className={styles.subtitlelargewhite}>LOCATION</p>
+  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
 </CardGroup>
 
 </Col>
 </Row>
-
-<div className={styles.spaceingwhite}></div>
+</Container>
+<div className={styles.spaceingblack}></div>
   
 
 
 
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingblack}></div>
 
 
 

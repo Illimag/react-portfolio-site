@@ -61,7 +61,3 @@ img{
 .row {
     background-color: #fff !important;
 }
-
-::-webkit-scrollbar {
-    width: 0px;
-  }

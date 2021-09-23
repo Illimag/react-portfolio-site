@@ -55,6 +55,8 @@ import Img22 from '../../assets/img/legacypictures/Capture.PNG';
 import Img23 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
 import Img24 from '../../assets/img/legacypictures/ttt-01.png';
 
+import Img25 from '../../assets/img/legacypictures/1-01.jpg';
+import Img26 from '../../assets/img/legacypictures/1-02.jpg';
 import customer_location from '../../assets/img/sanchezcoffeeco/customer_location.PNG';
 import topcustromerbysalers from '../../assets/img/sanchezcoffeeco/topcustromerbysalers.PNG';
 import volumne from '../../assets/img/sanchezcoffeeco/volumne.PNG';
@@ -101,79 +103,9 @@ export const Sanchezcoffeeco = () => (
 
 
 
-    <Container className={styles.test}>
-          <Row>
-            <Col md={12} className={styles.removepadding}>
-              <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
-
-                <h1 className={styles.whitetitle}>Coffee E-Store</h1>
-                <h5 className={styles.test1title}>E-Commerce Payment Platform needed Re-Design and implementation</h5>
-                <h5 className={styles.test1title}>Case Study: Sanchez Coffee Co.</h5>
-
-                <AnchorLink href='#test' className={styles.paddingleft}>                
-
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
-                </h1>
-
-                </AnchorLink>
-
-                
-                <LinkContainer to="/apexvr">
-                <h1>
-                <Button className={styles.mainbutton} variant="secondary">View Next</Button>
-                </h1>
-              </LinkContainer>
-
-              </div>
-              </Jumbotron>
-
-              <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={videomobile}/>
-              </video>
-                }
-
-              {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={video}/>
-              </video>
-                }
-
-              {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={video}/>
-              </video>
-                }
-
-            </>
-          )}
-        </Media>
-
-            </Col>
-          </Row>
-        </Container>
+    <Container fluid>
 
 
-
-
-
-
-        <Container fluid>
-
-
-
-
-<div id="test"></div>
 
 
 
@@ -187,93 +119,69 @@ export const Sanchezcoffeeco = () => (
 
 <Container fluid className={styles.test1}>
 
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingblack}></div>
+
 {/* left text right img */}
 
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-<p className={styles.subtitlelargeblack}>Introduction:</p>
 
-<p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+<Container fluid className={styles.test2}>
+<Row className="justify-content-md-center">
+<Col xs lg="8">
+
+
+<p className={styles.subtitlelargewhite}>SANCHEZ COFFEE CO.</p>
+<p className={styles.whitetitle}>E-Commerce Coffee E-Store</p>
+ 
+ <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
 
-<p className={styles.subtitlelargeblack}>Los Angeles Skyline</p>
-<Image src={Img08} fluid className={styles.imgstyle} />
-
-
-
 <CardGroup>
-<Card>
-  <Card.Header>
+<Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargeblack}>Scope of the Project</p>
-  </Card.Header>
-  <Card.Body>
-  <p className={styles.descriptionblack}>Worked with lead developer looking to sign a contract with a company looking for the following services:</p>
-
-  <div className={styles.paddingleft}>
-    <ol className={styles.listblack}>
-      <li className={styles.listitemblack}>Redesign of a website</li>
-      <li className={styles.listitemblack}>Usability testing getting feedback from executives</li>
-      <li className={styles.listitemblack}>Redesign of Web Platform</li>
-    </ol>
-    </div>
-  </Card.Body>
+  <p className={styles.subtitlelargewhite}>DATE</p>
+  <p className={styles.descriptionwhite}>July 2021 - Present</p>
 
   
 </Card>
-<Card>
-  <Card.Header>
+<Card className={styles.cardborder}>
     
-<p className={styles.subtitlelargeblack}>Writing contract with company</p>
-  </Card.Header>
-  <Card.Body>
- 
-    <p className={styles.descriptionblack}>I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
-    
-  </Card.Body>
+  <p className={styles.subtitlelargewhite}>ROLE</p>
+  <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
-<Card>
-  <Card.Header>
+<Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargeblack}>Building Empathy</p>
-  </Card.Header>
-  <Card.Body>
- 
-  <p className={styles.descriptionblack}>Users of the Legacy Pictures website are demographics that are as follow:</p>
-    
-    <div className={styles.paddingleft}>
-    <ul className={styles.listblack}>
-      <li className={styles.listitemblack}>Executives</li>
-      <li className={styles.listitemblack}>Videographers</li>
-      <li className={styles.listitemblack}>Creative Managers</li>
-    </ul>
-    </div>
-  </Card.Body>
-
+  <p className={styles.subtitlelargewhite}>LOCATION</p>
+  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
 </CardGroup>
 
+</Col>
+</Row>
+</Container>
+<div className={styles.spaceingblack}></div>
+  
+
+
+
+<div className={styles.spaceingblack}></div>
 
 
 
 
 
+<Image src={desktopImg} fluid className={styles.imgstyle} />
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col xs lg="10">
 
-
-
-<Row xs={1} md={2} className="g-4">
-
-
-
-
-
-    <Col>
+<CardGroup>
       <Card>
-      <Image src={Img04} fluid className={styles.imgstyle} />
         <Card.Body>
           <Card.Title>    
             <p className={styles.subtitlelargeblack}>Use Case Scenarios</p>
@@ -284,8 +192,7 @@ export const Sanchezcoffeeco = () => (
           </Card.Text>
         </Card.Body>
       </Card>
-    </Col>
-    <Col>
+
       <Card>
         <Card.Body>
           <Card.Title>
@@ -305,439 +212,201 @@ export const Sanchezcoffeeco = () => (
               </Card.Text>
         </Card.Body>
       </Card>
+      </CardGroup>
+
     </Col>
-
-
-
 </Row>
-
-
-
-
-<Col>
-
-
-<p className={styles.subtitlelargeblack}>Challenge:</p>
-
-<p className={styles.descriptionlargeblack}>They had a website that needed to be updated. The website was a wordpress website that hasent been updated since the early 2000s. </p>
-   
-
 <div className={styles.spaceingwhite}></div>
 
-
-<p className={styles.subtitlelargeblack}>Videographer Community</p>
-
-<Image src={Img07} fluid className={styles.imgstyle} />
-
-<Card>
-<Card.Header>
-
-<p className={styles.subtitlelargeblack}>Initial Scope</p>
-</Card.Header>
-<Card.Body>
-
-<p className={styles.descriptionlargeblack}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. </p>
-    <div className={styles.paddingleft}>
-  <ul className={styles.listblack}>
-    <li className={styles.listitemblack}>start a redesign process for the website</li>
-    <li className={styles.listitemblack}>converting it to new UI/UX Design trends.</li>
-  </ul>
-  </div>
-
-</Card.Body>
-
-
-</Card>
-
-
-
-</Col>
-
-
-<Row xs={1} md={3} className="g-4">
-
-  
-
-    <Col>
-      <Card>
-
-        <Card.Body>
-          <Card.Title>    
-          <p className={styles.subtitlelargeblack}>User Flow</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>The project is a simple redesign of the company’s website. There would be designs done related to the usability of the website. I was the sole UI/UX Designer for the whole thing. </p>
-         
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-
-    <Col>
-      <Card>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>User Flow of Previous Website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-
-
-<Col>
-<Card>
-  
-  <Card.Body>
-  <p className={styles.subtitlelargeblack}>Mindmapping entire company scope</p>
-
-  <div className={styles.paddingleft}>
-  <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>CEO of the company,</li>
-      <li className={styles.listitemlargeblack}>lead developer who would considering technical parts, etc.</li>
-      <li className={styles.listitemlargeblack}>Internal team </li>
-      <li className={styles.listitemlargeblack}>larger outside team. </li>
-    </ul>
-    </div>
-  </Card.Body>
-
-  
-</Card>
-</Col>
-
-
-
-
-</Row>
-
-
-
-<Col>
-
-<Card>
-  <Card.Header>
-  
-  <p className={styles.subtitlelargeblack}>Understanding that there are multiple stakeholders</p>
-
-  </Card.Header>
-  <Card.Body>
-  <p className={styles.descriptionlargeblack}>As well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
-
-
-  <div className={styles.paddingleft}>
-  <ul className={styles.listlargeblack}>
-  <li className={styles.listitemblack}>Increase Usability of Website</li>
-      <li className={styles.listitemlargeblack}>Improve Performance of Website</li>
-      <li className={styles.listitemlargeblack}>Better User Experience </li>
-    </ul>
-  </div>
-  </Card.Body>
-
-  
-</Card>
-</Col>
-
-
-
-
-
-<Row xs={1} md={2} className="g-4">
-
-    <Col>
-      <Card>
-      <Image src={Img04} fluid className={styles.imgstyle} />
-        <Card.Body>
-          <Card.Title>    
-          <p className={styles.subtitlelargeblack}>Mobile Responsive Web Design for Desktop and Mobile Devices</p>
-
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
+<CardGroup>
+<Card className={styles.cardborder}>
     
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-      <Image src={Img09} fluid className={styles.imgstyle} />
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Showcase Website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionblack}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
-   
-              </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
+<Image src={Img06} fluid/>
 
-    <Col>
-      <Card>
-      <Image src={Img10} fluid className={styles.imgstyle} />
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Minding Mapping concepts about the demographic and types of devices used by those individuals
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+<Image src={Img05} fluid />
+
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+<Image src={Img04} fluid />
+
+  
+</Card>
+</CardGroup>
+
+
+<CardGroup>
+<Card className={styles.cardborder}>
+    
+<Image src={Img06} fluid/>
+
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+<Image src={Img05} fluid />
+
+
+  
+</Card>
+
+</CardGroup>
+
+<Row className="justify-content-md-center">
+<Col xs lg="6">
+
+
+
+
+
+      <Card className={styles.cardborder}>
+            <p className={styles.subtitlelargeblack}>Introduction</p>
+ 
+            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionblack}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.
-
-</p>
-   
-              </Card.Text>
-        </Card.Body>
       </Card>
-    </Col>
+ 
 
+
+
+
+
+
+</Col>
 </Row>
 
 
 
-
-<Col>
-
-<p className={styles.subtitlelargeblack}>Solution:</p>
-    <p className={styles.descriptionlargeblack}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
-     
+<CardGroup>
+<Card className={styles.cardborder}>
+    
+<Image src={Img15} fluid/>
 
 
-    <p className={styles.subtitlelargeblack}>Los Angeles Skyline</p>
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+<Image src={Img17} fluid />
 
-<Image src={Img08} fluid className={styles.imgstyle} />
+  
+</Card>
+</CardGroup>
+
+
+<Row className="justify-content-md-center">
+<Col xs lg="6">
+
+
+
+
+
+      <Card className={styles.cardborder}>
+            <p className={styles.subtitlelargeblack}>Introduction</p>
+ 
+            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
+      </Card>
+ 
+
+
+
+
+
 
 </Col>
-
-    <Row xs={1} md={2} className="g-4">
-
-<Col>
-  <Card>
-  <Image src={Img12} fluid className={styles.imgstyle} />
-    <Card.Body>
-      <Card.Title>    
-      <p className={styles.subtitlelargeblack}>Redesign of Website</p>
-
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionlargeblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
-
-      </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-<Col>
-  <Card>
-  <Image src={Img13} fluid className={styles.imgstyle} />
-    <Card.Body>
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>Feedback from team</p>
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionlargeblack}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-<Col>
-  <Card>
-  <Image src={Img14} fluid className={styles.imgstyle} />
-    <Card.Body>
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>UI Variant Iterations</p>
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionlargeblack}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-
-
-<Col>
-  <Card>
-  <Image src={Img16} fluid className={styles.imgstyle} />
-    <Card.Body>
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>User Interface Design</p>
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionlargeblack}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:</p>
-
-      <div className={styles.paddingleft}>
-  <ul className={styles.listlargeblack}>
-  <li className={styles.listitemlargeblack}>just understanding the basic layout of the website, for example the home page, etc. </li>
-      <li className={styles.listitemlargeblack}>Then based on the original design, a new iteration of the design can be done.</li>
-    </ul>
-  </div>
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-<Col>
-  <Card>
-  <Image src={Img17} fluid className={styles.imgstyle} />
-    <Card.Body>
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>Adobe XD for User Interface Designs</p>
-
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionblack}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
-
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-<Col>
-  <Card>
-  <Image src={Img18} fluid className={styles.imgstyle} />
-    <Card.Body>
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>Usability testing for the User Interface Designs</p>
-
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionblack}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
-
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-
-
-
-
-
-<Col>
-  <Card>
-    <Card.Body>
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>Adobe Creative Suite</p>
-
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionblack}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
-
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-<Col>
-  <Card>
-    <Card.Body>
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>Usability testing with Usabilityhub.com</p>
-
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionblack}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
-
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-
-
-
-<Col>
-  <Card>
-    <Card.Body>
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>Starting the Rapid Prototyping</p>
-            </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionlargeblack}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-
-
-<Col>
-  <Card>
-    <Card.Body>
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>Getting Tests from the Users</p>
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionlargeblack}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
-
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-<Col>
-  <Card>
-    <Card.Body>
-    <Image src={Img22} fluid className={styles.imgstyle} />
-
-      <Card.Title>
-      <p className={styles.subtitlelargeblack}>Heat Map Testing</p>
-      </Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionlargeblack}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
-
-
-          </Card.Text>
-    </Card.Body>
-  </Card>
-</Col>
-
-
 </Row>
 
-<Col>
+<Image src={Img26} fluid className={styles.imgstyle} />
 
-<p className={styles.subtitlelargeblack}>Results:</p>
-    <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-     
-    <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
+
+<Image src={Img25} fluid className={styles.imgstyle} />
+
+
+
+<Row className="justify-content-md-center">
+<Col xs lg="6">
+
+
+
+
+
+      <Card className={styles.cardborder}>
+      <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
       <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
 
+      </Card>
+ 
 
-      <p className={styles.subtitlelargeblack}>User Interface Designs1 </p>
-      <Image src={Img19} fluid className={styles.imgstyle} />
 
-      <p className={styles.subtitlelargeblack}>User Interface Designs2 </p>
-      <Image src={Img20} fluid className={styles.imgstyle} />
-      
-      <p className={styles.subtitlelargeblack}>User Interface Designs3 </p>
-      <Image src={Img21} fluid className={styles.imgstyle} />
+
+
+
 
 </Col>
+</Row>
+
+      <Image src={Img19} fluid  className={styles.imgfinal} />
+
+      <Image src={Img20} fluid  className={styles.imgfinal} />
+      
+      <Image src={Img21} fluid  className={styles.imgfinal}/>
+
+ 
 
 
-<Col>
+
+<Row className="justify-content-md-center">
+<Col xs lg="6">
+
+
+
+
+
+      <Card className={styles.cardborder}>
+
+      <p className={styles.subtitlelargeblack}>Results:</p>
+    <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
+     
+      </Card>
+ 
+
+
+
+
+
+
+</Col>
+</Row>
+
+
+
+
+
+
+
+
+
+<Row className="justify-content-md-center">
+<Col xs lg="6">
+
+
+
+
+
+
+
+<CardGroup>
+<Card className={styles.cardborder}>
+    
 
 <p className={styles.subtitlelargeblack}>Art RendexVous</p>
 <div className={styles.spaceingwhite}></div>
@@ -751,7 +420,13 @@ export const Sanchezcoffeeco = () => (
                 </p>
               </LinkContainer>
 
-              <p className={styles.subtitlelargeblack}>Go to Portfolio:</p>
+
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+<p className={styles.subtitlelargeblack}>Go to Portfolio:</p>
 <div className={styles.spaceingwhite}></div>
 
   <p className={styles.descriptionlargeblack}>Go Back to Portfolio</p>
@@ -762,24 +437,17 @@ export const Sanchezcoffeeco = () => (
                   <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
                 </p>
               </LinkContainer>
-              
-</Col>
+
+
+  
+</Card>
+</CardGroup>
+
+
 
 
 </Col>
-
-
-
-    
-
 </Row>
-
-
-
-
-
-
-
 
 
 

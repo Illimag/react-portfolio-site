@@ -78,7 +78,7 @@ function MainNav() {
 
             <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>
-                <h5 className={styles.test1title}>JMK</h5>
+                <h5 className={styles.test1title}>JAEMINKIM</h5>
 
                 </Navbar.Brand>
               </LinkContainer>
