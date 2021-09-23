@@ -149,8 +149,6 @@ export const Legacypictures = () => (
 
 <div className={styles.spaceingblack}></div>
 <div className={styles.spaceingblack}></div>
-<div className={styles.spaceingblack}></div>
-<div className={styles.spaceingblack}></div>
 
 {/* left text right img */}
 
@@ -193,10 +191,7 @@ export const Legacypictures = () => (
 </Col>
 </Row>
 </Container>
-<div className={styles.spaceingblack}></div>
   
-
-
 
 <div className={styles.spaceingblack}></div>
 

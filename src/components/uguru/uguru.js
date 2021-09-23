@@ -137,7 +137,7 @@ export const Uguru = () => (
 
 
 <p className={styles.subtitlelargewhite}>UGURU, INC.</p>
-<p className={styles.whitetitle}>DOWNTOWN SF Mobile App Startup</p>
+<p className={styles.whitetitle}>SF Mobile App Startup</p>
 
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.

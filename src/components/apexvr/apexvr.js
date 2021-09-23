@@ -145,7 +145,7 @@ export const Apexvr = () => (
 <p className={styles.subtitlelargewhite}>APEXVR</p>
 
 
-<p className={styles.whitetitle}>VIDEOGRAPHY COMPANY VR WEB APP</p>
+<p className={styles.whitetitle}>VR VIDEOGRAPHY WEB APP</p>
 
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
@@ -179,7 +179,8 @@ export const Apexvr = () => (
 </Container>
 <div className={styles.spaceingblack}></div>
   
-
+<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingblack}></div>
 
 
 <div className={styles.spaceingblack}></div>
