@@ -51,7 +51,7 @@ import Img24 from '../../assets/img/legacypictures/ttt-01.png';
 import Img25 from '../../assets/img/legacypictures/1-01.jpg';
 import Img26 from '../../assets/img/legacypictures/1-02.jpg';
 import Img27 from '../../assets/img/legacypictures/1-05.jpg';
-import Img28 from '../../assets/img/legacypictures/1-04.jpg';
+import Img28 from '../../assets/img/legacypictures/Untitled-1-01.png';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
@@ -93,6 +93,9 @@ import scrolldown from '../../assets/scrolldown-01.png';
 import Media from 'react-media';
 
 
+import vid1 from '../../assets/newhomepagevids/1.mp4'
+import vid11 from '../../assets/newhomepagevids/1-1.mp4'
+
 export const Legacypictures = () => (
   /* Start of JSX Fragment*/
   <>
@@ -106,61 +109,20 @@ export const Legacypictures = () => (
 
 
 
+<Container className={styles.test2}>
+          <Row className="justify-content-md-center">
+               <Jumbotron className={styles.testfloatback}>
+              </Jumbotron>
+            <Col md={7} className={styles.removepadding}>
 
+              
+            <Jumbotron className={styles.mainfloatback}>
+            <div className={styles.maincontentwrapper}>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <Container fluid>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test1}>
-
-<div className={styles.spaceingblack}></div>
-<div className={styles.spaceingblack}></div>
-
-{/* left text right img */}
-
-
-<Container fluid className={styles.test2}>
-<Row className="justify-content-md-center">
-<Col xs lg="8">
-
+              
 <p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
-<p className={styles.whitetitle}>REDESIGNING COMPANY WEBSITE</p>
 
-
+<p className={styles.whitetitle}>Art Community Mobile App</p>
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
@@ -188,32 +150,124 @@ export const Legacypictures = () => (
 </Card>
 </CardGroup>
 
+</div>
+              </Jumbotron>
+
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={vid11}/>
+              </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={vid1}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={vid1}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
+            </Col>
+
+            
+       
+          </Row>
+          
+        </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Container fluid className={styles.test1}>
+
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col xs lg="7">
+
+
+
+<CardGroup className={styles.backgroundgrey}>
+      <Card className={styles.backgroundgrey}>
+
+            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
+    
+            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+    
+      </Card>
+
+      <Card className={styles.backgroundgrey}>
+      <Image src={Img28} fluid />
+      </Card>
+      </CardGroup>
+
+
+
+
 </Col>
 </Row>
 </Container>
-  
-
-<div className={styles.spaceingblack}></div>
 
 
 
 
 
-<Image src={desktopImg} fluid className={styles.imgstyle} />
+<Container fluid className={styles.test1}>
+
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="10">
+<Col xs lg="7">
 
 <CardGroup>
-      <Card>
+      <Card className={styles.backgroundgrey}>
         <Card.Body>
           <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios</p>
+            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
           </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>Videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representation of themselves on the internet, which could be a website that showcases information regarding the company.</p>
-    
-          </Card.Text>
+          <Card.Title>    
+            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+          </Card.Title>
+          <Image src={Img28} fluid />
+
         </Card.Body>
       </Card>
 
@@ -484,7 +538,6 @@ export const Legacypictures = () => (
 
 
 </Container>
-    </Container>
 
 
 
