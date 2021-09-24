@@ -137,10 +137,20 @@ position: relative;
     object-fit: cover;
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
   }
+
+  .testvideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    top: 0;
+    left: 0;
+  }
+
 
 
 .mainfloat{
@@ -303,7 +313,7 @@ background: rgba(0,0,0,0.5);
 
 
 .mainfloatback{
-    position: relative;
+    position:relative;
     background-color: rgba(0,0,0,0) !important;
     height:100vh;
     object-fit: cover;
@@ -892,7 +902,7 @@ background: rgba(0,0,0,0.5);
 
 .whitetitle{
     color: #fff;
-    font-size:6vw !important;
+    font-size:8vw !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     font-family: 'Inter', sans-serif;

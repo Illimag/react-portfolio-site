@@ -113,7 +113,7 @@ export const Legacypictures = () => (
           <Row className="justify-content-md-center">
                <Jumbotron className={styles.testfloatback}>
               </Jumbotron>
-            <Col md={7} className={styles.removepadding}>
+            <Col md={8} className={styles.removepadding}>
 
               
             <Jumbotron className={styles.mainfloatback}>
@@ -122,7 +122,7 @@ export const Legacypictures = () => (
               
 <p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
 
-<p className={styles.whitetitle}>Art Community Mobile App</p>
+<p className={styles.whitetitle}>How to redesign a web app</p>
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>

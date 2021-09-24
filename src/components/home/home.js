@@ -57,8 +57,8 @@ import Pg5Img from '../../assets/img/home/1-06.jpg';
 import Pg6Img from '../../assets/img/home/1-07.jpg';
 */
 
-import styles from './home.module.css';
-import './home.css';
+import styles from '../css/style.module.css';
+import '../css/style.css';
 
 import logo from '../../assets/jmk_logo-02-01.png';
 
@@ -104,48 +104,12 @@ export const Home = () => (
 
 
 
-<Container className={styles.test0}>
-<Row className={styles.testcon}>
-            <Col md={12}>
-            <h5 className={styles.test1title}> Welcome, Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.</h5>
-            </Col>
-          </Row>
-</Container>
 
-
-
-        <Container className={styles.test2}>
-          <Row>
-          <Jumbotron className={styles.testfloatback}>
+<Container className={styles.test2}>
+          <Row className="justify-content-md-center">
+               <Jumbotron className={styles.testfloatback}>
               </Jumbotron>
-            <Col md={6} className={styles.removepadding}>
-            <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
 
-                <h1 className={styles.whitetitle}>LEGACY PICTURES</h1>
-                <h5 className={styles.test1title}>Los Angeles Web Application Re-Design</h5>
-    
-                <div className={styles.spaceingwhite}></div>
-
-                <AnchorLink href='#test5' className={styles.paddingleft}>                
-                
-                        <h1 className={styles.mainbutton}>
-                      VIEW PORTFOLIO PIECE
-                        </h1>
-
-                        </AnchorLink>
-
-                        <div className={styles.spaceingwhite}></div>
-
-
-              <LinkContainer to="/contact">
-              <h1 className={styles.mainbutton}>
-                     VIEW NEXT
-                        </h1>
-              </LinkContainer>
-
-              </div>
-              </Jumbotron>
 
               <Media queries={{
           small: "(max-width: 599px)",
@@ -157,18 +121,83 @@ export const Home = () => (
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
+            <Col md={8} className={styles.removepadding}>
+
+              
+            <Jumbotron className={styles.mainfloatback}>
+            <div className={styles.maincontentwrapper}>
+
+              
+<p className={styles.subtitlelargewhite}>JAEMINKIM.COM</p>
+
+<p className={styles.whitetitle}>Welcome</p>
+ 
+ <p className={styles.descriptionlargewhite}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
+</p>
+
+
+</div>
+              </Jumbotron>
+
+
+            </Col>
+
+            
+       
+          </Row>
+          
+        </Container>
+
+
+
+        <Container className={styles.test2}>
+          <Row className="justify-content-md-center">
+               <Jumbotron className={styles.testfloatback}>
+                 
+              </Jumbotron>
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid11}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid1}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid1}/>
               </video>
                 }
@@ -176,35 +205,41 @@ export const Home = () => (
             </>
           )}
         </Media>
+            <Col md={8} className={styles.removepadding}>
+
+              
+            <Jumbotron className={styles.mainfloatback}>
+            <div className={styles.maincontentwrapper}>
+
+              
+<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+
+<p className={styles.whitetitle}>LEGACY PICTURES</p>
+ 
+ <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
+
+</div>
+              </Jumbotron>
+
+
+             
 
             </Col>
+
+            
+       
           </Row>
+          
         </Container>
 
+
+
+
         <Container className={styles.test2}>
-          <Row>
-            <Col md={12} className={styles.removepadding}>
-              <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
-
-                <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>Los Angeles Web Application Re-Design</h5>
-      
-                <AnchorLink href='#test' className={styles.paddingleft}>                
-
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
-                </h1>
-
-                </AnchorLink>
-
-                <LinkContainer to="/artrendezvous">
-                <h1>
-                  <Button className={styles.mainbutton} variant="secondary">View Next</Button>
-                </h1>
-              </LinkContainer>
-
-              </div>
+          <Row className="justify-content-md-center">
+               <Jumbotron className={styles.testfloatback}>
+                 
               </Jumbotron>
 
               <Media queries={{
@@ -216,19 +251,19 @@ export const Home = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid22}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid2}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid2}/>
               </video>
                 }
@@ -236,37 +271,40 @@ export const Home = () => (
             </>
           )}
         </Media>
+            <Col md={8} className={styles.removepadding}>
+
+              
+            <Jumbotron className={styles.mainfloatback}>
+            <div className={styles.maincontentwrapper}>
+
+              
+<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+
+<p className={styles.whitetitle}>ART Rendez-Vous</p>
+ 
+ <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
+
+</div>
+              </Jumbotron>
+
+
+             
 
             </Col>
+
+            
+       
           </Row>
+          
         </Container>
 
 
-  
+
         <Container className={styles.test2}>
-          <Row>
-            <Col md={12} className={styles.removepadding}>
-              <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
-
-              <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>Los Angeles Web Application Re-Design</h5>
-      
-                <AnchorLink href='#test' className={styles.paddingleft}>                
-
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
-                </h1>
-
-                </AnchorLink>
-
-                <LinkContainer to="/artrendezvous">
-                <h1>
-                  <Button className={styles.mainbutton} variant="secondary">View Next</Button>
-                </h1>
-              </LinkContainer>
-
-              </div>
+          <Row className="justify-content-md-center">
+               <Jumbotron className={styles.testfloatback}>
+                 
               </Jumbotron>
 
               <Media queries={{
@@ -278,19 +316,19 @@ export const Home = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid33}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid3}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid3}/>
               </video>
                 }
@@ -298,37 +336,41 @@ export const Home = () => (
             </>
           )}
         </Media>
+            <Col md={8} className={styles.removepadding}>
+
+              
+            <Jumbotron className={styles.mainfloatback}>
+            <div className={styles.maincontentwrapper}>
+
+              
+<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+
+<p className={styles.whitetitle}>Uguru, INC.</p>
+ 
+ <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
+
+</div>
+              </Jumbotron>
+
+
+             
 
             </Col>
+
+            
+       
           </Row>
+          
         </Container>
-  
 
-  
+
+
+
         <Container className={styles.test2}>
-          <Row>
-            <Col md={12} className={styles.removepadding}>
-              <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
-
-              <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>Los Angeles Web Application Re-Design</h5>
-      
-                <AnchorLink href='#test' className={styles.paddingleft}>                
-
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
-                </h1>
-
-                </AnchorLink>
-
-                <LinkContainer to="/artrendezvous">
-                <h1>
-                  <Button className={styles.mainbutton} variant="secondary">View Next</Button>
-                </h1>
-              </LinkContainer>
-
-              </div>
+          <Row className="justify-content-md-center">
+               <Jumbotron className={styles.testfloatback}>
+                 
               </Jumbotron>
 
               <Media queries={{
@@ -340,19 +382,19 @@ export const Home = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid44}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid4}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid4}/>
               </video>
                 }
@@ -360,38 +402,40 @@ export const Home = () => (
             </>
           )}
         </Media>
+            <Col md={8} className={styles.removepadding}>
+
+              
+            <Jumbotron className={styles.mainfloatback}>
+            <div className={styles.maincontentwrapper}>
+
+              
+<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+
+<p className={styles.whitetitle}>Sanchez Coffee Co.</p>
+ 
+ <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
+
+</div>
+              </Jumbotron>
+
+
+             
 
             </Col>
+
+            
+       
           </Row>
+          
         </Container>
 
 
 
-
         <Container className={styles.test2}>
-          <Row>
-            <Col md={12} className={styles.removepadding}>
-              <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
-
-              <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>Los Angeles Web Application Re-Design</h5>
-      
-                <AnchorLink href='#test' className={styles.paddingleft}>                
-
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
-                </h1>
-
-                </AnchorLink>
-
-                <LinkContainer to="/artrendezvous">
-                <h1>
-                  <Button className={styles.mainbutton} variant="secondary">View Next</Button>
-                </h1>
-              </LinkContainer>
-
-              </div>
+          <Row className="justify-content-md-center">
+               <Jumbotron className={styles.testfloatback}>
+                 
               </Jumbotron>
 
               <Media queries={{
@@ -403,19 +447,19 @@ export const Home = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid55}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid5}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid5}/>
               </video>
                 }
@@ -423,36 +467,41 @@ export const Home = () => (
             </>
           )}
         </Media>
+            <Col md={8} className={styles.removepadding}>
+
+              
+            <Jumbotron className={styles.mainfloatback}>
+            <div className={styles.maincontentwrapper}>
+
+              
+<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+
+<p className={styles.whitetitle}>ApexVr</p>
+ 
+ <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
+
+</div>
+              </Jumbotron>
+
+
+             
 
             </Col>
+
+            
+       
           </Row>
+          
         </Container>
 
 
+
+
         <Container className={styles.test2}>
-          <Row>
-            <Col md={12} className={styles.removepadding}>
-              <Jumbotron className={styles.mainfloatback}>
-              <div className={styles.maincontentwrapper}>
-
-              <h1 className={styles.whitetitle}>Making Changes</h1>
-                <h5 className={styles.test1title}>Los Angeles Web Application Re-Design</h5>
-      
-                <AnchorLink href='#test' className={styles.paddingleft}>                
-
-                <h1>
-                  <Button className={styles.mainbutton} variant="primary">View Case Study</Button>
-                </h1>
-
-                </AnchorLink>
-
-                <LinkContainer to="/artrendezvous">
-                <h1>
-                  <Button className={styles.mainbutton} variant="secondary">View Next</Button>
-                </h1>
-              </LinkContainer>
-
-              </div>
+          <Row className="justify-content-md-center">
+               <Jumbotron className={styles.testfloatback}>
+                 
               </Jumbotron>
 
               <Media queries={{
@@ -464,19 +513,19 @@ export const Home = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid66}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid6}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
                 <source src={vid6}/>
               </video>
                 }
@@ -484,9 +533,32 @@ export const Home = () => (
             </>
           )}
         </Media>
+            <Col md={8} className={styles.removepadding}>
+
+              
+            <Jumbotron className={styles.mainfloatback}>
+            <div className={styles.maincontentwrapper}>
+
+              
+<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+
+<p className={styles.whitetitle}>Stepsaver</p>
+ 
+ <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
+</p>
+
+</div>
+              </Jumbotron>
+
+
+             
 
             </Col>
+
+            
+       
           </Row>
+          
         </Container>
 
 
