@@ -155,7 +155,7 @@ export const Apexvr = () => (
 </CardGroup>
 
 <Row>
-  <Col>
+  <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
 <p className={styles.descriptionlargewhite}>View Case Study >

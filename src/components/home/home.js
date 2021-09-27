@@ -70,8 +70,8 @@ import Media from 'react-media';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import video from '../../assets/5359446.mp4';
-import videomobile from '../../assets/5359446.mp4';
+import video from '../../assets/l.mp4';
+import videomobile from '../../assets/ll.mp4';
 
 import vid1 from '../../assets/newhomepagevids/1.mp4'
 import vid11 from '../../assets/newhomepagevids/1-1.mp4'
@@ -157,16 +157,16 @@ export const Home = () => (
 </p>
 
 <Row>
-  <Col>
+  <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
-<p className={styles.descriptionlargewhite}>View Portfolio >
-</p>
+<div className={styles.descriptionlargewhite}>View Portfolio >
+</div>
 </AnchorLink>
 
 </Col>
 
 
-<Col>
+<Col className={styles.removepadding}>
 <LinkContainer to="/contact">
 <p className={styles.descriptionlargewhite}>Contact >
 </p>
@@ -240,13 +240,13 @@ export const Home = () => (
 
 
 <Row>
-  <Col>
+  <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
 <p className={styles.descriptionlargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
-<Col>
+<Col className={styles.removepadding}>
 <AnchorLink href='#test1' className={styles.paddingleft}>    
 <p className={styles.descriptionlargewhite}>View Next >
 </p>
@@ -324,13 +324,13 @@ export const Home = () => (
 </p>
 
 <Row>
-  <Col>
+  <Col className={styles.removepadding}>
   <LinkContainer to="/artrendezvous">
 <p className={styles.descriptionlargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
-<Col>
+<Col className={styles.removepadding}>
 <AnchorLink href='#test2' className={styles.paddingleft}>    
 <p className={styles.descriptionlargewhite}>View Next >
 </p>
@@ -405,13 +405,13 @@ export const Home = () => (
 </p>
 
 <Row>
-  <Col>
+  <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
 <p className={styles.descriptionlargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
-<Col>
+<Col className={styles.removepadding}>
 <AnchorLink href='#test3' className={styles.paddingleft}>    
 <p className={styles.descriptionlargewhite}>View Next >
 </p>
@@ -487,13 +487,13 @@ export const Home = () => (
 </p>
 
 <Row>
-  <Col>
+  <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
 <p className={styles.descriptionlargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
-<Col>
+<Col className={styles.removepadding}>
 <AnchorLink href='#test4' className={styles.paddingleft}>    
 <p className={styles.descriptionlargewhite}>View Next >
 </p>
@@ -568,13 +568,13 @@ export const Home = () => (
 </p>
 
 <Row>
-  <Col>
+  <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
 <p className={styles.descriptionlargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
-<Col>
+<Col className={styles.removepadding} >
 <AnchorLink href='#test5' className={styles.paddingleft}>    
 <p className={styles.descriptionlargewhite}>View Next >
 </p>
@@ -650,13 +650,13 @@ export const Home = () => (
 </p>
 
 <Row>
-  <Col>
+  <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
 <p className={styles.descriptionlargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
-<Col>
+<Col className={styles.removepadding}>
 <AnchorLink href='#test6' className={styles.paddingleft}>    
 <p className={styles.descriptionlargewhite}>Back to Top >
 </p>

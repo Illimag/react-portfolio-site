@@ -786,10 +786,6 @@ background: rgba(0,0,0,0.5);
     overflow-wrap: break-word;
 }
 
-.paddingleft{
-    padding-left:10%;
-}
-
 .subtitlelargewhite{
     font-weight: 700;
     font-size: 1.2rem;
@@ -934,7 +930,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .paddingleft{
-    padding-left: 10% !important;
+    padding-left: 0% !important;
     
 }
 

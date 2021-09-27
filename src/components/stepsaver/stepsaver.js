@@ -147,7 +147,7 @@ export const Stepsaver = () => (
 </CardGroup>
 
 <Row>
-  <Col>
+  <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
 <p className={styles.descriptionlargewhite}>View Case Study >
