@@ -47,7 +47,7 @@ import Img20 from '../../assets/img/legacypictures/hsl-biz_3.jpg';
 import Img21 from '../../assets/img/legacypictures/hsl-biz_4.jpg';
 import Img22 from '../../assets/img/legacypictures/Capture.PNG';
 import Img23 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
-import Img24 from '../../assets/img/legacypictures/ttt-01.png';
+import Img28 from '../../assets/img/legacypictures/ttt-01.png';
 
 import Img25 from '../../assets/img/legacypictures/1-01.jpg';
 import Img26 from '../../assets/img/legacypictures/1-02.jpg';
@@ -77,8 +77,8 @@ import Codepen from "react-codepen-embed";
 
 
 
-import video from '../../assets/newhomepagevids/6.mp4';
-import videomobile from '../../assets/newhomepagevids/6-1.mp4';
+import video from '../../assets/vids/compressed_vid/vid1.m4v';
+import videomobile from '../../assets/vids/compressed_vid/vid1.m4v';
 
 
 import { LinkContainer } from 'react-router-bootstrap';
@@ -106,40 +106,22 @@ export const Stepsaver = () => (
 
 
 
- <Container fluid>
 
+ <Container className={styles.test2}>
+          <Row className="justify-content-md-center">
+               <Jumbotron className={styles.testfloatback}>
+              </Jumbotron>
+            <Col md={8} className={styles.removepadding}>
 
+              
+            <Jumbotron className={styles.mainfloatback}>
+            <div className={styles.maincontentwrapper}>
 
+              
+<p className={styles.subtitlelargewhite}>Stepsaver</p>
 
-
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test1}>
-
-<div className={styles.spaceingblack}></div>
-<div className={styles.spaceingblack}></div>
-<div className={styles.spaceingblack}></div>
-<div className={styles.spaceingblack}></div>
-
-{/* left text right img */}
-
-
-<Container fluid className={styles.test2}>
-<Row className="justify-content-md-center">
-<Col xs lg="8">
-
-<p className={styles.subtitlelargewhite}>STEPSAVER</p>
-
-<p className={styles.whitetitle}>Houston Tech Startup Redesign</p>
-
- <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
+<p className={styles.whitetitle}>Houston Valet Tech Startup </p>
+ 
 
 <CardGroup>
 <Card className={styles.cardborder}>
@@ -164,35 +146,136 @@ export const Stepsaver = () => (
 </Card>
 </CardGroup>
 
+<Row>
+  <Col>
+  <AnchorLink href='#test' className={styles.paddingleft}>     
+
+<p className={styles.descriptionlargewhite}>View Case Study >
+</p>
+</AnchorLink>
+
+</Col>
+</Row>
+
+</div>
+              </Jumbotron>
+
+
+              <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={videomobile}/>
+              </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <source src={video}/>
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
+            </Col>
+
+            
+       
+          </Row>
+          
+        </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Container fluid className={styles.test1}>
+        <div id="test"></div>
+
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col xs lg="7">
+
+
+
+<CardGroup className={styles.backgroundgrey}>
+      <Card className={styles.backgroundgrey}>
+
+            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
+    
+            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+    
+      </Card>
+
+      <Card className={styles.backgroundgrey}>
+      <Image src={Img28} fluid />
+      </Card>
+      </CardGroup>
+
+
+
+
 </Col>
 </Row>
 </Container>
-<div className={styles.spaceingblack}></div>
-  
-
-
-
-<div className={styles.spaceingblack}></div>
 
 
 
 
 
-<Image src={desktopImg} fluid className={styles.imgstyle} />
+<Container fluid className={styles.test1}>
+
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="10">
+<Col xs lg="7">
 
 <CardGroup>
-      <Card>
+      <Card className={styles.backgroundgrey}>
         <Card.Body>
           <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios</p>
+            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
           </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>Videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representation of themselves on the internet, which could be a website that showcases information regarding the company.</p>
-    
-          </Card.Text>
+          <Card.Title>    
+            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+          </Card.Title>
+          <Image src={Img28} fluid />
+
         </Card.Body>
       </Card>
 
@@ -463,7 +546,9 @@ export const Stepsaver = () => (
 
 
 </Container>
-    </Container>
+
+
+
 
   </>
   /* End of JSX Fragment*/

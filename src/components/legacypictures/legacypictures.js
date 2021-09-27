@@ -74,8 +74,6 @@ import personas from '../../assets/img/legacypictures/personas.png';
 
 //import testtest from '../../assets/img/uguru/ttt-01.png';
 
-import Vid1 from '../../assets/home_page_vids/compress_vid0.mp4';
-import Vid2 from '../../assets/vids/compressed_vid/vid2.m4v';
 
 import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
 import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
@@ -84,8 +82,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
-import video from '../../assets/newhomepagevids/6.mp4';
-import videomobile from '../../assets/newhomepagevids/6-1.mp4';
+import video from '../../assets/vids/compressed_vid/vid7.mp4';
+import videomobile from '../../assets/vids/compressed_vid/vid7.mp4';
 
 import scrolldown from '../../assets/scrolldown-01.png';
 
@@ -120,12 +118,10 @@ export const Legacypictures = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+<p className={styles.subtitlelargewhite}>Legacy Pictures</p>
 
 <p className={styles.whitetitle}>How to redesign a web app</p>
  
- <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
@@ -150,6 +146,18 @@ export const Legacypictures = () => (
 </Card>
 </CardGroup>
 
+
+<Row>
+  <Col>
+  <AnchorLink href='#test' className={styles.paddingleft}>     
+
+<p className={styles.descriptionlargewhite}>View Case Study >
+</p>
+</AnchorLink>
+
+</Col>
+</Row>
+
 </div>
               </Jumbotron>
 
@@ -164,19 +172,19 @@ export const Legacypictures = () => (
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={vid11}/>
+                <source src={videomobile}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={vid1}/>
+                <source src={video}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={vid1}/>
+                <source src={video}/>
               </video>
                 }
 
@@ -219,6 +227,7 @@ export const Legacypictures = () => (
 
 
         <Container fluid className={styles.test1}>
+        <div id="test"></div>
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">

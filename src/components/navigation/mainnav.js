@@ -39,7 +39,7 @@ const routes = [
   { path: '/', name: 'HOME', Component: Home },
   { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
   { path: '/artrendezvous', name: 'ART•RENDEZ-VOUS', Component: Artrendezvous },
-  { path: '/uguru', name: 'UGURU', Component: Uguru },
+  { path: '/uguru', name: 'UGURU, INC.', Component: Uguru },
   { path: '/sanchezcoffeeco', name: 'SANCHEZCOFFEE', Component: Sanchezcoffeeco },
   { path: '/apexvr', name: 'APEXVR', Component: Apexvr },
   { path: '/stepsaver', name: 'STEPSAVER', Component: Stepsaver },

@@ -142,6 +142,7 @@ export const Home = () => (
         </Media>
 
             <Col md={8} className={styles.removepadding}>
+            <div id="test6"></div>
 
               
             <Jumbotron className={styles.mainfloatback}>
@@ -155,6 +156,23 @@ export const Home = () => (
  <p className={styles.descriptionlargewhite}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
 </p>
 
+<Row>
+  <Col>
+  <AnchorLink href='#test' className={styles.paddingleft}>     
+<p className={styles.descriptionlargewhite}>View Portfolio >
+</p>
+</AnchorLink>
+
+</Col>
+
+
+<Col>
+<LinkContainer to="/contact">
+<p className={styles.descriptionlargewhite}>Contact >
+</p>
+</LinkContainer>
+</Col>
+</Row>
 
 </div>
               </Jumbotron>
@@ -205,11 +223,12 @@ export const Home = () => (
             </>
           )}
         </Media>
-            <Col md={8} className={styles.removepadding}>
+        <Col md={8} className={styles.removepadding}>
 
-              
+        <div id="test"></div>
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
+
 
               
 <p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
@@ -218,6 +237,24 @@ export const Home = () => (
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
+
+
+<Row>
+  <Col>
+  <LinkContainer to="/legacypictures">
+<p className={styles.descriptionlargewhite}>Learn More >
+</p>
+</LinkContainer>
+</Col>
+<Col>
+<AnchorLink href='#test1' className={styles.paddingleft}>    
+<p className={styles.descriptionlargewhite}>View Next >
+</p>
+</AnchorLink>
+</Col>
+</Row>
+
+
 
 </div>
               </Jumbotron>
@@ -272,18 +309,34 @@ export const Home = () => (
           )}
         </Media>
             <Col md={8} className={styles.removepadding}>
+            <div id="test1"></div>
 
               
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+<p className={styles.subtitlelargewhite}>ArtRendezVous</p>
 
 <p className={styles.whitetitle}>ART Rendez-Vous</p>
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
+
+<Row>
+  <Col>
+  <LinkContainer to="/artrendezvous">
+<p className={styles.descriptionlargewhite}>Learn More >
+</p>
+</LinkContainer>
+</Col>
+<Col>
+<AnchorLink href='#test2' className={styles.paddingleft}>    
+<p className={styles.descriptionlargewhite}>View Next >
+</p>
+</AnchorLink>
+</Col>
+</Row>
 
 </div>
               </Jumbotron>
@@ -337,18 +390,34 @@ export const Home = () => (
           )}
         </Media>
             <Col md={8} className={styles.removepadding}>
+            <div id="test2"></div>
 
               
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+<p className={styles.subtitlelargewhite}>Uguru, INC</p>
 
 <p className={styles.whitetitle}>Uguru, INC.</p>
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
+
+<Row>
+  <Col>
+  <LinkContainer to="/legacypictures">
+<p className={styles.descriptionlargewhite}>Learn More >
+</p>
+</LinkContainer>
+</Col>
+<Col>
+<AnchorLink href='#test3' className={styles.paddingleft}>    
+<p className={styles.descriptionlargewhite}>View Next >
+</p>
+</AnchorLink>
+</Col>
+</Row>
 
 </div>
               </Jumbotron>
@@ -403,18 +472,34 @@ export const Home = () => (
           )}
         </Media>
             <Col md={8} className={styles.removepadding}>
+            <div id="test3"></div>
 
               
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+<p className={styles.subtitlelargewhite}>Sanchez Coffee Co.</p>
 
 <p className={styles.whitetitle}>Sanchez Coffee Co.</p>
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
+
+<Row>
+  <Col>
+  <LinkContainer to="/legacypictures">
+<p className={styles.descriptionlargewhite}>Learn More >
+</p>
+</LinkContainer>
+</Col>
+<Col>
+<AnchorLink href='#test4' className={styles.paddingleft}>    
+<p className={styles.descriptionlargewhite}>View Next >
+</p>
+</AnchorLink>
+</Col>
+</Row>
 
 </div>
               </Jumbotron>
@@ -468,18 +553,34 @@ export const Home = () => (
           )}
         </Media>
             <Col md={8} className={styles.removepadding}>
+            <div id="test4"></div>
 
               
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+<p className={styles.subtitlelargewhite}>ApexVR</p>
 
 <p className={styles.whitetitle}>ApexVr</p>
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
+
+<Row>
+  <Col>
+  <LinkContainer to="/legacypictures">
+<p className={styles.descriptionlargewhite}>Learn More >
+</p>
+</LinkContainer>
+</Col>
+<Col>
+<AnchorLink href='#test5' className={styles.paddingleft}>    
+<p className={styles.descriptionlargewhite}>View Next >
+</p>
+</AnchorLink>
+</Col>
+</Row>
 
 </div>
               </Jumbotron>
@@ -534,19 +635,34 @@ export const Home = () => (
           )}
         </Media>
             <Col md={8} className={styles.removepadding}>
+            <div id="test5"></div>
 
               
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>LEGACY PICTURES</p>
+<p className={styles.subtitlelargewhite}>Stepsaver</p>
 
 <p className={styles.whitetitle}>Stepsaver</p>
  
  <p className={styles.descriptionlargewhite}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
 
+<Row>
+  <Col>
+  <LinkContainer to="/legacypictures">
+<p className={styles.descriptionlargewhite}>Learn More >
+</p>
+</LinkContainer>
+</Col>
+<Col>
+<AnchorLink href='#test6' className={styles.paddingleft}>    
+<p className={styles.descriptionlargewhite}>Back to Top >
+</p>
+</AnchorLink>
+</Col>
+</Row>
 </div>
               </Jumbotron>
 
