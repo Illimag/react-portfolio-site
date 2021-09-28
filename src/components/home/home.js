@@ -142,7 +142,7 @@ export const Home = () => (
         </Media>
 
             <Col md={8} className={styles.removepadding}>
-            <div id="test6"></div>
+
 
               
             <Jumbotron className={styles.mainfloatback}>
@@ -159,7 +159,7 @@ export const Home = () => (
 <Row>
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
-<div className={styles.descriptionlargewhite}>View Portfolio >
+<div className={styles.subtitlelargewhite}>View Portfolio >
 </div>
 </AnchorLink>
 
@@ -168,7 +168,7 @@ export const Home = () => (
 
 <Col className={styles.removepadding}>
 <LinkContainer to="/contact">
-<p className={styles.descriptionlargewhite}>View CV >
+<p className={styles.subtitlelargewhite}>Contact Now >
 </p>
 </LinkContainer>
 </Col>
@@ -242,13 +242,13 @@ export const Home = () => (
 <Row>
   <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
-<p className={styles.descriptionlargewhite}>Learn More >
+<p className={styles.subtitlelargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
 <Col className={styles.removepadding}>
 <AnchorLink href='#test1' className={styles.paddingleft}>    
-<p className={styles.descriptionlargewhite}>View Next >
+<p className={styles.subtitlelargewhite}>View Next >
 </p>
 </AnchorLink>
 </Col>
@@ -326,13 +326,13 @@ export const Home = () => (
 <Row>
   <Col className={styles.removepadding}>
   <LinkContainer to="/artrendezvous">
-<p className={styles.descriptionlargewhite}>Learn More >
+<p className={styles.subtitlelargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
 <Col className={styles.removepadding}>
 <AnchorLink href='#test2' className={styles.paddingleft}>    
-<p className={styles.descriptionlargewhite}>View Next >
+<p className={styles.subtitlelargewhite}>View Next >
 </p>
 </AnchorLink>
 </Col>
@@ -407,13 +407,13 @@ export const Home = () => (
 <Row>
   <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
-<p className={styles.descriptionlargewhite}>Learn More >
+<p className={styles.subtitlelargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
 <Col className={styles.removepadding}>
 <AnchorLink href='#test3' className={styles.paddingleft}>    
-<p className={styles.descriptionlargewhite}>View Next >
+<p className={styles.subtitlelargewhite}>View Next >
 </p>
 </AnchorLink>
 </Col>
@@ -489,13 +489,13 @@ export const Home = () => (
 <Row>
   <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
-<p className={styles.descriptionlargewhite}>Learn More >
+<p className={styles.subtitlelargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
 <Col className={styles.removepadding}>
 <AnchorLink href='#test4' className={styles.paddingleft}>    
-<p className={styles.descriptionlargewhite}>View Next >
+<p className={styles.subtitlelargewhite}>View Next >
 </p>
 </AnchorLink>
 </Col>
@@ -570,13 +570,13 @@ export const Home = () => (
 <Row>
   <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
-<p className={styles.descriptionlargewhite}>Learn More >
+<p className={styles.subtitlelargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
 <Col className={styles.removepadding} >
 <AnchorLink href='#test5' className={styles.paddingleft}>    
-<p className={styles.descriptionlargewhite}>View Next >
+<p className={styles.subtitlelargewhite}>View Next >
 </p>
 </AnchorLink>
 </Col>
@@ -652,13 +652,13 @@ export const Home = () => (
 <Row>
   <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
-<p className={styles.descriptionlargewhite}>Learn More >
+<p className={styles.subtitlelargewhite}>Learn More >
 </p>
 </LinkContainer>
 </Col>
 <Col className={styles.removepadding}>
-<AnchorLink href='#test6' className={styles.paddingleft}>    
-<p className={styles.descriptionlargewhite}>Back to Top >
+<AnchorLink href='#test' className={styles.paddingleft}>    
+<p className={styles.subtitlelargewhite}>Back to Top >
 </p>
 </AnchorLink>
 </Col>
