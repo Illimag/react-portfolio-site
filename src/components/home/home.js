@@ -149,11 +149,11 @@ export const Home = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>JAEMINKIM.COM</p>
+<p className={styles.subtitlelargewhite}>Hillodesign</p>
 
 <p className={styles.whitetitle}>Welcome</p>
  
- <p className={styles.descriptionlargewhite}>Jae Min (John) Kim is an UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
+ <p className={styles.descriptionlargewhite}>UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
 </p>
 
 <Row>
