@@ -119,7 +119,7 @@ export const Uguru = () => (
               
 <p className={styles.subtitlelargewhite}>Uguru, INC.</p>
 
-<p className={styles.whitetitle}>Downtown SF SOMA Mobile App Startup</p>
+<p className={styles.whitetitle}>SF SOMA Mobile App Startup</p>
 
 <CardGroup>
 <Card className={styles.cardborder}>

@@ -115,7 +115,7 @@ export const Artrendezvous = () => (
               
 <p className={styles.subtitlelargewhite}>ART•RENDEZ-VOUS</p>
 
-<p className={styles.whitetitle}>Art Community iOS Mobile App</p>
+<p className={styles.whitetitle}>Art Community Mobile App</p>
  
 <CardGroup>
 <Card className={styles.cardborder}>

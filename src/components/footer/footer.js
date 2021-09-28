@@ -55,7 +55,7 @@ const Footer = () => (
 
 
     <p className={styles.description}>
-      hillodesign
+      Hillodesign
     </p>
     <p className={styles.description}>
     2021

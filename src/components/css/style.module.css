@@ -986,3 +986,8 @@ background: rgba(0,0,0,0.5);
     background-color: #f7f7f7 !important;
     border: transparent !important
 }
+
+.profile{
+    width:50% !important;
+    height:50% !important;
+}
