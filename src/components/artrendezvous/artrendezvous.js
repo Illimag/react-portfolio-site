@@ -74,9 +74,8 @@ import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
 import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
 import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 
-
-import video from '../../assets/vids/compressed_vid/vid6.mp4';
-import videomobile from '../../assets/vids/compressed_vid/vid6.mp4';
+import video from '../../assets/newhomepagevids/2.mp4'
+import videomobile from '../../assets/newhomepagevids/2-1.mp4'
 
 
 import Img25 from '../../assets/img/legacypictures/1-01.jpg';
@@ -144,11 +143,19 @@ export const Artrendezvous = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.descriptionlargewhite}>View Case Study >
+<p className={styles.subtitlelargewhite}>View Case Study >
 </p>
 </AnchorLink>
 
 </Col>
+
+<Col className={styles.removepadding}>
+<LinkContainer to="/uguru">
+<p className={styles.subtitlelargewhite}>View Next >
+</p>
+</LinkContainer>
+</Col>
+
 </Row>
 
 </div>

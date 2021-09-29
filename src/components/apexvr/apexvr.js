@@ -87,8 +87,8 @@ import Codepen from "react-codepen-embed";
 import Media from 'react-media';
 
 
-import video from '../../assets/vids/compressed_vid/vid4.m4v';
-import videomobile from '../../assets/vids/compressed_vid/vid4.m4v';
+import video from '../../assets/newhomepagevids/5.mp4'
+import videomobile from '../../assets/newhomepagevids/5-1.mp4'
 
 
 
@@ -158,11 +158,19 @@ export const Apexvr = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.descriptionlargewhite}>View Case Study >
+<p className={styles.subtitlelargewhite}>View Case Study >
 </p>
 </AnchorLink>
 
 </Col>
+
+<Col className={styles.removepadding}>
+<LinkContainer to="/stepsaver">
+<p className={styles.subtitlelargewhite}>View Next >
+</p>
+</LinkContainer>
+</Col>
+
 </Row>
 
 </div>

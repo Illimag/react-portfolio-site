@@ -77,8 +77,8 @@ import Codepen from "react-codepen-embed";
 
 
 
-import video from '../../assets/vids/compressed_vid/vid1.m4v';
-import videomobile from '../../assets/vids/compressed_vid/vid1.m4v';
+import video from '../../assets/newhomepagevids/6.mp4'
+import videomobile from '../../assets/newhomepagevids/6-1.mp4'
 
 
 import { LinkContainer } from 'react-router-bootstrap';
@@ -150,11 +150,20 @@ export const Stepsaver = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.descriptionlargewhite}>View Case Study >
+<p className={styles.subtitlelargewhite}>View Case Study >
 </p>
 </AnchorLink>
 
 </Col>
+
+<Col className={styles.removepadding}>
+<LinkContainer to="/legacypictures">
+<p className={styles.subtitlelargewhite}>View Next >
+</p>
+</LinkContainer>
+</Col>
+
+
 </Row>
 
 </div>

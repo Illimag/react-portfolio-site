@@ -82,8 +82,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import UserScenario from '../../assets/img/legacypictures/Website-User-scenario-workflow.png';
 
 
-import video from '../../assets/vids/compressed_vid/vid7.mp4';
-import videomobile from '../../assets/vids/compressed_vid/vid7.mp4';
+import video from '../../assets/newhomepagevids/1.mp4'
+import videomobile from '../../assets/newhomepagevids/1-1.mp4'
 
 import scrolldown from '../../assets/scrolldown-01.png';
 
@@ -151,11 +151,19 @@ export const Legacypictures = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.descriptionlargewhite}>View Case Study >
+<p className={styles.subtitlelargewhite}>View Case Study >
 </p>
 </AnchorLink>
 
 </Col>
+
+<Col className={styles.removepadding}>
+<LinkContainer to="/artrendezvous">
+<p className={styles.subtitlelargewhite}>View Next >
+</p>
+</LinkContainer>
+</Col>
+
 </Row>
 
 </div>

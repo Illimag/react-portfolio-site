@@ -77,9 +77,8 @@ import Vid1 from '../../assets/home_page_vids/compress_vid0.mp4';
 import Vid2 from '../../assets/vids/compressed_vid/vid2.m4v';
 
 
-import video from '../../assets/vids/compressed_vid/vid5.mp4';
-import videomobile from '../../assets/vids/compressed_vid/vid5.mp4';
-
+import video from '../../assets/newhomepagevids/3.mp4'
+import videomobile from '../../assets/newhomepagevids/3-1.mp4'
 
 
 import Codepen from "react-codepen-embed";
@@ -148,11 +147,19 @@ export const Uguru = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.descriptionlargewhite}>View Case Study >
+<p className={styles.subtitlelargewhite}>View Case Study >
 </p>
 </AnchorLink>
 
 </Col>
+
+<Col className={styles.removepadding}>
+<LinkContainer to="/sanchezcoffeeco">
+<p className={styles.subtitlelargewhite}>View Next >
+</p>
+</LinkContainer>
+</Col>
+
 </Row>
 
 </div>

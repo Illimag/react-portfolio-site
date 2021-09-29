@@ -91,8 +91,8 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import Media from 'react-media';
 
 
-import video from '../../assets/vids/compressed_vid/vid0.m4v';
-import videomobile from '../../assets/vids/compressed_vid/vid0.m4v';
+import video from '../../assets/newhomepagevids/4.mp4'
+import videomobile from '../../assets/newhomepagevids/4-1.mp4'
 
 
 
@@ -148,11 +148,19 @@ export const Sanchezcoffeeco = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.descriptionlargewhite}>View Case Study >
+<p className={styles.subtitlelargewhite}>View Case Study >
 </p>
 </AnchorLink>
 
 </Col>
+
+<Col className={styles.removepadding}>
+<LinkContainer to="/apexvr">
+<p className={styles.subtitlelargewhite}>View Next >
+</p>
+</LinkContainer>
+</Col>
+
 </Row>
 
 
