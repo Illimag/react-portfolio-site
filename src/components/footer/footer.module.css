@@ -1,0 +1,65 @@
+.icons{
+    height: 30px;
+    width:30px;
+}
+
+.centertext{
+    margin-top: 5%;
+    text-align: center;
+    color: #000 !important;
+}
+
+.centericon{
+    text-align: center;
+}
+
+.footerBackground{
+    background-color: #f5f5f7 !important;
+    position: absolute !important;
+    width:100%;
+}
+
+.socialrow{
+    background-color: #fff !important;
+    padding-right:25% !important;
+    padding-left: 25% !important;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 0% !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description{
+
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color:#000 !important;
+    letter-spacing: -1px;
+    margin-top: 2%;
+}
+
+
+.titletext{
+    font-size: 3em !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.descriptiontext{
+    font-size: 2em !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+
+.descriptionmain{
+    font-size: 1em !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}

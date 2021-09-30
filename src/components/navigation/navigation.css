@@ -1,0 +1,38 @@
+.navbar-toggler{
+  border-color: rgba(247, 217, 217, 0) !important;
+  border: 0px solid transparent !important;
+}
+
+button:focus{
+  outline: 0px dotted !important;
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+.navbar-toggler-icon{
+  background-image: url(../../assets/tt.png) !important;
+}
+
+.page {
+  left: 0px;
+  right: 0px;
+}
+
+.page-enter {
+  opacity: 0.1;
+  transition: opacity 900ms, transform 900ms;
+}
+
+.page-enter-active {
+  opacity: 0.1;
+  transition: opacity 900ms, transform 900ms;
+}
+
+.page-exit {
+  opacity: 0.1;
+  transition: opacity 900ms, transform 900ms;
+}
+
+.page-exit-active {
+  opacity: 0.1;
+  transition: opacity 900ms, transform 900ms;
+}

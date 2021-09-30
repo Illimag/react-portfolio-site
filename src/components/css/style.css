@@ -1,0 +1,64 @@
+.row{
+    margin-right:0px !important;
+    margin-left:0px !important;
+    background-color: transparent !important;
+}
+
+.container{
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+
+
+.col-sm{
+    padding-right: 0px  !important;
+    padding-left: 0px !important;
+    overflow:hidden;
+}
+
+h5{
+    font-family: 'Source Serif Pro', sans-serif;
+    font-weight: 500;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 1.2em !important;
+}
+
+h3{
+    margin-top: 5% !important;
+
+    font-family: 'Source Serif Pro', sans-serif;
+    font-weight: 500;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.5em !important;
+}
+
+h1{
+    font-family: 'Source Serif Pro', sans-serif;
+    font-weight: 500;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 3em !important;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+
+    padding-left: 0%;
+    padding-right: 0%;
+
+    margin-bottom: 5% !important;
+}
+
