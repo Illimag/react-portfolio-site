@@ -62,9 +62,12 @@ import '../css/style.css';
 
 import logo from '../../assets/jmk_logo-02-01.png';
 
-
 import { ProgressBar } from 'react-bootstrap';
 import { Spinner } from 'react-bootstrap';
+
+import { useDispatch, useSelector } from 'react-redux';
+import { getCurrentProgress, getImages, getLoadingState} from '../../store/imgLoad/reducer'
+import { loadImage } from '../../store/imgLoad/actions';
 
 import Media from 'react-media';
 
@@ -94,13 +97,57 @@ import apeximg from '../../assets/img/apexvr/p_apex_3_L-min.png';
 import stepsaverimg from '../../assets/img/stepsaver/f_stepsaver_1.png';
 
 
-export const Home = () => (
 
+const importAll = (r) => {
+  let images = [];
+  let imageUrls = [];
+  r.keys().map((item, index) => { images.push(r(item)); });
+
+  images.map((image) => {
+    imageUrls.push(image);
+  })
+
+  return imageUrls;
+}
+
+
+
+export const Home = () => {
+
+  
+  const dispatch = useDispatch();
+  const getImageUrls = () => {
+    return importAll(require.context('../../assets/finalhomepagevid', false, /\.(png|jpe?g|svg|mp4|m4v)$/))
+  }
+
+  const currentLoadingState = useSelector(state => getLoadingState(state));
+  const currentProgress = useSelector(state => getCurrentProgress(state));
+  const images = useSelector(state => getImages(state));
+
+  console.log("ImageList: ", images)
+
+  useEffect(() => {
+    let urls = getImageUrls();
+    dispatch(loadImage(urls))
+  }, [])
+
+  console.log("Loading State: ", currentLoadingState)
 
   // myRef = React.createRef();
   /* Start of JSX Fragment*/
-  <>
+  return <>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "10vh" }}>
+  
+  <h1>Welcome to Jaeminkim.com</h1>
 
+      
+        
+      <ProgressBar animated now={currentProgress} />
+      <h1>Loading an Amazing Digital Experience just for you...</h1>
+    
+    </div>
+    {images &&
+    <div style={{ display: currentLoadingState ? "none" : "block" }}>
 
 
 
@@ -121,19 +168,19 @@ export const Home = () => (
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={video}/>
+                <source src={images[1]}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={video}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={video}/>
+                <source src={images[0]}/>
               </video>
                 }
 
@@ -187,9 +234,9 @@ export const Home = () => (
         </Container>
 
 
-
-
+</div>
+              }
 
   </>
   /* End of JSX Fragment*/
-)
+              }
