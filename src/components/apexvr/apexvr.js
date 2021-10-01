@@ -11,7 +11,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 
 //import { LinkContainer } from 'react-router-bootstrap';
-//import Button from 'react-bootstrap/Button';
+
 
 import Button from 'react-bootstrap/Button';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -104,7 +104,7 @@ export const Apexvr = () => (
   /* Start of JSX Fragment*/
 
  <>
-      
+
 
 
 
@@ -122,41 +122,41 @@ export const Apexvr = () => (
               </Jumbotron>
             <Col md={8} className={styles.removepadding}>
 
-              
+
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
-              
+
 <p className={styles.subtitlelargewhite}>APEXVR</p>
 
 <p className={styles.whitetitle}>VR Videography Web App</p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
-    
+
   <p className={styles.subtitlelargewhite}>DATE</p>
   <p className={styles.descriptionwhite}>July 2021 - Present</p>
 
-  
+
 </Card>
 <Card className={styles.cardborder}>
-    
+
   <p className={styles.subtitlelargewhite}>ROLE</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
-  
+
 </Card>
 <Card className={styles.cardborder}>
-    
+
   <p className={styles.subtitlelargewhite}>LOCATION</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
-  
+
 </Card>
 </CardGroup>
 
 <Row>
   <Col className={styles.removepadding}>
-  <AnchorLink href='#test' className={styles.paddingleft}>     
+  <AnchorLink href='#test' className={styles.paddingleft}>
 
 <p className={styles.descriptionlargewhite}>View Case Study >
 </p>
@@ -201,10 +201,10 @@ export const Apexvr = () => (
 
             </Col>
 
-            
-       
+
+
           </Row>
-          
+
         </Container>
 
 
@@ -247,9 +247,9 @@ export const Apexvr = () => (
       <Card className={styles.backgroundgrey}>
 
             <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-    
+
             <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-    
+
       </Card>
 
       <Card className={styles.backgroundgrey}>
@@ -277,10 +277,10 @@ export const Apexvr = () => (
 <CardGroup>
       <Card className={styles.backgroundgrey}>
         <Card.Body>
-          <Card.Title>    
+          <Card.Title>
             <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
           </Card.Title>
-          <Card.Title>    
+          <Card.Title>
             <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
           </Card.Title>
           <Image src={Img28} fluid />
@@ -296,7 +296,7 @@ export const Apexvr = () => (
           <Card.Text>
           <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
     <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
+
     <div className={styles.paddingleft}>
     <ul className={styles.listlargeblack}>
       <li className={styles.listitemlargeblack}>Users of the website</li>
@@ -315,42 +315,42 @@ export const Apexvr = () => (
 
 <CardGroup>
 <Card className={styles.cardborder}>
-    
+
 <Image src={Img06} fluid/>
 
 
-  
+
 </Card>
 <Card className={styles.cardborder}>
-    
+
 <Image src={Img05} fluid />
 
 
-  
+
 </Card>
 <Card className={styles.cardborder}>
-    
+
 <Image src={Img04} fluid />
 
-  
+
 </Card>
 </CardGroup>
 
 
 <CardGroup>
 <Card className={styles.cardborder}>
-    
+
 <Image src={Img06} fluid/>
 
 
-  
+
 </Card>
 <Card className={styles.cardborder}>
-    
+
 <Image src={Img05} fluid />
 
 
-  
+
 </Card>
 
 </CardGroup>
@@ -364,11 +364,11 @@ export const Apexvr = () => (
 
       <Card className={styles.cardborder}>
             <p className={styles.subtitlelargeblack}>Introduction</p>
- 
+
             <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
       </Card>
- 
+
 
 
 
@@ -382,17 +382,17 @@ export const Apexvr = () => (
 
 <CardGroup>
 <Card className={styles.cardborder}>
-    
+
 <Image src={Img15} fluid/>
 
 
-  
+
 </Card>
 <Card className={styles.cardborder}>
-    
+
 <Image src={Img17} fluid />
 
-  
+
 </Card>
 </CardGroup>
 
@@ -406,11 +406,11 @@ export const Apexvr = () => (
 
       <Card className={styles.cardborder}>
             <p className={styles.subtitlelargeblack}>Introduction</p>
- 
+
             <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
 </p>
       </Card>
- 
+
 
 
 
@@ -439,7 +439,7 @@ export const Apexvr = () => (
       <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
 
       </Card>
- 
+
 
 
 
@@ -452,10 +452,10 @@ export const Apexvr = () => (
       <Image src={Img19} fluid  className={styles.imgfinal} />
 
       <Image src={Img20} fluid  className={styles.imgfinal} />
-      
+
       <Image src={Img21} fluid  className={styles.imgfinal}/>
 
- 
+
 
 
 
@@ -470,9 +470,9 @@ export const Apexvr = () => (
 
       <p className={styles.subtitlelargeblack}>Results:</p>
     <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-     
+
       </Card>
- 
+
 
 
 
@@ -501,7 +501,7 @@ export const Apexvr = () => (
 
 <CardGroup>
 <Card className={styles.cardborder}>
-    
+
 
 <p className={styles.subtitlelargeblack}>Art RendexVous</p>
 <div className={styles.spaceingwhite}></div>
@@ -517,10 +517,10 @@ export const Apexvr = () => (
 
 
 
-  
+
 </Card>
 <Card className={styles.cardborder}>
-    
+
 <p className={styles.subtitlelargeblack}>Go to Portfolio:</p>
 <div className={styles.spaceingwhite}></div>
 
@@ -534,7 +534,7 @@ export const Apexvr = () => (
               </LinkContainer>
 
 
-  
+
 </Card>
 </CardGroup>
 
