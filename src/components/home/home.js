@@ -124,14 +124,10 @@ export const Home = () => {
   const currentProgress = useSelector(state => getCurrentProgress(state));
   const images = useSelector(state => getImages(state));
 
-  console.log("ImageList: ", images)
-
   useEffect(() => {
     let urls = getImageUrls();
     dispatch(loadImage(urls))
   }, [])
-
-  console.log("Loading State: ", currentLoadingState)
 
   // myRef = React.createRef();
   /* Start of JSX Fragment*/
