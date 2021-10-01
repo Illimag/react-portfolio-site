@@ -15,7 +15,6 @@
 }
 
 .logo{
-height:30pt;
 width:40pt;
 }
 
@@ -108,5 +107,5 @@ width:40pt;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     margin-top: 0px !important;
-    
+    display: inline-block;
 }

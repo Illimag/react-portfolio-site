@@ -30,7 +30,7 @@ import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
 import Dribbble from '../../assets/dribbble.png';
 
-import logo from '../../assets/jmk_logo-02-01.png';
+import logo from '../../assets/logotest.png';
 
 import styles from './navigation.module.css'
 import './navigation.css'
@@ -76,6 +76,7 @@ function MainNav() {
 
             <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>
+                <Image src={logo} fluid />
                 <h5 className={styles.test1title}>HILLODESIGN</h5>
 
                 </Navbar.Brand>
