@@ -10,7 +10,7 @@
     backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     display: block !important;
-    height: 60px;
+ 
     padding: 0rem 0rem !important;
 }
 
@@ -103,9 +103,10 @@ width:40pt;
 
 .test1title{
     color: #fff;
-    font-size: 1.5em !important;
+    font-size: 1.1em !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     margin-top: 0px !important;
     display: inline-block;
+    transform: translateY(10%);
 }
