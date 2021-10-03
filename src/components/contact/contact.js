@@ -110,19 +110,11 @@ export const Contact = () => (
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
 
-<Row className="justify-content-md-center">
-
- <Col md={12} className={styles.removepadding}>
-<Container className={styles.fonttest}>
 
 
-  <iframe src="https://drive.google.com/file/d/1GCXLZT9zx_x3TgRXVX-O2L0NNtk4EjrL/preview" width="100%" height="1000" allow="autoplay" scrolling="yes"></iframe>
+  <iframe src="https://drive.google.com/file/d/1GCXLZT9zx_x3TgRXVX-O2L0NNtk4EjrL/preview" width="100%" height="700" allow="autoplay" scrolling="yes"></iframe>
 
 
-</Container>
-</Col>
-
-</Row>
 
 
 
