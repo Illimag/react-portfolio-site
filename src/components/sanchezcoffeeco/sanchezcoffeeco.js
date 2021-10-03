@@ -116,7 +116,7 @@ export const Sanchezcoffeeco = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Case Study</p>
+<p className={styles.subtitlelargewhite}>Case Study #4</p>
 
 <p className={styles.whitetitle}>Ecommerce Coffee Web App</p>
 
@@ -177,19 +177,19 @@ export const Sanchezcoffeeco = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={videomobile}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }

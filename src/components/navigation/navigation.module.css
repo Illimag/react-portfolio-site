@@ -15,7 +15,7 @@
 }
 
 .logo{
-width:40pt;
+width:25pt;
 }
 
 .white{
@@ -103,7 +103,7 @@ width:40pt;
 
 .test1title{
     color: #fff;
-    font-size: 1.5em !important;
+    font-size: 1em !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     margin-top: 0px !important;

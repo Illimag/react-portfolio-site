@@ -127,7 +127,7 @@ export const Apexvr = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Case Study</p>
+<p className={styles.subtitlelargewhite}>Case Study #5</p>
 
 <p className={styles.whitetitle}>VR Videography Web App</p>
 
@@ -186,19 +186,19 @@ export const Apexvr = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={videomobile}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }

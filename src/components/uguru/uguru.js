@@ -116,7 +116,7 @@ export const Uguru = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Case Study</p>
+<p className={styles.subtitlelargewhite}>Case Study #3</p>
 
 <p className={styles.whitetitle}>SF SOMA Mobile App Startup</p>
 
@@ -175,19 +175,19 @@ export const Uguru = () => (
             <>
 
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={videomobile}/>
               </video>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
                 <source src={video}/>
               </video>
                 }

@@ -207,7 +207,7 @@ export const Home = () => {
               
 <p className={styles.subtitlelargewhite}>Hillodesign</p>
 
-<p className={styles.whitetitlehome}>SF BAY AREA & SIlicon Valley UI/UX Designer</p>
+<p className={styles.whitetitlehome}>San Francisco Bay Area & Silicon Valley UI/UX Designer</p>
  
  <p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
 </p>
