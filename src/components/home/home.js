@@ -149,6 +149,8 @@ export const Home = () => {
 
 
 <Container className={styles.test2}>
+
+  
           <Row className="justify-content-md-center">
                <Jumbotron className={styles.testfloatback}>
               </Jumbotron>
@@ -202,7 +204,7 @@ export const Home = () => {
 <Row>
   <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
-<p className={styles.subtitlelargewhite}>View Portfolio >
+<p className={styles.clickabletext}>View Portfolio >
 </p>
 </LinkContainer>
 
@@ -211,7 +213,7 @@ export const Home = () => {
 
 <Col className={styles.removepadding}>
 <LinkContainer to="/contact">
-<p className={styles.subtitlelargewhite}>Contact Now >
+<p className={styles.clickabletext}>Contact Now >
 </p>
 </LinkContainer>
 </Col>

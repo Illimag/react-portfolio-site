@@ -991,3 +991,16 @@ background: rgba(0,0,0,0.5);
     width:30% !important;
     height:30% !important;
 }
+
+
+
+.clickabletext{
+    font-weight: 900;
+    font-size: 1em;
+    margin-bottom: -1% !important;
+    margin-top: 1% !important;
+    font-family: 'Inter', sans-serif;
+    color:#fff !important;
+    letter-spacing: -1px;
+    cursor: pointer;
+}

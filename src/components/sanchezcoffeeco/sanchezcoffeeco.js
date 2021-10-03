@@ -148,7 +148,7 @@ export const Sanchezcoffeeco = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.subtitlelargewhite}>View Case Study >
+<p className={styles.clickabletext}>View Case Study >
 </p>
 </AnchorLink>
 
@@ -156,7 +156,7 @@ export const Sanchezcoffeeco = () => (
 
 <Col className={styles.removepadding}>
 <LinkContainer to="/apexvr">
-<p className={styles.subtitlelargewhite}>View Next >
+<p className={styles.clickabletext}>View Next >
 </p>
 </LinkContainer>
 </Col>

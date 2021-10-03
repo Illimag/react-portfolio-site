@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Link } from 'react-router-dom'
 
+import { fadeIn } from 'react-animations'
+
 import { LinkContainer } from 'react-router-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -151,7 +153,7 @@ export const Legacypictures = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.subtitlelargewhite}>View Case Study >
+<p className={styles.clickabletext}>View Case Study >
 </p>
 </AnchorLink>
 
@@ -159,7 +161,7 @@ export const Legacypictures = () => (
 
 <Col className={styles.removepadding}>
 <LinkContainer to="/artrendezvous">
-<p className={styles.subtitlelargewhite}>View Next >
+<p className={styles.clickabletext}>View Next >
 </p>
 </LinkContainer>
 </Col>
@@ -239,7 +241,7 @@ export const Legacypictures = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="7">
+<Col xs lg="8">
 
 
 
@@ -268,11 +270,38 @@ export const Legacypictures = () => (
 
 
 
+
+
+<Container fluid className={styles.test1}>
+        <div id="test"></div>
+
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+
+            <p className={styles.subtitlelargeblack}>A dramatically more powerful camera system. A display so responsive every interaction feels new again. The world's fastest smartphone chip. Exceptional durability. An a huge leap in battery life.</p>
+    
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
 <Container fluid className={styles.test1}>
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="7">
+<Col xs lg="8">
 
 <CardGroup>
       <Card className={styles.backgroundgrey}>

@@ -72,7 +72,7 @@ function MainNav() {
          
          
          
-            <Navbar collapseOnSelect className={styles.navbar} expand="lg" sticky="top" >
+            <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" >
 
             <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>

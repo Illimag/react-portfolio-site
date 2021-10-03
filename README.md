@@ -541,3 +541,7 @@ https://elements.envato.com/intro-opener-47DDKUV
 https://elements.envato.com/dynamic-intro-VBRP5XA
 
 https://elements.envato.com/elegant-intro-V6D2Y9H
+
+## install react-animations
+
+    npm i react-animations

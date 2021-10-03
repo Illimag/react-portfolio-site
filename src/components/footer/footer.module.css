@@ -14,7 +14,7 @@
 }
 
 .footerBackground{
-    background-color: #f5f5f7 !important;
+    background-color: #000 !important;
     position: absolute !important;
     width:100%;
 }
@@ -39,7 +39,7 @@
     margin-bottom: 1% !important;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    color:#000 !important;
+    color:#fff !important;
     letter-spacing: -1px;
     margin-top: 2%;
 }
