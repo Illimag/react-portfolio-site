@@ -30,7 +30,7 @@ import Linkedin from '../../assets/linkedin.png';
 import Behance from '../../assets/behance.png';
 import Dribbble from '../../assets/dribbble.png';
 
-import logo from '../../assets/logotest.png';
+import logo from '../../assets/12751aab25f807388dbec0178150c69d_w200.webp';
 
 import styles from './navigation.module.css'
 import './navigation.css'

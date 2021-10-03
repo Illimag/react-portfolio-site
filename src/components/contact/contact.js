@@ -125,7 +125,7 @@ export const Contact = () => (
 
 
 
-  <iframe src="https://drive.google.com/file/d/1GCXLZT9zx_x3TgRXVX-O2L0NNtk4EjrL/preview" width="100%" height="600" allow="autoplay" scrolling="yes"></iframe>
+  <iframe src="https://drive.google.com/file/d/1GCXLZT9zx_x3TgRXVX-O2L0NNtk4EjrL/preview" width="100%" height="600" allow="autoplay" scrolling="no"></iframe>
 
   </Card.Body>
 </Card>
