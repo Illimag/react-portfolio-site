@@ -25,6 +25,7 @@
     "react-lazy-load-image-component": "^1.5.0",
     "react-media": "^1.10.0",
     "react-parallax": "^3.3.0",
+    "react-pdf": "^5.4.0",
     "react-photo-gallery": "^8.0.0",
     "react-precache-img": "^2.0.5",
     "react-redux": "^7.2.4",

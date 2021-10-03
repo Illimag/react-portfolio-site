@@ -224,7 +224,7 @@ export const Home = () => {
 
 <Col className={styles.removepadding}>
 <LinkContainer to="/contact">
-<p className={styles.clickabletext}>CONTACT NOW >
+<p className={styles.clickabletext}>VIEW RESUME >
 </p>
 </LinkContainer>
 </Col>

@@ -43,7 +43,7 @@ const routes = [
   { path: '/sanchezcoffeeco', name: 'SANCHEZCOFFEE', Component: Sanchezcoffeeco },
   { path: '/apexvr', name: 'APEXVR', Component: Apexvr },
   { path: '/stepsaver', name: 'STEPSAVER', Component: Stepsaver },
-  { path: '/Contact', name: 'CONTACT', Component: Contact },
+  { path: '/Contact', name: 'RESUME', Component: Contact },
 ]
 
 function MainNav() {
