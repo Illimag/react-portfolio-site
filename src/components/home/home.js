@@ -139,7 +139,7 @@ export const Home = () => {
 
 
               
-<Jumbotron className={styles.mainfloatback}>
+<Jumbotron className={styles.homepageloading}>
 
 
   <p className={styles.whitetitlehome}>Welcome to Hillodesign!</p>
