@@ -118,7 +118,7 @@ export const Stepsaver = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Stepsaver</p>
+<p className={styles.subtitlelargewhite}>Case Study</p>
 
 <p className={styles.whitetitle}>Houston Valet Tech Startup </p>
  
@@ -126,21 +126,21 @@ export const Stepsaver = () => (
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>DATE</p>
-  <p className={styles.descriptionwhite}>July 2021 - Present</p>
+  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.descriptionwhite}>Stepsaver</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>ROLE</p>
+  <p className={styles.subtitlelargewhite}>Role</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>LOCATION</p>
+  <p className={styles.subtitlelargewhite}>Location</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
@@ -150,7 +150,7 @@ export const Stepsaver = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.clickabletext}>View Case Study >
+<p className={styles.clickabletext}>VIEW CASE STUDY >
 </p>
 </AnchorLink>
 
@@ -158,7 +158,7 @@ export const Stepsaver = () => (
 
 <Col className={styles.removepadding}>
 <LinkContainer to="/legacypictures">
-<p className={styles.clickabletext}>View Next >
+<p className={styles.clickabletext}>VIEW NEXT >
 </p>
 </LinkContainer>
 </Col>

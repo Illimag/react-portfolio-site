@@ -910,6 +910,21 @@ background: rgba(0,0,0,0.5);
 }
 
 
+.whitetitlehome{
+    color: #fff;
+    font-size:6vw !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 100%;
+    text-transform: uppercase;
+
+}
+
+
+
 .blacktitle{
     color: #000;
     font-size: 8vw !important;
@@ -936,7 +951,7 @@ background: rgba(0,0,0,0.5);
 
 
 .maincontentwrapper{
-    bottom:15rem;
+    bottom:10rem;
     position: absolute;
     padding-right: 5%;
 }
@@ -995,7 +1010,7 @@ background: rgba(0,0,0,0.5);
 
 
 .clickabletext{
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1em;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
@@ -1003,4 +1018,9 @@ background: rgba(0,0,0,0.5);
     color:#fff !important;
     letter-spacing: -1px;
     cursor: pointer;
+}
+
+
+.green{
+    color: #39ff14;
 }

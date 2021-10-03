@@ -196,15 +196,15 @@ export const Home = () => {
               
 <p className={styles.subtitlelargewhite}>Hillodesign</p>
 
-<p className={styles.whitetitle}>Welcome</p>
+<p className={styles.whitetitlehome}>SF BAY AREA & SIlicon Valley UI/UX Designer</p>
  
- <p className={styles.descriptionlargewhite}>UI/UX Designer from the San Francisco Bay Area, and Silicon Valley.
+ <p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
 </p>
 
 <Row>
   <Col className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
-<p className={styles.clickabletext}>View Portfolio >
+<p className={styles.clickabletext}>VIEW PORTFOLIO >
 </p>
 </LinkContainer>
 
@@ -213,7 +213,7 @@ export const Home = () => {
 
 <Col className={styles.removepadding}>
 <LinkContainer to="/contact">
-<p className={styles.clickabletext}>Contact Now >
+<p className={styles.clickabletext}>CONTACT NOW >
 </p>
 </LinkContainer>
 </Col>

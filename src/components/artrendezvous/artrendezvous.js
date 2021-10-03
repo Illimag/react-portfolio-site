@@ -112,28 +112,28 @@ export const Artrendezvous = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>ART•RENDEZ-VOUS</p>
+<p className={styles.subtitlelargewhite}>Case Study</p>
 
 <p className={styles.whitetitle}>Art Community Mobile App</p>
  
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>DATE</p>
-  <p className={styles.descriptionwhite}>July 2021 - Present</p>
+  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.descriptionwhite}>ART•RENDEZ-VOUS</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>ROLE</p>
+  <p className={styles.subtitlelargewhite}>Role</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>LOCATION</p>
+  <p className={styles.subtitlelargewhite}>Location</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
@@ -143,7 +143,7 @@ export const Artrendezvous = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.clickabletext}>View Case Study >
+<p className={styles.clickabletext}>VIEW CASE STUDY >
 </p>
 </AnchorLink>
 
@@ -151,7 +151,7 @@ export const Artrendezvous = () => (
 
 <Col className={styles.removepadding}>
 <LinkContainer to="/uguru">
-<p className={styles.clickabletext}>View Next >
+<p className={styles.clickabletext}>VIEW NEXT >
 </p>
 </LinkContainer>
 </Col>
@@ -232,7 +232,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="7">
+<Col md={8}>
 
 
 
@@ -265,7 +265,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="7">
+<Col md={8}>
 
 <CardGroup>
       <Card className={styles.backgroundgrey}>

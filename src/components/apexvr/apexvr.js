@@ -127,28 +127,28 @@ export const Apexvr = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>APEXVR</p>
+<p className={styles.subtitlelargewhite}>Case Study</p>
 
 <p className={styles.whitetitle}>VR Videography Web App</p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>DATE</p>
-  <p className={styles.descriptionwhite}>July 2021 - Present</p>
+  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.descriptionwhite}>ApexVR</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>ROLE</p>
+  <p className={styles.subtitlelargewhite}>Role</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>LOCATION</p>
+  <p className={styles.subtitlelargewhite}>Location</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
@@ -158,7 +158,7 @@ export const Apexvr = () => (
   <Col className={styles.removepadding}>
   <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.clickabletext}>View Case Study >
+<p className={styles.clickabletext}>VIEW CASE STUDY >
 </p>
 </AnchorLink>
 
@@ -166,7 +166,7 @@ export const Apexvr = () => (
 
 <Col className={styles.removepadding}>
 <LinkContainer to="/stepsaver">
-<p className={styles.clickabletext}>View Next >
+<p className={styles.clickabletext}>VIEW NEXT >
 </p>
 </LinkContainer>
 </Col>
