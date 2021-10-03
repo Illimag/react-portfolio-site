@@ -132,15 +132,26 @@ export const Home = () => {
   // myRef = React.createRef();
   /* Start of JSX Fragment*/
   return <>
+
+
   <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "10vh" }}>
   
-  <h1>Welcome to Jaeminkim.com</h1>
 
+
+              
+<Jumbotron className={styles.mainfloatback}>
+
+
+  <p className={styles.whitetitlehome}>Welcome to Hillodesign!</p>
+      <ProgressBar animated variant="success" now={currentProgress} />
+      <p className={styles.descriptionlargewhite}>Please wait while the website loads an awesome digital web experience just for you!</p>
       
-        
-      <ProgressBar animated now={currentProgress} />
-      <h1>Loading an Amazing Digital Experience just for you...</h1>
-    
+
+    </Jumbotron>
+
+
+
+
     </div>
     {images &&
     <div style={{ display: currentLoadingState ? "none" : "block" }}>
