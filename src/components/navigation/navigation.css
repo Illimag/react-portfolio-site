@@ -10,6 +10,8 @@ button:focus{
 
 .navbar-toggler-icon{
   background-image: url(../../assets/tt.png) !important;
+  width: 1.3em !important;
+  height: 1.6em !important;
 }
 
 .page {
