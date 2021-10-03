@@ -54,6 +54,7 @@ import Img25 from '../../assets/img/legacypictures/1-01.jpg';
 import Img26 from '../../assets/img/legacypictures/1-02.jpg';
 import Img27 from '../../assets/img/legacypictures/1-05.jpg';
 import Img28 from '../../assets/img/legacypictures/Untitled-1-01.png';
+import Img29 from '../../assets/1114124.PNG';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
@@ -122,7 +123,7 @@ export const Legacypictures = () => (
               
 <p className={styles.subtitlelargewhite}>Case Study #1</p>
 
-<p className={styles.whitetitle}>How To Redesign A Web App in 2021 as a Modern Designer</p>
+<p className={styles.whitetitle}>How To Redesign A Web App</p>
  
 
 <CardGroup>
@@ -221,6 +222,45 @@ export const Legacypictures = () => (
 
 
 
+
+
+
+
+        <Container fluid className={styles.test1}>
+        <div id="test"></div>
+
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={4}>
+
+
+
+
+            <p className={styles.subtitlesmallblackcenter}>MacBook Pro</p>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
+
+                        <div className={styles.spaceingwhite}></div>
+            <div className={styles.spaceingwhite}></div>
+
+            <Image src={Img29} fluid className={styles.centerimage}/>
+
+
+            <div className={styles.spaceingwhite}></div>
+            <div className={styles.spaceingwhite}></div>
+
+
+            <p className={styles.descriptionlargeblackbold}>Designed for those who defy limits and change the world,
+the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
+
+            <div className={styles.spaceingwhite}></div>
+            <div className={styles.spaceingwhite}></div>
+
+</Col>
+</Row>
+</Container>
 
 
 

@@ -114,7 +114,7 @@ export const Artrendezvous = () => (
               
 <p className={styles.subtitlelargewhite}>Case Study #2</p>
 
-<p className={styles.whitetitle}>Art Community iOS Mobile App Startup</p>
+<p className={styles.whitetitle}>Art Community Mobile App</p>
  
 <CardGroup>
 <Card className={styles.cardborder}>
