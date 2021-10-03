@@ -102,19 +102,39 @@ export const Contact = () => (
 
 
 
-<Container className={styles.test}>
+<Container className={styles.test1}>
          
 
-
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+
+<Row className="justify-content-md-center">
+
+ <Col md={6} className={styles.removepadding}>
+<Container className={styles.fonttest}>
+
+<Card>
+  <Card.Header>Resume</Card.Header>
+  <Card.Body>
 
 
 
-  <iframe src="https://drive.google.com/file/d/1GCXLZT9zx_x3TgRXVX-O2L0NNtk4EjrL/preview" width="100%" height="700" allow="autoplay" scrolling="yes"></iframe>
 
 
+
+
+  <iframe src="https://drive.google.com/file/d/1GCXLZT9zx_x3TgRXVX-O2L0NNtk4EjrL/preview" width="100%" height="600" allow="autoplay" scrolling="yes"></iframe>
+
+  </Card.Body>
+</Card>
+
+
+</Container>
+</Col>
+
+</Row>
 
 
 
