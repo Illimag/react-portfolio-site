@@ -117,7 +117,7 @@ export const Home = () => {
   
   const dispatch = useDispatch();
   const getImageUrls = () => {
-    return importAll(require.context('../../assets/finalhomepagevid', false, /\.(png|jpe?g|svg|mp4|m4v)$/))
+    return importAll(require.context('../../assets/newhomepagevids', false, /\.(png|jpe?g|svg|mp4|m4v)$/))
   }
 
   const currentLoadingState = useSelector(state => getLoadingState(state));
@@ -177,19 +177,19 @@ export const Home = () => {
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[1]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
+                <source src={images[1]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
+                <source src={images[1]}/>
               </video>
                 }
 
@@ -243,6 +243,535 @@ export const Home = () => {
           </Row>
           
         </Container>
+
+
+
+
+
+
+
+
+
+
+        <Container className={styles.test2}>
+
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatback}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[2]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[3]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[3]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={8} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatback}>
+  <div className={styles.maincontentwrapper}>
+
+    
+<p className={styles.subtitlelargewhite}>Hillodesign</p>
+
+<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+
+<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
+</p>
+
+<Row>
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/legacypictures">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+</p>
+</LinkContainer>
+
+</Col>
+
+
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/contact">
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+</p>
+</LinkContainer>
+</Col>
+</Row>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+
+
+<Container className={styles.test2}>
+
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatback}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[4]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[5]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[5]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={8} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatback}>
+  <div className={styles.maincontentwrapper}>
+
+    
+<p className={styles.subtitlelargewhite}>Hillodesign</p>
+
+<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+
+<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
+</p>
+
+<Row>
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/legacypictures">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+</p>
+</LinkContainer>
+
+</Col>
+
+
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/contact">
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+</p>
+</LinkContainer>
+</Col>
+</Row>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+
+
+
+<Container className={styles.test2}>
+
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatback}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={8} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatback}>
+  <div className={styles.maincontentwrapper}>
+
+    
+<p className={styles.subtitlelargewhite}>Hillodesign</p>
+
+<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+
+<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
+</p>
+
+<Row>
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/legacypictures">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+</p>
+</LinkContainer>
+
+</Col>
+
+
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/contact">
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+</p>
+</LinkContainer>
+</Col>
+</Row>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+
+
+
+<Container className={styles.test2}>
+
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatback}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[8]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[9]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[9]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={8} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatback}>
+  <div className={styles.maincontentwrapper}>
+
+    
+<p className={styles.subtitlelargewhite}>Hillodesign</p>
+
+<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+
+<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
+</p>
+
+<Row>
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/legacypictures">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+</p>
+</LinkContainer>
+
+</Col>
+
+
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/contact">
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+</p>
+</LinkContainer>
+</Col>
+</Row>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+
+
+
+<Container className={styles.test2}>
+
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatback}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[10]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[11]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[11]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={8} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatback}>
+  <div className={styles.maincontentwrapper}>
+
+    
+<p className={styles.subtitlelargewhite}>Hillodesign</p>
+
+<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+
+<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
+</p>
+
+<Row>
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/legacypictures">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+</p>
+</LinkContainer>
+
+</Col>
+
+
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/contact">
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+</p>
+</LinkContainer>
+</Col>
+</Row>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+
+
+<Container className={styles.test2}>
+
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatback}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[12]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[13]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[13]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={8} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatback}>
+  <div className={styles.maincontentwrapper}>
+
+    
+<p className={styles.subtitlelargewhite}>Hillodesign</p>
+
+<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+
+<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
+</p>
+
+<Row>
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/legacypictures">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+</p>
+</LinkContainer>
+
+</Col>
+
+
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/contact">
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+</p>
+</LinkContainer>
+</Col>
+</Row>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+
+
 
 
 </div>
