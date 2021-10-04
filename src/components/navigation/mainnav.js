@@ -68,7 +68,7 @@ function MainNav() {
         <ScrollToTop>
           <>
          
-          <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" >
+          <Navbar collapseOnSelect className={styles.navbar} expand="lg" sticky="top" >
           <a href="/">
                 <Navbar.Brand className={styles.logo}>
                 <Image src={logo} fluid />

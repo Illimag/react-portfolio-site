@@ -62,3 +62,9 @@ p{
     margin-bottom: 5% !important;
 }
 
+
+
+.progress-bar{
+    animation-direction: reverse;
+    background: linear-gradient(to right, #e5405e 0%, #ffdb3a 45%, #3fffa2 100%);
+}
