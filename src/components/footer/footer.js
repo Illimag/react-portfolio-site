@@ -127,7 +127,7 @@ const Footer = () => (
   <Row className={styles.socialrow}>
 
     <Col xs={3} md={3} className={styles.centericon}>
-      <a href="https://www.linkedin.com/in/jaeminkim-com">
+      <a href="https://www.linkedin.com/in/hillodesign">
         <Image src={Linkedin} roundedCircle className={styles.icons} />
       </a>
     </Col>
@@ -139,13 +139,13 @@ const Footer = () => (
     </Col>
 
     <Col xs={3} md={3} className={styles.centericon}>
-      <a href="https://github.com/jaeminkim-com">
+      <a href="https://dribbble.com/hillodesign">
         <Image src={Dribbble} roundedCircle className={styles.icons} />
       </a>
     </Col>
 
     <Col xs={3} md={3} className={styles.centericon}>
-      <a href="https://github.com/jaeminkim-com">
+      <a href="https://github.com/hillodesign">
         <Image src={Github} roundedCircle className={styles.icons} />
       </a>
     </Col>
