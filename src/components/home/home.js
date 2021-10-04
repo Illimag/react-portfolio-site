@@ -124,11 +124,14 @@ export const Home = () => {
   const currentProgress = useSelector(state => getCurrentProgress(state));
   const images = useSelector(state => getImages(state));
 
+  const now = currentProgress;
+
   useEffect(() => {
     let urls = getImageUrls();
     dispatch(loadImage(urls))
   }, [])
 
+  
   // myRef = React.createRef();
   /* Start of JSX Fragment*/
   return <>
@@ -143,7 +146,7 @@ export const Home = () => {
 
 
   <p className={styles.whitetitlehome}>Welcome to Hillodesign!</p>
-      <ProgressBar now={currentProgress}/>
+      <ProgressBar animated now={currentProgress} label={` Loading in Progress ${now}%`}/>
       <p className={styles.descriptionlargewhite}>Please wait while the website loads an awesome digital web experience just for you!</p>
       
 
@@ -207,7 +210,7 @@ export const Home = () => {
               
 <p className={styles.subtitlelargewhite}>Hillodesign</p>
 
-<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+<p className={styles.whitetitlehome}>San Francisco Bay Area & Silicon Valley UI/UX Designer</p>
  
  <p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
 </p>
