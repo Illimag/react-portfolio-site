@@ -105,15 +105,8 @@ export const Contact = () => (
 <Container className={styles.test1}>
          
 
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
 
-
-
-
-
-  <iframe src="https://drive.google.com/file/d/1GCXLZT9zx_x3TgRXVX-O2L0NNtk4EjrL/preview" width="100%" height="600" allow="autoplay" scrolling="no"></iframe>
+  <iframe src="https://drive.google.com/file/d/1GCXLZT9zx_x3TgRXVX-O2L0NNtk4EjrL/preview" width="100%" height="800" allow="autoplay" scrolling="no"></iframe>
 
 
 </Container>

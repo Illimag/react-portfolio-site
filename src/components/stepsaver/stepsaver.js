@@ -157,8 +157,8 @@ export const Stepsaver = () => (
 </Col>
 
 <Col className={styles.removepadding}>
-<LinkContainer to="/legacypictures">
-<p className={styles.clickabletext}>VIEW NEXT >
+<LinkContainer to="/contact">
+<p className={styles.clickabletext}>VIEW RESUME >
 </p>
 </LinkContainer>
 </Col>

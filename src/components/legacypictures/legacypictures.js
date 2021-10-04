@@ -61,6 +61,7 @@ import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
 import Img32 from '../../assets/MacBook Pro Mockup.png';
 import Img33 from '../../assets/XDR Mockup.png';
 
+
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
@@ -354,13 +355,6 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 </Container>
-
-
-
-
-
-
-
 
 
 
