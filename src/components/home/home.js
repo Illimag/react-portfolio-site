@@ -124,7 +124,8 @@ export const Home = () => {
   const currentProgress = useSelector(state => getCurrentProgress(state));
   const images = useSelector(state => getImages(state));
 
-  const now = currentProgress;
+  const now = Math.round(currentProgress);
+  console.log(now)
 
   useEffect(() => {
     let urls = getImageUrls();
