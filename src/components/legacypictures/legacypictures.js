@@ -55,6 +55,8 @@ import Img26 from '../../assets/img/legacypictures/1-02.jpg';
 import Img27 from '../../assets/img/legacypictures/1-05.jpg';
 import Img28 from '../../assets/img/legacypictures/Untitled-1-01.png';
 import Img29 from '../../assets/1114124.PNG';
+import Img30 from '../../assets/hero-gradient.png';
+
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
@@ -226,9 +228,8 @@ export const Legacypictures = () => (
 
 
 
-        <Container fluid className={styles.test1}>
+        <Container fluid className={styles.test}>
         <div id="test"></div>
-
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
@@ -258,9 +259,116 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
             <div className={styles.spaceingwhite}></div>
             <div className={styles.spaceingwhite}></div>
 
+
 </Col>
 </Row>
+
+
 </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+            <Image src={Img30} fluid className={styles.testgradientbackground}/>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
+    
+            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      <Image src={Img28} fluid />
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+<CardGroup>
+      <Card className={styles.backgroundtransparent}>
+        <Card.Body>
+          <Card.Title>    
+            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
+          </Card.Title>
+          <Card.Title>    
+            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+          </Card.Title>
+          <Image src={Img28} fluid />
+
+        </Card.Body>
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+        <Card.Body>
+          <Card.Title>
+          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
+              
+    <div className={styles.paddingleft}>
+    <ul className={styles.listlargeblack}>
+      <li className={styles.listitemlargeblack}>Users of the website</li>
+      <li className={styles.listitemlargeblack}>Executives</li>
+      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    </ul>
+    </div>
+              </Card.Text>
+        </Card.Body>
+      </Card>
+      </CardGroup>
+
+    </Col>
+</Row>
+
+
+
+
+
+</Container>
+
+
+
+
+
+
+
+
+
+
 
 
 

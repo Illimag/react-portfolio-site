@@ -84,6 +84,32 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4adede",endCo
 position: relative;
 }
 
+.testgradientbackground{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+
+
+
 .mainfullscreen{
     /*
     background-color: #4ADEDE !important;
@@ -1083,4 +1109,10 @@ background: rgba(0,0,0,0.5);
     letter-spacing: -1px;
     line-height: 100%;
 
+}
+
+
+.backgroundtransparent{
+    background: transparent !important;
+    border: transparent !important;
 }
