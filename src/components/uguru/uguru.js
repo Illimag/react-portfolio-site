@@ -143,23 +143,25 @@ export const Uguru = () => (
 </Card>
 </CardGroup>
 
-<Row>
-  <Col className={styles.removepadding}>
-  <AnchorLink href='#test' className={styles.paddingleft}>     
 
-<p className={styles.clickabletext}>VIEW CASE STUDY >
+<Row>
+  <Col xs={12} md={3} className={styles.removepadding}>
+  <AnchorLink href="/test">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>Learn More - Uguru, INC</Button>
 </p>
 </AnchorLink>
 
 </Col>
 
-<Col className={styles.removepadding}>
+
+<Col xs={12} md={3} className={styles.removepadding}>
 <LinkContainer to="/sanchezcoffeeco">
-<p className={styles.clickabletext}>VIEW NEXT >
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>View Next - Sanchez Coffee Co.</Button>
 </p>
 </LinkContainer>
 </Col>
-
 </Row>
 
 </div>

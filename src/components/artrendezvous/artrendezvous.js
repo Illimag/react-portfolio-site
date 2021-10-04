@@ -140,22 +140,23 @@ export const Artrendezvous = () => (
 </CardGroup>
 
 <Row>
-  <Col className={styles.removepadding}>
-  <AnchorLink href='#test' className={styles.paddingleft}>     
-
-<p className={styles.clickabletext}>VIEW CASE STUDY >
+  <Col xs={12} md={3} className={styles.removepadding}>
+  <AnchorLink href="/test">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>Learn More - Artrendezvous</Button>
 </p>
 </AnchorLink>
 
 </Col>
 
-<Col className={styles.removepadding}>
+
+<Col xs={12} md={3} className={styles.removepadding}>
 <LinkContainer to="/uguru">
-<p className={styles.clickabletext}>VIEW NEXT >
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>View Next - Uguru, INC</Button>
 </p>
 </LinkContainer>
 </Col>
-
 </Row>
 
 </div>

@@ -213,18 +213,20 @@ export const Home = () => {
 </p>
 
 <Row>
-  <Col className={styles.removepadding}>
+  <Col xs={12} md={3} className={styles.removepadding}>
   <LinkContainer to="/legacypictures">
-<p className={styles.clickabletext}>VIEW PORTFOLIO >
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
 </p>
 </LinkContainer>
 
 </Col>
 
 
-<Col className={styles.removepadding}>
+<Col xs={12} md={3} className={styles.removepadding}>
 <LinkContainer to="/contact">
-<p className={styles.clickabletext}>VIEW RESUME >
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>Looking for Resume?</Button>
 </p>
 </LinkContainer>
 </Col>

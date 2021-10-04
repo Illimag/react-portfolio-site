@@ -145,22 +145,23 @@ export const Sanchezcoffeeco = () => (
 </CardGroup>
 
 <Row>
-  <Col className={styles.removepadding}>
-  <AnchorLink href='#test' className={styles.paddingleft}>     
-
-<p className={styles.clickabletext}>VIEW CASE STUDY >
+  <Col xs={12} md={3} className={styles.removepadding}>
+  <AnchorLink href="/test">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>Learn More - Sanchez Coffee Co.</Button>
 </p>
 </AnchorLink>
 
 </Col>
 
-<Col className={styles.removepadding}>
+
+<Col xs={12} md={3} className={styles.removepadding}>
 <LinkContainer to="/apexvr">
-<p className={styles.clickabletext}>VIEW NEXT >
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>View Next - ApexVR</Button>
 </p>
 </LinkContainer>
 </Col>
-
 </Row>
 
 

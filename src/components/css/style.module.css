@@ -924,7 +924,7 @@ background: rgba(0,0,0,0.5);
 
 .whitetitle{
     color: #fff;
-    font-size:6vw !important;
+    font-size:8vw !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     font-family: 'Inter', sans-serif;
@@ -938,7 +938,7 @@ background: rgba(0,0,0,0.5);
 
 .whitetitlehome{
     color: #fff;
-    font-size:4vw !important;
+    font-size:6vw !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     font-family: 'Inter', sans-serif;
@@ -990,12 +990,36 @@ background: rgba(0,0,0,0.5);
 .mainbutton{
     color: #fff;
 
-    font-size: 2rem !important;
+    font-size: 1rem !important;
     font-family: 'Inter', sans-serif;
-    font-weight: 900 !important;
+    font-weight: 500 !important;
     margin-right: 0px !important;
-    text-decoration: underline;
     
+    border-radius: 2.6rem !important;
+    padding: 0 1rem !important;
+    height: 2.6rem !important;
+    margin: 8px 0 !important;
+    border: none !important;
+    place-content: center !important;
+    place-items: center !important;
+
+}
+
+.secondarybutton{
+    background-color: red !important;
+
+    font-size: 1rem !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500 !important;
+    margin-right: 0px !important;
+    
+    border-radius: 2.6rem !important;
+    padding: 0 1rem !important;
+    height: 2.6rem !important;
+    margin: 8px 0 !important;
+    border: none !important;
+    place-content: center !important;
+    place-items: center !important;
 }
 
 .cardborder{

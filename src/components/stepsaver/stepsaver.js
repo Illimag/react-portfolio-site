@@ -147,23 +147,23 @@ export const Stepsaver = () => (
 </CardGroup>
 
 <Row>
-  <Col className={styles.removepadding}>
-  <AnchorLink href='#test' className={styles.paddingleft}>     
-
-<p className={styles.clickabletext}>VIEW CASE STUDY >
+  <Col xs={12} md={3} className={styles.removepadding}>
+  <AnchorLink href="/test">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>Learn More - Stepsaver</Button>
 </p>
 </AnchorLink>
 
 </Col>
 
-<Col className={styles.removepadding}>
-<LinkContainer to="/contact">
-<p className={styles.clickabletext}>VIEW RESUME >
+
+<Col xs={12} md={3} className={styles.removepadding}>
+<LinkContainer to="/Contact">
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>View Resume</Button>
 </p>
 </LinkContainer>
 </Col>
-
-
 </Row>
 
 </div>

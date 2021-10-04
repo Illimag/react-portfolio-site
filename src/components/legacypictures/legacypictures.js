@@ -157,22 +157,23 @@ export const Legacypictures = () => (
 
 
 <Row>
-  <Col className={styles.removepadding}>
-  <AnchorLink href='#test' className={styles.paddingleft}>     
-
-<p className={styles.clickabletext}>VIEW CASE STUDY >
+  <Col xs={12} md={3} className={styles.removepadding}>
+  <AnchorLink href="/test">
+<p className={styles.clickabletext}>
+<Button className={styles.mainbutton}>Learn More - Legacy Pictures</Button>
 </p>
 </AnchorLink>
 
 </Col>
 
-<Col className={styles.removepadding}>
+
+<Col xs={12} md={3} className={styles.removepadding}>
 <LinkContainer to="/artrendezvous">
-<p className={styles.clickabletext}>VIEW NEXT >
+<p className={styles.clickabletext}>
+<Button className={styles.secondarybutton}>View Next - ArtrendezVous</Button>
 </p>
 </LinkContainer>
 </Col>
-
 </Row>
 
 </div>
