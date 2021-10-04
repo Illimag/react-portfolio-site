@@ -126,8 +126,6 @@ export const Apexvr = () => (
         <div id="test"></div>
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
 <Col md={4}>
 

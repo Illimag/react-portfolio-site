@@ -163,8 +163,6 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
             <Image src={Img30} fluid className={styles.testgradientbackground}/>
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
 <Col md={8}>
 

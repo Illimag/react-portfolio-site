@@ -54,7 +54,7 @@ import Img25 from '../../assets/img/legacypictures/1-01.jpg';
 import Img26 from '../../assets/img/legacypictures/1-02.jpg';
 import Img27 from '../../assets/img/legacypictures/1-05.jpg';
 import Img28 from '../../assets/img/legacypictures/Untitled-1-01.png';
-import Img29 from '../../assets/1114124.PNG';
+import Img29 from '../../assets/HP Prodesk Mockup.png';
 import Img30 from '../../assets/hero-gradient.png';
 
 import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
@@ -113,8 +113,6 @@ export const Legacypictures = () => (
 
         <Container fluid className={styles.test}>
         <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">

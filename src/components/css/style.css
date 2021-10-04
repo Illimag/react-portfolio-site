@@ -66,5 +66,5 @@ p{
 
 .progress-bar{
     animation-direction: reverse;
-    background: linear-gradient(to right, #e5405e 0%, #ffdb3a 45%, #3fffa2 100%);
+    background: linear-gradient(to right, red 0%, #ffdb3a 45%, #39ff14 100%);
 }
