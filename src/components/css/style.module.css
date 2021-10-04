@@ -924,19 +924,6 @@ background: rgba(0,0,0,0.5);
 
 .whitetitle{
     color: #fff;
-    font-size:8vw !important;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    letter-spacing: -1px;
-    line-height: 100%;
-
-}
-
-
-.whitetitlehome{
-    color: #fff;
     font-size:6vw !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
@@ -944,6 +931,21 @@ background: rgba(0,0,0,0.5);
     font-weight: 900;
     letter-spacing: -1px;
     line-height: 100%;
+    text-transform: uppercase;
+
+}
+
+
+.whitetitlehome{
+    color: #fff;
+    font-size:4vw !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 100%;
+    text-transform: uppercase;
 
 }
 

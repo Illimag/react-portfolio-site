@@ -57,6 +57,9 @@ import Img28 from '../../assets/img/legacypictures/Untitled-1-01.png';
 import Img29 from '../../assets/1114124.PNG';
 import Img30 from '../../assets/hero-gradient.png';
 
+import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
+import Img32 from '../../assets/MacBook Pro Mockup.png';
+import Img33 from '../../assets/XDR Mockup.png';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
@@ -123,7 +126,7 @@ export const Legacypictures = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Case Study #1</p>
+<p className={styles.subtitlelargewhite}>Legacy Pictures</p>
 
 <p className={styles.whitetitle}>How To Redesign A Web App</p>
  
@@ -303,7 +306,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
       </Card>
 
       <Card className={styles.backgroundtransparent}>
-      <Image src={Img28} fluid />
+      <Image src={Img31} fluid />
       </Card>
       </CardGroup>
 
@@ -319,13 +322,8 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <CardGroup>
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-          </Card.Title>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-          </Card.Title>
-          <Image src={Img28} fluid />
+      
+          <Image src={Img32} fluid />
 
         </Card.Body>
       </Card>
@@ -353,9 +351,6 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
     </Col>
 </Row>
-
-
-
 
 
 </Container>
