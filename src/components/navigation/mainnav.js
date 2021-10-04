@@ -63,15 +63,20 @@ function MainNav() {
 
   return (
     <>
-      <div></div>
 
       <Router>
         <ScrollToTop>
           <>
          
-         
-         
-         
+          <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" >
+          <a href="/">
+                <Navbar.Brand className={styles.logo}>
+                <Image src={logo} fluid />
+                <h5 className={styles.test1title}>HILLODESIGN</h5>
+
+                </Navbar.Brand>
+              </a>
+              </Navbar>
 
             
           </>
