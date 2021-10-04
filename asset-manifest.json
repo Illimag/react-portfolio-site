@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6472f36b.chunk.css",
-    "main.js": "/static/js/main.d1094abd.chunk.js",
-    "main.js.map": "/static/js/main.d1094abd.chunk.js.map",
+    "main.css": "/static/css/main.6d5238c7.chunk.css",
+    "main.js": "/static/js/main.efa5e56e.chunk.js",
+    "main.js.map": "/static/js/main.efa5e56e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
     "static/js/2.7aeabd25.chunk.js": "/static/js/2.7aeabd25.chunk.js",
     "static/js/2.7aeabd25.chunk.js.map": "/static/js/2.7aeabd25.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f069fe37f1c852b5e9c15fd65960e18f.js": "/precache-manifest.f069fe37f1c852b5e9c15fd65960e18f.js",
+    "precache-manifest.ae0861d2d5f702b030dca59f149715ad.js": "/precache-manifest.ae0861d2d5f702b030dca59f149715ad.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
-    "static/css/main.6472f36b.chunk.css.map": "/static/css/main.6472f36b.chunk.css.map",
+    "static/css/main.6d5238c7.chunk.css.map": "/static/css/main.6d5238c7.chunk.css.map",
     "static/js/2.7aeabd25.chunk.js.LICENSE.txt": "/static/js/2.7aeabd25.chunk.js.LICENSE.txt",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
     "static/media/1-01.a0dc8113.jpg": "/static/media/1-01.a0dc8113.jpg",
@@ -49,9 +49,12 @@
     "static/media/6.mp4": "/static/media/6.95899b6c.mp4",
     "static/media/Capture.PNG": "/static/media/Capture.c2366a33.PNG",
     "static/media/IMG-1114.PNG": "/static/media/IMG-1114.d7fc873a.PNG",
+    "static/media/MacBook Pro Mockup (Dark & Light).ad14fffa.png": "/static/media/MacBook Pro Mockup (Dark & Light).ad14fffa.png",
+    "static/media/MacBook Pro Mockup.b589f2ac.png": "/static/media/MacBook Pro Mockup.b589f2ac.png",
     "static/media/Mobile-Mockup.89cb3338.png": "/static/media/Mobile-Mockup.89cb3338.png",
     "static/media/Untitled-1-01.234938e6.png": "/static/media/Untitled-1-01.234938e6.png",
     "static/media/Website-User-scenario-workflow.e9e2ac6c.png": "/static/media/Website-User-scenario-workflow.e9e2ac6c.png",
+    "static/media/XDR Mockup.870d253f.png": "/static/media/XDR Mockup.870d253f.png",
     "static/media/banner-02.dee80891.jpg": "/static/media/banner-02.dee80891.jpg",
     "static/media/banner-06.23ed947e.jpg": "/static/media/banner-06.23ed947e.jpg",
     "static/media/banner-06.92386e26.jpg": "/static/media/banner-06.92386e26.jpg",
@@ -108,7 +111,7 @@
     "static/js/runtime-main.672f7f98.js",
     "static/css/2.46b578d6.chunk.css",
     "static/js/2.7aeabd25.chunk.js",
-    "static/css/main.6472f36b.chunk.css",
-    "static/js/main.d1094abd.chunk.js"
+    "static/css/main.6d5238c7.chunk.css",
+    "static/js/main.efa5e56e.chunk.js"
   ]
 }
