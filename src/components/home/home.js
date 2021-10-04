@@ -147,7 +147,7 @@ export const Home = () => {
 
 
   <p className={styles.whitetitlehome}>Welcome to Hillodesign!</p>
-      <ProgressBar animated now={currentProgress} label={` Loading in Progress ${now}%`}/>
+      <ProgressBar animated now={currentProgress} label={` Completed ${now}%`}/>
       <p className={styles.descriptionlargewhite}>Please wait while the website loads an awesome digital web experience just for you!</p>
       
 

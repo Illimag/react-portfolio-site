@@ -1006,8 +1006,8 @@ background: rgba(0,0,0,0.5);
 }
 
 .secondarybutton{
-    background-color: black !important;
-
+    background-color: white !important;
+    color: #000 !important;
     font-size: 1rem !important;
     font-family: 'Inter', sans-serif;
     font-weight: 500 !important;
