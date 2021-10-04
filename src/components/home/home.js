@@ -214,11 +214,11 @@ export const Home = () => {
 
 <Row>
   <Col xs={12} md={3} className={styles.removepadding}>
-  <LinkContainer to="/legacypictures">
+  <AnchorLink href="/test">
 <p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+<Button className={styles.mainbutton}>View Portfolio Now</Button>
 </p>
-</LinkContainer>
+</AnchorLink>
 
 </Col>
 
@@ -254,7 +254,7 @@ export const Home = () => {
 
 
         <Container className={styles.test2}>
-
+        <div id="test"></div>
   
 <Row className="justify-content-md-center">
      <Jumbotron className={styles.testfloatback}>
@@ -298,19 +298,41 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatback}>
   <div className={styles.maincontentwrapper}>
 
+         
+<p className={styles.subtitlelargewhite}>Legacy Pictures</p>
+
+<p className={styles.whitetitle}>How To Redesign A Web App</p>
+ 
+
+<CardGroup>
+<Card className={styles.cardborder}>
     
-<p className={styles.subtitlelargewhite}>Hillodesign</p>
+  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.descriptionwhite}>Legacy Pictures</p>
 
-<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
-<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
-</p>
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
+  
+</Card>
+</CardGroup>
+
 
 <Row>
 <Col xs={12} md={3} className={styles.removepadding}>
 <LinkContainer to="/legacypictures">
 <p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+<Button className={styles.mainbutton}>View Case Study</Button>
 </p>
 </LinkContainer>
 
@@ -318,11 +340,11 @@ large: "(min-width: 1200px)"
 
 
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/contact">
+<AnchorLink href="/test1">
 <p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+<Button className={styles.secondarybutton}>View Next</Button>
 </p>
-</LinkContainer>
+</AnchorLink>
 </Col>
 </Row>
 
@@ -340,7 +362,7 @@ large: "(min-width: 1200px)"
 
 
 <Container className={styles.test2}>
-
+<div id="test1"></div>
   
 <Row className="justify-content-md-center">
      <Jumbotron className={styles.testfloatback}>
@@ -385,18 +407,39 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-<p className={styles.subtitlelargewhite}>Hillodesign</p>
+  <p className={styles.subtitlelargewhite}>Artrendezvous</p>
 
-<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+<p className={styles.whitetitle}>Art Community Mobile App</p>
+ 
+<CardGroup>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.descriptionwhite}>ART•RENDEZ-VOUS</p>
 
-<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
-</p>
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.descriptionwhite}>UI/UX Designer</p>
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
+  
+</Card>
+</CardGroup>
+
 
 <Row>
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/legacypictures">
+<LinkContainer to="/artrendezvous">
 <p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+<Button className={styles.mainbutton}>View Case Study</Button>
 </p>
 </LinkContainer>
 
@@ -404,11 +447,11 @@ large: "(min-width: 1200px)"
 
 
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/contact">
+<AnchorLink href="/test2">
 <p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+<Button className={styles.secondarybutton}>View Next</Button>
 </p>
-</LinkContainer>
+</AnchorLink>
 </Col>
 </Row>
 
@@ -427,7 +470,7 @@ large: "(min-width: 1200px)"
 
 
 <Container className={styles.test2}>
-
+<div id="test2"></div>
   
 <Row className="justify-content-md-center">
      <Jumbotron className={styles.testfloatback}>
@@ -472,18 +515,39 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-<p className={styles.subtitlelargewhite}>Hillodesign</p>
+  <p className={styles.subtitlelargewhite}>Uguru, INC</p>
 
-<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+<p className={styles.whitetitle}>SF SOMA Mobile App Startup</p>
 
-<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
-</p>
+<CardGroup>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.descriptionwhite}>Uguru, INC.</p>
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.descriptionwhite}>UI/UX Designer</p>
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
+  
+</Card>
+</CardGroup>
+
 
 <Row>
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/legacypictures">
+<LinkContainer to="/uguru">
 <p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+<Button className={styles.mainbutton}>View Case Study</Button>
 </p>
 </LinkContainer>
 
@@ -491,13 +555,14 @@ large: "(min-width: 1200px)"
 
 
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/contact">
+<AnchorLink href="/test3">
 <p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+<Button className={styles.secondarybutton}>View Next</Button>
 </p>
-</LinkContainer>
+</AnchorLink>
 </Col>
 </Row>
+
 
 </div>
     </Jumbotron>
@@ -514,7 +579,7 @@ large: "(min-width: 1200px)"
 
 
 <Container className={styles.test2}>
-
+<div id="test3"></div>
   
 <Row className="justify-content-md-center">
      <Jumbotron className={styles.testfloatback}>
@@ -559,18 +624,40 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-<p className={styles.subtitlelargewhite}>Hillodesign</p>
+  <p className={styles.subtitlelargewhite}>Sanchez Coffee Co.</p>
 
-<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+<p className={styles.whitetitle}>Ecommerce Coffee Web App</p>
 
-<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
-</p>
+
+<CardGroup>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.descriptionwhite}>Sanchez Coffee Co.</p>
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.descriptionwhite}>UI/UX Designer</p>
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
+  
+</Card>
+</CardGroup>
+
 
 <Row>
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/legacypictures">
+<LinkContainer to="/sanchezcoffeeco">
 <p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+<Button className={styles.mainbutton}>View Case Study</Button>
 </p>
 </LinkContainer>
 
@@ -578,11 +665,11 @@ large: "(min-width: 1200px)"
 
 
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/contact">
+<AnchorLink href="/test4">
 <p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+<Button className={styles.secondarybutton}>View Next</Button>
 </p>
-</LinkContainer>
+</AnchorLink>
 </Col>
 </Row>
 
@@ -601,7 +688,7 @@ large: "(min-width: 1200px)"
 
 
 <Container className={styles.test2}>
-
+<div id="test4"></div>
   
 <Row className="justify-content-md-center">
      <Jumbotron className={styles.testfloatback}>
@@ -646,18 +733,39 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-<p className={styles.subtitlelargewhite}>Hillodesign</p>
+  <p className={styles.subtitlelargewhite}>ApexVR</p>
 
-<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+<p className={styles.whitetitle}>VR Videography Web App</p>
 
-<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
-</p>
+<CardGroup>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.descriptionwhite}>ApexVR</p>
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.descriptionwhite}>UI/UX Designer</p>
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
+  
+</Card>
+</CardGroup>
+
 
 <Row>
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/legacypictures">
+<LinkContainer to="/apexvr">
 <p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+<Button className={styles.mainbutton}>View Case Study</Button>
 </p>
 </LinkContainer>
 
@@ -665,13 +773,14 @@ large: "(min-width: 1200px)"
 
 
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/contact">
+<AnchorLink href="/test5">
 <p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+<Button className={styles.secondarybutton}>View Next</Button>
 </p>
-</LinkContainer>
+</AnchorLink>
 </Col>
 </Row>
+
 
 </div>
     </Jumbotron>
@@ -687,7 +796,7 @@ large: "(min-width: 1200px)"
 
 
 <Container className={styles.test2}>
-
+<div id="test5"></div>
   
 <Row className="justify-content-md-center">
      <Jumbotron className={styles.testfloatback}>
@@ -732,18 +841,39 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-<p className={styles.subtitlelargewhite}>Hillodesign</p>
+  <p className={styles.subtitlelargewhite}>Stepsaver</p>
 
-<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+<p className={styles.whitetitle}>Houston Valet Tech Startup </p>
+ 
 
-<p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
-</p>
+<CardGroup>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.descriptionwhite}>Stepsaver</p>
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.descriptionwhite}>UI/UX Designer</p>
+
+  
+</Card>
+<Card className={styles.cardborder}>
+    
+  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
+  
+</Card>
+</CardGroup>
 
 <Row>
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/legacypictures">
+<LinkContainer to="/stepsaver">
 <p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Portfolio - Case Study</Button>
+<Button className={styles.mainbutton}>View Case Study</Button>
 </p>
 </LinkContainer>
 
@@ -751,11 +881,11 @@ large: "(min-width: 1200px)"
 
 
 <Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/contact">
+<AnchorLink href="/test">
 <p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>Looking for Resume?</Button>
+<Button className={styles.secondarybutton}>Back to Top</Button>
 </p>
-</LinkContainer>
+</AnchorLink>
 </Col>
 </Row>
 

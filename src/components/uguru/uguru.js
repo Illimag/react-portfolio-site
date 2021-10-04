@@ -60,6 +60,15 @@ import Img28 from '../../assets/img/legacypictures/ttt-01.png';
 import Img25 from '../../assets/img/legacypictures/1-01.jpg';
 import Img26 from '../../assets/img/legacypictures/1-02.jpg';
 
+import Img29 from '../../assets/1114124.PNG';
+import Img30 from '../../assets/hero-gradient.png';
+
+import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
+import Img32 from '../../assets/MacBook Pro Mockup.png';
+import Img33 from '../../assets/XDR Mockup.png';
+
+
+
 import ImgA from '../../assets/img/uguru/testpics-02.png';
 import ImgB from '../../assets/img/uguru/testpics-03.png';
 import ImgC from '../../assets/img/uguru/testpics-03.png';
@@ -105,106 +114,47 @@ export const Uguru = () => (
 
 
 
-  <Container className={styles.test2}>
-          <Row className="justify-content-md-center">
-               <Jumbotron className={styles.testfloatback}>
-              </Jumbotron>
-            <Col md={8} className={styles.removepadding}>
-
-              
-            <Jumbotron className={styles.mainfloatback}>
-            <div className={styles.maincontentwrapper}>
-
-              
-            <p className={styles.subtitlelargewhite}>Case Study 03/06</p>
-
-<p className={styles.whitetitle}>SF SOMA Mobile App Startup</p>
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhite}>Client</p>
-  <p className={styles.descriptionwhite}>Uguru, INC.</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhite}>Role</p>
-  <p className={styles.descriptionwhite}>UI/UX Designer</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhite}>Location</p>
-  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
-  
-</Card>
-</CardGroup>
 
 
-<Row>
-  <Col xs={12} md={3} className={styles.removepadding}>
-  <AnchorLink href="/test">
-<p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>Learn More - Uguru, INC</Button>
-</p>
-</AnchorLink>
-
-</Col>
 
 
-<Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/sanchezcoffeeco">
-<p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>View Next - Sanchez Coffee Co.</Button>
-</p>
-</LinkContainer>
+  <Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={4}>
+
+
+
+
+            <p className={styles.subtitlesmallblackcenter}>Uguru, INC</p>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
+
+                        <div className={styles.spaceingwhite}></div>
+            <div className={styles.spaceingwhite}></div>
+
+            <Image src={Img29} fluid className={styles.centerimage}/>
+
+
+            <div className={styles.spaceingwhite}></div>
+            <div className={styles.spaceingwhite}></div>
+
+
+            <p className={styles.descriptionlargeblackbold}>Designed for those who defy limits and change the world,
+the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
+
+            <div className={styles.spaceingwhite}></div>
+            <div className={styles.spaceingwhite}></div>
+
+
 </Col>
 </Row>
 
-</div>
-              </Jumbotron>
 
-
-              <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
-                <source src={videomobile}/>
-              </video>
-                }
-
-              {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
-                <source src={video}/>
-              </video>
-                }
-
-              {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
-                <source src={video}/>
-              </video>
-                }
-
-            </>
-          )}
-        </Media>
-
-            </Col>
-
-            
-       
-          </Row>
-          
-        </Container>
+</Container>
 
 
 
@@ -215,6 +165,82 @@ export const Uguru = () => (
 
 
 
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+            <Image src={Img30} fluid className={styles.testgradientbackground}/>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
+    
+            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      <Image src={Img31} fluid />
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+<CardGroup>
+      <Card className={styles.backgroundtransparent}>
+        <Card.Body>
+      
+          <Image src={Img32} fluid />
+
+        </Card.Body>
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+        <Card.Body>
+          <Card.Title>
+          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
+              
+    <div className={styles.paddingleft}>
+    <ul className={styles.listlargeblack}>
+      <li className={styles.listitemlargeblack}>Users of the website</li>
+      <li className={styles.listitemlargeblack}>Executives</li>
+      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
+    </ul>
+    </div>
+              </Card.Text>
+        </Card.Body>
+      </Card>
+      </CardGroup>
+
+    </Col>
+</Row>
+
+
+</Container>
 
 
 

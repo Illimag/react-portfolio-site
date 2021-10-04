@@ -111,128 +111,6 @@ export const Legacypictures = () => (
 
 
 
-
-
-
-
-
-<Container className={styles.test2}>
-          <Row className="justify-content-md-center">
-               <Jumbotron className={styles.testfloatback}>
-              </Jumbotron>
-            <Col md={8} className={styles.removepadding}>
-
-              
-            <Jumbotron className={styles.mainfloatback}>
-            <div className={styles.maincontentwrapper}>
-
-              
-<p className={styles.subtitlelargewhite}>Case Study 01/06</p>
-
-<p className={styles.whitetitle}>How To Redesign A Web App</p>
- 
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhite}>Client</p>
-  <p className={styles.descriptionwhite}>Legacy Pictures</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhite}>Role</p>
-  <p className={styles.descriptionwhite}>UI/UX Designer</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhite}>Location</p>
-  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
-  
-</Card>
-</CardGroup>
-
-
-<Row>
-  <Col xs={12} md={3} className={styles.removepadding}>
-  <AnchorLink href="/test">
-<p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>Learn More - Legacy Pictures</Button>
-</p>
-</AnchorLink>
-
-</Col>
-
-
-<Col xs={12} md={3} className={styles.removepadding}>
-<LinkContainer to="/artrendezvous">
-<p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>View Next - ArtrendezVous</Button>
-</p>
-</LinkContainer>
-</Col>
-</Row>
-
-</div>
-              </Jumbotron>
-
-
-              <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
-                <source src={videomobile}/>
-              </video>
-                }
-
-              {matches.medium &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
-                <source src={video}/>
-              </video>
-                }
-
-              {matches.large &&
-                <video autoPlay preload="true" playsInline muted className={styles.mainvideo}>
-                <source src={video}/>
-              </video>
-                }
-
-            </>
-          )}
-        </Media>
-
-            </Col>
-
-            
-       
-          </Row>
-          
-        </Container>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <Container fluid className={styles.test}>
         <div id="test"></div>
 <div className={styles.spaceingwhite}></div>
@@ -245,7 +123,7 @@ export const Legacypictures = () => (
 
 
 
-            <p className={styles.subtitlesmallblackcenter}>MacBook Pro</p>
+            <p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
             <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
 
                         <div className={styles.spaceingwhite}></div>
