@@ -116,7 +116,7 @@ export const Uguru = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Case Study #3</p>
+            <p className={styles.subtitlelargewhite}>Case Study 03/06</p>
 
 <p className={styles.whitetitle}>SF SOMA Mobile App Startup</p>
 

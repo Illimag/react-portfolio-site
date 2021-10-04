@@ -10,8 +10,10 @@
     backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     display: block !important;
-    height: 7%;
     padding: 0rem 0rem !important;
+    z-index: 99999999;
+    bottom:0;
+    position: absolute !important;
 }
 
 .logo{

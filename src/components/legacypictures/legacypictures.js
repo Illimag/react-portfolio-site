@@ -127,7 +127,7 @@ export const Legacypictures = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Legacy Pictures</p>
+<p className={styles.subtitlelargewhite}>Case Study 01/06</p>
 
 <p className={styles.whitetitle}>How To Redesign A Web App</p>
  

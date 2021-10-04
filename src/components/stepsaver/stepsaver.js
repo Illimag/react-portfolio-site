@@ -118,7 +118,7 @@ export const Stepsaver = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Case Study #6</p>
+            <p className={styles.subtitlelargewhite}>Case Study 06/06</p>
 
 <p className={styles.whitetitle}>Houston Valet Tech Startup </p>
  

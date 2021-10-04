@@ -116,7 +116,7 @@ export const Sanchezcoffeeco = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Case Study #4</p>
+            <p className={styles.subtitlelargewhite}>Case Study 04/06</p>
 
 <p className={styles.whitetitle}>Ecommerce Coffee Web App</p>
 

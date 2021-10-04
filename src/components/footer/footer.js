@@ -1,9 +1,11 @@
 import React from 'react';
 
 import { Container } from 'react-bootstrap'
-
+import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
+import { Navbar, Nav } from 'react-bootstrap'
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import { CSSTransition } from 'react-transition-group'
 
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -18,6 +20,30 @@ import styles from './footer.module.css'
 
 import Button from 'react-bootstrap/Button';
 
+import { LinkContainer } from 'react-router-bootstrap';
+import ScrollToTop from 'react-router-scroll-top'
+
+import { Home } from '../home/home'
+import { Contact } from '../contact/contact'
+import { Uguru } from '../uguru/uguru'
+import { Artrendezvous } from '../artrendezvous/artrendezvous'
+import { Sanchezcoffeeco } from '../sanchezcoffeeco/sanchezcoffeeco'
+import { Apexvr } from '../apexvr/apexvr'
+import { Uxdesignsumo } from '../uxdesignsumo/uxdesignsumo'
+import { Legacypictures } from '../legacypictures/legacypictures'
+import { Stepsaver } from '../stepsaver/stepsaver'
+
+
+const routes = [
+  { path: '/', name: 'HOME', Component: Home },
+  { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
+  { path: '/artrendezvous', name: 'ART•RENDEZ-VOUS', Component: Artrendezvous },
+  { path: '/uguru', name: 'UGURU, INC.', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: 'SANCHEZCOFFEE', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'APEXVR', Component: Apexvr },
+  { path: '/stepsaver', name: 'STEPSAVER', Component: Stepsaver },
+  { path: '/Contact', name: 'RESUME', Component: Contact },
+]
 
 
 
@@ -30,88 +56,108 @@ const Footer = () => (
 {/* This is where the Footer is */}
 
 
-
-<Jumbotron fluid className={styles.footerBackground}>
-  <Container>
-
-
+<Router>
+<ScrollToTop>
+          <>
 
 
-
-    <Row className={styles.socialrow}>
-    <Col xs={10} md={6}>
-    <a className={styles.description} href="/">Home</a>
-    </Col>
-
-    <Col xs={10} md={6}>
-    <a className={styles.description} href="legacypictures">Legacy Pictures</a>
-    </Col>
-    <Col xs={10} md={6}>
-    <a className={styles.description} href="artrendezvous">Artrendezvous</a>
-    </Col>
-    <Col xs={10} md={6}>
-    <a className={styles.description} href="uguru">Uguru, INC</a>
-    </Col>
-    <Col xs={10} md={6}>
-    <a className={styles.description} href="sanchezcoffeeco">Sanchez Coffee Co.</a>
-    </Col>
-    <Col xs={10} md={6}>
-    <a className={styles.description} href="apexvr">ApexVR</a>
-    </Col>
-
-    <Col xs={10} md={6}>
-    <a className={styles.description} href="stepsaver">Stepsaver</a>
-    </Col>
-
-    <Col xs={10} md={6}>
-    <a className={styles.description} href="Contact">Resume</a>
-    </Col>
-
-    </Row>
-
-
-
-
-    <div className={styles.spaceingblack}></div>
-<div className={styles.spaceingblack}></div>
+          
+<Container className={styles.footerBackground}>
 
 
 
 
 
-    <Row className={styles.socialrow}>
 
-<Col xs={3} md={3} className={styles.centericon}>
-<a href="https://www.linkedin.com/in/hillodesign">
-  <Image src={Linkedin} roundedCircle className={styles.icons}/>
-</a>
-</Col>
-<Col xs={3} md={3} className={styles.centericon}>
-<a href="https://www.behance.net/jaeminkim2">
-  <Image src={Behance} roundedCircle className={styles.icons}/>
-</a>
-</Col>
-<Col xs={3} md={3} className={styles.centericon}>
-<a href="https://dribbble.com/hillodesign">
-  <Image src={Dribbble} roundedCircle className={styles.icons} />
-</a>
-</Col>
-<Col xs={3} md={3} className={styles.centericon}>
-<a href="https://github.com/hillodesign">
-  <Image src={Github} roundedCircle className={styles.icons} />
-</a>
-</Col>
-</Row>
+{routes.map(({ path, Component }) => (
+<Route key={path} exact path={path}>
+  {({ match }) => (
+    <CSSTransition
+      in={match != null}
+      timeout={300}
+      classNames="page"
+      unmountOnExit
+    >
+      <div className="page">
+        <Component />
+      </div>
+    </CSSTransition>
+  )}
+</Route>
+))}
 
 
+
+
+
+
+
+
+
+
+
+         
+  <Container className={styles.navbar}>
+
+
+
+
+
+  <Container className={styles.paddingtop}>
+  {routes.map(route => (
+    <Nav.Link 
+    eventKey="1" as={Link}
+    
+    className={styles.navtextcss}
+      key={route.path}
+      as={NavLink}
+      to={route.path}
+      activeClassName="active"
+      exact
+    >
+      {route.name}
+    </Nav.Link>
+  ))}
 
 
 <div className={styles.spaceingblack}></div>
 
+<div className={styles.spaceingblack}></div>
 
 
+  <Row className={styles.socialrow}>
+
+    <Col xs={3} md={3} className={styles.centericon}>
+      <a href="https://www.linkedin.com/in/jaeminkim-com">
+        <Image src={Linkedin} roundedCircle className={styles.icons} />
+      </a>
+    </Col>
+
+    <Col xs={3} md={3} className={styles.centericon}>
+      <a href="https://www.behance.net/jaeminkim2">
+        <Image src={Behance} roundedCircle className={styles.icons} />
+      </a>
+    </Col>
+
+    <Col xs={3} md={3} className={styles.centericon}>
+      <a href="https://github.com/jaeminkim-com">
+        <Image src={Dribbble} roundedCircle className={styles.icons} />
+      </a>
+    </Col>
+
+    <Col xs={3} md={3} className={styles.centericon}>
+      <a href="https://github.com/jaeminkim-com">
+        <Image src={Github} roundedCircle className={styles.icons} />
+      </a>
+    </Col>
+
+  </Row>
+
+</Container>
 
 
+<div className={styles.spaceingblack}></div>
+<div className={styles.spaceingblack}></div>
 
 
 <p className={styles.description}>
@@ -119,9 +165,12 @@ const Footer = () => (
     </p>
 
 
+    <div className={styles.spaceingblack}></div>
+
+    <div className={styles.spaceingblack}></div>
+
 
 </Container>
-</Jumbotron>
 
 
 
@@ -130,6 +179,39 @@ const Footer = () => (
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Container>
+
+
+
+
+
+
+</>
+        </ScrollToTop>
+</Router>
 
 
 

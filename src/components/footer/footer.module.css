@@ -15,8 +15,10 @@
 
 .footerBackground{
     background-color: #000 !important;
-    position: absolute !important;
+    position: relative !important;
     width:100%;
+    z-index: 99999999 !important;
+    display: block;
 }
 
 .socialrow{
@@ -68,4 +70,159 @@
 .spaceingblack{
     height: 3vh;
     background-color: #000;
+}
+
+
+.navbar{
+    background: rgba(0,0,0,1);
+    backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    display: block !important;
+    padding: 0rem 0rem !important;
+    z-index: 99999999;
+    bottom:0;
+    position: relative !important;
+}
+
+
+
+
+
+.navbarwrap{
+    top:.5rem !important;
+    right: .5rem !important;
+    position: absolute !important;
+    z-index: 1;
+}
+
+
+
+
+.navbarbackground{
+    background: transparent !important;
+    backdrop-filter: saturate(180%) blur(20px);
+    position: relative !important;
+
+}
+
+
+
+.navbarwrap{
+    top:.5rem !important;
+    right: .5rem !important;
+    position: absolute !important;
+    z-index: 1;
+}
+
+.navbar{
+    background: rgba(0,0,0,1);
+    backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    display: block !important;
+    padding: 0rem 0rem !important;
+    z-index: 99999999;
+    bottom:0;
+    position: relative !important;
+}
+
+.logo{
+width:25pt;
+}
+
+.white{
+    color: #000 !important;
+    font-size: 1em;
+    font-family: 'Source Serif Pro', sans-serif;
+
+}
+
+
+.fonttext{
+    font-size:3em !important;
+}
+
+
+
+.navbarbackground{
+    background: transparent !important;
+    backdrop-filter: saturate(180%) blur(20px);
+    position: relative !important;
+
+}
+
+.diamond{
+    height:40px;
+    width:40px;
+}
+
+
+.jword{
+    color:#4285f4 !important;
+  }
+
+.aword{
+    color:#ea4335 !important;
+}
+
+.eword{
+    color:#fbbc05 !important;
+}
+
+.mword{
+    color:#34a853 !important;
+}
+
+.iword{
+    color:#4285f4 !important;
+}
+
+.nword{
+    color:#ea4335 !important;
+}
+
+.kword{
+    color:#fbbc05 !important;
+}
+
+.icons{
+    height: 30px;
+    width: 30px;
+}
+
+.centericon{
+    text-align: center;
+}
+
+
+.navbarbackgroudcolor{
+
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+
+}
+
+
+.navtextcss{
+    color: white !important;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    display: flex !important; 
+    justify-content: center
+}
+
+
+
+.test1title{
+    color: #fff;
+    font-size: 1em !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    margin-top: 0px !important;
+    display: inline-block;
+    transform: translateY(-15%);
+}
+
+.paddingtop{
+    padding-top: 5%;;
 }

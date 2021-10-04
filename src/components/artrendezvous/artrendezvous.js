@@ -112,7 +112,7 @@ export const Artrendezvous = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Case Study #2</p>
+            <p className={styles.subtitlelargewhite}>Case Study 02/06</p>
 
 <p className={styles.whitetitle}>Art Community Mobile App</p>
  

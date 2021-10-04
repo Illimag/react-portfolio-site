@@ -127,7 +127,7 @@ export const Apexvr = () => (
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Case Study #5</p>
+            <p className={styles.subtitlelargewhite}>Case Study 05/06</p>
 
 <p className={styles.whitetitle}>VR Videography Web App</p>
 
