@@ -120,7 +120,6 @@ const Footer = () => (
   ))}
 
 
-<div className={styles.spaceingblack}></div>
 
 <div className={styles.spaceingblack}></div>
 
@@ -157,15 +156,12 @@ const Footer = () => (
 
 
 <div className={styles.spaceingblack}></div>
-<div className={styles.spaceingblack}></div>
 
 
 <p className={styles.description}>
       Hillodesign All Rights Reserved 2021
     </p>
 
-
-    <div className={styles.spaceingblack}></div>
 
     <div className={styles.spaceingblack}></div>
 
