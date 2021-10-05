@@ -209,7 +209,7 @@ export const Home = () => {
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhite}>Hillodesign</p>
+<p className={styles.subtitlelargewhitehome}>Hillodesign</p>
 
 <p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
  
@@ -303,7 +303,7 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
          
-<p className={styles.subtitlelargewhite}>Legacy Pictures</p>
+<p className={styles.subtitlelargewhitehome}>Legacy Pictures</p>
 
 <p className={styles.whitetitle}>How To Redesign A Web App in 2021 as a designer</p>
  
@@ -311,21 +311,21 @@ large: "(min-width: 1200px)"
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.subtitlelargewhitehome}>Client</p>
   <p className={styles.descriptionwhite}>Legacy Pictures</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.subtitlelargewhitehome}>Role</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.subtitlelargewhitehome}>Location</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
@@ -411,28 +411,28 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-  <p className={styles.subtitlelargewhite}>Artrendezvous</p>
+  <p className={styles.subtitlelargewhitehome}>Artrendezvous</p>
 
 <p className={styles.whitetitle}>Art Community Mobile App Startup</p>
  
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.subtitlelargewhitehome}>Client</p>
   <p className={styles.descriptionwhite}>ART•RENDEZ-VOUS</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.subtitlelargewhitehome}>Role</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.subtitlelargewhitehome}>Location</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
@@ -519,28 +519,28 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-  <p className={styles.subtitlelargewhite}>Uguru, INC</p>
+  <p className={styles.subtitlelargewhitehome}>Uguru, INC</p>
 
 <p className={styles.whitetitle}>San Francisco SOMA Mobile App Startup</p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.subtitlelargewhitehome}>Client</p>
   <p className={styles.descriptionwhite}>Uguru, INC.</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.subtitlelargewhitehome}>Role</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.subtitlelargewhitehome}>Location</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
@@ -628,7 +628,7 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-  <p className={styles.subtitlelargewhite}>Sanchez Coffee Co.</p>
+  <p className={styles.subtitlelargewhitehome}>Sanchez Coffee Co.</p>
 
 <p className={styles.whitetitle}>Ecommerce Web App Payment Platform</p>
 
@@ -636,21 +636,21 @@ large: "(min-width: 1200px)"
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.subtitlelargewhitehome}>Client</p>
   <p className={styles.descriptionwhite}>Sanchez Coffee Co.</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.subtitlelargewhitehome}>Role</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.subtitlelargewhitehome}>Location</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
@@ -737,28 +737,28 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-  <p className={styles.subtitlelargewhite}>ApexVR</p>
+  <p className={styles.subtitlelargewhitehome}>ApexVR</p>
 
 <p className={styles.whitetitle}>Virtual Reality Videography Company Web App</p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.subtitlelargewhitehome}>Client</p>
   <p className={styles.descriptionwhite}>ApexVR</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.subtitlelargewhitehome}>Role</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.subtitlelargewhitehome}>Location</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
@@ -845,7 +845,7 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapper}>
 
     
-  <p className={styles.subtitlelargewhite}>Stepsaver</p>
+  <p className={styles.subtitlelargewhitehome}>Stepsaver</p>
 
 <p className={styles.whitetitle}>Houston Valet Tech Mobie Web App Startup </p>
  
@@ -853,21 +853,21 @@ large: "(min-width: 1200px)"
 <CardGroup>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Client</p>
+  <p className={styles.subtitlelargewhitehome}>Client</p>
   <p className={styles.descriptionwhite}>Stepsaver</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Role</p>
+  <p className={styles.subtitlelargewhitehome}>Role</p>
   <p className={styles.descriptionwhite}>UI/UX Designer</p>
 
   
 </Card>
 <Card className={styles.cardborder}>
     
-  <p className={styles.subtitlelargewhite}>Location</p>
+  <p className={styles.subtitlelargewhitehome}>Location</p>
   <p className={styles.descriptionwhite}>Los Angeles, CA</p>
   
 </Card>
