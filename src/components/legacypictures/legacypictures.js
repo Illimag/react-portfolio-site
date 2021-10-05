@@ -118,74 +118,6 @@ export const Legacypictures = () => (
 
 
 
-        <Container fluid className={styles.test}>
-        <div id="test"></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
-
-
-
-
-            <p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
-
-                        <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
-
-
-            </Col>
-</Row>
-
-
-</Container>
-
-
-
-<Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={8}>
-
-
-
-
-            <Image src={Img34} fluid className={styles.centerimage}/>
-
-
-            </Col>
-</Row>
-
-
-</Container>
-
-
-
-
-<Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={6}>
-
-            <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
-
-
-            <p className={styles.descriptionlargeblackbold}>Designed for those who defy limits and change the world,
-the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
-
-            <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
-
-
-</Col>
-</Row>
-
-
-</Container>
-
-
-
-
 
 
 
@@ -204,15 +136,75 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <Row className="justify-content-md-center">
 <Col md={6}>
 
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+
+
+
+
+
+<p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
+
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+            </Col>
+</Row>
+
+
+
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+            <Image src={Img34} fluid className={styles.centerimage}/>
+            <div className={styles.spaceing}></div>
+         
+
+            </Col>
+</Row>
+
+
+
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+
+
+            <p className={styles.descriptionlargewhitebold}>Designed for those who defy limits and change the world,
+the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+
+</Col>
+</Row>
+
+
+
+
+
+
+
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+
+
+
+
+
+
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>Design how it works.</p>
+            <p className={styles.subtitlelargewhite}>Design how it works.</p>
             <div className={styles.spaceing}></div>
             
-            <p className={styles.descriptionlargeblackbold}>Framer is an all-in-one tool that helps teams design every part of the product experience. Start in Framer and get to a functional output faster than ever-no code requried.
+            <p className={styles.descriptionlargewhitebold}>Framer is an all-in-one tool that helps teams design every part of the product experience. Start in Framer and get to a functional output faster than ever-no code requried.
         </p>
       </Card>
 
