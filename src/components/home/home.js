@@ -217,7 +217,7 @@ export const Home = () => {
 </p>
 
 <Row>
-  <Col xs={12} md={3} className={styles.removepadding}>
+  <Col xs={12} md={4} className={styles.removepadding}>
   <AnchorLink href="/test">
 <p className={styles.clickabletext}>
 <Button className={styles.mainbutton}>View Portfolio Now</Button>
@@ -226,8 +226,9 @@ export const Home = () => {
 
 </Col>
 
+<div className={styles.divider}/>
 
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <LinkContainer to="/contact">
 <p className={styles.clickabletext}>
 <Button className={styles.secondarybutton}>Looking for Resume?</Button>
