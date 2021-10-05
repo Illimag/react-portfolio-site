@@ -156,7 +156,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={8}>
 
 
             <Image src={Img34} fluid className={styles.centerimage}/>
