@@ -211,7 +211,7 @@ export const Home = () => {
               
 <p className={styles.subtitlelargewhite}>Hillodesign</p>
 
-<p className={styles.whitetitlehome}>San Francisco Bay Area & Silicon Valley UI/UX Designer</p>
+<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
  
  <p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
 </p>
@@ -305,7 +305,7 @@ large: "(min-width: 1200px)"
          
 <p className={styles.subtitlelargewhite}>Legacy Pictures</p>
 
-<p className={styles.whitetitle}>How To Redesign A Web App</p>
+<p className={styles.whitetitle}>How To Redesign A Web App in 2021 as a designer</p>
  
 
 <CardGroup>
@@ -413,7 +413,7 @@ large: "(min-width: 1200px)"
     
   <p className={styles.subtitlelargewhite}>Artrendezvous</p>
 
-<p className={styles.whitetitle}>Art Community Mobile App</p>
+<p className={styles.whitetitle}>Art Community Mobile App Startup</p>
  
 <CardGroup>
 <Card className={styles.cardborder}>
@@ -521,7 +521,7 @@ large: "(min-width: 1200px)"
     
   <p className={styles.subtitlelargewhite}>Uguru, INC</p>
 
-<p className={styles.whitetitle}>SF SOMA Mobile App Startup</p>
+<p className={styles.whitetitle}>San Francisco SOMA Mobile App Startup</p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
@@ -630,7 +630,7 @@ large: "(min-width: 1200px)"
     
   <p className={styles.subtitlelargewhite}>Sanchez Coffee Co.</p>
 
-<p className={styles.whitetitle}>Ecommerce Coffee Web App</p>
+<p className={styles.whitetitle}>Ecommerce Web App Payment Platform</p>
 
 
 <CardGroup>
@@ -739,7 +739,7 @@ large: "(min-width: 1200px)"
     
   <p className={styles.subtitlelargewhite}>ApexVR</p>
 
-<p className={styles.whitetitle}>VR Videography Web App</p>
+<p className={styles.whitetitle}>Virtual Reality Videography Company Web App</p>
 
 <CardGroup>
 <Card className={styles.cardborder}>
@@ -847,7 +847,7 @@ large: "(min-width: 1200px)"
     
   <p className={styles.subtitlelargewhite}>Stepsaver</p>
 
-<p className={styles.whitetitle}>Houston Valet Tech Startup </p>
+<p className={styles.whitetitle}>Houston Valet Tech Mobie Web App Startup </p>
  
 
 <CardGroup>

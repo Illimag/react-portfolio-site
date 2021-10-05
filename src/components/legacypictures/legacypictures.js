@@ -60,7 +60,14 @@ import Img30 from '../../assets/hero-gradient.png';
 import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
 import Img32 from '../../assets/MacBook Pro Mockup.png';
 import Img33 from '../../assets/XDR Mockup.png';
+import Img34 from '../../assets/smarttvtest1.png';
+import Img35 from '../../assets/businesswoman-planning-with-adhesive-notes-on-glas-JX7K3ZV.jpg';
 
+import Img36 from '../../assets/testimg-01-min.png';
+import Img37 from '../../assets/testimg-02-min.png';
+import Img38 from '../../assets/testimg-03.png';
+
+import Img39 from '../../assets/testtest-01.png';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
@@ -113,10 +120,10 @@ export const Legacypictures = () => (
 
         <Container fluid className={styles.test}>
         <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={4}>
+<Col md={6}>
 
 
 
@@ -124,21 +131,50 @@ export const Legacypictures = () => (
             <p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
             <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
 
-                        <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
-
-            <Image src={Img29} fluid className={styles.centerimage}/>
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
 
 
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+
+            <Image src={Img34} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
 
 
             <p className={styles.descriptionlargeblackbold}>Designed for those who defy limits and change the world,
 the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
 
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
 
 
 </Col>
@@ -165,22 +201,19 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <Container fluid className={styles.test}>
         <div id="test"></div>
             <Image src={Img30} fluid className={styles.testgradientbackground}/>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-    
+            <p className={styles.subtitlelargeblack}>Design how it works.</p>
+            <div className={styles.spaceing}></div>
+            
+            <p className={styles.descriptionlargeblackbold}>Framer is an all-in-one tool that helps teams design every part of the product experience. Start in Framer and get to a functional output faster than ever-no code requried.
+        </p>
       </Card>
 
       <Card className={styles.backgroundtransparent}>
@@ -208,20 +241,11 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
+          <p className={styles.subtitlelargewhite}>Unlock more interactivity</p>
+          <div className={styles.spaceing}></div>
           <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
+             <p className={styles.descriptionlargewhitebold}>In Framer, interaction are first-class throughout your whole workflow-wireframing, visual design, prototyping, design systems, handoff, and user testing. Create prototypes in the canvas with animations, transitions, and Smart Componentns and get better feedback from user tests, userful handoff code for engineers, and quicker buy-in from stakeholders.</p>
               
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
               </Card.Text>
         </Card.Body>
       </Card>
@@ -243,65 +267,37 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-
-
-
-
-
-
-
-        <Container fluid className={styles.test1}>
+<Container fluid className={styles.test}>
         <div id="test"></div>
-
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
-<CardGroup className={styles.backgroundgrey}>
-      <Card className={styles.backgroundgrey}>
 
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-    
-      </Card>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Build your mobile app</span></p>
 
-      <Card className={styles.backgroundgrey}>
-      <Image src={Img28} fluid />
-      </Card>
-      </CardGroup>
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+            <Image src={Img17} fluid className={styles.centerimage}/>
 
 
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+            <p className={styles.descriptionlargeblackbold}>Framer is your tool for designing everything. Work with your team to get impressive and functional interactive designs in minutes with..</p>
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
 
 
 </Col>
 </Row>
-</Container>
 
 
-
-
-
-
-
-<Container fluid className={styles.test1}>
-        <div id="test"></div>
-
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={8}>
-
-
-
-
-            <p className={styles.subtitlelargeblack}>A dramatically more powerful camera system. A display so responsive every interaction feels new again. The world's fastest smartphone chip. Exceptional durability. An a huge leap in battery life.</p>
-    
-
-
-</Col>
-</Row>
 </Container>
 
 
@@ -311,50 +307,114 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-<Container fluid className={styles.test1}>
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={6}>
 
-<div className={styles.spaceingwhite}></div>
+
+
+
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Build your Website</span></p>
+
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+            <Image src={Img17} fluid className={styles.centerimage}/>
+
+
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+            <p className={styles.descriptionlargeblackbold}>Framer is your tool for designing everything. Work with your team to get impressive and functional interactive designs in minutes with..</p>
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+</Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+
+
+
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>A big, beautiful workspace. For doing big, beautiful work.</span></p>
+
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={14}>
+
+
+
+            <Image src={Img35} fluid className={styles.centerimage}/>
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+
+<Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
 <Col md={8}>
 
-<CardGroup>
-      <Card className={styles.backgroundgrey}>
-        <Card.Body>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-          </Card.Title>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-          </Card.Title>
-          <Image src={Img28} fluid />
 
-        </Card.Body>
-      </Card>
 
-      <Card>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
-      </Card>
-      </CardGroup>
+<p className={styles.subtitlelargeblack}>A dramatically more powerful camera system. A display so responsive every interaction feels new again. The world's fastest smartphone chip. Exceptional durability. An a huge leap in battery life.</p>
+    
+<div className={styles.spaceing}></div>
 
-    </Col>
+
+</Col>
 </Row>
-<div className={styles.spaceingwhite}></div>
+
+
+</Container>
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test1}>
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
 
 <CardGroup>
 <Card className={styles.cardborder}>
@@ -398,132 +458,251 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 </CardGroup>
 
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
-<Col xs lg="6">
+<Col md={8}>
+
+
+            <Image src={Img36} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+</Container>
 
 
 
 
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-      </Card>
- 
+<Container fluid className={styles.test2}>
+<Row className="justify-content-md-center">
+<Col md={6}>
 
 
 
+            <p className={styles.descriptionlargewhitebold}>The ultimate iPad experience. Now with breakthrough M1 performance, a breathtaking XDR display, and blazing-fast 5G wireless. Buckle up.</p>
 
+            <div className={styles.spaceing}></div>
 
 
 </Col>
 </Row>
 
 
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={4}>
+
+
+
+
+            <p className={styles.descriptionlargeblackbold}>Up your game</p>
+       
+            <p className={styles.descriptionlargeblackbold}>The display's ability to refresh up to 120Hz - Combined with the amazing graphics performance of the new 5-core GPU on A15 Bionic - makes iPhone 13 Pro perfect for power gamers.</p>
+
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+
+            <Image src={Img38} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+
+            <p className={styles.subtitlesmallblackcenter}>XDR. Dynamic range to the extreme.</p>
+       
+
+            <p className={styles.descriptionlargeblackbold}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+</Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+
+<Row className="justify-content-md-center">
+<Col md={14}>
 
 <CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img15} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img17} fluid />
-
-  
-</Card>
-</CardGroup>
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-<Image src={Img26} fluid className={styles.imgstyle} />
-
-
-<Image src={Img25} fluid className={styles.imgstyle} />
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-      <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
-      <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
-
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-      <Image src={Img19} fluid  className={styles.imgfinal} />
-
-      <Image src={Img20} fluid  className={styles.imgfinal} />
+      <Card className={styles.backgroundtransparent}>
+        <Card.Body>
       
-      <Image src={Img21} fluid  className={styles.imgfinal}/>
+          <Image src={Img39} fluid />
 
- 
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-
-      <p className={styles.subtitlelargeblack}>Results:</p>
-    <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-     
+        </Card.Body>
       </Card>
- 
 
+      <Card className={styles.backgroundtransparent}>
+        <Card.Body>
+          <p className={styles.subtitlelargeblack}>A brighter idea</p>
+          <div className={styles.spaceing}></div>
+          <Card.Text>
+             <p className={styles.descriptionlargeblackbold}>Typical desktop displays have sustained brightness around 350nits. Some pro displays exceed this, but most can only sustain it for short periods of time. Pro Display XDR produces an industry-leading 1000 nits of full-screen sustained brightness and 1600 nits at its peak. It gives you the power to maintain extreme brightness without ever dimming. Along with efficient backlight control, this delivers outstanding contrast between the brightest brights and the blackest blacks. The result is an incredible 1,000,000:1 contrast ratio and stunningly real XDR imagery.</p>
+              
+              </Card.Text>
+        </Card.Body>
+      </Card>
+      </CardGroup>
 
-
-
-
-
-</Col>
+    </Col>
 </Row>
+
+</Container>
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={4}>
+
+
+
+
+            <p className={styles.descriptionlargeblackbold}>Pro Display XDR</p>
+       
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+
+            <Image src={Img37} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+</Container>
+
 
 
 
@@ -546,11 +725,11 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <Card className={styles.cardborder}>
     
 
-<p className={styles.subtitlelargeblack}>Art RendexVous</p>
-<div className={styles.spaceingwhite}></div>
+<p className={styles.subtitlelargewhite}>Art RendexVous</p>
+<div className={styles.spaceing}></div>
 
-  <p className={styles.descriptionlargeblack}>Mobile App Redesign for Art Community iOS App</p>
-  <div className={styles.spaceingwhite}></div>
+  <p className={styles.descriptionlargewhite}>Mobile App Redesign for Art Community iOS App</p>
+  <div className={styles.spaceing}></div>
 
   <LinkContainer to="/artrendezvous">
                 <p>
@@ -564,11 +743,11 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 </Card>
 <Card className={styles.cardborder}>
     
-<p className={styles.subtitlelargeblack}>Go to Portfolio:</p>
-<div className={styles.spaceingwhite}></div>
+<p className={styles.subtitlelargewhite}>Go to Portfolio:</p>
+<div className={styles.spaceing}></div>
 
-  <p className={styles.descriptionlargeblack}>Go Back to Portfolio</p>
-  <div className={styles.spaceingwhite}></div>
+  <p className={styles.descriptionlargewhite}>Go Back to Portfolio</p>
+  <div className={styles.spaceing}></div>
 
   <LinkContainer to="/portfolio">
                 <p>
@@ -589,15 +768,6 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-
-
-
-
-
-
-
-
-</Container>
 
 
 
