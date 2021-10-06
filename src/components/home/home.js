@@ -273,19 +273,19 @@ large: "(min-width: 1200px)"
   <>
 
     {matches.small &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[2]}/>
     </video>
       }
 
     {matches.medium &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[3]}/>
     </video>
       }
 
     {matches.large &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[3]}/>
     </video>
       }
@@ -308,24 +308,22 @@ large: "(min-width: 1200px)"
 <Col md={6} className={styles.removepadding}>
 
 <div className={styles.badgelist}>
-<Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+<Badge variant="primary" className={styles.UX_badge}>ADOBE XD</Badge>{' '}
+<Badge variant="primary" className={styles.UX_badge}>ADOBE Photoshop</Badge>{' '}
+<Badge variant="primary" className={styles.UX_badge}>ADOBE Creative Suite</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>Los Angeles</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>Prototyping</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>Personas</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>Mind Mapping</Badge>{' '}
                 </div>
 
   </Col>
@@ -364,19 +362,19 @@ large: "(min-width: 1200px)"
   <>
 
     {matches.small &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[4]}/>
     </video>
       }
 
     {matches.medium &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[5]}/>
     </video>
       }
 
     {matches.large &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[5]}/>
     </video>
       }
@@ -399,24 +397,19 @@ large: "(min-width: 1200px)"
 <Col md={6} className={styles.removepadding}>
 
 <div className={styles.badgelist}>
+<Badge variant="primary" className={styles.UX_badge}>ADOBE XD</Badge>{' '}
+<Badge variant="primary" className={styles.UX_badge}>ADOBE Photoshop</Badge>{' '}
+<Badge variant="primary" className={styles.UX_badge}>ADOBE Creative Suite</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>New York City</Badge>{' '}
                 </div>
 
   </Col>
@@ -454,19 +447,19 @@ large: "(min-width: 1200px)"
   <>
 
     {matches.small &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[6]}/>
     </video>
       }
 
     {matches.medium &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[7]}/>
     </video>
       }
 
     {matches.large &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[7]}/>
     </video>
       }
@@ -490,23 +483,15 @@ large: "(min-width: 1200px)"
 
 <div className={styles.badgelist}>
                 <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>San Francisco</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>Startup</Badge>{' '}
                 </div>
 
   </Col>
@@ -542,19 +527,19 @@ large: "(min-width: 1200px)"
   <>
 
     {matches.small &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[8]}/>
     </video>
       }
 
     {matches.medium &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[9]}/>
     </video>
       }
 
     {matches.large &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[9]}/>
     </video>
       }
@@ -632,19 +617,19 @@ large: "(min-width: 1200px)"
   <>
 
     {matches.small &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[10]}/>
     </video>
       }
 
     {matches.medium &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[11]}/>
     </video>
       }
 
     {matches.large &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[11]}/>
     </video>
       }
@@ -667,22 +652,16 @@ large: "(min-width: 1200px)"
 <Col md={6} className={styles.removepadding}>
 
 <div className={styles.badgelist}>
+<Badge variant="primary" className={styles.UX_badge}>Videography</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
                 </div>
@@ -720,19 +699,19 @@ large: "(min-width: 1200px)"
   <>
 
     {matches.small &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[12]}/>
     </video>
       }
 
     {matches.medium &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[13]}/>
     </video>
       }
 
     {matches.large &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true" playsInline muted className={styles.testvideo}>
       <source src={images[13]}/>
     </video>
       }
@@ -756,21 +735,11 @@ large: "(min-width: 1200px)"
 
 <div className={styles.badgelist}>
                 <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
                 <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
                   <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
                 </div>

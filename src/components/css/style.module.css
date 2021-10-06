@@ -221,6 +221,7 @@ background: rgba(0,0,0,0.5);
     border-width: 1px;
     color: #fff !important;
     font-size: .7rem !important;
+    
 }
 
 .UX_badge{
@@ -231,7 +232,7 @@ background: rgba(0,0,0,0.5);
     border-width: 1px;
     color: #fff !important;
     font-size: .7rem !important;
-    
+    text-transform: uppercase;
 }
 
 
