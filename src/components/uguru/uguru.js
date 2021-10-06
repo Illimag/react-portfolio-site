@@ -133,7 +133,6 @@ export const Uguru = () => (
 
 
 
-            <p className={styles.subtitlelargewhite}>Uguru, INC</p>
             <p className={styles.subtitlelargewhite}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
 
                         <div className={styles.spaceing}></div>
@@ -298,6 +297,83 @@ export const Uguru = () => (
 
 
 
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+
+
+
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Framer runs on Motion.</span></p>
+
+                        <div className={styles.spaceing}></div>
+                        <p className={styles.descriptionlargeblackbold}>Designers who prototype in Framer can leverage the power of Framer Motion without touching a line of code, then handoff the animation values to be used 1:1 in production.</p>
+
+            <div className={styles.spaceing}></div>
+
+            </Col>
+</Row>
+
+
+            <Row className="justify-content-md-center">
+<Col md={10}>
+
+
+            <Image src={Img17} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+
+</Container>
+
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+
+
+
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Framer runs on Motion.</span></p>
+
+                        <div className={styles.spaceing}></div>
+                        <p className={styles.descriptionlargeblackbold}>Designers who prototype in Framer can leverage the power of Framer Motion without touching a line of code, then handoff the animation values to be used 1:1 in production.</p>
+
+            <div className={styles.spaceing}></div>
+
+            </Col>
+</Row>
+
+
+            <Row className="justify-content-md-center">
+<Col md={10}>
+
+
+            <Image src={Img17} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+
+</Container>
+
+
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 
 
 

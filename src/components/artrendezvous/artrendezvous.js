@@ -119,27 +119,7 @@ export const Artrendezvous = () => (
 
 
 <Container fluid className={styles.test}>
-        <div id="test"></div>
-
-
-<Row className="justify-content-md-center">
-<Col md={6}>
-
-<div className={styles.spaceing}></div>
-
-
-
-
-
-<p className={styles.subtitlesmallblackcenter}>Artrendezvous</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
-
-                        <div className={styles.spaceing}></div>
-           
-                        <div className={styles.spaceing}></div>
-
-            </Col>
-</Row>
+  
 
 
 
@@ -153,6 +133,7 @@ export const Artrendezvous = () => (
 <Row className="justify-content-md-center">
 <Col md={10}>
 
+<div className={styles.spaceing}></div>
 
 
 <CardGroup className={styles.backgroundtransparent}>

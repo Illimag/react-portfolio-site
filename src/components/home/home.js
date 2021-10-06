@@ -508,7 +508,7 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-<p className={styles.whitetitle}>Sanchez Coffee Co.</p>
+<p className={styles.whitetitle}>Sanchez Coffee</p>
 <p className={styles.subtitlelargewhitehome}>Ecommerce Web App Payment Platform</p>
 
 
