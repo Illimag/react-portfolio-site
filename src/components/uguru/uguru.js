@@ -125,19 +125,18 @@ export const Uguru = () => (
 
 
   <Container fluid className={styles.test2}>
-        <div id="test"></div>
-<div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
 <Col md={6}>
 
 
 
+<p className={styles.subtitlesmallwhitecenter}>Uguru, INC</p>
 
             <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
 
                         <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
+          
 
 
             </Col>
@@ -150,7 +149,7 @@ export const Uguru = () => (
 
 
             <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
+         
 
 
             </Col>

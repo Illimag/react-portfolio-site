@@ -142,7 +142,7 @@ export const Legacypictures = () => (
 
 
 
-<p className={styles.subtitlesmallblackcenter}>Website Redesign</p>
+<p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
             <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
 
                         <div className={styles.spaceing}></div>

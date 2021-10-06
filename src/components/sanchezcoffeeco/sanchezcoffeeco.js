@@ -61,6 +61,7 @@ import Img30 from '../../assets/hero-gradient.png';
 import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
 import Img32 from '../../assets/MacBook Pro Mockup.png';
 import Img33 from '../../assets/XDR Mockup.png';
+import Img34 from '../../assets/sanchezcotest.png';
 
 
 import Img25 from '../../assets/img/legacypictures/1-01.jpg';
@@ -117,40 +118,125 @@ export const Sanchezcoffeeco = () => (
 
 
 
-    <Container fluid className={styles.test}>
+    <Container fluid className={styles.test4}>
+  
+
+
+
+
+
+  <div className={styles.spaceing}></div>
+  
+  <Row className="justify-content-md-center">
+  <Col md={6}>
+  
+  <p className={styles.subtitlesmallwhitecenter}>Sanchez Coffee Co.</p>
+
+  <p className={styles.subtitlelargewhitecenter}>Get started with Framer today.</p>
+      
+  
+  
+  </Col>
+  </Row>
+  
+  
+  
+  <div className={styles.spaceing}></div>
+
+  
+  
+  <Row className="justify-content-md-center">
+  <Col md={8}>
+  
+
+  <Image src={Img34} fluid className={styles.centerimage}/>
+  
+  </Col>
+  </Row>
+  
+  
+  </Container>
+
+
+
+
+
+
+
+
+
+
+
+  <Container fluid className={styles.test}>
         <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
+
+
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={4}>
+<Col md={8}>
 
 
 
+<p className={styles.subtitlelargeblack}>Framer has something for everyone</p>
 
-            <p className={styles.subtitlesmallblackcenter}>Sanchez Coffee Co.</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
-
-                        <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
-
-            <Image src={Img29} fluid className={styles.centerimage}/>
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
 
 
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
 
 
-            <p className={styles.descriptionlargeblackbold}>Designed for those who defy limits and change the world,
-the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
-
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
 
 
 </Col>
 </Row>
+</Container>
 
 
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<p className={styles.subtitlelargeblack}>A design partner you can trust.</p>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}>Framer's enterprise security tools protect the data of some of the world's most reputable companies. Our dedicated security team has your back, implementing best practices across all areas of data, network, systems and application security, as well as 24x7 monitoring and alerts.</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
 </Container>
 
 
@@ -158,10 +244,61 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<p className={styles.subtitlelargeblack}>Get Framer for teams.</p>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
 
 
 
 
+</Col>
+</Row>
+</Container>
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+            <Row className="justify-content-md-center">
+<Col md={10}>
+
+
+            <Image src={Img17} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+
+</Container>
 
 
 

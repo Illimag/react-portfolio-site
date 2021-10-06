@@ -125,6 +125,20 @@ export const Artrendezvous = () => (
 
 
 
+<div className={styles.spaceing}></div>
+
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+<p className={styles.subtitlesmallblackcenter}>Artrendezvous</p>
+
+<p className={styles.subtitlelargeblackcenter}>No wonder your selfies look so good.</p>
+    
+
+
+</Col>
+</Row>
+
 
 
 
@@ -133,7 +147,6 @@ export const Artrendezvous = () => (
 <Row className="justify-content-md-center">
 <Col md={10}>
 
-<div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 
 <CardGroup className={styles.backgroundtransparent}>
