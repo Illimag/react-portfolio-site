@@ -308,6 +308,9 @@ large: "(min-width: 1200px)"
 
 <p className={styles.whitetitle}>How To Redesign A Web App in 2021 as a designer</p>
  
+<p className={styles.subtitlelargewhitehome}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles, </p>
+
+<div className={styles.spaceing}></div>
 
 <CardGroup>
 <Card className={styles.cardborder}>
@@ -334,7 +337,7 @@ large: "(min-width: 1200px)"
 
 
 <Row>
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <LinkContainer to="/legacypictures">
 <p className={styles.clickabletext}>
 <Button className={styles.mainbutton}>View Case Study</Button>
@@ -343,8 +346,9 @@ large: "(min-width: 1200px)"
 
 </Col>
 
+<div className={styles.divider}/>
 
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <AnchorLink href="/test1">
 <p className={styles.clickabletext}>
 <Button className={styles.secondarybutton}>View Next</Button>
@@ -441,7 +445,7 @@ large: "(min-width: 1200px)"
 
 
 <Row>
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <LinkContainer to="/artrendezvous">
 <p className={styles.clickabletext}>
 <Button className={styles.mainbutton}>View Case Study</Button>
@@ -450,8 +454,9 @@ large: "(min-width: 1200px)"
 
 </Col>
 
+<div className={styles.divider}/>
 
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <AnchorLink href="/test2">
 <p className={styles.clickabletext}>
 <Button className={styles.secondarybutton}>View Next</Button>
@@ -549,7 +554,7 @@ large: "(min-width: 1200px)"
 
 
 <Row>
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <LinkContainer to="/uguru">
 <p className={styles.clickabletext}>
 <Button className={styles.mainbutton}>View Case Study</Button>
@@ -558,8 +563,9 @@ large: "(min-width: 1200px)"
 
 </Col>
 
+<div className={styles.divider}/>
 
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <AnchorLink href="/test3">
 <p className={styles.clickabletext}>
 <Button className={styles.secondarybutton}>View Next</Button>
@@ -659,7 +665,7 @@ large: "(min-width: 1200px)"
 
 
 <Row>
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <LinkContainer to="/sanchezcoffeeco">
 <p className={styles.clickabletext}>
 <Button className={styles.mainbutton}>View Case Study</Button>
@@ -668,8 +674,9 @@ large: "(min-width: 1200px)"
 
 </Col>
 
+<div className={styles.divider}/>
 
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <AnchorLink href="/test4">
 <p className={styles.clickabletext}>
 <Button className={styles.secondarybutton}>View Next</Button>
@@ -767,7 +774,7 @@ large: "(min-width: 1200px)"
 
 
 <Row>
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <LinkContainer to="/apexvr">
 <p className={styles.clickabletext}>
 <Button className={styles.mainbutton}>View Case Study</Button>
@@ -776,8 +783,9 @@ large: "(min-width: 1200px)"
 
 </Col>
 
+<div className={styles.divider}/>
 
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <AnchorLink href="/test5">
 <p className={styles.clickabletext}>
 <Button className={styles.secondarybutton}>View Next</Button>
@@ -875,7 +883,7 @@ large: "(min-width: 1200px)"
 </CardGroup>
 
 <Row>
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <LinkContainer to="/stepsaver">
 <p className={styles.clickabletext}>
 <Button className={styles.mainbutton}>View Case Study</Button>
@@ -884,8 +892,9 @@ large: "(min-width: 1200px)"
 
 </Col>
 
+<div className={styles.divider}/>
 
-<Col xs={12} md={3} className={styles.removepadding}>
+<Col xs={12} md={4} className={styles.removepadding}>
 <AnchorLink href="/test">
 <p className={styles.clickabletext}>
 <Button className={styles.secondarybutton}>Back to Top</Button>
