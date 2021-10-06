@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac1dd6fb84d35d66b5b5fecc4b781099",
+    "revision": "ee71a241516b7fa98c1437e188bbfc11",
     "url": "/index.html"
   },
   {
-    "revision": "f829e8b950f245085e41",
+    "revision": "4d692a0c2ed1e7eb3aee",
     "url": "/static/css/2.46b578d6.chunk.css"
   },
   {
-    "revision": "5a5d3217339ce4b1d5ef",
-    "url": "/static/css/main.84384e54.chunk.css"
+    "revision": "1b194f0af626e3e38a29",
+    "url": "/static/css/main.06f8fd79.chunk.css"
   },
   {
-    "revision": "f829e8b950f245085e41",
-    "url": "/static/js/2.01ebe2e6.chunk.js"
+    "revision": "4d692a0c2ed1e7eb3aee",
+    "url": "/static/js/2.a94bf7d2.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.01ebe2e6.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a94bf7d2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a5d3217339ce4b1d5ef",
-    "url": "/static/js/main.6d84bba8.chunk.js"
+    "revision": "1b194f0af626e3e38a29",
+    "url": "/static/js/main.1dc4193b.chunk.js"
   },
   {
     "revision": "58c15806c185c823953f",
@@ -172,6 +172,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Capture.c2366a33.PNG"
   },
   {
+    "revision": "31ed98c665d22e42b89c5b170250ab1f",
+    "url": "/static/media/Flat.44356fe6.png"
+  },
+  {
     "revision": "c2b91c88695749b6a51f186b6d495134",
     "url": "/static/media/HP Prodesk Mockup.e9b3f49d.png"
   },
@@ -268,6 +272,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/graphite-s6.95010ff3.png"
   },
   {
+    "revision": "e39fffa63103ae0b7fbfc79da81595ce",
+    "url": "/static/media/handheld.5120cc4d.png"
+  },
+  {
     "revision": "c82b153703228f009c00ef0d2a3fd9f7",
     "url": "/static/media/homepage.5ae0c00b.png"
   },
@@ -342,6 +350,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3ea8385e8096626200c4b636c14f5017",
     "url": "/static/media/personas.fd587df0.png"
+  },
+  {
+    "revision": "279968759ab5ae9a3e11c796e547c368",
+    "url": "/static/media/phonehorizontal.fd2448a2.png"
+  },
+  {
+    "revision": "c644cf0d0b59e2f1005facd7a2849fab",
+    "url": "/static/media/phonemockuo.995289e6.png"
+  },
+  {
+    "revision": "61db60630df0c31640bb7b0c1532bd57",
+    "url": "/static/media/phonetop-01.b7b88f7d.png"
   },
   {
     "revision": "dbeb2608d0372db99c633d74ff84dd06",
