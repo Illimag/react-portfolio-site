@@ -215,7 +215,6 @@ background: rgba(0,0,0,0.5);
 
 .UI_badge{
     background-color: #111 !important;
-    display: initial !important;
     border-color: #555;
     border-style: solid;
     border-width: 0px;
@@ -223,7 +222,7 @@ background: rgba(0,0,0,0.5);
     color: #fff !important;
 
 
-    font-size: .75rem !important;
+    font-size: .7rem !important;
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -1204,7 +1203,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .divider{
-    width:10px;
+    width:5%;
     height:auto;
     display:inline-block;
 }
