@@ -208,9 +208,8 @@ background: rgba(0,0,0,0.5);
 
 
 .badgelist{
-    padding-left: 10%;
-    padding-right: 10%;
     padding-bottom: 0%;
+    margin-top:3%;
 }
 
 
@@ -219,12 +218,12 @@ background: rgba(0,0,0,0.5);
     display: initial !important;
     border-color: #555;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
     
     color: #fff !important;
 
 
-    font-size: 1rem !important;
+    font-size: .75rem !important;
     margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -977,7 +976,7 @@ background: rgba(0,0,0,0.5);
 
 .whitetitlehome{
     color: #fff;
-    font-size:12vw !important;
+    font-size:10vw !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     font-family: 'Inter', sans-serif;
