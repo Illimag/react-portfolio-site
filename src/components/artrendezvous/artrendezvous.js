@@ -88,7 +88,11 @@ import Img30 from '../../assets/hero-gradient.png';
 import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
 import Img32 from '../../assets/MacBook Pro Mockup.png';
 import Img33 from '../../assets/XDR Mockup.png';
-
+import Img34 from '../../assets/handheld.png';
+import Img35 from '../../assets/phonehorizontal.png';
+import Img36 from '../../assets/phonemockuo.png';
+import Img37 from '../../assets/Flat.png';
+import Img38 from '../../assets/phonetop-01.png';
 
 import Media from 'react-media';
 
@@ -105,50 +109,6 @@ export const Artrendezvous = () => (
 
 
 
-<Container fluid className={styles.test}>
-        <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={4}>
-
-
-
-
-            <p className={styles.subtitlesmallblackcenter}>Artrendezvous</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
-
-                        <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
-
-            <Image src={Img29} fluid className={styles.centerimage}/>
-
-
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
-
-
-            <p className={styles.descriptionlargeblackbold}>Designed for those who defy limits and change the world,
-the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
-
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
-
-
-</Col>
-</Row>
-
-
-</Container>
-
-
-
-
-
-
-
 
 
 
@@ -160,25 +120,25 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
-            <Image src={Img30} fluid className={styles.testgradientbackground}/>
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={10}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
+            <p className={styles.subtitlelargeblack}>No wonder your selfies look so good.</p>
     
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+            <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+
     
       </Card>
 
       <Card className={styles.backgroundtransparent}>
-      <Image src={Img31} fluid />
+      <Image src={Img34} fluid />
       </Card>
       </CardGroup>
 
@@ -186,42 +146,6 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 </Col>
-</Row>
-
-<Row className="justify-content-md-center">
-<Col md={8}>
-
-<CardGroup>
-      <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-      
-          <Image src={Img32} fluid />
-
-        </Card.Body>
-      </Card>
-
-      <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
-      </Card>
-      </CardGroup>
-
-    </Col>
 </Row>
 
 
@@ -237,38 +161,60 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <Container fluid className={styles.test1}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+      <div className={styles.spaceing}></div>
+
+
+<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test1}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
 
 
 
 <CardGroup className={styles.backgroundgrey}>
       <Card className={styles.backgroundgrey}>
-
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+      <Image src={Img28} fluid />
     
       </Card>
 
@@ -289,108 +235,309 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 <Container fluid className={styles.test1}>
+        <div id="test"></div>
+
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={10}>
 
-<CardGroup>
-      <Card className={styles.backgroundgrey}>
-        <Card.Body>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-          </Card.Title>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-          </Card.Title>
-          <Image src={Img28} fluid />
 
-        </Card.Body>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+      <div className={styles.spaceing}></div>
+
+
+<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+<div className={styles.spaceing}></div>
+
+    
       </Card>
 
-      <Card>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
+      <Card className={styles.backgroundtransparent}>
+
       </Card>
       </CardGroup>
 
-    </Col>
+
+
+
+</Col>
 </Row>
+</Container>
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test1}>
+        <div id="test"></div>
+
+
 <div className={styles.spaceingwhite}></div>
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img04} fluid />
-
-  
-</Card>
-</CardGroup>
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-
-</CardGroup>
-
 <Row className="justify-content-md-center">
-<Col xs lg="6">
+<Col md={10}>
 
 
 
-
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
+<CardGroup className={styles.backgroundgrey}>
+      <Card className={styles.backgroundgrey}>
+      <Image src={Img28} fluid />
+    
       </Card>
- 
+
+      <Card className={styles.backgroundgrey}>
+      <Image src={Img28} fluid />
+      </Card>
+      </CardGroup>
 
 
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+
+
+<p className={styles.subtitlelargeblack}>Hello, ProMotion</p>
+    
+       
+            <p className={styles.descriptionlargeblackbold}>Meet the 120Hz adaptive refresh display that changes the game.</p>
+
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={12}>
+
+
+
+
+            <Image src={Img35} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+<Container fluid className={styles.test1}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}>Is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+
+      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). </span> </p>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+
+            <p className={styles.subtitlesmallblackcenter}>XDR. Dynamic range to the extreme.</p>
+       
+
+            <p className={styles.descriptionlargeblackbold}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+</Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test1}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundgrey}>
+      <Card className={styles.backgroundgrey}>
+      <Image src={Img28} fluid />
+    
+      </Card>
+
+      <Card className={styles.backgroundgrey}>
+      <Image src={Img28} fluid />
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+<Container fluid className={styles.test1}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}>Is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+
+      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). </span> </p>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+            <p className={styles.subtitlelargeblack}>The TrueDepth camera system has all the latest features from the back cameras</p>
+    
+            <p className={styles.descriptionlargeblack}>for a whole new stratosphere of selfies. A15 Bionic and the TrueDepth camera also power Face ID, the most secure facial authentication in a smartphone</p>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      <Image src={Img36} fluid />
+      </Card>
+      </CardGroup>
 
 
 
@@ -399,110 +546,185 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 </Row>
 
 
+</Container>
 
-<CardGroup>
-<Card className={styles.cardborder}>
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+            <p className={styles.subtitlelargeblack}>2x the storage</p>
     
-<Image src={Img15} fluid/>
+            <p className={styles.subtitlelargeblack}>iPone 13 starts at 128GB for all your photos and videos</p>
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      <Image src={Img36} fluid />
+      </Card>
+      </CardGroup>
 
 
-  
-</Card>
-<Card className={styles.cardborder}>
+
+
+</Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+<Row className="justify-content-md-center">
+<Col md={12}>
+
+
+
+
+            <Image src={Img37} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+
+
+<p className={styles.subtitlelargeblack}>Supercolorpixelistic XDRidocious.</p>
     
-<Image src={Img17} fluid />
+<div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+       
+            <p className={styles.descriptionlargeblackbold}>Super Retina XDR display</p>
 
-  
-</Card>
-</CardGroup>
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
 
 
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test1}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="6">
+<Col md={10}>
 
 
 
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
 
 
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
+<p className={styles.descriptionlargeblackbold}>Is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+<div className={styles.spaceing}></div>
+    
       </Card>
- 
+
+      <Card className={styles.backgroundtransparent}>
 
 
+      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). </span> </p>
+
+      </Card>
+      </CardGroup>
 
 
 
 
 </Col>
 </Row>
-
-<Image src={Img26} fluid className={styles.imgstyle} />
-
-
-<Image src={Img25} fluid className={styles.imgstyle} />
+</Container>
 
 
 
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="6">
+<Col md={10}>
 
 
 
 
-
-      <Card className={styles.cardborder}>
-      <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
-      <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
-
-      </Card>
- 
+            <Image src={Img38} fluid className={styles.centerimage}/>
 
 
-
-
-
-
-</Col>
-</Row>
-
-      <Image src={Img19} fluid  className={styles.imgfinal} />
-
-      <Image src={Img20} fluid  className={styles.imgfinal} />
-      
-      <Image src={Img21} fluid  className={styles.imgfinal}/>
-
- 
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-
-      <p className={styles.subtitlelargeblack}>Results:</p>
-    <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-     
-      </Card>
- 
-
-
-
-
-
-
-</Col>
+            </Col>
 </Row>
 
 
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test1}>
 
 
 
@@ -511,7 +733,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 <Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
-<Col xs lg="6">
+<Col xs lg="8">
 
 
 
@@ -525,7 +747,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <div className={styles.spaceing}></div>
 <p className={styles.descriptionlargewhitebold}>Legacy Pictures</p>
 
-  <p className={styles.descriptionlargewhite}>Mobile App Redesign for Art Community iOS Ap</p>
+  <p className={styles.descriptionlargewhite}>Mobile App Redesign</p>
 
 
   <LinkContainer to="/legacypictures">

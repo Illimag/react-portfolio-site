@@ -1253,3 +1253,7 @@ background: rgba(0,0,0,0.5);
 .clickablecontainer{
     cursor: pointer;
 }
+
+.black{
+    color: #000;
+}

@@ -137,7 +137,6 @@ export const Legacypictures = () => (
 <Col md={6}>
 
 <div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
 
 
 
@@ -147,7 +146,7 @@ export const Legacypictures = () => (
             <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
 
                         <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
+           
 
 
             </Col>
@@ -156,7 +155,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={9}>
 
 
             <Image src={Img34} fluid className={styles.centerimage}/>
@@ -274,16 +273,29 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
 
+            </Col>
+</Row>
+
+
+            <Row className="justify-content-md-center">
+<Col md={10}>
+
+
             <Image src={Img17} fluid className={styles.centerimage}/>
 
 
-            <div className={styles.spaceing}></div>
+            </Col>
+</Row>
+
+
+<Row className="justify-content-md-center">
+<Col md={6}>
             <div className={styles.spaceing}></div>
 
 
             <p className={styles.descriptionlargeblackbold}>Framer is your tool for designing everything. Work with your team to get impressive and functional interactive designs in minutes with..</p>
             <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
+
 
 
 </Col>
@@ -314,16 +326,29 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
 
+            </Col>
+</Row>
+
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
             <Image src={Img17} fluid className={styles.centerimage}/>
 
+            </Col>
+</Row>
+
+
+<Row className="justify-content-md-center">
+<Col md={6}>
 
             <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
+
 
 
             <p className={styles.descriptionlargeblackbold}>Framer is your tool for designing everything. Work with your team to get impressive and functional interactive designs in minutes with..</p>
             <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
+
 
 
 </Col>
@@ -476,7 +501,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 <Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={12}>
 
 
             <Image src={Img36} fluid className={styles.centerimage}/>
@@ -570,7 +595,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={12}>
 
 
 
@@ -667,9 +692,6 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
             <p className={styles.descriptionlargeblackbold}>Pro Display XDR</p>
        
-                        <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
-
 
             </Col>
 </Row>
@@ -681,7 +703,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={12}>
 
 
 
@@ -705,7 +727,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 <Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
-<Col xs lg="6">
+<Col xs lg="8">
 
 
 
@@ -719,7 +741,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <div className={styles.spaceing}></div>
 <p className={styles.descriptionlargewhitebold}>Art RendexVous</p>
 
-  <p className={styles.descriptionlargewhite}>Mobile App Redesign for Art Community iOS App</p>
+  <p className={styles.descriptionlargewhite}>Mobile App Redesign</p>
 
 
   <LinkContainer to="/artrendezvous">
