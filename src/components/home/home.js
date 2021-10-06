@@ -328,7 +328,10 @@ large: "(min-width: 1200px)"
 
   </Col>
 
-
+  <LinkContainer to="/legacypictures">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
 </div>
 
 
@@ -416,7 +419,10 @@ large: "(min-width: 1200px)"
                 </div>
 
   </Col>
-
+  <LinkContainer to="/artrendezvous">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
 
 </div>
     </Jumbotron>
@@ -498,7 +504,10 @@ large: "(min-width: 1200px)"
                 </div>
 
   </Col>
-
+  <LinkContainer to="/uguru">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
 </div>
     </Jumbotron>
 
@@ -588,7 +597,10 @@ large: "(min-width: 1200px)"
 
   </Col>
 
-
+  <LinkContainer to="/sanchezcoffeeco">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
 </div>
     </Jumbotron>
 
@@ -670,7 +682,10 @@ large: "(min-width: 1200px)"
                 </div>
 
   </Col>
-
+  <LinkContainer to="/apexvr">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
 </div>
     </Jumbotron>
 
@@ -748,7 +763,10 @@ large: "(min-width: 1200px)"
                 </div>
 
   </Col>
-
+  <LinkContainer to="/stepsaver">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
 
 </div>
     </Jumbotron>
