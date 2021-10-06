@@ -1061,7 +1061,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .maincontentwrapperpiece{
-    bottom:2rem;
+    bottom:5rem;
     position: absolute;
     padding-right: 5%;
 }
@@ -1136,6 +1136,12 @@ background: rgba(0,0,0,0.5);
     background-color: #f7f7f7 !important;
     border: transparent !important
 }
+
+.backgroundgadient{
+    background: linear-gradient(to right bottom, #071931 0%, #33274f 50%, #661e43 100%);
+    border: transparent !important
+}
+
 
 .profile{
     width:30% !important;

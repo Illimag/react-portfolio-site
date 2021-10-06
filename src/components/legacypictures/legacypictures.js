@@ -187,7 +187,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={10}>
 
 
 
@@ -235,7 +235,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
           <p className={styles.subtitlelargewhite}>Unlock more interactivity</p>
           <div className={styles.spaceing}></div>
           <Card.Text>
-             <p className={styles.descriptionlargewhitebold}>In Framer, interaction are first-class throughout your whole workflow-wireframing, visual design, prototyping, design systems, handoff, and user testing. Create prototypes in the canvas with animations, transitions, and Smart Componentns and get better feedback from user tests, userful handoff code for engineers, and quicker buy-in from stakeholders.</p>
+             <p className={styles.descriptionlargewhitebold}>In Framer, interaction are first-class throughout your whole workflow-wireframing, visual design, prototyping, design systems, handoff, and user testing. </p>
               
               </Card.Text>
         </Card.Body>

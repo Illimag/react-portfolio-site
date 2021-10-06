@@ -66,6 +66,11 @@ import Img30 from '../../assets/hero-gradient.png';
 import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
 import Img32 from '../../assets/MacBook Pro Mockup.png';
 import Img33 from '../../assets/XDR Mockup.png';
+import Img34 from '../../assets/ugurumainpic-01-min.png';
+
+import Img35 from '../../assets/mockuptest-02.png';
+import Img36 from '../../assets/mockuptest-01.png';
+import Img37 from '../../assets/aerial-cityscape-view-of-san-francisco-and-the-bay-2FPCNKG.jpg';
 
 
 
@@ -118,37 +123,37 @@ export const Uguru = () => (
 
 
 
-  <Container fluid className={styles.test}>
+  <Container fluid className={styles.test2}>
         <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={4}>
+<Col md={6}>
 
 
 
 
-            <p className={styles.subtitlesmallblackcenter}>Uguru, INC</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
+            <p className={styles.subtitlelargewhite}>Uguru, INC</p>
+            <p className={styles.subtitlelargewhite}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
 
-                        <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
-
-            <Image src={Img29} fluid className={styles.centerimage}/>
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
 
 
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
+            </Col>
+</Row>
+
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+            <Image src={Img34} fluid className={styles.centerimage}/>
 
 
-            <p className={styles.descriptionlargeblackbold}>Designed for those who defy limits and change the world,
-the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
-
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
 
 
-</Col>
+            </Col>
 </Row>
 
 
@@ -163,6 +168,113 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
+
+
+
+
+
+        <Container fluid className={styles.test2}>
+        <div id="test3"></div>
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundgadient}>
+      <Card className={styles.backgroundtransparent}>
+
+            <p className={styles.subtitlelargewhite}>Use Case Scenarios.</p>
+    
+            <p className={styles.descriptionlargewhite}>Various stakeholders of the company.</p>
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      <Image src={Img35} fluid />
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundgadient}>
+      <Card className={styles.backgroundtransparent}>
+
+            <p className={styles.subtitlelargewhite}>Use Case Scenarios.</p>
+    
+            <p className={styles.subtitlelargewhite}>Various stakeholders of the company.</p>
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      
+      <p className={styles.subtitlelargewhite}>Use Case Scenarios.</p>
+    
+    <p className={styles.subtitlelargewhite}>Various stakeholders of the company.</p>
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+<Container fluid className={styles.test2}>
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+<CardGroup className={styles.backgroundgadient}>
+      <Card className={styles.backgroundtransparent}>
+        <Card.Body>
+
+          <Image src={Img36} fluid />
+
+        </Card.Body>
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+        <Card.Body>
+          <Card.Title>
+          <p className={styles.subtitlelargewhite}>Stakeholders for the website</p>
+          </Card.Title>
+          <Card.Text>
+          <p className={styles.descriptionlargewhite}>There were several stakeholders, that had various task.</p>
+
+              </Card.Text>
+        </Card.Body>
+      </Card>
+      </CardGroup>
+
+    </Col>
+</Row>
+
+
+<div className={styles.spaceing}></div>
 
 
 
@@ -170,71 +282,14 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 <Container fluid className={styles.test}>
-        <div id="test"></div>
-            <Image src={Img30} fluid className={styles.testgradientbackground}/>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={14}>
 
 
 
-<CardGroup className={styles.backgroundtransparent}>
-      <Card className={styles.backgroundtransparent}>
+            <Image src={Img37} fluid className={styles.centerimage}/>
 
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-    
-      </Card>
-
-      <Card className={styles.backgroundtransparent}>
-      <Image src={Img31} fluid />
-      </Card>
-      </CardGroup>
-
-
-
-
-</Col>
-</Row>
-
-<Row className="justify-content-md-center">
-<Col md={8}>
-
-<CardGroup>
-      <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-      
-          <Image src={Img32} fluid />
-
-        </Card.Body>
-      </Card>
-
-      <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
-      </Card>
-      </CardGroup>
-
-    </Col>
+            </Col>
 </Row>
 
 
@@ -249,114 +304,6 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-
-
-
-
-
-
-
-        <Container fluid className={styles.test1}>
-        <div id="test"></div>
-
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={8}>
-
-
-
-<CardGroup className={styles.backgroundgrey}>
-      <Card className={styles.backgroundgrey}>
-
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-    
-      </Card>
-
-      <Card className={styles.backgroundgrey}>
-      <Image src={Img28} fluid />
-      </Card>
-      </CardGroup>
-
-
-
-
-</Col>
-</Row>
-</Container>
-
-
-
-
-
-<Container fluid className={styles.test1}>
-
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={8}>
-
-<CardGroup>
-      <Card className={styles.backgroundgrey}>
-        <Card.Body>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-          </Card.Title>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-          </Card.Title>
-          <Image src={Img28} fluid />
-
-        </Card.Body>
-      </Card>
-
-      <Card>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
-      </Card>
-      </CardGroup>
-
-    </Col>
-</Row>
-<div className={styles.spaceingwhite}></div>
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img04} fluid />
-
-  
-</Card>
-</CardGroup>
 
 
 <CardGroup>

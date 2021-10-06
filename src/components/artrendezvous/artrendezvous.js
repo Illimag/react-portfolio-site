@@ -724,7 +724,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 

@@ -304,29 +304,6 @@ large: "(min-width: 1200px)"
 <p className={styles.whitetitle}>Legacy Pictures</p>
 <p className={styles.subtitlelargewhitehome}>How To Redesign A Web App in 2021 as a designer</p>
  
- 
-<Col md={6} className={styles.removepadding}>
-
-<div className={styles.badgelist}>
-<Badge variant="primary" className={styles.UX_badge}>ADOBE XD</Badge>{' '}
-<Badge variant="primary" className={styles.UX_badge}>ADOBE Photoshop</Badge>{' '}
-<Badge variant="primary" className={styles.UX_badge}>ADOBE Creative Suite</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>Los Angeles</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>Prototyping</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>Personas</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>Mind Mapping</Badge>{' '}
-                </div>
-
-  </Col>
 
   <LinkContainer to="/legacypictures">
 <p className={styles.clickabletext}>Learn More >
@@ -400,25 +377,6 @@ large: "(min-width: 1200px)"
 <p className={styles.subtitlelargewhitehome}>Art Community Mobile App Startup</p>
 
 
-<Col md={6} className={styles.removepadding}>
-
-<div className={styles.badgelist}>
-<Badge variant="primary" className={styles.UX_badge}>ADOBE XD</Badge>{' '}
-<Badge variant="primary" className={styles.UX_badge}>ADOBE Photoshop</Badge>{' '}
-<Badge variant="primary" className={styles.UX_badge}>ADOBE Creative Suite</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>New York City</Badge>{' '}
-                </div>
-
-  </Col>
   <LinkContainer to="/artrendezvous">
 <p className={styles.clickabletext}>Learn More >
 </p>
@@ -487,23 +445,6 @@ large: "(min-width: 1200px)"
 <p className={styles.whitetitle}>Uguru, INC</p>
 <p className={styles.subtitlelargewhitehome}>San Francisco SOMA Mobile App Startup</p>
 
-
-<Col md={6} className={styles.removepadding}>
-
-<div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>San Francisco</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>Startup</Badge>{' '}
-                </div>
-
-  </Col>
   <LinkContainer to="/uguru">
 <p className={styles.clickabletext}>Learn More >
 </p>
@@ -570,32 +511,6 @@ large: "(min-width: 1200px)"
 <p className={styles.whitetitle}>Sanchez Coffee Co.</p>
 <p className={styles.subtitlelargewhitehome}>Ecommerce Web App Payment Platform</p>
 
-
-<Col md={6} className={styles.removepadding}>
-
-
-<div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
-                </div>
-
-  </Col>
 
   <LinkContainer to="/sanchezcoffeeco">
 <p className={styles.clickabletext}>Learn More >
@@ -664,24 +579,6 @@ large: "(min-width: 1200px)"
 <p className={styles.subtitlelargewhitehome}>Virtual Reality Videography Company Web App</p>
 
 
-<Col md={6} className={styles.removepadding}>
-
-<div className={styles.badgelist}>
-<Badge variant="primary" className={styles.UX_badge}>Videography</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
-                </div>
-
-  </Col>
   <LinkContainer to="/apexvr">
 <p className={styles.clickabletext}>Learn More >
 </p>
@@ -749,20 +646,6 @@ large: "(min-width: 1200px)"
 <p className={styles.subtitlelargewhitehome}>Houston Valet Tech Mobie Web App Startup</p>
  
 
-<Col md={6} className={styles.removepadding}>
-
-<div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
-                </div>
-
-  </Col>
   <LinkContainer to="/stepsaver">
 <p className={styles.clickabletext}>Learn More >
 </p>
