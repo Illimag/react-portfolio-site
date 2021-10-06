@@ -1061,7 +1061,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .maincontentwrapperpiece{
-    bottom:6rem;
+    bottom:2rem;
     position: absolute;
     padding-right: 5%;
 }
@@ -1183,7 +1183,7 @@ background: rgba(0,0,0,0.5);
 
 .subtitlelargeblackcenter{
     font-weight: 600;
-    font-size: 4.5em;
+    font-size: 4em;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
     font-family: 'Inter', sans-serif;
