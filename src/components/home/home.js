@@ -209,7 +209,6 @@ export const Home = () => {
             <div className={styles.maincontentwrapper}>
 
               
-<p className={styles.subtitlelargewhitehome}>Hillodesign</p>
 
 <p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
  
@@ -254,15 +253,13 @@ export const Home = () => {
 
 
 
-
-
-
-
+        <LinkContainer to="/legacypictures" className={styles.clickablecontainer}>
         <Container className={styles.test2}>
+        
         <div id="test"></div>
   
 <Row className="justify-content-md-center">
-     <Jumbotron className={styles.testfloatback}>
+     <Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
 
 
@@ -300,62 +297,15 @@ large: "(min-width: 1200px)"
 
 
     
-  <Jumbotron className={styles.mainfloatback}>
-  <div className={styles.maincontentwrapper}>
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
 
          
-<p className={styles.subtitlelargewhitehome}>Legacy Pictures</p>
-
-<p className={styles.whitetitle}>How To Redesign A Web App in 2021 as a designer</p>
+<p className={styles.whitetitle}>Legacy Pictures</p>
  
-<p className={styles.subtitlelargewhitehome}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles, </p>
-
-<div className={styles.spaceing}></div>
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Client</p>
-  <p className={styles.descriptionwhite}>Legacy Pictures</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Role</p>
-  <p className={styles.descriptionwhite}>UI/UX Designer</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Location</p>
-  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
-  
-</Card>
-</CardGroup>
+<p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
 
-<Row>
-<Col xs={12} md={4} className={styles.removepadding}>
-<LinkContainer to="/legacypictures">
-<p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Case Study</Button>
-</p>
-</LinkContainer>
-
-</Col>
-
-<div className={styles.divider}/>
-
-<Col xs={12} md={4} className={styles.removepadding}>
-<AnchorLink href="/test1">
-<p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>View Next</Button>
-</p>
-</AnchorLink>
-</Col>
-</Row>
 
 </div>
     </Jumbotron>
@@ -368,13 +318,15 @@ large: "(min-width: 1200px)"
 </Row>
 
 </Container>
+</LinkContainer>
 
 
+<LinkContainer to="/artrendezvous" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
 <div id="test1"></div>
   
 <Row className="justify-content-md-center">
-     <Jumbotron className={styles.testfloatback}>
+     <Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
 
 
@@ -412,58 +364,14 @@ large: "(min-width: 1200px)"
 
 
     
-  <Jumbotron className={styles.mainfloatback}>
-  <div className={styles.maincontentwrapper}>
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
 
-    
-  <p className={styles.subtitlelargewhitehome}>Artrendezvous</p>
-
-<p className={styles.whitetitle}>Art Community Mobile App Startup</p>
- 
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Client</p>
-  <p className={styles.descriptionwhite}>ART•RENDEZ-VOUS</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Role</p>
-  <p className={styles.descriptionwhite}>UI/UX Designer</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Location</p>
-  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
-  
-</Card>
-</CardGroup>
+<p className={styles.whitetitle}>Artrendezvous</p>
+<p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
 
-<Row>
-<Col xs={12} md={4} className={styles.removepadding}>
-<LinkContainer to="/artrendezvous">
-<p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Case Study</Button>
-</p>
-</LinkContainer>
 
-</Col>
-
-<div className={styles.divider}/>
-
-<Col xs={12} md={4} className={styles.removepadding}>
-<AnchorLink href="/test2">
-<p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>View Next</Button>
-</p>
-</AnchorLink>
-</Col>
-</Row>
 
 </div>
     </Jumbotron>
@@ -476,14 +384,15 @@ large: "(min-width: 1200px)"
 </Row>
 
 </Container>
+</LinkContainer>
 
 
-
+<LinkContainer to="/uguru" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
 <div id="test2"></div>
   
 <Row className="justify-content-md-center">
-     <Jumbotron className={styles.testfloatback}>
+     <Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
 
 
@@ -521,58 +430,13 @@ large: "(min-width: 1200px)"
 
 
     
-  <Jumbotron className={styles.mainfloatback}>
-  <div className={styles.maincontentwrapper}>
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
 
     
-  <p className={styles.subtitlelargewhitehome}>Uguru, INC</p>
+<p className={styles.whitetitle}>Uguru, INC</p>
+<p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
-<p className={styles.whitetitle}>San Francisco SOMA Mobile App Startup</p>
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Client</p>
-  <p className={styles.descriptionwhite}>Uguru, INC.</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Role</p>
-  <p className={styles.descriptionwhite}>UI/UX Designer</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Location</p>
-  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
-  
-</Card>
-</CardGroup>
-
-
-<Row>
-<Col xs={12} md={4} className={styles.removepadding}>
-<LinkContainer to="/uguru">
-<p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Case Study</Button>
-</p>
-</LinkContainer>
-
-</Col>
-
-<div className={styles.divider}/>
-
-<Col xs={12} md={4} className={styles.removepadding}>
-<AnchorLink href="/test3">
-<p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>View Next</Button>
-</p>
-</AnchorLink>
-</Col>
-</Row>
 
 
 </div>
@@ -586,14 +450,14 @@ large: "(min-width: 1200px)"
 </Row>
 
 </Container>
+</LinkContainer>
 
-
-
+<LinkContainer to="/sanchezcoffeeco" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
 <div id="test3"></div>
   
 <Row className="justify-content-md-center">
-     <Jumbotron className={styles.testfloatback}>
+     <Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
 
 
@@ -631,59 +495,15 @@ large: "(min-width: 1200px)"
 
 
     
-  <Jumbotron className={styles.mainfloatback}>
-  <div className={styles.maincontentwrapper}>
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
 
     
-  <p className={styles.subtitlelargewhitehome}>Sanchez Coffee Co.</p>
-
-<p className={styles.whitetitle}>Ecommerce Web App Payment Platform</p>
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Client</p>
-  <p className={styles.descriptionwhite}>Sanchez Coffee Co.</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Role</p>
-  <p className={styles.descriptionwhite}>UI/UX Designer</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Location</p>
-  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
-  
-</Card>
-</CardGroup>
+<p className={styles.whitetitle}>Sanchez Coffee Co.</p>
+<p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
 
-<Row>
-<Col xs={12} md={4} className={styles.removepadding}>
-<LinkContainer to="/sanchezcoffeeco">
-<p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Case Study</Button>
-</p>
-</LinkContainer>
 
-</Col>
-
-<div className={styles.divider}/>
-
-<Col xs={12} md={4} className={styles.removepadding}>
-<AnchorLink href="/test4">
-<p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>View Next</Button>
-</p>
-</AnchorLink>
-</Col>
-</Row>
 
 </div>
     </Jumbotron>
@@ -696,14 +516,14 @@ large: "(min-width: 1200px)"
 </Row>
 
 </Container>
+</LinkContainer>
 
-
-
+<LinkContainer to="/apexvr" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
 <div id="test4"></div>
   
 <Row className="justify-content-md-center">
-     <Jumbotron className={styles.testfloatback}>
+     <Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
 
 
@@ -741,58 +561,13 @@ large: "(min-width: 1200px)"
 
 
     
-  <Jumbotron className={styles.mainfloatback}>
-  <div className={styles.maincontentwrapper}>
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
 
     
-  <p className={styles.subtitlelargewhitehome}>ApexVR</p>
+<p className={styles.whitetitle}>ApexVR</p>
+<p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
-<p className={styles.whitetitle}>Virtual Reality Videography Company Web App</p>
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Client</p>
-  <p className={styles.descriptionwhite}>ApexVR</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Role</p>
-  <p className={styles.descriptionwhite}>UI/UX Designer</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Location</p>
-  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
-  
-</Card>
-</CardGroup>
-
-
-<Row>
-<Col xs={12} md={4} className={styles.removepadding}>
-<LinkContainer to="/apexvr">
-<p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Case Study</Button>
-</p>
-</LinkContainer>
-
-</Col>
-
-<div className={styles.divider}/>
-
-<Col xs={12} md={4} className={styles.removepadding}>
-<AnchorLink href="/test5">
-<p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>View Next</Button>
-</p>
-</AnchorLink>
-</Col>
-</Row>
 
 
 </div>
@@ -806,13 +581,14 @@ large: "(min-width: 1200px)"
 </Row>
 
 </Container>
+</LinkContainer>
 
-
+<LinkContainer to="/stepsaver" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
 <div id="test5"></div>
   
 <Row className="justify-content-md-center">
-     <Jumbotron className={styles.testfloatback}>
+     <Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
 
 
@@ -850,58 +626,13 @@ large: "(min-width: 1200px)"
 
 
     
-  <Jumbotron className={styles.mainfloatback}>
-  <div className={styles.maincontentwrapper}>
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
 
     
-  <p className={styles.subtitlelargewhitehome}>Stepsaver</p>
-
-<p className={styles.whitetitle}>Houston Valet Tech Mobie Web App Startup </p>
+<p className={styles.whitetitle}>Stepsaver</p>
  
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Client</p>
-  <p className={styles.descriptionwhite}>Stepsaver</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Role</p>
-  <p className={styles.descriptionwhite}>UI/UX Designer</p>
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-  <p className={styles.subtitlelargewhitehome}>Location</p>
-  <p className={styles.descriptionwhite}>Los Angeles, CA</p>
-  
-</Card>
-</CardGroup>
-
-<Row>
-<Col xs={12} md={4} className={styles.removepadding}>
-<LinkContainer to="/stepsaver">
-<p className={styles.clickabletext}>
-<Button className={styles.mainbutton}>View Case Study</Button>
-</p>
-</LinkContainer>
-
-</Col>
-
-<div className={styles.divider}/>
-
-<Col xs={12} md={4} className={styles.removepadding}>
-<AnchorLink href="/test">
-<p className={styles.clickabletext}>
-<Button className={styles.secondarybutton}>Back to Top</Button>
-</p>
-</AnchorLink>
-</Col>
-</Row>
+<p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
 </div>
     </Jumbotron>
@@ -914,7 +645,7 @@ large: "(min-width: 1200px)"
 </Row>
 
 </Container>
-
+</LinkContainer>
 
 
 

@@ -171,7 +171,7 @@ position: relative;
   .testvideo {
     object-fit: cover;
     width: 100vw;
-    height: 100vh;
+    height: 40vh;
     position:absolute;
     top: 0;
     left: 0;
@@ -353,6 +353,25 @@ background: rgba(0,0,0,0.5);
 
 }
 
+.mainfloatbackpieces{
+    position:relative;
+    background-color: rgba(0,0,0,0) !important;
+    height:40vh;
+    object-fit: cover;
+    z-index: 10;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
+    border-radius: 0rem !important;
+
+    
+
+}
+
+
+
+
+
 
 .testfloatback{
     position: absolute;
@@ -367,6 +386,21 @@ background: rgba(0,0,0,0.5);
 
     
 
+}
+
+
+.testfloatbackpieces{
+    position: absolute;
+    background-color: rgba(0,0,0,0.3) !important;
+    height:40vh;
+    object-fit: cover;
+    z-index: 10;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
+    border-radius: 0rem !important;
+
+    
 }
 
 
@@ -929,7 +963,7 @@ background: rgba(0,0,0,0.5);
 
 .whitetitle{
     color: #fff;
-    font-size:6vw !important;
+    font-size:5vw !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     font-family: 'Inter', sans-serif;
@@ -983,6 +1017,12 @@ background: rgba(0,0,0,0.5);
 
 .maincontentwrapper{
     bottom:12rem;
+    position: absolute;
+    padding-right: 5%;
+}
+
+.maincontentwrapperpiece{
+    bottom:6rem;
     position: absolute;
     padding-right: 5%;
 }
@@ -1168,4 +1208,9 @@ background: rgba(0,0,0,0.5);
     width:10px;
     height:auto;
     display:inline-block;
+}
+
+
+.clickablecontainer{
+    cursor: pointer;
 }
