@@ -146,7 +146,7 @@ export const Home = () => {
 <Jumbotron className={styles.homepageloading}>
 
 
-  <p className={styles.whitetitlehome}>Welcome to Hillodesign!</p>
+  <p className={styles.whitetitle}>Welcome to Hillodesign!</p>
       <ProgressBar animated now={currentProgress} label={` Completed ${now}%`}/>
       <p className={styles.descriptionlargewhite}>Please wait while the website loads an awesome digital web experience just for you!</p>
       
@@ -208,9 +208,10 @@ export const Home = () => {
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
-              
+   
 
-<p className={styles.whitetitlehome}>SF Bay Area & Silicon Valley UI/UX Designer</p>
+<p className={styles.whitetitlehome}>UI/UX Designer</p>
+<p className={styles.subtitlelargewhitehome}>San Francisco Bay Area & Silicon Valley</p>
  
  <p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
 </p>
@@ -300,8 +301,8 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-         
 <p className={styles.whitetitle}>Legacy Pictures</p>
+<p className={styles.subtitlelargewhitehome}>How To Redesign A Web App in 2021 as a designer</p>
  
 <p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
@@ -319,6 +320,7 @@ large: "(min-width: 1200px)"
 
 </Container>
 </LinkContainer>
+
 
 
 <LinkContainer to="/artrendezvous" className={styles.clickablecontainer}>
@@ -368,6 +370,7 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
 <p className={styles.whitetitle}>Artrendezvous</p>
+<p className={styles.subtitlelargewhitehome}>Art Community Mobile App Startup</p>
 <p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
 
@@ -433,8 +436,8 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-    
 <p className={styles.whitetitle}>Uguru, INC</p>
+<p className={styles.subtitlelargewhitehome}>San Francisco SOMA Mobile App Startup</p>
 <p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
 
@@ -498,8 +501,8 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-    
 <p className={styles.whitetitle}>Sanchez Coffee Co.</p>
+<p className={styles.subtitlelargewhitehome}>Ecommerce Web App Payment Platform</p>
 <p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
 
@@ -564,8 +567,8 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-    
 <p className={styles.whitetitle}>ApexVR</p>
+<p className={styles.subtitlelargewhitehome}>Virtual Reality Videography Company Web App</p>
 <p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
 
@@ -629,8 +632,8 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-    
 <p className={styles.whitetitle}>Stepsaver</p>
+<p className={styles.subtitlelargewhitehome}>Houston Valet Tech Mobie Web App Startup</p>
  
 <p className={styles.descriptionlargewhite}>#Figma, #Adobe XD, #Adobe Illustrator, #Web Design, #User Interface Design, #User Experience, #Videography, #Los Angeles,</p>
 
