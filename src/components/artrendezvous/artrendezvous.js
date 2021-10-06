@@ -509,7 +509,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-
+<Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
 <Col xs lg="6">
 
@@ -520,38 +520,40 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 <CardGroup>
+
+<Card className={styles.cardborder}>
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>Legacy Pictures</p>
+
+  <p className={styles.descriptionlargewhite}>Mobile App Redesign for Art Community iOS Ap</p>
+
+
+  <LinkContainer to="/legacypictures">
+                <p>
+                  <Button className={styles.mainbutton} variant="secondary">View Previous</Button>
+                </p>
+              </LinkContainer>
+
+
+  
+</Card>
+
+<div className={styles.divider}/>
+
 <Card className={styles.cardborder}>
     
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>Uguru, INC</p>
 
-<p className={styles.subtitlelargeblack}>Art RendexVous</p>
-<div className={styles.spaceingwhite}></div>
+  <p className={styles.descriptionlargewhite}>Mobile App Redesign for Art Community iOS App</p>
 
-  <p className={styles.descriptionlargeblack}>Mobile App Redesign for Art Community iOS App</p>
-  <div className={styles.spaceingwhite}></div>
 
-  <LinkContainer to="/artrendezvous">
+  <LinkContainer to="/uguru">
                 <p>
                   <Button className={styles.mainbutton} variant="primary">View Next</Button>
                 </p>
               </LinkContainer>
 
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<p className={styles.subtitlelargeblack}>Go to Portfolio:</p>
-<div className={styles.spaceingwhite}></div>
-
-  <p className={styles.descriptionlargeblack}>Go Back to Portfolio</p>
-  <div className={styles.spaceingwhite}></div>
-
-  <LinkContainer to="/portfolio">
-                <p>
-                  <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
-                </p>
-              </LinkContainer>
 
 
   
@@ -563,7 +565,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 </Col>
 </Row>
-
+</Container>
 
 
 

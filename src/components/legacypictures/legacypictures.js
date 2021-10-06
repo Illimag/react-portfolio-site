@@ -703,7 +703,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-
+<Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
 <Col xs lg="6">
 
@@ -716,12 +716,11 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <CardGroup>
 <Card className={styles.cardborder}>
     
-
-<p className={styles.subtitlelargewhite}>Art RendexVous</p>
 <div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>Art RendexVous</p>
 
   <p className={styles.descriptionlargewhite}>Mobile App Redesign for Art Community iOS App</p>
-  <div className={styles.spaceing}></div>
+
 
   <LinkContainer to="/artrendezvous">
                 <p>
@@ -733,15 +732,17 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
   
 </Card>
+
+<div className={styles.divider}/>
+
 <Card className={styles.cardborder}>
-    
-<p className={styles.subtitlelargewhite}>Go to Portfolio:</p>
 <div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>Go to Portfolio:</p>
 
   <p className={styles.descriptionlargewhite}>Go Back to Portfolio</p>
-  <div className={styles.spaceing}></div>
 
-  <LinkContainer to="/portfolio">
+
+  <LinkContainer to="/">
                 <p>
                   <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
                 </p>
@@ -757,7 +758,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 </Col>
 </Row>
-
+</Container>
 
 
 
