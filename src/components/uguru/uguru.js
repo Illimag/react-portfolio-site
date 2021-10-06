@@ -72,7 +72,8 @@ import Img35 from '../../assets/mockuptest-02.png';
 import Img36 from '../../assets/mockuptest-01.png';
 import Img37 from '../../assets/aerial-cityscape-view-of-san-francisco-and-the-bay-2FPCNKG.jpg';
 
-
+import Img38 from '../../assets/phonemockuo.png';
+import Img39 from '../../assets/homepage2.png';
 
 import ImgA from '../../assets/img/uguru/testpics-02.png';
 import ImgB from '../../assets/img/uguru/testpics-03.png';
@@ -133,7 +134,7 @@ export const Uguru = () => (
 
 
 
-            <p className={styles.subtitlelargewhite}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
+            <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -280,101 +281,397 @@ export const Uguru = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Framer runs on Motion.</span></p>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+
+
+            <Row className="justify-content-md-center">
+<Col md={10}>
+
+
+            <Image src={Img17} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+
+</Container>
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Framer runs on Motion.</span></p>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+
+
+            <Row className="justify-content-md-center">
+<Col md={10}>
+
+
+            <Image src={Img17} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+
+</Container>
+
+
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+
+
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Framer runs on Motion.</span></p>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      
+<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Import Framer components. Directly in your React code.</span></p>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+
+
+            <Row className="justify-content-md-center">
+<Col md={10}>
+
+
+            <Image src={Img17} fluid className={styles.centerimage}/>
+
+
+            </Col>
+</Row>
+
+
+
+</Container>
+
+
+
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>No one does 5G like iPhone.</span></p>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+            <p className={styles.descriptionlargewhite}>for a whole new stratosphere of selfies. A15 Bionic and the TrueDepth camera also power Face ID, the most secure facial authentication in a smartphone</p>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      <Image src={Img38} fluid />
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={10}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+      <Image src={Img38} fluid />
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      <Image src={Img38} fluid />
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+
 <Row className="justify-content-md-center">
 <Col md={14}>
 
+            <Image src={Img39} fluid className={styles.centerimage}/>
 
 
-            <Image src={Img37} fluid className={styles.centerimage}/>
+            <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
 
             </Col>
 </Row>
 
 
 </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test1}>
+
 
 
 
 
 
 <Container fluid className={styles.test2}>
-        <div id="test"></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={6}>
-
-
-
-
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Framer runs on Motion.</span></p>
-
-                        <div className={styles.spaceing}></div>
-                        <p className={styles.descriptionlargeblackbold}>Designers who prototype in Framer can leverage the power of Framer Motion without touching a line of code, then handoff the animation values to be used 1:1 in production.</p>
-
-            <div className={styles.spaceing}></div>
-
-            </Col>
-</Row>
-
-
-            <Row className="justify-content-md-center">
-<Col md={10}>
-
-
-            <Image src={Img17} fluid className={styles.centerimage}/>
-
-
-            </Col>
-</Row>
-
-
-
-</Container>
-
-
-
-
-<Container fluid className={styles.test2}>
-        <div id="test"></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
-
-
-
-
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Framer runs on Motion.</span></p>
-
-                        <div className={styles.spaceing}></div>
-                        <p className={styles.descriptionlargeblackbold}>Designers who prototype in Framer can leverage the power of Framer Motion without touching a line of code, then handoff the animation values to be used 1:1 in production.</p>
-
-            <div className={styles.spaceing}></div>
-
-            </Col>
-</Row>
-
-
-            <Row className="justify-content-md-center">
-<Col md={10}>
-
-
-            <Image src={Img17} fluid className={styles.centerimage}/>
-
-
-            </Col>
-</Row>
-
-
-
-</Container>
-
-
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-
+<Col xs lg="8">
 
 
 
@@ -383,178 +680,35 @@ export const Uguru = () => (
 
 
 <CardGroup>
+
 <Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>Artrendezvous</p>
 
+  <p className={styles.descriptionlargewhite}>Mobile App Redesign</p>
 
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-
-</CardGroup>
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img15} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img17} fluid />
-
-  
-</Card>
-</CardGroup>
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-<Image src={Img26} fluid className={styles.imgstyle} />
-
-
-<Image src={Img25} fluid className={styles.imgstyle} />
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-      <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
-      <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
-
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-      <Image src={Img19} fluid  className={styles.imgfinal} />
-
-      <Image src={Img20} fluid  className={styles.imgfinal} />
-      
-      <Image src={Img21} fluid  className={styles.imgfinal}/>
-
- 
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-
-      <p className={styles.subtitlelargeblack}>Results:</p>
-    <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-     
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-
-
-
-
-
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-
-<p className={styles.subtitlelargeblack}>Art RendexVous</p>
-<div className={styles.spaceingwhite}></div>
-
-  <p className={styles.descriptionlargeblack}>Mobile App Redesign for Art Community iOS App</p>
-  <div className={styles.spaceingwhite}></div>
 
   <LinkContainer to="/artrendezvous">
+                <p>
+                  <Button className={styles.mainbutton} variant="secondary">View Previous</Button>
+                </p>
+              </LinkContainer>
+
+
+  
+</Card>
+
+<div className={styles.divider}/>
+
+<Card className={styles.cardborder}>
+    
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>Sanchez Coffee Co.</p>
+
+  <p className={styles.descriptionlargewhite}>Mobile App Redesign</p>
+
+
+  <LinkContainer to="/sanchezcoffeeco">
                 <p>
                   <Button className={styles.mainbutton} variant="primary">View Next</Button>
                 </p>
@@ -564,23 +718,6 @@ export const Uguru = () => (
 
   
 </Card>
-<Card className={styles.cardborder}>
-    
-<p className={styles.subtitlelargeblack}>Go to Portfolio:</p>
-<div className={styles.spaceingwhite}></div>
-
-  <p className={styles.descriptionlargeblack}>Go Back to Portfolio</p>
-  <div className={styles.spaceingwhite}></div>
-
-  <LinkContainer to="/portfolio">
-                <p>
-                  <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
-                </p>
-              </LinkContainer>
-
-
-  
-</Card>
 </CardGroup>
 
 
@@ -588,6 +725,19 @@ export const Uguru = () => (
 
 </Col>
 </Row>
+</Container>
+
+
+
+
+
+
+
+
+
+
+</Container>
+
 
 
 

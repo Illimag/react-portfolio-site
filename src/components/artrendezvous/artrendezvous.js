@@ -134,7 +134,7 @@ export const Artrendezvous = () => (
 <Col md={10}>
 
 <div className={styles.spaceing}></div>
-
+<div className={styles.spaceing}></div>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
