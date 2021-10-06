@@ -214,64 +214,100 @@ background: rgba(0,0,0,0.5);
 
 
 .UI_badge{
-    background-color: #111 !important;
-    border-color: #555;
-    border-style: solid;
-    border-width: 0px;
-    
-    color: #fff !important;
-
-
-    font-size: .7rem !important;
-    margin-bottom: 0% !important;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    text-align: justify;
+    background-color: red !important;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+    font-size: .7rem !important;
 }
 
 .UX_badge{
+    font-family: 'Inter', sans-serif;
     background-color: #78C242 !important;
-    display: initial !important;
     border-color: #78C242;
     border-style: solid;
     border-width: 1px;
     color: #fff !important;
+    font-size: .7rem !important;
 }
 
-.Mobile_badge{
-    background-color: #78C242 !important;
-    display: initial !important;
-    border-color: #78C242;
-    border-style: solid;
-    border-width: 1px;
-    color: #fff !important;
-}
 
 .Prototyping_badge{
     background-color: #01A68E !important;
-    display: initial !important;
+    font-family: 'Inter', sans-serif;
+    border-color: #01A68E;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+    font-size: .7rem !important;
 }
 
 .web_badge{
     background-color: #7E3F99 !important;
-    display: initial !important;
+    font-family: 'Inter', sans-serif;
+    border-color: #7E3F99;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+    font-size: .7rem !important;
 }
 
 .wordpress_badge{
     background-color: #FE0000 !important;
-    display: initial !important;
+    font-family: 'Inter', sans-serif;
+    border-color: #FE0000;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+    font-size: .7rem !important;
 }
 
 .css_badge{
     background-color: #FBB033 !important;
-    display: initial !important;
+    font-family: 'Inter', sans-serif;
+    border-color: #FBB033;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+    font-size: .7rem !important;
 }
 
 .woocommerce_badge{
-    background-color: #FFDD00 !important;
-    display: initial !important;
+    background-color: blue !important;
+    font-family: 'Inter', sans-serif;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff !important;
+    font-size: .7rem !important;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .imgstyle{
     object-fit: cover;

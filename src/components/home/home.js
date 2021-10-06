@@ -309,23 +309,18 @@ large: "(min-width: 1200px)"
 
 <div className={styles.badgelist}>
                 <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>SQUARE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT PROCESSOR</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USABILITY</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
+                <Badge variant="primary" className={styles.Prototyping_badge}>USER EXPERIENCE</Badge>{' '}
+                <Badge variant="primary" className={styles.web_badge}>USER INTERFACE</Badge>{' '}
+                  <Badge variant="primary" className={styles.wordpress_badge}>WEB</Badge>{' '}
+                  <Badge variant="primary" className={styles.css_badge}>E-COMMERCE</Badge>{' '}
+                  <Badge variant="primary" className={styles.Prototyping_badge}>USER EXPERIENCE</Badge>{' '}
+                <Badge variant="primary" className={styles.web_badge}>USER INTERFACE</Badge>{' '}
+                  <Badge variant="primary" className={styles.wordpress_badge}>WEB</Badge>{' '}
+                <Badge variant="primary" className={styles.web_badge}>USER INTERFACE</Badge>{' '}
+                  <Badge variant="primary" className={styles.wordpress_badge}>WEB</Badge>{' '}
+                  <Badge variant="primary" className={styles.css_badge}>E-COMMERCE</Badge>{' '}
+                  <Badge variant="primary" className={styles.woocommerce_badge}>WORDPRESS</Badge>{' '}
                 </div>
 
   </Col>
@@ -399,24 +394,24 @@ large: "(min-width: 1200px)"
 <Col md={6} className={styles.removepadding}>
 
 <div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>SQUARE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT PROCESSOR</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USABILITY</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
                 </div>
 
   </Col>
@@ -489,24 +484,24 @@ large: "(min-width: 1200px)"
 <Col md={6} className={styles.removepadding}>
 
 <div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>SQUARE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT PROCESSOR</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USABILITY</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
                 </div>
 
   </Col>
@@ -576,25 +571,26 @@ large: "(min-width: 1200px)"
 
 <Col md={6} className={styles.removepadding}>
 
+
 <div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>SQUARE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT PROCESSOR</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USABILITY</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
                 </div>
 
   </Col>
@@ -666,24 +662,24 @@ large: "(min-width: 1200px)"
 <Col md={6} className={styles.removepadding}>
 
 <div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>SQUARE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT PROCESSOR</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USABILITY</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
                 </div>
 
   </Col>
@@ -754,24 +750,24 @@ large: "(min-width: 1200px)"
 <Col md={6} className={styles.removepadding}>
 
 <div className={styles.badgelist}>
-                <Badge variant="primary" className={styles.UI_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>FIGMA</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER EXPERIENCE</Badge>{' '}
-                <Badge variant="primary" className={styles.UI_badge}>USER INTERFACE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>E-COMMERCE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WORDPRESS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYPAL MANAGER</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>HTML</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>CSS</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>STRIPE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>SQUARE</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>WEB DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>RESPONSIVE DESIGN</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT GATEWAY</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>PAYMENT PROCESSOR</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USER TESTING</Badge>{' '}
-                  <Badge variant="primary" className={styles.UI_badge}>USABILITY</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>ADOBE ILLUSTRATOR</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>FIGMA</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER EXPERIENCE</Badge>{' '}
+                <Badge variant="primary" className={styles.UX_badge}>USER INTERFACE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>E-COMMERCE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WORDPRESS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYPAL MANAGER</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>HTML</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>CSS</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>STRIPE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>SQUARE</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>WEB DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>RESPONSIVE DESIGN</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT GATEWAY</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>PAYMENT PROCESSOR</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USER TESTING</Badge>{' '}
+                  <Badge variant="primary" className={styles.UX_badge}>USABILITY</Badge>{' '}
                 </div>
 
   </Col>
