@@ -201,7 +201,7 @@ export const Home = () => {
           )}
         </Media>
 
-            <Col md={8} className={styles.removepadding}>
+            <Col md={6} className={styles.removepadding}>
 
 
               
@@ -209,11 +209,13 @@ export const Home = () => {
             <div className={styles.maincontentwrapper}>
 
    
-            <p className={styles.subtitlelargewhitehome}>Hillodesign</p>
-<p className={styles.whitetitlehome}>San Francisco Bay Area & Silicon Valley UI/UX Designer </p>
+<p className={styles.whitetitle}>San Francisco Bay Area & Silicon Valley UI/UX Designer </p>
  
- <p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
+ <p className={styles.subtitlelargewhitehome}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
 </p>
+
+<div className={styles.spaceing}></div>
+
 
 <Row>
   <Col xs={12} md={4} className={styles.removepadding}>
@@ -293,7 +295,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={8} className={styles.removepadding}>
+  <Col md={6} className={styles.removepadding}>
 
 
     
@@ -301,11 +303,10 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
 
-  <p className={styles.subtitlelargewhitehome}>Legacy Pictures</p>
+
+<p className={styles.whitetitle}>Legacy Pictures</p>
+<p className={styles.subtitlelargewhitehome}>How To Redesign A Web App in 2021 as a designer</p>
   
-<p className={styles.whitetitle}>How To Redesign A Web App in 2021 as a designer</p>
- 
-<div className={styles.spaceing}></div>
 
   <LinkContainer to="/legacypictures">
 <p className={styles.clickabletext}>Learn More >
@@ -368,17 +369,16 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={8} className={styles.removepadding}>
+  <Col md={6} className={styles.removepadding}>
 
 
     
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-  <p className={styles.subtitlelargewhitehome}>Artrendezvous</p>
-<p className={styles.whitetitle}>Art Community Mobile App Startup</p>
+<p className={styles.whitetitle}>Artrendezvous</p>
+<p className={styles.subtitlelargewhitehome}>Art Community Mobile App Startup</p>
 
-<div className={styles.spaceing}></div>
 
   <LinkContainer to="/artrendezvous">
 <p className={styles.clickabletext}>Learn More >
@@ -438,17 +438,16 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={8} className={styles.removepadding}>
+  <Col md={6} className={styles.removepadding}>
 
 
     
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-  <p className={styles.subtitlelargewhitehome}>Uguru, INC.</p>
-<p className={styles.whitetitle}>San Francisco SOMA Mobile App Startup</p>
+<p className={styles.whitetitle}>Uguru, INC</p>
+<p className={styles.subtitlelargewhitehome}>San Francisco SOMA Mobile App Startup</p>
 
-<div className={styles.spaceing}></div>
 
   <LinkContainer to="/uguru">
 <p className={styles.clickabletext}>Learn More >
