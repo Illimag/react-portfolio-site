@@ -143,7 +143,7 @@ export const Legacypictures = () => (
 
 
 <p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>A</span> Los Angeles Videography Company <span className={styles.grey}>offices in North America and Asia</span></p>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}>Videography Company</span></p>
 
                         <div className={styles.spaceing}></div>
            

@@ -201,7 +201,7 @@ export const Home = () => {
           )}
         </Media>
 
-            <Col md={6} className={styles.removepadding}>
+            <Col md={8} className={styles.removepadding}>
 
 
               
@@ -295,7 +295,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={6} className={styles.removepadding}>
+  <Col md={8} className={styles.removepadding}>
 
 
     
@@ -369,7 +369,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={6} className={styles.removepadding}>
+  <Col md={8} className={styles.removepadding}>
 
 
     
@@ -438,7 +438,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={6} className={styles.removepadding}>
+  <Col md={8} className={styles.removepadding}>
 
 
     
