@@ -132,7 +132,7 @@ export const Artrendezvous = () => (
 
 <p className={styles.subtitlesmallblackcenter}>Artrendezvous</p>
 
-<p className={styles.subtitlelargeblackcenter}>No wonder your selfies look so good.</p>
+<p className={styles.subtitlelargeblackcenter}>Mobile Application Startup</p>
     
 
 
@@ -152,9 +152,9 @@ export const Artrendezvous = () => (
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>No wonder your selfies look so good.</p>
+            <p className={styles.subtitlelargeblack}>Social media community integrated into an interface showcasing artworks.</p>
     
-            <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+            <p className={styles.descriptionlargeblack}>Was connected on Dribbble, looking for gig projects that I could get started on. After communicating with a client over the Dribbble portal, got started on an assignment related to a redesign of a mobile application.</p>
 
     
       </Card>
@@ -198,7 +198,7 @@ export const Artrendezvous = () => (
       <div className={styles.spaceing}></div>
 
 
-<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The client needed a redesign of their mobile application.</span> When beginning to empathize with understanding the user base of the application. Created Personas that would represent potential users. These users would be the virtual personas that would use the application.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -271,7 +271,7 @@ export const Artrendezvous = () => (
       <div className={styles.spaceing}></div>
 
 
-<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+<p className={styles.descriptionlargeblackbold}><span className={styles.black}>Find empathy with those potential users, by creating Personas that would like going to Art Museums, as well as liking Art Galleries.</span> But possibly were unable because of not being able to be there locally. There could be various people who could use the application, as a way to communicate on another platform which should be focused on art. Creating this community is hard to do and when thinking about the user it can be difficult to find the correct people to user test.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -344,10 +344,10 @@ export const Artrendezvous = () => (
 
 
 
-<p className={styles.subtitlelargeblack}>Hello, ProMotion</p>
+<p className={styles.subtitlelargeblack}>Redesign a mobile application</p>
     
        
-            <p className={styles.descriptionlargeblackbold}>Meet the 120Hz adaptive refresh display that changes the game.</p>
+            <p className={styles.descriptionlargeblackbold}>Social media community integrated into an list to various artworks and museums.</p>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -395,7 +395,7 @@ export const Artrendezvous = () => (
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+<p className={styles.descriptionlargeblackbold}>My row to this project is to redesign app designs based on the pervious designs. There were no assets available, instead was given the application designs of the original, and then designed a redesign based on the previous designs.</p>
 
 
     
@@ -404,7 +404,7 @@ export const Artrendezvous = () => (
       <Card className={styles.backgroundtransparent}>
 
 
-      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). </span> </p>
+      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>I was communicating directly with the CEO, who had worked with a remote designer and a developer previous to build out an application that is on the iOS apple store.</span> </p>
 
       </Card>
       </CardGroup>
@@ -437,10 +437,10 @@ export const Artrendezvous = () => (
 
 
 
-            <p className={styles.subtitlesmallblackcenter}>XDR. Dynamic range to the extreme.</p>
+            <p className={styles.subtitlesmallblackcenter}>There were a certain level of issues related to time, and getting the solution as effectively as possible.</p>
        
 
-            <p className={styles.descriptionlargeblackbold}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+            <p className={styles.descriptionlargeblackbold}>The main issue is that, there is a client that is looking for the app to be redesigned and they have a pre-exisiting design. Then the designs of the next iteration needs to be different, but still things such as the user flow will look similar to the original. Although there can be minor adjustments made, based on new information or different methods of doing things.</p>
 
             <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -506,7 +506,7 @@ export const Artrendezvous = () => (
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+<p className={styles.descriptionlargeblackbold}>Additionally the User Interface needs to have UI elements that have several variations, different kinds of elements in different locations on the screen. Then based on this information there can be a different design of the application, based on previous Ui elements.</p>
 
 
     
@@ -515,7 +515,7 @@ export const Artrendezvous = () => (
       <Card className={styles.backgroundtransparent}>
 
 
-      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). </span> </p>
+      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>Designed the redesigns using Figma, and redesigned all the assets on Figma. Later came back later and also designed it on Adobe XD. Additionally used a simple test to compare UIs, and pick a screen based on the CEO who gave art directions.</span> </p>
 
       </Card>
       </CardGroup>
@@ -549,9 +549,9 @@ export const Artrendezvous = () => (
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>The TrueDepth camera system has all the latest features from the back cameras</p>
+            <p className={styles.subtitlelargeblack}>Started with creating a User Flow.</p>
     
-            <p className={styles.descriptionlargeblack}>for a whole new stratosphere of selfies. A15 Bionic and the TrueDepth camera also power Face ID, the most secure facial authentication in a smartphone</p>
+            <p className={styles.descriptionlargeblack}>As so started the initial design of the mobile application, created various UIs that had variants of the UIs. I created multiple variants and then created a slide, which allowed the client to select the UI variant for each slide of the application.</p>
 
     
       </Card>
@@ -587,9 +587,9 @@ export const Artrendezvous = () => (
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>2x the storage</p>
+            <p className={styles.subtitlelargeblack}>After showcasing the prototype as well as the various UI variants.</p>
     
-            <p className={styles.subtitlelargeblack}>iPone 13 starts at 128GB for all your photos and videos</p>
+            <p className={styles.descriptionlargeblack}>There was another issue related to the homepage, where it was difficult to prototype something with video backgrounds. Thats one of the main issues that I have related to creating static prototypes. So I used another platform to create prototypes with background with video.</p>
       </Card>
 
       <Card className={styles.backgroundtransparent}>
@@ -645,12 +645,12 @@ export const Artrendezvous = () => (
 
 
 
-<p className={styles.subtitlelargeblack}>Supercolorpixelistic XDRidocious.</p>
+<p className={styles.subtitlelargeblack}>Design of the application.</p>
     
 <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
        
-            <p className={styles.descriptionlargeblackbold}>Super Retina XDR display</p>
+            <p className={styles.descriptionlargeblackbold}>Most of the designs were done based on a redesign of the visual design of the application.</p>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -683,7 +683,7 @@ export const Artrendezvous = () => (
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+<p className={styles.descriptionlargeblackbold}>The design of the application, started with using Adobe XD. There were several screens that had to be designed of the iOS Mobile Application. There was a redesign of the home screen, as well as redesigning the entire user flow of the application.</p>
 
 <div className={styles.spaceing}></div>
     
@@ -692,7 +692,7 @@ export const Artrendezvous = () => (
       <Card className={styles.backgroundtransparent}>
 
 
-      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). </span> </p>
+      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>Being able to design the redesigns of the original application, as well as being able to use modern design software application tools was very useful.</span> </p>
 
       </Card>
       </CardGroup>
