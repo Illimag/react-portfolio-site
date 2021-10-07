@@ -143,7 +143,7 @@ export const Legacypictures = () => (
 
 
 <p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>A</span> Los Angeles Videography Company <span className={styles.grey}>offices in North America and Asia</span></p>
 
                         <div className={styles.spaceing}></div>
            
@@ -172,8 +172,7 @@ export const Legacypictures = () => (
 
 
 
-            <p className={styles.descriptionlargewhitebold}>Designed for those who defy limits and change the world,
-the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
+            <p className={styles.descriptionlargewhitebold}>Approached by a developer looking for someone to sign a contract with a company looking for a redesign of a website. After the website is designed, the developer would start development of the website. Over the span of 1-2months, they designed a redesign of their web platform. Used usability testing, as well as getting feedback from the executives.</p>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 
@@ -200,10 +199,10 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargewhite}>Design how it works.</p>
+            <p className={styles.subtitlelargewhite}>Design task redesigning a website</p>
             <div className={styles.spaceing}></div>
             
-            <p className={styles.descriptionlargewhitebold}>Framer is an all-in-one tool that helps teams design every part of the product experience. Start in Framer and get to a functional output faster than ever-no code requried.
+            <p className={styles.descriptionlargewhitebold}>Offer my services as an UI/UX Designer, and am excited to get a contract started with the company.
         </p>
       </Card>
 
@@ -232,10 +231,10 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-          <p className={styles.subtitlelargewhite}>Unlock more interactivity</p>
+          <p className={styles.subtitlelargewhite}>Users of the Legacy Pictures websites would be people such as executives</p>
           <div className={styles.spaceing}></div>
           <Card.Text>
-             <p className={styles.descriptionlargewhitebold}>In Framer, interaction are first-class throughout your whole workflow-wireframing, visual design, prototyping, design systems, handoff, and user testing. </p>
+             <p className={styles.descriptionlargewhitebold}>Users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
               
               </Card.Text>
         </Card.Body>
@@ -268,7 +267,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Build your mobile app</span></p>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>User Interface Designs</span> with Adobe XD</p>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -293,7 +292,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
             <div className={styles.spaceing}></div>
 
 
-            <p className={styles.descriptionlargeblackbold}>Framer is your tool for designing everything. Work with your team to get impressive and functional interactive designs in minutes with..</p>
+            <p className={styles.descriptionlargeblackbold}>Starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website. Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
             <div className={styles.spaceing}></div>
 
 
@@ -321,7 +320,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Build your Website</span></p>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Created designs based on what</span> the redesigns of the website needed.</p>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -346,7 +345,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-            <p className={styles.descriptionlargeblackbold}>Framer is your tool for designing everything. Work with your team to get impressive and functional interactive designs in minutes with..</p>
+            <p className={styles.descriptionlargeblackbold}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements.</p>
             <div className={styles.spaceing}></div>
 
 
@@ -371,7 +370,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>A big, beautiful workspace. For doing big, beautiful work.</span></p>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</span></p>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -408,7 +407,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-<p className={styles.subtitlelargeblack}>A dramatically more powerful camera system. A display so responsive every interaction feels new again. The world's fastest smartphone chip. Exceptional durability. An a huge leap in battery life.</p>
+<p className={styles.subtitlelargeblack}>The designs of the website would have to keep Mobile Responsive methologoies in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
     
 <div className={styles.spaceing}></div>
 
@@ -497,6 +496,26 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
+<Container fluid className={styles.test2}>
+<Row className="justify-content-md-center">
+<Col md={6}>
+
+<div className={styles.spaceing}></div>
+
+
+
+
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Redesigns of the UI were created and sent as deliverables. </span></p>
+
+                        <div className={styles.spaceing}></div>
+            <div className={styles.spaceing}></div>
+
+
+            </Col>
+</Row>
+
+
+</Container>
 
 
 <Container fluid className={styles.test2}>
@@ -516,13 +535,15 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
+
+
 <Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
 <Col md={6}>
 
 
 
-            <p className={styles.descriptionlargewhitebold}>The ultimate iPad experience. Now with breakthrough M1 performance, a breathtaking XDR display, and blazing-fast 5G wireless. Buckle up.</p>
+            <p className={styles.descriptionlargewhitebold}>The deliverables were Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
 
             <div className={styles.spaceing}></div>
 
@@ -577,9 +598,9 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-            <p className={styles.descriptionlargeblackbold}>Up your game</p>
+            <p className={styles.subtitlelargeblackcenter}>Starting the User Interface designs on Adobe XD were started.</p>
        
-            <p className={styles.descriptionlargeblackbold}>The display's ability to refresh up to 120Hz - Combined with the amazing graphics performance of the new 5-core GPU on A15 Bionic - makes iPhone 13 Pro perfect for power gamers.</p>
+            <p className={styles.descriptionlargeblackbold}>The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -621,10 +642,10 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-            <p className={styles.subtitlesmallblackcenter}>XDR. Dynamic range to the extreme.</p>
+            <p className={styles.subtitlelargeblackcenter}>Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
        
 
-            <p className={styles.descriptionlargeblackbold}>The contrast your eyes see between brightness and darkness is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+            <p className={styles.descriptionlargeblackbold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface. The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
 
             <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -660,10 +681,10 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-          <p className={styles.subtitlelargeblack}>A brighter idea</p>
+          <p className={styles.subtitlelargeblackcenter}>A brighter idea</p>
           <div className={styles.spaceing}></div>
           <Card.Text>
-             <p className={styles.descriptionlargeblackbold}>Typical desktop displays have sustained brightness around 350nits. Some pro displays exceed this, but most can only sustain it for short periods of time. Pro Display XDR produces an industry-leading 1000 nits of full-screen sustained brightness and 1600 nits at its peak. It gives you the power to maintain extreme brightness without ever dimming. Along with efficient backlight control, this delivers outstanding contrast between the brightest brights and the blackest blacks. The result is an incredible 1,000,000:1 contrast ratio and stunningly real XDR imagery.</p>
+             <p className={styles.descriptionlargeblackbold}>There was a survey, that gained insight on various team member's thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions. Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
               
               </Card.Text>
         </Card.Body>
@@ -690,7 +711,7 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-            <p className={styles.descriptionlargeblackbold}>Pro Display XDR</p>
+            <p className={styles.subtitlelargeblackcenter}>Contract was signed between myself and Legacy Pictures</p>
        
 
             </Col>
