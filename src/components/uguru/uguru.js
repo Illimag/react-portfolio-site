@@ -133,7 +133,7 @@ export const Uguru = () => (
 
 <p className={styles.subtitlesmallwhitecenter}>Uguru, INC</p>
 
-            <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
+            <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Startup</span> in San Francisco <span className={styles.grey}></span></p>
 
                         <div className={styles.spaceing}></div>
           
@@ -184,9 +184,9 @@ export const Uguru = () => (
 <CardGroup className={styles.backgroundgadient}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargewhite}>Use Case Scenarios.</p>
+            <p className={styles.subtitlelargewhite}>The product that they were developing was a mobile Application for college students.</p>
     
-            <p className={styles.descriptionlargewhite}>Various stakeholders of the company.</p>
+            <p className={styles.descriptionlargewhite}>It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building. </p>
     
       </Card>
 
@@ -214,19 +214,18 @@ export const Uguru = () => (
 
 <CardGroup className={styles.backgroundgadient}>
       <Card className={styles.backgroundtransparent}>
+      <div className={styles.spaceing}></div>
 
-            <p className={styles.subtitlelargewhite}>Use Case Scenarios.</p>
-    
-            <p className={styles.subtitlelargewhite}>Various stakeholders of the company.</p>
+            <p className={styles.subtitlelargewhite}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services.</p>
     
       </Card>
 
       <Card className={styles.backgroundtransparent}>
       
-      <p className={styles.subtitlelargewhite}>Use Case Scenarios.</p>
-    
-    <p className={styles.subtitlelargewhite}>Various stakeholders of the company.</p>
-      </Card>
+      <p className={styles.subtitlelargewhite}>The peers would be able to tutor each other and be tutors for others. Over the feeling of the startup was one where there was alot of uncertainty with how the product was going to be developed and the CEO lacked the experience to really keep the team together and motivated. As well the people involved weren’t exactly knowing what to do.</p>
+      <div className={styles.spaceing}></div>
+
+          </Card>
       </CardGroup>
 
 
@@ -259,10 +258,10 @@ export const Uguru = () => (
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
           <Card.Title>
-          <p className={styles.subtitlelargewhite}>Stakeholders for the website</p>
+          <p className={styles.subtitlelargewhite}>There was a ad that was looking for someone to be an office admin worker and I replied to the ad and it was the internship at the startup.</p>
           </Card.Title>
           <Card.Text>
-          <p className={styles.descriptionlargewhite}>There were several stakeholders, that had various task.</p>
+          <p className={styles.descriptionlargewhite}>After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
 
               </Card.Text>
         </Card.Body>
@@ -290,13 +289,13 @@ export const Uguru = () => (
 
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>Framer runs on Motion.</span></p>
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>The first screens were mainly for the CEO, the CEO was a developer</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+<p className={styles.descriptionlargeblackbold}><span className={styles.grey}></span>The userbase is college students, who are looking to help people as well as receive help for college. This is particularly useful for people that have majors in a particular subject but might need help with another topic. The main demographic that was ever reach was the local UC Berkeley Area. Because actually the CEO was a student at UC Berkeley.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -347,13 +346,13 @@ export const Uguru = () => (
 
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>Framer runs on Motion.</span></p>
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>CEO needed a Graphic Designer who could transition into a User Interface Design/User Experience position. </span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+<p className={styles.descriptionlargeblackbold}><span className={styles.grey}></span>There were a few designs that I started with for example, I worked on the onboarding of the Mobile app. For this I designed it based on some sketches and created a higher fidelity for them. There were alot of times I didn’t know what to do, but I continued on them and made them as good as I could.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -410,13 +409,13 @@ export const Uguru = () => (
 
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>Framer runs on Motion.</span></p>
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>After the designs were completed.</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+<p className={styles.descriptionlargeblackbold}><span className={styles.grey}></span>CEO okayed them I started on creating rapid prototyping for them. This was done using proto.io and using this animation software I was able to show what the app would be like.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -425,7 +424,7 @@ export const Uguru = () => (
 
       <Card className={styles.backgroundtransparent}>
       
-<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The contrast your eyes see between brightness and darkness</span> is very challening to reproduce in a display, leading to the development of High Dynamic Range (HDR). With breakthrough backlighting technology, Pro Display XDR takes brightness, contrast, and color to a new level. Far beyond HDR, it's Extreme Dynamic Range (XDR).</p>
+<p className={styles.descriptionlargeblackbold}><span className={styles.grey}>Additionally I made designs for the website, and various other parts of the interface.</span> For example I made designs for the home page of the app, the statistics page, and other pages such as they would be used on the production application that would be deployed and used.</p>
 
       </Card>
       </CardGroup>
@@ -453,7 +452,7 @@ export const Uguru = () => (
 
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>Import Framer components. Directly in your React code.</span></p>
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Initially most of the designs were based on this fictional guru persona, whom was someone who would be able to teach students. Also the main point of this application is to create a social media, a community of people who could be at a state school, or at a university at California.</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
@@ -517,7 +516,7 @@ export const Uguru = () => (
 
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>No one does 5G like iPhone.</span></p>
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>I was able to create high fidelity mockups for the mobile application. As well as begining the rapid prototypes using static image files and animations.</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
@@ -555,7 +554,7 @@ export const Uguru = () => (
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.descriptionlargewhite}>for a whole new stratosphere of selfies. A15 Bionic and the TrueDepth camera also power Face ID, the most secure facial authentication in a smartphone</p>
+            <p className={styles.descriptionlargewhite}>I was the graphic & UI/UX Designer Intern at the company, and later there was a lead designer that came in to help with moving the designs forwards faster. This was very great to learn from this individual and while working with the whole team it really showed me how a team would be able to create a production product.</p>
 
     
       </Card>
