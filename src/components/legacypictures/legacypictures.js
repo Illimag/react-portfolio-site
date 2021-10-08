@@ -134,7 +134,7 @@ export const Legacypictures = () => (
         <div id="test"></div>
             <Image src={Img30} fluid className={styles.testgradientbackground}/>
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={8}>
 
 <div className={styles.spaceing}></div>
 
@@ -168,7 +168,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={5}>
 
 
 
@@ -186,7 +186,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={8}>
 
 
 
@@ -231,7 +231,7 @@ export const Legacypictures = () => (
 
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-          <p className={styles.subtitlelargewhite}>Users of the Legacy Pictures websites would be people such as executives</p>
+          <p className={styles.subtitlelargewhite}>Users of the Legacy Pictures websites</p>
           <div className={styles.spaceing}></div>
           <Card.Text>
              <p className={styles.descriptionlargewhitebold}>Users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
@@ -262,7 +262,7 @@ export const Legacypictures = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={8}>
 
 
 
@@ -288,7 +288,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={5}>
             <div className={styles.spaceing}></div>
 
 
@@ -365,7 +365,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={5}>
 
 
 
@@ -401,82 +401,6 @@ export const Legacypictures = () => (
 
 
 
-<Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={8}>
-
-
-
-<p className={styles.subtitlelargeblack}>The designs of the website would have to keep Mobile Responsive methologoies in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
-    
-<div className={styles.spaceing}></div>
-
-
-</Col>
-</Row>
-
-
-</Container>
-
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test1}>
-
-<div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={8}>
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img04} fluid />
-
-  
-</Card>
-</CardGroup>
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-
-</CardGroup>
-
-</Col>
-</Row>
-</Container>
 
 
 
@@ -593,7 +517,7 @@ export const Legacypictures = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={4}>
+<Col md={6}>
 
 
 
@@ -706,13 +630,14 @@ export const Legacypictures = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={4}>
+<Col md={6}>
 
 
 
 
             <p className={styles.subtitlelargeblackcenter}>Contract was signed between myself and Legacy Pictures</p>
-       
+            <div className={styles.spaceing}></div>
+
 
             </Col>
 </Row>

@@ -128,7 +128,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
 
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={8}>
 
 <p className={styles.subtitlesmallblackcenter}>Artrendezvous</p>
 
@@ -189,7 +189,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={10}>
 
 
 
@@ -262,7 +262,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={10}>
 
 
 
@@ -340,7 +340,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={10}>
 
 
 
@@ -508,6 +508,7 @@ export const Artrendezvous = () => (
 
 <p className={styles.descriptionlargeblackbold}>Additionally the User Interface needs to have UI elements that have several variations, different kinds of elements in different locations on the screen. Then based on this information there can be a different design of the application, based on previous Ui elements.</p>
 
+<div className={styles.spaceing}></div>
 
     
       </Card>
@@ -516,6 +517,7 @@ export const Artrendezvous = () => (
 
 
       <p className={styles.descriptionlargeblackbold}><span className={styles.black}>Designed the redesigns using Figma, and redesigned all the assets on Figma. Later came back later and also designed it on Adobe XD. Additionally used a simple test to compare UIs, and pick a screen based on the CEO who gave art directions.</span> </p>
+      <div className={styles.spaceing}></div>
 
       </Card>
       </CardGroup>

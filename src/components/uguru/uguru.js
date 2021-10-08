@@ -216,13 +216,16 @@ export const Uguru = () => (
       <Card className={styles.backgroundtransparent}>
       <div className={styles.spaceing}></div>
 
-            <p className={styles.subtitlelargewhite}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services.</p>
-    
+            <p className={styles.subtitlelargewhite}>Uguru received their funding of around 300k.</p>
+            <p className={styles.descriptionlargewhite}>From an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services.</p>
+
       </Card>
 
       <Card className={styles.backgroundtransparent}>
       
-      <p className={styles.subtitlelargewhite}>The peers would be able to tutor each other and be tutors for others. Over the feeling of the startup was one where there was alot of uncertainty with how the product was going to be developed and the CEO lacked the experience to really keep the team together and motivated. As well the people involved weren’t exactly knowing what to do.</p>
+      <p className={styles.subtitlelargewhite}>The peers would be able to tutor each other and be tutors for others.</p>
+      <p className={styles.descriptionlargewhite}>Over the feeling of the startup was one where there was alot of uncertainty with how the product was going to be developed and the CEO lacked the experience to really keep the team together and motivated. As well the people involved weren’t exactly knowing what to do.</p>
+
       <div className={styles.spaceing}></div>
 
           </Card>
@@ -258,7 +261,7 @@ export const Uguru = () => (
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
           <Card.Title>
-          <p className={styles.subtitlelargewhite}>There was a ad that was looking for someone to be an office admin worker and I replied to the ad and it was the internship at the startup.</p>
+          <p className={styles.subtitlelargewhite}>There was a ad that was looking for someone to be an office admin worker.</p>
           </Card.Title>
           <Card.Text>
           <p className={styles.descriptionlargewhite}>After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
@@ -553,6 +556,9 @@ export const Uguru = () => (
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
+
+      <p className={styles.subtitlelargeblack}><span className={styles.grey}>I was able to create high fidelity mockups for the mobile application. As well as begining the rapid prototypes using static image files and animations.</span></p>
+
 
             <p className={styles.descriptionlargewhite}>Graphic & UI/UX Designer Intern at the company, and later there was a lead designer that came in to help with moving the designs forwards faster. This was very great to learn from this individual and while working with the whole team it really showed me how a team would be able to create a production product.</p>
 
