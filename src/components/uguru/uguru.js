@@ -554,7 +554,7 @@ export const Uguru = () => (
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.descriptionlargewhite}>I was the graphic & UI/UX Designer Intern at the company, and later there was a lead designer that came in to help with moving the designs forwards faster. This was very great to learn from this individual and while working with the whole team it really showed me how a team would be able to create a production product.</p>
+            <p className={styles.descriptionlargewhite}>Graphic & UI/UX Designer Intern at the company, and later there was a lead designer that came in to help with moving the designs forwards faster. This was very great to learn from this individual and while working with the whole team it really showed me how a team would be able to create a production product.</p>
 
     
       </Card>
