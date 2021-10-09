@@ -201,7 +201,7 @@ export const Home = () => {
           )}
         </Media>
 
-            <Col md={4} className={styles.removepadding}>
+            <Col md={8} className={styles.removepadding}>
 
 
               
@@ -209,7 +209,7 @@ export const Home = () => {
             <div className={styles.maincontentwrapper}>
 
    
-<p className={styles.whitetitle}>San Francisco Bay Area & Silicon Valley UI/UX Designer </p>
+<p className={styles.whitetitle}>SF Bay Area & Silicon Valley UI/UX Designer </p>
  
  <p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
 </p>
@@ -293,7 +293,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={4} className={styles.removepadding}>
+  <Col md={8} className={styles.removepadding}>
 
 
     
@@ -367,7 +367,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={4} className={styles.removepadding}>
+  <Col md={8} className={styles.removepadding}>
 
 
     
@@ -436,7 +436,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={4} className={styles.removepadding}>
+  <Col md={8} className={styles.removepadding}>
 
 
     
