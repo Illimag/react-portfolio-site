@@ -211,10 +211,8 @@ export const Home = () => {
    
 <p className={styles.whitetitle}>San Francisco Bay Area & Silicon Valley UI/UX Designer </p>
  
- <p className={styles.subtitlelargewhitehome}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
+ <p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
 </p>
-
-<div className={styles.spaceing}></div>
 
 
 <Row>
@@ -305,7 +303,7 @@ large: "(min-width: 1200px)"
 
 
 <p className={styles.whitetitle}>Legacy Pictures</p>
-<p className={styles.subtitlelargewhitehome}>How To Redesign A Web App in 2021 as a designer</p>
+<p className={styles.descriptionlargewhite}>How To Redesign A Web App in 2021</p>
   
 
   <LinkContainer to="/legacypictures">
@@ -377,7 +375,7 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
 <p className={styles.whitetitle}>Artrendezvous</p>
-<p className={styles.subtitlelargewhitehome}>Art Community Mobile App Startup</p>
+<p className={styles.descriptionlargewhite}>Art Community Mobile App Startup</p>
 
 
   <LinkContainer to="/artrendezvous">
@@ -446,7 +444,7 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
 <p className={styles.whitetitle}>Uguru, INC</p>
-<p className={styles.subtitlelargewhitehome}>San Francisco SOMA Mobile App Startup</p>
+<p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>
 
 
   <LinkContainer to="/uguru">

@@ -122,14 +122,6 @@ export const Legacypictures = () => (
 
 
 
-
-
-
-
-
-
-
-
 <Container fluid className={styles.test}>
         <div id="test"></div>
             <Image src={Img30} fluid className={styles.testgradientbackground}/>
