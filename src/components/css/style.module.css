@@ -1055,13 +1055,13 @@ background: rgba(0,0,0,0.5);
 
 
 .maincontentwrapper{
-    bottom:12rem;
+    bottom:10rem;
     position: absolute;
     padding-right: 5%;
 }
 
 .maincontentwrapperpiece{
-    bottom:6rem;
+    bottom:4rem;
     position: absolute;
     padding-right: 5%;
 }
