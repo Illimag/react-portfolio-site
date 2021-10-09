@@ -777,7 +777,7 @@ background: rgba(0,0,0,0.5);
     margin-top: 2%;
 }
 .descriptionlargewhite{
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 1% !important;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
@@ -1002,14 +1002,14 @@ background: rgba(0,0,0,0.5);
 
 .whitetitle{
     color: #fff;
-    font-size:6vw !important;
+    font-size:5vw !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     letter-spacing: -1px;
     line-height: 100%;
-    text-transform: uppercase;
+   
 
 }
 
@@ -1189,7 +1189,7 @@ background: rgba(0,0,0,0.5);
 
 .subtitlelargeblackcenter{
     font-weight: 600;
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
     font-family: 'Inter', sans-serif;

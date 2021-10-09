@@ -146,9 +146,11 @@ export const Home = () => {
 <Jumbotron className={styles.homepageloading}>
 
 
-  <p className={styles.whitetitle}>Welcome to Hillodesign!</p>
+  <p className={styles.whitetitle}>Hillodesign</p>
+  <div className={styles.spaceing}></div>
+
       <ProgressBar animated now={currentProgress} label={` Completed ${now}%`}/>
-      <p className={styles.descriptionlargewhite}>Please wait while the website loads an awesome digital web experience just for you!</p>
+      <p className={styles.descriptionlargewhite}>Website is loading portfolio, please wait.</p>
       
 
     </Jumbotron>
@@ -201,17 +203,18 @@ export const Home = () => {
           )}
         </Media>
 
-            <Col md={8} className={styles.removepadding}>
+            <Col md={4} className={styles.removepadding}>
 
 
               
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
-   
-<p className={styles.whitetitle}>SF Bay Area & Silicon Valley UI/UX Designer </p>
- 
- <p className={styles.descriptionlargewhite}><span className={styles.green}>Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time
+            <p className={styles.whitetitle}>Welcome </p>
+
+
+<p className={styles.descriptionlargewhite}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.
+ <span className={styles.green}> Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.
 </p>
 
 
@@ -293,7 +296,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={8} className={styles.removepadding}>
+  <Col md={4} className={styles.removepadding}>
 
 
     
@@ -367,7 +370,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={8} className={styles.removepadding}>
+  <Col md={4} className={styles.removepadding}>
 
 
     
@@ -436,7 +439,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={8} className={styles.removepadding}>
+  <Col md={4} className={styles.removepadding}>
 
 
     
