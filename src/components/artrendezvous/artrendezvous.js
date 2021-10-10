@@ -363,7 +363,7 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={12}>
+<Col md={10}>
 
 
 

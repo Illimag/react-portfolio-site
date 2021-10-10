@@ -550,7 +550,7 @@ export const Uguru = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={8}>
 
 
 
@@ -589,7 +589,7 @@ export const Uguru = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={8}>
 
 
 
