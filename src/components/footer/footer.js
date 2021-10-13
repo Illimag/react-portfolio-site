@@ -162,7 +162,18 @@ const Footer = () => (
     </p>
 
 
+    <p className={styles.description}>
+      Hosted with <p>&hearts; Github</p>  
+    </p>
+
+
     <div className={styles.spaceingblack}></div>
+
+
+
+
+
+
 
 
 </Container>
