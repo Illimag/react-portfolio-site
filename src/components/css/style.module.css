@@ -171,7 +171,7 @@ position: relative;
   .testvideo {
     object-fit: cover;
     width: 100vw;
-    height: 40vh;
+    height: 100vh;
     position:absolute;
     top: 0;
     left: 0;
@@ -395,7 +395,7 @@ background: rgba(0,0,0,0.5);
 .mainfloatbackpieces{
     position:relative;
     background-color: rgba(0,0,0,0) !important;
-    height:40vh;
+    height:100vh;
     object-fit: cover;
     z-index: 10;
     margin-right: 0%;
@@ -431,7 +431,7 @@ background: rgba(0,0,0,0.5);
 .testfloatbackpieces{
     position: absolute;
     background-color: rgba(0,0,0,0.3) !important;
-    height:40vh;
+    height: 100vh;
     object-fit: cover;
     z-index: 10;
     margin-right: 0%;
@@ -1061,7 +1061,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .maincontentwrapperpiece{
-    bottom:4rem;
+    bottom:8rem;
     position: absolute;
     padding-right: 5%;
 }
