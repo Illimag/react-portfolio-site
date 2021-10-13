@@ -203,7 +203,7 @@ export const Home = () => {
           )}
         </Media>
 
-            <Col md={6} className={styles.removepadding}>
+            <Col md={5} className={styles.removepadding}>
 
 
               
@@ -373,7 +373,7 @@ large: "(min-width: 1200px)"
 )}
 </Media>
 
-  <Col md={6} className={styles.removepadding}>
+  <Col md={4} className={styles.removepadding}>
 
 
     
@@ -470,6 +470,152 @@ large: "(min-width: 1200px)"
 </Container>
 </LinkContainer>
 
+
+
+
+
+
+
+
+
+<LinkContainer to="/uguru" className={styles.clickablecontainer}>
+<Container className={styles.test2}>
+<div id="test2"></div>
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatbackpieces}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[8]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[9]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[9]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+<p className={styles.whitetitle}>Sanchez Coffee Co.</p>
+<p className={styles.descriptionlargewhite}>Ecommerce Payment Platform WordPress and Payment Manager</p>
+
+
+  <LinkContainer to="/sanchezcoffeeco">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+</LinkContainer>
+
+
+
+
+
+
+<LinkContainer to="/uguru" className={styles.clickablecontainer}>
+<Container className={styles.test2}>
+<div id="test2"></div>
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatbackpieces}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[10]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[11]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[11]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+<p className={styles.whitetitle}>ApexVR</p>
+<p className={styles.descriptionlargewhite}>VR Videography Company Web Application</p>
+
+
+  <LinkContainer to="/apexvr">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+</LinkContainer>
 
 
 
