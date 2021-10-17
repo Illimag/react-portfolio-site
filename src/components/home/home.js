@@ -60,7 +60,7 @@ import Pg6Img from '../../assets/img/home/1-07.jpg';
 import styles from '../css/style.module.css';
 import '../css/style.css';
 
-import logo from '../../assets/jmk_logo-02-01.png';
+import logo from '../../assets/12751aab25f807388dbec0178150c69d_w200.webp';
 
 import { ProgressBar } from 'react-bootstrap';
 import { Spinner } from 'react-bootstrap';
@@ -138,20 +138,27 @@ export const Home = () => {
   return <>
 
 
-  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "10vh" }}>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "0vh" }}>
   
+
+  <ProgressBar animated now={currentProgress} label={` Completed ${now}%`}/>
+      
 
 
               
 <Jumbotron className={styles.homepageloading}>
 
+<Row className="justify-content-md-center">
+<a href="/">
+                <Navbar.Brand className={styles.logo}>
+                <Image src={logo} fluid />
+                <h5 className={styles.test1title}>HILLODESIGN</h5>
+                <h5 className={styles.test1title}>Loading..</h5>
+                </Navbar.Brand>
+              </a>
 
-  <p className={styles.whitetitle}>Hillodesign</p>
   <div className={styles.spaceing}></div>
-
-      <ProgressBar animated now={currentProgress} label={` Completed ${now}%`}/>
-      <p className={styles.descriptionlargewhite}>Website is loading portfolio, please wait.</p>
-      
+</Row>
 
     </Jumbotron>
 
