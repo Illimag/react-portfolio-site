@@ -520,19 +520,19 @@ large: "(min-width: 1200px)"
 
     {matches.small &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[8]}/>
+      <source src={images[4]}/>
     </video>
       }
 
     {matches.medium &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[9]}/>
+      <source src={images[5]}/>
     </video>
       }
 
     {matches.large &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[9]}/>
+      <source src={images[5]}/>
     </video>
       }
 
@@ -592,25 +592,26 @@ large: "(min-width: 1200px)"
 
     {matches.small &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[10]}/>
+      <source src={images[4]}/>
     </video>
       }
 
     {matches.medium &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[11]}/>
+      <source src={images[5]}/>
     </video>
       }
 
     {matches.large &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[11]}/>
+      <source src={images[5]}/>
     </video>
       }
 
   </>
 )}
 </Media>
+
 
   <Col md={6} className={styles.removepadding}>
 
