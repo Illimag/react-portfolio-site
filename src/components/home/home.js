@@ -60,7 +60,7 @@ import Pg6Img from '../../assets/img/home/1-07.jpg';
 import styles from '../css/style.module.css';
 import '../css/style.css';
 
-import logo from '../../assets/12751aab25f807388dbec0178150c69d_w200.webp';
+import logo from '../../assets/logo.gif';
 
 import { ProgressBar } from 'react-bootstrap';
 import { Spinner } from 'react-bootstrap';
@@ -145,23 +145,38 @@ export const Home = () => {
       
 
 
+
               
 <Jumbotron className={styles.homepageloading}>
 
 <Row className="justify-content-center">
 <a href="/">
                 <Navbar.Brand className={styles.logo}>
+
+                <Row className="justify-content-center">
+
                 <Image src={logo} fluid />
-                <h5 className={styles.test1title}>HILLODESIGN</h5>
-                <h5 className={styles.test1title}>Loading..</h5>
+                </Row>
+
+                
+                <div className={styles.spaceing}></div>
+
+                <Row className="justify-content-center">
+
+                <h1 className={styles.test1title}>HILLODESIGN</h1>
+                </Row>
+
                 </Navbar.Brand>
               </a>
 
   <div className={styles.spaceing}></div>
 </Row>
 
-    </Jumbotron>
 
+
+
+
+    </Jumbotron>
 
 
 
