@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a175d9b4.chunk.css",
-    "main.js": "/static/js/main.25fe624e.chunk.js",
-    "main.js.map": "/static/js/main.25fe624e.chunk.js.map",
+    "main.js": "/static/js/main.d50e54cf.chunk.js",
+    "main.js.map": "/static/js/main.d50e54cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
-    "static/js/2.91d0c6c3.chunk.js": "/static/js/2.91d0c6c3.chunk.js",
-    "static/js/2.91d0c6c3.chunk.js.map": "/static/js/2.91d0c6c3.chunk.js.map",
+    "static/js/2.c5321e6e.chunk.js": "/static/js/2.c5321e6e.chunk.js",
+    "static/js/2.c5321e6e.chunk.js.map": "/static/js/2.c5321e6e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a7ef38bf240223f556eb8960f53e7c37.js": "/precache-manifest.a7ef38bf240223f556eb8960f53e7c37.js",
+    "precache-manifest.2ae2cb473c4c5a285b592cccf83edec7.js": "/precache-manifest.2ae2cb473c4c5a285b592cccf83edec7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
     "static/css/main.a175d9b4.chunk.css.map": "/static/css/main.a175d9b4.chunk.css.map",
-    "static/js/2.91d0c6c3.chunk.js.LICENSE.txt": "/static/js/2.91d0c6c3.chunk.js.LICENSE.txt",
+    "static/js/2.c5321e6e.chunk.js.LICENSE.txt": "/static/js/2.c5321e6e.chunk.js.LICENSE.txt",
     "static/media/0-1.mp4": "/static/media/0-1.20155234.mp4",
     "static/media/0.mp4": "/static/media/0.65c9eeb1.mp4",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
@@ -90,7 +90,7 @@
     "static/media/l.mp4": "/static/media/l.4553dbc1.mp4",
     "static/media/legacyfilms.15a22d82.png": "/static/media/legacyfilms.15a22d82.png",
     "static/media/ll.mp4": "/static/media/ll.619d8298.mp4",
-    "static/media/logo.e72da474.gif": "/static/media/logo.e72da474.gif",
+    "static/media/logo.gif": "/static/media/logo.e72da474.gif",
     "static/media/los-angeles-california-P5YD66H.23421950.jpg": "/static/media/los-angeles-california-P5YD66H.23421950.jpg",
     "static/media/male-videographer-editor-using-pc-computer-editing-R7QYFZS.0480d8fa.jpg": "/static/media/male-videographer-editor-using-pc-computer-editing-R7QYFZS.0480d8fa.jpg",
     "static/media/mind-mapping-diagram-8391.fa3fa10e.png": "/static/media/mind-mapping-diagram-8391.fa3fa10e.png",
@@ -130,8 +130,8 @@
   "entrypoints": [
     "static/js/runtime-main.672f7f98.js",
     "static/css/2.46b578d6.chunk.css",
-    "static/js/2.91d0c6c3.chunk.js",
+    "static/js/2.c5321e6e.chunk.js",
     "static/css/main.a175d9b4.chunk.css",
-    "static/js/main.25fe624e.chunk.js"
+    "static/js/main.d50e54cf.chunk.js"
   ]
 }
