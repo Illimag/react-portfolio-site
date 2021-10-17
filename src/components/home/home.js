@@ -148,7 +148,7 @@ export const Home = () => {
               
 <Jumbotron className={styles.homepageloading}>
 
-<Row className="justify-content-md-center">
+<Row className="justify-content-center">
 <a href="/">
                 <Navbar.Brand className={styles.logo}>
                 <Image src={logo} fluid />
