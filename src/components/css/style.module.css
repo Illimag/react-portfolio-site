@@ -1298,3 +1298,7 @@ background: rgba(0,0,0,0.5);
 .logo{
     text-align:center !important;
 }
+
+.displaynone{
+    display: none;
+}

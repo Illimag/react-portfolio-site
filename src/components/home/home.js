@@ -184,7 +184,7 @@ export const Home = () => {
     {images &&
     <div style={{ display: currentLoadingState ? "none" : "block" }}>
 
-<source src={logo}/>
+<Image src={logo} fluid className={styles.displaynone}/>
 
 
 
