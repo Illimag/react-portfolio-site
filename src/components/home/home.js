@@ -163,7 +163,7 @@ export const Home = () => {
 
                 <Row className="justify-content-center">
 
-                <h1 className={styles.test1title}>HILLODESIGN</h1>
+                <h1 className={styles.test1title}>WELCOME</h1>
                 </Row>
 
                 </Navbar.Brand>
@@ -233,7 +233,7 @@ export const Home = () => {
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
-            <p className={styles.whitetitle}>Welcome </p>
+            <p className={styles.whitetitle}>Hillodesign </p>
 
 
 <p className={styles.descriptionlargewhite}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.
