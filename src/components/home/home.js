@@ -60,7 +60,7 @@ import Pg6Img from '../../assets/img/home/1-07.jpg';
 import styles from '../css/style.module.css';
 import '../css/style.css';
 
-import logo from '../../assets/logo.gif';
+import logo from '../../assets/newhomepagevids/logo.gif';
 
 import { ProgressBar } from 'react-bootstrap';
 import { Spinner } from 'react-bootstrap';
@@ -117,7 +117,7 @@ export const Home = () => {
   
   const dispatch = useDispatch();
   const getImageUrls = () => {
-    return importAll(require.context('../../assets/newhomepagevids', false, /\.(png|jpe?g|svg|mp4|m4v)$/))
+    return importAll(require.context('../../assets/newhomepagevids', false, /\.(png|jpe?g|svg|mp4|m4v|gif)$/))
   }
 
   const currentLoadingState = useSelector(state => getLoadingState(state));
@@ -184,6 +184,7 @@ export const Home = () => {
     {images &&
     <div style={{ display: currentLoadingState ? "none" : "block" }}>
 
+<source src={images[12]}/>
 
 
 
