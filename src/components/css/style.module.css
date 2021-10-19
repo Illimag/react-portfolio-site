@@ -1046,7 +1046,7 @@ background: rgba(0,0,0,0.5);
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     margin-top: 0px !important;
-
+    text-align: center !important;
 }
 
 .paddingleft{
