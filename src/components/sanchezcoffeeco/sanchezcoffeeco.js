@@ -66,6 +66,11 @@ import Img34 from '../../assets/sanchezcotest.png';
 
 import Img25 from '../../assets/img/legacypictures/1-01.jpg';
 import Img26 from '../../assets/img/legacypictures/1-02.jpg';
+
+import Img27 from '../../assets/HP Prodesk Mockup.png';
+
+
+
 import customer_location from '../../assets/img/sanchezcoffeeco/customer_location.PNG';
 import topcustromerbysalers from '../../assets/img/sanchezcoffeeco/topcustromerbysalers.PNG';
 import volumne from '../../assets/img/sanchezcoffeeco/volumne.PNG';
@@ -177,7 +182,7 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.subtitlelargeblack}>Framer has something for everyone</p>
+<p className={styles.subtitlelargeblack}>Framer has something for <span className={styles.blue}>everyone</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
@@ -214,7 +219,7 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.subtitlelargeblack}>A design partner you can trust.</p>
+<p className={styles.subtitlelargeblack}>A design partner<span className={styles.blue}> you can trust.</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
@@ -255,6 +260,7 @@ export const Sanchezcoffeeco = () => (
 
 
 <p className={styles.subtitlelargeblack}>Get Framer for teams.</p>
+
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
@@ -305,29 +311,97 @@ export const Sanchezcoffeeco = () => (
 
 
 
+
 <Container fluid className={styles.test}>
         <div id="test"></div>
-            <Image src={Img30} fluid className={styles.testgradientbackground}/>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
+
+
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={10}>
 
 
+
+<p className={styles.subtitlelargeblack}>The power of the browser with the freedom of a canvas</p>
+
+<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+
+
+
+</Col>
+</Row>
+<Row className="justify-content-md-center">
+<Col md={3}>
+
+
+
+<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+
+<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+
+<div className={styles.spaceing}></div>
+
     
       </Card>
 
       <Card className={styles.backgroundtransparent}>
-      <Image src={Img31} fluid />
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+<Col md={3}>
+
+
+
+<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+<Col md={3}>
+
+
+
+<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
       </Card>
       </CardGroup>
 
@@ -337,41 +411,89 @@ export const Sanchezcoffeeco = () => (
 </Col>
 </Row>
 
+
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={3}>
 
-<CardGroup>
+
+
+<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+<CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-      
-          <Image src={Img32} fluid />
 
-        </Card.Body>
+
+<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+
+<div className={styles.spaceing}></div>
+
+    
       </Card>
 
       <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
+
       </Card>
       </CardGroup>
 
-    </Col>
+
+
+
+</Col>
+
+<Col md={3}>
+
+
+
+<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+
+<Col md={3}>
+
+
+
+<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+
+<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
 </Row>
+
+
+
 
 
 </Container>
@@ -382,50 +504,20 @@ export const Sanchezcoffeeco = () => (
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <Container fluid className={styles.test1}>
+<Container fluid className={styles.test}>
         <div id="test"></div>
 
 
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
 <Col md={8}>
 
 
 
-<CardGroup className={styles.backgroundgrey}>
-      <Card className={styles.backgroundgrey}>
+<p className={styles.subtitlelargeblack}>Framer for Developer</p>
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
 
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-    
-      </Card>
-
-      <Card className={styles.backgroundgrey}>
-      <Image src={Img28} fluid />
-      </Card>
-      </CardGroup>
-
-
-
+<div className={styles.spaceing}></div>
 
 </Col>
 </Row>
@@ -435,211 +527,61 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test1}>
 
-<div className={styles.spaceingwhite}></div>
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="7">
+<Col md={8}>
 
-<CardGroup>
-      <Card className={styles.backgroundgrey}>
-        <Card.Body>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-          </Card.Title>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-          </Card.Title>
-          <Image src={Img28} fluid />
 
-        </Card.Body>
-      </Card>
 
-      <Card>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
-      </Card>
-      </CardGroup>
 
-    </Col>
-</Row>
-<div className={styles.spaceingwhite}></div>
 
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img04} fluid />
-
-  
-</Card>
-</CardGroup>
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-
-</CardGroup>
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img15} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img17} fluid />
-
-  
-</Card>
-</CardGroup>
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-<Image src={Img26} fluid className={styles.imgstyle} />
-
-
-<Image src={Img25} fluid className={styles.imgstyle} />
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-      <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
-      <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
-
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-      <Image src={Img19} fluid  className={styles.imgfinal} />
-
-      <Image src={Img20} fluid  className={styles.imgfinal} />
       
-      <Image src={Img21} fluid  className={styles.imgfinal}/>
-
- 
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
+    <Container fluid className={styles.test4}>
+  
 
 
 
 
 
-      <Card className={styles.cardborder}>
+  <div className={styles.spaceing}></div>
+  
+  <Row className="justify-content-md-center">
+  <Col md={6}>
+  
+  
+  </Col>
+  </Row>
+  
+  
+  
+  <div className={styles.spaceing}></div>
 
-      <p className={styles.subtitlelargeblack}>Results:</p>
-    <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-     
-      </Card>
- 
+  
+  
+  <Row className="justify-content-md-center">
+  <Col md={8}>
+  
+
+  <Image src={Img34} fluid className={styles.centerimage}/>
+  
+  </Col>
+  </Row>
+  
+  
+  </Container>
+
+
+
+
+
+
 
 
 
@@ -649,16 +591,50 @@ export const Sanchezcoffeeco = () => (
 </Col>
 </Row>
 
+<Row className="justify-content-md-center">
+<Col md={8}>
 
 
 
 
 
+      
+    <Container fluid className={styles.test4}>
+  
+
+
+
+
+
+  <div className={styles.spaceing}></div>
+  
+  <Row className="justify-content-md-center">
+  <Col md={6}>
+  
+  
+  </Col>
+  </Row>
+  
+  
+  
+  <div className={styles.spaceing}></div>
+
+  
+  
+  <Row className="justify-content-md-center">
+  <Col md={8}>
+  
+
+  <Image src={Img34} fluid className={styles.centerimage}/>
+  
+  </Col>
+  </Row>
+  
+  
 
 
 
 <Row className="justify-content-md-center">
-<Col xs lg="6">
 
 
 
@@ -666,55 +642,58 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<CardGroup>
-<Card className={styles.cardborder}>
-    
 
-<p className={styles.subtitlelargeblack}>Art RendexVous</p>
-<div className={styles.spaceingwhite}></div>
+  <div className={styles.spaceing}></div>
+  
+  <Col md={4}>
 
-  <p className={styles.descriptionlargeblack}>Mobile App Redesign for Art Community iOS App</p>
-  <div className={styles.spaceingwhite}></div>
+  <p className={styles.subtitlelargeblack}>Framer has something for Developer</p>
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
 
-  <LinkContainer to="/artrendezvous">
-                <p>
-                  <Button className={styles.mainbutton} variant="primary">View Next</Button>
-                </p>
-              </LinkContainer>
+  
+  </Col>
+  
+  
+  
+  <div className={styles.spaceing}></div>
+
+  
+  
+  <Col md={4}>
+  
+
+  <p className={styles.subtitlelargeblack}>Framer has something for Developer</p>
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+
+  </Col>
+
+  
+
+  
+  
+  </Row>
+  
+  
+
 
 
 
   
-</Card>
-<Card className={styles.cardborder}>
-    
-<p className={styles.subtitlelargeblack}>Go to Portfolio:</p>
-<div className={styles.spaceingwhite}></div>
-
-  <p className={styles.descriptionlargeblack}>Go Back to Portfolio</p>
-  <div className={styles.spaceingwhite}></div>
-
-  <LinkContainer to="/portfolio">
-                <p>
-                  <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
-                </p>
-              </LinkContainer>
+  </Container>
 
 
-  
-</Card>
-</CardGroup>
+
+
+
+
+
+
 
 
 
 
 </Col>
 </Row>
-
-
-
-
-
 
 
 
@@ -722,6 +701,148 @@ export const Sanchezcoffeeco = () => (
 
 
 </Container>
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
+<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<div className={styles.spaceing}></div>
+
+
+
+<Image src={Img27} fluid className={styles.centerimage}/>
+
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Battery</span></p>
+<p className={styles.subtitlelargeblack}>Bending reality takes bandwidth.</p>
+<div className={styles.spaceing}></div>
+
+<div className={styles.spaceing}></div>
+
+<Image src={Img27} fluid className={styles.centerimage}/>
+
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Storage</span></p>
+<p className={styles.subtitlelargeblack}>Bring your whole studio with you.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+
+<div className={styles.spaceing}></div>
+
+<Image src={Img27} fluid className={styles.centerimage}/>
+
+<div className={styles.spaceing}></div>
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Thunderbolt 3</span></p>
+<p className={styles.subtitlelargeblack}>The most powerful and versatile port ever.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+
+<div className={styles.spaceing}></div>
+
+<Image src={Img27} fluid className={styles.centerimage}/>
+
+<div className={styles.spaceing}></div>
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

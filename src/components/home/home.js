@@ -501,7 +501,7 @@ large: "(min-width: 1200px)"
 
 
 
-<LinkContainer to="/uguru" className={styles.clickablecontainer}>
+<LinkContainer to="/sanchezcoffeeco" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
 <div id="test2"></div>
   
@@ -573,7 +573,7 @@ large: "(min-width: 1200px)"
 
 
 
-<LinkContainer to="/uguru" className={styles.clickablecontainer}>
+<LinkContainer to="/apexvr" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
 <div id="test2"></div>
   
