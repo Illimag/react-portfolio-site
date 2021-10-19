@@ -155,7 +155,7 @@ export const Home = () => {
 
                 <Row className="justify-content-center">
 
-                <Image src={logo} fluid />
+                <Image src={logo} fluid className={styles.logoresizing} />
                 </Row>
 
                 

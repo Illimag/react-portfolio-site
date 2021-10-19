@@ -1302,3 +1302,8 @@ background: rgba(0,0,0,0.5);
 .displaynone{
     display: none;
 }
+
+.logoresizing{
+    width: 30px;
+    height: 30px;
+}
