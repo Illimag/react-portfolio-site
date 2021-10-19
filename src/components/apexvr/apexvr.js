@@ -58,12 +58,12 @@ import Img25 from '../../assets/img/legacypictures/1-01.jpg';
 import Img26 from '../../assets/img/legacypictures/1-02.jpg';
 
 import Img29 from '../../assets/1114124.PNG';
-import Img30 from '../../assets/hero-gradient.png';
+import Img30 from '../../assets/smarttvtest0.png';
 
 import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
 import Img32 from '../../assets/MacBook Pro Mockup.png';
 import Img33 from '../../assets/XDR Mockup.png';
-
+import Img34 from '../../assets/XDR Mockup.png';
 
 import styles from '../css/style.module.css';
 import '../css/style.css';
@@ -112,48 +112,44 @@ export const Apexvr = () => (
 
  <>
       
-
-
-
-
-
-
-
-
-
-
       <Container fluid className={styles.test}>
         <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={4}>
+<Col md={8}>
+
+<div className={styles.spaceing}></div>
 
 
 
 
-            <p className={styles.subtitlesmallblackcenter}>ApexVR</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>The</span> best <span className={styles.grey}>for the brightest.</span></p>
 
-                        <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
+<p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
+            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}>Videography Company</span></p>
 
-            <Image src={Img29} fluid className={styles.centerimage}/>
-
-
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
+                        <div className={styles.spaceing}></div>
+           
 
 
-            <p className={styles.descriptionlargeblackbold}>Designed for those who defy limits and change the world,
-the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. With an immerseive Retina dispay, superfast processors, advanced graphics, the largest battery capacity ever in a MacBook Pro, Magic Keyboard, and massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
-
-            <div className={styles.spaceingwhite}></div>
-            <div className={styles.spaceingwhite}></div>
-
-
-</Col>
+            </Col>
 </Row>
+
+
+
+<Row className="justify-content-md-center">
+<Col md={9}>
+
+
+            <Image src={Img30} fluid className={styles.centerimage}/>
+            <div className={styles.spaceing}></div>
+         
+
+            </Col>
+</Row>
+
+
+
+
+
 
 
 </Container>
@@ -165,20 +161,8 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-
-
-
-
-
-
-
-
 <Container fluid className={styles.test}>
         <div id="test"></div>
-            <Image src={Img30} fluid className={styles.testgradientbackground}/>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
 <Col md={8}>
@@ -188,9 +172,10 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
+            <p className={styles.subtitlelargeblack}>Framer Motion</p>
     
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
+            <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+
     
       </Card>
 
@@ -208,36 +193,21 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 <Row className="justify-content-md-center">
 <Col md={8}>
 
-<CardGroup>
-      <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-      
-          <Image src={Img32} fluid />
 
-        </Card.Body>
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+            <p className={styles.subtitlelargeblack}>Framer Motion</p>
+    
+            <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+
+    
       </Card>
 
       <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
+      <Image src={Img31} fluid />
       </Card>
       </CardGroup>
-
     </Col>
 </Row>
 
@@ -250,50 +220,54 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <Container fluid className={styles.test1}>
+<Container fluid className={styles.test}>
         <div id="test"></div>
 
 
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="7">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
+<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
 
 
 
-<CardGroup className={styles.backgroundgrey}>
-      <Card className={styles.backgroundgrey}>
 
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-    
-      </Card>
+<Image src={Img31} fluid className={styles.centerimage}/>
 
-      <Card className={styles.backgroundgrey}>
-      <Image src={Img28} fluid />
-      </Card>
-      </CardGroup>
+</Col>
+</Row>
+</Container>
 
 
 
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
+<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+
+
+
+
+<Image src={Img31} fluid className={styles.centerimage}/>
 
 </Col>
 </Row>
@@ -303,211 +277,165 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
-<Container fluid className={styles.test1}>
 
-<div className={styles.spaceingwhite}></div>
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="7">
+<Col md={8}>
 
-<CardGroup>
-      <Card className={styles.backgroundgrey}>
-        <Card.Body>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Use Case Scenarios.</p>
-          </Card.Title>
-          <Card.Title>    
-            <p className={styles.subtitlelargeblack}>Various stakeholders of the company.</p>
-          </Card.Title>
-          <Image src={Img28} fluid />
 
-        </Card.Body>
-      </Card>
 
-      <Card>
-        <Card.Body>
-          <Card.Title>
-          <p className={styles.subtitlelargeblack}>Stakeholders for the website</p>
-          </Card.Title>
-          <Card.Text>
-          <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
-    <p className={styles.descriptionlargeblack}>This is related to various stakeholders of the company, on how to design the application. </p>
-              
-    <div className={styles.paddingleft}>
-    <ul className={styles.listlargeblack}>
-      <li className={styles.listitemlargeblack}>Users of the website</li>
-      <li className={styles.listitemlargeblack}>Executives</li>
-      <li className={styles.listitemlargeblack}>Creative Managers who are looking to hire Legacy Pictures</li>
-    </ul>
-    </div>
-              </Card.Text>
-        </Card.Body>
-      </Card>
-      </CardGroup>
 
-    </Col>
-</Row>
-<div className={styles.spaceingwhite}></div>
 
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img04} fluid />
-
-  
-</Card>
-</CardGroup>
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img06} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img05} fluid />
-
-
-  
-</Card>
-
-</CardGroup>
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-
-
-<CardGroup>
-<Card className={styles.cardborder}>
-    
-<Image src={Img15} fluid/>
-
-
-  
-</Card>
-<Card className={styles.cardborder}>
-    
-<Image src={Img17} fluid />
-
-  
-</Card>
-</CardGroup>
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-            <p className={styles.subtitlelargeblack}>Introduction</p>
- 
-            <p className={styles.descriptionlargeblack}>Legacy Pictures is a Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commericals around the world.
-</p>
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-<Image src={Img26} fluid className={styles.imgstyle} />
-
-
-<Image src={Img25} fluid className={styles.imgstyle} />
-
-
-
-<Row className="justify-content-md-center">
-<Col xs lg="6">
-
-
-
-
-
-      <Card className={styles.cardborder}>
-      <p className={styles.subtitlelargeblack}>Completion of the deliverables  </p>
-      <p className={styles.descriptionlargeblack}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
-
-      </Card>
- 
-
-
-
-
-
-
-</Col>
-</Row>
-
-      <Image src={Img19} fluid  className={styles.imgfinal} />
-
-      <Image src={Img20} fluid  className={styles.imgfinal} />
       
-      <Image src={Img21} fluid  className={styles.imgfinal}/>
+    <Container fluid className={styles.test4}>
+  
 
- 
+
+
+
+
+  <div className={styles.spaceing}></div>
+  
+  <Row className="justify-content-md-center">
+  <Col md={6}>
+  
+  
+  </Col>
+  </Row>
+  
+  
+  
+  <div className={styles.spaceing}></div>
+
+  
+  
+  <Row className="justify-content-md-center">
+  <Col md={8}>
+  
+
+  <Image src={Img34} fluid className={styles.centerimage}/>
+  
+  </Col>
+  </Row>
+  
+  
+  </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+</Col>
+</Row>
+
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+
+
+      
+    <Container fluid className={styles.test4}>
+  
+
+
+
+
+
+  <div className={styles.spaceing}></div>
+  
+  <Row className="justify-content-md-center">
+  <Col md={6}>
+  
+  
+  </Col>
+  </Row>
+  
+  
+  
+  <div className={styles.spaceing}></div>
+
+  
+  
+  <Row className="justify-content-md-center">
+  <Col md={8}>
+  
+
+  <Image src={Img34} fluid className={styles.centerimage}/>
+  
+  </Col>
+  </Row>
+  
+  
 
 
 
 <Row className="justify-content-md-center">
-<Col xs lg="6">
 
 
 
 
 
-      <Card className={styles.cardborder}>
 
-      <p className={styles.subtitlelargeblack}>Results:</p>
-    <p className={styles.descriptionlargeblack}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-     
-      </Card>
- 
+
+
+  <div className={styles.spaceing}></div>
+  
+  <Col md={4}>
+
+  <p className={styles.subtitlelargeblack}>Framer has something for Developer</p>
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+
+  
+  </Col>
+  
+  
+  
+  <div className={styles.spaceing}></div>
+
+  
+  
+  <Col md={4}>
+  
+
+  <p className={styles.subtitlelargeblack}>Framer has something for Developer</p>
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+
+  </Col>
+
+  
+
+  
+  
+  </Row>
+  
+  
+
+
+
+
+  
+  </Container>
+
+
+
+
+
 
 
 
@@ -522,11 +450,235 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 
+</Container>
 
 
 
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col xs lg="6">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
+<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+
+
+
+
+<Image src={Img31} fluid className={styles.centerimage}/>
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
+<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+
+
+
+
+<Image src={Img31} fluid className={styles.centerimage}/>
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceingwhite}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+            <p className={styles.subtitlelargeblack}>Framer Motion</p>
+    
+            <p className={styles.descriptionlargeblack}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      <Image src={Img31} fluid />
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+
+
+</Container>
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
+<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+
+
+
+
+<Image src={Img31} fluid className={styles.centerimage}/>
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
+<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+
+
+
+
+<Image src={Img31} fluid className={styles.centerimage}/>
+
+</Col>
+</Row>
+</Container>
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
+<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+
+
+
+
+<Image src={Img31} fluid className={styles.centerimage}/>
+
+</Col>
+</Row>
+</Container>
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className="justify-content-md-center">
+<Col md={8}>
+
+
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
+<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<div className={styles.spaceing}></div>
+
+<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<div className={styles.spaceing}></div>
+
+
+
+
+<Image src={Img31} fluid className={styles.centerimage}/>
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+<Container fluid className={styles.test2}>
+<Row className="justify-content-md-center">
+<Col xs lg="8">
 
 
 
@@ -535,38 +687,40 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 
 <CardGroup>
+
 <Card className={styles.cardborder}>
-    
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>Sanchez Coffe Co.</p>
 
-<p className={styles.subtitlelargeblack}>Art RendexVous</p>
-<div className={styles.spaceingwhite}></div>
+  <p className={styles.descriptionlargewhite}>Mobile App Redesign</p>
 
-  <p className={styles.descriptionlargeblack}>Mobile App Redesign for Art Community iOS App</p>
-  <div className={styles.spaceingwhite}></div>
 
-  <LinkContainer to="/artrendezvous">
+  <LinkContainer to="/sanchezcoffeeco">
                 <p>
-                  <Button className={styles.mainbutton} variant="primary">View Next</Button>
+                  <Button className={styles.mainbutton} variant="secondary">View Previous</Button>
                 </p>
               </LinkContainer>
-
 
 
   
 </Card>
+
+<div className={styles.divider}/>
+
 <Card className={styles.cardborder}>
     
-<p className={styles.subtitlelargeblack}>Go to Portfolio:</p>
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>Resume</p>
 
-  <p className={styles.descriptionlargeblack}>Go Back to Portfolio</p>
-  <div className={styles.spaceingwhite}></div>
+  <p className={styles.descriptionlargewhite}>Resume</p>
 
-  <LinkContainer to="/portfolio">
+
+  <LinkContainer to="/Contact">
                 <p>
-                  <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
+                  <Button className={styles.mainbutton} variant="primary">View Resume</Button>
                 </p>
               </LinkContainer>
+
 
 
   
@@ -578,18 +732,15 @@ the 16-inch MacBook Pro is by far the most powerful notebook we have ever made. 
 
 </Col>
 </Row>
-
-
-
-
-
-
-
-
-
-
-
 </Container>
+
+
+
+
+
+
+
+
 
 
 

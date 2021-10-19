@@ -707,14 +707,14 @@ export const Uguru = () => (
 <Card className={styles.cardborder}>
     
 <div className={styles.spaceing}></div>
-<p className={styles.descriptionlargewhitebold}>Resume</p>
+<p className={styles.descriptionlargewhitebold}>Sanchezcoffeeco</p>
 
   <p className={styles.descriptionlargewhite}>Are you looking for a resume?</p>
 
 
-  <LinkContainer to="/Contact">
+  <LinkContainer to="/sanchezcoffeeco">
                 <p>
-                  <Button className={styles.mainbutton} variant="primary">View Resume</Button>
+                  <Button className={styles.mainbutton} variant="primary">View Next</Button>
                 </p>
               </LinkContainer>
 

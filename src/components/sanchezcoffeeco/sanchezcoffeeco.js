@@ -836,7 +836,63 @@ export const Sanchezcoffeeco = () => (
 
 
 
+<Container fluid className={styles.test2}>
+<Row className="justify-content-md-center">
+<Col xs lg="8">
 
+
+
+
+
+
+
+<CardGroup>
+
+<Card className={styles.cardborder}>
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>Uguru, INC</p>
+
+  <p className={styles.descriptionlargewhite}>Mobile App Redesign</p>
+
+
+  <LinkContainer to="/uguru">
+                <p>
+                  <Button className={styles.mainbutton} variant="secondary">View Previous</Button>
+                </p>
+              </LinkContainer>
+
+
+  
+</Card>
+
+<div className={styles.divider}/>
+
+<Card className={styles.cardborder}>
+    
+<div className={styles.spaceing}></div>
+<p className={styles.descriptionlargewhitebold}>ApexVR</p>
+
+  <p className={styles.descriptionlargewhite}>Virtual Reality Web App</p>
+
+
+  <LinkContainer to="/apexvr">
+                <p>
+                  <Button className={styles.mainbutton} variant="primary">View Next</Button>
+                </p>
+              </LinkContainer>
+
+
+
+  
+</Card>
+</CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
 
 
 
