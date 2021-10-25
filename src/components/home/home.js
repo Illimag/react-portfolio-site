@@ -163,12 +163,12 @@ export const Home = () => {
 
                 <Row className="justify-content-center">
 
-                <h1 className={styles.test1title}>WELCOME</h1>
+                <h1 className={styles.test1title}>Welcome</h1>
                 </Row>
 
                 </Navbar.Brand>
               </a>
-
+``
   <div className={styles.spaceing}></div>
 </Row>
 
@@ -495,7 +495,141 @@ large: "(min-width: 1200px)"
 
 
 
+<LinkContainer to="/sanchezcoffeeco" className={styles.clickablecontainer}>
+<Container className={styles.test2}>
+<div id="test2"></div>
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatbackpieces}>
+    </Jumbotron>
 
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+<p className={styles.whitetitle}>Sanchez Coffee Co</p>
+<p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>
+
+
+  <LinkContainer to="/sanchezcoffeeco">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+</LinkContainer>
+
+
+
+<LinkContainer to="/apexvr" className={styles.clickablecontainer}>
+<Container className={styles.test2}>
+<div id="test2"></div>
+  
+<Row className="justify-content-md-center">
+     <Jumbotron className={styles.testfloatbackpieces}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+<p className={styles.whitetitle}>ApexVR</p>
+<p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>
+
+
+  <LinkContainer to="/apexvr">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+</LinkContainer>
 
 
 

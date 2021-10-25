@@ -137,7 +137,7 @@ export const Sanchezcoffeeco = () => (
   
   <p className={styles.subtitlesmallwhitecenter}>Sanchez Coffee Co.</p>
 
-  <p className={styles.subtitlelargewhitecenter}>Get started with Framer today.</p>
+  <p className={styles.subtitlelargewhitecenter}>Los Angeles E-commerce Company</p>
       
   
   
@@ -182,13 +182,13 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.subtitlelargeblack}>Framer has something for <span className={styles.blue}>everyone</span></p>
+<p className={styles.subtitlelargeblack}>Sanchez Coffee company<span className={styles.blue}>was a custom branded coffee company</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<p className={styles.descriptionlargeblackbold}>located in Los Angelos, CA. They provided a good product via web platform.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -219,13 +219,13 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.subtitlelargeblack}>A design partner<span className={styles.blue}> you can trust.</span></p>
+<p className={styles.subtitlelargeblack}>Sanchez Coffee Company <span className={styles.blue}>was an ecommerce company that was selling custom branded coffee in Los Angeles.</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Framer's enterprise security tools protect the data of some of the world's most reputable companies. Our dedicated security team has your back, implementing best practices across all areas of data, network, systems and application security, as well as 24x7 monitoring and alerts.</p>
+<p className={styles.descriptionlargeblackbold}>I was hired in as a remote web designer and web developer for the wordpress ecommerce platform.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -259,14 +259,14 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.subtitlelargeblack}>Get Framer for teams.</p>
+<p className={styles.subtitlelargeblack}>The people that works on SCC was a interesting group of people.</p>
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+<p className={styles.descriptionlargeblackbold}>Mainly the main part of the company we never meet, although we know that they were there because there probably was some kind of warehouse, as well as people who worked in the warehouse that shipped the product.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -322,9 +322,9 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.subtitlelargeblack}>The power of the browser with the freedom of a canvas</p>
+<p className={styles.subtitlelargeblack}>The partner who controlled this part of it we didnt talk to much.</p>
 
-<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+<p className={styles.descriptionlargeblackbold}>Mainly we worked on the side of the company that was in charge of the design and development of the payment platform.</p>
 
 
 
@@ -335,13 +335,13 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+<p className={styles.descriptionlargeblackbold}>So for example after build up the initial platform using wordpress, we put in the payment platform and the payment gateway, additionally we were incharge of the merchant account.</p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+<p className={styles.descriptionlargeblackbold}>The world we lived in was one where we worked mainly remotely, we never really got to meet and it was interesting to talk to people over the phone to collaborate and make it happen.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -361,13 +361,13 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+<p className={styles.descriptionlargeblackbold}>This web application was designed and developed for pre existing company selling coffee over the internet.</p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+<p className={styles.descriptionlargeblackbold}>They moved over the site and then they changed payment processing, as well as doing the user interface designs and development of those designs using WordPress, and using HTML/CSS.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -387,13 +387,13 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+<p className={styles.descriptionlargeblackbold}>The CEO and the broker of the agreement were all individuals that were involved with the project, and these were stakeholders who had influence on the design of the User Interface of the Application.</p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+<p className={styles.descriptionlargeblackbold}>Additionally there was another demographic of people who were the actual users of the website. Mainly these people would be using the website to place an order for the specialized coffee. So we can create a couple of personas that would represent what these coffee users are. But we need to understand the needs of the user.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -417,12 +417,12 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+<p className={styles.descriptionlargeblackbold}>The pervious web based ecommerce platform for displaying products and accepting payments needed a new platform. So I designed and developed the website with WordPress CMS, Wocommerce and Custom CSS code, as well as integrating the Payment Gateway.</p>
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+<p className={styles.descriptionlargeblackbold}>As well as creating a simple product branding such as the logo for the company. Additionally I was in charge of maintaining relationships with the payment processor and merchant accounts.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -443,12 +443,12 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+<p className={styles.descriptionlargeblackbold}>Sanchez Coffee Company needed a ecommerce platform and they need to start sending product out there.</p>
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+<p className={styles.descriptionlargeblackbold}>They needed sales online and they gave us the responsibility of controlling their entire payment infrastructure online. We were working with payment companies such as PayPal, Stripe, merchant accounts etc.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -469,12 +469,12 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.descriptionlargeblackbold}>Get Framer for teams.</p>
+<p className={styles.descriptionlargeblackbold}>But additionally I was designing the products and the website. Then I was developing the website with wordpress.</p>
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
 
-<p className={styles.descriptionlargeblackbold}>Equip your team with a collaborative design tool that empowers everyone to launch better products, faster.</p>
+<p className={styles.descriptionlargeblackbold}>I created the website using 1and1 for hosting services. After the wordpress website was hosted, I implemented the various plugins that would be used to accept payments.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -514,8 +514,8 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<p className={styles.subtitlelargeblack}>Framer for Developer</p>
-<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<p className={styles.subtitlelargeblack}>During this phase we began to understand the main functionality of the website should be providing the most streamlined methods. There were various parts of the website that needed to be designed based on key features of the web application.</p>
+<p className={styles.descriptionlargeblackbold}>Many of these features were based on the needs of the stakeholders rather than the users. But at the end of the day, the users were satisfied with their orders.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -647,8 +647,8 @@ export const Sanchezcoffeeco = () => (
   
   <Col md={4}>
 
-  <p className={styles.subtitlelargeblack}>Framer has something for Developer</p>
-<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+  <p className={styles.subtitlelargeblack}>The designs of the application were done by working with the stakeholders to understand what kind of application was needed as well as what would be the easiest way of allowing the users to make payments on the e-commerce site.</p>
+<p className={styles.descriptionlargeblackbold}>We can create paper prototypes of various UI Elements, etc. Or what kind of prototyping was done, before hand, or was it more of a MVP?</p>
 
   
   </Col>
@@ -662,8 +662,8 @@ export const Sanchezcoffeeco = () => (
   <Col md={4}>
   
 
-  <p className={styles.subtitlelargeblack}>Framer has something for Developer</p>
-<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+  <p className={styles.subtitlelargeblack}>So with this new information the website was created by using a user flow. To break apart the parts of the website that was necessary to be used, to create a new website.</p>
+<p className={styles.descriptionlargeblackbold}>Also understanding more about the various parts of the product categories, such as if they were selling coffee, in what weight, as well as the packing that would be available to be purchased on the web application.</p>
 
   </Col>
 
@@ -721,8 +721,8 @@ export const Sanchezcoffeeco = () => (
 <Col md={8}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>Graphics</span></p>
-<p className={styles.subtitlelargeblack}>The best for the brightest.</p>
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>We were able to process around 100K USD in transaction</span></p>
+<p className={styles.subtitlelargeblack}>a few thousand sales before the web platform was taken down. During this period my job was to maintain this flow of sales on the online platform.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -730,7 +730,7 @@ export const Sanchezcoffeeco = () => (
 <Image src={Img27} fluid className={styles.centerimage}/>
 
 
-<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<p className={styles.descriptionlargeblackbold}>After this experience I became better at working remotely with teams, and understanding that I would have to be able to communicate more efficiently. Additionally because I designed the website and then implemented those designs with CSS, I was able to use some coding in a production environment which was nice.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -753,8 +753,8 @@ export const Sanchezcoffeeco = () => (
 <Col md={8}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>Battery</span></p>
-<p className={styles.subtitlelargeblack}>Bending reality takes bandwidth.</p>
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>PayPal Manager</span></p>
+<p className={styles.subtitlelargeblack}>Additionally there was around 100K in transactions over 1000 transactions that were made using PayPal Manager, etc.</p>
 <div className={styles.spaceing}></div>
 
 <div className={styles.spaceing}></div>
@@ -762,9 +762,9 @@ export const Sanchezcoffeeco = () => (
 <Image src={Img27} fluid className={styles.centerimage}/>
 
 
-<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<p className={styles.descriptionlargeblackbold}>The quickest way to design this application as in to prototype it to MVP, or make an MVP and test it.  Many versions of these payment platforms were created, and there were many different product lines.</p>
 <div className={styles.spaceing}></div>
-<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<p className={styles.descriptionlargeblackbold}>The main focus was the E-Commerce functionality aspect, as well as being able to take payments over the internet, if the payment processors were connected or not.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -784,11 +784,11 @@ export const Sanchezcoffeeco = () => (
 <Col md={8}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>Storage</span></p>
-<p className={styles.subtitlelargeblack}>Bring your whole studio with you.</p>
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>But the designs of the website was done with HTML/CSS into the WordPress Dashboard. Using this method, as well as creating the branding of the website was done using Adobe Illustrator.</span></p>
+<p className={styles.subtitlelargeblack}>After the prototype was completed and ready to be used, the website was used by users, and they were able to process around 100K transactions, over a 1000 transactions.</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<p className={styles.descriptionlargeblackbold}>They were happy with this amount of transactions, and the users were able to navigate through the website application.</p>
 
 <div className={styles.spaceing}></div>
 
@@ -813,11 +813,11 @@ export const Sanchezcoffeeco = () => (
 <Col md={8}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>Thunderbolt 3</span></p>
-<p className={styles.subtitlelargeblack}>The most powerful and versatile port ever.</p>
+<p className={styles.subtitlelargeblack}><span className={styles.grey}>Things I learned while working for Sanchez Coffee Co.</span></p>
+<p className={styles.subtitlelargeblack}>Is that designing the web application that is to be used in a production environment to take payments over the internet required alot of knowledge. For example there were various web compilances that I had to make sure to follow,</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>Collaborate and iterate on designs with marketers, copywriters, designers, and more then, handoff code for developers to begin implementing in production or share a complete interactive prototype to get buy-in from stakeholders. It's all possible with Framer.</p>
+<p className={styles.descriptionlargeblackbold}>To get the website to code, for accepting payments over the internet various things had to be done, and working with the stakeholders, as well as various different agents, and institutions that provided merchant accounts, as well as helping out the user, was difficult to do but was a rewarding experience.</p>
 
 <div className={styles.spaceing}></div>
 

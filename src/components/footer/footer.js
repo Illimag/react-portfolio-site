@@ -35,11 +35,13 @@ import { Stepsaver } from '../stepsaver/stepsaver'
 
 
 const routes = [
-  { path: '/', name: 'HOME', Component: Home },
-  { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
-  { path: '/artrendezvous', name: 'ART•RENDEZ-VOUS', Component: Artrendezvous },
-  { path: '/uguru', name: 'UGURU, INC.', Component: Uguru },
-  { path: '/Contact', name: 'RESUME', Component: Contact },
+  { path: '/', name: 'Home', Component: Home },
+  { path: '/legacypictures', name: 'Legacy Pictures', Component: Legacypictures },
+  { path: '/artrendezvous', name: 'Art•Rendez-Vous', Component: Artrendezvous },
+  { path: '/uguru', name: 'Uguru, INC.', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: 'Sanchez Coffee Co', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'Apex VR', Component: Apexvr },
+  { path: '/Contact', name: 'Resume', Component: Contact },
 ]
 
 
@@ -120,9 +122,9 @@ const Footer = () => (
 
 <div className={styles.spaceingblack}></div>
 
-
+<Row className="justify-content-center">
   <Row className={styles.socialrow}>
-
+  
     <Col xs={3} md={3} className={styles.centericon}>
       <a href="https://www.linkedin.com/in/hillodesign">
         <Image src={Linkedin} roundedCircle className={styles.icons} />
@@ -148,7 +150,7 @@ const Footer = () => (
     </Col>
 
   </Row>
-
+  </Row>
 </Container>
 
 
@@ -156,12 +158,7 @@ const Footer = () => (
 
 
 <p className={styles.description}>
-      Hillodesign All Rights Reserved 2021
-    </p>
-
-
-    <p className={styles.description}>
-      Hosted with <p>&hearts; Github</p>  
+      Hillodesign 2021
     </p>
 
 
