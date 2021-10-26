@@ -128,7 +128,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
 
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 <p className={styles.subtitlesmallblackcenter}>Artrendezvous</p>
 
@@ -145,7 +145,7 @@ export const Artrendezvous = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 <div className={styles.spaceing}></div>
 
@@ -189,7 +189,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -230,7 +230,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -262,7 +262,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -305,7 +305,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -340,7 +340,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -363,7 +363,7 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -466,7 +466,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -544,7 +544,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -582,7 +582,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceingwhite}></div>
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -617,7 +617,7 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={12}>
+<Col md={6}>
 
 
 

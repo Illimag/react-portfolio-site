@@ -143,7 +143,7 @@ export const Uguru = () => (
 </Row>
 
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
             <Image src={Img34} fluid className={styles.centerimage}/>
 
@@ -177,7 +177,7 @@ export const Uguru = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -208,7 +208,7 @@ export const Uguru = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -247,7 +247,7 @@ export const Uguru = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 <CardGroup className={styles.backgroundgadient}>
       <Card className={styles.backgroundtransparent}>
@@ -288,7 +288,7 @@ export const Uguru = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -324,7 +324,7 @@ export const Uguru = () => (
 
 
             <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -345,7 +345,7 @@ export const Uguru = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -381,7 +381,7 @@ export const Uguru = () => (
 
 
             <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -408,7 +408,7 @@ export const Uguru = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -451,7 +451,7 @@ export const Uguru = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -488,7 +488,7 @@ export const Uguru = () => (
 
 
             <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -515,7 +515,7 @@ export const Uguru = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -550,7 +550,7 @@ export const Uguru = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -589,7 +589,7 @@ export const Uguru = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -626,7 +626,7 @@ export const Uguru = () => (
 <div className={styles.spaceing}></div>
 
 <Row className="justify-content-md-center">
-<Col md={14}>
+<Col md={6}>
 
             <Image src={Img39} fluid className={styles.centerimage}/>
 

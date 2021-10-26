@@ -126,7 +126,7 @@ export const Legacypictures = () => (
         <div id="test"></div>
             <Image src={Img30} fluid className={styles.testgradientbackground}/>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 <div className={styles.spaceing}></div>
 
@@ -147,7 +147,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={9}>
+<Col md={6}>
 
 
             <Image src={Img34} fluid className={styles.centerimage}/>
@@ -160,7 +160,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={5}>
+<Col md={6}>
 
 
 
@@ -178,7 +178,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -191,7 +191,7 @@ export const Legacypictures = () => (
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargewhite}>Design task redesigning a website</p>
+            <p className={styles.subtitlelargewhite}>Design task</p>
             <div className={styles.spaceing}></div>
             
             <p className={styles.descriptionlargewhitebold}>Offer my services as an UI/UX Designer, and am excited to get a contract started with the company.
@@ -210,7 +210,7 @@ export const Legacypictures = () => (
 </Row>
 
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 <CardGroup>
       <Card className={styles.backgroundtransparent}>
@@ -223,7 +223,7 @@ export const Legacypictures = () => (
 
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-          <p className={styles.subtitlelargewhite}>Users of the Legacy Pictures websites</p>
+          <p className={styles.subtitlelargewhite}>Users</p>
           <div className={styles.spaceing}></div>
           <Card.Text>
              <p className={styles.descriptionlargewhitebold}>Users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
@@ -254,7 +254,7 @@ export const Legacypictures = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -269,7 +269,7 @@ export const Legacypictures = () => (
 
 
             <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -280,7 +280,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={5}>
+<Col md={6}>
             <div className={styles.spaceing}></div>
 
 
@@ -321,7 +321,7 @@ export const Legacypictures = () => (
 </Row>
 
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -357,7 +357,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={5}>
+<Col md={6}>
 
 
 
@@ -378,7 +378,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={14}>
+<Col md={6}>
 
 
 
@@ -436,7 +436,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test2}>
 <Row className="justify-content-md-center">
-<Col md={12}>
+<Col md={6}>
 
 
             <Image src={Img36} fluid className={styles.centerimage}/>
@@ -532,7 +532,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={12}>
+<Col md={6}>
 
 
 
@@ -584,7 +584,7 @@ export const Legacypictures = () => (
 <Container fluid className={styles.test}>
 
 <Row className="justify-content-md-center">
-<Col md={14}>
+<Col md={6}>
 
 <CardGroup>
       <Card className={styles.backgroundtransparent}>
@@ -641,7 +641,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={12}>
+<Col md={6}>
 
 
 

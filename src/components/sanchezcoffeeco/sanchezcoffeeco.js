@@ -151,7 +151,7 @@ export const Sanchezcoffeeco = () => (
   
   
   <Row className="justify-content-md-center">
-  <Col md={8}>
+  <Col md={6}>
   
 
   <Image src={Img34} fluid className={styles.centerimage}/>
@@ -178,7 +178,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -215,7 +215,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -255,7 +255,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -293,7 +293,7 @@ export const Sanchezcoffeeco = () => (
 
 
             <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -318,7 +318,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={10}>
+<Col md={6}>
 
 
 
@@ -331,7 +331,7 @@ export const Sanchezcoffeeco = () => (
 </Col>
 </Row>
 <Row className="justify-content-md-center">
-<Col md={3}>
+<Col md={2}>
 
 
 
@@ -357,7 +357,7 @@ export const Sanchezcoffeeco = () => (
 
 
 </Col>
-<Col md={3}>
+<Col md={2}>
 
 
 
@@ -383,7 +383,7 @@ export const Sanchezcoffeeco = () => (
 
 
 </Col>
-<Col md={3}>
+<Col md={2}>
 
 
 
@@ -413,7 +413,7 @@ export const Sanchezcoffeeco = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={3}>
+<Col md={2}>
 
 
 
@@ -439,7 +439,7 @@ export const Sanchezcoffeeco = () => (
 
 </Col>
 
-<Col md={3}>
+<Col md={2}>
 
 
 
@@ -465,7 +465,7 @@ export const Sanchezcoffeeco = () => (
 
 </Col>
 
-<Col md={3}>
+<Col md={2}>
 
 
 
@@ -510,7 +510,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -536,7 +536,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -566,7 +566,7 @@ export const Sanchezcoffeeco = () => (
   
   
   <Row className="justify-content-md-center">
-  <Col md={8}>
+  <Col md={6}>
   
 
   <Image src={Img34} fluid className={styles.centerimage}/>
@@ -592,7 +592,7 @@ export const Sanchezcoffeeco = () => (
 </Row>
 
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -622,7 +622,7 @@ export const Sanchezcoffeeco = () => (
   
   
   <Row className="justify-content-md-center">
-  <Col md={8}>
+  <Col md={6}>
   
 
   <Image src={Img34} fluid className={styles.centerimage}/>
@@ -645,7 +645,7 @@ export const Sanchezcoffeeco = () => (
 
   <div className={styles.spaceing}></div>
   
-  <Col md={4}>
+  <Col md={6}>
 
   <p className={styles.subtitlelargeblack}>The designs of the application were done by working with the stakeholders to understand what kind of application was needed as well as what would be the easiest way of allowing the users to make payments on the e-commerce site.</p>
 <p className={styles.descriptionlargeblackbold}>We can create paper prototypes of various UI Elements, etc. Or what kind of prototyping was done, before hand, or was it more of a MVP?</p>
@@ -659,7 +659,7 @@ export const Sanchezcoffeeco = () => (
 
   
   
-  <Col md={4}>
+  <Col md={6}>
   
 
   <p className={styles.subtitlelargeblack}>So with this new information the website was created by using a user flow. To break apart the parts of the website that was necessary to be used, to create a new website.</p>
@@ -718,7 +718,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>We were able to process around 100K USD in transaction</span></p>
@@ -750,7 +750,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>PayPal Manager</span></p>
@@ -781,7 +781,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>But the designs of the website was done with HTML/CSS into the WordPress Dashboard. Using this method, as well as creating the branding of the website was done using Adobe Illustrator.</span></p>
@@ -810,7 +810,7 @@ export const Sanchezcoffeeco = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>Things I learned while working for Sanchez Coffee Co.</span></p>

@@ -115,7 +115,7 @@ export const Apexvr = () => (
       <Container fluid className={styles.test}>
         <div id="test"></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 <div className={styles.spaceing}></div>
 
@@ -136,7 +136,7 @@ export const Apexvr = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={9}>
+<Col md={6}>
 
 
             <Image src={Img30} fluid className={styles.centerimage}/>
@@ -165,7 +165,7 @@ export const Apexvr = () => (
         <div id="test"></div>
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -191,7 +191,7 @@ export const Apexvr = () => (
 </Row>
 
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <CardGroup className={styles.backgroundtransparent}>
@@ -226,7 +226,7 @@ export const Apexvr = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>The Personas</span></p>
@@ -254,7 +254,7 @@ export const Apexvr = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>The Personas for ApexVR</span></p>
@@ -287,7 +287,7 @@ export const Apexvr = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -317,7 +317,7 @@ export const Apexvr = () => (
   
   
   <Row className="justify-content-md-center">
-  <Col md={8}>
+  <Col md={6}>
   
 
   <Image src={Img34} fluid className={styles.centerimage}/>
@@ -343,7 +343,7 @@ export const Apexvr = () => (
 </Row>
 
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -373,7 +373,7 @@ export const Apexvr = () => (
   
   
   <Row className="justify-content-md-center">
-  <Col md={8}>
+  <Col md={6}>
   
 
   <Image src={Img34} fluid className={styles.centerimage}/>
@@ -396,7 +396,7 @@ export const Apexvr = () => (
 
   <div className={styles.spaceing}></div>
   
-  <Col md={4}>
+  <Col md={6}>
 
   <p className={styles.subtitlelargeblack}>Polar Productions wanted a website for their side business VR Videos.</p>
 <p className={styles.descriptionlargeblackbold}>They wanted a website to showcase their portfolio. In particular they wanted a website that would be able to implement some type of VR videography photos and videos.</p>
@@ -410,7 +410,7 @@ export const Apexvr = () => (
 
   
   
-  <Col md={4}>
+  <Col md={6}>
   
 
   <p className={styles.subtitlelargeblack}>How do we implement a VR functionality into a web application? As well as how do we design a web application to showcase this functiojality?</p>
@@ -468,7 +468,7 @@ export const Apexvr = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>The prototype needed to be a MVP</span></p>
@@ -497,7 +497,7 @@ export const Apexvr = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>The main problem is that there needs to be a lead developer</span></p>
@@ -533,7 +533,7 @@ export const Apexvr = () => (
         <div id="test"></div>
 <div className={styles.spaceingwhite}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 
@@ -572,7 +572,7 @@ export const Apexvr = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>After the development of the application was completed then the VR functionality was designed and implemented.</span></p>
@@ -600,7 +600,7 @@ export const Apexvr = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>The concerns that Polar Productions</span></p>
@@ -627,7 +627,7 @@ export const Apexvr = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>The main problem is that there needs to be a lead developer</span></p>
@@ -653,7 +653,7 @@ export const Apexvr = () => (
 
 <div className={styles.spaceing}></div>
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>There needed to be a developer to help move the project forward so the developer was able to develop the project using Angular.JS and AFrame.</span></p>
