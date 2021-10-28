@@ -482,9 +482,9 @@ export const Legacypictures = () => (
 <Col md={6}>
 
 
-<Fade>
+<Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>The deliverables were Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-            </Fade>
+            </Slide>
             <div className={styles.spaceing}></div>
 
 
