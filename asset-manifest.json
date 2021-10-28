@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.25994446.chunk.css",
-    "main.js": "/static/js/main.c7158608.chunk.js",
-    "main.js.map": "/static/js/main.c7158608.chunk.js.map",
+    "main.js": "/static/js/main.582d873b.chunk.js",
+    "main.js.map": "/static/js/main.582d873b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
-    "static/js/2.64af70e3.chunk.js": "/static/js/2.64af70e3.chunk.js",
-    "static/js/2.64af70e3.chunk.js.map": "/static/js/2.64af70e3.chunk.js.map",
+    "static/js/2.712bfd6d.chunk.js": "/static/js/2.712bfd6d.chunk.js",
+    "static/js/2.712bfd6d.chunk.js.map": "/static/js/2.712bfd6d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.213dec7f9610cd4ba10f5f41b03f548c.js": "/precache-manifest.213dec7f9610cd4ba10f5f41b03f548c.js",
+    "precache-manifest.e4e85fc57fb0e125ffe1ae0c481b4966.js": "/precache-manifest.e4e85fc57fb0e125ffe1ae0c481b4966.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
     "static/css/main.25994446.chunk.css.map": "/static/css/main.25994446.chunk.css.map",
-    "static/js/2.64af70e3.chunk.js.LICENSE.txt": "/static/js/2.64af70e3.chunk.js.LICENSE.txt",
+    "static/js/2.712bfd6d.chunk.js.LICENSE.txt": "/static/js/2.712bfd6d.chunk.js.LICENSE.txt",
     "static/media/0-1.mp4": "/static/media/0-1.fd474927.mp4",
     "static/media/0.mp4": "/static/media/0.89232f5c.mp4",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
@@ -105,7 +105,7 @@
     "static/media/pic5.90a34363.png": "/static/media/pic5.90a34363.png",
     "static/media/sanchezcotest.e42d1475.png": "/static/media/sanchezcotest.e42d1475.png",
     "static/media/smarttvtest0.5364a6e6.png": "/static/media/smarttvtest0.5364a6e6.png",
-    "static/media/smarttvtest1.dcc655dc.png": "/static/media/smarttvtest1.dcc655dc.png",
+    "static/media/smarttvtest1.png": "/static/media/smarttvtest1.dcc655dc.png",
     "static/media/test.26545ccc.png": "/static/media/test.26545ccc.png",
     "static/media/test1.5157f5a5.png": "/static/media/test1.5157f5a5.png",
     "static/media/test2.7da2dc69.png": "/static/media/test2.7da2dc69.png",
@@ -131,8 +131,8 @@
   "entrypoints": [
     "static/js/runtime-main.672f7f98.js",
     "static/css/2.46b578d6.chunk.css",
-    "static/js/2.64af70e3.chunk.js",
+    "static/js/2.712bfd6d.chunk.js",
     "static/css/main.25994446.chunk.css",
-    "static/js/main.c7158608.chunk.js"
+    "static/js/main.582d873b.chunk.js"
   ]
 }
