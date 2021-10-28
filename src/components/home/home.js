@@ -100,6 +100,7 @@ import sanchezimg from '../../assets/img/sanchezcoffeeco/1-08.jpg';
 import apeximg from '../../assets/img/apexvr/p_apex_3_L-min.png';
 import stepsaverimg from '../../assets/img/stepsaver/f_stepsaver_1.png';
 
+import Img34 from '../../assets/smarttvtest1.png';
 
 
 const importAll = (r) => {
@@ -191,7 +192,7 @@ export const Home = () => {
     {images &&
     <div style={{ display: currentLoadingState ? "none" : "block" }}>
 
-<Image src={images[15]} fluid className={styles.displaynone}/>
+<Image src={Img34} fluid className={styles.displaynone}/>
 
 <Image src={logo} fluid className={styles.displaynone}/>
 
@@ -242,9 +243,9 @@ export const Home = () => {
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
-            <Slide direction="up">
+            <Fade>
             <p className={styles.whitetitle}>Hillodesign </p>
-            </Slide>
+            </Fade>
 
             <Slide direction="up">
 <p className={styles.descriptionlargewhite}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.
@@ -350,9 +351,9 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
 
-  <Slide direction="up">
+  <Fade>
 <p className={styles.whitetitle}>Legacy Pictures</p>
-</Slide>
+</Fade>
 
 <Slide direction="up">
 <p className={styles.descriptionlargewhite}>How To Redesign A Web App in 2021</p>
@@ -430,9 +431,9 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-  <Slide direction="up">
+  <Fade>
 <p className={styles.whitetitle}>Artrendezvous</p>
-</Slide>
+</Fade>
 
 <Slide direction="up">
 <p className={styles.descriptionlargewhite}>Art Community Mobile App Startup</p>
@@ -505,9 +506,9 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
-  <Slide direction="up">
+  <Fade>
 <p className={styles.whitetitle}>Uguru, INC</p>
-      </Slide>
+      </Fade>
 
       <Slide direction="up">
 <p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>

@@ -341,7 +341,7 @@ export const Legacypictures = () => (
 </Row>
 
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={8}>
 
 <Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -383,8 +383,9 @@ export const Legacypictures = () => (
 
 
 
-
+<Fade>
             <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</span></p>
+</Fade>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -442,8 +443,9 @@ export const Legacypictures = () => (
 
 
 
-
+<Fade>
             <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Redesigns of the UI were created and sent as deliverables. </span></p>
+</Fade>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -460,9 +462,9 @@ export const Legacypictures = () => (
 <Row className="justify-content-md-center">
 <Col md={6}>
 
-
+<Slide direction="up">
             <Image src={Img36} fluid className={styles.centerimage}/>
-
+</Slide>
 
             </Col>
 </Row>
@@ -480,9 +482,9 @@ export const Legacypictures = () => (
 <Col md={6}>
 
 
-
+<Fade>
             <p className={styles.descriptionlargewhitebold}>The deliverables were Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-
+            </Fade>
             <div className={styles.spaceing}></div>
 
 
