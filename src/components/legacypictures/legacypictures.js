@@ -130,8 +130,8 @@ export const Legacypictures = () => (
            
 
 
-        <Row className="justify-content-md-center">
-<Col md={6}>
+        <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 <div className={styles.spaceing}></div>
 
@@ -151,8 +151,8 @@ export const Legacypictures = () => (
 
 
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 <Fade>
             <Image src={Img34} fluid className={styles.centerimage}/>
@@ -164,8 +164,8 @@ export const Legacypictures = () => (
             </Col>
 </Row>
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 <Slide direction="up">
@@ -184,8 +184,8 @@ export const Legacypictures = () => (
 
 
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -221,8 +221,8 @@ export const Legacypictures = () => (
 </Col>
 </Row>
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 <CardGroup>
       <Card className={styles.backgroundtransparent}>
@@ -268,13 +268,13 @@ export const Legacypictures = () => (
         <div id="test"></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
 <Fade>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>User Interface Designs</span> with Adobe XD</p>
+            <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>User Interface Designs</span> with Adobe XD</p>
             </Fade>
 
                         <div className={styles.spaceing}></div>
@@ -284,8 +284,8 @@ export const Legacypictures = () => (
 </Row>
 
 
-            <Row className="justify-content-md-center">
-<Col md={8}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 <Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -295,12 +295,12 @@ export const Legacypictures = () => (
 </Row>
 
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
             <div className={styles.spaceing}></div>
 
             <Slide direction="up">
-            <p className={styles.descriptionlargeblackbold}>Starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website. Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+            <p className={styles.descriptionlargewhitebold}>Starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website. Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
             </Slide>
            
             <div className={styles.spaceing}></div>
@@ -324,13 +324,13 @@ export const Legacypictures = () => (
         <div id="test"></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
 <Fade>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Created designs based on what</span> the redesigns of the website needed.</p>
+            <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Created designs based on what</span> the redesigns of the website needed.</p>
             </Fade>
 
 
@@ -340,8 +340,8 @@ export const Legacypictures = () => (
             </Col>
 </Row>
 
-<Row className="justify-content-md-center">
-<Col md={8}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 <Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -350,14 +350,14 @@ export const Legacypictures = () => (
 </Row>
 
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
             <div className={styles.spaceing}></div>
 
 
             <Slide direction="up">
-            <p className={styles.descriptionlargeblackbold}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements.</p>
+            <p className={styles.descriptionlargewhitebold}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements.</p>
             </Slide>
 
             <div className={styles.spaceing}></div>
@@ -378,8 +378,8 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -400,8 +400,8 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={14}>
+<Row className={styles.justifycontentcenter}>
+<Col md={4}>
 
 
 
@@ -436,9 +436,8 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test2}>
-<Row className="justify-content-md-center">
-<Col md={6}>
-
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 <div className={styles.spaceing}></div>
 
 
@@ -459,8 +458,8 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test2}>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 <Slide direction="up">
             <Image src={Img36} fluid className={styles.centerimage}/>
@@ -478,8 +477,8 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test2}>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 <Slide direction="up">
@@ -532,8 +531,8 @@ export const Legacypictures = () => (
         <div id="test"></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -542,7 +541,7 @@ export const Legacypictures = () => (
   </Fade>     
 
   <Slide direction="up">
-            <p className={styles.descriptionlargeblackbold}>The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
+            <p className={styles.descriptionlargewhitebold}>The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
             </Slide>
 
                         <div className={styles.spaceing}></div>
@@ -558,8 +557,8 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -577,8 +576,8 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
             <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -588,7 +587,7 @@ export const Legacypictures = () => (
             <p className={styles.subtitlelargewhitecenter}>Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
             </Fade>     
             <Slide direction="up">
-            <p className={styles.descriptionlargeblackbold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface. The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
+            <p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface. The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
             </Slide>
             <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -610,8 +609,8 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 
-<Row className="justify-content-md-center">
-<Col md={14}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={14}>
 
 <CardGroup>
       <Card className={styles.backgroundtransparent}>
@@ -630,7 +629,7 @@ export const Legacypictures = () => (
           <div className={styles.spaceing}></div>
           <Card.Text>
           <Slide direction="up">
-             <p className={styles.descriptionlargeblackbold}>There was a survey, that gained insight on various team member's thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions. Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
+             <p className={styles.descriptionlargewhitebold}>There was a survey, that gained insight on various team member's thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions. Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
               </Slide>
               </Card.Text>
         </Card.Body>
@@ -651,8 +650,8 @@ export const Legacypictures = () => (
         <div id="test"></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -671,8 +670,8 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -695,7 +694,7 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test2}>
-<Row className="justify-content-md-center">
+<Row className={styles.justifycontentcenter}>
 <Col xs lg="8">
 
 

@@ -1229,7 +1229,7 @@ background: rgba(0,0,0,0.5);
 
 .subtitlelargewhitecenter{
     font-weight: 600;
-    font-size: 4em;
+    font-size: 3rem;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
     font-family: 'Inter', sans-serif;
@@ -1286,7 +1286,7 @@ background: rgba(0,0,0,0.5);
 
 .descriptionlargewhitebold{
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
     font-family: 'Inter', sans-serif;
@@ -1337,4 +1337,8 @@ background: rgba(0,0,0,0.5);
 
 .blue{
     color: blue;
+}
+
+.justifycontentcenter{
+    justify-content: center;
 }
