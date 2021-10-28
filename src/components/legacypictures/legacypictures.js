@@ -127,8 +127,10 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
-            <Image src={Img30} fluid className={styles.testgradientbackground}/>
-<Row className="justify-content-md-center">
+           
+
+
+        <Row className="justify-content-md-center">
 <Col md={6}>
 
 <div className={styles.spaceing}></div>
@@ -137,8 +139,8 @@ export const Legacypictures = () => (
 
 
 <Fade>
-<p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}>Videography Company</span></p>
+<p className={styles.subtitlesmallwhitecenter}>Legacy Pictures</p>
+            <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}> Company</span></p>
 
                         <div className={styles.spaceing}></div>
 </Fade>           
@@ -150,7 +152,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={8}>
+<Col md={6}>
 
 <Fade>
             <Image src={Img34} fluid className={styles.centerimage}/>
@@ -161,8 +163,6 @@ export const Legacypictures = () => (
 
             </Col>
 </Row>
-
-
 
 <Row className="justify-content-md-center">
 <Col md={6}>
@@ -537,10 +537,13 @@ export const Legacypictures = () => (
 
 
 
+<Fade>
+            <p className={styles.subtitlelargewhitecenter}>Starting the User Interface designs on Adobe XD were started.</p>
+  </Fade>     
 
-            <p className={styles.subtitlelargeblackcenter}>Starting the User Interface designs on Adobe XD were started.</p>
-       
+  <Slide direction="up">
             <p className={styles.descriptionlargeblackbold}>The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
+            </Slide>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -560,9 +563,9 @@ export const Legacypictures = () => (
 
 
 
-
+<Slide direction="up">
             <Image src={Img38} fluid className={styles.centerimage}/>
-
+            </Slide>
 
             </Col>
 </Row>
@@ -581,12 +584,12 @@ export const Legacypictures = () => (
             <div className={styles.spaceing}></div>
 
 
-
-            <p className={styles.subtitlelargeblackcenter}>Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
-       
-
+            <Fade>
+            <p className={styles.subtitlelargewhitecenter}>Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+            </Fade>     
+            <Slide direction="up">
             <p className={styles.descriptionlargeblackbold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface. The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
-
+            </Slide>
             <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
 
@@ -613,19 +616,22 @@ export const Legacypictures = () => (
 <CardGroup>
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-      
+        <Slide direction="left">
           <Image src={Img39} fluid />
-
+          </Slide>
         </Card.Body>
       </Card>
 
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-          <p className={styles.subtitlelargeblackcenter}>A brighter idea</p>
+        <Fade>
+          <p className={styles.subtitlelargewhitecenter}>A brighter idea</p>
+          </Fade>   
           <div className={styles.spaceing}></div>
           <Card.Text>
+          <Slide direction="up">
              <p className={styles.descriptionlargeblackbold}>There was a survey, that gained insight on various team member's thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions. Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
-              
+              </Slide>
               </Card.Text>
         </Card.Body>
       </Card>
@@ -650,8 +656,9 @@ export const Legacypictures = () => (
 
 
 
-
-            <p className={styles.subtitlelargeblackcenter}>Contract was signed between myself and Legacy Pictures</p>
+<Fade>
+            <p className={styles.subtitlelargewhitecenter}>Contract was signed between myself and Legacy Pictures</p>
+            </Fade>
             <div className={styles.spaceing}></div>
 
 
@@ -669,9 +676,9 @@ export const Legacypictures = () => (
 
 
 
-
+<Fade>
             <Image src={Img37} fluid className={styles.centerimage}/>
-
+            </Fade>
 
             </Col>
 </Row>
