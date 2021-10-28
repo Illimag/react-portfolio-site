@@ -1,6 +1,9 @@
 import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 
+import { Slide } from "react-awesome-reveal";
+
+
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 //import Image from 'react-bootstrap/Image';
@@ -233,22 +236,31 @@ export const Home = () => {
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
+            <Slide direction="up" triggerOnce>
             <p className={styles.whitetitle}>Hillodesign </p>
+            </Slide>
 
-
+<Slide direction="up" triggerOnce>
 <p className={styles.descriptionlargewhite}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.
 </p>
+</Slide>
 
+<Slide direction="up" triggerOnce>
 <p className={styles.descriptionlargewhite}>
  <span className={styles.green}> Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.
 </p>
-
+</Slide>
 
 <Row>
+
+  
   <Col xs={12} md={4} className={styles.removepadding}>
   <AnchorLink href="/test">
 <p className={styles.clickabletext}>
+<Slide direction="up" triggerOnce>
 <Button className={styles.mainbutton}>View Portfolio Now</Button>
+</Slide>
+
 </p>
 </AnchorLink>
 
@@ -259,7 +271,9 @@ export const Home = () => {
 <Col xs={12} md={4} className={styles.removepadding}>
 <LinkContainer to="/contact">
 <p className={styles.clickabletext}>
+<Slide direction="up" triggerOnce>
 <Button className={styles.secondarybutton}>Looking for Resume?</Button>
+</Slide>
 </p>
 </LinkContainer>
 </Col>

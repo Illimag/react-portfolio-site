@@ -539,3 +539,7 @@ https://elements.envato.com/elegant-intro-V6D2Y9H
 ## install react-animations
 
     npm i react-animations
+
+## install react-awesome-reveal
+
+    npm install --save react-awesome-reveal

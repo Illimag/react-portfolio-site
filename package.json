@@ -9,12 +9,13 @@
     "@steveeeie/react-page-transition": "^1.2.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "bootstrap": "^4.5.2",
+    "express-handlebars": "^5.3.4",
     "pdfjs-dist": "^2.9.359",
     "react": "^16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-animated-css": "^1.2.1",
     "react-animations": "^1.0.0",
-    "react-awesome-reveal": "^3.3.1",
+    "react-awesome-reveal": "^3.8.1",
     "react-bootstrap": "^1.0.1",
     "react-codepen-embed": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -47,6 +48,7 @@
     "redux-action-creator": "^3.0.0",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.2.0",
+    "uglify-js": "^3.14.2",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
