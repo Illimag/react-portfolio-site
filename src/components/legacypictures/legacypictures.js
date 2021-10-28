@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 
 import { fadeIn } from 'react-animations'
 
+import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
+
 import { LinkContainer } from 'react-router-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -133,12 +136,12 @@ export const Legacypictures = () => (
 
 
 
-
+<Fade>
 <p className={styles.subtitlesmallblackcenter}>Legacy Pictures</p>
             <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}>Videography Company</span></p>
 
                         <div className={styles.spaceing}></div>
-           
+</Fade>           
 
 
             </Col>
@@ -149,8 +152,10 @@ export const Legacypictures = () => (
 <Row className="justify-content-md-center">
 <Col md={6}>
 
-
+<Slide direction="up">
             <Image src={Img34} fluid className={styles.centerimage}/>
+            </Slide>
+
             <div className={styles.spaceing}></div>
          
 
@@ -163,8 +168,10 @@ export const Legacypictures = () => (
 <Col md={6}>
 
 
-
+<Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>Approached by a developer looking for someone to sign a contract with a company looking for a redesign of a website. After the website is designed, the developer would start development of the website. Over the span of 1-2months, they designed a redesign of their web platform. Used usability testing, as well as getting feedback from the executives.</p>
+            </Slide>
+
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 

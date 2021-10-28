@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 
 import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 
 import Container from 'react-bootstrap/Container';
@@ -147,7 +148,7 @@ export const Home = () => {
   <ProgressBar animated now={currentProgress} label={` Completed ${now}%`}/>
       
 
-
+  
 
               
 <Jumbotron className={styles.homepageloading}>
@@ -165,8 +166,9 @@ export const Home = () => {
                 <div className={styles.spaceing}></div>
 
                 <Row className="justify-content-center">
-
+                <Fade>
                 <h1 className={styles.test1title}>Welcome</h1>
+                </Fade>
                 </Row>
 
                 </Navbar.Brand>
@@ -181,11 +183,15 @@ export const Home = () => {
 
     </Jumbotron>
 
+    
+
 
 
     </div>
     {images &&
     <div style={{ display: currentLoadingState ? "none" : "block" }}>
+
+<Image src={images[15]} fluid className={styles.displaynone}/>
 
 <Image src={logo} fluid className={styles.displaynone}/>
 
@@ -236,16 +242,16 @@ export const Home = () => {
             <Jumbotron className={styles.mainfloatback}>
             <div className={styles.maincontentwrapper}>
 
-            <Slide direction="up" triggerOnce>
+            <Slide direction="up">
             <p className={styles.whitetitle}>Hillodesign </p>
             </Slide>
 
-<Slide direction="up" triggerOnce>
+            <Slide direction="up">
 <p className={styles.descriptionlargewhite}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.
 </p>
 </Slide>
 
-<Slide direction="up" triggerOnce>
+<Slide direction="up">
 <p className={styles.descriptionlargewhite}>
  <span className={styles.green}> Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.
 </p>
@@ -257,7 +263,7 @@ export const Home = () => {
   <Col xs={12} md={4} className={styles.removepadding}>
   <AnchorLink href="/test">
 <p className={styles.clickabletext}>
-<Slide direction="up" triggerOnce>
+<Slide direction="up">
 <Button className={styles.mainbutton}>View Portfolio Now</Button>
 </Slide>
 
@@ -271,7 +277,7 @@ export const Home = () => {
 <Col xs={12} md={4} className={styles.removepadding}>
 <LinkContainer to="/contact">
 <p className={styles.clickabletext}>
-<Slide direction="up" triggerOnce>
+<Slide direction="up">
 <Button className={styles.secondarybutton}>Looking for Resume?</Button>
 </Slide>
 </p>
@@ -344,15 +350,22 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
 
-
+  <Slide direction="up">
 <p className={styles.whitetitle}>Legacy Pictures</p>
-<p className={styles.descriptionlargewhite}>How To Redesign A Web App in 2021</p>
-  
+</Slide>
 
+<Slide direction="up">
+<p className={styles.descriptionlargewhite}>How To Redesign A Web App in 2021</p>
+</Slide>
+
+
+<Slide direction="up">
   <LinkContainer to="/legacypictures">
 <p className={styles.clickabletext}>Learn More >
 </p>
 </LinkContainer>
+</Slide>
+
 </div>
 
 
@@ -417,14 +430,20 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
+  <Slide direction="up">
 <p className={styles.whitetitle}>Artrendezvous</p>
+</Slide>
+
+<Slide direction="up">
 <p className={styles.descriptionlargewhite}>Art Community Mobile App Startup</p>
+</Slide>
 
-
+<Slide direction="up">
   <LinkContainer to="/artrendezvous">
 <p className={styles.clickabletext}>Learn More >
 </p>
 </LinkContainer>
+</Slide>
 
 </div>
     </Jumbotron>
@@ -486,14 +505,22 @@ large: "(min-width: 1200px)"
   <Jumbotron className={styles.mainfloatbackpieces}>
   <div className={styles.maincontentwrapperpiece}>
 
+  <Slide direction="up">
 <p className={styles.whitetitle}>Uguru, INC</p>
+      </Slide>
+
+      <Slide direction="up">
 <p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>
+</Slide>
 
 
+<Slide direction="up">
   <LinkContainer to="/uguru">
 <p className={styles.clickabletext}>Learn More >
 </p>
 </LinkContainer>
+</Slide>
+
 </div>
     </Jumbotron>
 
