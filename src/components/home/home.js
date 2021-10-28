@@ -202,6 +202,7 @@ export const Home = () => {
 
   
           <Row className="justify-content-md-center">
+          <Fade>
                <Jumbotron className={styles.testfloatback}>
               </Jumbotron>
 
@@ -235,6 +236,8 @@ export const Home = () => {
             </>
           )}
         </Media>
+        </Fade>  
+
 
             <Col md={6} className={styles.removepadding}>
 
@@ -309,6 +312,7 @@ export const Home = () => {
         <div id="test"></div>
   
 <Row className="justify-content-md-center">
+<Fade>
      <Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
 
@@ -342,6 +346,7 @@ large: "(min-width: 1200px)"
   </>
 )}
 </Media>
+</Fade>
 
   <Col md={6} className={styles.removepadding}>
 
@@ -390,6 +395,7 @@ large: "(min-width: 1200px)"
 <div id="test1"></div>
   
 <Row className="justify-content-md-center">
+<Fade>
      <Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
 
@@ -423,6 +429,7 @@ large: "(min-width: 1200px)"
   </>
 )}
 </Media>
+</Fade>
 
   <Col md={6} className={styles.removepadding}>
 
@@ -465,6 +472,7 @@ large: "(min-width: 1200px)"
 <div id="test2"></div>
   
 <Row className="justify-content-md-center">
+<Fade>
      <Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
 
@@ -498,6 +506,7 @@ large: "(min-width: 1200px)"
   </>
 )}
 </Media>
+</Fade>
 
   <Col md={6} className={styles.removepadding}>
 

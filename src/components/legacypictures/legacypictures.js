@@ -152,9 +152,9 @@ export const Legacypictures = () => (
 <Row className="justify-content-md-center">
 <Col md={8}>
 
-<Slide direction="up">
+<Fade>
             <Image src={Img34} fluid className={styles.centerimage}/>
-            </Slide>
+            </Fade>
 
             <div className={styles.spaceing}></div>
          

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "896b21c8aa7e0646cc2ae84798dfab01",
+    "revision": "d335085ac6cb7a12bc3bbee7521c2366",
     "url": "/index.html"
   },
   {
-    "revision": "2b45006de60d2270e30a",
+    "revision": "126ffdf94a79baa5345c",
     "url": "/static/css/2.46b578d6.chunk.css"
   },
   {
-    "revision": "a644ae722125b7849595",
+    "revision": "6a58b5e13afb4de35343",
     "url": "/static/css/main.25994446.chunk.css"
   },
   {
-    "revision": "2b45006de60d2270e30a",
-    "url": "/static/js/2.712bfd6d.chunk.js"
+    "revision": "126ffdf94a79baa5345c",
+    "url": "/static/js/2.004f5d83.chunk.js"
   },
   {
     "revision": "1475d453056f777a44c9246b4393d195",
-    "url": "/static/js/2.712bfd6d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.004f5d83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a644ae722125b7849595",
-    "url": "/static/js/main.d80366ec.chunk.js"
+    "revision": "6a58b5e13afb4de35343",
+    "url": "/static/js/main.76d39266.chunk.js"
   },
   {
     "revision": "58c15806c185c823953f",
@@ -184,12 +184,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/IMG-1114.d7fc873a.PNG"
   },
   {
-    "revision": "1b1e9ae9fd59abab73eb9eb95ed8874c",
-    "url": "/static/media/MacBook Pro Mockup (Dark & Light).8e115a6d.png"
+    "revision": "185f72eeb78374af414f3a649cae1193",
+    "url": "/static/media/MacBook Pro Mockup (Dark & Light).82576b5c.png"
   },
   {
-    "revision": "611055bc61a36d710091b62093df5d7a",
-    "url": "/static/media/MacBook Pro Mockup.e15673b0.png"
+    "revision": "8ed78406d289d442e4a843c497e41dee",
+    "url": "/static/media/MacBook Pro Mockup.52a87d85.png"
   },
   {
     "revision": "24a6abd8f5cdbca010ce47283be540c0",
@@ -396,6 +396,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/smarttvtest1.dcc655dc.png"
   },
   {
+    "revision": "a1356651a927067076b4ce880686f18b",
+    "url": "/static/media/smarttvtest1.e8ec5d0a.png"
+  },
+  {
     "revision": "b33477b5ef2235ffbfbd1d6fd7962d2c",
     "url": "/static/media/test.26545ccc.png"
   },
@@ -408,16 +412,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/test2.7da2dc69.png"
   },
   {
-    "revision": "d7983240ca9b1239ea88232b4fb593dd",
-    "url": "/static/media/testimg-01-min.937b39e7.png"
+    "revision": "6aa4ad51f7663f98a3c9242660263d28",
+    "url": "/static/media/testimg-01-min.b80ed315.png"
   },
   {
-    "revision": "4ff5137ee8985bf557ee977089b32b63",
-    "url": "/static/media/testimg-02-min.947c9d58.png"
-  },
-  {
-    "revision": "1402b76d6972ab7463ca9e2a3b25d5bc",
-    "url": "/static/media/testimg-03.69ab34ba.png"
+    "revision": "042c288f3db9160b16aa37e5e6a39b48",
+    "url": "/static/media/testimg-02-min.99e34296.png"
   },
   {
     "revision": "5cfc4c995da66d04b2f7d2710dbdff61",
