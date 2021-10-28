@@ -202,9 +202,12 @@ export const Home = () => {
 
   
           <Row className="justify-content-md-center">
-          <Fade>
-               <Jumbotron className={styles.testfloatback}>
+
+          <Jumbotron className={styles.testfloatback}>
               </Jumbotron>
+
+          <Fade>
+        
 
 
               <Media queries={{
@@ -312,9 +315,12 @@ export const Home = () => {
         <div id="test"></div>
   
 <Row className="justify-content-md-center">
-<Fade>
-     <Jumbotron className={styles.testfloatbackpieces}>
+
+<Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
+
+<Fade>
+
 
 
     <Media queries={{
@@ -395,9 +401,12 @@ large: "(min-width: 1200px)"
 <div id="test1"></div>
   
 <Row className="justify-content-md-center">
-<Fade>
-     <Jumbotron className={styles.testfloatbackpieces}>
+
+<Jumbotron className={styles.testfloatbackpieces}>
     </Jumbotron>
+
+<Fade>
+  
 
 
     <Media queries={{
