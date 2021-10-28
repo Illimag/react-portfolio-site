@@ -150,7 +150,7 @@ export const Legacypictures = () => (
 
 
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={8}>
 
 <Slide direction="up">
             <Image src={Img34} fluid className={styles.centerimage}/>
@@ -192,21 +192,26 @@ export const Legacypictures = () => (
 
 
 
-
-
-
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
+      <Slide direction="up">
             <p className={styles.subtitlelargewhite}>Design task</p>
+            </Slide>
+
             <div className={styles.spaceing}></div>
-            
+
+            <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>Offer my services as an UI/UX Designer, and am excited to get a contract started with the company.
         </p>
+        </Slide>
+
       </Card>
 
       <Card className={styles.backgroundtransparent}>
+      <Slide direction="up">
       <Image src={Img31} fluid />
+      </Slide>
       </Card>
       </CardGroup>
 
@@ -222,19 +227,22 @@ export const Legacypictures = () => (
 <CardGroup>
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-      
+        <Slide direction="up">
           <Image src={Img32} fluid />
-
+          </Slide>
         </Card.Body>
       </Card>
 
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
+        <Slide direction="up">
           <p className={styles.subtitlelargewhite}>Users</p>
+          </Slide>
           <div className={styles.spaceing}></div>
           <Card.Text>
+          <Slide direction="up">
              <p className={styles.descriptionlargewhitebold}>Users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
-              
+             </Slide>
               </Card.Text>
         </Card.Body>
       </Card>
@@ -265,8 +273,9 @@ export const Legacypictures = () => (
 
 
 
-
+<Fade>
             <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>User Interface Designs</span> with Adobe XD</p>
+            </Fade>
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -276,11 +285,11 @@ export const Legacypictures = () => (
 
 
             <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={8}>
 
-
+<Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
-
+</Slide>
 
             </Col>
 </Row>
@@ -290,8 +299,10 @@ export const Legacypictures = () => (
 <Col md={6}>
             <div className={styles.spaceing}></div>
 
-
+            <Slide direction="up">
             <p className={styles.descriptionlargeblackbold}>Starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website. Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+            </Slide>
+           
             <div className={styles.spaceing}></div>
 
 
@@ -318,8 +329,10 @@ export const Legacypictures = () => (
 
 
 
-
+<Fade>
             <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Created designs based on what</span> the redesigns of the website needed.</p>
+            </Fade>
+
 
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
@@ -330,9 +343,9 @@ export const Legacypictures = () => (
 <Row className="justify-content-md-center">
 <Col md={6}>
 
-
+<Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
-
+            </Slide>
             </Col>
 </Row>
 
@@ -343,8 +356,10 @@ export const Legacypictures = () => (
             <div className={styles.spaceing}></div>
 
 
-
+            <Slide direction="up">
             <p className={styles.descriptionlargeblackbold}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements.</p>
+            </Slide>
+
             <div className={styles.spaceing}></div>
 
 
@@ -385,7 +400,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={14}>
 
 
 
@@ -591,7 +606,7 @@ export const Legacypictures = () => (
 <Container fluid className={styles.test}>
 
 <Row className="justify-content-md-center">
-<Col md={6}>
+<Col md={14}>
 
 <CardGroup>
       <Card className={styles.backgroundtransparent}>

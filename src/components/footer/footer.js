@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
+
 import { Container } from 'react-bootstrap'
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
 import { Navbar, Nav } from 'react-bootstrap'
@@ -101,6 +104,7 @@ const Footer = () => (
 
 
   <Container className={styles.paddingtop}>
+ 
   {routes.map(route => (
     <Nav.Link 
     eventKey="1" as={Link}
@@ -112,9 +116,12 @@ const Footer = () => (
       activeClassName="active"
       exact
     >
+
       {route.name}
+     
     </Nav.Link>
   ))}
+
 
 
 
