@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
+
 import { Link } from 'react-router-dom'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
@@ -127,13 +130,13 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceing}></div>
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+<Fade>
+<p className={styles.subtitlesmallwhitecenter}>Artrendezvous</p>
 
-<p className={styles.subtitlesmallblackcenter}>Artrendezvous</p>
-
-<p className={styles.subtitlelargeblackcenter}>Mobile Application Startup</p>
-    
+<p className={styles.subtitlelargewhitecenter}>Mobile Application Startup</p>
+</Fade>   
 
 
 </Col>
@@ -144,25 +147,40 @@ export const Artrendezvous = () => (
 
 
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 <div className={styles.spaceing}></div>
-
-<CardGroup className={styles.backgroundtransparent}>
-      <Card className={styles.backgroundtransparent}>
-
-            <p className={styles.subtitlelargeblack}>Social media community integrated into an interface showcasing artworks.</p>
-    
-            <p className={styles.descriptionlargeblack}>Was connected on Dribbble, looking for gig projects that I could get started on. After communicating with a client over the Dribbble portal, got started on an assignment related to a redesign of a mobile application.</p>
-
-    
-      </Card>
-
-      <Card className={styles.backgroundtransparent}>
+<Fade>
       <Image src={Img34} fluid />
-      </Card>
-      </CardGroup>
+      </Fade>    
+
+
+
+</Col>
+</Row>
+
+
+
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
+<div className={styles.spaceing}></div>
+
+<Fade>
+
+            <p className={styles.subtitlelargewhitecenter}>Social media community integrated into an interface showcasing artworks.</p>
+            </Fade>    
+
+            <div className={styles.spaceing}></div>
+
+            <Slide direction="up">
+
+            <p className={styles.descriptionlargewhitebold}>Was connected on Dribbble, looking for gig projects that I could get started on. After communicating with a client over the Dribbble portal, got started on an assignment related to a redesign of a mobile application.</p>
+            </Slide>
+
+            <div className={styles.spaceing}></div>
+
 
 
 
@@ -183,13 +201,13 @@ export const Artrendezvous = () => (
 
 
 
-<Container fluid className={styles.test1}>
+<Container fluid className={styles.test}>
         <div id="test"></div>
 
 
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -197,8 +215,86 @@ export const Artrendezvous = () => (
       <Card className={styles.backgroundtransparent}>
       <div className={styles.spaceing}></div>
 
+      <Slide direction="up">
+<p className={styles.descriptionlargewhitebold}><span className={styles.white}>The client needed a redesign of their mobile application.</span> When beginning to empathize with understanding the user base of the application. Created Personas that would represent potential users. These users would be the virtual personas that would use the application.</p>
+</Slide>
+<div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}><span className={styles.black}>The client needed a redesign of their mobile application.</span> When beginning to empathize with understanding the user base of the application. Created Personas that would represent potential users. These users would be the virtual personas that would use the application.</p>
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+      <Slide direction="up">
+      <Image src={Img28} fluid />
+      </Slide>
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+      <Slide direction="up">
+      <Image src={Img28} fluid />
+      </Slide>
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+
+
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+      <div className={styles.spaceing}></div>
+
+      <Slide direction="up">
+
+<p className={styles.descriptionlargewhitebold}><span className={styles.white}>Find empathy with those potential users, by creating Personas that would like going to Art Museums, as well as liking Art Galleries.</span> But possibly were unable because of not being able to be there locally. There could be various people who could use the application, as a way to communicate on another platform which should be focused on art. Creating this community is hard to do and when thinking about the user it can be difficult to find the correct people to user test.</p>
+</Slide>
 
 <div className={styles.spaceing}></div>
 
@@ -224,99 +320,29 @@ export const Artrendezvous = () => (
 
 
 
-<Container fluid className={styles.test1}>
+
+
+<Container fluid className={styles.test}>
         <div id="test"></div>
 
 
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
-
-
-
-<CardGroup className={styles.backgroundgrey}>
-      <Card className={styles.backgroundgrey}>
-      <Image src={Img28} fluid />
-    
-      </Card>
-
-      <Card className={styles.backgroundgrey}>
-      <Image src={Img28} fluid />
-      </Card>
-      </CardGroup>
-
-
-
-
-</Col>
-</Row>
-</Container>
-
-
-
-
-
-<Container fluid className={styles.test1}>
-        <div id="test"></div>
-
-
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
-      <div className={styles.spaceing}></div>
-
-
-<p className={styles.descriptionlargeblackbold}><span className={styles.black}>Find empathy with those potential users, by creating Personas that would like going to Art Museums, as well as liking Art Galleries.</span> But possibly were unable because of not being able to be there locally. There could be various people who could use the application, as a way to communicate on another platform which should be focused on art. Creating this community is hard to do and when thinking about the user it can be difficult to find the correct people to user test.</p>
-
-<div className={styles.spaceing}></div>
-
-    
+      <Slide direction="up">
+      <Image src={Img28} fluid />
+      </Slide>
       </Card>
 
       <Card className={styles.backgroundtransparent}>
-
-      </Card>
-      </CardGroup>
-
-
-
-
-</Col>
-</Row>
-</Container>
-
-
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test1}>
-        <div id="test"></div>
-
-
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
-
-
-
-<CardGroup className={styles.backgroundgrey}>
-      <Card className={styles.backgroundgrey}>
+      <Slide direction="up">
       <Image src={Img28} fluid />
-    
-      </Card>
-
-      <Card className={styles.backgroundgrey}>
-      <Image src={Img28} fluid />
+      </Slide>
       </Card>
       </CardGroup>
 
@@ -339,16 +365,17 @@ export const Artrendezvous = () => (
         <div id="test"></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-
-<p className={styles.subtitlelargeblack}>Redesign a mobile application</p>
-    
-       
-            <p className={styles.descriptionlargeblackbold}>Social media community integrated into an list to various artworks and museums.</p>
-
+<Fade>
+<p className={styles.subtitlelargewhitecenter}>Redesign a mobile application</p>
+</Fade>
+<div className={styles.spaceing}></div>
+<Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Social media community integrated into an list to various artworks and museums.</p>
+            </Slide>
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
 
@@ -362,14 +389,14 @@ export const Artrendezvous = () => (
 
 
 <Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
-
+<Slide direction="up">
             <Image src={Img35} fluid className={styles.centerimage}/>
-
+            </Slide>
 
             </Col>
 </Row>
@@ -381,31 +408,30 @@ export const Artrendezvous = () => (
 
 
 
-<Container fluid className={styles.test1}>
+<Container fluid className={styles.test}>
         <div id="test"></div>
 
 
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-
-<p className={styles.descriptionlargeblackbold}>My row to this project is to redesign app designs based on the pervious designs. There were no assets available, instead was given the application designs of the original, and then designed a redesign based on the previous designs.</p>
-
-
+      <Slide direction="up">
+<p className={styles.descriptionlargewhitebold}>My row to this project is to redesign app designs based on the pervious designs. There were no assets available, instead was given the application designs of the original, and then designed a redesign based on the previous designs.</p>
+</Slide>
     
       </Card>
 
       <Card className={styles.backgroundtransparent}>
 
-
-      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>I was communicating directly with the CEO, who had worked with a remote designer and a developer previous to build out an application that is on the iOS apple store.</span> </p>
-
+      <Slide direction="up">
+      <p className={styles.descriptionlargewhitebold}><span className={styles.white}>I was communicating directly with the CEO, who had worked with a remote designer and a developer previous to build out an application that is on the iOS apple store.</span> </p>
+      </Slide>
       </Card>
       </CardGroup>
 
@@ -429,19 +455,21 @@ export const Artrendezvous = () => (
 
 
 <Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
             <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
 
 
+            <Fade>
+            <p className={styles.subtitlelargewhitecenter}>There were a certain level of issues related to time, and getting the solution as effectively as possible.</p>
+            </Fade>
+            <div className={styles.spaceing}></div>
 
-            <p className={styles.subtitlesmallblackcenter}>There were a certain level of issues related to time, and getting the solution as effectively as possible.</p>
-       
-
-            <p className={styles.descriptionlargeblackbold}>The main issue is that, there is a client that is looking for the app to be redesigned and they have a pre-exisiting design. Then the designs of the next iteration needs to be different, but still things such as the user flow will look similar to the original. Although there can be minor adjustments made, based on new information or different methods of doing things.</p>
-
+            <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>The main issue is that, there is a client that is looking for the app to be redesigned and they have a pre-exisiting design. Then the designs of the next iteration needs to be different, but still things such as the user flow will look similar to the original. Although there can be minor adjustments made, based on new information or different methods of doing things.</p>
+            </Slide>
             <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
 
@@ -460,24 +488,27 @@ export const Artrendezvous = () => (
 
 
 
-<Container fluid className={styles.test1}>
+<Container fluid className={styles.test}>
         <div id="test"></div>
 
 
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
-<CardGroup className={styles.backgroundgrey}>
-      <Card className={styles.backgroundgrey}>
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+      <Slide direction="up">
       <Image src={Img28} fluid />
-    
+      </Slide>
       </Card>
 
-      <Card className={styles.backgroundgrey}>
+      <Card className={styles.backgroundtransparent}>
+      <Slide direction="up">
       <Image src={Img28} fluid />
+      </Slide>
       </Card>
       </CardGroup>
 
@@ -492,22 +523,22 @@ export const Artrendezvous = () => (
 
 
 
-<Container fluid className={styles.test1}>
+<Container fluid className={styles.test}>
         <div id="test"></div>
 
 
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-
-<p className={styles.descriptionlargeblackbold}>Additionally the User Interface needs to have UI elements that have several variations, different kinds of elements in different locations on the screen. Then based on this information there can be a different design of the application, based on previous Ui elements.</p>
-
+      <Slide direction="up">
+<p className={styles.descriptionlargewhitebold}>Additionally the User Interface needs to have UI elements that have several variations, different kinds of elements in different locations on the screen. Then based on this information there can be a different design of the application, based on previous Ui elements.</p>
+</Slide>
 <div className={styles.spaceing}></div>
 
     
@@ -515,9 +546,11 @@ export const Artrendezvous = () => (
 
       <Card className={styles.backgroundtransparent}>
 
-
-      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>Designed the redesigns using Figma, and redesigned all the assets on Figma. Later came back later and also designed it on Adobe XD. Additionally used a simple test to compare UIs, and pick a screen based on the CEO who gave art directions.</span> </p>
-      <div className={styles.spaceing}></div>
+      <Slide direction="up">
+      <p className={styles.descriptionlargewhitebold}><span className={styles.white}>Designed the redesigns using Figma, and redesigned all the assets on Figma. Later came back later and also designed it on Adobe XD. Additionally used a simple test to compare UIs, and pick a screen based on the CEO who gave art directions.</span> </p>
+      </Slide>
+   
+     <div className={styles.spaceing}></div>
 
       </Card>
       </CardGroup>
@@ -541,25 +574,29 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
-
-            <p className={styles.subtitlelargeblack}>Started with creating a User Flow.</p>
-    
-            <p className={styles.descriptionlargeblack}>As so started the initial design of the mobile application, created various UIs that had variants of the UIs. I created multiple variants and then created a slide, which allowed the client to select the UI variant for each slide of the application.</p>
-
+      <Fade>
+            <p className={styles.subtitlelargewhitecenter}>Started with creating a User Flow.</p>
+            </Fade>
+            <div className={styles.spaceing}></div>
+            <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>As so started the initial design of the mobile application, created various UIs that had variants of the UIs. I created multiple variants and then created a slide, which allowed the client to select the UI variant for each slide of the application.</p>
+            </Slide>
     
       </Card>
 
       <Card className={styles.backgroundtransparent}>
+      <Slide direction="up">
       <Image src={Img36} fluid />
+      </Slide>
       </Card>
       </CardGroup>
 
@@ -579,23 +616,29 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
-
-            <p className={styles.subtitlelargeblack}>After showcasing the prototype as well as the various UI variants.</p>
-    
-            <p className={styles.descriptionlargeblack}>There was another issue related to the homepage, where it was difficult to prototype something with video backgrounds. Thats one of the main issues that I have related to creating static prototypes. So I used another platform to create prototypes with background with video.</p>
+      <Fade>
+            <p className={styles.subtitlelargewhitecenter}>After showcasing the prototype as well as the various UI variants.</p>
+            </Fade>
+            <div className={styles.spaceing}></div>
+            <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>There was another issue related to the homepage, where it was difficult to prototype something with video backgrounds. Thats one of the main issues that I have related to creating static prototypes. So I used another platform to create prototypes with background with video.</p>
+            </Slide>
       </Card>
 
       <Card className={styles.backgroundtransparent}>
+      <Slide direction="up">
+
       <Image src={Img36} fluid />
+      </Slide>
       </Card>
       </CardGroup>
 
@@ -616,13 +659,15 @@ export const Artrendezvous = () => (
 
 
 <Container fluid className={styles.test}>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
+<Slide direction="up">
 
             <Image src={Img37} fluid className={styles.centerimage}/>
+            </Slide>
 
 
             </Col>
@@ -642,18 +687,19 @@ export const Artrendezvous = () => (
         <div id="test"></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-
-<p className={styles.subtitlelargeblack}>Design of the application.</p>
-    
+<Fade>
+<p className={styles.subtitlelargewhitecenter}>Design of the application.</p>
+</Fade>
 <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
-       
-            <p className={styles.descriptionlargeblackbold}>Most of the designs were done based on a redesign of the visual design of the application.</p>
+            <Slide direction="up">
 
+            <p className={styles.descriptionlargewhitebold}>Most of the designs were done based on a redesign of the visual design of the application.</p>
+            </Slide>
                         <div className={styles.spaceing}></div>
             <div className={styles.spaceing}></div>
 
@@ -671,31 +717,32 @@ export const Artrendezvous = () => (
 
 
 
-<Container fluid className={styles.test1}>
+<Container fluid className={styles.test}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
+      <Slide direction="up">
 
-<p className={styles.descriptionlargeblackbold}>The design of the application, started with using Adobe XD. There were several screens that had to be designed of the iOS Mobile Application. There was a redesign of the home screen, as well as redesigning the entire user flow of the application.</p>
-
+<p className={styles.descriptionlargewhitebold}>The design of the application, started with using Adobe XD. There were several screens that had to be designed of the iOS Mobile Application. There was a redesign of the home screen, as well as redesigning the entire user flow of the application.</p>
+</Slide>
 <div className={styles.spaceing}></div>
     
       </Card>
 
       <Card className={styles.backgroundtransparent}>
 
-
-      <p className={styles.descriptionlargeblackbold}><span className={styles.black}>Being able to design the redesigns of the original application, as well as being able to use modern design software application tools was very useful.</span> </p>
-
+      <Slide direction="up">
+      <p className={styles.descriptionlargewhitebold}><span className={styles.white}>Being able to design the redesigns of the original application, as well as being able to use modern design software application tools was very useful.</span> </p>
+      </Slide>
       </Card>
       </CardGroup>
 
@@ -719,14 +766,14 @@ export const Artrendezvous = () => (
 <Container fluid className={styles.test}>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
-
+<Slide direction="up">
             <Image src={Img38} fluid className={styles.centerimage}/>
-
+            </Slide>
 
             </Col>
 </Row>

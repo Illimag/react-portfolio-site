@@ -164,19 +164,6 @@ export const Legacypictures = () => (
             </Col>
 </Row>
 
-<Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
-
-
-<Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Approached by a developer looking for someone to sign a contract with a company looking for a redesign of a website. After the website is designed, the developer would start development of the website. Over the span of 1-2months, they designed a redesign of their web platform. Used usability testing, as well as getting feedback from the executives.</p>
-            </Slide>
-
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-
-</Col>
-</Row>
 
 
 
@@ -196,7 +183,7 @@ export const Legacypictures = () => (
       <Card className={styles.backgroundtransparent}>
 
       <Slide direction="up">
-            <p className={styles.subtitlelargewhite}>Design task</p>
+            <p className={styles.subtitlelargewhitecenter}>Design task</p>
             </Slide>
 
             <div className={styles.spaceing}></div>
@@ -236,7 +223,7 @@ export const Legacypictures = () => (
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
         <Slide direction="up">
-          <p className={styles.subtitlelargewhite}>Users</p>
+          <p className={styles.subtitlelargewhitecenter}>Users</p>
           </Slide>
           <div className={styles.spaceing}></div>
           <Card.Text>
@@ -658,6 +645,9 @@ export const Legacypictures = () => (
 <Fade>
             <p className={styles.subtitlelargewhitecenter}>Contract was signed between myself and Legacy Pictures</p>
             </Fade>
+
+
+            
             <div className={styles.spaceing}></div>
 
 
@@ -678,6 +668,39 @@ export const Legacypictures = () => (
 <Fade>
             <Image src={Img37} fluid className={styles.centerimage}/>
             </Fade>
+
+            </Col>
+</Row>
+
+
+</Container>
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
+
+
+<Fade>
+           
+
+<p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface. The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
+
+
+            </Fade>
+
+
+            
+            <div className={styles.spaceing}></div>
+
 
             </Col>
 </Row>
