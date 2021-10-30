@@ -248,7 +248,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={10} md={6}>
 
 
 
@@ -328,7 +328,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={10} md={6}>
 
 
 
@@ -390,7 +390,7 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={10} md={8}>
 
 
 
@@ -494,7 +494,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={10} md={6}>
 
 
 
@@ -577,7 +577,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={10} md={8}>
 
 
 
@@ -619,7 +619,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={10} md={8}>
 
 
 
