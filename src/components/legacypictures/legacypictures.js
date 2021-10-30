@@ -152,7 +152,7 @@ export const Legacypictures = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 <Fade>
             <Image src={Img34} fluid className={styles.centerimage}/>
@@ -196,9 +196,9 @@ export const Legacypictures = () => (
       </Card>
 
       <Card className={styles.backgroundtransparent}>
-      <Slide direction="up">
+      <Fade>
       <Image src={Img31} fluid />
-      </Slide>
+      </Fade>
       </Card>
       </CardGroup>
 
@@ -214,9 +214,9 @@ export const Legacypictures = () => (
 <CardGroup>
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
-        <Slide direction="up">
+        <Fade>
           <Image src={Img32} fluid />
-          </Slide>
+          </Fade>
         </Card.Body>
       </Card>
 
@@ -272,7 +272,7 @@ export const Legacypictures = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 <Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -328,7 +328,7 @@ export const Legacypictures = () => (
 </Row>
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 <Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -388,7 +388,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 
 <Fade>
@@ -446,7 +446,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test2}>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={12} md={4}>
 
 <Slide direction="up">
             <Image src={Img36} fluid className={styles.centerimage}/>
@@ -545,7 +545,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 
 
@@ -661,7 +661,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 
 

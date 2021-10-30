@@ -144,7 +144,7 @@ export const Uguru = () => (
 </Row>
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 <Fade>
             <Image src={Img34} fluid className={styles.centerimage}/>
             </Fade>  
@@ -181,7 +181,7 @@ export const Uguru = () => (
 <Col xs={10} md={4}>
 
 
-<Slide direction="up">
+<Fade>
 <CardGroup className={styles.backgroundgadient}>
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
@@ -197,7 +197,7 @@ export const Uguru = () => (
       </Slide>
       </Card>
       </CardGroup>
-      </Slide>
+      </Fade>  
 
 
 
@@ -214,7 +214,7 @@ export const Uguru = () => (
 <Col xs={10} md={4}>
 
 
-<Slide direction="up">
+<Fade>
 <CardGroup className={styles.backgroundgadient}>
       <Card className={styles.backgroundtransparent}>
       <div className={styles.spaceing}></div>
@@ -235,7 +235,7 @@ export const Uguru = () => (
       </Slide>
           </Card>
       </CardGroup>
-      </Slide>
+      </Fade>  
 
 
 
@@ -253,7 +253,7 @@ export const Uguru = () => (
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
-<Slide direction="up">
+<Fade>
 <CardGroup className={styles.backgroundgadient}>
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
@@ -279,7 +279,7 @@ export const Uguru = () => (
         </Card.Body>
       </Card>
       </CardGroup>
-      </Slide>
+      </Fade>
     </Col>
 </Row>
 
@@ -334,7 +334,7 @@ export const Uguru = () => (
 
 
         <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 <Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -392,7 +392,7 @@ export const Uguru = () => (
 
 
         <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 <Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -500,7 +500,7 @@ export const Uguru = () => (
 
 
         <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 <Slide direction="up">
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -562,8 +562,8 @@ export const Uguru = () => (
         <div id="test"></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -579,6 +579,30 @@ export const Uguru = () => (
             </Slide>
     
       </Card>
+
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+
+</Container>
+
+
+
+<Container fluid className={styles.test2}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={12} md={4}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
 
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
@@ -599,14 +623,12 @@ export const Uguru = () => (
 
 
 
-
-
 <Container fluid className={styles.test2}>
         <div id="test"></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 
 <Fade>
@@ -643,7 +665,7 @@ export const Uguru = () => (
 <div className={styles.spaceing}></div>
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={12}>
+<Col xs={12} md={12}>
 <Fade>
             <Image src={Img39} fluid className={styles.centerimage}/>
             </Fade> 

@@ -148,7 +148,7 @@ export const Artrendezvous = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={12} md={4}>
 
 <div className={styles.spaceing}></div>
 <Fade>
@@ -248,7 +248,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 
 
@@ -328,7 +328,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 
 
@@ -390,7 +390,7 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={8}>
+<Col xs={12} md={8}>
 
 
 
@@ -494,7 +494,7 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={6}>
+<Col xs={12} md={6}>
 
 
 
@@ -593,6 +593,32 @@ export const Artrendezvous = () => (
     
       </Card>
 
+     
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+
+</Container>
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={12} md={8}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+  
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
       <Image src={Img36} fluid />
@@ -608,8 +634,6 @@ export const Artrendezvous = () => (
 
 
 </Container>
-
-
 
 
 
@@ -634,6 +658,33 @@ export const Artrendezvous = () => (
             </Slide>
       </Card>
 
+     
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+
+</Container>
+
+
+
+
+<Container fluid className={styles.test}>
+        <div id="test"></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={12} md={8}>
+
+
+
+<CardGroup className={styles.backgroundtransparent}>
+
+
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
 
@@ -654,13 +705,9 @@ export const Artrendezvous = () => (
 
 
 
-
-
-
-
 <Container fluid className={styles.test}>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={12} md={4}>
 
 
 
@@ -767,7 +814,7 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={12} md={4}>
 
 
 
