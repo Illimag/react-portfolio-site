@@ -114,8 +114,9 @@ export const Apexvr = () => (
       
       <Container fluid className={styles.test}>
         <div id="test"></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+        <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
 
 <div className={styles.spaceing}></div>
 
@@ -123,8 +124,8 @@ export const Apexvr = () => (
 
 
 
-<p className={styles.subtitlesmallblackcenter}>ApexVR</p>
-            <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}></span> VR Conceptual Web App <span className={styles.grey}> for San Francisco Bay Area Videography Company</span></p>
+<p className={styles.subtitlelargewhitecenter}>ApexVR</p>
+            <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}></span> VR Conceptual Web App <span className={styles.grey}> for San Francisco Bay Area Videography Company</span></p>
 
                         <div className={styles.spaceing}></div>
            
@@ -135,8 +136,9 @@ export const Apexvr = () => (
 
 
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
 
 
             <Image src={Img30} fluid className={styles.centerimage}/>
@@ -163,18 +165,18 @@ export const Apexvr = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>Virtual Reality (VR) Website</p>
+            <p className={styles.subtitlelargewhitecenter}>Virtual Reality (VR) Website</p>
     
-            <p className={styles.descriptionlargeblack}>Videography company located in San Leandro, User interface designer working with a developer, working together built a web app with Angular and aframe.</p>
+            <p className={styles.descriptionlargewhitebold}>Videography company located in San Leandro, User interface designer working with a developer, working together built a web app with Angular and aframe.</p>
 
     
       </Card>
@@ -190,16 +192,17 @@ export const Apexvr = () => (
 </Col>
 </Row>
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>Polar Productions</p>
+            <p className={styles.subtitlelargewhitecenter}>Polar Productions</p>
     
-            <p className={styles.descriptionlargeblack}>Ted and cofounder, they are from san Leandro, they are locals. They were looking for someone who could help them build a website with a particular functionality the functionality is having a VR functionality.</p>
+            <p className={styles.descriptionlargewhitebold}>Ted and cofounder, they are from san Leandro, they are locals. They were looking for someone who could help them build a website with a particular functionality the functionality is having a VR functionality.</p>
 
     
       </Card>
@@ -225,15 +228,16 @@ export const Apexvr = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>The Personas</span></p>
-<p className={styles.subtitlelargeblack}>Product is videographers, as well as other various stakeholders</p>
+
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The Personas</span></p>
+<p className={styles.subtitlelargewhitecenter}>Product is videographers, as well as other various stakeholders</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>Being able to create a mental model of the various ideas surrounding a central topic is one way to conceptually understanding information. So there can be various card sorts methods that can be used to start building up an idea of the demographic of users, to begin creating Personas.</p>
+<p className={styles.descriptionlargewhitebold}>Being able to create a mental model of the various ideas surrounding a central topic is one way to conceptually understanding information. So there can be various card sorts methods that can be used to start building up an idea of the demographic of users, to begin creating Personas.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -253,15 +257,16 @@ export const Apexvr = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>The Personas for ApexVR</span></p>
-<p className={styles.subtitlelargeblack}>Could be executives in the film industry, as well as the videography, and technology space.</p>
+
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The Personas for ApexVR</span></p>
+<p className={styles.subtitlelargewhitecenter}>Could be executives in the film industry, as well as the videography, and technology space.</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>They maybe students, or graduates, or managers for their respective companies. Additionally there could be an User Journey map, to understanding what goes into the emotions of someone trying to find their way through the user flow of the mobile application.</p>
+<p className={styles.descriptionlargewhitebold}>They maybe students, or graduates, or managers for their respective companies. Additionally there could be an User Journey map, to understanding what goes into the emotions of someone trying to find their way through the user flow of the mobile application.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -286,8 +291,9 @@ export const Apexvr = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
 
 
 
@@ -303,9 +309,9 @@ export const Apexvr = () => (
 
   <div className={styles.spaceing}></div>
   
-  <Row className="justify-content-md-center">
-  <Col md={6}>
-  
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
   
   </Col>
   </Row>
@@ -315,9 +321,9 @@ export const Apexvr = () => (
   <div className={styles.spaceing}></div>
 
   
-  
-  <Row className="justify-content-md-center">
-  <Col md={6}>
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
   
 
   <Image src={Img34} fluid className={styles.centerimage}/>
@@ -342,8 +348,9 @@ export const Apexvr = () => (
 </Col>
 </Row>
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
 
 
 
@@ -359,8 +366,9 @@ export const Apexvr = () => (
 
   <div className={styles.spaceing}></div>
   
-  <Row className="justify-content-md-center">
-  <Col md={6}>
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
   
   
   </Col>
@@ -372,8 +380,9 @@ export const Apexvr = () => (
 
   
   
-  <Row className="justify-content-md-center">
-  <Col md={6}>
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
   
 
   <Image src={Img34} fluid className={styles.centerimage}/>
@@ -385,21 +394,12 @@ export const Apexvr = () => (
 
 
 
-<Row className="justify-content-md-center">
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-
-
-
-
-
-
-  <div className={styles.spaceing}></div>
-  
-  <Col md={6}>
-
-  <p className={styles.subtitlelargeblack}>Polar Productions wanted a website for their side business VR Videos.</p>
-<p className={styles.descriptionlargeblackbold}>They wanted a website to showcase their portfolio. In particular they wanted a website that would be able to implement some type of VR videography photos and videos.</p>
+  <p className={styles.subtitlelargewhitecenter}>Polar Productions wanted a website for their side business VR Videos.</p>
+<p className={styles.descriptionlargewhitebold}>They wanted a website to showcase their portfolio. In particular they wanted a website that would be able to implement some type of VR videography photos and videos.</p>
 
   
   </Col>
@@ -413,8 +413,8 @@ export const Apexvr = () => (
   <Col md={6}>
   
 
-  <p className={styles.subtitlelargeblack}>How do we implement a VR functionality into a web application? As well as how do we design a web application to showcase this functiojality?</p>
-<p className={styles.descriptionlargeblackbold}>I was working very closely with a developer, as well as various other stakeholders. There was a client company, Polar Productions which was made up of various stakeholders such as the CEO of the company, Videographers, etc.</p>
+  <p className={styles.subtitlelargewhitecenter}>How do we implement a VR functionality into a web application? As well as how do we design a web application to showcase this functiojality?</p>
+<p className={styles.descriptionlargewhitebold}>I was working very closely with a developer, as well as various other stakeholders. There was a client company, Polar Productions which was made up of various stakeholders such as the CEO of the company, Videographers, etc.</p>
 
   </Col>
 
@@ -467,15 +467,15 @@ export const Apexvr = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>The prototype needed to be a MVP</span></p>
-<p className={styles.subtitlelargeblack}>which was eventually developed by the lead developer on the project, whom developed the MVP using Angular.JS and AFrame.</p>
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The prototype needed to be a MVP</span></p>
+<p className={styles.subtitlelargewhitecenter}>which was eventually developed by the lead developer on the project, whom developed the MVP using Angular.JS and AFrame.</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>The website was deployed on a live server and was viewable from the internet. From there the stakeholders of Polar Productions, could view the Prototype via their devices.</p>
+<p className={styles.descriptionlargewhitebold}>The website was deployed on a live server and was viewable from the internet. From there the stakeholders of Polar Productions, could view the Prototype via their devices.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -496,15 +496,16 @@ export const Apexvr = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>The main problem is that there needs to be a lead developer</span></p>
-<p className={styles.subtitlelargeblack}>to develop the application, being able to integrate the VR functionality into the website itself.</p>
+
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The main problem is that there needs to be a lead developer</span></p>
+<p className={styles.subtitlelargewhitecenter}>to develop the application, being able to integrate the VR functionality into the website itself.</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>There needed to be a developer to help move the project forward so the developer was able to develop the project using Angular.JS and AFrame.</p>
+<p className={styles.descriptionlargewhitebold}>There needed to be a developer to help move the project forward so the developer was able to develop the project using Angular.JS and AFrame.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -531,18 +532,19 @@ export const Apexvr = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
-<div className={styles.spaceingwhite}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
 
-            <p className={styles.subtitlelargeblack}>There were other various considerations, for example there was a lead developer who was in charge of the technology stack. </p>
+            <p className={styles.subtitlelargewhitecenter}>There were other various considerations, for example there was a lead developer who was in charge of the technology stack. </p>
     
-            <p className={styles.descriptionlargeblack}>Which ended up being Angular.JS 1 and AFrame. Angular.JS is the technology behind the front-end coding of the Web Application. AFrame is the technology behind the VR effect that would allow the mobile and desktop devices to showcase VR assets, that the videography company shot themselves.</p>
+            <p className={styles.descriptionlargewhitebold}>Which ended up being Angular.JS 1 and AFrame. Angular.JS is the technology behind the front-end coding of the Web Application. AFrame is the technology behind the VR effect that would allow the mobile and desktop devices to showcase VR assets, that the videography company shot themselves.</p>
 
     
       </Card>
@@ -571,15 +573,16 @@ export const Apexvr = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>After the development of the application was completed then the VR functionality was designed and implemented.</span></p>
-<p className={styles.subtitlelargeblack}>There were other various parts of the website that needed content in particular parts, or just elements that needed to be developed.</p>
+
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>After the development of the application was completed then the VR functionality was designed and implemented.</span></p>
+<p className={styles.subtitlelargewhitecenter}>There were other various parts of the website that needed content in particular parts, or just elements that needed to be developed.</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>here were other various parts of the website that needed content in particular parts, or just elements that needed to be developed.</p>
+<p className={styles.descriptionlargewhitebold}>here were other various parts of the website that needed content in particular parts, or just elements that needed to be developed.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -599,15 +602,16 @@ export const Apexvr = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>The concerns that Polar Productions</span></p>
-<p className={styles.subtitlelargeblack}>had was that they wanted there to be a certain number of slides, as well as the functionality of the website to allow for the use of the VR assets.</p>
+
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The concerns that Polar Productions</span></p>
+<p className={styles.subtitlelargewhitecenter}>had was that they wanted there to be a certain number of slides, as well as the functionality of the website to allow for the use of the VR assets.</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>Working with a codeveloper, I designed the interface and we developed the web app with angularjs and aframe. Aframe was used to implement the VR functionality.</p>
+<p className={styles.descriptionlargewhitebold}>Working with a codeveloper, I designed the interface and we developed the web app with angularjs and aframe. Aframe was used to implement the VR functionality.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -626,15 +630,16 @@ export const Apexvr = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>The main problem is that there needs to be a lead developer</span></p>
-<p className={styles.subtitlelargeblack}>to develop the application, being able to integrate the VR functionality into the website itself.</p>
+
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The main problem is that there needs to be a lead developer</span></p>
+<p className={styles.subtitlelargewhitecenter}>to develop the application, being able to integrate the VR functionality into the website itself.</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>There needed to be a developer to help move the project forward so the developer was able to develop the project using Angular.JS and AFrame.</p>
+<p className={styles.descriptionlargewhitebold}>There needed to be a developer to help move the project forward so the developer was able to develop the project using Angular.JS and AFrame.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -652,15 +657,16 @@ export const Apexvr = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>There needed to be a developer to help move the project forward so the developer was able to develop the project using Angular.JS and AFrame.</span></p>
-<p className={styles.subtitlelargeblack}>There were other various parts of the website that needed content in particular parts, or just elements that needed to be developed.</p>
+
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>There needed to be a developer to help move the project forward so the developer was able to develop the project using Angular.JS and AFrame.</span></p>
+<p className={styles.subtitlelargewhitecenter}>There were other various parts of the website that needed content in particular parts, or just elements that needed to be developed.</p>
 <div className={styles.spaceing}></div>
 
-<p className={styles.descriptionlargeblackbold}>Being able to work as a team with the lead developer to create a designed web application was successful in being deployed to the internet and the MVP was viewed by the team to be successful demonstration of the VR web functionality.</p>
+<p className={styles.descriptionlargewhitebold}>Being able to work as a team with the lead developer to create a designed web application was successful in being deployed to the internet and the MVP was viewed by the team to be successful demonstration of the VR web functionality.</p>
 <div className={styles.spaceing}></div>
 
 

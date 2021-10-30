@@ -42,6 +42,8 @@ const routes = [
   { path: '/legacypictures', name: 'Legacy Pictures', Component: Legacypictures },
   { path: '/artrendezvous', name: 'Art•Rendez-Vous', Component: Artrendezvous },
   { path: '/uguru', name: 'Uguru, INC.', Component: Uguru },
+  { path: '/sanchezcoffeeco', name: 'Sanchez Coffee Co.', Component: Sanchezcoffeeco },
+  { path: '/apexvr', name: 'ApexVR', Component: Apexvr },
   { path: '/Contact', name: 'Resume', Component: Contact },
 ]
 

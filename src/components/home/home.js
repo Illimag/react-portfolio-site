@@ -101,7 +101,9 @@ import apeximg from '../../assets/img/apexvr/p_apex_3_L-min.png';
 import stepsaverimg from '../../assets/img/stepsaver/f_stepsaver_1.png';
 
 import Img34 from '../../assets/smarttvtest1.png';
-
+import Img35 from '../../assets/handheld.png';
+import Img36 from '../../assets/sanchezcotest.png';
+import Img30 from '../../assets/smarttvtest0.png';
 
 const importAll = (r) => {
   let images = [];
@@ -192,8 +194,10 @@ export const Home = () => {
     {images &&
     <div style={{ display: currentLoadingState ? "none" : "block" }}>
 
-<Image src={Img34} fluid className={styles.displaynone}/>
 
+
+<Image src={logo} fluid className={styles.displaynone}/>
+<Image src={Img34} fluid className={styles.displaynone}/>
 <Image src={logo} fluid className={styles.displaynone}/>
 
 
@@ -555,12 +559,165 @@ large: "(min-width: 1200px)"
 
 
 
+<LinkContainer to="/sanchezcoffeeco" className={styles.clickablecontainer}>
+<Container className={styles.test2}>
+<div id="test2"></div>
+  
+<Row className="justify-content-md-center">
+<Fade>
+     <Jumbotron className={styles.testfloatbackpieces}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+</Fade>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+  <Fade>
+<p className={styles.whitetitle}>Sanchez Coffee Co.</p>
+      </Fade>
+
+      <Slide direction="up">
+<p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>
+</Slide>
+
+
+<Slide direction="up">
+  <LinkContainer to="/sanchezcoffeeco">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
+</Slide>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+</LinkContainer>
 
 
 
 
 
 
+
+<LinkContainer to="/apexvr" className={styles.clickablecontainer}>
+<Container className={styles.test2}>
+<div id="test2"></div>
+  
+<Row className="justify-content-md-center">
+<Fade>
+     <Jumbotron className={styles.testfloatbackpieces}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[7]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+</Fade>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+  <Fade>
+<p className={styles.whitetitle}>ApexVR</p>
+      </Fade>
+
+      <Slide direction="up">
+<p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>
+</Slide>
+
+
+<Slide direction="up">
+  <LinkContainer to="/apexvr">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
+</Slide>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+</LinkContainer>
 
 
 

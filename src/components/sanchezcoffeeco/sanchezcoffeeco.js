@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
+
 import { Link } from 'react-router-dom'
 //import { Slide } from "react-awesome-reveal";
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -132,13 +135,13 @@ export const Sanchezcoffeeco = () => (
 
   <div className={styles.spaceing}></div>
   
-  <Row className="justify-content-md-center">
-  <Col md={6}>
-  
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+<Slide direction="up">
   <p className={styles.subtitlesmallwhitecenter}>Sanchez Coffee Co.</p>
 
   <p className={styles.subtitlelargewhitecenter}>Los Angeles E-commerce Company</p>
-      
+  </Slide>
   
   
   </Col>
@@ -150,12 +153,12 @@ export const Sanchezcoffeeco = () => (
 
   
   
-  <Row className="justify-content-md-center">
-  <Col md={6}>
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
   
-
+<Fade>
   <Image src={Img34} fluid className={styles.centerimage}/>
-  
+  </Fade> 
   </Col>
   </Row>
   
@@ -172,17 +175,17 @@ export const Sanchezcoffeeco = () => (
 
 
 
-  <Container fluid className={styles.test}>
+  <Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
-<p className={styles.subtitlelargeblack}>Sanchez Coffee company<span className={styles.blue}>was a custom branded coffee company</span></p>
+<p className={styles.subtitlelargeblackcenter}>Sanchez Coffee company<span className={styles.blue}>was a custom branded coffee company</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
@@ -209,17 +212,17 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
-<p className={styles.subtitlelargeblack}>Sanchez Coffee Company <span className={styles.blue}>was an ecommerce company that was selling custom branded coffee in Los Angeles.</span></p>
+<p className={styles.subtitlelargeblackcenter}>Sanchez Coffee Company <span className={styles.blue}>was an ecommerce company that was selling custom branded coffee in Los Angeles.</span></p>
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
@@ -249,17 +252,17 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
-<p className={styles.subtitlelargeblack}>The people that works on SCC was a interesting group of people.</p>
+<p className={styles.subtitlelargeblackcenter}>The people that works on SCC was a interesting group of people.</p>
 
 
 <CardGroup className={styles.backgroundtransparent}>
@@ -288,12 +291,12 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
-            <Row className="justify-content-md-center">
-<Col md={6}>
+        <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
             <Image src={Img17} fluid className={styles.centerimage}/>
@@ -312,17 +315,17 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
-<p className={styles.subtitlelargeblack}>The partner who controlled this part of it we didnt talk to much.</p>
+<p className={styles.subtitlelargeblackcenter}>The partner who controlled this part of it we didnt talk to much.</p>
 
 <p className={styles.descriptionlargeblackbold}>Mainly we worked on the side of the company that was in charge of the design and development of the payment platform.</p>
 
@@ -330,8 +333,8 @@ export const Sanchezcoffeeco = () => (
 
 </Col>
 </Row>
-<Row className="justify-content-md-center">
-<Col md={2}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={2}>
 
 
 
@@ -412,8 +415,8 @@ export const Sanchezcoffeeco = () => (
 </Row>
 
 
-<Row className="justify-content-md-center">
-<Col md={2}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={2}>
 
 
 
@@ -504,17 +507,16 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-
-<p className={styles.subtitlelargeblack}>During this phase we began to understand the main functionality of the website should be providing the most streamlined methods. There were various parts of the website that needed to be designed based on key features of the web application.</p>
+<p className={styles.subtitlelargeblackcenter}>During this phase we began to understand the main functionality of the website should be providing the most streamlined methods. There were various parts of the website that needed to be designed based on key features of the web application.</p>
 <p className={styles.descriptionlargeblackbold}>Many of these features were based on the needs of the stakeholders rather than the users. But at the end of the day, the users were satisfied with their orders.</p>
 
 <div className={styles.spaceing}></div>
@@ -530,13 +532,13 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -551,9 +553,8 @@ export const Sanchezcoffeeco = () => (
 
 
   <div className={styles.spaceing}></div>
-  
-  <Row className="justify-content-md-center">
-  <Col md={6}>
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
   
   
   </Col>
@@ -565,8 +566,8 @@ export const Sanchezcoffeeco = () => (
 
   
   
-  <Row className="justify-content-md-center">
-  <Col md={6}>
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
   
 
   <Image src={Img34} fluid className={styles.centerimage}/>
@@ -591,8 +592,8 @@ export const Sanchezcoffeeco = () => (
 </Col>
 </Row>
 
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 
@@ -608,8 +609,8 @@ export const Sanchezcoffeeco = () => (
 
   <div className={styles.spaceing}></div>
   
-  <Row className="justify-content-md-center">
-  <Col md={6}>
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
   
   
   </Col>
@@ -621,9 +622,8 @@ export const Sanchezcoffeeco = () => (
 
   
   
-  <Row className="justify-content-md-center">
-  <Col md={6}>
-  
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
   <Image src={Img34} fluid className={styles.centerimage}/>
   
@@ -634,21 +634,11 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Row className="justify-content-md-center">
+  <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
-
-
-
-
-
-
-
-  <div className={styles.spaceing}></div>
-  
-  <Col md={6}>
-
-  <p className={styles.subtitlelargeblack}>The designs of the application were done by working with the stakeholders to understand what kind of application was needed as well as what would be the easiest way of allowing the users to make payments on the e-commerce site.</p>
-<p className={styles.descriptionlargeblackbold}>We can create paper prototypes of various UI Elements, etc. Or what kind of prototyping was done, before hand, or was it more of a MVP?</p>
+  <p className={styles.subtitlelargewhitecenter}>The designs of the application were done by working with the stakeholders to understand what kind of application was needed as well as what would be the easiest way of allowing the users to make payments on the e-commerce site.</p>
+<p className={styles.descriptionlargewhitebold}>We can create paper prototypes of various UI Elements, etc. Or what kind of prototyping was done, before hand, or was it more of a MVP?</p>
 
   
   </Col>
@@ -662,8 +652,8 @@ export const Sanchezcoffeeco = () => (
   <Col md={6}>
   
 
-  <p className={styles.subtitlelargeblack}>So with this new information the website was created by using a user flow. To break apart the parts of the website that was necessary to be used, to create a new website.</p>
-<p className={styles.descriptionlargeblackbold}>Also understanding more about the various parts of the product categories, such as if they were selling coffee, in what weight, as well as the packing that would be available to be purchased on the web application.</p>
+  <p className={styles.subtitlelargewhitecenter}>So with this new information the website was created by using a user flow. To break apart the parts of the website that was necessary to be used, to create a new website.</p>
+<p className={styles.descriptionlargewhitebold}>Also understanding more about the various parts of the product categories, such as if they were selling coffee, in what weight, as well as the packing that would be available to be purchased on the web application.</p>
 
   </Col>
 
@@ -712,17 +702,17 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>We were able to process around 100K USD in transaction</span></p>
-<p className={styles.subtitlelargeblack}>a few thousand sales before the web platform was taken down. During this period my job was to maintain this flow of sales on the online platform.</p>
+<p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>We were able to process around 100K USD in transaction</span></p>
+<p className={styles.subtitlelargeblackcenter}>a few thousand sales before the web platform was taken down. During this period my job was to maintain this flow of sales on the online platform.</p>
 <div className={styles.spaceing}></div>
 
 
@@ -744,17 +734,17 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
 <p className={styles.subtitlelargeblack}><span className={styles.grey}>PayPal Manager</span></p>
-<p className={styles.subtitlelargeblack}>Additionally there was around 100K in transactions over 1000 transactions that were made using PayPal Manager, etc.</p>
+<p className={styles.subtitlelargeblackcenter}>Additionally there was around 100K in transactions over 1000 transactions that were made using PayPal Manager, etc.</p>
 <div className={styles.spaceing}></div>
 
 <div className={styles.spaceing}></div>
@@ -775,17 +765,17 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>But the designs of the website was done with HTML/CSS into the WordPress Dashboard. Using this method, as well as creating the branding of the website was done using Adobe Illustrator.</span></p>
-<p className={styles.subtitlelargeblack}>After the prototype was completed and ready to be used, the website was used by users, and they were able to process around 100K transactions, over a 1000 transactions.</p>
+<p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>But the designs of the website was done with HTML/CSS into the WordPress Dashboard. Using this method, as well as creating the branding of the website was done using Adobe Illustrator.</span></p>
+<p className={styles.subtitlelargeblackcenter}>After the prototype was completed and ready to be used, the website was used by users, and they were able to process around 100K transactions, over a 1000 transactions.</p>
 <div className={styles.spaceing}></div>
 
 <p className={styles.descriptionlargeblackbold}>They were happy with this amount of transactions, and the users were able to navigate through the website application.</p>
@@ -804,17 +794,17 @@ export const Sanchezcoffeeco = () => (
 
 
 
-<Container fluid className={styles.test}>
+<Container fluid className={styles.test1}>
         <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
-<Row className="justify-content-md-center">
-<Col md={6}>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
 
 
-<p className={styles.subtitlelargeblack}><span className={styles.grey}>Things I learned while working for Sanchez Coffee Co.</span></p>
-<p className={styles.subtitlelargeblack}>Is that designing the web application that is to be used in a production environment to take payments over the internet required alot of knowledge. For example there were various web compilances that I had to make sure to follow,</p>
+<p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Things I learned while working for Sanchez Coffee Co.</span></p>
+<p className={styles.subtitlelargeblackcenter}>Is that designing the web application that is to be used in a production environment to take payments over the internet required alot of knowledge. For example there were various web compilances that I had to make sure to follow,</p>
 <div className={styles.spaceing}></div>
 
 <p className={styles.descriptionlargeblackbold}>To get the website to code, for accepting payments over the internet various things had to be done, and working with the stakeholders, as well as various different agents, and institutions that provided merchant accounts, as well as helping out the user, was difficult to do but was a rewarding experience.</p>
