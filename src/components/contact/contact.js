@@ -102,7 +102,7 @@ export const Contact = () => (
 
 
 
-<Container className={styles.test1}>
+<Container className={styles.test}>
          
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
