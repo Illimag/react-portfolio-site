@@ -145,10 +145,10 @@ export const Home = () => {
   return <>
 
 
-  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "0vh" }}>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "6vh" }}>
   
 
-  <ProgressBar animated now={currentProgress} label={` Completed ${now}%`}/>
+  <ProgressBar animated now={currentProgress} label={` Loading ${now}%`}/>
       
 
   
@@ -160,18 +160,15 @@ export const Home = () => {
 <a href="/">
                 <Navbar.Brand className={styles.logo}>
 
-                <Row className="justify-content-center">
-
-                <Image src={logo} fluid className={styles.logoresizing} />
-                </Row>
 
                 
                 <div className={styles.spaceing}></div>
 
                 <Row className="justify-content-center">
                 <Fade>
-                <h1 className={styles.test1title}>Welcome</h1>
+                <h1 className={styles.test1title}>WELCOME</h1>
                 </Fade>
+             
                 </Row>
 
                 </Navbar.Brand>
@@ -254,17 +251,11 @@ export const Home = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>Hillodesign </p>
+            <p className={styles.whitetitle}>HILLODESIGN </p>
             </Fade>
 
             <Slide direction="up">
-<p className={styles.descriptionlargewhite}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.
-</p>
-</Slide>
-
-<Slide direction="up">
-<p className={styles.descriptionlargewhite}>
- <span className={styles.green}> Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.
+<p className={styles.descriptionlargewhitebold}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.<span className={styles.green}> Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.
 </p>
 </Slide>
 
