@@ -166,7 +166,7 @@ export const Home = () => {
 
                 <Row className="justify-content-center">
                 <Fade>
-                <h1 className={styles.test1title}>WELCOME</h1>
+                <h1 className={styles.test1title}>Welcome</h1>
                 </Fade>
              
                 </Row>
@@ -251,18 +251,23 @@ export const Home = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>HILLODESIGN </p>
+            <p className={styles.whitetitle}>Hillodesign </p>
             </Fade>
 
             <Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.<span className={styles.green}> Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.
+<p className={styles.descriptionlargewhitebold}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.
 </p>
 </Slide>
 
+
+
+<Slide direction="up">
+<p className={styles.descriptionlargewhitebold}><span className={styles.green}> Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.</p>
+</Slide>
 <Row>
 
   
-  <Col xs={12} md={4} className={styles.removepadding}>
+  <Col xs={12} md={5} className={styles.removepadding}>
   <AnchorLink href="/test">
 <p className={styles.clickabletext}>
 <Slide direction="up">
@@ -276,7 +281,7 @@ export const Home = () => {
 
 <div className={styles.divider}/>
 
-<Col xs={12} md={4} className={styles.removepadding}>
+<Col xs={12} md={5} className={styles.removepadding}>
 <LinkContainer to="/contact">
 <p className={styles.clickabletext}>
 <Slide direction="up">
@@ -362,7 +367,7 @@ large: "(min-width: 1200px)"
 </Fade>
 
 <Slide direction="up">
-<p className={styles.descriptionlargewhite}>How To Redesign A Web App in 2021</p>
+<p className={styles.descriptionlargewhitebold}>How To Redesign A Web App in 2021</p>
 </Slide>
 
 
@@ -447,7 +452,7 @@ large: "(min-width: 1200px)"
 </Fade>
 
 <Slide direction="up">
-<p className={styles.descriptionlargewhite}>Art Community Mobile App Startup</p>
+<p className={styles.descriptionlargewhitebold}>Art Community Mobile App Startup</p>
 </Slide>
 
 <Slide direction="up">
@@ -520,11 +525,11 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
   <Fade>
-<p className={styles.whitetitle}>Uguru, INC</p>
+<p className={styles.whitetitle}>Uguru, INC.</p>
       </Fade>
 
       <Slide direction="up">
-<p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>
+<p className={styles.descriptionlargewhitebold}>San Francisco SOMA Mobile App Startup</p>
 </Slide>
 
 
@@ -599,11 +604,11 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
   <Fade>
-<p className={styles.whitetitle}>Sanchez Coffee Co.</p>
+<p className={styles.whitetitle}>Sanchez Coffee CO.</p>
       </Fade>
 
       <Slide direction="up">
-<p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>
+<p className={styles.descriptionlargewhitebold}>San Francisco SOMA Mobile App Startup</p>
 </Slide>
 
 
@@ -686,7 +691,7 @@ large: "(min-width: 1200px)"
       </Fade>
 
       <Slide direction="up">
-<p className={styles.descriptionlargewhite}>San Francisco SOMA Mobile App Startup</p>
+<p className={styles.descriptionlargewhitebold}>San Francisco SOMA Mobile App Startup</p>
 </Slide>
 
 
