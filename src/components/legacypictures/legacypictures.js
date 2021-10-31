@@ -126,13 +126,13 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test}>
-        <div id="test"></div>
+<div id="test"></div>
            
 
 
         <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
-
+<div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 
 
@@ -365,6 +365,10 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test}>
+
+
+<Image src={Img30} fluid className={styles.testgradientbackground}/>
+
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
@@ -423,6 +427,8 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test2}>
+
+  
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 <div className={styles.spaceing}></div>
@@ -563,6 +569,10 @@ export const Legacypictures = () => (
 
 
 <Container fluid className={styles.test}>
+
+
+<Image src={Img30} fluid className={styles.testgradientbackground}/>
+
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 

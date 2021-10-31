@@ -127,6 +127,9 @@ export const Uguru = () => (
 
 
   <Container fluid className={styles.test2}>
+  <Image src={Img30} fluid className={styles.testgradientbackground}/>
+
+  <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>

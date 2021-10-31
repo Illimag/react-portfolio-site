@@ -64,7 +64,7 @@ import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
 import Img32 from '../../assets/MacBook Pro Mockup.png';
 import Img33 from '../../assets/XDR Mockup.png';
 import Img34 from '../../assets/XDR Mockup.png';
-
+import Img35 from '../../assets/hero-gradient.png';
 import styles from '../css/style.module.css';
 import '../css/style.css';
 
@@ -113,13 +113,14 @@ export const Apexvr = () => (
  <>
       
       <Container fluid className={styles.test}>
+      <Image src={Img35} fluid className={styles.testgradientbackground}/>
         <div id="test"></div>
         <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
 
 <div className={styles.spaceing}></div>
-
+<div className={styles.spaceing}></div>
 
 
 

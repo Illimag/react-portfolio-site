@@ -124,10 +124,10 @@ export const Artrendezvous = () => (
 <Container fluid className={styles.test}>
   
 
+<Image src={Img30} fluid className={styles.testgradientbackground}/>
 
 
-
-
+<div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 
 <Row className={styles.justifycontentcenter}>
