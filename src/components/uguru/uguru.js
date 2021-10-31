@@ -72,7 +72,7 @@ import Img34 from '../../assets/ugurumainpic-01-min.png';
 
 import Img35 from '../../assets/mockuptest-02.png';
 import Img36 from '../../assets/mockuptest-01.png';
-import Img37 from '../../assets/aerial-cityscape-view-of-san-francisco-and-the-bay-2FPCNKG.jpg';
+import Img37 from '../../assets/aerial-view-of-san-francisco-at-night-PDXCT9H.jpg';
 
 import Img38 from '../../assets/phonemockuo.png';
 import Img39 from '../../assets/homepage2.png';
@@ -127,7 +127,7 @@ export const Uguru = () => (
 
 
   <Container fluid className={styles.test2}>
-  <Image src={Img30} fluid className={styles.testgradientbackground}/>
+  <Image src={Img37} fluid className={styles.testgradientbackground}/>
 
   <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
@@ -160,26 +160,7 @@ export const Uguru = () => (
 </Row>
 
 
-</Container>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <Container fluid className={styles.test2}>
-        <div id="test3"></div>
-
-<div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
@@ -206,12 +187,6 @@ export const Uguru = () => (
 
 </Col>
 </Row>
-</Container>
-
-
-<Container fluid className={styles.test2}>
-        <div id="test"></div>
-
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
@@ -244,15 +219,6 @@ export const Uguru = () => (
 
 </Col>
 </Row>
-</Container>
-
-
-
-
-
-
-<Container fluid className={styles.test2}>
-
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
@@ -286,8 +252,30 @@ export const Uguru = () => (
     </Col>
 </Row>
 
+<div className={styles.spaceing}></div>
+
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test2}>
 
 <div className={styles.spaceing}></div>
+
 
 
 

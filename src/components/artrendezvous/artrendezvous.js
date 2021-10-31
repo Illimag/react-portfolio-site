@@ -96,7 +96,7 @@ import Img35 from '../../assets/phonehorizontal.png';
 import Img36 from '../../assets/phonemockuo.png';
 import Img37 from '../../assets/Flat.png';
 import Img38 from '../../assets/phonetop-01.png';
-
+import Img39 from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
 import Media from 'react-media';
 
 export const Artrendezvous = () => (
@@ -124,7 +124,7 @@ export const Artrendezvous = () => (
 <Container fluid className={styles.test}>
   
 
-<Image src={Img30} fluid className={styles.testgradientbackground}/>
+<Image src={Img39} fluid className={styles.testgradientbackground}/>
 
 
 <div className={styles.spaceing}></div>

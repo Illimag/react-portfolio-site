@@ -127,7 +127,6 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <div id="test"></div>
-           
 
 
         <Row className={styles.justifycontentcenter}>

@@ -1172,8 +1172,8 @@ background: rgba(0,0,0,0.5);
 
 
 .backgroundgadient{
-    background: linear-gradient(to right bottom, #071931 0%, #33274f 50%, #661e43 100%);
-    border: transparent !important
+    background: rgba(0,0,0,.5);
+    backdrop-filter: saturate(180%) blur(20px);
 }
 
 
