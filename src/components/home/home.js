@@ -90,7 +90,16 @@ import stepsaverimg from '../../assets/img/stepsaver/f_stepsaver_1.png';
 import Img34 from '../../assets/smarttvtest1.png';
 import Img35 from '../../assets/handheld.png';
 import Img36 from '../../assets/sanchezcotest.png';
-import Img30 from '../../assets/smarttvtest0.png';
+
+import PreloadLegacy from '../../assets/smarttvtest0.png';
+import PreloadArt from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
+import PreloadArt1 from '../../assets/handheld.png';
+import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';
+import PreloadUguru from '../../assets/smarttvtest0.png';
+import PreloadSanchez from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
+import PreloadApexVR from '../../assets/smarttvtest0.png';
+
+
 
 const importAll = (r) => {
   let images = [];
@@ -203,28 +212,29 @@ const getImageUrls = () => {
         }}>
           {matches => (
             <>
-
               {matches.small &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+              <div>
                     <Image src={logo} fluid className={styles.displaynone}/>
-              </video>
+               
+                    <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                 </div>
                 }
 
               {matches.medium &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+            <div>
                     <Image src={logo} fluid className={styles.displaynone}/>
-              </video>
+                    <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                    </div>
                 }
 
               {matches.large &&
-                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
                
+               <div>
                     <Image src={logo} fluid className={styles.displaynone}/>
-                    <Image src={Img34} fluid className={styles.displaynone}/>
-
-              </video>
+                <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                </div>
+            
                 }
-
             </>
           )}
         </Media>

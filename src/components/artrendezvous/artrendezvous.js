@@ -99,6 +99,11 @@ import Img38 from '../../assets/phonetop-01.png';
 import Img39 from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
 import Media from 'react-media';
 
+
+import PreloadArt from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
+import PreloadArt1 from '../../assets/handheld.png';
+import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';
+
 export const Artrendezvous = () => (
   /* Start of JSX Fragment*/
   <>
@@ -124,7 +129,37 @@ export const Artrendezvous = () => (
 <Container fluid className={styles.test}>
   
 
-<Image src={Img39} fluid className={styles.testgradientbackground}/>
+
+
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={PreloadArt11} fluid className={styles.testgradientbackground}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={PreloadArt} fluid className={styles.testgradientbackground}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={PreloadArt} fluid className={styles.testgradientbackground}/>
+
+                }
+
+            </>
+          )}
+        </Media>
+
+
 
 
 <div className={styles.spaceing}></div>
@@ -152,13 +187,49 @@ export const Artrendezvous = () => (
 
 <div className={styles.spaceing}></div>
 <Fade>
-      <Image src={Img34} fluid />
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={PreloadArt1} fluid className={styles.testgradientbackground}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={PreloadArt1} fluid className={styles.testgradientbackground}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={PreloadArt1} fluid className={styles.testgradientbackground}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Fade>    
 
 
 
 </Col>
 </Row>
+
+
+
+
+</Container>
+
+
+
+
+
 
 
 
@@ -187,16 +258,6 @@ export const Artrendezvous = () => (
 
 </Col>
 </Row>
-
-
-</Container>
-
-
-
-
-
-
-
 
 
 
@@ -233,6 +294,8 @@ export const Artrendezvous = () => (
 
 </Col>
 </Row>
+
+
 </Container>
 
 

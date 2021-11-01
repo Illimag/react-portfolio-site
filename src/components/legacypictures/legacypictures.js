@@ -106,7 +106,7 @@ import videomobile from '../../assets/newhomepagevids/1-1.mp4'
 
 import scrolldown from '../../assets/scrolldown-01.png';
 
-
+import PreloadLegacy from '../../assets/smarttvtest0.png';
 import Media from 'react-media';
 
 
@@ -154,7 +154,39 @@ export const Legacypictures = () => (
 <Col xs={12} md={7}>
 
 <Fade>
-            <Image src={Img34} fluid className={styles.centerimage}/>
+            
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
+
+
             </Fade>
 
             <div className={styles.spaceing}></div>
