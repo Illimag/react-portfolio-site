@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.b4bdc6f5.chunk.css",
-    "main.js": "/static/js/main.e2c37ee9.chunk.js",
-    "main.js.map": "/static/js/main.e2c37ee9.chunk.js.map",
+    "main.js": "/static/js/main.7d2938ed.chunk.js",
+    "main.js.map": "/static/js/main.7d2938ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
-    "static/js/2.f7d0b92f.chunk.js": "/static/js/2.f7d0b92f.chunk.js",
-    "static/js/2.f7d0b92f.chunk.js.map": "/static/js/2.f7d0b92f.chunk.js.map",
+    "static/js/2.d110b3d7.chunk.js": "/static/js/2.d110b3d7.chunk.js",
+    "static/js/2.d110b3d7.chunk.js.map": "/static/js/2.d110b3d7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2890f8c47c56fe71c5712a04e2f7ddb0.js": "/precache-manifest.2890f8c47c56fe71c5712a04e2f7ddb0.js",
+    "precache-manifest.8eb83922c84e0a621fe6c3563790e585.js": "/precache-manifest.8eb83922c84e0a621fe6c3563790e585.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
     "static/css/main.b4bdc6f5.chunk.css.map": "/static/css/main.b4bdc6f5.chunk.css.map",
-    "static/js/2.f7d0b92f.chunk.js.LICENSE.txt": "/static/js/2.f7d0b92f.chunk.js.LICENSE.txt",
+    "static/js/2.d110b3d7.chunk.js.LICENSE.txt": "/static/js/2.d110b3d7.chunk.js.LICENSE.txt",
     "static/media/0-1.mp4": "/static/media/0-1.fd474927.mp4",
     "static/media/0.mp4": "/static/media/0.89232f5c.mp4",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
@@ -57,6 +57,7 @@
     "static/media/Website-User-scenario-workflow.e9e2ac6c.png": "/static/media/Website-User-scenario-workflow.e9e2ac6c.png",
     "static/media/XDR Mockup.ed9b5e81.png": "/static/media/XDR Mockup.ed9b5e81.png",
     "static/media/aerial-view-of-san-francisco-at-night-PDXCT9H.8799de01.jpg": "/static/media/aerial-view-of-san-francisco-at-night-PDXCT9H.8799de01.jpg",
+    "static/media/artrendezpicturemobile.d473c667.jpg": "/static/media/artrendezpicturemobile.d473c667.jpg",
     "static/media/banner-02.dee80891.jpg": "/static/media/banner-02.dee80891.jpg",
     "static/media/banner-06.23ed947e.jpg": "/static/media/banner-06.23ed947e.jpg",
     "static/media/banner-06.92386e26.jpg": "/static/media/banner-06.92386e26.jpg",
@@ -129,8 +130,8 @@
   "entrypoints": [
     "static/js/runtime-main.672f7f98.js",
     "static/css/2.46b578d6.chunk.css",
-    "static/js/2.f7d0b92f.chunk.js",
+    "static/js/2.d110b3d7.chunk.js",
     "static/css/main.b4bdc6f5.chunk.css",
-    "static/js/main.e2c37ee9.chunk.js"
+    "static/js/main.7d2938ed.chunk.js"
   ]
 }
