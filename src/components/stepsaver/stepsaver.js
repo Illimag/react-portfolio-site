@@ -84,10 +84,6 @@ import Codepen from "react-codepen-embed";
 
 
 
-import video from '../../assets/newhomepagevids/6.mp4'
-import videomobile from '../../assets/newhomepagevids/6-1.mp4'
-
-
 import { LinkContainer } from 'react-router-bootstrap';
 
 

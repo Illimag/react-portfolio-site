@@ -151,7 +151,7 @@ export const Legacypictures = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={6}>
+<Col xs={12} md={7}>
 
 <Fade>
             <Image src={Img34} fluid className={styles.centerimage}/>
@@ -182,7 +182,7 @@ export const Legacypictures = () => (
       <Card className={styles.backgroundtransparent}>
 
       <Slide direction="up">
-            <p className={styles.subtitlelargewhitecenter}>Design task</p>
+            <p className={styles.subtitlelargewhiteleft}>Design task</p>
             </Slide>
 
             <div className={styles.spaceing}></div>
@@ -391,7 +391,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={6}>
+<Col xs={12} md={9}>
 
 
 <Fade>
@@ -550,7 +550,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={6}>
+<Col xs={12} md={9}>
 
 
 

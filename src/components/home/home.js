@@ -80,19 +80,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import video from '../../assets/l.mp4';
 import videomobile from '../../assets/ll.mp4';
 
-import vid1 from '../../assets/newhomepagevids/1.mp4'
-import vid11 from '../../assets/newhomepagevids/1-1.mp4'
-import vid2 from '../../assets/newhomepagevids/2.mp4'
-import vid22 from '../../assets/newhomepagevids/2-1.mp4'
-import vid3 from '../../assets/newhomepagevids/3.mp4'
-import vid33 from '../../assets/newhomepagevids/3-1.mp4'
-import vid4 from '../../assets/newhomepagevids/4.mp4'
-import vid44 from '../../assets/newhomepagevids/4-1.mp4'
-import vid5 from '../../assets/newhomepagevids/5.mp4'
-import vid55 from '../../assets/newhomepagevids/5-1.mp4'
-import vid6 from '../../assets/newhomepagevids/6.mp4'
-import vid66 from '../../assets/newhomepagevids/6-1.mp4'
-
 import desktopImg from '../../assets/img/uguru/trans/pic5.png';
 import artimg from '../../assets/img/art/banner-06.jpg';
 import uguruimg from '../../assets/img/uguru/1-02.jpg';
@@ -123,9 +110,23 @@ export const Home = () => {
 
   
   const dispatch = useDispatch();
-  const getImageUrls = () => {
-    return importAll(require.context('../../assets/newhomepagevids', false, /\.(png|jpe?g|svg|mp4|m4v|gif)$/))
-  }
+
+  const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+
+
+const getImageUrls = () => {
+
+      if (isMobile) {
+        return importAll(require.context('../../assets/newhomepagevidsmobile', false, /\.(png|jpe?g|svg|mp4|m4v|gif)$/))
+
+    } else {
+        return importAll(require.context('../../assets/newhomepageviddesktop', false, /\.(png|jpe?g|svg|mp4|m4v|gif)$/))
+
+    }
+
+
+}
+
 
   const currentLoadingState = useSelector(state => getLoadingState(state));
   const currentProgress = useSelector(state => getCurrentProgress(state));
@@ -193,9 +194,42 @@ export const Home = () => {
 
 
 
-<Image src={logo} fluid className={styles.displaynone}/>
-<Image src={Img34} fluid className={styles.displaynone}/>
-<Image src={logo} fluid className={styles.displaynone}/>
+
+
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                    <Image src={logo} fluid className={styles.displaynone}/>
+              </video>
+                }
+
+              {matches.medium &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+                    <Image src={logo} fluid className={styles.displaynone}/>
+              </video>
+                }
+
+              {matches.large &&
+                <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
+               
+                    <Image src={logo} fluid className={styles.displaynone}/>
+                    <Image src={Img34} fluid className={styles.displaynone}/>
+
+              </video>
+                }
+
+            </>
+          )}
+        </Media>
+
+
 
 
 
@@ -227,13 +261,13 @@ export const Home = () => {
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[1]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[1]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
@@ -333,19 +367,19 @@ large: "(min-width: 1200px)"
 
     {matches.small &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[2]}/>
+      <source src={images[1]}/>
     </video>
       }
 
     {matches.medium &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[3]}/>
+      <source src={images[1]}/>
     </video>
       }
 
     {matches.large &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[3]}/>
+      <source src={images[1]}/>
     </video>
       }
 
@@ -419,19 +453,19 @@ large: "(min-width: 1200px)"
 
     {matches.small &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[4]}/>
+      <source src={images[2]}/>
     </video>
       }
 
     {matches.medium &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[5]}/>
+      <source src={images[2]}/>
     </video>
       }
 
     {matches.large &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[5]}/>
+      <source src={images[2]}/>
     </video>
       }
 
@@ -496,19 +530,19 @@ large: "(min-width: 1200px)"
 
     {matches.small &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[6]}/>
+      <source src={images[3]}/>
     </video>
       }
 
     {matches.medium &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[7]}/>
+      <source src={images[3]}/>
     </video>
       }
 
     {matches.large &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[7]}/>
+      <source src={images[3]}/>
     </video>
       }
 
@@ -575,19 +609,19 @@ large: "(min-width: 1200px)"
 
     {matches.small &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[6]}/>
+      <source src={images[4]}/>
     </video>
       }
 
     {matches.medium &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[7]}/>
+      <source src={images[4]}/>
     </video>
       }
 
     {matches.large &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[7]}/>
+      <source src={images[4]}/>
     </video>
       }
 
@@ -658,19 +692,19 @@ large: "(min-width: 1200px)"
 
     {matches.small &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[6]}/>
+      <source src={images[5]}/>
     </video>
       }
 
     {matches.medium &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[7]}/>
+      <source src={images[5]}/>
     </video>
       }
 
     {matches.large &&
       <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[7]}/>
+      <source src={images[5]}/>
     </video>
       }
 

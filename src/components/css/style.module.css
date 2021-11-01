@@ -1245,6 +1245,17 @@ background: rgba(0,0,0,0.5);
     text-align: center !important;
 }
 
+.subtitlelargewhiteleft{
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: -1% !important;
+    margin-top: 1% !important;
+    font-family: 'Inter', sans-serif;
+    color:#fff !important;
+    letter-spacing: -1px;
+    line-height: 100%;
+}
+
 
 .subtitlesmallblackcenter{
     font-weight: 600;
