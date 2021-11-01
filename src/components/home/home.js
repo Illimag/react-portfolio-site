@@ -215,8 +215,10 @@ const getImageUrls = () => {
               {matches.small &&
               <div>
                     <Image src={logo} fluid className={styles.displaynone}/>
-               
                     <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+
+                    <Image src={PreloadArt1} fluid className={styles.displaynone}/>
+                    <Image src={PreloadArt11} fluid className={styles.displaynone}/>
                  </div>
                 }
 
@@ -224,6 +226,9 @@ const getImageUrls = () => {
             <div>
                     <Image src={logo} fluid className={styles.displaynone}/>
                     <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+
+                    <Image src={PreloadArt1} fluid className={styles.displaynone}/>
+                    <Image src={PreloadArt} fluid className={styles.displaynone}/>
                     </div>
                 }
 
@@ -232,6 +237,9 @@ const getImageUrls = () => {
                <div>
                     <Image src={logo} fluid className={styles.displaynone}/>
                 <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+
+ <Image src={PreloadArt1} fluid className={styles.displaynone}/>
+ <Image src={PreloadArt} fluid className={styles.displaynone}/>
                 </div>
             
                 }
