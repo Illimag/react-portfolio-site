@@ -91,7 +91,7 @@ import Img34 from '../../assets/smarttvtest1.png';
 import Img35 from '../../assets/handheld.png';
 import Img36 from '../../assets/sanchezcotest.png';
 
-import PreloadLegacy from '../../assets/smarttvtest0.png';
+import PreloadLegacy from '../../assets/smarttvtest1.png';
 import PreloadArt from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
 import PreloadArt1 from '../../assets/handheld.png';
 import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';

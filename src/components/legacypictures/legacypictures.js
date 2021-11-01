@@ -106,7 +106,7 @@ import videomobile from '../../assets/newhomepagevids/1-1.mp4'
 
 import scrolldown from '../../assets/scrolldown-01.png';
 
-import PreloadLegacy from '../../assets/smarttvtest0.png';
+import PreloadLegacy from '../../assets/smarttvtest1.png';
 import Media from 'react-media';
 
 
@@ -165,20 +165,20 @@ export const Legacypictures = () => (
               {matches.small &&
               <div>
                
-                    <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                    <Image src={PreloadLegacy} fluid className={styles.centerimage}/>
                  </div>
                 }
 
               {matches.medium &&
             <div>
-                    <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                    <Image src={PreloadLegacy} fluid className={styles.centerimage}/>
                     </div>
                 }
 
               {matches.large &&
                
                <div>
-                <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                <Image src={PreloadLegacy} fluid className={styles.centerimage}/>
                 </div>
             
                 }

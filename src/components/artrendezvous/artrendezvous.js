@@ -140,19 +140,21 @@ export const Artrendezvous = () => (
             <>
 
               {matches.small &&
+              <div>
                     <Image src={PreloadArt11} fluid className={styles.testgradientbackground}/>
-  
+            </div>
                 }
 
               {matches.medium &&
+              <div>
                   <Image src={PreloadArt} fluid className={styles.testgradientbackground}/>
-    
+                  </div>
                 }
 
               {matches.large &&
-               
+               <div>
                <Image src={PreloadArt} fluid className={styles.testgradientbackground}/>
-
+               </div>
                 }
 
             </>
@@ -196,18 +198,18 @@ export const Artrendezvous = () => (
             <>
 
               {matches.small &&
-                    <Image src={PreloadArt1} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadArt1} fluid/>
   
                 }
 
               {matches.medium &&
-                  <Image src={PreloadArt1} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadArt1} fluid/>
     
                 }
 
               {matches.large &&
                
-               <Image src={PreloadArt1} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadArt1} fluid/>
 
                 }
 
