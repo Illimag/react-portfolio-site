@@ -111,6 +111,11 @@ import PreloadLegacy1 from '../../assets/img/legacypictures/legacypicturesbackgr
 import PreloadLegacy11 from '../../assets/img/legacypictures/legacypicturesbackground-02.jpg';
 
 
+import BackgroundTest from '../../assets/img/legacypictures/male-videographer-editor-using-pc-computer-editing-R7QYFZS.jpg';
+import BackgroundTest1 from '../../assets/img/legacypictures/team-of-photographers-MQNU8CK.jpg';
+import BackgroundTest2 from '../../assets/img/legacypictures/young-man-working-in-the-studio-using-a-smartphone-ELLSHV3.jpg';
+import BackgroundTest3 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
+import BackgroundTest4 from '../../assets/img/legacypictures/camera-operator-taking-shots-of-men-with-clapperbo-P7ZAYKP.jpg';
 
 
 import Media from 'react-media';
@@ -240,7 +245,62 @@ export const Legacypictures = () => (
 
 
 
-<Row className={styles.justifycontentcenter}>
+
+
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+<div id="test"></div>
+
+
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundTest} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundTest} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundTest} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
+
+
+        <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
 
@@ -276,32 +336,6 @@ export const Legacypictures = () => (
 
 </Col>
 </Row>
-
-
-
-</Container>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test}>
-<div id="test"></div>
-
-
-
-
 
 
 
@@ -365,6 +399,37 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
+
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundTest3} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundTest3} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundTest3} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
@@ -421,6 +486,38 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
+
+
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundTest2} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundTest2} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundTest2} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
@@ -540,6 +637,35 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test2}>
 
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundTest4} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundTest4} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundTest4} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
   
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
@@ -559,10 +685,8 @@ export const Legacypictures = () => (
 </Row>
 
 
-</Container>
 
 
-<Container fluid className={styles.test2}>
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={4}>
 
@@ -574,14 +698,6 @@ export const Legacypictures = () => (
 </Row>
 
 
-</Container>
-
-
-
-
-
-
-<Container fluid className={styles.test2}>
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
@@ -595,29 +711,7 @@ export const Legacypictures = () => (
 </Col>
 </Row>
 
-
 </Container>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
