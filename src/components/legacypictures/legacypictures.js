@@ -111,11 +111,20 @@ import PreloadLegacy1 from '../../assets/img/legacypictures/legacypicturesbackgr
 import PreloadLegacy11 from '../../assets/img/legacypictures/legacypicturesbackground-02.jpg';
 
 
-import BackgroundTest from '../../assets/img/legacypictures/male-videographer-editor-using-pc-computer-editing-R7QYFZS.jpg';
-import BackgroundTest1 from '../../assets/img/legacypictures/team-of-photographers-MQNU8CK.jpg';
-import BackgroundTest2 from '../../assets/img/legacypictures/young-man-working-in-the-studio-using-a-smartphone-ELLSHV3.jpg';
-import BackgroundTest3 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
-import BackgroundTest4 from '../../assets/img/legacypictures/camera-operator-taking-shots-of-men-with-clapperbo-P7ZAYKP.jpg';
+import BackgroundTest from '../../assets/img/legacypictures/portfoliopiecebackground-06.jpg';
+import BackgroundTest1 from '../../assets/img/legacypictures/portfoliopiecebackground-07.jpg';
+import BackgroundTest2 from '../../assets/img/legacypictures/portfoliopiecebackground-08.jpg';
+import BackgroundTest3 from '../../assets/img/legacypictures/portfoliopiecebackground-09.jpg';
+import BackgroundTest4 from '../../assets/img/legacypictures/portfoliopiecebackground-10.jpg';
+
+import BackgroundTestMobile from '../../assets/img/legacypictures/portfoliopiecebackground-01.jpg';
+import BackgroundTestMobile1 from '../../assets/img/legacypictures/portfoliopiecebackground-02.jpg';
+import BackgroundTestMobile2 from '../../assets/img/legacypictures/portfoliopiecebackground-03.jpg';
+import BackgroundTestMobile3 from '../../assets/img/legacypictures/portfoliopiecebackground-04.jpg';
+import BackgroundTestMobile4 from '../../assets/img/legacypictures/portfoliopiecebackground-05.jpg';
+
+
+
 
 
 import Media from 'react-media';
@@ -140,7 +149,6 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <div id="test"></div>
-
 
 <Media queries={{
           small: "(max-width: 599px)",
@@ -170,8 +178,7 @@ export const Legacypictures = () => (
 
             </>
           )}
-        </Media>
-
+        </Media>``
 
         <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
@@ -197,7 +204,7 @@ export const Legacypictures = () => (
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={7}>
 
-<Fade>
+<Slide direction="up">
             
 <Media queries={{
           small: "(max-width: 599px)",
@@ -231,7 +238,7 @@ export const Legacypictures = () => (
         </Media>
 
 
-            </Fade>
+            </Slide>
 
             <div className={styles.spaceing}></div>
          
@@ -266,7 +273,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <div id="test"></div>
-
+<div className={styles.spaceing}></div>
 
 <Media queries={{
           small: "(max-width: 599px)",
@@ -278,13 +285,13 @@ export const Legacypictures = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundTest} fluid className={styles.testgradientbackground}/>
+                    <Image src={BackgroundTestMobile} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundTest} fluid className={styles.testgradientbackground}/>
+                  <Image src={BackgroundTestMobile} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
@@ -308,7 +315,7 @@ export const Legacypictures = () => (
 
 
 
-<CardGroup className={styles.backgroundtransparent}>
+<CardGroup className={styles.backgroundgadient}>
       <Card className={styles.backgroundtransparent}>
 
       <Slide direction="up">
@@ -337,7 +344,7 @@ export const Legacypictures = () => (
 </Col>
 </Row>
 
-
+<div className={styles.spaceing}></div>
 
 
 
@@ -345,7 +352,7 @@ export const Legacypictures = () => (
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
-<CardGroup>
+<CardGroup className={styles.backgroundgadient}>
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
         <Fade>
@@ -371,7 +378,7 @@ export const Legacypictures = () => (
 
     </Col>
 </Row>
-
+<div className={styles.spaceing}></div>
 
 </Container>
 
@@ -410,13 +417,13 @@ export const Legacypictures = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundTest3} fluid className={styles.testgradientbackground}/>
+                    <Image src={BackgroundTestMobile3} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundTest3} fluid className={styles.testgradientbackground}/>
+                  <Image src={BackgroundTestMobile3} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
@@ -498,13 +505,13 @@ export const Legacypictures = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundTest2} fluid className={styles.testgradientbackground}/>
+                    <Image src={BackgroundTestMobile2} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundTest2} fluid className={styles.testgradientbackground}/>
+                  <Image src={BackgroundTestMobile2} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
@@ -647,13 +654,13 @@ export const Legacypictures = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundTest4} fluid className={styles.testgradientbackground}/>
+                    <Image src={BackgroundTestMobile4} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundTest4} fluid className={styles.testgradientbackground}/>
+                  <Image src={BackgroundTestMobile4} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
