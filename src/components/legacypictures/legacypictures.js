@@ -107,7 +107,15 @@ import videomobile from '../../assets/newhomepagevids/1-1.mp4'
 import scrolldown from '../../assets/scrolldown-01.png';
 
 import PreloadLegacy from '../../assets/smarttvtest1.png';
+import PreloadLegacy1 from '../../assets/img/legacypictures/legacypicturesbackground-01.jpg';
+import PreloadLegacy11 from '../../assets/img/legacypictures/legacypicturesbackground-02.jpg';
+
+
+
+
 import Media from 'react-media';
+
+
 
 
 import vid1 from '../../assets/newhomepagevids/1.mp4'
@@ -127,6 +135,37 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <div id="test"></div>
+
+
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={PreloadLegacy11} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={PreloadLegacy11} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={PreloadLegacy1} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
 
 
         <Row className={styles.justifycontentcenter}>

@@ -92,10 +92,17 @@ import Img35 from '../../assets/handheld.png';
 import Img36 from '../../assets/sanchezcotest.png';
 
 import PreloadLegacy from '../../assets/smarttvtest1.png';
+import PreloadLegacy1 from '../../assets/img/legacypictures/legacypicturesbackground-01.jpg';
+import PreloadLegacy11 from '../../assets/img/legacypictures/legacypicturesbackground-02.jpg';
+
+
 import PreloadArt from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
 import PreloadArt1 from '../../assets/handheld.png';
 import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';
-import PreloadUguru from '../../assets/smarttvtest0.png';
+
+import PreloadUguru from '../../assets/sfview-01.jpg';
+import PreloadUguru1 from '../../assets/sfview-02.jpg';
+
 import PreloadSanchez from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
 import PreloadApexVR from '../../assets/smarttvtest0.png';
 
@@ -216,9 +223,14 @@ const getImageUrls = () => {
               <div>
                     <Image src={logo} fluid className={styles.displaynone}/>
                     <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                    <Image src={PreloadLegacy11} fluid className={styles.displaynone}/>
 
                     <Image src={PreloadArt1} fluid className={styles.displaynone}/>
                     <Image src={PreloadArt11} fluid className={styles.displaynone}/>
+                 
+                    <Image src={PreloadUguru1} fluid className={styles.displaynone}/>
+
+                 
                  </div>
                 }
 
@@ -226,9 +238,14 @@ const getImageUrls = () => {
             <div>
                     <Image src={logo} fluid className={styles.displaynone}/>
                     <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                    <Image src={PreloadLegacy11} fluid className={styles.displaynone}/>
 
                     <Image src={PreloadArt1} fluid className={styles.displaynone}/>
                     <Image src={PreloadArt} fluid className={styles.displaynone}/>
+                    
+                    <Image src={PreloadUguru1} fluid className={styles.displaynone}/>
+
+                    
                     </div>
                 }
 
@@ -237,9 +254,13 @@ const getImageUrls = () => {
                <div>
                     <Image src={logo} fluid className={styles.displaynone}/>
                 <Image src={PreloadLegacy} fluid className={styles.displaynone}/>
+                <Image src={PreloadLegacy1} fluid className={styles.displaynone}/>
 
- <Image src={PreloadArt1} fluid className={styles.displaynone}/>
- <Image src={PreloadArt} fluid className={styles.displaynone}/>
+                <Image src={PreloadArt1} fluid className={styles.displaynone}/>
+                <Image src={PreloadArt} fluid className={styles.displaynone}/>
+
+                <Image src={PreloadUguru} fluid className={styles.displaynone}/>
+
                 </div>
             
                 }

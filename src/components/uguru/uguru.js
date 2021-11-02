@@ -109,6 +109,11 @@ import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
 import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
 import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 
+import PreloadUguru from '../../assets/sfview-01.jpg';
+import PreloadUguru1 from '../../assets/sfview-02.jpg';
+
+
+
 import Media from 'react-media';
 
 
@@ -127,7 +132,40 @@ export const Uguru = () => (
 
 
   <Container fluid className={styles.test2}>
-  <Image src={Img37} fluid className={styles.testgradientbackground}/>
+
+  <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={PreloadUguru} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
+
+
+
 
   <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
@@ -149,7 +187,33 @@ export const Uguru = () => (
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={6}>
 <Fade>
-            <Image src={Img34} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img34} fluid/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img34} fluid/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img34} fluid/>
+
+                }
+
+            </>
+          )}
+        </Media>
             </Fade>  
 
             <div className={styles.spaceing}></div>
