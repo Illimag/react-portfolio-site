@@ -1359,3 +1359,9 @@ background: rgba(0,0,0,0.5);
 .justifycontentcenter{
     justify-content: center;
 }
+
+
+.navbar{
+    background-color: transparent;
+}
+  

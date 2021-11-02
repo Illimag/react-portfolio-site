@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
 import { CSSTransition } from 'react-transition-group'
 import { Container, Navbar, Nav } from 'react-bootstrap'
@@ -35,6 +35,8 @@ import logo from '../../assets/newhomepagevids/logo.gif';
 import styles from './navigation.module.css'
 import './navigation.css'
 
+
+
 const routes = [
   { path: '/', name: 'HOME', Component: Home },
   { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
@@ -61,14 +63,35 @@ function MainNav() {
     setChange(false);
   }
 
+
+
+  const [navBackground, setNavBackground] = useState(false)
+  const navRef = useRef()
+  navRef.current = navBackground
+  useEffect(() => {
+    const handleScroll = () => {
+      const show = window.scrollY > 50
+      if (navRef.current !== show) {
+        setNavBackground(show)
+      }
+    }
+    document.addEventListener('scroll', handleScroll)
+    return () => {
+      document.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
+
+
+
+
   return (
     <>
 
       <Router>
         <ScrollToTop>
           <>
-         
-          <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" >
+          <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" style={{ transition: '.1s ease',backgroundColor: navBackground ? 'rgba(0,0,0,0)' : 'transparent', backdropFilter: navBackground ? 'saturate(180%) blur(20px)' : ''}}>
           <a href="/">
                 <Navbar.Brand className={styles.logo}>
                 <Image src={logo} fluid />
@@ -77,8 +100,6 @@ function MainNav() {
                 </Navbar.Brand>
               </a>
               </Navbar>
-
-            
           </>
         </ScrollToTop>
       </Router>

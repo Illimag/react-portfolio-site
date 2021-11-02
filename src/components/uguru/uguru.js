@@ -166,7 +166,6 @@ export const Uguru = () => (
 
 
 
-
   <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>

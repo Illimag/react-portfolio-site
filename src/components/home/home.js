@@ -75,7 +75,7 @@ import { loadImage } from '../../store/imgLoad/actions';
 
 import Media from 'react-media';
 
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from 'react-anchor-link-smooth-scroll'                           
 
 import video from '../../assets/l.mp4';
 import videomobile from '../../assets/ll.mp4';
