@@ -166,7 +166,9 @@ export const Uguru = () => (
 
 
 
-  <div className={styles.spaceing}></div>
+        <div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
@@ -223,25 +225,7 @@ export const Uguru = () => (
 </Row>
 
 
-
-</Container>
-
-
-
-
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test2}>
-
-
-
-
+<div className={styles.spaceing}></div>
 
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
@@ -269,6 +253,24 @@ export const Uguru = () => (
 
 </Col>
 </Row>
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test2}>
+
+
+
+
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>

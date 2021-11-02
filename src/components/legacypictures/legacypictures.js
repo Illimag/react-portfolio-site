@@ -172,8 +172,8 @@ export const Legacypictures = () => (
 <Col xs={10} md={4}>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-
-
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 
 
 <Fade>
@@ -236,38 +236,7 @@ export const Legacypictures = () => (
 
 
 
-
-
-
-
-
-</Container>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test}>
-<div id="test"></div>
-
-
-
-
-
-
-
-
+<div className={styles.spaceing}></div>
 
 
 
@@ -307,6 +276,37 @@ export const Legacypictures = () => (
 
 </Col>
 </Row>
+
+
+
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test}>
+<div id="test"></div>
+
+
+
+
+
+
+
+
+
 
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>

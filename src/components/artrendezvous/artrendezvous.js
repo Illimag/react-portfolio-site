@@ -164,6 +164,8 @@ export const Artrendezvous = () => (
 
 
 
+        <div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 
@@ -182,6 +184,20 @@ export const Artrendezvous = () => (
 
 
 
+
+
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
+
+<Fade>
+
+            <p className={styles.subtitlelargewhitecenter}>Social media interface art showcase</p>
+            </Fade>    
+
+
+</Col>
+</Row>
 
 
 <Row className={styles.justifycontentcenter}>
