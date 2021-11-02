@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "052832df44cdedc69c4c4d55a07c611f",
+    "revision": "05488f8212309be926f3a144f3d0dee1",
     "url": "/index.html"
   },
   {
-    "revision": "7ea4dd0dc93e5361da35",
+    "revision": "8c9bf883bf46f8f8e0bf",
     "url": "/static/css/2.46b578d6.chunk.css"
   },
   {
-    "revision": "b9fe5ea2fcb848fea788",
+    "revision": "7647ee047500d3ac795c",
     "url": "/static/css/main.acb79371.chunk.css"
   },
   {
-    "revision": "7ea4dd0dc93e5361da35",
-    "url": "/static/js/2.f5f34f20.chunk.js"
+    "revision": "8c9bf883bf46f8f8e0bf",
+    "url": "/static/js/2.2b67185f.chunk.js"
   },
   {
     "revision": "1475d453056f777a44c9246b4393d195",
-    "url": "/static/js/2.f5f34f20.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2b67185f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9fe5ea2fcb848fea788",
-    "url": "/static/js/main.86d80906.chunk.js"
+    "revision": "7647ee047500d3ac795c",
+    "url": "/static/js/main.d6e4a0dd.chunk.js"
   },
   {
     "revision": "58c15806c185c823953f",
@@ -324,6 +324,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/legacyfilms.15a22d82.png"
   },
   {
+    "revision": "d8649dc8e42ff26fe39731235242f00f",
+    "url": "/static/media/legacypicturesbackground-01.da33aa0f.jpg"
+  },
+  {
+    "revision": "68be3aa07cfa50100f47d9f9ef7f347e",
+    "url": "/static/media/legacypicturesbackground-02.86f061c5.jpg"
+  },
+  {
     "revision": "619d829891aece3e28015bed2f93e3a6",
     "url": "/static/media/ll.619d8298.mp4"
   },
@@ -382,6 +390,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c82b153703228f009c00ef0d2a3fd9f7",
     "url": "/static/media/sanchezcotest.5ae0c00b.png"
+  },
+  {
+    "revision": "0a5b70671cfe08d42818fe20375e2476",
+    "url": "/static/media/sfview-01.aae14204.jpg"
+  },
+  {
+    "revision": "e583b68948e53ca0e4ee7e204ef2c814",
+    "url": "/static/media/sfview-02.4c6690b9.jpg"
   },
   {
     "revision": "0eb3c2cceded88f788ec6602180390bd",
