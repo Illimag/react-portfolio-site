@@ -224,100 +224,128 @@ export const Uguru = () => (
 
 
 
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+<Container fluid className={styles.test2}>
+
+
+
+
+
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
 
 <Fade>
 <CardGroup className={styles.backgroundgadient}>
-      <Card className={styles.backgroundtransparent}>
-      <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>The product that they were developing was a mobile Application for college students.</p>
-            <div className={styles.spaceing}></div>
-            <p className={styles.descriptionlargewhitebold}>It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building. </p>
-            </Slide>
-      </Card>
-
-      <Card className={styles.backgroundtransparent}>
-      <Slide direction="up">
-      <Image src={Img35} fluid />
-      </Slide>
-      </Card>
-      </CardGroup>
-      </Fade>  
-
-
-
-</Col>
-</Row>
-<div className={styles.spaceing}></div>
-<Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
-
-
-<Fade>
-<CardGroup className={styles.backgroundgadient}>
-      <Card className={styles.backgroundtransparent}>
-      <div className={styles.spaceing}></div>
-      <Slide direction="up">
-            <p className={styles.subtitlelargewhitecenter}>Uguru received their funding of around 300k.</p>
-            <div className={styles.spaceing}></div>
-            <p className={styles.descriptionlargewhitebold}>From an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services.</p>
-            </Slide>
-      </Card>
-
-      <Card className={styles.backgroundtransparent}>
-      <Slide direction="up">
-      <p className={styles.subtitlelargewhitecenter}>The peers would be able to tutor each other and be tutors for others.</p>
-      <div className={styles.spaceing}></div>
-      <p className={styles.descriptionlargewhitebold}>Over the feeling of the startup was one where there was alot of uncertainty with how the product was going to be developed and the CEO lacked the experience to really keep the team together and motivated. As well the people involved weren’t exactly knowing what to do.</p>
-
-      <div className={styles.spaceing}></div>
-      </Slide>
-          </Card>
-      </CardGroup>
-      </Fade>  
-
-
-
-</Col>
-</Row>
-<div className={styles.spaceing}></div>
-<Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
-<Fade>
-<CardGroup className={styles.backgroundgadient}>
-      <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-        <Slide direction="up">
-          <Image src={Img36} fluid />
-          </Slide>
-        </Card.Body>
-      </Card>
-
-      <Card className={styles.backgroundtransparent}>
-        <Card.Body>
-          <Card.Title>
-          <Slide direction="up">
-          <p className={styles.subtitlelargewhitecenter}>There was a ad that was looking for someone to be an office admin worker.</p>
-          </Slide>
-          </Card.Title>
+    <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+          <p className={styles.subtitlesmallwhitecenter}>The product that they were developing was a mobile Application for college students.</p>
           <div className={styles.spaceing}></div>
-          <Card.Text>
-          <Slide direction="up">     
-          <p className={styles.descriptionlargewhitebold}>After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
+          <p className={styles.descriptionlargewhitebold}>It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building. </p>
           </Slide>
-              </Card.Text>
-        </Card.Body>
-      </Card>
-      </CardGroup>
-      </Fade>
-    </Col>
+    </Card>
+
+    <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <Image src={Img35} fluid />
+    </Slide>
+    </Card>
+    </CardGroup>
+    </Fade>  
+
+
+
+</Col>
+</Row>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
+
+<Fade>
+<CardGroup className={styles.backgroundgadient}>
+    <Card className={styles.backgroundtransparent}>
+    <div className={styles.spaceing}></div>
+    <Slide direction="up">
+          <p className={styles.subtitlelargewhitecenter}>Uguru received their funding of around 300k.</p>
+          <div className={styles.spaceing}></div>
+          <p className={styles.descriptionlargewhitebold}>From an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services.</p>
+          </Slide>
+    </Card>
+
+    <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlelargewhitecenter}>The peers would be able to tutor each other and be tutors for others.</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Over the feeling of the startup was one where there was alot of uncertainty with how the product was going to be developed and the CEO lacked the experience to really keep the team together and motivated. As well the people involved weren’t exactly knowing what to do.</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+    </CardGroup>
+    </Fade>  
+
+
+
+</Col>
+</Row>
+<div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+<Fade>
+<CardGroup className={styles.backgroundgadient}>
+    <Card className={styles.backgroundtransparent}>
+      <Card.Body>
+      <Slide direction="up">
+        <Image src={Img36} fluid />
+        </Slide>
+      </Card.Body>
+    </Card>
+
+    <Card className={styles.backgroundtransparent}>
+      <Card.Body>
+        <Card.Title>
+        <Slide direction="up">
+        <p className={styles.subtitlelargewhitecenter}>There was a ad that was looking for someone to be an office admin worker.</p>
+        </Slide>
+        </Card.Title>
+        <div className={styles.spaceing}></div>
+        <Card.Text>
+        <Slide direction="up">     
+        <p className={styles.descriptionlargewhitebold}>After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
+        </Slide>
+            </Card.Text>
+      </Card.Body>
+    </Card>
+    </CardGroup>
+    </Fade>
+  </Col>
 </Row>
 
 <div className={styles.spaceing}></div>
 
 </Container>
+
+
+
+
+
+
+
+
+
 
 
 
