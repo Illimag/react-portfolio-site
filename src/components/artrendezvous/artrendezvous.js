@@ -104,6 +104,18 @@ import PreloadArt from '../../assets/businessman-working-on-start-up-project-wit
 import PreloadArt1 from '../../assets/handheld.png';
 import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';
 
+
+
+import BackgroundImageTest1 from '../../assets/img/art/art-curators-in-museum-VR3M7YS.jpg';
+import BackgroundImageTest2 from '../../assets/img/art/art-manager-at-museum-SE9R8U9.jpg';
+import BackgroundImageTest3 from '../../assets/img/art/art-experts-looking-at-paintings-in-museum-T7ZSM72.jpg';
+import BackgroundImageTest4 from '../../assets/img/art/creative-woman-managing-art-gallery-UGWT9GY.jpg';
+import BackgroundImageTest5 from '../../assets/img/art/excursion-at-art-gallery-SFFUBF9.jpg';
+import BackgroundImageTest6 from '../../assets/img/art/frame-in-art-gallery-P3MLXL8.jpg';
+import BackgroundImageTest7 from '../../assets/img/art/museum-of-art-RPTQJWH.jpg';
+import BackgroundImageTest8 from '../../assets/img/art/sao-paulo-museum-of-art-masp-PDWKR7P (1).jpg';
+
+
 export const Artrendezvous = () => (
   /* Start of JSX Fragment*/
   <>
@@ -147,7 +159,7 @@ export const Artrendezvous = () => (
 
               {matches.medium &&
               <div>
-                  <Image src={PreloadArt} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadArt11} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
@@ -185,19 +197,6 @@ export const Artrendezvous = () => (
 
 
 
-
-<Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
-
-
-<Fade>
-
-            <p className={styles.subtitlelargewhitecenter}>Social media interface art showcase</p>
-            </Fade>    
-
-
-</Col>
-</Row>
 
 
 <Row className={styles.justifycontentcenter}>
@@ -242,15 +241,6 @@ export const Artrendezvous = () => (
 
 
 
-</Container>
-
-
-
-
-
-
-
-
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
@@ -278,10 +268,50 @@ export const Artrendezvous = () => (
 </Row>
 
 
+</Container>
+
+
+
+
+
+
+
+
 
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
+        
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundImageTest7} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundImageTest7} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundImageTest7} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
 
 
 <div className={styles.spaceing}></div>
@@ -314,19 +344,6 @@ export const Artrendezvous = () => (
 </Row>
 
 
-</Container>
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test}>
-        <div id="test"></div>
-
-
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={6}>
@@ -352,14 +369,8 @@ export const Artrendezvous = () => (
 
 </Col>
 </Row>
-</Container>
 
 
-
-
-
-<Container fluid className={styles.test}>
-        <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
@@ -392,19 +403,6 @@ export const Artrendezvous = () => (
 
 </Col>
 </Row>
-</Container>
-
-
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test}>
-        <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
@@ -432,7 +430,21 @@ export const Artrendezvous = () => (
 
 </Col>
 </Row>
+
+<div className={styles.spaceing}></div>
 </Container>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -444,6 +456,38 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
+
+
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundImageTest6} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundImageTest6} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundImageTest6} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
@@ -465,11 +509,9 @@ export const Artrendezvous = () => (
 </Row>
 
 
-</Container>
 
 
 
-<Container fluid className={styles.test}>
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={8}>
 
@@ -482,15 +524,6 @@ export const Artrendezvous = () => (
             </Col>
 </Row>
 
-
-</Container>
-
-
-
-
-
-<Container fluid className={styles.test}>
-        <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
@@ -521,6 +554,9 @@ export const Artrendezvous = () => (
 
 </Col>
 </Row>
+
+
+
 </Container>
 
 
@@ -533,9 +569,38 @@ export const Artrendezvous = () => (
 
 
 
-
-
 <Container fluid className={styles.test}>
+
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundImageTest3} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundImageTest3} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundImageTest3} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
@@ -559,18 +624,6 @@ export const Artrendezvous = () => (
 </Row>
 
 
-</Container>
-
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test}>
-        <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
@@ -598,14 +651,7 @@ export const Artrendezvous = () => (
 
 </Col>
 </Row>
-</Container>
 
-
-
-
-
-<Container fluid className={styles.test}>
-        <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
@@ -653,8 +699,46 @@ export const Artrendezvous = () => (
 
 
 
+
+
+
+
+
 <Container fluid className={styles.test}>
         <div id="test"></div>
+
+
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundImageTest4} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundImageTest4} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundImageTest4} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
+
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
@@ -684,15 +768,6 @@ export const Artrendezvous = () => (
 </Row>
 
 
-</Container>
-
-
-
-
-<Container fluid className={styles.test}>
-        <div id="test"></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={8}>
 
@@ -719,8 +794,44 @@ export const Artrendezvous = () => (
 
 
 
+
+
 <Container fluid className={styles.test}>
         <div id="test"></div>
+
+        
+
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundImageTest5} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundImageTest5} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundImageTest5} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
+
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
@@ -748,16 +859,6 @@ export const Artrendezvous = () => (
 </Col>
 </Row>
 
-
-</Container>
-
-
-
-
-<Container fluid className={styles.test}>
-        <div id="test"></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={8}>
 
@@ -781,26 +882,6 @@ export const Artrendezvous = () => (
 </Row>
 
 
-</Container>
-
-
-
-
-<Container fluid className={styles.test}>
-<Row className={styles.justifycontentcenter}>
-<Col xs={12} md={4}>
-
-
-
-<Slide direction="up">
-
-            <Image src={Img37} fluid className={styles.centerimage}/>
-            </Slide>
-
-
-            </Col>
-</Row>
-
 
 </Container>
 
@@ -810,12 +891,41 @@ export const Artrendezvous = () => (
 
 
 
-
 <Container fluid className={styles.test}>
-        <div id="test"></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-<Row className={styles.justifycontentcenter}>
+
+      
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+              <div>
+                    <Image src={BackgroundImageTest8} fluid className={styles.testgradientbackground}/>
+            </div>
+                }
+
+              {matches.medium &&
+              <div>
+                  <Image src={BackgroundImageTest8} fluid className={styles.testgradientbackground}/>
+                  </div>
+                }
+
+              {matches.large &&
+               <div>
+               <Image src={BackgroundImageTest8} fluid className={styles.testgradientbackground}/>
+               </div>
+                }
+
+            </>
+          )}
+        </Media>
+
+        <div className={styles.spaceing}></div>
+        <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
 
@@ -836,17 +946,23 @@ export const Artrendezvous = () => (
 </Row>
 
 
-</Container>
+
+
+<Row className={styles.justifycontentcenter}>
+<Col xs={12} md={4}>
 
 
 
+<Slide direction="up">
+
+            <Image src={Img37} fluid className={styles.centerimage}/>
+            </Slide>
 
 
+            </Col>
+</Row>
 
 
-
-<Container fluid className={styles.test}>
-        <div id="test"></div>
 
 
 <div className={styles.spaceing}></div>
@@ -879,21 +995,10 @@ export const Artrendezvous = () => (
 
 </Col>
 </Row>
-</Container>
 
 
 
 
-
-
-
-
-
-
-
-<Container fluid className={styles.test}>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={4}>
 
@@ -908,6 +1013,10 @@ export const Artrendezvous = () => (
 
 
 </Container>
+
+
+
+
 
 
 

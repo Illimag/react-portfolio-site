@@ -178,7 +178,7 @@ export const Legacypictures = () => (
 
             </>
           )}
-        </Media>``
+        </Media>
 
         <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
