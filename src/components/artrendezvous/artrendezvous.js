@@ -103,18 +103,22 @@ import Media from 'react-media';
 import PreloadArt from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
 import PreloadArt1 from '../../assets/handheld.png';
 import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';
-
-
-
-import BackgroundImageTest1 from '../../assets/img/art/art-curators-in-museum-VR3M7YS.jpg';
-import BackgroundImageTest2 from '../../assets/img/art/art-manager-at-museum-SE9R8U9.jpg';
-import BackgroundImageTest3 from '../../assets/img/art/art-experts-looking-at-paintings-in-museum-T7ZSM72.jpg';
-import BackgroundImageTest4 from '../../assets/img/art/creative-woman-managing-art-gallery-UGWT9GY.jpg';
-import BackgroundImageTest5 from '../../assets/img/art/excursion-at-art-gallery-SFFUBF9.jpg';
-import BackgroundImageTest6 from '../../assets/img/art/frame-in-art-gallery-P3MLXL8.jpg';
-import BackgroundImageTest7 from '../../assets/img/art/museum-of-art-RPTQJWH.jpg';
-import BackgroundImageTest8 from '../../assets/img/art/sao-paulo-museum-of-art-masp-PDWKR7P (1).jpg';
-
+import PreloadArtBackgroundImageTest from '../../assets/img/art/back-02-min.jpg';
+import PreloadArtBackgroundImageTestMobile from '../../assets/img/art/back-11-min.jpg';
+import PreloadArtBackgroundImageTest1 from '../../assets/img/art/back-03-min.jpg';
+import PreloadArtBackgroundImageTestMobile1 from '../../assets/img/art/back-12-min.jpg';
+import PreloadArtBackgroundImageTest2 from '../../assets/img/art/back-04-min.jpg';
+import PreloadArtBackgroundImageTestMobile2 from '../../assets/img/art/back-13-min.jpg';
+import PreloadArtBackgroundImageTest3 from '../../assets/img/art/back-05-min.jpg';
+import PreloadArtBackgroundImageTestMobile3 from '../../assets/img/art/back-14-min.jpg';
+import PreloadArtBackgroundImageTest4 from '../../assets/img/art/back-06-min.jpg';
+import PreloadArtBackgroundImageTestMobile4 from '../../assets/img/art/back-15-min.jpg';
+import PreloadArtBackgroundImageTest5 from '../../assets/img/art/back-07-min.jpg';
+import PreloadArtBackgroundImageTestMobile5 from '../../assets/img/art/back-16-min.jpg';
+import PreloadArtBackgroundImageTest6 from '../../assets/img/art/back-08-min.jpg';
+import PreloadArtBackgroundImageTestMobile6 from '../../assets/img/art/back-17-min.jpg';
+import PreloadArtBackgroundImageTest7 from '../../assets/img/art/back-09-min.jpg';
+import PreloadArtBackgroundImageTestMobile7 from '../../assets/img/art/back-18-min.jpg';
 
 export const Artrendezvous = () => (
   /* Start of JSX Fragment*/
@@ -292,19 +296,19 @@ export const Artrendezvous = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundImageTest7} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadArtBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundImageTest7} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadArtBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={BackgroundImageTest7} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadArtBackgroundImageTest} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -468,19 +472,19 @@ export const Artrendezvous = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundImageTest6} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadArtBackgroundImageTestMobile1} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundImageTest6} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadArtBackgroundImageTestMobile1} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={BackgroundImageTest6} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadArtBackgroundImageTest1} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -581,19 +585,19 @@ export const Artrendezvous = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundImageTest3} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadArtBackgroundImageTestMobile2} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundImageTest3} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadArtBackgroundImageTestMobile2} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={BackgroundImageTest3} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadArtBackgroundImageTest2} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -718,19 +722,19 @@ export const Artrendezvous = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundImageTest4} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadArtBackgroundImageTestMobile3} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundImageTest4} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadArtBackgroundImageTestMobile3} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={BackgroundImageTest4} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadArtBackgroundImageTest3} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -811,19 +815,19 @@ export const Artrendezvous = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundImageTest5} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadArtBackgroundImageTestMobile4} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundImageTest5} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadArtBackgroundImageTestMobile4} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={BackgroundImageTest5} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadArtBackgroundImageTest4} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -904,19 +908,19 @@ export const Artrendezvous = () => (
 
               {matches.small &&
               <div>
-                    <Image src={BackgroundImageTest8} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadArtBackgroundImageTestMobile5} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={BackgroundImageTest8} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadArtBackgroundImageTestMobile5} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={BackgroundImageTest8} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadArtBackgroundImageTest5} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
