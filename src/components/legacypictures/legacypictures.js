@@ -149,7 +149,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 <div id="test"></div>
-
+<Fade triggerOnce>
 <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -179,7 +179,7 @@ export const Legacypictures = () => (
             </>
           )}
         </Media>
-
+        </Fade>  
         <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 <div className={styles.spaceing}></div>
@@ -363,7 +363,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
-
+        <Fade triggerOnce>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -393,7 +393,7 @@ export const Legacypictures = () => (
             </>
           )}
         </Media>
-
+        </Fade>  
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
@@ -499,7 +499,7 @@ export const Legacypictures = () => (
 
 <Container fluid className={styles.test}>
 
-
+<Fade triggerOnce>
 <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -529,7 +529,7 @@ export const Legacypictures = () => (
             </>
           )}
         </Media>
-
+        </Fade>  
         <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
