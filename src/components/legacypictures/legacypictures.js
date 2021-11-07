@@ -278,7 +278,37 @@ export const Legacypictures = () => (
 
       <Card className={styles.backgroundtransparent}>
       <Fade>
-      <Image src={Img31} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={Img31} fluid className={styles.centerimage}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={Img31} fluid className={styles.centerimage}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={Img31} fluid className={styles.centerimage}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
+    
       </Fade>
       </Card>
       </CardGroup>
@@ -301,7 +331,36 @@ export const Legacypictures = () => (
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
         <Fade>
-          <Image src={Img32} fluid />
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={Img32} fluid className={styles.centerimage}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={Img32} fluid className={styles.centerimage}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={Img32} fluid className={styles.centerimage}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
           </Fade>
         </Card.Body>
       </Card>
@@ -416,7 +475,36 @@ export const Legacypictures = () => (
 <Col xs={12} md={6}>
 
 <Slide direction="up">
-            <Image src={Img17} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={Img17} fluid className={styles.centerimage}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={Img17} fluid className={styles.centerimage}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={Img17} fluid className={styles.centerimage}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
 </Slide>
 
             </Col>
@@ -460,7 +548,36 @@ export const Legacypictures = () => (
 <Col xs={12} md={6}>
 
 <Slide direction="up">
-            <Image src={Img17} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={Img17} fluid className={styles.centerimage}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={Img17} fluid className={styles.centerimage}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={Img17} fluid className={styles.centerimage}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
             </Slide>
             </Col>
 </Row>
@@ -555,7 +672,36 @@ export const Legacypictures = () => (
 
 
 <Fade>
-            <Image src={Img35} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={Img35} fluid className={styles.centerimage}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={Img35} fluid className={styles.centerimage}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={Img35} fluid className={styles.centerimage}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
             </Fade>
             </Col>
 </Row>
@@ -589,7 +735,36 @@ export const Legacypictures = () => (
 <Col xs={12} md={4}>
 
 <Slide direction="up">
-            <Image src={Img36} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={Img36} fluid className={styles.centerimage}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={Img36} fluid className={styles.centerimage}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={Img36} fluid className={styles.centerimage}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
 </Slide>
 
             </Col>
@@ -718,7 +893,36 @@ export const Legacypictures = () => (
 
 
 <Slide direction="up">
-            <Image src={Img38} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={Img38} fluid className={styles.centerimage}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={Img38} fluid className={styles.centerimage}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={Img38} fluid className={styles.centerimage}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
             </Slide>
 
             </Col>
@@ -798,7 +1002,36 @@ export const Legacypictures = () => (
       <Card className={styles.backgroundtransparent}>
         <Card.Body>
         <Slide direction="left">
-          <Image src={Img39} fluid />
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={Img39} fluid className={styles.centerimage}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={Img39} fluid className={styles.centerimage}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={Img39} fluid className={styles.centerimage}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
           </Slide>
         </Card.Body>
       </Card>
@@ -845,7 +1078,36 @@ export const Legacypictures = () => (
 
 
 <Fade>
-            <Image src={Img37} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+              {matches.small &&
+              <div>
+               
+                    <Image src={Img37} fluid className={styles.centerimage}/>
+                 </div>
+                }
+
+              {matches.medium &&
+            <div>
+                    <Image src={Img37} fluid className={styles.centerimage}/>
+                    </div>
+                }
+
+              {matches.large &&
+               
+               <div>
+                <Image src={Img37} fluid className={styles.centerimage}/>
+                </div>
+            
+                }
+            </>
+          )}
+        </Media>
             </Fade>
 
             </Col>

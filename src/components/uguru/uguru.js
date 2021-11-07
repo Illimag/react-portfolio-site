@@ -202,18 +202,18 @@ export const Uguru = () => (
             <>
 
               {matches.small &&
-                    <Image src={Img34} fluid/>
+                    <Image src={Img34} fluid className={styles.centerimage}/>
   
                 }
 
               {matches.medium &&
-                  <Image src={Img34} fluid/>
+                  <Image src={Img34} fluid className={styles.centerimage}/>
     
                 }
 
               {matches.large &&
                
-               <Image src={Img34} fluid/>
+               <Image src={Img34} fluid className={styles.centerimage}/>
 
                 }
 
@@ -248,7 +248,33 @@ export const Uguru = () => (
 
     <Card className={styles.backgroundtransparent}>
     <Slide direction="up">
-    <Image src={Img35} fluid />
+    <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img35} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img35} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img35} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
     </Slide>
     </Card>
     </CardGroup>
@@ -345,7 +371,33 @@ export const Uguru = () => (
     <Card className={styles.backgroundtransparent}>
       <Card.Body>
       <Slide direction="up">
-        <Image src={Img36} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img36} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img36} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img36} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
         </Slide>
       </Card.Body>
     </Card>
@@ -471,7 +523,33 @@ export const Uguru = () => (
 <Col xs={12} md={6}>
 
 <Slide direction="up">
-            <Image src={Img17} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img17} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img17} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img17} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
             </Slide>
 
             </Col>
@@ -587,7 +665,33 @@ export const Uguru = () => (
 <Col xs={12} md={6}>
 
 <Slide direction="up">
-            <Image src={Img17} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img17} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img17} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img17} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
             </Slide>
 
             </Col>
@@ -708,7 +812,33 @@ export const Uguru = () => (
 <Col xs={12} md={6}>
 
 <Slide direction="up">
-            <Image src={Img17} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img17} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img17} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img17} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
             </Slide>
 
             </Col>
@@ -825,7 +955,7 @@ export const Uguru = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={4}>
+<Col xs={12} md={3}>
 
 
 
@@ -833,7 +963,33 @@ export const Uguru = () => (
 
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
-      <Image src={Img38} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img38} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img38} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img38} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Slide>
       </Card>
       </CardGroup>
@@ -894,12 +1050,64 @@ export const Uguru = () => (
 <Fade>
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
-      <Image src={Img38} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img38} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img38} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img38} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
     
       </Card>
 
       <Card className={styles.backgroundtransparent}>
-      <Image src={Img38} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img38} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img38} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img38} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Card>
       </CardGroup>
       </Fade>    
@@ -958,7 +1166,33 @@ export const Uguru = () => (
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={12}>
 <Fade>
-            <Image src={Img39} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img39} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img39} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img39} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
             </Fade> 
 
             <div className={styles.spaceing}></div>

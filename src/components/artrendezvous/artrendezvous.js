@@ -217,18 +217,18 @@ export const Artrendezvous = () => (
             <>
 
               {matches.small &&
-                    <Image src={PreloadArt1} fluid/>
+                    <Image src={PreloadArt1} fluid className={styles.centerimage}/>
   
                 }
 
               {matches.medium &&
-                  <Image src={PreloadArt1} fluid/>
+                  <Image src={PreloadArt1} fluid className={styles.centerimage}/>
     
                 }
 
               {matches.large &&
                
-               <Image src={PreloadArt1} fluid/>
+               <Image src={PreloadArt1} fluid className={styles.centerimage}/>
 
                 }
 
@@ -357,13 +357,65 @@ export const Artrendezvous = () => (
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
-      <Image src={Img28} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img28} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img28} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img28} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Slide>
       </Card>
 
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
-      <Image src={Img28} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img28} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img28} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img28} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Slide>
       </Card>
       </CardGroup>
@@ -418,13 +470,65 @@ export const Artrendezvous = () => (
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
-      <Image src={Img28} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img28} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img28} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img28} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Slide>
       </Card>
 
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
-      <Image src={Img28} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img28} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img28} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img28} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Slide>
       </Card>
       </CardGroup>
@@ -522,7 +626,33 @@ export const Artrendezvous = () => (
 
 
 <Slide direction="up">
-            <Image src={Img35} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img35} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img35} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img35} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
             </Slide>
 
             </Col>
@@ -639,13 +769,65 @@ export const Artrendezvous = () => (
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
-      <Image src={Img28} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img28} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img28} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img28} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Slide>
       </Card>
 
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
-      <Image src={Img28} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img28} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img28} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img28} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Slide>
       </Card>
       </CardGroup>
@@ -773,7 +955,7 @@ export const Artrendezvous = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={8}>
+<Col xs={12} md={3}>
 
 
 
@@ -781,7 +963,33 @@ export const Artrendezvous = () => (
   
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
-      <Image src={Img36} fluid />
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img36} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img36} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img36} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Slide>
       </Card>
       </CardGroup>
@@ -864,7 +1072,7 @@ export const Artrendezvous = () => (
 </Row>
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={8}>
+<Col xs={12} md={3}>
 
 
 
@@ -873,8 +1081,33 @@ export const Artrendezvous = () => (
 
       <Card className={styles.backgroundtransparent}>
       <Slide direction="up">
+      <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
 
-      <Image src={Img36} fluid />
+              {matches.small &&
+                    <Image src={Img36} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img36} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img36} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
       </Slide>
       </Card>
       </CardGroup>
@@ -953,13 +1186,38 @@ export const Artrendezvous = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={4}>
+<Col xs={12} md={3}>
 
 
 
 <Slide direction="up">
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
 
-            <Image src={Img37} fluid className={styles.centerimage}/>
+              {matches.small &&
+                    <Image src={Img37} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img37} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img37} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
             </Slide>
 
 
@@ -1004,12 +1262,38 @@ export const Artrendezvous = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={4}>
+<Col xs={12} md={3}>
 
 
 
 <Slide direction="up">
-            <Image src={Img38} fluid className={styles.centerimage}/>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img38} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img38} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img38} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
             </Slide>
 
             </Col>
