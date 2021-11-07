@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a7145b71.chunk.css",
-    "main.js": "/static/js/main.adc3f4db.chunk.js",
-    "main.js.map": "/static/js/main.adc3f4db.chunk.js.map",
+    "main.js": "/static/js/main.3319c76d.chunk.js",
+    "main.js.map": "/static/js/main.3319c76d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
-    "static/js/2.66a2f7dc.chunk.js": "/static/js/2.66a2f7dc.chunk.js",
-    "static/js/2.66a2f7dc.chunk.js.map": "/static/js/2.66a2f7dc.chunk.js.map",
+    "static/js/2.f77c1701.chunk.js": "/static/js/2.f77c1701.chunk.js",
+    "static/js/2.f77c1701.chunk.js.map": "/static/js/2.f77c1701.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2ac0d3f6468a8e6a0b07295988d487d8.js": "/precache-manifest.2ac0d3f6468a8e6a0b07295988d487d8.js",
+    "precache-manifest.11fb08bd98da6ee373e533702df99c99.js": "/precache-manifest.11fb08bd98da6ee373e533702df99c99.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
     "static/css/main.a7145b71.chunk.css.map": "/static/css/main.a7145b71.chunk.css.map",
-    "static/js/2.66a2f7dc.chunk.js.LICENSE.txt": "/static/js/2.66a2f7dc.chunk.js.LICENSE.txt",
+    "static/js/2.f77c1701.chunk.js.LICENSE.txt": "/static/js/2.f77c1701.chunk.js.LICENSE.txt",
     "static/media/0-1.mp4": "/static/media/0-1.fd474927.mp4",
     "static/media/0.mp4": "/static/media/0.89232f5c.mp4",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
@@ -25,9 +25,11 @@
     "static/media/1-04.38d2ac62.jpg": "/static/media/1-04.38d2ac62.jpg",
     "static/media/1-04.d2918182.jpg": "/static/media/1-04.d2918182.jpg",
     "static/media/1-05.04742953.jpg": "/static/media/1-05.04742953.jpg",
+    "static/media/1-05.7848c0e7.jpg": "/static/media/1-05.7848c0e7.jpg",
     "static/media/1-05.f30d5b2b.jpg": "/static/media/1-05.f30d5b2b.jpg",
     "static/media/1-06.7e410dc3.jpg": "/static/media/1-06.7e410dc3.jpg",
     "static/media/1-07.2543178e.jpg": "/static/media/1-07.2543178e.jpg",
+    "static/media/1-07.e0ac7f41.jpg": "/static/media/1-07.e0ac7f41.jpg",
     "static/media/1-08.5cf852cd.jpg": "/static/media/1-08.5cf852cd.jpg",
     "static/media/1-08.d5be362c.jpg": "/static/media/1-08.d5be362c.jpg",
     "static/media/1-1.mp4": "/static/media/1-1.22a1ce6f.mp4",
@@ -56,7 +58,9 @@
     "static/media/Untitled-1-01.234938e6.png": "/static/media/Untitled-1-01.234938e6.png",
     "static/media/Website-User-scenario-workflow.e9e2ac6c.png": "/static/media/Website-User-scenario-workflow.e9e2ac6c.png",
     "static/media/XDR Mockup.ed9b5e81.png": "/static/media/XDR Mockup.ed9b5e81.png",
+    "static/media/aerial-cityscape-view-of-san-francisco-and-the-bay-2FPCNKG.4eef3d9d.jpg": "/static/media/aerial-cityscape-view-of-san-francisco-and-the-bay-2FPCNKG.4eef3d9d.jpg",
     "static/media/aerial-view-of-san-francisco-at-night-PDXCT9H.8799de01.jpg": "/static/media/aerial-view-of-san-francisco-at-night-PDXCT9H.8799de01.jpg",
+    "static/media/aerial-view-of-san-francisco-skyline-at-sunset-M4SQCV8.062b4846.jpg": "/static/media/aerial-view-of-san-francisco-skyline-at-sunset-M4SQCV8.062b4846.jpg",
     "static/media/artrendezpicturemobile.d473c667.jpg": "/static/media/artrendezpicturemobile.d473c667.jpg",
     "static/media/back-02-min.afe4050d.jpg": "/static/media/back-02-min.afe4050d.jpg",
     "static/media/back-03-min.7b0595b7.jpg": "/static/media/back-03-min.7b0595b7.jpg",
@@ -160,8 +164,8 @@
   "entrypoints": [
     "static/js/runtime-main.672f7f98.js",
     "static/css/2.46b578d6.chunk.css",
-    "static/js/2.66a2f7dc.chunk.js",
+    "static/js/2.f77c1701.chunk.js",
     "static/css/main.a7145b71.chunk.css",
-    "static/js/main.adc3f4db.chunk.js"
+    "static/js/main.3319c76d.chunk.js"
   ]
 }
