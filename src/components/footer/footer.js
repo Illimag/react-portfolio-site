@@ -84,6 +84,7 @@ const Footer = () => (
     </CSSTransition>
   )}
 </Route>
+
 ))}
 
 
@@ -120,12 +121,18 @@ const Footer = () => (
       {route.name}
      
     </Nav.Link>
+    
   ))}
 
 
 
 
-<div className={styles.spaceingblack}></div>
+
+
+
+
+
+    <div className={styles.spaceingblack}></div>
 
 <Row className="justify-content-center">
   <Row className={styles.socialrow}>
@@ -156,21 +163,17 @@ const Footer = () => (
 
   </Row>
   </Row>
-</Container>
+
+  <div className={styles.spaceingblack}></div>
 
 
-<div className={styles.spaceingblack}></div>
-
-
-<p className={styles.description}>
+  <p className={styles.description}>
       Hillodesign 2021
     </p>
 
-
     <div className={styles.spaceingblack}></div>
 
-
-
+</Container>
 
 
 
