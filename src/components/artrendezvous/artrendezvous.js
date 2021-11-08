@@ -146,7 +146,6 @@ export const Artrendezvous = () => (
   
 
 
-
 <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -179,7 +178,6 @@ export const Artrendezvous = () => (
 
 
 
-
         <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
@@ -207,7 +205,7 @@ export const Artrendezvous = () => (
 <Col xs={12} md={4}>
 
 <div className={styles.spaceing}></div>
-<Fade>
+
 <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -235,8 +233,7 @@ export const Artrendezvous = () => (
             </>
           )}
         </Media>
-      </Fade>    
-
+   
 
 
 </Col>
@@ -285,7 +282,7 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
-        
+
 <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -564,7 +561,6 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
         <div id="test"></div>
-
 
         <Media queries={{
           small: "(max-width: 599px)",
@@ -893,7 +889,6 @@ export const Artrendezvous = () => (
 <Container fluid className={styles.test}>
         <div id="test"></div>
 
-
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -1012,7 +1007,6 @@ export const Artrendezvous = () => (
         <div id="test"></div>
 
         
-
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -1130,7 +1124,6 @@ export const Artrendezvous = () => (
 
 <Container fluid className={styles.test}>
 
-      
 <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",

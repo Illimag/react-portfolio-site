@@ -107,6 +107,9 @@ import PreloadSanchez from '../../assets/businessman-working-on-start-up-project
 import PreloadApexVR from '../../assets/smarttvtest0.png';
 
 
+import PreloadUguruBackgroundImageTest from '../../assets/img/uguru/backtest-01-min.jpg';
+import PreloadUguruBackgroundImageTestMobile from '../../assets/img/uguru/backtest-06-min.jpg';
+
 
 const importAll = (r) => {
   let images = [];
@@ -230,7 +233,7 @@ const getImageUrls = () => {
                  
                     <Image src={PreloadUguru1} fluid className={styles.displaynone}/>
 
-                 
+                    <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.displaynone}/>
                  </div>
                 }
 
@@ -245,7 +248,8 @@ const getImageUrls = () => {
                     
                     <Image src={PreloadUguru1} fluid className={styles.displaynone}/>
 
-                    
+                    <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.displaynone}/>
+
                     </div>
                 }
 
@@ -260,6 +264,9 @@ const getImageUrls = () => {
                 <Image src={PreloadArt} fluid className={styles.displaynone}/>
 
                 <Image src={PreloadUguru} fluid className={styles.displaynone}/>
+
+
+                <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.displaynone}/>
 
                 </div>
             

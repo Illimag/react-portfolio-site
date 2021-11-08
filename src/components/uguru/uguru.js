@@ -112,11 +112,16 @@ import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
 import PreloadUguru from '../../assets/sfview-01.jpg';
 import PreloadUguru1 from '../../assets/sfview-02.jpg';
 
-import PreloadUguruBackgroundImageTest from '../../assets/img/uguru/1-05.jpg';
-import PreloadUguruBackgroundImageTest1 from '../../assets/img/uguru/1-07.jpg';
-import PreloadUguruBackgroundImageTest2 from '../../assets/img/uguru/aerial-cityscape-view-of-san-francisco-and-the-bay-2FPCNKG.jpg';
-import PreloadUguruBackgroundImageTest3 from '../../assets/img/uguru/aerial-view-of-san-francisco-skyline-at-sunset-M4SQCV8.jpg';
-
+import PreloadUguruBackgroundImageTest from '../../assets/img/uguru/backtest-01-min.jpg';
+import PreloadUguruBackgroundImageTestMobile from '../../assets/img/uguru/backtest-06-min.jpg';
+import PreloadUguruBackgroundImageTest1 from '../../assets/img/uguru/backtest-02-min.jpg';
+import PreloadUguruBackgroundImageTestMobile1 from '../../assets/img/uguru/backtest-07-min.jpg';
+import PreloadUguruBackgroundImageTest2 from '../../assets/img/uguru/backtest-03-min.jpg';
+import PreloadUguruBackgroundImageTestMobile2 from '../../assets/img/uguru/backtest-08-min.jpg';
+import PreloadUguruBackgroundImageTest3 from '../../assets/img/uguru/backtest-04-min.jpg';
+import PreloadUguruBackgroundImageTestMobile3 from '../../assets/img/uguru/backtest-09-min.jpg';
+import PreloadUguruBackgroundImageTest4 from '../../assets/img/uguru/backtest-05-min.jpg';
+import PreloadUguruBackgroundImageTestMobile4 from '../../assets/img/uguru/backtest-10-min.jpg';
 
 
 import Media from 'react-media';
@@ -148,19 +153,19 @@ export const Uguru = () => (
 
               {matches.small &&
               <div>
-                    <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={PreloadUguru} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -309,19 +314,19 @@ export const Uguru = () => (
 
               {matches.small &&
               <div>
-                    <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadUguruBackgroundImageTestMobile1} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadUguruBackgroundImageTestMobile1} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadUguruBackgroundImageTest1} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -463,19 +468,19 @@ export const Uguru = () => (
 
               {matches.small &&
               <div>
-                    <Image src={PreloadUguruBackgroundImageTest1} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadUguruBackgroundImageTestMobile2} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={PreloadUguruBackgroundImageTest1} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadUguruBackgroundImageTestMobile2} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={PreloadUguruBackgroundImageTest1} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadUguruBackgroundImageTest2} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -520,7 +525,7 @@ export const Uguru = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={6}>
+<Col xs={12} md={3}>
 
 <Slide direction="up">
 <Media queries={{
@@ -532,18 +537,18 @@ export const Uguru = () => (
             <>
 
               {matches.small &&
-                    <Image src={Img17} fluid className={styles.centerimage}/>
+                    <Image src={Img38} fluid className={styles.centerimage}/>
   
                 }
 
               {matches.medium &&
-                  <Image src={Img17} fluid className={styles.centerimage}/>
+                  <Image src={Img38} fluid className={styles.centerimage}/>
     
                 }
 
               {matches.large &&
                
-               <Image src={Img17} fluid className={styles.centerimage}/>
+               <Image src={Img38} fluid className={styles.centerimage}/>
 
                 }
 
@@ -607,19 +612,19 @@ export const Uguru = () => (
 
               {matches.small &&
               <div>
-                    <Image src={PreloadUguruBackgroundImageTest2} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadUguruBackgroundImageTestMobile3} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={PreloadUguruBackgroundImageTest2} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadUguruBackgroundImageTest3} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={PreloadUguruBackgroundImageTest2} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadUguruBackgroundImageTest3} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -662,7 +667,7 @@ export const Uguru = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={6}>
+<Col xs={12} md={3}>
 
 <Slide direction="up">
 <Media queries={{
@@ -674,18 +679,18 @@ export const Uguru = () => (
             <>
 
               {matches.small &&
-                    <Image src={Img17} fluid className={styles.centerimage}/>
+                    <Image src={Img38} fluid className={styles.centerimage}/>
   
                 }
 
               {matches.medium &&
-                  <Image src={Img17} fluid className={styles.centerimage}/>
+                  <Image src={Img38} fluid className={styles.centerimage}/>
     
                 }
 
               {matches.large &&
                
-               <Image src={Img17} fluid className={styles.centerimage}/>
+               <Image src={Img38} fluid className={styles.centerimage}/>
 
                 }
 
@@ -700,9 +705,6 @@ export const Uguru = () => (
 
 
 
-
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
 
 
 
@@ -720,19 +722,19 @@ export const Uguru = () => (
 
               {matches.small &&
               <div>
-                    <Image src={PreloadUguruBackgroundImageTest3} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadUguruBackgroundImageTestMobile4} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={PreloadUguruBackgroundImageTest3} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadUguruBackgroundImageTestMobile4} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={PreloadUguruBackgroundImageTest3} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadUguruBackgroundImageTest4} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -809,7 +811,7 @@ export const Uguru = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={6}>
+<Col xs={12} md={3}>
 
 <Slide direction="up">
 <Media queries={{
@@ -821,18 +823,18 @@ export const Uguru = () => (
             <>
 
               {matches.small &&
-                    <Image src={Img17} fluid className={styles.centerimage}/>
+                    <Image src={Img38} fluid className={styles.centerimage}/>
   
                 }
 
               {matches.medium &&
-                  <Image src={Img17} fluid className={styles.centerimage}/>
+                  <Image src={Img38} fluid className={styles.centerimage}/>
     
                 }
 
               {matches.large &&
                
-               <Image src={Img17} fluid className={styles.centerimage}/>
+               <Image src={Img38} fluid className={styles.centerimage}/>
 
                 }
 
@@ -874,19 +876,19 @@ export const Uguru = () => (
 
               {matches.small &&
               <div>
-                    <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={PreloadUguru} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -1002,219 +1004,6 @@ export const Uguru = () => (
 
 
 </Container>
-
-
-
-
-
-
-<Container fluid className={styles.test2}>
-        <div id="test"></div>
-        
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-              <div>
-                    <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
-            </div>
-                }
-
-              {matches.medium &&
-              <div>
-                  <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
-                  </div>
-                }
-
-              {matches.large &&
-               <div>
-               <Image src={PreloadUguru} fluid className={styles.testgradientbackground}/>
-               </div>
-                }
-
-            </>
-          )}
-        </Media>
-
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-<Row className={styles.justifycontentcenter}>
-<Col xs={12} md={6}>
-
-
-<Fade>
-<CardGroup className={styles.backgroundtransparent}>
-      <Card className={styles.backgroundtransparent}>
-      <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-                    <Image src={Img38} fluid className={styles.centerimage}/>
-  
-                }
-
-              {matches.medium &&
-                  <Image src={Img38} fluid className={styles.centerimage}/>
-    
-                }
-
-              {matches.large &&
-               
-               <Image src={Img38} fluid className={styles.centerimage}/>
-
-                }
-
-            </>
-          )}
-        </Media>
-    
-      </Card>
-
-      <Card className={styles.backgroundtransparent}>
-      <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-                    <Image src={Img38} fluid className={styles.centerimage}/>
-  
-                }
-
-              {matches.medium &&
-                  <Image src={Img38} fluid className={styles.centerimage}/>
-    
-                }
-
-              {matches.large &&
-               
-               <Image src={Img38} fluid className={styles.centerimage}/>
-
-                }
-
-            </>
-          )}
-        </Media>
-      </Card>
-      </CardGroup>
-      </Fade>    
-
-
-
-</Col>
-</Row>
-
-
-</Container>
-
-
-
-
-
-
-
-
-<Container fluid className={styles.test2}>
-        <div id="test"></div>
-        
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-              <div>
-                    <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
-            </div>
-                }
-
-              {matches.medium &&
-              <div>
-                  <Image src={PreloadUguru1} fluid className={styles.testgradientbackground}/>
-                  </div>
-                }
-
-              {matches.large &&
-               <div>
-               <Image src={PreloadUguru} fluid className={styles.testgradientbackground}/>
-               </div>
-                }
-
-            </>
-          )}
-        </Media>
-
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-
-<Row className={styles.justifycontentcenter}>
-<Col xs={12} md={12}>
-<Fade>
-<Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-                    <Image src={Img39} fluid className={styles.centerimage}/>
-  
-                }
-
-              {matches.medium &&
-                  <Image src={Img39} fluid className={styles.centerimage}/>
-    
-                }
-
-              {matches.large &&
-               
-               <Image src={Img39} fluid className={styles.centerimage}/>
-
-                }
-
-            </>
-          )}
-        </Media>
-            </Fade> 
-
-            <div className={styles.spaceing}></div>
-            <div className={styles.spaceing}></div>
-
-
-            </Col>
-</Row>
-
-
-</Container>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
