@@ -342,7 +342,7 @@ const getImageUrls = () => {
 
 
 <Slide direction="up">
-<p className={styles.descriptionlargewhitebold}><span className={styles.green}> Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.</p>
+<p className={styles.descriptionlargewhitebold}><span className={styles.green}> AVAILABLE</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.</p>
 </Slide>
 <div className={styles.spaceing}></div>
 
