@@ -186,7 +186,7 @@ const getImageUrls = () => {
 
                 <Row className="justify-content-center">
                 <Fade>
-                <h1 className={styles.test1title}>Welcome</h1>
+                <h1 className={styles.test1title}>WELCOME</h1>
                 </Fade>
              
                 </Row>
@@ -331,7 +331,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>Hillodesign </p>
+            <p className={styles.whitetitle}>HILLODESIGN</p>
             </Fade>
 
             <Slide direction="up">
@@ -344,6 +344,8 @@ const getImageUrls = () => {
 <Slide direction="up">
 <p className={styles.descriptionlargewhitebold}><span className={styles.green}> Available</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.</p>
 </Slide>
+<div className={styles.spaceing}></div>
+
 <Row>
 
   
@@ -443,7 +445,7 @@ large: "(min-width: 1200px)"
 
 
   <Fade>
-<p className={styles.whitetitle}>Legacy Pictures</p>
+<p className={styles.whitetitle}>LEGACY PICTURES</p>
 </Fade>
 
 <Slide direction="up">
@@ -528,7 +530,7 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
   <Fade>
-<p className={styles.whitetitle}>Artrendezvous</p>
+<p className={styles.whitetitle}>ARTRENDEZVOUS</p>
 </Fade>
 
 <Slide direction="up">
@@ -605,7 +607,7 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
   <Fade>
-<p className={styles.whitetitle}>Uguru, INC.</p>
+<p className={styles.whitetitle}>UGURU, INC.</p>
       </Fade>
 
       <Slide direction="up">

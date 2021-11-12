@@ -1224,7 +1224,7 @@ background: rgba(0,0,0,0.5);
 
 .subtitlelargeblackcenter{
     font-weight: 600;
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
     font-family: 'Inter', sans-serif;
@@ -1232,11 +1232,12 @@ background: rgba(0,0,0,0.5);
     letter-spacing: -1px;
     line-height: 100%;
     text-align: center !important;
+    text-transform: uppercase !important;
 }
 
 .subtitlelargewhitecenter{
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
     font-family: 'Inter', sans-serif;
@@ -1244,6 +1245,7 @@ background: rgba(0,0,0,0.5);
     letter-spacing: -1px;
     line-height: 100%;
     text-align: center !important;
+    text-transform: uppercase !important;
 }
 
 .subtitlelargewhiteleft{
@@ -1255,6 +1257,7 @@ background: rgba(0,0,0,0.5);
     color:#fff !important;
     letter-spacing: -1px;
     line-height: 100%;
+    text-transform: uppercase !important;
 }
 
 
@@ -1358,7 +1361,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .justifycontentcenter{
-    justify-content: center;
+    justify-content: center !important;
 }
 
 

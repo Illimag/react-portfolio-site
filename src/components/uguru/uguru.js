@@ -1,117 +1,20 @@
 import React from 'react';
-
 import { Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
-
-import { Link } from 'react-router-dom'
-//import { Slide } from "react-awesome-reveal";
-
-import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
-import Badge from 'react-bootstrap/Badge';
 import { LinkContainer } from 'react-router-bootstrap';
-
-
-//import { LinkContainer } from 'react-router-bootstrap';
-//import Button from 'react-bootstrap/Button';
-
 import Button from 'react-bootstrap/Button';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-
-
 import Card from 'react-bootstrap/Card';
-import ListGroupItem from 'react-bootstrap/ListGroupItem';
-import ListGroup from 'react-bootstrap/ListGroup';
 import CardGroup from 'react-bootstrap/CardGroup';
-
-
-import icon1 from '../../assets/icon-01.png';
-import icon2 from '../../assets/icon-02.png';
-import icon3 from '../../assets/icon-03.png';
-
-import Img00 from '../../assets/img/dasdasdigital/banner-02.jpg';
-import Banner from '../../assets/img/nikerate/banner-06.jpg';
-import Img01 from '../../assets/img/legacypictures/graphite-s6.png';
-import Img02 from '../../assets/img/legacypictures/legacyfilms.png';
-import Img03 from '../../assets/img/legacypictures/cardsort.jpg';
-import Img04 from '../../assets/img/legacypictures/test.png';
-import Img05 from '../../assets/img/legacypictures/test1.png';
-import Img06 from '../../assets/img/legacypictures/test2.png';
-import Img07 from '../../assets/img/legacypictures/video-production-concept-operator-working-with-a-c-2JS9M5Q.jpg';
-import Img08 from '../../assets/img/legacypictures/los-angeles-california-P5YD66H.jpg';
-import Img09 from '../../assets/img/legacypictures/bubble-mindmap-template.png';
-import Img10 from '../../assets/img/legacypictures/mind-mapping-diagram-8391.png';
-import Img11 from '../../assets/img/legacypictures/male-videographer-editor-using-pc-computer-editing-R7QYFZS.jpg';
-import Img12 from '../../assets/img/legacypictures/legacyfilms.png';
-import Img13 from '../../assets/img/legacypictures/1.PNG';
-import Img14 from '../../assets/img/legacypictures/2.PNG';
-import Img15 from '../../assets/img/legacypictures/4.PNG';
-import Img16 from '../../assets/img/legacypictures/comedy-funny-movie-movie-evening-together-at-home--YS7NQEP.jpg';
-import Img17 from '../../assets/img/legacypictures/5.PNG';
-import Img18 from '../../assets/img/legacypictures/3.PNG';
-import Img19 from '../../assets/img/legacypictures/hsl_3.jpg';
-import Img20 from '../../assets/img/legacypictures/hsl-biz_3.jpg';
-import Img21 from '../../assets/img/legacypictures/hsl-biz_4.jpg';
-import Img22 from '../../assets/img/legacypictures/Capture.PNG';
-import Img23 from '../../assets/img/legacypictures/film-industry-7ZLFY7L.jpg';
-import Img28 from '../../assets/img/legacypictures/ttt-01.png';
-
-import Img25 from '../../assets/img/legacypictures/1-01.jpg';
-import Img26 from '../../assets/img/legacypictures/1-02.jpg';
-
-import Img29 from '../../assets/1114124.PNG';
-import Img30 from '../../assets/hero-gradient.png';
-
-import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
-import Img32 from '../../assets/MacBook Pro Mockup.png';
-import Img33 from '../../assets/XDR Mockup.png';
 import Img34 from '../../assets/ugurumainpic-01-min.png';
-
 import Img35 from '../../assets/mockuptest-02.png';
 import Img36 from '../../assets/mockuptest-01.png';
-import Img37 from '../../assets/aerial-view-of-san-francisco-at-night-PDXCT9H.jpg';
-
 import Img38 from '../../assets/phonemockuo.png';
-import Img39 from '../../assets/homepage2.png';
-
-import ImgA from '../../assets/img/uguru/testpics-02.png';
-import ImgB from '../../assets/img/uguru/testpics-03.png';
-import ImgC from '../../assets/img/uguru/testpics-03.png';
-
-import ImgTablet from '../../assets/img/uguru/testpics-01.png';
-
-import testimg from '../../assets/img/uguru/testpics-05.png';
-import desktopImg from '../../assets/img/uguru/testpics-07.png';
-import Twodesktop from '../../assets/img/uguru/testpics-06.png';
-import duo from '../../assets/img/uguru/testpics-08.png';
-
-//import testtest from '../../assets/img/uguru/ttt-01.png';
-
-import Vid1 from '../../assets/home_page_vids/compress_vid0.mp4';
-import Vid2 from '../../assets/vids/compressed_vid/vid2.m4v';
-
-
-import video from '../../assets/newhomepagevids/3.mp4'
-import videomobile from '../../assets/newhomepagevids/3-1.mp4'
-
-
-import Codepen from "react-codepen-embed";
-
-//import BannerVid from '../../assets/vids/san-francisco-USMT8JR.mp4';
-
-
 import styles from '../css/style.module.css';
 import '../css/style.css';
-import TestImg0 from '../../assets/img/uguru/hsl_3.jpg';
-import TestImg1 from '../../assets/img/uguru/hsl-biz_3.jpg';
-import TestImg2 from '../../assets/img/uguru/hsl-biz_4.jpg';
-
-import PreloadUguru from '../../assets/sfview-01.jpg';
-import PreloadUguru1 from '../../assets/sfview-02.jpg';
-
 import PreloadUguruBackgroundImageTest from '../../assets/img/uguru/backtest-01-min.jpg';
 import PreloadUguruBackgroundImageTestMobile from '../../assets/img/uguru/backtest-06-min.jpg';
 import PreloadUguruBackgroundImageTest1 from '../../assets/img/uguru/backtest-02-min.jpg';
@@ -122,117 +25,86 @@ import PreloadUguruBackgroundImageTest3 from '../../assets/img/uguru/backtest-04
 import PreloadUguruBackgroundImageTestMobile3 from '../../assets/img/uguru/backtest-09-min.jpg';
 import PreloadUguruBackgroundImageTest4 from '../../assets/img/uguru/backtest-05-min.jpg';
 import PreloadUguruBackgroundImageTestMobile4 from '../../assets/img/uguru/backtest-10-min.jpg';
-
+import PreloadUguruBackgroundImageTest5 from '../../assets/img/uguru/1-05.jpg';
+import PreloadUguruBackgroundImageTestMobile5 from '../../assets/img/uguru/1-05.jpg';
 
 import Media from 'react-media';
 
-
 export const Uguru = () => (
   /* Start of JSX Fragment*/
-  <>
-  
-
-
-
-
-
-
-
-
-
-
+<>
   <Container fluid className={styles.test2}>
-
   <Media queries={{
+    small: "(max-width: 599px)",
+    medium: "(min-width: 600px) and (max-width: 1199px)",
+    large: "(min-width: 1200px)"
+    }}>
+    {matches => (
+    <>
+    {matches.small &&
+      <div>
+        <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
+      </div>
+    }
+    {matches.medium &&
+      <div>
+        <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
+      </div>
+    }
+    {matches.large &&
+      <div>
+        <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.testgradientbackground}/>
+      </div>
+    }
+    </>
+    )}
+  </Media>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+      <Fade>
+        <p className={styles.subtitlesmallwhitecenter}>Uguru, INC</p>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Startup</span> in San Francisco <span className={styles.grey}></span></p>
+      </Fade>  
+        <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={6}>
+      <Fade>
+        <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
           large: "(min-width: 1200px)"
-        }}>
+          }}>
           {matches => (
-            <>
+          <>
+          {matches.small &&
+            <Image src={Img34} fluid className={styles.centerimage}/>
+          }
+          {matches.medium &&
+            <Image src={Img34} fluid className={styles.centerimage}/>
+          }
+                {matches.large &&
+                
+                <Image src={Img34} fluid className={styles.centerimage}/>
 
-              {matches.small &&
-              <div>
-                    <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
-            </div>
-                }
+                  }
 
-              {matches.medium &&
-              <div>
-                  <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
-                  </div>
-                }
+              </>
+            )}
+          </Media>
+              </Fade>  
 
-              {matches.large &&
-               <div>
-               <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.testgradientbackground}/>
-               </div>
-                }
-
-            </>
-          )}
-        </Media>
-
-
-
-
-        <div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-<Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
-
-<Fade>
-<p className={styles.subtitlesmallwhitecenter}>Uguru, INC</p>
-
-            <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Startup</span> in San Francisco <span className={styles.grey}></span></p>
-            </Fade>  
-                        <div className={styles.spaceing}></div>
+              <div className={styles.spaceing}></div>
           
 
 
-            </Col>
-</Row>
-
-<Row className={styles.justifycontentcenter}>
-<Col xs={12} md={6}>
-<Fade>
-<Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-        }}>
-          {matches => (
-            <>
-
-              {matches.small &&
-                    <Image src={Img34} fluid className={styles.centerimage}/>
-  
-                }
-
-              {matches.medium &&
-                  <Image src={Img34} fluid className={styles.centerimage}/>
-    
-                }
-
-              {matches.large &&
-               
-               <Image src={Img34} fluid className={styles.centerimage}/>
-
-                }
-
-            </>
-          )}
-        </Media>
-            </Fade>  
-
-            <div className={styles.spaceing}></div>
-         
-
-
-            </Col>
-</Row>
+              </Col>
+  </Row>
 
 
 <div className={styles.spaceing}></div>
@@ -876,19 +748,19 @@ export const Uguru = () => (
 
               {matches.small &&
               <div>
-                    <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
+                    <Image src={PreloadUguruBackgroundImageTestMobile5} fluid className={styles.testgradientbackground}/>
             </div>
                 }
 
               {matches.medium &&
               <div>
-                  <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
+                  <Image src={PreloadUguruBackgroundImageTestMobile5} fluid className={styles.testgradientbackground}/>
                   </div>
                 }
 
               {matches.large &&
                <div>
-               <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.testgradientbackground}/>
+               <Image src={PreloadUguruBackgroundImageTest5} fluid className={styles.testgradientbackground}/>
                </div>
                 }
 
@@ -898,34 +770,6 @@ export const Uguru = () => (
 
 
 <div className={styles.spaceing}></div>
-<Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
-
-
-<Fade>
-<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>I was able to create high fidelity mockups for the mobile application. As well as begining the rapid prototypes using static image files and animations.</span></p>
-</Fade>    
-
-<CardGroup className={styles.backgroundtransparent}>
-      <Card className={styles.backgroundtransparent}>
-
-
-<div className={styles.spaceing}></div>
-
-    
-      </Card>
-
-      <Card className={styles.backgroundtransparent}>
-
-      </Card>
-      </CardGroup>
-
-
-
-
-</Col>
-</Row>
-
 
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
@@ -934,6 +778,10 @@ export const Uguru = () => (
 
 <CardGroup className={styles.backgroundtransparent}>
       <Card className={styles.backgroundtransparent}>
+      <Fade>
+      <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>I was able to create high fidelity mockups for the mobile application. As well as begining the rapid prototypes using static image files and animations.</span></p>
+      </Fade> 
+      <div className={styles.spaceing}></div>
       <Fade>
       <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>I was able to create high fidelity mockups for the mobile application. As well as begining the rapid prototypes using static image files and animations.</span></p>
       </Fade> 
