@@ -168,7 +168,7 @@ const getImageUrls = () => {
   <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "6vh" }}>
   
 
-  <ProgressBar animated now={currentProgress} label={` Loading ${now}%`}/>
+  <ProgressBar animated now={currentProgress} label={` Complete ${now}%`}/>
       
 
   
@@ -176,25 +176,19 @@ const getImageUrls = () => {
               
 <Jumbotron className={styles.homepageloading}>
 
-<Row className="justify-content-center">
-<a href="/">
-                <Navbar.Brand className={styles.logo}>
+<Row className={styles.justifycontentcenter}>
+  
 
-
-                
                 <div className={styles.spaceing}></div>
 
-                <Row className="justify-content-center">
-                <Fade>
-                <h1 className={styles.test1title}>WELCOME</h1>
-                </Fade>
-             
-                </Row>
+<Row className={styles.justifycontentcenter}>
+<Fade>
+<p className={styles.descriptionlargewhitebold}>Website Loading..</p>
+</Fade>
+</Row>
 
-                </Navbar.Brand>
-              </a>
-``
   <div className={styles.spaceing}></div>
+ 
 </Row>
 
 

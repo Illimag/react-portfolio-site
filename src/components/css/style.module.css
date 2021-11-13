@@ -1216,8 +1216,9 @@ background: rgba(0,0,0,0.5);
     margin-left: 0%;
     width: 100%;
     border-radius: 0rem !important;
-    top: 30%
-    
+    top: 30%;
+    text-align: center !important;
+
 
 }
 
