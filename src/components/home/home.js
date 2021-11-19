@@ -328,16 +328,14 @@ const getImageUrls = () => {
             <p className={styles.whitetitle}>HILLODESIGN</p>
             </Fade>
 
+
+            <Col xs={12} md={8} className={styles.removepadding}>
             <Slide direction="up">
 <p className={styles.descriptionlargewhitebold}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.
-</p>
+<span className={styles.green}> AVAILABLE</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.</p>
 </Slide>
+</Col>
 
-
-
-<Slide direction="up">
-<p className={styles.descriptionlargewhitebold}><span className={styles.green}> AVAILABLE</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.</p>
-</Slide>
 <div className={styles.spaceing}></div>
 
 <Row>
