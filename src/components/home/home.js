@@ -634,8 +634,6 @@ large: "(min-width: 1200px)"
 
 
 
-
-
 </div>
               }
 
