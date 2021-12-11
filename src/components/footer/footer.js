@@ -92,7 +92,7 @@ const Footer = () => (
             </Row>
       <div className={styles.spaceingblack}></div>
         <p className={styles.description}>
-            HILLODESIGN 2021
+            HILLODESIGN 2022
         </p>
         <div className={styles.spaceingblack}></div>
         </Container>
