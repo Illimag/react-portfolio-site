@@ -325,7 +325,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>HILLODESIGN</p>
+            <p className={styles.whitetitle}>WELCOME</p>
             </Fade>
 
 
