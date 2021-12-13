@@ -441,7 +441,7 @@ large: "(min-width: 1200px)"
 </Fade>
 
 <Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>How To Redesign A Web App in 2021</p>
+<p className={styles.descriptionlargewhitebold}>How To Redesign A Web App</p>
 </Slide>
 
 
