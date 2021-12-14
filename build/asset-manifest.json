@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.19033774.chunk.css",
-    "main.js": "/static/js/main.b883c0be.chunk.js",
-    "main.js.map": "/static/js/main.b883c0be.chunk.js.map",
+    "main.css": "/static/css/main.96c2c009.chunk.css",
+    "main.js": "/static/js/main.1cd83e29.chunk.js",
+    "main.js.map": "/static/js/main.1cd83e29.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
-    "static/js/2.a4f81aeb.chunk.js": "/static/js/2.a4f81aeb.chunk.js",
-    "static/js/2.a4f81aeb.chunk.js.map": "/static/js/2.a4f81aeb.chunk.js.map",
+    "static/js/2.e714eb61.chunk.js": "/static/js/2.e714eb61.chunk.js",
+    "static/js/2.e714eb61.chunk.js.map": "/static/js/2.e714eb61.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1705598773c3aedb30ed8ac78d3691d9.js": "/precache-manifest.1705598773c3aedb30ed8ac78d3691d9.js",
+    "precache-manifest.d66c37cfd04709244e8ac705b921b64f.js": "/precache-manifest.d66c37cfd04709244e8ac705b921b64f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
-    "static/css/main.19033774.chunk.css.map": "/static/css/main.19033774.chunk.css.map",
-    "static/js/2.a4f81aeb.chunk.js.LICENSE.txt": "/static/js/2.a4f81aeb.chunk.js.LICENSE.txt",
+    "static/css/main.96c2c009.chunk.css.map": "/static/css/main.96c2c009.chunk.css.map",
+    "static/js/2.e714eb61.chunk.js.LICENSE.txt": "/static/js/2.e714eb61.chunk.js.LICENSE.txt",
     "static/media/0-1.mp4": "/static/media/0-1.fd474927.mp4",
     "static/media/0.mp4": "/static/media/0.89232f5c.mp4",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
@@ -53,6 +53,7 @@
     "static/media/MacBook Pro Mockup (Dark & Light).82576b5c.png": "/static/media/MacBook Pro Mockup (Dark & Light).82576b5c.png",
     "static/media/MacBook Pro Mockup.52a87d85.png": "/static/media/MacBook Pro Mockup.52a87d85.png",
     "static/media/Mobile-Mockup.89cb3338.png": "/static/media/Mobile-Mockup.89cb3338.png",
+    "static/media/Untitled-1-01.234938e6.png": "/static/media/Untitled-1-01.234938e6.png",
     "static/media/Website-User-scenario-workflow.e9e2ac6c.png": "/static/media/Website-User-scenario-workflow.e9e2ac6c.png",
     "static/media/XDR Mockup.ed9b5e81.png": "/static/media/XDR Mockup.ed9b5e81.png",
     "static/media/artrendezpicturemobile.d473c667.jpg": "/static/media/artrendezpicturemobile.d473c667.jpg",
@@ -133,6 +134,7 @@
     "static/media/portfoliopiecebackground-08.3ea2cbc1.jpg": "/static/media/portfoliopiecebackground-08.3ea2cbc1.jpg",
     "static/media/portfoliopiecebackground-09.57723a1d.jpg": "/static/media/portfoliopiecebackground-09.57723a1d.jpg",
     "static/media/portfoliopiecebackground-10.8723e7f9.jpg": "/static/media/portfoliopiecebackground-10.8723e7f9.jpg",
+    "static/media/sanchezcoffee-01.70678e99.png": "/static/media/sanchezcoffee-01.70678e99.png",
     "static/media/sanchezcotest.5ae0c00b.png": "/static/media/sanchezcotest.5ae0c00b.png",
     "static/media/sfview-01.aae14204.jpg": "/static/media/sfview-01.aae14204.jpg",
     "static/media/sfview-02.4c6690b9.jpg": "/static/media/sfview-02.4c6690b9.jpg",
@@ -163,8 +165,8 @@
   "entrypoints": [
     "static/js/runtime-main.672f7f98.js",
     "static/css/2.46b578d6.chunk.css",
-    "static/js/2.a4f81aeb.chunk.js",
-    "static/css/main.19033774.chunk.css",
-    "static/js/main.b883c0be.chunk.js"
+    "static/js/2.e714eb61.chunk.js",
+    "static/css/main.96c2c009.chunk.css",
+    "static/js/main.1cd83e29.chunk.js"
   ]
 }

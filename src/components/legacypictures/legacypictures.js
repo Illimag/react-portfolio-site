@@ -67,6 +67,7 @@ export const Legacypictures = () => (
       </>
       )}
     </Media> 
+    <div className={styles.overlay}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <div className={styles.spaceing}></div>
@@ -225,6 +226,7 @@ export const Legacypictures = () => (
       </>
       )}
     </Media>
+    <div className={styles.overlay}></div>
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
@@ -353,6 +355,7 @@ export const Legacypictures = () => (
     </>
     )}
   </Media>
+  <div className={styles.overlay}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
@@ -471,6 +474,7 @@ export const Legacypictures = () => (
       </>
       )}
     </Media>
+    <div className={styles.overlay}></div>
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
@@ -555,6 +559,7 @@ export const Legacypictures = () => (
     </>
     )}
   </Media>
+  <div className={styles.overlay}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={12}>
       <CardGroup>
