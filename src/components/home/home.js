@@ -1,6 +1,8 @@
 import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 
+
+
 import { Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
 
@@ -398,7 +400,6 @@ const getImageUrls = () => {
     <Card className={styles.backgroundtransparent}>
    
     <Slide direction="up">
-      
           <p className={styles.subtitlesmallwhitecenter}>User Interface (UI) / User Experience (UX)</p>
           <div className={styles.spaceing}></div>
           <p className={styles.descriptionlargewhitebold}>As a UI/UX Designer, have indepth knowledge of User Interface and User Experience methodologies.</p>
