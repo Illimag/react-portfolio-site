@@ -1101,8 +1101,8 @@ background: rgba(0,0,0,0.5);
 }
 
 .mainbutton{
-    background-color: #222 !important;
-    color: #fff !important;
+    background-color: #39ff14 !important;
+    color: #000 !important;
     font-size: 1rem !important;
     font-family: 'Inter', sans-serif;
     font-weight: 500 !important;
@@ -1246,7 +1246,6 @@ background: rgba(0,0,0,0.5);
     color:#fff !important;
     letter-spacing: -1px;
     line-height: 100%;
-    text-align: center !important;
     text-transform: uppercase !important;
 }
 
@@ -1284,7 +1283,6 @@ background: rgba(0,0,0,0.5);
     color:#fff !important;
     letter-spacing: -1px;
     line-height: 100%;
-    text-align: center !important;
 }
 
 

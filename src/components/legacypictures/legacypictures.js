@@ -10,13 +10,15 @@ import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Img17 from '../../assets/img/legacypictures/5.PNG';
-import Img31 from '../../assets/MacBook Pro Mockup (Dark & Light).png';
+import Img31 from '../../assets/img/legacypictures/Untitled-1-01.png';
 import Img32 from '../../assets/MacBook Pro Mockup.png';
 import Img35 from '../../assets/businesswoman-planning-with-adhesive-notes-on-glas-JX7K3ZV.jpg';
 import Img36 from '../../assets/testimg-01-min.png';
 import Img37 from '../../assets/testimg-02-min.png';
 import Img38 from '../../assets/testimg-03.png';
 import Img39 from '../../assets/testtest-01.png';
+import Img40 from '../../assets/img/legacypictures/ttt-01.png';
+import Img41 from '../../assets/img/legacypictures/sanchezcoffee-01.png';
 import styles from '../css/style.module.css';
 import '../css/style.css';
 import PreloadLegacy from '../../assets/smarttvtest1.png';
@@ -69,8 +71,7 @@ export const Legacypictures = () => (
     <Col xs={10} md={4}>
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
+     
         <Fade>
         <p className={styles.subtitlesmallwhitecenter}>LEGACY PICTURES</p>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}> Company</span></p>
@@ -113,8 +114,7 @@ export const Legacypictures = () => (
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-      <CardGroup className={styles.backgroundgadient}>
-          <Card className={styles.backgroundtransparent}>
+    
           <Slide direction="up">
             <p className={styles.subtitlelargewhiteleft}>Design task</p>
           </Slide>
@@ -122,8 +122,7 @@ export const Legacypictures = () => (
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>Offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
           </Slide>
-          </Card>
-          <Card className={styles.backgroundtransparent}>
+
             <Fade>
               <Media queries={{
                 small: "(max-width: 599px)",
@@ -151,16 +150,13 @@ export const Legacypictures = () => (
                 )}
               </Media>
             </Fade>
-          </Card>
-        </CardGroup>
+      
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-      <CardGroup className={styles.backgroundgadient}>
-        <Card className={styles.backgroundtransparent}>
-          <Card.Body>
+
             <Fade>
               <Media queries={{
                 small: "(max-width: 599px)",
@@ -188,22 +184,16 @@ export const Legacypictures = () => (
                 )}
               </Media>
             </Fade>
-          </Card.Body>
-        </Card>
-        <Card className={styles.backgroundtransparent}>
-          <Card.Body>
+        
             <Slide direction="up">
               <p className={styles.subtitlelargewhitecenter}>Users</p>
             </Slide>
             <div className={styles.spaceing}></div>
-          <Card.Text>
+         
             <Slide direction="up">
               <p className={styles.descriptionlargewhitebold}>Users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
             </Slide>
-          </Card.Text>
-          </Card.Body>
-        </Card>
-      </CardGroup>
+         
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
@@ -374,7 +364,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={9}>
+    <Col xs={12} md={4}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -385,17 +375,17 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <Image src={Img35} fluid className={styles.centerimage}/>
+              <Image src={Img40} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.medium &&
             <div>
-              <Image src={Img35} fluid className={styles.centerimage}/>
+              <Image src={Img40} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.large &&
             <div>
-              <Image src={Img35} fluid className={styles.centerimage}/>
+              <Image src={Img40} fluid className={styles.centerimage}/>
             </div>
           }
           </>
@@ -426,17 +416,17 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <Image src={Img36} fluid className={styles.centerimage}/>
+              <Image src={Img41} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.medium &&
             <div>
-              <Image src={Img36} fluid className={styles.centerimage}/>
+              <Image src={Img41} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.large &&
             <div>
-              <Image src={Img36} fluid className={styles.centerimage}/>
+              <Image src={Img41} fluid className={styles.centerimage}/>
             </div>
           }
           </>

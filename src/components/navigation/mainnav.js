@@ -85,18 +85,28 @@ function MainNav() {
 
 
 
+
   return (
     <>
 
       <Router>
         <ScrollToTop>
-         
+          <>
+          <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" style={{ transition: '.1s ease',backgroundColor: navBackground ? 'rgba(0,0,0,0)' : 'transparent', backdropFilter: navBackground ? 'saturate(180%) blur(20px)' : ''}}>
+          <a href="/">
+                <Navbar.Brand className={styles.logo}>
+                
+                <h5 className={styles.test1title}>HILLODESIGN</h5>
+
+                </Navbar.Brand>
+              </a>
+              </Navbar>
+          </>
         </ScrollToTop>
       </Router>
     </>
 
   );
 }
-
 
 export default MainNav;
