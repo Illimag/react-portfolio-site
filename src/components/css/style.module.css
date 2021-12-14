@@ -405,7 +405,7 @@ background: rgba(0,0,0,0.5);
 
 .mainfloatback{
     position:relative;
-    background-color: rgba(0,0,0,0) !important;
+    background-color: rgba(0,0,0,0.1) !important;
     height:100vh;
     object-fit: cover;
     z-index: 10;
@@ -420,7 +420,7 @@ background: rgba(0,0,0,0.5);
 
 .mainfloatbackpieces{
     position:relative;
-    background-color: rgba(0,0,0,0) !important;
+    background-color: rgba(0,0,0,0.1) !important;
     height:100vh;
     object-fit: cover;
     z-index: 10;
@@ -522,6 +522,12 @@ background: rgba(0,0,0,0.5);
 
 }
 
+.overlay{
+    background-color: transparent;
+    z-index: 200;
+    position: absolute !important;
+    top:10%;
+}
 
 .bannerstyles{
     margin-top: -80% !important;
@@ -1363,12 +1369,12 @@ background: rgba(0,0,0,0.5);
     background-color: transparent;
 }
   
-.overlay{
+.backoverlay{
     background: #000;
-    opacity:50% !important;
+    opacity:50%;
     width:100%;
     height:100%;
-    
+    position: absolute;
     z-index: 0;
     top:0;
 }

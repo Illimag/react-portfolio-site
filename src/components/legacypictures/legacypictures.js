@@ -67,12 +67,13 @@ export const Legacypictures = () => (
       </>
       )}
     </Media> 
-    <div className={styles.overlay}></div>
+    <div className={styles.backoverlay}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
-     
+      <div className={styles.spaceing}></div>
+      <div className={styles.spaceing}></div>
         <Fade>
         <p className={styles.subtitlesmallwhitecenter}>LEGACY PICTURES</p>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}> Company</span></p>
@@ -226,7 +227,7 @@ export const Legacypictures = () => (
       </>
       )}
     </Media>
-    <div className={styles.overlay}></div>
+    <div className={styles.backoverlay}></div>
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
@@ -355,7 +356,7 @@ export const Legacypictures = () => (
     </>
     )}
   </Media>
-  <div className={styles.overlay}></div>
+  <div className={styles.backoverlay}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
@@ -474,7 +475,7 @@ export const Legacypictures = () => (
       </>
       )}
     </Media>
-    <div className={styles.overlay}></div>
+    <div className={styles.backoverlay}></div>
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
@@ -559,7 +560,7 @@ export const Legacypictures = () => (
     </>
     )}
   </Media>
-  <div className={styles.overlay}></div>
+  <div className={styles.backoverlay}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={12}>
       <CardGroup>
