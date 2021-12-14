@@ -382,6 +382,188 @@ const getImageUrls = () => {
 
 
 
+        <Container className={styles.test2}>
+        <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={6}>
+
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<p className={styles.subtitlelargewhitecenter}>01/ SERVICES</p>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+
+<Fade>
+
+<CardGroup className={styles.backgroundgadient}>
+    <Card className={styles.backgroundtransparent}>
+   
+    <Slide direction="up">
+      
+          <p className={styles.subtitlesmallwhitecenter}>User Interface (UI) / User Experience (UX)</p>
+          <div className={styles.spaceing}></div>
+          <p className={styles.descriptionlargewhitebold}>As a UI/UX Designer, have indepth knowledge of User Interface and User Experience methodologies.</p>
+          </Slide>
+    </Card>
+
+    <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Mobile Responsive</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Web App Design and Prototyping. Knowledge of iOS, Android apps, as well as modern SPA Web Apps.</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+
+        <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>E-Commerce, Tech, Company Sites, Startups</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Experience working with industries such as E-Commerce, Tech, and Company Sites.</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+    </CardGroup>
+    </Fade>  
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+<Container className={styles.test2}>
+        <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={6}>
+
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<p className={styles.subtitlelargewhitecenter}>02/ Principles</p>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+
+<Fade>
+
+<CardGroup className={styles.backgroundgadient}>
+    <Card className={styles.backgroundtransparent}>
+   
+    <Slide direction="up">
+      
+          <p className={styles.subtitlesmallwhitecenter}>Design First</p>
+          <div className={styles.spaceing}></div>
+          <p className={styles.descriptionlargewhitebold}>Leading with design to create the best experience for the user.</p>
+          </Slide>
+    </Card>
+
+    <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Champion for the User</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Advocate for the user, being the person to think about the user and to always look out for the user</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+
+        <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Keeps up with new tech and previous tech stacks</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Adobe XD, Figma, Invison, xMind, Adobe Illustrator, Adobe Photoshop</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+
+        <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Tech Stack for Front-End Web Development</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Can use computer languages such as HTML/CSS/JS and JavaScript Front End Frameworks and Libraries such as React.JS</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+    </CardGroup>
+    </Fade>  
+
+
+
+</Col>
+</Row>
+</Container>
+
+
+
+
+<Container className={styles.test2}>
+        <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={6}>
+
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<p className={styles.subtitlelargewhitecenter}>03/ Clients Say</p>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+
+<Fade>
+
+<CardGroup className={styles.backgroundgadient}>
+    <Card className={styles.backgroundtransparent}>
+   
+    <Slide direction="up">
+      
+          <p className={styles.subtitlesmallwhitecenter}>Franz E. Polar Productions</p>
+          <div className={styles.spaceing}></div>
+          <p className={styles.descriptionlargewhitebold}> “Jaemin ‘John’  Kim helped me and my team create a virtual reality website from the groun
+d up and it was a pleasure working with him every step of the way. His skill developing the s
+ite from scratch and enthusiasm to explore new techniques to make a totally original websit
+e is one of the many reasons he is a great choice to add to any team”</p>
+          </Slide>
+    </Card>
+
+    <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Michael T.</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>“To whom it may concern: My name is Michael T. I am an artist out of Key West Florida. I h
+ave a website that was created in part and certainly edited and maint
+ained in different degrees with the astute and professional services of John (Jae Min) Kim. His knowled
+ge and advice has been and still is of the utmost value to myself with respect to the present
+ ordering and maintenance of my site. I would recommend him to any needing such services. 
+He has conducted himself both honestly and professionally."</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+
+        <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Jessica Y.</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>“John (Jae Min) Kim is a resourceful worker and a self-starter. He has a passion for his design and cod
+ing. He is great to work with and very knowledgeable about UX design, coding and graphic 
+design. I recommend his work ethics in being a team player who always loves to help others
+ around him as well as his skill set and independence. He is a great addition to any company t
+hat hires him.”</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+        
+        
+    </CardGroup>
+    </Fade>  
+
+
+
+</Col>
+</Row>
+</Container>
+
+
 
         <LinkContainer to="/legacypictures" className={styles.clickablecontainer}>
         <Container className={styles.test2}>
