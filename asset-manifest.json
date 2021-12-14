@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2be994e6.chunk.css",
-    "main.js": "/static/js/main.1041085d.chunk.js",
-    "main.js.map": "/static/js/main.1041085d.chunk.js.map",
+    "main.js": "/static/js/main.b6dd1b86.chunk.js",
+    "main.js.map": "/static/js/main.b6dd1b86.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
-    "static/js/2.e714eb61.chunk.js": "/static/js/2.e714eb61.chunk.js",
-    "static/js/2.e714eb61.chunk.js.map": "/static/js/2.e714eb61.chunk.js.map",
+    "static/js/2.14439e7a.chunk.js": "/static/js/2.14439e7a.chunk.js",
+    "static/js/2.14439e7a.chunk.js.map": "/static/js/2.14439e7a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5374d89fc1ce2de3c9124f7f9bd3726d.js": "/precache-manifest.5374d89fc1ce2de3c9124f7f9bd3726d.js",
+    "precache-manifest.d5e3c85e08324851192f488093995b40.js": "/precache-manifest.d5e3c85e08324851192f488093995b40.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
     "static/css/main.2be994e6.chunk.css.map": "/static/css/main.2be994e6.chunk.css.map",
-    "static/js/2.e714eb61.chunk.js.LICENSE.txt": "/static/js/2.e714eb61.chunk.js.LICENSE.txt",
+    "static/js/2.14439e7a.chunk.js.LICENSE.txt": "/static/js/2.14439e7a.chunk.js.LICENSE.txt",
     "static/media/0-1.mp4": "/static/media/0-1.fd474927.mp4",
     "static/media/0.mp4": "/static/media/0.89232f5c.mp4",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
@@ -134,6 +134,7 @@
     "static/media/portfoliopiecebackground-08.3ea2cbc1.jpg": "/static/media/portfoliopiecebackground-08.3ea2cbc1.jpg",
     "static/media/portfoliopiecebackground-09.57723a1d.jpg": "/static/media/portfoliopiecebackground-09.57723a1d.jpg",
     "static/media/portfoliopiecebackground-10.8723e7f9.jpg": "/static/media/portfoliopiecebackground-10.8723e7f9.jpg",
+    "static/media/san-francisco-sunset-9Q2MYSB.mp4": "/static/media/san-francisco-sunset-9Q2MYSB.ecc8188c.mp4",
     "static/media/sanchezcoffee-01.70678e99.png": "/static/media/sanchezcoffee-01.70678e99.png",
     "static/media/sanchezcotest.5ae0c00b.png": "/static/media/sanchezcotest.5ae0c00b.png",
     "static/media/sfview-01.aae14204.jpg": "/static/media/sfview-01.aae14204.jpg",
@@ -165,8 +166,8 @@
   "entrypoints": [
     "static/js/runtime-main.672f7f98.js",
     "static/css/2.46b578d6.chunk.css",
-    "static/js/2.e714eb61.chunk.js",
+    "static/js/2.14439e7a.chunk.js",
     "static/css/main.2be994e6.chunk.css",
-    "static/js/main.1041085d.chunk.js"
+    "static/js/main.b6dd1b86.chunk.js"
   ]
 }
