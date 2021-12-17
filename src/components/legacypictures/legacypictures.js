@@ -75,14 +75,27 @@ export const Legacypictures = () => (
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
         <Fade>
+        <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>Case Study</span></p>
+          </Slide>
         <p className={styles.subtitlesmallwhitecenter}>LEGACY PICTURES</p>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}> Company</span></p>
-        <div className={styles.spaceing}></div>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}>Web App Re-Design</span></p>
+    
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Project Date: <span className={styles.grey}>July 2021 - August 2021</span></p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Role: <span className={styles.grey}>UI/UX Designer</span></p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Location: <span className={styles.grey}>Los Angeles, CA</span></p>
+          </Slide>
+          <div className={styles.spaceing}></div>
         </Fade>           
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={7}>
+    <Col xs={12} md={6}>
         <Slide direction="up">
           <Media queries={{
             small: "(max-width: 599px)",
@@ -116,13 +129,15 @@ export const Legacypictures = () => (
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-    
+    <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>Introduction</span></p>
+          </Slide>
           <Slide direction="up">
-            <p className={styles.subtitlelargewhiteleft}>Design task</p>
+            <p className={styles.subtitlelargewhiteleft}>Legacy Pictures</p>
           </Slide>
             <div className={styles.spaceing}></div>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+            <p className={styles.descriptionlargewhitebold}>Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commercials around the world.</p>
           </Slide>
 
             <Fade>
