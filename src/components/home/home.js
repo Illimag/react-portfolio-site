@@ -167,7 +167,7 @@ const getImageUrls = () => {
   return <>
 
 
-  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "6vh" }}>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "8vh" }}>
   
 
   <ProgressBar animated now={currentProgress} label={` Complete ${now}%`}/>
