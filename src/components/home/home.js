@@ -167,7 +167,7 @@ const getImageUrls = () => {
   return <>
 
 
-  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "8vh" }}>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "0vh" }}>
   
 
   <ProgressBar animated now={currentProgress} label={` Complete ${now}%`}/>
@@ -564,7 +564,7 @@ hat hires him.”</p>
 </Row>
 </Container>
 
-<LinkContainer to="/legacypictures" className={styles.clickablecontainer}>
+<LinkContainer to="/Contact" className={styles.clickablecontainer}>
         <Container className={styles.test2}>
         
   

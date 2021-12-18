@@ -24,6 +24,7 @@ import '../css/style.css';
 import PreloadLegacy from '../../assets/smarttvtest1.png';
 import PreloadLegacy1 from '../../assets/img/legacypictures/legacypicturesbackground-01.jpg';
 import PreloadLegacy11 from '../../assets/img/legacypictures/legacypicturesbackground-02.jpg';
+
 import BackgroundTest from '../../assets/img/legacypictures/portfoliopiecebackground-06.jpg';
 import BackgroundTest1 from '../../assets/img/legacypictures/portfoliopiecebackground-07.jpg';
 import BackgroundTest2 from '../../assets/img/legacypictures/portfoliopiecebackground-08.jpg';
@@ -68,12 +69,10 @@ export const Legacypictures = () => (
       )}
     </Media> 
     <div className={styles.backoverlay}></div>
-  <Row className={styles.justifycontentcenter}>
+    <div className={styles.spaceing}></div>
+    <div className={styles.spaceing}></div>
+    <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-      <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
         <Fade>
         <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>Case Study</span></p>
@@ -94,7 +93,7 @@ export const Legacypictures = () => (
         </Fade>           
     </Col>
   </Row>
-  <Row className={styles.justifycontentcenter}>
+    <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={6}>
         <Slide direction="up">
           <Media queries={{
@@ -126,6 +125,8 @@ export const Legacypictures = () => (
         <div className={styles.spaceing}></div>
     </Col>
   </Row>
+
+
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
@@ -695,7 +696,7 @@ export const Legacypictures = () => (
         <p className={styles.descriptionlargewhite}>Go Back to Portfolio</p>
           <LinkContainer to="/">
             <p>
-              <Button className={styles.mainbutton} variant="secondary">View More Pieces</Button>
+              <Button className={styles.mainbutton} variant="secondary">Go Back to Portfolio</Button>
             </p>
           </LinkContainer>
         </Card>

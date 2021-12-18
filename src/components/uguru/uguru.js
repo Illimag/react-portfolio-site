@@ -33,6 +33,7 @@ import Media from 'react-media';
 export const Uguru = () => (
   /* Start of JSX Fragment*/
 <>
+
   <Container fluid className={styles.test2}>
   <Media queries={{
     small: "(max-width: 599px)",
@@ -60,9 +61,6 @@ export const Uguru = () => (
     )}
   </Media>
   <div className={styles.backoverlay}></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
 
   <Row className={styles.justifycontentcenter}>
