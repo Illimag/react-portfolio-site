@@ -327,7 +327,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>WELCOME</p>
+            <p className={styles.whitetitle}>HILLODESIGN</p>
             </Fade>
 
 
@@ -564,7 +564,89 @@ hat hires him.”</p>
 </Row>
 </Container>
 
+<LinkContainer to="/legacypictures" className={styles.clickablecontainer}>
+        <Container className={styles.test2}>
+        
+  
+<Row className="justify-content-md-center">
 
+<Jumbotron className={styles.testfloatbackpieces}>
+    </Jumbotron>
+
+<Fade>
+
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+</Fade>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+
+  <Fade>
+<p className={styles.whitetitle}>Contact Now!</p>
+</Fade>
+
+<Slide direction="up">
+<p className={styles.descriptionlargewhitebold}>Looking for Contact info?</p>
+</Slide>
+
+
+<Slide direction="up">
+  <LinkContainer to="/Contact">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
+</Slide>
+
+</div>
+
+
+
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+</LinkContainer>
 
         <LinkContainer to="/legacypictures" className={styles.clickablecontainer}>
         <Container className={styles.test2}>
