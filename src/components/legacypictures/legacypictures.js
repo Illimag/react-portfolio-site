@@ -694,7 +694,7 @@ export const Legacypictures = () => (
         <div className={styles.spaceing}></div>
         <p className={styles.descriptionlargewhitebold}>Go to Portfolio:</p>
         <p className={styles.descriptionlargewhite}>Go Back to Portfolio</p>
-          <LinkContainer to="/">
+          <LinkContainer to="/portfolio">
             <p>
               <Button className={styles.mainbutton} variant="secondary">Go Back to Portfolio</Button>
             </p>

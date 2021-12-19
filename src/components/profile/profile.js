@@ -1,4 +1,7 @@
 import React from 'react';
+import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
+
 
 import { Link } from 'react-router-dom'
 
@@ -129,732 +132,196 @@ export const Profile = () => (
 
 
 
+<Container className={styles.test2}>
+        <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={6}>
 
- 
-        <Container fluid className={styles.mainfullscreen}>
- {/* left text right img */}
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<p className={styles.subtitlelargewhitecenter}>01/ SERVICES</p>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 
-<div className={styles.spaceingwhite}></div>
+<Fade>
 
+<CardGroup className={styles.backgroundgadient}>
+    <Card className={styles.backgroundtransparent}>
+   
+    <Slide direction="up">
+          <p className={styles.subtitlesmallwhitecenter}>User Interface (UI) / User Experience (UX)</p>
+          <div className={styles.spaceing}></div>
+          <p className={styles.descriptionlargewhitebold}>As a UI/UX Designer, have indepth knowledge of User Interface and User Experience methodologies.</p>
+          </Slide>
+    </Card>
 
+    <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Mobile Responsive</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Web App Design and Prototyping. Knowledge of iOS, Android apps, as well as modern SPA Web Apps.</p>
 
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
 
+        <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>E-Commerce, Tech, Company Sites, Startups</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Experience working with industries such as E-Commerce, Tech, and Company Sites.</p>
 
-
-
-           <Media queries={{
-small: "(max-width: 599px)",
-medium: "(min-width: 600px) and (max-width: 1199px)",
-large: "(min-width: 1200px)"
-}}>
-{matches => (
- <>
-
-   {matches.small &&
-
- <Row className={styles.rowsmall}>
-
-<Col sm className={styles.fonttest}>
-<Container className={styles.fonttest}>
-
-
-<div className={styles.spaceingwhite}></div>
-
-
-<p className={styles.subtitlelargeblack}>01/ Services</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<CardGroup>
-  <Card>
-    <Card.Img variant="top" src={icon1} />
-    <Card.Body>
-      <Card.Title>User Experience and User Interface Design</Card.Title>
-      <Card.Text>
-      As a UI/UX Designer for the past 5 years, have indepth knowledge of User Interface and User Experience methodologies.
-
-      </Card.Text>
-    </Card.Body>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src={icon2} />
-    <Card.Body>
-      <Card.Title>Mobile Responsive Web App Design</Card.Title>
-      <Card.Text>
-      Knowledge of iOS, Android apps, as well as modern SPA Web Apps.
-
-      </Card.Text>
-    </Card.Body>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src={icon3} />
-    <Card.Body>
-      <Card.Title>E-Commerce, Corporate, Company Sites </Card.Title>
-      <Card.Text>
-      Experience working with industries such as E-Commerce, Corporate, and Company Sites.
-
-
-      </Card.Text>
-    </Card.Body>
-  </Card>
-</CardGroup>
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+    </CardGroup>
+    </Fade>  
 
 
 
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>02/ Principles</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<Row xs={1} md={2} className="g-4">
-
-    <Col>
-      <Card>
-        <Card.Body>
-          <Card.Title>Design First</Card.Title>
-          <Card.Text>
-            Leading with design to create the best experience for the user.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Body>
-          <Card.Title>Champion for the User</Card.Title>
-          <Card.Text>
-Advocate for the user, being the person to think about the user and to always look out for the user
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-
-</Row>
-
-
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
-<div className={styles.spaceingwhite}></div>
-
-
-
-
-
-
-<Card>
-  <Card.Header>Co-CEO</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        “John (Jae Min) Kim is a resourceful worker and a self-starter. He has a passion for his design and cod
-ing. He is great to work with and very knowledgeable about UX design, coding and graphic 
-design. I recommend his work ethics in being a team player who always loves to help others
- around him as well as his skill set and independence. He is a great addition to any company t
-hat hires him.”{' '}
-      </p>
-      <footer className="blockquote-footer">
-      Jessica Y.
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-<Card>
-  <Card.Header>Tech Worker</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        “Jaemin ‘John’  Kim helped me and my team create a virtual reality website from the groun
-d up and it was a pleasure working with him every step of the way. His skill developing the s
-ite from scratch and enthusiasm to explore new techniques to make a totally original websit
-e is one of the many reasons he is a great choice to add to any team”{' '}
-      </p>
-      <footer className="blockquote-footer">
-      Franz E. Polar Productions
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-<Card>
-  <Card.Header>Artist</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        “To whom it may concern: My name is Michael T. I am an artist out of Key West Florida. I h
-ave a website that was created in part and certainly edited and maint
-ained in different degrees with the astute and professional services of John (Jae Min) Kim. His knowled
-ge and advice has been and still is of the utmost value to myself with respect to the present
- ordering and maintenance of my site. I would recommend him to any needing such services. 
-He has conducted himself both honestly and professionally.{' '}
-      </p>
-      <footer className="blockquote-footer">
-      Sincerely”
-Michael T.
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-
-
-<Card>
-  <Card.Header as="h5">Interested in a Chat?</Card.Header>
-  <Card.Body>
-    <Card.Title>Contact Directly to get started!</Card.Title>
-    <Card.Text>
-Click on the button below to Contact Now
-    </Card.Text>
-  </Card.Body>
-  <LinkContainer to="/contact">
-                <h1>
-                  <Button className={styles.mainbutton} variant="secondary">Contact Now</Button>
-                </h1>
-              </LinkContainer>
-
-</Card>
-
-</Container>
 </Col>
-
 </Row>
-
-     }
-
-   {matches.medium &&
-
- <Row className={styles.rowmedium}>
-
-<Col sm className={styles.fonttest}>
-<Container className={styles.fonttest}>
-
-
-<div className={styles.spaceingwhite}></div>
-
-
-<p className={styles.subtitlelargeblack}>01/ Services</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<CardGroup>
-  <Card>
-    <Card.Img variant="top" src={icon1} />
-    <Card.Body>
-      <Card.Title>User Experience and User Interface Design</Card.Title>
-      <Card.Text>
-      As a UI/UX Designer for the past 5 years, have indepth knowledge of User Interface and User Experience methodologies.
-
-      </Card.Text>
-    </Card.Body>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src={icon2} />
-    <Card.Body>
-      <Card.Title>Mobile Responsive Web App Design</Card.Title>
-      <Card.Text>
-      Knowledge of iOS, Android apps, as well as modern SPA Web Apps.
-
-      </Card.Text>
-    </Card.Body>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src={icon3} />
-    <Card.Body>
-      <Card.Title>E-Commerce, Corporate, Company Sites </Card.Title>
-      <Card.Text>
-      Experience working with industries such as E-Commerce, Corporate, and Company Sites.
-
-
-      </Card.Text>
-    </Card.Body>
-  </Card>
-</CardGroup>
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>02/ Principles</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<Row xs={1} md={2} className="g-4">
-
-    <Col>
-      <Card>
-        <Card.Body>
-          <Card.Title>Design First</Card.Title>
-          <Card.Text>
-            Leading with design to create the best experience for the user.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Body>
-          <Card.Title>Champion for the User</Card.Title>
-          <Card.Text>
-Advocate for the user, being the person to think about the user and to always look out for the user
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-
-</Row>
-
-
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
-<div className={styles.spaceingwhite}></div>
-
-
-
-
-
-
-<Card>
-  <Card.Header>Co-CEO</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        “John (Jae Min) Kim is a resourceful worker and a self-starter. He has a passion for his design and cod
-ing. He is great to work with and very knowledgeable about UX design, coding and graphic 
-design. I recommend his work ethics in being a team player who always loves to help others
- around him as well as his skill set and independence. He is a great addition to any company t
-hat hires him.”{' '}
-      </p>
-      <footer className="blockquote-footer">
-      Jessica Y.
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-<Card>
-  <Card.Header>Tech Worker</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        “Jaemin ‘John’  Kim helped me and my team create a virtual reality website from the groun
-d up and it was a pleasure working with him every step of the way. His skill developing the s
-ite from scratch and enthusiasm to explore new techniques to make a totally original websit
-e is one of the many reasons he is a great choice to add to any team”{' '}
-      </p>
-      <footer className="blockquote-footer">
-      Franz E. Polar Productions
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-<Card>
-  <Card.Header>Artist</Card.Header>
-  <Card.Body>
-    <blockquote className="blockquote mb-0">
-      <p>
-        {' '}
-        “To whom it may concern: My name is Michael T. I am an artist out of Key West Florida. I h
-ave a website that was created in part and certainly edited and maint
-ained in different degrees with the astute and professional services of John (Jae Min) Kim. His knowled
-ge and advice has been and still is of the utmost value to myself with respect to the present
- ordering and maintenance of my site. I would recommend him to any needing such services. 
-He has conducted himself both honestly and professionally.{' '}
-      </p>
-      <footer className="blockquote-footer">
-      Sincerely”
-Michael T.
-      </footer>
-    </blockquote>
-  </Card.Body>
-</Card>
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-
-
-<Card>
-  <Card.Header as="h5">Interested in a Chat?</Card.Header>
-  <Card.Body>
-    <Card.Title>Contact Directly to get started!</Card.Title>
-    <Card.Text>
-Click on the button below to Contact Now
-    </Card.Text>
-  </Card.Body>
-  <LinkContainer to="/contact">
-                <h1>
-                  <Button className={styles.mainbutton} variant="secondary">Contact Now</Button>
-                </h1>
-              </LinkContainer>
-
-</Card>
-
 </Container>
+
+
+<Container className={styles.test2}>
+        <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={6}>
+
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<p className={styles.subtitlelargewhitecenter}>02/ Principles</p>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+
+<Fade>
+
+<CardGroup className={styles.backgroundgadient}>
+    <Card className={styles.backgroundtransparent}>
+   
+    <Slide direction="up">
+      
+          <p className={styles.subtitlesmallwhitecenter}>Design First</p>
+          <div className={styles.spaceing}></div>
+          <p className={styles.descriptionlargewhitebold}>Leading with design to create the best experience for the user.</p>
+          </Slide>
+    </Card>
+
+    <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Champion for the User</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Advocate for the user, being the person to think about the user and to always look out for the user</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+
+        <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Keeps up with new tech and previous tech stacks</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Adobe XD, Figma, Invison, xMind, Adobe Illustrator, Adobe Photoshop</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+
+        <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Tech Stack for Front-End Web Development</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Can use computer languages such as HTML/CSS/JS and JavaScript Front End Frameworks and Libraries such as React.JS</p>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+    </CardGroup>
+    </Fade>  
+
+
+
 </Col>
-
-
 </Row>
-     }
-
-   {matches.large &&
- <Row className={styles.rowlarge}>
-
- <Col sm className={styles.fonttest}>
-<Container className={styles.fonttest}>
-
-
-<div className={styles.spaceingwhite}></div>
-
-
-<p className={styles.subtitlelargeblack}>01/ Services</p>
-<div className={styles.spaceingwhite}></div>
-
-
-<CardGroup>
-  <Card className={styles.cardbackground}>
-    <Card.Img variant="top" src={icon1} />
-    <Card.Body >
-      <Card.Title><p className={styles.subtitlelargeblack}>UI/UX</p></Card.Title>
-      <Card.Text>
-      <p className={styles.descriptionblack}>As a UI/UX Designer, have indepth knowledge of User Interface and User Experience methodologies.</p>
-      </Card.Text>
-    </Card.Body>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src={icon2} />
-    <Card.Body>
-      <Card.Title>Mobile Responsive Web App Design and Prototyping</Card.Title>
-      <Card.Text>
-      Knowledge of iOS, Android apps, as well as modern SPA Web Apps.
-
-      </Card.Text>
-    </Card.Body>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src={icon3} />
-    <Card.Body>
-      <Card.Title>E-Commerce, Tech, Company Sites </Card.Title>
-      <Card.Text>
-      Experience working with industries such as E-Commerce, Tech, and Company Sites.
-
-
-      </Card.Text>
-    </Card.Body>
-  </Card>
-</CardGroup>
+</Container>
 
 
 
 
+<Container className={styles.test2}>
+        <Row className={styles.justifycontentcenter}>
+<Col xs={10} md={6}>
 
-<div className={styles.spaceingwhite}></div>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
+<p className={styles.subtitlelargewhitecenter}>03/ Clients Say</p>
+<div className={styles.spaceing}></div>
+<div className={styles.spaceing}></div>
 
-<p className={styles.subtitlelargeblack}>02/ Principles</p>
-<div className={styles.spaceingwhite}></div>
+<Fade>
 
-
-<Row xs={1} md={2} className="g-4">
-
-    <Col>
-      <Card>
-        <Card.Body>
-        <Image src={homepage} fluid className={styles.imgstyle} />
-          <Card.Title>Design First</Card.Title>
-          <Card.Text>
-            Leading with design to create the best experience for the user.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Body>
-        <Image src={homepage1} fluid className={styles.imgstyle} />
-          <Card.Title>Champion for the User</Card.Title>
-          <Card.Text>
-Advocate for the user, being the person to think about the user and to always look out for the user
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Body>
-        <Image src={homepage2} fluid className={styles.imgstyle} />
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-    <Col>
-      <Card>
-        <Card.Body>
-        <Image src={homepage3} fluid className={styles.imgstyle} />
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-
-</Row>
-
-
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-<p className={styles.subtitlelargeblack}>03/ Clients Say</p>
-<div className={styles.spaceingwhite}></div>
-
-
-
-<Carousel variant="dark">
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={download}
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h5>Franz E. Polar Productions</h5>
-      “Jaemin ‘John’  Kim helped me and my team create a virtual reality website from the groun
+<CardGroup className={styles.backgroundgadient}>
+    <Card className={styles.backgroundtransparent}>
+   
+    <Slide direction="up">
+      
+          <p className={styles.subtitlesmallwhitecenter}>Franz E. Polar Productions</p>
+          <div className={styles.spaceing}></div>
+          <p className={styles.descriptionlargewhitebold}> “Jaemin ‘John’  Kim helped me and my team create a virtual reality website from the groun
 d up and it was a pleasure working with him every step of the way. His skill developing the s
 ite from scratch and enthusiasm to explore new techniques to make a totally original websit
-e is one of the many reasons he is a great choice to add to any team”
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={download}
-      alt="Second slide"
-    />
-    <Carousel.Caption>
-      <h5>Sincerely” Michael T.</h5>
-      <p>“To whom it may concern: My name is Michael T. I am an artist out of Key West Florida. I h
+e is one of the many reasons he is a great choice to add to any team”</p>
+          </Slide>
+    </Card>
+
+    <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Michael T.</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>“To whom it may concern: My name is Michael T. I am an artist out of Key West Florida. I h
 ave a website that was created in part and certainly edited and maint
 ained in different degrees with the astute and professional services of John (Jae Min) Kim. His knowled
 ge and advice has been and still is of the utmost value to myself with respect to the present
  ordering and maintenance of my site. I would recommend him to any needing such services. 
 He has conducted himself both honestly and professionally."</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={download}
-      alt="Third slide"
-    />
-    <Carousel.Caption>
-      <h5>Jessica Y.</h5>
-      <p>“John (Jae Min) Kim is a resourceful worker and a self-starter. He has a passion for his design and cod
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+
+        <Card className={styles.backgroundtransparent}>
+    <Slide direction="up">
+    <p className={styles.subtitlesmallwhitecenter}>Jessica Y.</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>“John (Jae Min) Kim is a resourceful worker and a self-starter. He has a passion for his design and cod
 ing. He is great to work with and very knowledgeable about UX design, coding and graphic 
 design. I recommend his work ethics in being a team player who always loves to help others
  around him as well as his skill set and independence. He is a great addition to any company t
 hat hires him.”</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+
+    <div className={styles.spaceing}></div>
+    </Slide>
+        </Card>
+        
+        
+    </CardGroup>
+    </Fade>  
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div className={styles.spaceingwhite}></div>
-
-
-
-
-<Card>
-<video autoPlay preload="true" loop playsInline muted >
-                <source src={video}/>
-              </video>
-    <Card.Body>
-      <Card.Text>
-      Looking for Portfolio of User Interface and User Experience Case Studies?
-      </Card.Text>
-      <LinkContainer to="/legacypictures">
-                <h1>
-                  <Button className={styles.mainbutton} variant="secondary">View Portfolio</Button>
-                </h1>
-              </LinkContainer>
-
-    </Card.Body>
-  </Card>
-  <br />
-
-
-
-
-
-
-  <div className={styles.spaceingwhite}></div>
-
-
-
-
-
-
-
-<Card>
-  <Card.Header as="h5">Interested in a Chat?</Card.Header>
-  <Card.Body>
-    <Card.Title>Contact Directly to get started!</Card.Title>
-    <Card.Text>
-Click on the button below to Contact Now
-    </Card.Text>
-  </Card.Body>
-  <LinkContainer to="/contact">
-                <h1>
-                  <Button className={styles.mainbutton} variant="secondary">Contact Now</Button>
-                </h1>
-              </LinkContainer>
-
-</Card>
-
-
-</Container>
 </Col>
-
-
-
 </Row>
-     }
-
- </>
-)}
-</Media>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Container>
 
 
 
 
+<Container className={styles.test}>
+         
+
+  <iframe src="https://drive.google.com/file/d/1g6lI6wFOnKaO0r6hyPp_f6caJsjgAS7g/preview" width="100%" height="800" allow="autoplay" scrolling="no"></iframe>
+
+
+</Container>
 
 
 
