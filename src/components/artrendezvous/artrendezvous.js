@@ -65,6 +65,9 @@ export const Artrendezvous = () => (
   </Media>
   <div className={styles.backoverlay}></div>
   <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
+      <div className={styles.spaceing}></div>
+      <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>

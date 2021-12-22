@@ -96,7 +96,8 @@ export const Contact = () => (
   /* Start of JSX Fragment*/
   <>
 
-
+<div className={styles.spaceing}></div>
+      <div className={styles.spaceing}></div>
 
 
 

@@ -167,7 +167,7 @@ const getImageUrls = () => {
   return <>
 
 
-  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "0vh" }}>
+  <div style={{ display: currentLoadingState ? "block" : "none" , height: "100vh", paddingTop: "6vh" }}>
   
 
   <ProgressBar animated now={currentProgress} label={` Complete ${now}%`}/>
@@ -297,19 +297,19 @@ const getImageUrls = () => {
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[6]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[6]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[6]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
@@ -327,7 +327,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>HILLODESIGN</p>
+            <p className={styles.whitetitle}>WELCOME</p>
             </Fade>
 
 

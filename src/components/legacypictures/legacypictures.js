@@ -71,11 +71,13 @@ export const Legacypictures = () => (
     <div className={styles.backoverlay}></div>
     <div className={styles.spaceing}></div>
     <div className={styles.spaceing}></div>
+    <div className={styles.spaceing}></div>
+      <div className={styles.spaceing}></div>
     <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
         <Fade>
         <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>Case Study</span></p>
+            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CASE STUDY</span></p>
           </Slide>
         <p className={styles.subtitlesmallwhitecenter}>LEGACY PICTURES</p>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}>Web App Re-Design</span></p>
@@ -131,7 +133,7 @@ export const Legacypictures = () => (
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>Introduction</span></p>
+            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>INTRODUCTION</span></p>
           </Slide>
           <Slide direction="up">
             <p className={styles.subtitlelargewhiteleft}>Legacy Pictures</p>
@@ -168,9 +170,36 @@ export const Legacypictures = () => (
                 )}
               </Media>
             </Fade>
+            
+            <Slide direction="up">
+              <p className={styles.subtitlelargewhitecenter}>Scope of the project</p>
+            </Slide>
+            <div className={styles.spaceing}></div>
+         
+            <Slide direction="up">
+              <p className={styles.descriptionlargewhitebold}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+            </Slide>
       
+            <Slide direction="up">
+              <p className={styles.subtitlelargewhitecenter}>Writing contract with company</p>
+            </Slide>
+            <div className={styles.spaceing}></div>
+         
+            <Slide direction="up">
+              <p className={styles.descriptionlargewhitebold}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+            </Slide>
+
+            <Slide direction="up">
+              <p className={styles.subtitlelargewhitecenter}>Building Empathy</p>
+            </Slide>
+            <div className={styles.spaceing}></div>
+         
+            <Slide direction="up">
+              <p className={styles.descriptionlargewhitebold}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+            </Slide>
     </Col>
   </Row>
+  
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
@@ -203,15 +232,26 @@ export const Legacypictures = () => (
               </Media>
             </Fade>
         
+
             <Slide direction="up">
-              <p className={styles.subtitlelargewhitecenter}>Users</p>
+              <p className={styles.subtitlelargewhitecenter}>Use Case Scenarios</p>
             </Slide>
             <div className={styles.spaceing}></div>
          
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>Users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+              <p className={styles.descriptionlargewhitebold}>Videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representation of themselves on the internet, which could be a website that showcases information regarding the company.</p>
             </Slide>
          
+            <Slide direction="up">
+              <p className={styles.subtitlelargewhitecenter}>Stakeholders for the website</p>
+            </Slide>
+            <div className={styles.spaceing}></div>
+         
+            <Slide direction="up">
+              <p className={styles.descriptionlargewhitebold}>**There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.**
+
+**This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.**</p>
+            </Slide>
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
@@ -248,9 +288,15 @@ export const Legacypictures = () => (
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CHALLENGE</span></p>
+          </Slide>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>User Interface Designs</span> with Adobe XD</p>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Initial Scope</span> </p>
       </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. The initial scope was to start a redesign process for the website, as well as converting it to new UI/UX Design trends.</p>
+        </Slide>
         <div className={styles.spaceing}></div>
         <div className={styles.spaceing}></div>
     </Col>
@@ -286,21 +332,16 @@ export const Legacypictures = () => (
       </Slide>
     </Col>
   </Row>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
-      <div className={styles.spaceing}></div>
-        <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website. Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
-        </Slide>
-      <div className={styles.spaceing}></div>
-    </Col>
-  </Row>
+
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Created designs based on what</span> the redesigns of the website needed.</p>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Understanding that there are multiple stakeholders </span> </p>
       </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>As well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
+        </Slide>
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
     </Col>
@@ -339,8 +380,18 @@ export const Legacypictures = () => (
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <div className={styles.spaceing}></div>
+      <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Mobile Responsive Web Design for Desktop and Mobile Devices</span> </p>
+      </Fade>
         <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements.</p>
+          <p className={styles.descriptionlargewhitebold}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
+        </Slide>
+
+        <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Showcase Website</span> </p>
+      </Fade>
+        <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
         </Slide>
       <div className={styles.spaceing}></div>
     </Col>
@@ -376,9 +427,18 @@ export const Legacypictures = () => (
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>SOLUTION</span></p>
+          </Slide>
       <Fade>
-        <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>To understand what the needs of the company is, so being able to design it based on the previous design of the website.</span></p>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Stakeholders for the website</span></p>
       </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+        </Slide>
+        <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.</p>
+        </Slide>
         <div className={styles.spaceing}></div>
         <div className={styles.spaceing}></div>
     </Col>
@@ -418,7 +478,7 @@ export const Legacypictures = () => (
     <Col xs={10} md={4}>
       <div className={styles.spaceing}></div>
       <Fade>
-        <p className={styles.subtitlelargeblackcenter}><span className={styles.grey}>Redesigns of the UI were created and sent as deliverables. </span></p>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Redesigns of the UI were created and sent as deliverables. </span></p>
       </Fade>
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
