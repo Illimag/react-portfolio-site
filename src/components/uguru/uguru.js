@@ -907,7 +907,7 @@ export const Uguru = () => (
   <p className={styles.descriptionlargewhite}>Contact Now!</p>
 
 
-  <LinkContainer to="/profile">
+  <LinkContainer to="/Contact">
                 <p>
                   <Button className={styles.mainbutton} variant="primary">Contact Now!</Button>
                 </p>

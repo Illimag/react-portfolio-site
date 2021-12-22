@@ -692,11 +692,11 @@ export const Legacypictures = () => (
         <div className={styles.divider}/>
         <Card className={styles.cardborder}>
         <div className={styles.spaceing}></div>
-        <p className={styles.descriptionlargewhitebold}>Go to Portfolio:</p>
-        <p className={styles.descriptionlargewhite}>Go Back to Portfolio</p>
-          <LinkContainer to="/portfolio">
+        <p className={styles.descriptionlargewhitebold}>Go Home:</p>
+        <p className={styles.descriptionlargewhite}>Go Back to Home</p>
+          <LinkContainer to="/">
             <p>
-              <Button className={styles.mainbutton} variant="secondary">Go Back to Portfolio</Button>
+              <Button className={styles.mainbutton} variant="secondary">Go Back to Home</Button>
             </p>
           </LinkContainer>
         </Card>
