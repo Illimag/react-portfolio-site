@@ -434,10 +434,10 @@ export const Legacypictures = () => (
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Stakeholders for the website</span></p>
       </Fade>
       <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.</p>
+          <p className={styles.descriptionlargewhitebold}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
         </Slide>
         <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.</p>
+          <p className={styles.descriptionlargewhitebold}>Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <div className={styles.spaceing}></div>
@@ -476,12 +476,26 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-      <div className={styles.spaceing}></div>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Redesigns of the UI were created and sent as deliverables. </span></p>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Reedesign of Website</span></p>
       </Fade>
-      <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
+        </Slide>
+        <div className={styles.spaceing}></div>
+        <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+      <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Feedback from team</span></p>
+      </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
+        </Slide>
+        <div className={styles.spaceing}></div>
+        <div className={styles.spaceing}></div>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
@@ -517,10 +531,14 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
+      <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>UI Variant Iterations</span></p>
+      </Fade>
       <Slide direction="up">
-        <p className={styles.descriptionlargewhitebold}>The deliverables were Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
-      </Slide>
-        <div className={styles.spaceing}></div>`
+          <p className={styles.descriptionlargewhitebold}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
+        </Slide>
+        <div className={styles.spaceing}></div>
+        <div className={styles.spaceing}></div>
     </Col>
   </Row>
 </Container>
@@ -557,10 +575,13 @@ export const Legacypictures = () => (
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}>Starting the User Interface designs on Adobe XD were started.</p>
+        <p className={styles.subtitlelargewhitecenter}>User Interface Design</p>
       </Fade>     
       <Slide direction="up">
-        <p className={styles.descriptionlargewhitebold}>The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
+        <p className={styles.descriptionlargewhitebold}>**The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:**
+
+- **just understanding the basic layout of the website, for example the home page, etc.**
+- **Then based on the original design, a new iteration of the design can be done.**</p>
       </Slide>
     </Col>
   </Row>
@@ -600,12 +621,71 @@ export const Legacypictures = () => (
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
         <Fade>
-          <p className={styles.subtitlelargewhitecenter}>Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+          <p className={styles.subtitlelargewhitecenter}>Adobe XD for User Interface Designs</p>
         </Fade>     
         <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface. The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
+          <p className={styles.descriptionlargewhitebold}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
         </Slide>
       <div className={styles.spaceing}></div>
+      <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+      <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Usability testing for the User Interface Designs</span></p>
+      </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
+        </Slide>
+        <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.</p>
+        </Slide>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={9}>
+      <Slide direction="up">
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+          }}>
+          {matches => (
+          <>
+          {matches.small &&
+            <div>
+              <Image src={Img38} fluid className={styles.centerimage}/>
+            </div>
+          }
+          {matches.medium &&
+            <div>
+              <Image src={Img38} fluid className={styles.centerimage}/>
+            </div>
+          }
+          {matches.large &&
+            <div>
+              <Image src={Img38} fluid className={styles.centerimage}/>
+            </div>
+          }
+          </>
+          )}
+        </Media>
+      </Slide>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>RESULTS</span></p>
+          </Slide>
+      <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Redesign of the Web Application User Interface</span></p>
+      </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
+        </Slide>
+        <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
     </Col>
   </Row>
@@ -638,61 +718,77 @@ export const Legacypictures = () => (
   </Media>
   <div className={styles.backoverlay}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={12}>
-      <CardGroup>
-        <Card className={styles.backgroundtransparent}>
-          <Card.Body>
-            <Slide direction="left">
-              <Media queries={{
-                small: "(max-width: 599px)",
-                medium: "(min-width: 600px) and (max-width: 1199px)",
-                large: "(min-width: 1200px)"
-                }}>
-                {matches => (
-                <>
-                {matches.small &&
-                  <div>
-                    <Image src={Img39} fluid className={styles.centerimage}/>
-                  </div>
-                }
-                {matches.medium &&
-                  <div>
-                    <Image src={Img39} fluid className={styles.centerimage}/>
-                  </div>
-                }
-                {matches.large &&
-                  <div>
-                    <Image src={Img39} fluid className={styles.centerimage}/>
-                  </div>
-                }
-                </>
-                )}
-              </Media>
-            </Slide>
-          </Card.Body>
-        </Card>
-        <Card className={styles.backgroundtransparent}>
-          <Card.Body>
-            <Fade>
-              <p className={styles.subtitlelargewhitecenter}>A brighter idea</p>
-            </Fade>   
-              <div className={styles.spaceing}></div>
-            <Card.Text>
-            <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>There was a survey, that gained insight on various team member's thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions. Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
-            </Slide>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </CardGroup>
+    <Col xs={10} md={4}>
+      <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Adobe Creative Suite </span></p>
+      </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
+        </Slide>
+        <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Usability testing with Usabilityhub.com</span></p>
+      </Fade>
+        <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
+        </Slide>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={9}>
+      <Slide direction="up">
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+          }}>
+          {matches => (
+          <>
+          {matches.small &&
+            <div>
+              <Image src={Img38} fluid className={styles.centerimage}/>
+            </div>
+          }
+          {matches.medium &&
+            <div>
+              <Image src={Img38} fluid className={styles.centerimage}/>
+            </div>
+          }
+          {matches.large &&
+            <div>
+              <Image src={Img38} fluid className={styles.centerimage}/>
+            </div>
+          }
+          </>
+          )}
+        </Media>
+      </Slide>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}>Contract was signed between myself and Legacy Pictures</p>
+        <p className={styles.subtitlelargewhitecenter}>Starting the Rapid Prototyping</p>
       </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
+        </Slide>
       <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+      <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Getting Tests from the Users</span></p>
+      </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
+        </Slide>
+        <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Heat Map Testing</span></p>
+      </Fade>
+        <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
+        </Slide>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
@@ -728,10 +824,23 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>REFLECTION</span></p>
+          </Slide>
       <Fade>
-        <p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface. The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>More Time to explore UI and UX</span></p>
       </Fade>
+      <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
+        </Slide>
+        <Fade>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Completion of the deliverables </span></p>
+      </Fade>
+        <Slide direction="up">
+          <p className={styles.descriptionlargewhitebold}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
+        </Slide>
         <div className={styles.spaceing}></div>
+      <div className={styles.spaceing}></div>
     </Col>
   </Row>
 </Container>
