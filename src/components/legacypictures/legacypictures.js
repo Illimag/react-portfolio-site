@@ -726,7 +726,7 @@ export const Legacypictures = () => (
           <p className={styles.descriptionlargewhitebold}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
         </Slide>
         <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Usability testing with Usabilityhub.com</span></p>
+        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Usability testing</span></p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
