@@ -91,6 +91,14 @@ const Footer = () => (
               </Row>
             </Row>
       <div className={styles.spaceingblack}></div>
+
+      <a href="https://github.com/hillodesign/user_interface_and_user_experience_design_handbook">
+      <p className={styles.description}>
+      User Interface and User Experience Design Handbook
+        </p>
+                  </a>
+
+      <div className={styles.spaceingblack}></div>
         <p className={styles.description}>
             HILLODESIGN 2022
         </p>
