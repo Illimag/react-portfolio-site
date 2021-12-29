@@ -2286,9 +2286,19 @@ header {
     #home-header a:first-of-type, #page-header a:first-of-type {
       margin-right: 20px; }
   #home-header img.main-img, #page-header img.main-img {
-    position: absolute;
-    right: 50px;
-    bottom: -120px; }
+
+
+  
+  }
+
+.test{
+  display: block !important;
+  position: relative !important;
+  width: 20rem;
+  height: 30rem;
+}
+
+
     @media screen and (max-width: 991px) {
       #home-header img.main-img, #page-header img.main-img {
         display: none; } }
