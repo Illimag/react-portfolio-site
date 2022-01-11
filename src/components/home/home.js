@@ -1,11 +1,8 @@
 import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 
-
-
 import { Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
-
 
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
