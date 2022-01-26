@@ -35,7 +35,6 @@
 }
 
 .description{
-
     text-align: center;
     font-size: .9rem;
     margin-bottom: 1% !important;
@@ -45,6 +44,19 @@
     letter-spacing: -1px;
     margin-top: 2%;
 }
+
+.descriptionunderline{
+    text-decoration: underline;
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 1% !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color:#fff !important;
+    letter-spacing: -1px;
+    margin-top: 2%;
+}
+
 
 
 .titletext{

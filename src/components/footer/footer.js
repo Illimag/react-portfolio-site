@@ -93,7 +93,7 @@ const Footer = () => (
       <div className={styles.spaceingblack}></div>
 
       <a href="https://hillodesign.com/ebook">
-      <p className={styles.description}>
+      <p className={styles.descriptionunderline}>
       User Interface and User Experience Design Handbook
         </p>
                   </a>
