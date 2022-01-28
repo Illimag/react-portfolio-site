@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.c370df0e.chunk.css",
-    "main.js": "/static/js/main.9313931f.chunk.js",
-    "main.js.map": "/static/js/main.9313931f.chunk.js.map",
+    "main.js": "/static/js/main.e6ac7d62.chunk.js",
+    "main.js.map": "/static/js/main.e6ac7d62.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.46b578d6.chunk.css": "/static/css/2.46b578d6.chunk.css",
     "static/js/2.fa1317b6.chunk.js": "/static/js/2.fa1317b6.chunk.js",
     "static/js/2.fa1317b6.chunk.js.map": "/static/js/2.fa1317b6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2ad134a59e8cf773f7eb0fa844ef6d74.js": "/precache-manifest.2ad134a59e8cf773f7eb0fa844ef6d74.js",
+    "precache-manifest.71c26063df3c83d3a3a58e7c04ededff.js": "/precache-manifest.71c26063df3c83d3a3a58e7c04ededff.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.46b578d6.chunk.css.map": "/static/css/2.46b578d6.chunk.css.map",
     "static/css/main.c370df0e.chunk.css.map": "/static/css/main.c370df0e.chunk.css.map",
@@ -55,7 +55,6 @@
     "static/media/MacBook Pro Mockup (Dark & Light).82576b5c.png": "/static/media/MacBook Pro Mockup (Dark & Light).82576b5c.png",
     "static/media/MacBook Pro Mockup.52a87d85.png": "/static/media/MacBook Pro Mockup.52a87d85.png",
     "static/media/Mobile-Mockup.89cb3338.png": "/static/media/Mobile-Mockup.89cb3338.png",
-    "static/media/Untitled-1-01.234938e6.png": "/static/media/Untitled-1-01.234938e6.png",
     "static/media/Website-User-scenario-workflow.e9e2ac6c.png": "/static/media/Website-User-scenario-workflow.e9e2ac6c.png",
     "static/media/XDR Mockup.ed9b5e81.png": "/static/media/XDR Mockup.ed9b5e81.png",
     "static/media/artrendezpicturemobile.d473c667.jpg": "/static/media/artrendezpicturemobile.d473c667.jpg",
@@ -112,6 +111,7 @@
     "static/media/legacyfilms.15a22d82.png": "/static/media/legacyfilms.15a22d82.png",
     "static/media/legacypicturesbackground-01.fc1705dc.jpg": "/static/media/legacypicturesbackground-01.fc1705dc.jpg",
     "static/media/legacypicturesbackground-02.efae8113.jpg": "/static/media/legacypicturesbackground-02.efae8113.jpg",
+    "static/media/legacypicturesimg1.02d2d198.png": "/static/media/legacypicturesimg1.02d2d198.png",
     "static/media/ll.mp4": "/static/media/ll.619d8298.mp4",
     "static/media/logo.gif": "/static/media/logo.1d5e2b21.gif",
     "static/media/los-angeles-california-P5YD66H.23421950.jpg": "/static/media/los-angeles-california-P5YD66H.23421950.jpg",
@@ -169,6 +169,6 @@
     "static/css/2.46b578d6.chunk.css",
     "static/js/2.fa1317b6.chunk.js",
     "static/css/main.c370df0e.chunk.css",
-    "static/js/main.9313931f.chunk.js"
+    "static/js/main.e6ac7d62.chunk.js"
   ]
 }
