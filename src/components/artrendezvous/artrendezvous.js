@@ -77,7 +77,7 @@ export const Artrendezvous = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={4}>
+    <Col xs={12} md={10}>
       <div className={styles.spaceing}></div>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -160,7 +160,7 @@ export const Artrendezvous = () => (
   </Row>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
+    <Col xs={12} md={10}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
           <Slide direction="up">
@@ -229,7 +229,7 @@ export const Artrendezvous = () => (
   </Row>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
+    <Col xs={12} md={10}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
           <Slide direction="up">
@@ -326,7 +326,7 @@ export const Artrendezvous = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={8}>
+    <Col xs={12} md={10}>
       <Slide direction="up">
         <Media queries={{
           small: "(max-width: 599px)",
@@ -412,7 +412,7 @@ export const Artrendezvous = () => (
   </Row>
 <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
+    <Col xs={12} md={10}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
           <Slide direction="up">
@@ -529,10 +529,10 @@ export const Artrendezvous = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={3}>
+    <Col xs={12} md={10}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
-          <Slide direction="up">
+          <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
               medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -552,7 +552,7 @@ export const Artrendezvous = () => (
               </>
               )}
             </Media>
-          </Slide>
+          </Fade>
         </Card>
       </CardGroup>
     </Col>
@@ -604,10 +604,10 @@ export const Artrendezvous = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={3}>
+    <Col xs={12} md={10}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
-          <Slide direction="up">
+          <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
               medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -627,7 +627,7 @@ export const Artrendezvous = () => (
               </>
               )}
             </Media>
-          </Slide>
+          </Fade>
         </Card>
       </CardGroup>
     </Col>
@@ -676,8 +676,8 @@ export const Artrendezvous = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={3}>
-      <Slide direction="up">
+    <Col xs={12} md={10}>
+      <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -697,7 +697,7 @@ export const Artrendezvous = () => (
           </>
           )}
         </Media>
-      </Slide>
+      </Fade>
     </Col>
   </Row>
 <div className={styles.spaceing}></div>
@@ -719,8 +719,8 @@ export const Artrendezvous = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={3}>
-      <Slide direction="up">
+    <Col xs={12} md={10}>
+      <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -740,7 +740,7 @@ export const Artrendezvous = () => (
           </>
           )}
         </Media>
-      </Slide>
+      </Fade>
     </Col>
   </Row>
 </Container>

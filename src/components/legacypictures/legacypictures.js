@@ -10,7 +10,7 @@ import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Img17 from '../../assets/img/legacypictures/5.PNG';
-import Img31 from '../../assets/img/legacypictures/Untitled-1-01.png';
+import Img31 from '../../assets/legacypicturesimg1.png';
 import Img32 from '../../assets/MacBook Pro Mockup.png';
 import Img35 from '../../assets/businesswoman-planning-with-adhesive-notes-on-glas-JX7K3ZV.jpg';
 import Img36 from '../../assets/testimg-01-min.png';
@@ -74,7 +74,7 @@ export const Legacypictures = () => (
     <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
     <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
         <Fade>
         <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CASE STUDY</span></p>
@@ -96,8 +96,8 @@ export const Legacypictures = () => (
     </Col>
   </Row>
     <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
-        <Slide direction="up">
+    <Col xs={12} md={10}>
+        <Fade>
           <Media queries={{
             small: "(max-width: 599px)",
             medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -123,7 +123,7 @@ export const Legacypictures = () => (
             </>
             )}
           </Media>
-        </Slide>
+        </Fade>
         <div className={styles.spaceing}></div>
     </Col>
   </Row>
@@ -131,7 +131,7 @@ export const Legacypictures = () => (
 
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>INTRODUCTION</span></p>
           </Slide>
@@ -142,7 +142,11 @@ export const Legacypictures = () => (
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commercials around the world.</p>
           </Slide>
+          </Col>
+  </Row>
 
+          <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={10}>
             <Fade>
               <Media queries={{
                 small: "(max-width: 599px)",
@@ -170,7 +174,10 @@ export const Legacypictures = () => (
                 )}
               </Media>
             </Fade>
-            
+            </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={6}>
             <Slide direction="up">
               <p className={styles.subtitlelargewhitecenter}>Scope of the project</p>
             </Slide>
@@ -202,7 +209,7 @@ export const Legacypictures = () => (
   
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={10}>
 
             <Fade>
               <Media queries={{
@@ -231,8 +238,11 @@ export const Legacypictures = () => (
                 )}
               </Media>
             </Fade>
-        
-
+            </Col>
+  </Row>
+  
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={6}>
             <Slide direction="up">
               <p className={styles.subtitlelargewhitecenter}>Use Case Scenarios</p>
             </Slide>
@@ -287,7 +297,7 @@ export const Legacypictures = () => (
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CHALLENGE</span></p>
           </Slide>
@@ -302,7 +312,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
+    <Col xs={12} md={10}>
       <Slide direction="up">
         <Media queries={{
           small: "(max-width: 599px)",
@@ -335,7 +345,7 @@ export const Legacypictures = () => (
 
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Understanding that there are multiple stakeholders </span> </p>
       </Fade>
@@ -347,7 +357,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
+    <Col xs={12} md={10}>
       <Slide direction="up">
         <Media queries={{
           small: "(max-width: 599px)",
@@ -378,7 +388,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <div className={styles.spaceing}></div>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Mobile Responsive Web Design for Desktop and Mobile Devices</span> </p>
@@ -426,7 +436,7 @@ export const Legacypictures = () => (
   <div className={styles.backoverlay}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>SOLUTION</span></p>
           </Slide>
@@ -444,7 +454,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={4}>
+    <Col xs={12} md={10}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -475,7 +485,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Reedesign of Website</span></p>
       </Fade>
@@ -487,7 +497,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Feedback from team</span></p>
       </Fade>
@@ -499,7 +509,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={4}>
+    <Col xs={12} md={10}>
       <Slide direction="up">
         <Media queries={{
           small: "(max-width: 599px)",
@@ -530,7 +540,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>UI Variant Iterations</span></p>
       </Fade>
@@ -573,7 +583,7 @@ export const Legacypictures = () => (
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}>User Interface Design</p>
       </Fade>     
@@ -586,7 +596,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={9}>
+    <Col xs={12} md={10}>
       <Slide direction="up">
         <Media queries={{
           small: "(max-width: 599px)",
@@ -617,7 +627,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
         <Fade>
@@ -631,7 +641,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Usability testing for the User Interface Designs</span></p>
       </Fade>
@@ -644,7 +654,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={9}>
+    <Col xs={12} md={10}>
       <Slide direction="up">
         <Media queries={{
           small: "(max-width: 599px)",
@@ -675,7 +685,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>RESULTS</span></p>
           </Slide>
@@ -718,7 +728,7 @@ export const Legacypictures = () => (
   </Media>
   <div className={styles.backoverlay}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Adobe Creative Suite </span></p>
       </Fade>
@@ -734,7 +744,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={9}>
+    <Col xs={12} md={10}>
       <Slide direction="up">
         <Media queries={{
           small: "(max-width: 599px)",
@@ -765,7 +775,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}>Starting the Rapid Prototyping</p>
       </Fade>
@@ -776,7 +786,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Getting Tests from the Users</span></p>
       </Fade>
@@ -792,7 +802,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
+    <Col xs={12} md={10}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -823,7 +833,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
+    <Col xs={10} md={6}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>REFLECTION</span></p>
           </Slide>

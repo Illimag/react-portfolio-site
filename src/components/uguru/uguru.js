@@ -75,7 +75,7 @@ export const Uguru = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
+    <Col xs={12} md={10}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -111,23 +111,43 @@ export const Uguru = () => (
 
 <div className={styles.spaceing}></div>
 
+
+
 <Row className={styles.justifycontentcenter}>
 <Col xs={10} md={4}>
 
 
 <Fade>
-<CardGroup className={styles.backgroundgadient}>
-    <Card className={styles.backgroundtransparent}>
-    <Slide direction="up">
-          <p className={styles.subtitlesmallwhitecenter}>The product that they were developing was a mobile Application for college students.</p>
-          <div className={styles.spaceing}></div>
-          <p className={styles.descriptionlargewhitebold}>It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building. </p>
-          </Slide>
-    </Card>
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>The product that they were developing was a mobile Application for college students.</span></p>
+</Fade>   
+<div className={styles.spaceing}></div>
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
 
-    <Card className={styles.backgroundtransparent}>
-    <Slide direction="up">
-    <Media queries={{
+      <Slide direction="up">
+<p className={styles.descriptionlargewhitebold}><span className={styles.grey}></span>It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building.</p>
+</Slide>
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+<Row className={styles.justifycontentcenter}>
+<Col xs={12} md={10}>
+
+<Fade>
+<Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
           large: "(min-width: 1200px)"
@@ -136,34 +156,35 @@ export const Uguru = () => (
             <>
 
               {matches.small &&
-                    <Image src={Img35} fluid className={styles.centerimage}/>
+                    <Image src={Img38} fluid className={styles.centerimage}/>
   
                 }
 
               {matches.medium &&
-                  <Image src={Img35} fluid className={styles.centerimage}/>
+                  <Image src={Img38} fluid className={styles.centerimage}/>
     
                 }
 
               {matches.large &&
                
-               <Image src={Img35} fluid className={styles.centerimage}/>
+               <Image src={Img38} fluid className={styles.centerimage}/>
 
                 }
 
             </>
           )}
         </Media>
-    </Slide>
-    </Card>
-    </CardGroup>
-    </Fade>  
+            </Fade>
 
-
-
-</Col>
+            </Col>
 </Row>
+
+
+
 </Container>
+
+
+
 
 
 
@@ -244,12 +265,12 @@ export const Uguru = () => (
 </Row>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
-<Col xs={10} md={4}>
+<Col xs={10} md={10}>
 <Fade>
 <CardGroup className={styles.backgroundgadient}>
     <Card className={styles.backgroundtransparent}>
       <Card.Body>
-      <Slide direction="up">
+      <Fade>
       <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -277,23 +298,7 @@ export const Uguru = () => (
             </>
           )}
         </Media>
-        </Slide>
-      </Card.Body>
-    </Card>
-
-    <Card className={styles.backgroundtransparent}>
-      <Card.Body>
-        <Card.Title>
-        <Slide direction="up">
-        <p className={styles.subtitlelargewhitecenter}>There was a ad that was looking for someone to be an office admin worker.</p>
-        </Slide>
-        </Card.Title>
-        <div className={styles.spaceing}></div>
-        <Card.Text>
-        <Slide direction="up">     
-        <p className={styles.descriptionlargewhitebold}>After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
-        </Slide>
-            </Card.Text>
+        </Fade>
       </Card.Body>
     </Card>
     </CardGroup>
@@ -302,6 +307,73 @@ export const Uguru = () => (
 </Row>
 
 <div className={styles.spaceing}></div>
+
+<Row className={styles.justifycontentcenter}>
+<Col xs={10} md={4}>
+
+
+<Fade>
+<p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>There was a ad that was looking for someone to be an office admin worker.</span></p>
+</Fade>   
+<div className={styles.spaceing}></div>
+<CardGroup className={styles.backgroundtransparent}>
+      <Card className={styles.backgroundtransparent}>
+
+      <Slide direction="up">
+<p className={styles.descriptionlargewhitebold}><span className={styles.grey}></span>After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
+</Slide>
+<div className={styles.spaceing}></div>
+
+    
+      </Card>
+
+      <Card className={styles.backgroundtransparent}>
+
+      </Card>
+      </CardGroup>
+
+
+
+
+</Col>
+</Row>
+
+<Row className={styles.justifycontentcenter}>
+<Col xs={12} md={10}>
+
+<Fade>
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <>
+
+              {matches.small &&
+                    <Image src={Img38} fluid className={styles.centerimage}/>
+  
+                }
+
+              {matches.medium &&
+                  <Image src={Img38} fluid className={styles.centerimage}/>
+    
+                }
+
+              {matches.large &&
+               
+               <Image src={Img38} fluid className={styles.centerimage}/>
+
+                }
+
+            </>
+          )}
+        </Media>
+            </Fade>
+
+            </Col>
+</Row>
+
 
 </Container>
 
@@ -399,9 +471,9 @@ export const Uguru = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={3}>
+<Col xs={12} md={10}>
 
-<Slide direction="up">
+<Fade>
 <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -429,7 +501,7 @@ export const Uguru = () => (
             </>
           )}
         </Media>
-            </Slide>
+            </Fade>
 
             </Col>
 </Row>
@@ -541,9 +613,9 @@ export const Uguru = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={3}>
+<Col xs={12} md={10}>
 
-<Slide direction="up">
+<Fade>
 <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -571,7 +643,7 @@ export const Uguru = () => (
             </>
           )}
         </Media>
-            </Slide>
+            </Fade>
 
             </Col>
 </Row>
@@ -685,9 +757,9 @@ export const Uguru = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={3}>
+<Col xs={12} md={10}>
 
-<Slide direction="up">
+<Fade>
 <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -715,7 +787,7 @@ export const Uguru = () => (
             </>
           )}
         </Media>
-            </Slide>
+            </Fade>
 
             </Col>
 </Row>
@@ -807,14 +879,14 @@ export const Uguru = () => (
 
 
 <Row className={styles.justifycontentcenter}>
-<Col xs={12} md={3}>
+<Col xs={12} md={10}>
 
 
 
 <CardGroup className={styles.backgroundtransparent}>
 
       <Card className={styles.backgroundtransparent}>
-      <Slide direction="up">
+      <Fade>
       <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -842,7 +914,7 @@ export const Uguru = () => (
             </>
           )}
         </Media>
-      </Slide>
+      </Fade>
       </Card>
       </CardGroup>
 
