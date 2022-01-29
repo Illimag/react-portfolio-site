@@ -15,10 +15,16 @@ import Img32 from '../../assets/laptop-light.png';
 import Img35 from '../../assets/businesswoman-planning-with-adhesive-notes-on-glas-JX7K3ZV.jpg';
 import Img36 from '../../assets/testimg-01-min.png';
 import Img37 from '../../assets/testimg-02-min.png';
-import Img38 from '../../assets/testimg-03.png';
+import Img38 from '../../assets/img/legacypictures/Capture.PNG';
 import Img39 from '../../assets/testtest-01.png';
-import Img40 from '../../assets/img/legacypictures/ttt-01.png';
+import Img40 from '../../assets/legacypicturesimg1.png';
 import Img41 from '../../assets/img/legacypictures/sanchezcoffee-01.png';
+import Img42 from '../../assets/img/legacypictures/heatmap1.png';
+import Img43 from '../../assets/img/legacypictures/test1.png';
+import Img44 from '../../assets/img/legacypictures/3.PNG';
+import Img45 from '../../assets/img/legacypictures/Mobile-Mockup.png';
+import Img46 from '../../assets/img/legacypictures/4.PNG';
+
 import styles from '../css/style.module.css';
 import '../css/style.css';
 import PreloadLegacy from '../../assets/smarttvtest1.png';
@@ -74,8 +80,7 @@ export const Legacypictures = () => (
     <div className={styles.backoverlay}></div>
     <div className={styles.spaceing}></div>
     <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
+
     <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={6}>
         <Fade>
@@ -463,7 +468,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
+    <Col xs={12} md={6}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -474,17 +479,17 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <Image src={Img40} fluid className={styles.centerimage}/>
+              <Image src={Img43} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.medium &&
             <div>
-              <Image src={Img40} fluid className={styles.centerimage}/>
+              <Image src={Img43} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.large &&
             <div>
-              <Image src={Img40} fluid className={styles.centerimage}/>
+              <Image src={Img43} fluid className={styles.centerimage}/>
             </div>
           }
           </>
@@ -518,7 +523,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
+    <Col xs={12} md={6}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -529,17 +534,17 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <Image src={Img41} fluid className={styles.centerimage}/>
+              <Image src={Img44} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.medium &&
             <div>
-              <Image src={Img41} fluid className={styles.centerimage}/>
+              <Image src={Img44} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.large &&
             <div>
-              <Image src={Img41} fluid className={styles.centerimage}/>
+              <Image src={Img44} fluid className={styles.centerimage}/>
             </div>
           }
           </>
@@ -604,6 +609,8 @@ export const Legacypictures = () => (
       </Slide>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
       <Fade>
@@ -616,17 +623,17 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <Image src={Img38} fluid className={styles.centerimage}/>
+              <Image src={Img45} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.medium &&
             <div>
-              <Image src={Img38} fluid className={styles.centerimage}/>
+              <Image src={Img45} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.large &&
             <div>
-              <Image src={Img38} fluid className={styles.centerimage}/>
+              <Image src={Img45} fluid className={styles.centerimage}/>
             </div>
           }
           </>
@@ -662,8 +669,10 @@ export const Legacypictures = () => (
         </Slide>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
+    <Col xs={12} md={4}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -752,8 +761,10 @@ export const Legacypictures = () => (
         </Slide>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
+    <Col xs={12} md={4}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -764,17 +775,17 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <Image src={Img38} fluid className={styles.centerimage}/>
+              <Image src={Img42} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.medium &&
             <div>
-              <Image src={Img38} fluid className={styles.centerimage}/>
+              <Image src={Img42} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.large &&
             <div>
-              <Image src={Img38} fluid className={styles.centerimage}/>
+              <Image src={Img42} fluid className={styles.centerimage}/>
             </div>
           }
           </>
@@ -810,8 +821,10 @@ export const Legacypictures = () => (
         </Slide>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
+    <Col xs={12} md={6}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -822,17 +835,17 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <Image src={Img37} fluid className={styles.centerimage}/>
+              <Image src={Img46} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.medium &&
             <div>
-              <Image src={Img37} fluid className={styles.centerimage}/>
+              <Image src={Img46} fluid className={styles.centerimage}/>
             </div>
           }
           {matches.large &&
             <div>
-              <Image src={Img37} fluid className={styles.centerimage}/>
+              <Image src={Img46} fluid className={styles.centerimage}/>
             </div>
           }
           </>
