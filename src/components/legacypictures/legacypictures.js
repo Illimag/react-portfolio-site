@@ -11,7 +11,7 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Img17 from '../../assets/img/legacypictures/5.PNG';
 import Img31 from '../../assets/legacypicturesimg1.png';
-import Img32 from '../../assets/MacBook Pro Mockup.png';
+import Img32 from '../../assets/laptop-light.png';
 import Img35 from '../../assets/businesswoman-planning-with-adhesive-notes-on-glas-JX7K3ZV.jpg';
 import Img36 from '../../assets/testimg-01-min.png';
 import Img37 from '../../assets/testimg-02-min.png';
@@ -36,6 +36,9 @@ import BackgroundTestMobile2 from '../../assets/img/legacypictures/portfoliopiec
 import BackgroundTestMobile3 from '../../assets/img/legacypictures/portfoliopiecebackground-04.jpg';
 import BackgroundTestMobile4 from '../../assets/img/legacypictures/portfoliopiecebackground-05.jpg';
 import Media from 'react-media';
+
+import video from '../../assets/vids/compressed_vid/vid7.mp4';
+
 
 export const Legacypictures = () => (
   /* Start of JSX Fragment*/
@@ -323,17 +326,23 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <Image src={Img17} fluid className={styles.centerimage}/>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video}/>
+              </video>
             </div>
           }
           {matches.medium &&
             <div>
-              <Image src={Img17} fluid className={styles.centerimage}/>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video}/>
+              </video>
             </div>
           }
           {matches.large &&
             <div>
-              <Image src={Img17} fluid className={styles.centerimage}/>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video}/>
+              </video>
             </div>
           }
           </>
