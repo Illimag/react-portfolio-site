@@ -313,7 +313,7 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <Slide direction="up">
+      <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -339,7 +339,7 @@ export const Legacypictures = () => (
           </>
           )}
         </Media>
-      </Slide>
+      </Fade>
     </Col>
   </Row>
 
@@ -358,7 +358,7 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <Slide direction="up">
+      <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -384,7 +384,7 @@ export const Legacypictures = () => (
           </>
           )}
         </Media>
-      </Slide>
+      </Fade>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
@@ -510,7 +510,7 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <Slide direction="up">
+      <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -536,7 +536,7 @@ export const Legacypictures = () => (
           </>
           )}
         </Media>
-      </Slide>
+      </Fade>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
@@ -597,7 +597,7 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <Slide direction="up">
+      <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -623,7 +623,7 @@ export const Legacypictures = () => (
           </>
           )}
         </Media>
-      </Slide>
+      </Fade>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
@@ -655,7 +655,7 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <Slide direction="up">
+      <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -681,7 +681,7 @@ export const Legacypictures = () => (
           </>
           )}
         </Media>
-      </Slide>
+      </Fade>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
@@ -745,7 +745,7 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <Slide direction="up">
+      <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -771,7 +771,7 @@ export const Legacypictures = () => (
           </>
           )}
         </Media>
-      </Slide>
+      </Fade>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>

@@ -163,7 +163,7 @@ export const Artrendezvous = () => (
     <Col xs={12} md={10}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
-          <Slide direction="up">
+          <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
               medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -183,10 +183,10 @@ export const Artrendezvous = () => (
               </>
               )}
             </Media>
-          </Slide>
+          </Fade>
         </Card>
         <Card className={styles.backgroundtransparent}>
-          <Slide direction="up">
+          <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
               medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -206,7 +206,7 @@ export const Artrendezvous = () => (
               </>
               )}
             </Media>
-          </Slide>
+          </Fade>
         </Card>
       </CardGroup>
     </Col>
@@ -232,7 +232,7 @@ export const Artrendezvous = () => (
     <Col xs={12} md={10}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
-          <Slide direction="up">
+          <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
               medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -252,10 +252,10 @@ export const Artrendezvous = () => (
               </>
               )}
             </Media>
-          </Slide>
+          </Fade>
         </Card>
         <Card className={styles.backgroundtransparent}>
-          <Slide direction="up">
+          <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
               medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -275,7 +275,7 @@ export const Artrendezvous = () => (
               </>
               )}
             </Media>
-          </Slide>
+          </Fade>
         </Card>
       </CardGroup>
     </Col>
@@ -327,7 +327,7 @@ export const Artrendezvous = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <Slide direction="up">
+      <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -347,7 +347,7 @@ export const Artrendezvous = () => (
           </>
           )}
           </Media>
-      </Slide>
+      </Fade>
     </Col>
   </Row>
 <div className={styles.spaceing}></div>
@@ -415,7 +415,7 @@ export const Artrendezvous = () => (
     <Col xs={12} md={10}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
-          <Slide direction="up">
+          <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
               medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -435,10 +435,10 @@ export const Artrendezvous = () => (
               </>
               )}
             </Media>
-          </Slide>
+          </Fade>
         </Card>
         <Card className={styles.backgroundtransparent}>
-          <Slide direction="up">
+          <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
               medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -458,7 +458,7 @@ export const Artrendezvous = () => (
               </>
               )}
             </Media>
-          </Slide>
+          </Fade>
         </Card>
       </CardGroup>
     </Col>
