@@ -82,7 +82,7 @@ export const Legacypictures = () => (
     <div className={styles.spaceing}></div>
 
     <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
         <Fade>
         <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CASE STUDY</span></p>
@@ -100,11 +100,12 @@ export const Legacypictures = () => (
             <p className={styles.descriptionlargewhitebold}>Location: <span className={styles.grey}>Los Angeles, CA</span></p>
           </Slide>
           <div className={styles.spaceing}></div>
+          <div className={styles.spaceing}></div>
         </Fade>           
     </Col>
   </Row>
     <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
+    <Col xs={12} md={8}>
         <Fade>
           <Media queries={{
             small: "(max-width: 599px)",
@@ -139,14 +140,13 @@ export const Legacypictures = () => (
 
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>INTRODUCTION</span></p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.subtitlelargewhiteleft}>Legacy Pictures</p>
+            <p className={styles.subtitlelargewhitecenter}>Legacy Pictures</p>
           </Slide>
-            <div className={styles.spaceing}></div>
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commercials around the world.</p>
           </Slide>
@@ -185,36 +185,34 @@ export const Legacypictures = () => (
             </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
+    <div className={styles.spaceing}></div>
+    <div className={styles.spaceing}></div>
             <Slide direction="up">
               <p className={styles.subtitlelargewhitecenter}>Scope of the project</p>
             </Slide>
-            <div className={styles.spaceing}></div>
-         
             <Slide direction="up">
               <p className={styles.descriptionlargewhitebold}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
             </Slide>
-      
+            <div className={styles.spaceing}></div>
             <Slide direction="up">
               <p className={styles.subtitlelargewhitecenter}>Writing contract with company</p>
             </Slide>
-            <div className={styles.spaceing}></div>
-         
+
             <Slide direction="up">
               <p className={styles.descriptionlargewhitebold}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
             </Slide>
-
+            <div className={styles.spaceing}></div>
             <Slide direction="up">
               <p className={styles.subtitlelargewhitecenter}>Building Empathy</p>
             </Slide>
-            <div className={styles.spaceing}></div>
          
             <Slide direction="up">
               <p className={styles.descriptionlargewhitebold}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
             </Slide>
     </Col>
   </Row>
-  
+  <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={10}>
@@ -248,22 +246,21 @@ export const Legacypictures = () => (
             </Fade>
             </Col>
   </Row>
-  
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
             <Slide direction="up">
               <p className={styles.subtitlelargewhitecenter}>Use Case Scenarios</p>
             </Slide>
-            <div className={styles.spaceing}></div>
-         
+
             <Slide direction="up">
               <p className={styles.descriptionlargewhitebold}>Videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representation of themselves on the internet, which could be a website that showcases information regarding the company.</p>
             </Slide>
-         
+                     <div className={styles.spaceing}></div>
             <Slide direction="up">
               <p className={styles.subtitlelargewhitecenter}>Stakeholders for the website</p>
             </Slide>
-            <div className={styles.spaceing}></div>
          
             <Slide direction="up">
               <p className={styles.descriptionlargewhitebold}>**There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.**
@@ -272,6 +269,7 @@ export const Legacypictures = () => (
             </Slide>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
 </Container>
 <Container fluid className={styles.test}>
@@ -305,7 +303,7 @@ export const Legacypictures = () => (
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CHALLENGE</span></p>
           </Slide>
@@ -356,10 +354,10 @@ export const Legacypictures = () => (
       </Fade>
     </Col>
   </Row>
-
+  <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Understanding that there are multiple stakeholders </span> </p>
       </Fade>
@@ -402,7 +400,8 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
+      <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Mobile Responsive Web Design for Desktop and Mobile Devices</span> </p>
@@ -410,13 +409,14 @@ export const Legacypictures = () => (
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
         </Slide>
-
+        <div className={styles.spaceing}></div>
         <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Showcase Website</span> </p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
         </Slide>
+      <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
     </Col>
   </Row>
@@ -449,8 +449,9 @@ export const Legacypictures = () => (
   </Media>
   <div className={styles.backoverlay}></div>
   <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>SOLUTION</span></p>
           </Slide>
@@ -498,8 +499,10 @@ export const Legacypictures = () => (
       </Fade>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Reedesign of Website</span></p>
       </Fade>
@@ -507,11 +510,10 @@ export const Legacypictures = () => (
           <p className={styles.descriptionlargewhitebold}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
         </Slide>
         <div className={styles.spaceing}></div>
-        <div className={styles.spaceing}></div>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Feedback from team</span></p>
       </Fade>
@@ -553,15 +555,16 @@ export const Legacypictures = () => (
       </Fade>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>UI Variant Iterations</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
         </Slide>
-        <div className={styles.spaceing}></div>
         <div className={styles.spaceing}></div>
     </Col>
   </Row>
@@ -595,9 +598,8 @@ export const Legacypictures = () => (
     </Media>
     <div className={styles.backoverlay}></div>
   <div className={styles.spaceing}></div>
-  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}>User Interface Design</p>
       </Fade>     
@@ -643,7 +645,7 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
         <Fade>
@@ -653,11 +655,10 @@ export const Legacypictures = () => (
           <p className={styles.descriptionlargewhitebold}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
         </Slide>
       <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Usability testing for the User Interface Designs</span></p>
       </Fade>
@@ -672,7 +673,7 @@ export const Legacypictures = () => (
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={4}>
+    <Col xs={12} md={5}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -702,8 +703,10 @@ export const Legacypictures = () => (
       </Fade>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>RESULTS</span></p>
           </Slide>
@@ -713,7 +716,6 @@ export const Legacypictures = () => (
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
         </Slide>
-        <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
     </Col>
   </Row>
@@ -745,14 +747,16 @@ export const Legacypictures = () => (
     )}
   </Media>
   <div className={styles.backoverlay}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Adobe Creative Suite </span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
         </Slide>
+        <div className={styles.spaceing}></div>
         <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Usability testing</span></p>
       </Fade>
@@ -764,7 +768,7 @@ export const Legacypictures = () => (
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={4}>
+    <Col xs={12} md={5}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -794,8 +798,10 @@ export const Legacypictures = () => (
       </Fade>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}>Starting the Rapid Prototyping</p>
       </Fade>
@@ -806,13 +812,14 @@ export const Legacypictures = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Getting Tests from the Users</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
         </Slide>
+        <div className={styles.spaceing}></div>
         <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Heat Map Testing</span></p>
       </Fade>
@@ -854,8 +861,10 @@ export const Legacypictures = () => (
       </Fade>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={6}>
+    <Col xs={10} md={4}>
     <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>REFLECTION</span></p>
           </Slide>
@@ -865,6 +874,7 @@ export const Legacypictures = () => (
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
         </Slide>
+        <div className={styles.spaceing}></div>
         <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Completion of the deliverables </span></p>
       </Fade>
@@ -872,7 +882,7 @@ export const Legacypictures = () => (
           <p className={styles.descriptionlargewhitebold}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
         </Slide>
         <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
+        <div className={styles.spaceing}></div>
     </Col>
   </Row>
 </Container>
