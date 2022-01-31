@@ -18,7 +18,7 @@ import Img37 from '../../assets/Flat.png';
 import Img38 from '../../assets/phonetop-01.png';
 import Media from 'react-media';
 import PreloadArt from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
-import PreloadArt1 from '../../assets/handheld.png';
+import PreloadArt1 from '../../assets/mobile-01.png';
 import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';
 import PreloadArtBackgroundImageTest from '../../assets/img/art/back-02-min.jpg';
 import PreloadArtBackgroundImageTestMobile from '../../assets/img/art/back-11-min.jpg';
@@ -66,8 +66,6 @@ export const Artrendezvous = () => (
   <div className={styles.backoverlay}></div>
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
-      <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
@@ -77,8 +75,7 @@ export const Artrendezvous = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
-      <div className={styles.spaceing}></div>
+    <Col xs={12} md={8}>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -102,7 +99,6 @@ export const Artrendezvous = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-      <div className={styles.spaceing}></div>
         <Fade>
           <p className={styles.subtitlelargewhitecenter}>Social media community integrated into an interface showcasing artworks.</p>
         </Fade>    

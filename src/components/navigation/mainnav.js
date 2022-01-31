@@ -95,7 +95,7 @@ function MainNav() {
           <Navbar collapseOnSelect className={styles.navbar} expand="lg" fixed="top" style={{ transition: '.5s ease',backgroundColor: navBackground ? 'rgba(0,0,0,0.7)' : 'transparent', backdropFilter: navBackground ? 'saturate(180%) blur(20px)' : ''}}>
           <a href="/">
                 <Navbar.Brand className={styles.logo}>
-            
+                <Image src={logo} fluid />
                 <h5 className={styles.test1title}>HILLODESIGN</h5>
 
                 </Navbar.Brand>

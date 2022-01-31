@@ -96,7 +96,7 @@ import PreloadLegacy11 from '../../assets/img/legacypictures/legacypicturesbackg
 
 
 import PreloadArt from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
-import PreloadArt1 from '../../assets/handheld.png';
+import PreloadArt1 from '../../assets/mobile-01.png';
 import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';
 
 import PreloadUguru from '../../assets/sfview-01.jpg';
