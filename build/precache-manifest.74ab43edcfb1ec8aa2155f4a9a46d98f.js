@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a59b63f984b4ad1b570c6dfa511e520",
+    "revision": "8d84cd771c37946dbac8bf6983a3e496",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.46b578d6.chunk.css"
   },
   {
-    "revision": "5886aac14e1a1998c06b",
+    "revision": "922974c3c45a49f2a226",
     "url": "/static/css/main.72996ce0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d55df843.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5886aac14e1a1998c06b",
-    "url": "/static/js/main.ea4bc328.chunk.js"
+    "revision": "922974c3c45a49f2a226",
+    "url": "/static/js/main.e0ee6092.chunk.js"
   },
   {
     "revision": "58c15806c185c823953f",
@@ -446,6 +446,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "567c2353dacaecaa3590008d1c9a87ea",
     "url": "/static/media/mind-mapping-diagram-8391.fa3fa10e.png"
+  },
+  {
+    "revision": "e5f6419239b1913f10d1a2588f60ec5c",
+    "url": "/static/media/mobile-01.125b55b7.png"
   },
   {
     "revision": "a91fcf053ddd6b9bdeda36c0934ba1e2",
