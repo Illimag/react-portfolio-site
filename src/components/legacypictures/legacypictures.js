@@ -189,27 +189,82 @@ export const Legacypictures = () => (
     <div className={styles.spaceing}></div>
     <div className={styles.spaceing}></div>
             <Slide direction="up">
-              <p className={styles.subtitlelargewhitecenter}>Scope of the project</p>
+              <p className={styles.subtitlelargewhitecenter}>Identification of the Type of Site</p>
             </Slide>
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+              <p className={styles.descriptionlargewhitebold}>Design Goals based on problems that need to be solved or attributes within scope of site's visaul design and interaction design.</p>
             </Slide>
+
             <div className={styles.spaceing}></div>
             <Slide direction="up">
-              <p className={styles.subtitlelargewhitecenter}>Writing contract with company</p>
+              <ul className={styles.unorderlist}>
+                <li>Brand Presence: Constantly present online platform that facilitates the relationship between the company and audience</li>
+                <div className={styles.spaceing}></div>
+                <li>Marketing Campaign: A targeted site or application meant to elicit a specific and measurable response from a particular audience or from a general audience over a limited period of time</li>
+                <div className={styles.spaceing}></div>
+                <li>Content Source: A store of information, potentially composed of several types of media meant to inform, engage, or entertain users</li>
+                <div className={styles.spaceing}></div>
+                <li>Task-based Application: A tool or collection of tools meant to allow users to accomplish a set of key tasks or workflows</li>
+              </ul>
+            </Slide>
+            <div className={styles.spaceing}></div>
+
+            <Slide direction="up">
+              <p className={styles.subtitlelargewhitecenter}>Proposals for Consultants and Freelancers (PURITE)</p>
             </Slide>
 
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>Matt is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
+              <p className={styles.descriptionlargewhitebold}>Co-developer is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
             </Slide>
+
+
+            <div className={styles.spaceing}></div>
+            <Slide direction="up">
+              <ul className={styles.unorderlist}>
+                <li>P - Prepare: We dedicate a portion of every initative to understanding your industry and your competitors and how they do business in order to be as informed as possible prior to beginning requirements gathering</li>
+                <div className={styles.spaceing}></div>
+                <li>U - Understand: We work closly with your subject matter experts and/pr users to define the requirements for building the project correctly</li>
+                <div className={styles.spaceing}></div>
+                <li>R - Render: Through the Render phase we create and develop all the pieces of the project/product. In our experience, any development phase requires a lot of heads-down, focused work effort but also timely, open communication with your team(s)</li>
+                <div className={styles.spaceing}></div>
+                <li>I - Iterate: The Iterate phase is reperated throughout the entire lifecycle of the project. We move as quickly as possible to bring the project to life, and this often requires creating multiple iteration in rapid timelines. This requires direct and timely invovlement from you and your dedicated resources</li>
+                <div className={styles.spaceing}></div>
+                <li>T - Test: We test every project throughout the course of our Render phase; however, we also require an extra set of eyes - from our own testing team and from your designated user group/audience group to perform goal-based testing. This additional round of testing helps ensure that as few stones as possible are left unturned in order to deliver a project that has been rigorously evaluated from multiple levels.</li>
+                <div className={styles.spaceing}></div>
+                <li>E - Enable: Upon successful completion of the five previous phases and your signed approval, we will enable the solution and take it live</li>
+              </ul>
+            </Slide>
+            <div className={styles.spaceing}></div>
+
+
             <div className={styles.spaceing}></div>
             <Slide direction="up">
               <p className={styles.subtitlelargewhitecenter}>Building Empathy</p>
             </Slide>
          
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+              <p className={styles.descriptionlargewhitebold}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. </p>
             </Slide>
+
+
+            <div className={styles.spaceing}></div>
+            <Slide direction="up">
+              <ul className={styles.unorderlist}>
+                <li>Outline roles and responsibilities. Make sure project team members understand the roles that they should be filling as requirements are gathered.</li>
+                <div className={styles.spaceing}></div>
+                <li>Gather the right stakeholders, in the right groups, to ensure time is used in the best way during requirements-focuserd interviews or meetings.</li>
+                <div className={styles.spaceing}></div>
+                <li>Create a plan for the meetings, including topics to be covered and questions to be asked during meetings.</li>
+                <div className={styles.spaceing}></div>
+                <li>Run the meetings efficiently, capturing ideas and getting clarification. Investigate ideas to dig down to the needs behind each one.</li>
+              </ul>
+            </Slide>
+            <div className={styles.spaceing}></div>
+
+            <Slide direction="up">
+              <p className={styles.descriptionlargewhitebold}>Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+            </Slide>
+
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
