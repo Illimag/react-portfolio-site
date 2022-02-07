@@ -330,7 +330,7 @@ const getImageUrls = () => {
 
             <Col xs={12} md={8} className={styles.removepadding}>
             <Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>UI/UX Designer from the San Francisco Bay Area & Silicon Valley.
+<p className={styles.descriptionlargewhitebold}>UI/UX Designer local from the San Francisco Bay Area & Silicon Valley. Currently lives in San Jose, CA.
 <span className={styles.green}> AVAILABLE</span> for Remote, In-House, Contract, Freelance, Part-Time, Full-Time.</p>
 </Slide>
 </Col>
@@ -396,13 +396,13 @@ const getImageUrls = () => {
     <Slide direction="up">
           <p className={styles.subtitlesmallwhitecenter}>User Interface (UI) / User Experience (UX)</p>
           <div className={styles.spaceing}></div>
-          <p className={styles.descriptionlargewhitebold}>As a UI/UX Designer, have indepth knowledge of User Interface and User Experience methodologies.</p>
+          <p className={styles.descriptionlargewhitebold}>As an UI/UX Designer, have indepth knowledge of User Interface and User Experience methodologies.</p>
           </Slide>
     </Card>
 
     <Card className={styles.backgroundtransparent}>
     <Slide direction="up">
-    <p className={styles.subtitlesmallwhitecenter}>Mobile Responsive</p>
+    <p className={styles.subtitlesmallwhitecenter}>Single Page Web Applications</p>
     <div className={styles.spaceing}></div>
     <p className={styles.descriptionlargewhitebold}>Web App Design and Prototyping. Knowledge of iOS, Android apps, as well as modern SPA Web Apps.</p>
 
@@ -412,9 +412,9 @@ const getImageUrls = () => {
 
         <Card className={styles.backgroundtransparent}>
     <Slide direction="up">
-    <p className={styles.subtitlesmallwhitecenter}>E-Commerce, Tech, Company Sites, Startups</p>
+    <p className={styles.subtitlesmallwhitecenter}>E-Commerce, Tech, Enterprise Sites, Startups</p>
     <div className={styles.spaceing}></div>
-    <p className={styles.descriptionlargewhitebold}>Experience working with industries such as E-Commerce, Tech, and Company Sites.</p>
+    <p className={styles.descriptionlargewhitebold}>Experience working with industries such as E-Commerce, Tech, and Enterprise Sites.</p>
 
     <div className={styles.spaceing}></div>
     </Slide>
