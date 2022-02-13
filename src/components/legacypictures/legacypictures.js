@@ -88,7 +88,7 @@ export const Legacypictures = () => (
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CASE STUDY</span></p>
           </Slide>
         <p className={styles.subtitlesmallwhitecenter}>LEGACY PICTURES</p>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}>Web App Re-Design</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}>Web App Re-Design</span></p>
     
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>Project Date: <span className={styles.grey}>July 2021 - August 2021</span></p>
@@ -145,7 +145,7 @@ export const Legacypictures = () => (
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>INTRODUCTION</span></p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.subtitlelargewhitecenter}>Legacy Pictures</p>
+            <p className={styles.subtitlesmallwhitecenter}>Legacy Pictures</p>
           </Slide>
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commercials around the world.</p>
@@ -189,7 +189,7 @@ export const Legacypictures = () => (
     <div className={styles.spaceing}></div>
     <div className={styles.spaceing}></div>
             <Slide direction="up">
-              <p className={styles.subtitlelargewhitecenter}>Identification of the Type of Site</p>
+              <p className={styles.subtitlesmallwhitecenter}>Identification of the Type of Site</p>
             </Slide>
             <Slide direction="up">
               <p className={styles.descriptionlargewhitebold}>Design Goals based on problems that need to be solved or attributes within scope of site's visaul design and interaction design.</p>
@@ -210,7 +210,7 @@ export const Legacypictures = () => (
             <div className={styles.spaceing}></div>
 
             <Slide direction="up">
-              <p className={styles.subtitlelargewhitecenter}>Proposals for Consultants and Freelancers (PURITE)</p>
+              <p className={styles.subtitlesmallwhitecenter}>Proposals for Consultants and Freelancers (PURITE)</p>
             </Slide>
 
             <Slide direction="up">
@@ -239,7 +239,7 @@ export const Legacypictures = () => (
 
             <div className={styles.spaceing}></div>
             <Slide direction="up">
-              <p className={styles.subtitlelargewhitecenter}>Building Empathy</p>
+              <p className={styles.subtitlesmallwhitecenter}>Building Empathy</p>
             </Slide>
          
             <Slide direction="up">
@@ -306,7 +306,7 @@ export const Legacypictures = () => (
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
             <Slide direction="up">
-              <p className={styles.subtitlelargewhitecenter}>Use Case Scenarios</p>
+              <p className={styles.subtitlesmallwhitecenter}>Use Case Scenarios</p>
             </Slide>
 
             <Slide direction="up">
@@ -314,7 +314,7 @@ export const Legacypictures = () => (
             </Slide>
                      <div className={styles.spaceing}></div>
             <Slide direction="up">
-              <p className={styles.subtitlelargewhitecenter}>Stakeholders for the website</p>
+              <p className={styles.subtitlesmallwhitecenter}>Stakeholders for the website</p>
             </Slide>
          
             <Slide direction="up">
@@ -378,7 +378,7 @@ This is related to various stakeholders of the company, on how to design the app
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CHALLENGE</span></p>
           </Slide>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Initial Scope</span> </p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Initial Scope</span> </p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. The initial scope was to start a redesign process for the website, as well as converting it to new UI/UX Design trends.</p>
@@ -429,7 +429,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Understanding that there are multiple stakeholders </span> </p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Understanding that there are multiple stakeholders </span> </p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>As well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
@@ -474,7 +474,7 @@ This is related to various stakeholders of the company, on how to design the app
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Mobile Responsive Web Design for Desktop and Mobile Devices</span> </p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Mobile Responsive Web Design for Desktop and Mobile Devices</span> </p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
@@ -494,7 +494,7 @@ This is related to various stakeholders of the company, on how to design the app
 
 
         <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Showcase Website</span> </p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Showcase Website</span> </p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
@@ -539,7 +539,7 @@ This is related to various stakeholders of the company, on how to design the app
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>SOLUTION</span></p>
           </Slide>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Stakeholders for the website</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Stakeholders for the website</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
@@ -587,7 +587,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Reedesign of Website</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Reedesign of Website</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
@@ -598,7 +598,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Feedback from team</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Feedback from team</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
@@ -643,7 +643,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>UI Variant Iterations</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>UI Variant Iterations</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
@@ -684,7 +684,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}>User Interface Design</p>
+        <p className={styles.subtitlesmallwhitecenter}>User Interface Design</p>
       </Fade>     
       <Slide direction="up">
         <p className={styles.descriptionlargewhitebold}>**The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:**
@@ -732,7 +732,7 @@ This is related to various stakeholders of the company, on how to design the app
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
         <Fade>
-          <p className={styles.subtitlelargewhitecenter}>Adobe XD for User Interface Designs</p>
+          <p className={styles.subtitlesmallwhitecenter}>Adobe XD for User Interface Designs</p>
         </Fade>     
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Initially starting the User Interface Designs with Adobe XD, and starting prototyping using Adobe XD’s prototyping functionality. Able to redesign the original designs of the website.</p>
@@ -743,7 +743,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Usability testing for the User Interface Designs</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Usability testing for the User Interface Designs</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
@@ -794,7 +794,7 @@ This is related to various stakeholders of the company, on how to design the app
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>RESULTS</span></p>
           </Slide>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Redesign of the Web Application User Interface</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Redesign of the Web Application User Interface</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
@@ -834,14 +834,14 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Adobe Creative Suite </span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Adobe Creative Suite </span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Usability testing</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Usability testing</span></p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
@@ -886,7 +886,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}>Starting the Rapid Prototyping</p>
+        <p className={styles.subtitlesmallwhitecenter}>Starting the Rapid Prototyping</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>The prototype was built using Adobe XD. Using Adobe XD, the prototype of both mobile and desktop versions were done, and were tested by the stakeholders.</p>
@@ -897,14 +897,14 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Getting Tests from the Users</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Getting Tests from the Users</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Heat Map Testing</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Heat Map Testing</span></p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
@@ -952,14 +952,14 @@ This is related to various stakeholders of the company, on how to design the app
             <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>REFLECTION</span></p>
           </Slide>
       <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>More Time to explore UI and UX</span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>More Time to explore UI and UX</span></p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <Fade>
-        <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Completion of the deliverables </span></p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Completion of the deliverables </span></p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>

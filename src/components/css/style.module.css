@@ -1307,7 +1307,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .descriptionlargewhitebold{
-    font-weight: 600;
+    font-weight: 300;
     font-size: 1em;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
@@ -1319,7 +1319,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .unorderlist{
-    font-weight: 600;
+    font-weight: 300;
     font-size: 1em;
     margin-bottom: -1% !important;
     margin-top: 1% !important;
