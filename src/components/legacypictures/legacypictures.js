@@ -318,10 +318,25 @@ export const Legacypictures = () => (
             </Slide>
          
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>**There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.**
+              <p className={styles.descriptionlargewhitebold}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.
 
-**This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.**</p>
+This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.</p>
             </Slide>
+
+            <div className={styles.spaceing}></div>
+            <Slide direction="up">
+              <ul className={styles.unorderlist}>
+                <li>Groups with initiatives that depend on the site (for example, those with marketing campaigns that need to have information presented on the site.</li>
+                <div className={styles.spaceing}></div>
+                <li>Groups that need to support the processes directly behind the site or application, such as providing content, entering and managing data, and responding immediately to information gathered.</li>
+                <div className={styles.spaceing}></div>
+                <li>The Front Line of Customer Service, such as phone or online support or anyone who deals with customers face-to-face.</li>
+                <div className={styles.spaceing}></div>
+                <li>Sales, product management, or consulting services, to represent the products and services being presented.</li>
+              </ul>
+            </Slide>
+            <div className={styles.spaceing}></div>
+
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
@@ -464,7 +479,20 @@ export const Legacypictures = () => (
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
         </Slide>
+
         <div className={styles.spaceing}></div>
+            <Slide direction="up">
+              <ul className={styles.unorderlist}>
+                <li>Immediacy. Mobile devices are readily available and ideally provide immediate access to information that meets user needs.</li>
+                <div className={styles.spaceing}></div>
+                <li>Simplicity. As mentioned previously, the smaller screens of mobile devices force a focus on a small set of clear options.</li>
+                <div className={styles.spaceing}></div>
+                <li>Context. Mobile devices have context on a user's location, communication history, and past behaviors. </li>
+              </ul>
+            </Slide>
+            <div className={styles.spaceing}></div>
+
+
         <Fade>
         <p className={styles.subtitlelargewhitecenter}><span className={styles.grey}>Showcase Website</span> </p>
       </Fade>

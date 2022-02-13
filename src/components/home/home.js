@@ -396,7 +396,7 @@ const getImageUrls = () => {
     <Slide direction="up">
           <p className={styles.subtitlesmallwhitecenter}>User Interface (UI) / User Experience (UX)</p>
           <div className={styles.spaceing}></div>
-          <p className={styles.descriptionlargewhitebold}>As an UI/UX Designer, have indepth knowledge of User Interface and User Experience methodologies.</p>
+          <p className={styles.descriptionlargewhitebold}>An UI/UX Designer with knowledge of User Interface and User Experience methodologies, skillsets, and toolkits.</p>
           </Slide>
     </Card>
 
@@ -446,25 +446,27 @@ const getImageUrls = () => {
    
     <Slide direction="up">
       
-          <p className={styles.subtitlesmallwhitecenter}>Design First</p>
-          <div className={styles.spaceing}></div>
-          <p className={styles.descriptionlargewhitebold}>Leading with design to create the best experience for the user.</p>
+
+          <p className={styles.subtitlesmallwhitecenter}>Champion for the User</p>
+    <div className={styles.spaceing}></div>
+    <p className={styles.descriptionlargewhitebold}>Advocate for the user, think about the user and speak for the user.</p>
+
           </Slide>
     </Card>
 
     <Card className={styles.backgroundtransparent}>
     <Slide direction="up">
-    <p className={styles.subtitlesmallwhitecenter}>Champion for the User</p>
-    <div className={styles.spaceing}></div>
-    <p className={styles.descriptionlargewhitebold}>Advocate for the user, being the person to think about the user and to always look out for the user</p>
-
+    <p className={styles.subtitlesmallwhitecenter}>KPI</p>
+          <div className={styles.spaceing}></div>
+          <p className={styles.descriptionlargewhitebold}>Leading with design to create the best experience for the user, is a part of improving Key Performance Indicators.</p>
+          
     <div className={styles.spaceing}></div>
     </Slide>
         </Card>
 
         <Card className={styles.backgroundtransparent}>
     <Slide direction="up">
-    <p className={styles.subtitlesmallwhitecenter}>Keeps up with new tech and previous tech stacks</p>
+    <p className={styles.subtitlesmallwhitecenter}>UI/UX Toolkits</p>
     <div className={styles.spaceing}></div>
     <p className={styles.descriptionlargewhitebold}>Adobe XD, Figma, Invison, xMind, Adobe Illustrator, Adobe Photoshop</p>
 
@@ -474,9 +476,9 @@ const getImageUrls = () => {
 
         <Card className={styles.backgroundtransparent}>
     <Slide direction="up">
-    <p className={styles.subtitlesmallwhitecenter}>Tech Stack for Front-End Web Development</p>
+    <p className={styles.subtitlesmallwhitecenter}>Tech Stack</p>
     <div className={styles.spaceing}></div>
-    <p className={styles.descriptionlargewhitebold}>Can use computer languages such as HTML/CSS/JS and JavaScript Front End Frameworks and Libraries such as React.JS</p>
+    <p className={styles.descriptionlargewhitebold}>HTML/CSS/JS and JavaScript Front End Frameworks and Libraries such as React.JS</p>
 
     <div className={styles.spaceing}></div>
     </Slide>
