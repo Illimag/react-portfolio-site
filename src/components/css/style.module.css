@@ -1031,11 +1031,11 @@ background: rgba(0,0,0,0.5);
 
 .whitetitle{
     color: #fff;
-    font-size:5vw !important;
+    font-size:4vw !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     font-family: 'Inter', sans-serif;
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: -1px;
     line-height: 100%;
    
@@ -1247,7 +1247,6 @@ background: rgba(0,0,0,0.5);
     color:#fff !important;
     letter-spacing: -1px;
     line-height: 100%;
-    text-transform: uppercase !important;
 }
 
 .subtitlelargewhiteleft{
@@ -1308,6 +1307,18 @@ background: rgba(0,0,0,0.5);
 
 .descriptionlargewhitebold{
     font-weight: 300;
+    font-size: 1em;
+    margin-bottom: -1% !important;
+    margin-top: 1% !important;
+    font-family: 'Inter', sans-serif;
+    color:#fff !important;
+    letter-spacing: -1px;
+    line-height: 100%;
+
+}
+
+.titlelargewhitebold{
+    font-weight: 600;
     font-size: 1em;
     margin-bottom: -1% !important;
     margin-top: 1% !important;

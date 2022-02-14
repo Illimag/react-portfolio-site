@@ -85,7 +85,7 @@ export const Legacypictures = () => (
     <Col xs={10} md={4}>
         <Fade>
         <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CASE STUDY</span></p>
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>CASE STUDY</span></p>
           </Slide>
         <p className={styles.subtitlesmallwhitecenter}>LEGACY PICTURES</p>
         <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}></span> Los Angeles <span className={styles.grey}>Web App Re-Design</span></p>
@@ -142,7 +142,7 @@ export const Legacypictures = () => (
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>INTRODUCTION</span></p>
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>INTRODUCTION</span></p>
           </Slide>
           <Slide direction="up">
             <p className={styles.subtitlesmallwhitecenter}>Legacy Pictures</p>
@@ -196,21 +196,9 @@ export const Legacypictures = () => (
             </Slide>
 
             <div className={styles.spaceing}></div>
-            <Slide direction="up">
-              <ul className={styles.unorderlist}>
-                <li>Brand Presence: Constantly present online platform that facilitates the relationship between the company and audience</li>
-                <div className={styles.spaceing}></div>
-                <li>Marketing Campaign: A targeted site or application meant to elicit a specific and measurable response from a particular audience or from a general audience over a limited period of time</li>
-                <div className={styles.spaceing}></div>
-                <li>Content Source: A store of information, potentially composed of several types of media meant to inform, engage, or entertain users</li>
-                <div className={styles.spaceing}></div>
-                <li>Task-based Application: A tool or collection of tools meant to allow users to accomplish a set of key tasks or workflows</li>
-              </ul>
-            </Slide>
-            <div className={styles.spaceing}></div>
 
             <Slide direction="up">
-              <p className={styles.subtitlesmallwhitecenter}>Proposals for Consultants and Freelancers (PURITE)</p>
+              <p className={styles.subtitlesmallwhitecenter}>Proposals for Consultants and Freelancers</p>
             </Slide>
 
             <Slide direction="up">
@@ -218,22 +206,6 @@ export const Legacypictures = () => (
             </Slide>
 
 
-            <div className={styles.spaceing}></div>
-            <Slide direction="up">
-              <ul className={styles.unorderlist}>
-                <li>P - Prepare: We dedicate a portion of every initative to understanding your industry and your competitors and how they do business in order to be as informed as possible prior to beginning requirements gathering</li>
-                <div className={styles.spaceing}></div>
-                <li>U - Understand: We work closly with your subject matter experts and/pr users to define the requirements for building the project correctly</li>
-                <div className={styles.spaceing}></div>
-                <li>R - Render: Through the Render phase we create and develop all the pieces of the project/product. In our experience, any development phase requires a lot of heads-down, focused work effort but also timely, open communication with your team(s)</li>
-                <div className={styles.spaceing}></div>
-                <li>I - Iterate: The Iterate phase is reperated throughout the entire lifecycle of the project. We move as quickly as possible to bring the project to life, and this often requires creating multiple iteration in rapid timelines. This requires direct and timely invovlement from you and your dedicated resources</li>
-                <div className={styles.spaceing}></div>
-                <li>T - Test: We test every project throughout the course of our Render phase; however, we also require an extra set of eyes - from our own testing team and from your designated user group/audience group to perform goal-based testing. This additional round of testing helps ensure that as few stones as possible are left unturned in order to deliver a project that has been rigorously evaluated from multiple levels.</li>
-                <div className={styles.spaceing}></div>
-                <li>E - Enable: Upon successful completion of the five previous phases and your signed approval, we will enable the solution and take it live</li>
-              </ul>
-            </Slide>
             <div className={styles.spaceing}></div>
 
 
@@ -247,18 +219,6 @@ export const Legacypictures = () => (
             </Slide>
 
 
-            <div className={styles.spaceing}></div>
-            <Slide direction="up">
-              <ul className={styles.unorderlist}>
-                <li>Outline roles and responsibilities. Make sure project team members understand the roles that they should be filling as requirements are gathered.</li>
-                <div className={styles.spaceing}></div>
-                <li>Gather the right stakeholders, in the right groups, to ensure time is used in the best way during requirements-focuserd interviews or meetings.</li>
-                <div className={styles.spaceing}></div>
-                <li>Create a plan for the meetings, including topics to be covered and questions to be asked during meetings.</li>
-                <div className={styles.spaceing}></div>
-                <li>Run the meetings efficiently, capturing ideas and getting clarification. Investigate ideas to dig down to the needs behind each one.</li>
-              </ul>
-            </Slide>
             <div className={styles.spaceing}></div>
 
             <Slide direction="up">
@@ -324,18 +284,6 @@ This is related to various stakeholders of the company, on how to design the app
             </Slide>
 
             <div className={styles.spaceing}></div>
-            <Slide direction="up">
-              <ul className={styles.unorderlist}>
-                <li>Groups with initiatives that depend on the site (for example, those with marketing campaigns that need to have information presented on the site.</li>
-                <div className={styles.spaceing}></div>
-                <li>Groups that need to support the processes directly behind the site or application, such as providing content, entering and managing data, and responding immediately to information gathered.</li>
-                <div className={styles.spaceing}></div>
-                <li>The Front Line of Customer Service, such as phone or online support or anyone who deals with customers face-to-face.</li>
-                <div className={styles.spaceing}></div>
-                <li>Sales, product management, or consulting services, to represent the products and services being presented.</li>
-              </ul>
-            </Slide>
-            <div className={styles.spaceing}></div>
 
     </Col>
   </Row>
@@ -375,10 +323,10 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>CHALLENGE</span></p>
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>CHALLENGE</span></p>
           </Slide>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Initial Scope</span> </p>
+        <p className={styles.subtitlesmallwhitecenter}>Initial Scope </p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. The initial scope was to start a redesign process for the website, as well as converting it to new UI/UX Design trends.</p>
@@ -429,7 +377,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Understanding that there are multiple stakeholders </span> </p>
+        <p className={styles.subtitlesmallwhitecenter}>Understanding that there are multiple stakeholders </p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>As well as multiple personas of the users, did an initial test of the website itself to better understand the needs of the website itself, to be able to understand the needs of the stakeholder and the users.</p>
@@ -474,27 +422,18 @@ This is related to various stakeholders of the company, on how to design the app
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Mobile Responsive Web Design for Desktop and Mobile Devices</span> </p>
+        <p className={styles.subtitlesmallwhitecenter}>Mobile Responsive Web Design for Desktop and Mobile Devices </p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
         </Slide>
 
-        <div className={styles.spaceing}></div>
-            <Slide direction="up">
-              <ul className={styles.unorderlist}>
-                <li>Immediacy. Mobile devices are readily available and ideally provide immediate access to information that meets user needs.</li>
-                <div className={styles.spaceing}></div>
-                <li>Simplicity. As mentioned previously, the smaller screens of mobile devices force a focus on a small set of clear options.</li>
-                <div className={styles.spaceing}></div>
-                <li>Context. Mobile devices have context on a user's location, communication history, and past behaviors. </li>
-              </ul>
-            </Slide>
+       
             <div className={styles.spaceing}></div>
 
 
         <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Showcase Website</span> </p>
+        <p className={styles.subtitlesmallwhitecenter}>Showcase Website</p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
@@ -536,10 +475,10 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>SOLUTION</span></p>
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>SOLUTION</span></p>
           </Slide>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Stakeholders for the website</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Stakeholders for the website</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
@@ -587,7 +526,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Reedesign of Website</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Reedesign of Website</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
@@ -598,7 +537,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Feedback from team</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Feedback from team</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
@@ -643,7 +582,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>UI Variant Iterations</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>UI Variant Iterations</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>After a few iterations of the design were started, there were various UIs that were discovered as well as understanding the full scope of what was needed in related to content.</p>
@@ -687,10 +626,10 @@ This is related to various stakeholders of the company, on how to design the app
         <p className={styles.subtitlesmallwhitecenter}>User Interface Design</p>
       </Fade>     
       <Slide direction="up">
-        <p className={styles.descriptionlargewhitebold}>**The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:**
+        <p className={styles.descriptionlargewhitebold}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:
 
-- **just understanding the basic layout of the website, for example the home page, etc.**
-- **Then based on the original design, a new iteration of the design can be done.**</p>
+just understanding the basic layout of the website, for example the home page, etc.
+Then based on the original design, a new iteration of the design can be done.</p>
       </Slide>
     </Col>
   </Row>
@@ -743,7 +682,7 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Usability testing for the User Interface Designs</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Usability testing for the User Interface Designs</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
@@ -791,10 +730,10 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>RESULTS</span></p>
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>RESULTS</span></p>
           </Slide>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Redesign of the Web Application User Interface</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Redesign of the Web Application User Interface</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
@@ -834,14 +773,14 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Adobe Creative Suite </span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Adobe Creative Suite</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Usability testing</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Usability testing</p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
@@ -897,14 +836,14 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Getting Tests from the Users</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Getting Tests from the Users</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Heat Map Testing</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Heat Map Testing</p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
@@ -949,17 +888,17 @@ This is related to various stakeholders of the company, on how to design the app
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}><span className={styles.grey}>REFLECTION</span></p>
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>REFLECTION</span></p>
           </Slide>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>More Time to explore UI and UX</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>More Time to explore UI and UX</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <Fade>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}>Completion of the deliverables </span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Completion of the deliverables</p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>

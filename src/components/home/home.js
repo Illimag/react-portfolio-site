@@ -324,7 +324,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>WELCOME</p>
+            <p className={styles.whitetitle}>Welcome!</p>
             </Fade>
 
 
@@ -384,7 +384,7 @@ const getImageUrls = () => {
 
 <div className={styles.spaceing}></div>
 <div className={styles.spaceing}></div>
-<p className={styles.subtitlelargewhitecenter}>01/ SERVICES</p>
+<p className={styles.subtitlelargewhitecenter}>01/ Services</p>
 <div className={styles.spaceing}></div>
 
 <Fade>

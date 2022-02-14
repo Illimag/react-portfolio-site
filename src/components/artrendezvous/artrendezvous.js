@@ -69,8 +69,23 @@ export const Artrendezvous = () => (
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
+        <Slide direction="up">
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>CASE STUDY</span></p>
+          </Slide>
         <p className={styles.subtitlesmallwhitecenter}>Artrendezvous</p>
-        <p className={styles.subtitlelargewhitecenter}>Mobile Application Startup</p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}></span> New York City <span className={styles.grey}>Web Application Redesign</span></p>
+    
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Project Date: <span className={styles.grey}>July 2021 - July 2021</span></p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Role: <span className={styles.grey}>UI/UX Designer</span></p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Location: <span className={styles.grey}>New York City, NY</span></p>
+          </Slide>
+          <div className={styles.spaceing}></div>
+          <div className={styles.spaceing}></div>
       </Fade>   
     </Col>
   </Row>
@@ -97,18 +112,22 @@ export const Artrendezvous = () => (
         </Media>
     </Col>
   </Row>
+
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-        <Fade>
-          <p className={styles.subtitlelargewhitecenter}>Social media community integrated into an interface showcasing artworks.</p>
-        </Fade>    
-      <div className={styles.spaceing}></div>
-        <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Was connected on Dribbble, looking for gig projects that I could get started on. After communicating with a client over the Dribbble portal, got started on an assignment related to a redesign of a mobile application.</p>
-        </Slide>
-      <div className={styles.spaceing}></div>
-    </Col>
+    <Slide direction="up">
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>INTRODUCTION</span></p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Artrendezvous</p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Social media community integrated into an interface showcasing artworks.Was connected on Dribbble, looking for gig projects that I could get started on. After communicating with a client over the Dribbble portal, got started on an assignment related to a redesign of a mobile application.</p>
+          </Slide>
+          </Col>
   </Row>
+
 </Container>
 <Container fluid className={styles.test}>
   <div id="test"></div>
@@ -144,6 +163,9 @@ export const Artrendezvous = () => (
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
           <div className={styles.spaceing}></div>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Client</p>
+          </Slide>
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.white}>The client needed a redesign of their mobile application.</span> When beginning to empathize with understanding the user base of the application. Created Personas that would represent potential users. These users would be the virtual personas that would use the application.</p>
           </Slide>
@@ -213,6 +235,9 @@ export const Artrendezvous = () => (
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
         <div className={styles.spaceing}></div>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Empathy</p>
+          </Slide>
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.white}>Find empathy with those potential users, by creating Personas that would like going to Art Museums, as well as liking Art Galleries.</span> But possibly were unable because of not being able to be there locally. There could be various people who could use the application, as a way to communicate on another platform which should be focused on art. Creating this community is hard to do and when thinking about the user it can be difficult to find the correct people to user test.</p>
           </Slide>
@@ -310,9 +335,12 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-      <Fade>
-      <p className={styles.subtitlelargewhitecenter}>Redesign a mobile application</p>
-      </Fade>
+    <Slide direction="up">
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>Challenge:</span></p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Redesign a mobile application</p>
+          </Slide>
     <div className={styles.spaceing}></div>
       <Slide direction="up">
         <p className={styles.descriptionlargewhitebold}>Social media community integrated into an list to various artworks and museums.</p>
@@ -395,9 +423,9 @@ export const Artrendezvous = () => (
     <Col xs={10} md={4}>
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
-        <Fade>
-          <p className={styles.subtitlelargewhitecenter}>There were a certain level of issues related to time, and getting the solution as effectively as possible.</p>
-        </Fade>
+      <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Ideate</p>
+          </Slide>
       <div className={styles.spaceing}></div>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>The main issue is that, there is a client that is looking for the app to be redesigned and they have a pre-exisiting design. Then the designs of the next iteration needs to be different, but still things such as the user flow will look similar to the original. Although there can be minor adjustments made, based on new information or different methods of doing things.</p>
@@ -470,6 +498,13 @@ export const Artrendezvous = () => (
         <div className={styles.spaceing}></div>
         </Card>
         <Card className={styles.backgroundtransparent}>
+
+        <Slide direction="up">
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>Solution:</span></p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Figma</p>
+          </Slide>
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}><span className={styles.white}>Designed the redesigns using Figma, and redesigned all the assets on Figma. Later came back later and also designed it on Adobe XD. Additionally used a simple test to compare UIs, and pick a screen based on the CEO who gave art directions.</span> </p>
           </Slide>
@@ -513,12 +548,8 @@ export const Artrendezvous = () => (
     <Col xs={10} md={4}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
-          <Fade>
-            <p className={styles.subtitlelargewhitecenter}>Started with creating a User Flow.</p>
-          </Fade>
-          <div className={styles.spaceing}></div>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>As so started the initial design of the mobile application, created various UIs that had variants of the UIs. I created multiple variants and then created a slide, which allowed the client to select the UI variant for each slide of the application.</p>
+            <p className={styles.descriptionlargewhitebold}>Started with creating a User Flow. As so started the initial design of the mobile application, created various UIs that had variants of the UIs. I created multiple variants and then created a slide, which allowed the client to select the UI variant for each slide of the application.</p>
           </Slide>
         </Card>
       </CardGroup>
@@ -588,10 +619,9 @@ export const Artrendezvous = () => (
     <Col xs={10} md={4}>
       <CardGroup className={styles.backgroundtransparent}>
         <Card className={styles.backgroundtransparent}>
-          <Fade>
-            <p className={styles.subtitlelargewhitecenter}>After showcasing the prototype as well as the various UI variants.</p>
-          </Fade>
-            <div className={styles.spaceing}></div>
+        <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>After showcasing the prototype as well as the various UI variants.</p>
+          </Slide>
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>There was another issue related to the homepage, where it was difficult to prototype something with video backgrounds. Thats one of the main issues that I have related to creating static prototypes. So I used another platform to create prototypes with background with video.</p>
           </Slide>
@@ -659,11 +689,10 @@ export const Artrendezvous = () => (
 <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-      <Fade>
-        <p className={styles.subtitlelargewhitecenter}>Design of the application.</p>
-      </Fade>
-    <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
+    <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Design</p>
+          </Slide>
+
       <Slide direction="up">
         <p className={styles.descriptionlargewhitebold}>Most of the designs were done based on a redesign of the visual design of the application.</p>
       </Slide>
@@ -708,12 +737,212 @@ export const Artrendezvous = () => (
         </Card>
         <Card className={styles.backgroundtransparent}>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}><span className={styles.white}>Being able to design the redesigns of the original application, as well as being able to use modern design software application tools was very useful.</span> </p>
+            <p className={styles.descriptionlargewhitebold}><span className={styles.white}>Although most of the designs were done based on a redesign of the visual design of the application. There were issues related to padding and margins for example, that needed to be fixed, or to get the design up to a modern standard.</span> </p>
+          </Slide>
+        </Card>
+        <Card className={styles.backgroundtransparent}>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}><span className={styles.white}>There was features such as a navigation bar, that was unable on the previous design. Additionally the designs were first based on the Material Design Methodology. So the bottom bar is following Material Design Principles.</span> </p>
+          </Slide>
+        </Card>
+        <Card className={styles.backgroundtransparent}>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}><span className={styles.white}>Additionally there was more opportunities to take in reorganizing the information, as well as ways of displaying this information. So various different interfaces were explored, as well as two different types of color schemes. From these two different color schemes, a pattern of User Interface was explored, these UIs were based on the previous designs.</span> </p>
           </Slide>
         </Card>
       </CardGroup>
     </Col>
   </Row>
+
+  <div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>Result:</span></p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>The CEO was happy with the results of the redesign.</p>
+          </Slide>
+
+      <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>I knew that the User Interface would be to the CEO’s look and that because of the feedback I received from the CEO, she received a redesign that was to no surprise to her because she picked the UI elements from a list of UI elements.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={10}>
+      <Fade>
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+          }}>
+          {matches => (
+          <>
+          {matches.small &&
+            <Image src={Img37} fluid className={styles.centerimage}/>
+          }
+          {matches.medium &&
+            <Image src={Img37} fluid className={styles.centerimage}/>
+          }
+          {matches.large &&
+            <Image src={Img37} fluid className={styles.centerimage}/>
+          }
+          </>
+          )}
+        </Media>
+      </Fade>
+    </Col>
+  </Row>
+<div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+      <CardGroup className={styles.backgroundtransparent}>
+        <Card className={styles.backgroundtransparent}>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>The designs were done on Adobe XD, and the prototyping was done on Adobe XD. Being able to design the redesigns of the original application, as well as being able to use modern design software application tools was very useful.</p>
+          </Slide>
+          <div className={styles.spaceing}></div>
+        </Card>
+
+
+
+      </CardGroup>
+    </Col>
+  </Row>
+
+  <div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Informational Archetecture</p>
+          </Slide>
+
+      <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>There were several parts of the interface that required certain parts of the mental model, and the information archetecture to make sure so that the user can be guided throught the navigation.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>There were several requirements from the client company, as well as the various stakeholders of the project. Making sure to start with a light background, as well as being able to design various versions of the home screen carousel.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>The home screen carousel was iterated multiple times and checked with various stakeholders who okayed the various user interface designs.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={10}>
+      <Fade>
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+          }}>
+          {matches => (
+          <>
+          {matches.small &&
+            <Image src={Img37} fluid className={styles.centerimage}/>
+          }
+          {matches.medium &&
+            <Image src={Img37} fluid className={styles.centerimage}/>
+          }
+          {matches.large &&
+            <Image src={Img37} fluid className={styles.centerimage}/>
+          }
+          </>
+          )}
+        </Media>
+      </Fade>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>PROTOTYPE</p>
+          </Slide>
+
+      <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>The prototype was designed with Adobe XD, as well as another software application to showcase a video background image.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>The initial screen with the video background image prototype, had to be prototyped on another prototyping software application because Adobe XD doesnt allow Videos or Gifs to be used in the Prototyping of the User Interface Screens.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>So using the other prototyping software application I was able to prototype the iOS Mobile Application using a video background for the home screen of the app. The rest of the screens were prototyped using Adobe XD.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={10}>
+      <Fade>
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+          }}>
+          {matches => (
+          <>
+          {matches.small &&
+            <Image src={Img37} fluid className={styles.centerimage}/>
+          }
+          {matches.medium &&
+            <Image src={Img37} fluid className={styles.centerimage}/>
+          }
+          {matches.large &&
+            <Image src={Img37} fluid className={styles.centerimage}/>
+          }
+          </>
+          )}
+        </Media>
+      </Fade>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Test</p>
+          </Slide>
+
+      <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>The testing of the user interface designs were done using a Google Doc, was able to test the user interfaces based on the design of the client, who is a stakeholder in the direction of the designs of the application.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>The different variations of the designs were selected under a letter “A”, “B”, etc, and then were selected, and then later I redesigned the file using the designs that were selected for the final redesign of the application.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+
+  <div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>Reflection:</span></p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>One of the main issues with the platform is that there is basically no users</p>
+          </Slide>
+
+      <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>One of the main things to do for that application is to start getting users, and put the design and the development of the application to rest, till more users are using the application.</p>
+      </Slide>
+    <div className={styles.spaceing}></div>
+    <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
       <Fade>
