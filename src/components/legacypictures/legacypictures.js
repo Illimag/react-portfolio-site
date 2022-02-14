@@ -148,7 +148,7 @@ export const Legacypictures = () => (
             <p className={styles.subtitlesmallwhitecenter}>Legacy Pictures</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Los Angeles Videography Company with offices in North America and Asia. They have worked with various companies doing movies, films and commercials around the world.</p>
+            <p className={styles.descriptionlargewhitebold}>A Los Angeles Videography Company with international offices in North America and Asia. They worked extensively with companies in the entertainment sector producing movies, films and commercials.</p>
           </Slide>
           </Col>
   </Row>
@@ -186,28 +186,24 @@ export const Legacypictures = () => (
   </Row>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-    <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
+
+            <div className={styles.spaceing}></div>
+
+            <Slide direction="up">
+              <p className={styles.subtitlesmallwhitecenter}>Beginning Proposals for Consultants and Freelancers </p>
+            </Slide>
+
+            <Slide direction="up">
+              <p className={styles.descriptionlargewhitebold}>The team’s Co-developer engaged the contract with the Legacy Pictures and began creating the design task of redesigning a demo website. After offering services as an UI/UX Designer, started the contract with the Legacy Pictures.</p>
+            </Slide>
+
+            <div className={styles.spaceing}></div>
             <Slide direction="up">
               <p className={styles.subtitlesmallwhitecenter}>Identification of the Type of Site</p>
             </Slide>
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>Design Goals based on problems that need to be solved or attributes within scope of site's visaul design and interaction design.</p>
+              <p className={styles.descriptionlargewhitebold}>Design Goals based on problems that need to be solved or attributes within scope of site's visual design and interaction design were identified.</p>
             </Slide>
-
-            <div className={styles.spaceing}></div>
-
-            <Slide direction="up">
-              <p className={styles.subtitlesmallwhitecenter}>Proposals for Consultants and Freelancers</p>
-            </Slide>
-
-            <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>Co-developer is a person that is looking for someone to complete a design task redesigning a website. I offer my services as an UI/UX Designer, and am excited to get a contract started with the company.</p>
-            </Slide>
-
-
-            <div className={styles.spaceing}></div>
-
 
             <div className={styles.spaceing}></div>
             <Slide direction="up">
@@ -215,15 +211,19 @@ export const Legacypictures = () => (
             </Slide>
          
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>The users of the Legacy Pictures websites would be people such as executives, etc. Such as a videography company that is looking to outsource work to another videography company for services to be rendered. </p>
+              <p className={styles.descriptionlargewhitebold}>The users of the Legacy Pictures websites would be people such as </p>
             </Slide>
-
 
             <div className={styles.spaceing}></div>
-
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>Or there could be other thing that the users of the Legacy Pictures website would be looking for a representention of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+              <ul className={styles.unorderlist}>
+                <li>Executives</li>
+                <li>Videography Company </li>
+                <li>Outsource company for services</li>
+              </ul>
             </Slide>
+            <div className={styles.spaceing}></div>
+
 
     </Col>
   </Row>
@@ -270,7 +270,7 @@ export const Legacypictures = () => (
             </Slide>
 
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>Videography company that is looking to outsource work to another videography company for services to be rendered. Or there could be other thing that the users of the Legacy Pictures website would be looking for a representation of themselves on the internet, which could be a website that showcases information regarding the company.</p>
+              <p className={styles.descriptionlargewhitebold}>Legacy Pictures website is a representation of the company on the internet, which would be a website that showcases information.</p>
             </Slide>
                      <div className={styles.spaceing}></div>
             <Slide direction="up">
@@ -278,9 +278,7 @@ export const Legacypictures = () => (
             </Slide>
          
             <Slide direction="up">
-              <p className={styles.descriptionlargewhitebold}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application.
-
-This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.</p>
+              <p className={styles.descriptionlargewhitebold}>There were several stakeholders, that had various tasks that these designs had to center around their feedback and to take some of their feedback into the designs of the application. Direct feedback was received from the CEO, and his team.</p>
             </Slide>
 
             <div className={styles.spaceing}></div>
@@ -329,7 +327,7 @@ This is related to various stakeholders of the company, on how to design the app
         <p className={styles.subtitlesmallwhitecenter}>Initial Scope </p>
       </Fade>
       <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>After several meetings with the client as well as with the lead developer of the project, and coworkers, we eventually figured out the scope of the project. The initial scope was to start a redesign process for the website, as well as converting it to new UI/UX Design trends.</p>
+          <p className={styles.descriptionlargewhitebold}>After several meetings with the client as well as with the lead developer of the project, and coworkers, discovered the redesign process for the website, as well as converting it to new UI/UX Design trends.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <div className={styles.spaceing}></div>
@@ -428,15 +426,24 @@ This is related to various stakeholders of the company, on how to design the app
           <p className={styles.descriptionlargewhitebold}>The designs of the website would have to keep Mobile Responsive in mind, while designing the screens for the desktop, finding the best pixel screen sizes for testing on. Also considering what kind of devices that most of the users will be visiting the website using.</p>
         </Slide>
 
-       
+        <div className={styles.spaceing}></div>
+            <Slide direction="up">
+              <ul className={styles.unorderlist}>
+                <li>Mobile</li>
+                <li>Desktop</li>
+                <li>Laptops</li>
+              </ul>
+            </Slide>
             <div className={styles.spaceing}></div>
+
+      
 
 
         <Fade>
         <p className={styles.subtitlesmallwhitecenter}>Showcase Website</p>
       </Fade>
         <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Also getting a better idea of the needs of the website in showcasing the information and getting the information across on the site. Starting to get a better understanding of the demographic, which could be individuals in the videography industry.</p>
+          <p className={styles.descriptionlargewhitebold}>Gained a better idea of the needs of the website in showcasing the information related to Legacy Pictures and getting the information across on the site. Starting to get a better understanding of the demographic, which were individuals in the videography industry.</p>
         </Slide>
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
@@ -478,10 +485,10 @@ This is related to various stakeholders of the company, on how to design the app
             <p className={styles.titlelargewhitebold}><span className={styles.grey}>SOLUTION</span></p>
           </Slide>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}>Stakeholders for the website</p>
+        <p className={styles.subtitlesmallwhitecenter}>User Interface Re-Design and Usability Testing</p>
       </Fade>
       <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>The solution that they were looking was a website that was well designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
+          <p className={styles.descriptionlargewhitebold}>The solution was a website designed to be ready to be used to showcase to potential clients as well as a platform to generate new leads. After initially working on first iterations of the design, created different variants of UI elements. Additionally did Usability testing using heat maps.</p>
         </Slide>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Additionally did Usability testing using heat maps to showcase, where the user has selected.</p>
@@ -522,25 +529,14 @@ This is related to various stakeholders of the company, on how to design the app
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
-  <div className={styles.spaceing}></div>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
-      <Fade>
-        <p className={styles.subtitlesmallwhitecenter}>Reedesign of Website</p>
-      </Fade>
-      <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Created designs based on what the redesigns of the website needed. There were certain requirements that were still uncertain for example if there even needed to be a redesign.</p>
-        </Slide>
-        <div className={styles.spaceing}></div>
-    </Col>
-  </Row>
+
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
         <p className={styles.subtitlesmallwhitecenter}>Feedback from team</p>
       </Fade>
       <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>After feedback from the team, as well as a group of internal employees we were able to understand what the company was looking for. Created a survey to gain insight on various problems that the internal team was having. To find out in depth problems that they were having.</p>
+          <p className={styles.descriptionlargewhitebold}>After the first iteration of the re-design, received feedback from the team, as well as a group of internal employees. Created a survey to gain insight on in-depth problems.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <div className={styles.spaceing}></div>
@@ -626,10 +622,7 @@ This is related to various stakeholders of the company, on how to design the app
         <p className={styles.subtitlesmallwhitecenter}>User Interface Design</p>
       </Fade>     
       <Slide direction="up">
-        <p className={styles.descriptionlargewhitebold}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro. From the User Flow:
-
-just understanding the basic layout of the website, for example the home page, etc.
-Then based on the original design, a new iteration of the design can be done.</p>
+        <p className={styles.descriptionlargewhitebold}>The designs were based on several types of companies, such as Apple.com, actually the font was based off of the Apple font which is SF Pro.</p>
       </Slide>
     </Col>
   </Row>
@@ -682,13 +675,10 @@ Then based on the original design, a new iteration of the design can be done.</p
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <Fade>
-        <p className={styles.subtitlesmallwhitecenter}>Usability testing for the User Interface Designs</p>
+        <p className={styles.subtitlesmallwhitecenter}>Usability Testing for the User Interface Designs</p>
       </Fade>
       <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Designed several variations of the User Interface Designs, and User Tested various methods for example a simple questionnaire regarding the User Interface, as well as a heat map of where users click on the User Interface.</p>
-        </Slide>
-        <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>This is related to various stakeholders of the company, on how to design the application. Additionally the users of the website could be executives or creative managers who are looking to hire Legacy Pictures.</p>
         </Slide>
     </Col>
   </Row>
@@ -736,7 +726,7 @@ Then based on the original design, a new iteration of the design can be done.</p
         <p className={styles.subtitlesmallwhitecenter}>Redesign of the Web Application User Interface</p>
       </Fade>
       <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Redesigns of the UI were created and sent as deliverables. The deliverables weres Mobile and Desktop versions of the redesign of the website. Also there was usability testing done.</p>
+          <p className={styles.descriptionlargewhitebold}>Redesigns of the UI were created and sent as deliverables. The deliverables were Mobile and Desktop versions of the redesign of the website. Also results of the was usability test.</p>
         </Slide>
       <div className={styles.spaceing}></div>
     </Col>
@@ -780,7 +770,7 @@ Then based on the original design, a new iteration of the design can be done.</p
         </Slide>
         <div className={styles.spaceing}></div>
         <Fade>
-        <p className={styles.subtitlesmallwhitecenter}>Usability testing</p>
+        <p className={styles.subtitlesmallwhitecenter}>Usability testing with Usabilityhub.com</p>
       </Fade>
         <Slide direction="up">
           <p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
@@ -894,14 +884,14 @@ Then based on the original design, a new iteration of the design can be done.</p
         <p className={styles.subtitlesmallwhitecenter}>More Time to explore UI and UX</p>
       </Fade>
       <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Wish had more time to do more user testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates and it was designed over a period of time.</p>
+          <p className={styles.descriptionlargewhitebold}>More time to do User Testing as well as interviews to b e able to ideate a better digital solution. The User Interface was designed based off of various templates.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <Fade>
-        <p className={styles.subtitlesmallwhitecenter}>Completion of the deliverables</p>
+        <p className={styles.subtitlesmallwhitecenter}>Completion of the Deliverables</p>
       </Fade>
         <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Getting the deliverables to the client was the most difficult part of the application. And getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed between myself and Legacy Pictures.</p>
+          <p className={styles.descriptionlargewhitebold}>Getting the completion of the design assets with the various stakeholders who all have different priorities made the project short lived, but the redesigns of the application were completed and a contract was signed with Legacy Pictures.</p>
         </Slide>
         <div className={styles.spaceing}></div>
         <div className={styles.spaceing}></div>
