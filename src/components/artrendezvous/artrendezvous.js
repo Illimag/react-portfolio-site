@@ -11,14 +11,14 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import styles from '../css/style.module.css';
 import '../css/style.css';
-import Img28 from '../../assets/img/legacypictures/1-04.jpg';
-import Img35 from '../../assets/phonehorizontal.png';
+import Img28 from '../../assets/art_redesign.png';
+import Img35 from '../../assets/artrendezmockup.png';
 import Img36 from '../../assets/phonemockuo.png';
 import Img37 from '../../assets/Flat.png';
 import Img38 from '../../assets/phonetop-01.png';
 import Media from 'react-media';
 import PreloadArt from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
-import PreloadArt1 from '../../assets/art_redesign.png';
+import PreloadArt1 from '../../assets/mobile-01.png';
 import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';
 import PreloadArtBackgroundImageTest from '../../assets/img/art/back-02-min.jpg';
 import PreloadArtBackgroundImageTestMobile from '../../assets/img/art/back-11-min.jpg';
@@ -91,7 +91,7 @@ export const Artrendezvous = () => (
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={8}>
+    <Col xs={12} md={4}>
         <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -113,7 +113,6 @@ export const Artrendezvous = () => (
         </Media>
     </Col>
   </Row>
-  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
@@ -239,8 +238,7 @@ export const Artrendezvous = () => (
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <CardGroup className={styles.backgroundtransparent}>
-        <Card className={styles.backgroundtransparent}>
+
           <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
@@ -262,31 +260,7 @@ export const Artrendezvous = () => (
               )}
             </Media>
           </Fade>
-        </Card>
-        <Card className={styles.backgroundtransparent}>
-          <Fade>
-            <Media queries={{
-              small: "(max-width: 599px)",
-              medium: "(min-width: 600px) and (max-width: 1199px)",
-              large: "(min-width: 1200px)"
-              }}>
-              {matches => (
-              <>
-              {matches.small &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              {matches.medium &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              {matches.large &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              </>
-              )}
-            </Media>
-          </Fade>
-        </Card>
-      </CardGroup>
+
     </Col>
   </Row>
 <div className={styles.spaceing}></div>
@@ -333,12 +307,10 @@ export const Artrendezvous = () => (
       <Slide direction="up">
         <p className={styles.descriptionlargewhitebold}>Assets were not provided as well as no examples of previous designs for the redesigns. So everything had to be recreated from scratch. Also when creating prototypes, it was difficult to showcase the beginning video background using the prototyping tools. There was need of careful care to not change the logo, and make sure to use the logo sent from the client.</p>
       </Slide>
-    <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
+    <Col xs={12} md={8}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
