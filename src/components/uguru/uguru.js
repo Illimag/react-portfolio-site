@@ -61,8 +61,6 @@ export const Uguru = () => (
     )}
   </Media>
   <div className={styles.backoverlay}></div>
-<div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
       <div className={styles.spaceing}></div>
       <Row className={styles.justifycontentcenter}>
@@ -135,18 +133,41 @@ export const Uguru = () => (
             <p className={styles.titlelargewhitebold}><span className={styles.grey}>INTRODUCTION</span></p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>Mobile Application Startup funded by Bay Angels</p>
+            <p className={styles.subtitlesmallwhitecenter}>Uguru, INC</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Uguru, INC was a startup in San Francisco. The product that they were developing was a mobile Application for college students. It was a small team, made up of a project manager, CEO, data science intern, software enginner intern, and myself. Eventually another designer was called in and boosted the User Interface designs. The startup was located in SOMA, which is down town san francisco right across from the ferry building. </p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Uguru received their funding of around 300k from an angel investor that was interested in building software product that would be able to create a platform for college students to get tutoring services, and other services. The peers would be able to tutor each other and be tutors for others. Over the feeling of the startup was one where there was alot of uncertainty with how the product was going to be developed and the CEO lacked the experience to really keep the team together and motivated. As well the people involved weren’t exactly knowing what to do.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>There was a ad that was looking for someone to be an office admin worker and I replied to the ad and it was the internship at the startup. After the initial interview I was able to get the internship and I started work at Uguru, INC. It was a fun experience that got me into UI/UX and without this experience I dont know if I would be able to have found my way out into a better way.</p>
+            <p className={styles.descriptionlargewhitebold}>A mobile application startup in downtown San Francisco, CA (SOMA), they were looking to launch their app for college students looking for tutoring services in an online marketplace.</p>
           </Slide>
           </Col>
+  </Row>
+
+  <div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+
+        <div className={styles.spaceing}></div>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Mobile Application Startup in SOMA</p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>The product was a mobile application for college students looking to peer tutor each other in subjects that they were majoring in. The core team comprised of:</p>
+          </Slide>
+
+        <div className={styles.spaceing}></div>
+            <Slide direction="up">
+              <ul className={styles.unorderlist}>
+                <li>Lead Developer (CEO)</li>
+                <li>Project Manager</li>
+                <li>Data Scientist Intern</li>
+                <li>Software Engineer Intern</li>
+                <li>Graphic and UI/UX Designer Intern</li>
+              </ul>
+            </Slide>
+            <div className={styles.spaceing}></div>
+            <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Eventually a Lead Designer was contracted for the User Interface designs. The startup was located in the Spear Tower, SOMA, which is downtown San Francisco right across from the SF Ferry Building. </p>
+          </Slide>
+    </Col>
   </Row>
 
 <Row className={styles.justifycontentcenter}>
@@ -185,7 +206,21 @@ export const Uguru = () => (
             </Col>
 </Row>
 
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
 
+        <div className={styles.spaceing}></div>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>First-Time Experience Working in the Design Industry</p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>At the time, was looking for any job to make money and was searching Craigslist in the jobs and gigs section. In particular the Foods and Hospitalities section to find a part time job at a restaurant. There was an ad there which looked interesting, and it was the internship at the startup. After the initial interview was able to get the internship and started work at Uguru, INC. It was a first-time experience working with UI/UX and without this internship would have no way of knowing what it was like working at an App startup in Downtown San Francisco, CA.</p>
+          </Slide>
+
+
+    </Col>
+  </Row>
+  <div className={styles.spaceing}></div>
 
 </Container>
 
@@ -238,22 +273,35 @@ export const Uguru = () => (
 
         <div className={styles.backoverlay}></div>
 <div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
-  <Row className={styles.justifycontentcenter}>
+<Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
+
+        <div className={styles.spaceing}></div>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>EMPATHY</p>
+            <p className={styles.subtitlesmallwhitecenter}>Designing User Interface Screens</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>The first screens were mainly for the CEO, the CEO was a developer, who was building a hybrid mobile application with Iconic. Iconic builds hybrid mobile applications that can be used to upload apps to both iOS and Andriod applications.</p>
+            <p className={styles.descriptionlargewhitebold}>The first screens were mainly for the CEO, the CEO was the Lead Developer, who was building a Hybrid Mobile Application with Iconic. Iconic builds Hybrid Mobile Applications that can be used to build Apps to both iOS and Andriod Applications.</p>
+          </Slide>
+
+
+    </Col>
+  </Row>
+<div className={styles.spaceing}></div>
+
+<Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+
+        <div className={styles.spaceing}></div>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Understanding the User Base</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Additionally the CEO had various assets that he was looking for someone to redesign and to reiterate on.The userbase is college students, who are looking to help people as well as receive help for college. This is particularly useful for people that have majors in a particular subject but might need help with another topic.</p>
+            <p className={styles.descriptionlargewhitebold}>The userbase was college students, who were looking to help people as well as receive help for college. This is particularly useful for people that have majors in a particular subject but might need help with another topic. The main demographic was the local UC Berkeley Area, because actually the CEO was a student at UC Berkeley.</p>
           </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>The main demographic that was ever reach was the local UC Berkeley Area. Because actually the CEO was a student at UC Berkeley.</p>
-          </Slide>
-          </Col>
+
+
+    </Col>
   </Row>
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
@@ -298,7 +346,6 @@ export const Uguru = () => (
   </Col>
 </Row>
 
-<div className={styles.spaceing}></div>
 
 <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
@@ -307,19 +354,31 @@ export const Uguru = () => (
             <p className={styles.titlelargewhitebold}><span className={styles.grey}>Challenge:</span></p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>The CEO needed a Graphic Designer who could transition into a User Interface Design/User Experience position. He needed someone whom could create high-fidelilty user interface mockups and create the rapid prototypes. As well as needing someone whom could do various other office related tasks.</p>
+            <p className={styles.subtitlesmallwhitecenter}>Tasks as a Graphic & UI/UX Designer Intern</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>The projects were a series of various User Interface designs. Initially I designed some low level fidelity mockups that were brought into the fold to be used for the interface. I was really happy to get strated on the work. But I think some parts of the trouble was not really knowing how to start. Luckly enoughI was able to become better with time and grow as a person. </p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>There were a few designs that I started with for example, I worked on the onboarding of the Mobile app. For this I designed it based on some sketches and created a higher fidelity for them. There were alot of times I didn’t know what to do, but I continued on them and made them as good as I could.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>After the designs were completed and the CEO okayed them I started on creating rapid prototyping for them. This was done using proto.io and using this animation software I was able to show what the app would be like. Additionally I made designs for the website, and various other parts of the interface. For example I made designs for the home page of the app, the statistics page, and other pages such as they would be used on the production application that would be deployed and used.</p>
+            <p className={styles.descriptionlargewhitebold}>The CEO needed a Graphic Designer who could transition into a User Interface/User Experience Designer. He needed someone who could create High-Fidelity User Interface Mockups and create the Rapid Prototypes. As well as needing someone who could do various other office related tasks.</p>
           </Slide>
           </Col>
   </Row>
+
+  <div className={styles.spaceing}></div>
+
+<Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+
+        <div className={styles.spaceing}></div>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Starting Work as a UI/UX Designer</p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>The projects were a series of various User Interface designs. Initially designed Low Fidelity Mockups that were to be used for the interface. Was really happy to get started on the work but was not really sure how to start. Luckly enough was able to become better with time and grow as a designer. There were a few designs that were started with for example, on the onboarding of the Mobile iOS Application. This was designed based on sketches and then created Higher Fidelity versions of them.</p>
+          </Slide>
+
+
+    </Col>
+  </Row>
+<div className={styles.spaceing}></div>
 
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={10}>
@@ -357,30 +416,44 @@ export const Uguru = () => (
             </Col>
 </Row>
 
+<div className={styles.spaceing}></div>
+
+<Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+
+        <div className={styles.spaceing}></div>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Rapid Prototyping with Proto.IO</p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>After the CEO gave permission to start the Rapid Prototyping of the Static Mockups, Proto.io was used to create the interactive versions of the designs. Mainly the onboarding screens were Rapid Prototyped with animations. Additionally, the designs of the website, and various other parts of the interface were prototyped. For example, the designs for the home page of the app, the statistics page, and other pages such as they would be used on the production application that would be deployed.</p>
+          </Slide>
+
+
+    </Col>
+  </Row>
+<div className={styles.spaceing}></div>
+
+
+
+<Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+
+        <div className={styles.spaceing}></div>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Ideation of the Personas </p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>Initially most of the designs were based on this fictional Guru persona, whom was someone who would be able to tutor students. The main point of this application is to create a social media community, this community could be at a state school, or at a University at California. Then were able to create a demographic of users based off what we know about the student population. Some of it was assumptions, but regardless we were able to create various User Journeys, and User Flows.</p>
+          </Slide>
+
+
+    </Col>
+  </Row>
+<div className={styles.spaceing}></div>
+
 
 </Container>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -417,24 +490,22 @@ export const Uguru = () => (
           )}
         </Media>
         <div className={styles.backoverlay}></div>
-<div className={styles.spaceing}></div>
-<Row className={styles.justifycontentcenter}>
+
+        <div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-          <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>IDEATE</p>
+    <Slide direction="up">
+            <p className={styles.titlelargewhitebold}><span className={styles.grey}>Solution:</span></p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Initially most of the designs were based on this fictional guru persona, whom was someone who would be able to teach students. Also the main point of this application is to create a social media, a community of people who could be at a state school, or at a university at California.</p>
+            <p className={styles.subtitlesmallwhitecenter}>User Interface Screen Assets and Deliverables</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>We started with Card Sorting? We are able to create a demographic of users based off what we know about the student population. Some of it is assumptions. But we are able to create various user journeys, or user flows.</p>
+            <p className={styles.descriptionlargewhitebold}>Created High Fidelity Mockups for the Mobile Application and the Rapid Prototypes using Static Image Files and Animations. The lead designer helped with moving the designs forward and the application designs began becoming completed with comprehensive User Flows. This was great to learn from this individual and while working with the whole team it really eye opening on how a team would be able to develop product for production.</p>
           </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Additionally we can start trying to understand our personas pain points. We create Personas of people who would be using the application. For example if they went to state school there can be a few personas like this:</p>
-          </Slide>
+         
           </Col>
   </Row>
-
 
 
 
@@ -481,38 +552,16 @@ export const Uguru = () => (
 <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
-    <Slide direction="up">
-            <p className={styles.titlelargewhitebold}><span className={styles.grey}>Solution:</span></p>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Creating the MVP</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>I was able to create high fidelity mockups for the mobile application. As well as begining the rapid prototypes using static image files and animations.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>I was the graphic & UI/UX Designer Intern at the company, and later there was a lead designer that came in to help with moving the designs forwards faster. This was very great to learn from this individual and while working with the whole team it really showed me how a team would be able to create a production product.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>There were a few designs that I started with for example, I worked on the onboarding of the Mobile app. For this I designed it based on some sketches and created a higher fidelity for them. There were alot of times I didn’t know what to do, but I continued on them and made them as good as I could.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>There were a few people in the team. There was a Project manager type person, the CEO who was also a software enginner, a software engineer intern, a data science intern, and me who was graphic & UI/UX design intern, later a lead designer who specalized in User Interface come in to help move the screen along better as well as building out more of the app flows.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>There were alot of difficulties with workingon this application. For example the number of hours we were expected to work for example I was working from 8am to 8pm mon - sat or sometimes they expected me to come in on sundays. It was difficult to get to my internship and although the CEO was a cool guy he didnt seen to understand the basic things that are needed for his workers to be able to be successful. Even so we tried our best and worked to make his dream a reality..</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>The User Interface Designs needed to be done, and I pushed hard to get them designed over time, I learned various things to make the designs look better and hopefully made a real difference in how the application would look and feel. For example for the Home page of the user interface in the mobile application, I was able to creating the layout and seeing the different parts of the interface that needed to be created..</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>We needed to do more research, such as what types of people would be using the interface, we were really focused on creating the MVP. But other that that we really didnt know how this was going to happen. After the interface is becoming better, I started creating a higher fidelity interface.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>I would be putting in the very high number of hours and it began becoming very stressful. Additionally I was For the home page interface after getting the sketch from the CEO and knowing what the layout needed to be I was able to start creating the visual look of the application based on the style guide.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>I was using tools mainly from adobe such as Illustrator and photoshop. This was before Adobe XD. Additionally I was using rapid prototyping software that was helping me with seeing how the animations of the user Interface would look. This really helped alot when trying to do the Onboarding screens.</p>
+            <p className={styles.descriptionlargewhitebold}>Over time, learned various things to make the designs better and tried to make a real difference in how the application would look and feel. For example, the Home page of the User Interface in the Mobile Application, was able to create the layout and the different parts of the interface that needed to be created. We needed to do research, such as what types of people would be using the interface, we were really focused on creating the MVP. But other than that, we really didn't know how this was going to happen. After the interface became better, started creating a Higher Fidelity interface.</p>
           </Slide>
           </Col>
   </Row>
+  
+<div className={styles.spaceing}></div>
 </Container>
 
 
@@ -552,26 +601,30 @@ export const Uguru = () => (
           )}
         </Media>
         <div className={styles.backoverlay}></div>
-
-<div className={styles.spaceing}></div>
+=
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>DESIGN</p>
+            <p className={styles.subtitlesmallwhitecenter}>Adobe Creative Suite UI/UX Design Toolkit</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>When we started to do the design process, it was mainly to do low fidelity prototyping, such as balsamiqs, but preferably started on Adobe Illustrator. Adobe Illustrator which was used because Adobe XD, as well as Figma were both released after 2016.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>So for designers who did UI/UX Design at SOMA in Downtown San Francisco, we used Adobe Illustrator, which was much nicer to use than Adobe Photoshop to use, because we are able to use vectors rather than pixels.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>So we designed the User Interfaces on Adobe Illustrator because this was before Adobe XD and Figma. Also it took a few years for Adobe XD to build itself up to the functionalities that are available currently for Adobe XD and similar software applications.</p>
+            <p className={styles.descriptionlargewhitebold}>Mainly using tools from Adobe Creative Suite such as Adobe Illustrator and Adobe Photoshop. This was before Adobe XD. Additionally, for Rapid Prototyping software used Proto.io for the animations of the User Interface. This really helped a lot when trying to do the Onboarding screens. Additionally, for the Home page interface after getting the sketch from the CEO and knowing what the layout needed to be was able to start creating the visual look of the application based on the style guide.</p>
           </Slide>
           </Col>
   </Row>
 
+  <div className={styles.spaceing}></div>
+<Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+          <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Before Adobe XD and Figma</p>
+          </Slide>
+          <Slide direction="up">
+            <p className={styles.descriptionlargewhitebold}>When we started to do the design process, it was mainly to do Low Fidelity Prototyping, such as Balsamiqs, but started mainly on Adobe Illustrator. Adobe Illustrator, which was used because Adobe XD, as well as Figma were both released after 2016. So, for Designers who did UI/UX Design at SOMA in Downtown San Francisco, we used Adobe Illustrator, which was preferred to use for UI/UX Design than Adobe Photoshop, because Adobe Illustrator uses vectors rather than pixels. So, we designed the User Interfaces on Adobe Illustrator because this was before Adobe XD and Figma. Also, it took a few years for Adobe XD to build itself up to the functionalities that are available currently for Adobe XD and similar software applications.</p>
+          </Slide>
+          </Col>
+  </Row>
 
 
 <Row className={styles.justifycontentcenter}>
@@ -659,22 +712,10 @@ export const Uguru = () => (
             <p className={styles.titlelargewhitebold}><span className={styles.grey}>Results:</span></p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>After my internship was completed, I continued my journey as a designer. And from this experience I returned to California College of the Arts changing my major from Industrial Design to Interaction design to focus on the User Interface and User Experience Design.</p>
+            <p className={styles.subtitlesmallwhitecenter}>The Designer Journey</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>The CEO would want me to do the code of the interface but at the time I was unsure about what that would actually require me to do and as so I didn’t really know how to do that. LAter after my intership was over I learned HTML/CSS/JS and the web frameworks that would have been required to let me do what he expected of me.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>I completed my internship by creating the home page, onboarding screens, etc and I think over the level of quality was ok. I returned back to school.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>After my internship, this was my first taste of being part of the tech industry and it showed me a little about what direction I needed to go to be successful. For example after high school I was really unsure what to do, but I chose to go into Industrial Design, and I attended Hongik University for Industrial Design. After I came back from Korea, I transferred to De Anza for graphic design because of my art background this made alot of sense to me at the time.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Then I transfered to CCA california college of the arts in san francisco as industrial design major. This was because I didnt have any experience in the field and I didnt know what was more relevant for people around this area.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>When I did my internship I learned what was more relevant for the industry as well being able to make the change from Industrial Design to Interaction Design. I learned what it was like to work as a team.</p>
+            <p className={styles.descriptionlargewhitebold}>After the internship was completed, continued the journey as a Designer. From this experience, when returning to California College of the Arts changed majors from Industrial Design to Interaction Design to focus on the User Interface and User Experience Design.</p>
           </Slide>
           </Col>
   </Row>
@@ -688,16 +729,10 @@ export const Uguru = () => (
 <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>PROTOTYPE</p>
+            <p className={styles.subtitlesmallwhitecenter}>Learning to Code</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>There were very primate types of rapid prototyping software used such as Proto.io, which were a good way to create rapid prototypes of the application.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>So taking the high fidelity prototypes and then creating prototypes of them using Proto.io, was what was used instead of the rapid prototyping functionality that is available for Adobe XD and Figma, as well as Sketch, and Invision.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>But at the time there wasent Adobe XD and Figma, so what we used instead was Adobe Illustrator and Proto.IO to rapid prototype the applications.</p>
+            <p className={styles.descriptionlargewhitebold}>The CEO was encouraging to do the code of the interface but at the time was unsure about what that would actually require so didn’t really know how to do that. Later after the internship was over, learned HTML/CSS/JS and the web frameworks that would have been required to do what he expected.</p>
           </Slide>
           </Col>
   </Row>
@@ -796,13 +831,10 @@ export const Uguru = () => (
 <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>TEST</p>
+            <p className={styles.subtitlesmallwhitecenter}>Completion of Internship</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>The main application was being developed by the CEO who was the lead developer.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>There are several ways to test this application. Finding the correct demographic and getting the actual demographic to use the application, is one of the best ways to test this application. There are various User Interfaces that need to be User Tested.</p>
+            <p className={styles.descriptionlargewhitebold}>The internship was the first step into the tech industry, and started the journey of becoming a User Interface and User Experience Designer. After high school was really unsure what to do, but chose to go into Industrial Design, then transferred to California College of the Arts (CCA) in San Francisco as an Industrial Design major. This was because of a lack of any real experience in the field and didn't know what was more relevant for Designers around the San Francisco Bay Area. With the internship learned what was more relevant for the industry as well being able to make the change from Industrial Design to Interaction Design. As well as learning the important skill of working as a team.</p>
           </Slide>
           </Col>
   </Row>
@@ -864,23 +896,14 @@ export const Uguru = () => (
             <p className={styles.titlelargewhitebold}><span className={styles.grey}>Reflection:</span></p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>At my internship at Uguru, INC. It was a challenging task since I did not have the right skillset to be effective at my alloted tasks. Luckly I was working along side a very talented designer and learned by doing. My background in graphics helped me slowly develop my skillsets for User Interface design as well as an understanding of User Experience.</p>
+            <p className={styles.subtitlesmallwhitecenter}>Learning About the San Francisco Bay Area Tech Industry</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>This internship was really the first steps for me to being the journey as an UI/UX Designer as well as getting into the tech industry. Although it was difficult at times, and it was unsure for me to know what worked and didnt work, when the CEO suggested that I should start programming it took me a long time to start programming. </p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>After I started programming, it really opened up my world to the possibilities of what was possible as well as what types of mediums i would be interested in working in. For example I was interested in working with devices such as mobile devices, and design user Interfaces for mobile applications and websites.</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>After I started learning HTML/CSS to start building these websites that I designed it really opened my world up to understanding what was possible for me as a designer as well as being able to code. As so I continued on with learning how to code and I learned code such as CSS libraries such as bootstrap, and JavaScript frameworks. .</p>
-          </Slide>
-          <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Eventually I learned how to write logic code with python and even began building little software systems. Additionally I learned more about the technologies surround web languages and web browsers and learning how to code for web browsers, while keeping in mind all the design technicals for an amazin user interface.</p>
+            <p className={styles.descriptionlargewhitebold}>At the internship at Uguru, INC, it was a challenging task since did not have the right skillset to be effective at my allotted tasks. Luckly was working alongside a very talented designer and learned by doing. With a background in graphics helped with slowly developing skillsets for User Interface Design as well as an understanding of User Experience. This internship was really the push in the right direction in the journey as an UI/UX Designer as well as getting a foot into the tech industry. </p>
           </Slide>
           </Col>
   </Row>
-
+  <div className={styles.spaceing}></div>
 
 </Container>
 
