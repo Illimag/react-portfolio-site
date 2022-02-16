@@ -18,7 +18,7 @@ import Img37 from '../../assets/Flat.png';
 import Img38 from '../../assets/phonetop-01.png';
 import Media from 'react-media';
 import PreloadArt from '../../assets/businessman-working-on-start-up-project-with-team--KG6C3DN.jpg';
-import PreloadArt1 from '../../assets/mobile-01.png';
+import PreloadArt1 from '../../assets/art_redesign.png';
 import PreloadArt11 from '../../assets/artrendezpicturemobile.jpg';
 import PreloadArtBackgroundImageTest from '../../assets/img/art/back-02-min.jpg';
 import PreloadArtBackgroundImageTestMobile from '../../assets/img/art/back-11-min.jpg';
@@ -32,6 +32,8 @@ import PreloadArtBackgroundImageTest4 from '../../assets/img/art/back-06-min.jpg
 import PreloadArtBackgroundImageTestMobile4 from '../../assets/img/art/back-15-min.jpg';
 import PreloadArtBackgroundImageTest5 from '../../assets/img/art/back-07-min.jpg';
 import PreloadArtBackgroundImageTestMobile5 from '../../assets/img/art/back-16-min.jpg';
+
+import video from '../../assets/vids/compressed_vid/vid6.mp4';
 
 export const Artrendezvous = () => (
   /* Start of JSX Fragment*/
@@ -111,7 +113,7 @@ export const Artrendezvous = () => (
         </Media>
     </Col>
   </Row>
-
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
@@ -155,7 +157,6 @@ export const Artrendezvous = () => (
       )}
     </Media>
     <div className={styles.backoverlay}></div>
-  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
 
@@ -174,54 +175,39 @@ export const Artrendezvous = () => (
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <CardGroup className={styles.backgroundtransparent}>
-        <Card className={styles.backgroundtransparent}>
-          <Fade>
-            <Media queries={{
-              small: "(max-width: 599px)",
-              medium: "(min-width: 600px) and (max-width: 1199px)",
-              large: "(min-width: 1200px)"
-              }}>
-              {matches => (
-              <>
-              {matches.small &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              {matches.medium &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              {matches.large &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              </>
-              )}
-            </Media>
-          </Fade>
-        </Card>
-        <Card className={styles.backgroundtransparent}>
-          <Fade>
-            <Media queries={{
-              small: "(max-width: 599px)",
-              medium: "(min-width: 600px) and (max-width: 1199px)",
-              large: "(min-width: 1200px)"
-              }}>
-              {matches => (
-              <>
-              {matches.small &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              {matches.medium &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              {matches.large &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              </>
-              )}
-            </Media>
-          </Fade>
-        </Card>
-      </CardGroup>
+      <Fade>
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+          }}>
+          {matches => (
+          <>
+          {matches.small &&
+            <div>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video}/>
+              </video>
+            </div>
+          }
+          {matches.medium &&
+            <div>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video}/>
+              </video>
+            </div>
+          }
+          {matches.large &&
+            <div>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video}/>
+              </video>
+            </div>
+          }
+          </>
+          )}
+        </Media>
+      </Fade>
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
