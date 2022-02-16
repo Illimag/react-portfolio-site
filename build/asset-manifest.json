@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.343fc7ba.chunk.css",
-    "main.js": "/static/js/main.81122a4d.chunk.js",
-    "main.js.map": "/static/js/main.81122a4d.chunk.js.map",
+    "main.css": "/static/css/main.48b67d1a.chunk.css",
+    "main.js": "/static/js/main.eb93bbf8.chunk.js",
+    "main.js.map": "/static/js/main.eb93bbf8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.1cace5d8.chunk.css": "/static/css/2.1cace5d8.chunk.css",
-    "static/js/2.44fd9609.chunk.js": "/static/js/2.44fd9609.chunk.js",
-    "static/js/2.44fd9609.chunk.js.map": "/static/js/2.44fd9609.chunk.js.map",
+    "static/js/2.717b9393.chunk.js": "/static/js/2.717b9393.chunk.js",
+    "static/js/2.717b9393.chunk.js.map": "/static/js/2.717b9393.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3a25a77bf0ecd260a13f10bd17ca403d.js": "/precache-manifest.3a25a77bf0ecd260a13f10bd17ca403d.js",
+    "precache-manifest.d5fc4c7035a3b2ce3e5317853f129040.js": "/precache-manifest.d5fc4c7035a3b2ce3e5317853f129040.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1cace5d8.chunk.css.map": "/static/css/2.1cace5d8.chunk.css.map",
-    "static/css/main.343fc7ba.chunk.css.map": "/static/css/main.343fc7ba.chunk.css.map",
-    "static/js/2.44fd9609.chunk.js.LICENSE.txt": "/static/js/2.44fd9609.chunk.js.LICENSE.txt",
+    "static/css/main.48b67d1a.chunk.css.map": "/static/css/main.48b67d1a.chunk.css.map",
+    "static/js/2.717b9393.chunk.js.LICENSE.txt": "/static/js/2.717b9393.chunk.js.LICENSE.txt",
     "static/media/0-1.mp4": "/static/media/0-1.244d8b49.mp4",
     "static/media/0.mp4": "/static/media/0.e429b41b.mp4",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
@@ -57,6 +57,7 @@
     "static/media/Mobile-Mockup.89cb3338.png": "/static/media/Mobile-Mockup.89cb3338.png",
     "static/media/Website-User-scenario-workflow.e9e2ac6c.png": "/static/media/Website-User-scenario-workflow.e9e2ac6c.png",
     "static/media/XDR Mockup.ed9b5e81.png": "/static/media/XDR Mockup.ed9b5e81.png",
+    "static/media/art_redesign.bf0b8164.png": "/static/media/art_redesign.bf0b8164.png",
     "static/media/artrendezpicturemobile.d473c667.jpg": "/static/media/artrendezpicturemobile.d473c667.jpg",
     "static/media/back-02-min.afe4050d.jpg": "/static/media/back-02-min.afe4050d.jpg",
     "static/media/back-03-min.7b0595b7.jpg": "/static/media/back-03-min.7b0595b7.jpg",
@@ -164,6 +165,7 @@
     "static/media/ttt-01.23e657fc.png": "/static/media/ttt-01.23e657fc.png",
     "static/media/ugurumainpic-01-min.dc60416d.png": "/static/media/ugurumainpic-01-min.dc60416d.png",
     "static/media/vid2.m4v": "/static/media/vid2.80db2340.m4v",
+    "static/media/vid6.mp4": "/static/media/vid6.c52cc9dd.mp4",
     "static/media/vid7.mp4": "/static/media/vid7.cbcd5784.mp4",
     "static/media/video-production-concept-operator-working-with-a-c-2JS9M5Q.78665f9b.jpg": "/static/media/video-production-concept-operator-working-with-a-c-2JS9M5Q.78665f9b.jpg",
     "static/media/volumne.PNG": "/static/media/volumne.4723d94b.PNG"
@@ -171,8 +173,8 @@
   "entrypoints": [
     "static/js/runtime-main.672f7f98.js",
     "static/css/2.1cace5d8.chunk.css",
-    "static/js/2.44fd9609.chunk.js",
-    "static/css/main.343fc7ba.chunk.css",
-    "static/js/main.81122a4d.chunk.js"
+    "static/js/2.717b9393.chunk.js",
+    "static/css/main.48b67d1a.chunk.css",
+    "static/js/main.eb93bbf8.chunk.js"
   ]
 }
