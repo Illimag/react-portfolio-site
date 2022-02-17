@@ -9,10 +9,13 @@ import { LinkContainer } from 'react-router-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import Img34 from '../../assets/ugurumainpic-01-min.png';
+import Img34 from '../../assets/sssds-01.png';
 import Img35 from '../../assets/mockuptest-02.png';
-import Img36 from '../../assets/mockuptest-01.png';
-import Img38 from '../../assets/phonemockuo.png';
+import Img36 from '../../assets/uguru-09.jpg';
+import Img38 from '../../assets/uguruimg1.jpg';
+import Img39 from '../../assets/uguruimg2.jpg';
+import Img40 from '../../assets/uguruimg3.png';
+import Img41 from '../../assets/uguruimg4.png';
 import styles from '../css/style.module.css';
 import '../css/style.css';
 import PreloadUguruBackgroundImageTest from '../../assets/img/uguru/backtest-01-min.jpg';
@@ -29,6 +32,9 @@ import PreloadUguruBackgroundImageTest5 from '../../assets/img/uguru/1-05.jpg';
 import PreloadUguruBackgroundImageTestMobile5 from '../../assets/img/uguru/1-05.jpg';
 
 import Media from 'react-media';
+
+import video from '../../assets/vids/compressed_vid/vid5.mp4';
+import video1 from '../../assets/sfvid.mp4';
 
 export const Uguru = () => (
   /* Start of JSX Fragment*/
@@ -113,8 +119,6 @@ export const Uguru = () => (
           </Media>
               </Fade>  
 
-              <div className={styles.spaceing}></div>
-          
 
 
               </Col>
@@ -125,8 +129,6 @@ export const Uguru = () => (
 
 
 
-
-<div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
@@ -169,42 +171,44 @@ export const Uguru = () => (
           </Slide>
     </Col>
   </Row>
-
-<Row className={styles.justifycontentcenter}>
-<Col xs={12} md={10}>
-
-<Fade>
-<Media queries={{
+  <div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={10}>
+      <Fade>
+        <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
           large: "(min-width: 1200px)"
-        }}>
+          }}>
           {matches => (
-            <>
-
-              {matches.small &&
-                    <Image src={Img38} fluid className={styles.centerimage}/>
-  
-                }
-
-              {matches.medium &&
-                  <Image src={Img38} fluid className={styles.centerimage}/>
-    
-                }
-
-              {matches.large &&
-               
-               <Image src={Img38} fluid className={styles.centerimage}/>
-
-                }
-
-            </>
+          <>
+          {matches.small &&
+            <div>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video}/>
+              </video>
+            </div>
+          }
+          {matches.medium &&
+            <div>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video}/>
+              </video>
+            </div>
+          }
+          {matches.large &&
+            <div>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video}/>
+              </video>
+            </div>
+          }
+          </>
           )}
         </Media>
-            </Fade>
-
-            </Col>
-</Row>
+      </Fade>
+    </Col>
+  </Row>
 
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
@@ -507,7 +511,7 @@ export const Uguru = () => (
           </Col>
   </Row>
 
-
+  <div className={styles.spaceing}></div>
 
 
 
@@ -524,18 +528,18 @@ export const Uguru = () => (
             <>
 
               {matches.small &&
-                    <Image src={Img38} fluid className={styles.centerimage}/>
+                    <Image src={Img39} fluid className={styles.centerimage}/>
   
                 }
 
               {matches.medium &&
-                  <Image src={Img38} fluid className={styles.centerimage}/>
+                  <Image src={Img39} fluid className={styles.centerimage}/>
     
                 }
 
               {matches.large &&
                
-               <Image src={Img38} fluid className={styles.centerimage}/>
+               <Image src={Img39} fluid className={styles.centerimage}/>
 
                 }
 
@@ -601,7 +605,7 @@ export const Uguru = () => (
           )}
         </Media>
         <div className={styles.backoverlay}></div>
-=
+
 <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
@@ -625,7 +629,7 @@ export const Uguru = () => (
           </Slide>
           </Col>
   </Row>
-
+  <div className={styles.spaceing}></div>
 
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={10}>
@@ -640,18 +644,18 @@ export const Uguru = () => (
             <>
 
               {matches.small &&
-                    <Image src={Img38} fluid className={styles.centerimage}/>
+                    <Image src={Img40} fluid className={styles.centerimage}/>
   
                 }
 
               {matches.medium &&
-                  <Image src={Img38} fluid className={styles.centerimage}/>
+                  <Image src={Img40} fluid className={styles.centerimage}/>
     
                 }
 
               {matches.large &&
                
-               <Image src={Img38} fluid className={styles.centerimage}/>
+               <Image src={Img40} fluid className={styles.centerimage}/>
 
                 }
 
@@ -736,7 +740,7 @@ export const Uguru = () => (
           </Slide>
           </Col>
   </Row>
-
+  <div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
 <Col xs={12} md={10}>
 
@@ -750,18 +754,18 @@ export const Uguru = () => (
             <>
 
               {matches.small &&
-                    <Image src={Img38} fluid className={styles.centerimage}/>
+                    <Image src={Img41} fluid className={styles.centerimage}/>
   
                 }
 
               {matches.medium &&
-                  <Image src={Img38} fluid className={styles.centerimage}/>
+                  <Image src={Img41} fluid className={styles.centerimage}/>
     
                 }
 
               {matches.large &&
                
-               <Image src={Img38} fluid className={styles.centerimage}/>
+               <Image src={Img41} fluid className={styles.centerimage}/>
 
                 }
 
@@ -839,54 +843,47 @@ export const Uguru = () => (
           </Col>
   </Row>
 
+  <div className={styles.spaceing}></div>
 
-
-
-<Row className={styles.justifycontentcenter}>
-<Col xs={12} md={10}>
-
-
-
-<CardGroup className={styles.backgroundtransparent}>
-
-      <Card className={styles.backgroundtransparent}>
+  <div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={10}>
       <Fade>
-      <Media queries={{
+        <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
           large: "(min-width: 1200px)"
-        }}>
+          }}>
           {matches => (
-            <>
-
-              {matches.small &&
-                    <Image src={Img38} fluid className={styles.centerimage}/>
-  
-                }
-
-              {matches.medium &&
-                  <Image src={Img38} fluid className={styles.centerimage}/>
-    
-                }
-
-              {matches.large &&
-               
-               <Image src={Img38} fluid className={styles.centerimage}/>
-
-                }
-
-            </>
+          <>
+          {matches.small &&
+            <div>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video1}/>
+              </video>
+            </div>
+          }
+          {matches.medium &&
+            <div>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video1}/>
+              </video>
+            </div>
+          }
+          {matches.large &&
+            <div>
+              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
+                <source src={video1}/>
+              </video>
+            </div>
+          }
+          </>
           )}
         </Media>
       </Fade>
-      </Card>
-      </CardGroup>
+    </Col>
+  </Row>
 
-
-
-
-</Col>
-</Row>
 
 
 <div className={styles.spaceing}></div>
