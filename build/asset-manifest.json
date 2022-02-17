@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.aa8e4218.chunk.css",
-    "main.js": "/static/js/main.eb93bbf8.chunk.js",
-    "main.js.map": "/static/js/main.eb93bbf8.chunk.js.map",
+    "main.js": "/static/js/main.f82d423c.chunk.js",
+    "main.js.map": "/static/js/main.f82d423c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.1cace5d8.chunk.css": "/static/css/2.1cace5d8.chunk.css",
     "static/js/2.717b9393.chunk.js": "/static/js/2.717b9393.chunk.js",
     "static/js/2.717b9393.chunk.js.map": "/static/js/2.717b9393.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.807c2c53777e896dbe5e3cac3de50080.js": "/precache-manifest.807c2c53777e896dbe5e3cac3de50080.js",
+    "precache-manifest.87e68257ed6d68e7d3f698c2efeb8694.js": "/precache-manifest.87e68257ed6d68e7d3f698c2efeb8694.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1cace5d8.chunk.css.map": "/static/css/2.1cace5d8.chunk.css.map",
     "static/css/main.aa8e4218.chunk.css.map": "/static/css/main.aa8e4218.chunk.css.map",
@@ -23,7 +23,6 @@
     "static/media/1-02.f93e0614.jpg": "/static/media/1-02.f93e0614.jpg",
     "static/media/1-03.e4007bca.jpg": "/static/media/1-03.e4007bca.jpg",
     "static/media/1-04.38d2ac62.jpg": "/static/media/1-04.38d2ac62.jpg",
-    "static/media/1-04.d2918182.jpg": "/static/media/1-04.d2918182.jpg",
     "static/media/1-05.04742953.jpg": "/static/media/1-05.04742953.jpg",
     "static/media/1-05.7848c0e7.jpg": "/static/media/1-05.7848c0e7.jpg",
     "static/media/1-06.7e410dc3.jpg": "/static/media/1-06.7e410dc3.jpg",
@@ -58,6 +57,7 @@
     "static/media/Website-User-scenario-workflow.e9e2ac6c.png": "/static/media/Website-User-scenario-workflow.e9e2ac6c.png",
     "static/media/XDR Mockup.ed9b5e81.png": "/static/media/XDR Mockup.ed9b5e81.png",
     "static/media/art_redesign.bf0b8164.png": "/static/media/art_redesign.bf0b8164.png",
+    "static/media/artrendezmockup.f8a280d8.png": "/static/media/artrendezmockup.f8a280d8.png",
     "static/media/artrendezpicturemobile.d473c667.jpg": "/static/media/artrendezpicturemobile.d473c667.jpg",
     "static/media/back-02-min.afe4050d.jpg": "/static/media/back-02-min.afe4050d.jpg",
     "static/media/back-03-min.7b0595b7.jpg": "/static/media/back-03-min.7b0595b7.jpg",
@@ -120,13 +120,12 @@
     "static/media/los-angeles-california-P5YD66H.23421950.jpg": "/static/media/los-angeles-california-P5YD66H.23421950.jpg",
     "static/media/male-videographer-editor-using-pc-computer-editing-R7QYFZS.0480d8fa.jpg": "/static/media/male-videographer-editor-using-pc-computer-editing-R7QYFZS.0480d8fa.jpg",
     "static/media/mind-mapping-diagram-8391.fa3fa10e.png": "/static/media/mind-mapping-diagram-8391.fa3fa10e.png",
-    "static/media/mobile-01.125b55b7.png": "/static/media/mobile-01.125b55b7.png",
+    "static/media/mobile-01.dc8874b7.png": "/static/media/mobile-01.dc8874b7.png",
     "static/media/mockuptest-01.dd59599e.png": "/static/media/mockuptest-01.dd59599e.png",
     "static/media/mockuptest-02.c94d6cce.png": "/static/media/mockuptest-02.c94d6cce.png",
     "static/media/ordersize.PNG": "/static/media/ordersize.fed78b53.PNG",
     "static/media/p_apex_3_L-min.eb30a2bc.png": "/static/media/p_apex_3_L-min.eb30a2bc.png",
     "static/media/personas.fd587df0.png": "/static/media/personas.fd587df0.png",
-    "static/media/phonehorizontal.fd2448a2.png": "/static/media/phonehorizontal.fd2448a2.png",
     "static/media/phonemockuo.995289e6.png": "/static/media/phonemockuo.995289e6.png",
     "static/media/phonetop-01.eec3945c.png": "/static/media/phonetop-01.eec3945c.png",
     "static/media/pic5.90a34363.png": "/static/media/pic5.90a34363.png",
@@ -175,6 +174,6 @@
     "static/css/2.1cace5d8.chunk.css",
     "static/js/2.717b9393.chunk.js",
     "static/css/main.aa8e4218.chunk.css",
-    "static/js/main.eb93bbf8.chunk.js"
+    "static/js/main.f82d423c.chunk.js"
   ]
 }

@@ -12,8 +12,14 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import styles from '../css/style.module.css';
 import '../css/style.css';
 import Img28 from '../../assets/art_redesign.png';
+import Img29 from '../../assets/fe-01.png';
 import Img35 from '../../assets/artrendezmockup.png';
 import Img36 from '../../assets/phonemockuo.png';
+import Img336 from '../../assets/artfigma.png';
+import Img337 from '../../assets/artcolors.png';
+import Img338 from '../../assets/newyork.png';
+import Img339 from '../../assets/artxd.png';
+import Img340 from '../../assets/artrendezmockup1.png';
 import Img37 from '../../assets/Flat.png';
 import Img38 from '../../assets/phonetop-01.png';
 import Media from 'react-media';
@@ -393,9 +399,8 @@ export const Artrendezvous = () => (
   </Row>
 <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
-      <CardGroup className={styles.backgroundtransparent}>
-        <Card className={styles.backgroundtransparent}>
+    <Col xs={12} md={8}>
+
           <Fade>
             <Media queries={{
               small: "(max-width: 599px)",
@@ -405,43 +410,18 @@ export const Artrendezvous = () => (
               {matches => (
               <>
               {matches.small &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
+                <Image src={Img29} fluid className={styles.centerimage}/>
               }
               {matches.medium &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
+                <Image src={Img29} fluid className={styles.centerimage}/>
               }
               {matches.large &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
+                <Image src={Img29} fluid className={styles.centerimage}/>
               }
               </>
               )}
             </Media>
           </Fade>
-        </Card>
-        <Card className={styles.backgroundtransparent}>
-          <Fade>
-            <Media queries={{
-              small: "(max-width: 599px)",
-              medium: "(min-width: 600px) and (max-width: 1199px)",
-              large: "(min-width: 1200px)"
-              }}>
-              {matches => (
-              <>
-              {matches.small &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              {matches.medium &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              {matches.large &&
-                <Image src={Img28} fluid className={styles.centerimage}/>
-              }
-              </>
-              )}
-            </Media>
-          </Fade>
-        </Card>
-      </CardGroup>
     </Col>
   </Row>
 <div className={styles.spaceing}></div>
@@ -528,13 +508,13 @@ export const Artrendezvous = () => (
               {matches => (
               <>
               {matches.small &&
-                <Image src={Img36} fluid className={styles.centerimage}/>
+                <Image src={Img336} fluid className={styles.centerimage}/>
               }
               {matches.medium &&
-                <Image src={Img36} fluid className={styles.centerimage}/>
+                <Image src={Img336} fluid className={styles.centerimage}/>
               }
               {matches.large &&
-                <Image src={Img36} fluid className={styles.centerimage}/>
+                <Image src={Img336} fluid className={styles.centerimage}/>
               }
               </>
               )}
@@ -574,7 +554,6 @@ export const Artrendezvous = () => (
     </Media>
     <div className={styles.backoverlay}></div>
 <div className={styles.spaceing}></div>
-<div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
       <CardGroup className={styles.backgroundtransparent}>
@@ -589,35 +568,7 @@ export const Artrendezvous = () => (
       </CardGroup>
     </Col>
   </Row>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
-      <CardGroup className={styles.backgroundtransparent}>
-        <Card className={styles.backgroundtransparent}>
-          <Fade>
-            <Media queries={{
-              small: "(max-width: 599px)",
-              medium: "(min-width: 600px) and (max-width: 1199px)",
-              large: "(min-width: 1200px)"
-              }}>
-              {matches => (
-              <>
-              {matches.small &&
-                <Image src={Img36} fluid className={styles.centerimage}/>
-              }
-              {matches.medium &&
-                <Image src={Img36} fluid className={styles.centerimage}/>
-              }
-              {matches.large &&
-                <Image src={Img36} fluid className={styles.centerimage}/>
-              }
-              </>
-              )}
-            </Media>
-          </Fade>
-        </Card>
-      </CardGroup>
-    </Col>
-  </Row>
+  <div className={styles.spaceing}></div>
 </Container>
 <Container fluid className={styles.test}>
   <Media queries={{
@@ -647,45 +598,6 @@ export const Artrendezvous = () => (
   </Media>
   <div className={styles.backoverlay}></div>
 <div className={styles.spaceing}></div>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
-    <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>Video Background Prototyping</p>
-          </Slide>
-
-      <Slide direction="up">
-        <p className={styles.descriptionlargewhitebold}>There was another issue related to the homepage, where it was difficult to prototype something with video backgrounds. That's one of the main issues related to creating rapid prototypes. So used Uxpin to create prototypes with background with video.</p>
-      </Slide>
-    <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
-    </Col>
-  </Row>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
-      <Fade>
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-          }}>
-          {matches => (
-          <>
-          {matches.small &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
-          }
-          {matches.medium &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
-          }
-          {matches.large &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
-          }
-          </>
-          )}
-        </Media>
-      </Fade>
-    </Col>
-  </Row>
-<div className={styles.spaceing}></div>
 <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
@@ -695,8 +607,6 @@ export const Artrendezvous = () => (
       <Slide direction="up">
         <p className={styles.descriptionlargewhitebold}>After showcasing the prototype as well as the various UI variants, the client was able to pick them out from the User Flow and then a completed interface could be designed from the screens that were selected. There were also various other requirements from the CEO, who was looking for someone to design certain aspects to the re-design. As well as integrating the correct logo which was provided later.</p>
       </Slide>
-    <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
@@ -710,7 +620,48 @@ export const Artrendezvous = () => (
         <p className={styles.descriptionlargewhitebold}>The design of the application, started with using Adobe XD. There were several screens that had to be designed of the iOS Mobile Application. There was a redesign of the home screen, as well as redesigning the entire user flow of the application. There were issues related to padding and margins for example, that needed to be fixed, or to get the design up to a modern standard.</p>
       </Slide>
     <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={10} md={4}>
+    <Slide direction="up">
+            <p className={styles.subtitlesmallwhitecenter}>Information Architecture and Color Scheme</p>
+          </Slide>
+
+      <Slide direction="up">
+        <p className={styles.descriptionlargewhitebold}>Additionally there was more opportunities to take in reorganizing the information, as well as ways of displaying this information. So various different interfaces were explored, as well as two different types of color schemes. From these two different color schemes, a pattern of User Interface was explored, these UIs were based on the previous designs.</p>
+      </Slide>
     <div className={styles.spaceing}></div>
+    </Col>
+  </Row>
+  <div className={styles.spaceing}></div>
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={6}>
+      <CardGroup className={styles.backgroundtransparent}>
+        <Card className={styles.backgroundtransparent}>
+          <Fade>
+            <Media queries={{
+              small: "(max-width: 599px)",
+              medium: "(min-width: 600px) and (max-width: 1199px)",
+              large: "(min-width: 1200px)"
+              }}>
+              {matches => (
+              <>
+              {matches.small &&
+                <Image src={Img337} fluid className={styles.centerimage}/>
+              }
+              {matches.medium &&
+                <Image src={Img337} fluid className={styles.centerimage}/>
+              }
+              {matches.large &&
+                <Image src={Img337} fluid className={styles.centerimage}/>
+              }
+              </>
+              )}
+            </Media>
+          </Fade>
+        </Card>
+      </CardGroup>
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
@@ -723,22 +674,6 @@ export const Artrendezvous = () => (
       <Slide direction="up">
         <p className={styles.descriptionlargewhitebold}>There was features such as a bottom navigation bar, that was not implemented in the previous design. Additionally the designs were first based on the Material Design Methodology. So the bottom navigation bar was designed by following Material Design Principles.</p>
       </Slide>
-    <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
-    </Col>
-  </Row>
-  <div className={styles.spaceing}></div>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
-    <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>Information Architecture and Color Scheme</p>
-          </Slide>
-
-      <Slide direction="up">
-        <p className={styles.descriptionlargewhitebold}>Additionally there was more opportunities to take in reorganizing the information, as well as ways of displaying this information. So various different interfaces were explored, as well as two different types of color schemes. From these two different color schemes, a pattern of User Interface was explored, these UIs were based on the previous designs.</p>
-      </Slide>
-    <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
@@ -755,7 +690,6 @@ export const Artrendezvous = () => (
         <p className={styles.descriptionlargewhitebold}>The CEO was satisfied with the results of the redesign. As a designer knew that the User Interface would be to the CEO’s look and because of the feedback received from the CEO, she received a redesign that was to no surprise to her because she picked the UI elements from a list of UI elements.</p>
       </Slide>
     <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
     </Col>
   </Row>
   <Row className={styles.justifycontentcenter}>
@@ -769,13 +703,13 @@ export const Artrendezvous = () => (
           {matches => (
           <>
           {matches.small &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
+            <Image src={Img338} fluid className={styles.centerimage}/>
           }
           {matches.medium &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
+            <Image src={Img338} fluid className={styles.centerimage}/>
           }
           {matches.large &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
+            <Image src={Img338} fluid className={styles.centerimage}/>
           }
           </>
           )}
@@ -794,17 +728,15 @@ export const Artrendezvous = () => (
         <p className={styles.descriptionlargewhitebold}>The designs were additionally re-done on Adobe XD per the CEO’s request, and the prototyping was done on Adobe XD. Being able to design the redesigns of the original application, as well as being able to use modern design software application tools is very useful for the next designer on the project.</p>
       </Slide>
     <div className={styles.spaceing}></div>
-    <div className={styles.spaceing}></div>
+    
     </Col>
   </Row>
-
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
             <p className={styles.subtitlesmallwhitecenter}>iOS Rapid Prototying with Adobe XD</p>
           </Slide>
-
       <Slide direction="up">
         <p className={styles.descriptionlargewhitebold}>The prototype was designed with Adobe XD, as well as Uxpin to showcase a video background image in the home UI screen. The initial screen with the video background image prototype, had to be prototyped on Uxpin because Adobe XD doesn’t allow Videos or Gifs to be used in the Prototyping of the User Interface Screens.</p>
       </Slide>
@@ -823,13 +755,13 @@ export const Artrendezvous = () => (
           {matches => (
           <>
           {matches.small &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
+            <Image src={Img339} fluid className={styles.centerimage}/>
           }
           {matches.medium &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
+            <Image src={Img339} fluid className={styles.centerimage}/>
           }
           {matches.large &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
+            <Image src={Img339} fluid className={styles.centerimage}/>
           }
           </>
           )}
@@ -837,6 +769,7 @@ export const Artrendezvous = () => (
       </Fade>
     </Col>
   </Row>
+  <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
     <Slide direction="up">
@@ -847,32 +780,6 @@ export const Artrendezvous = () => (
         <p className={styles.descriptionlargewhitebold}>The testing of the user interfaces was based on the selection of the designs of the client, who is a stakeholder in the direction of the designs of the application. Different variations of the designs were selected under a letter “A”, “B”, etc, and then were selected, and then later the file was re-designed using the designs that were selected for the final re-design of the application.</p>
       </Slide>
     <div className={styles.spaceing}></div>
-    </Col>
-  </Row>
-
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
-      <Fade>
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-          }}>
-          {matches => (
-          <>
-          {matches.small &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
-          }
-          {matches.medium &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
-          }
-          {matches.large &&
-            <Image src={Img37} fluid className={styles.centerimage}/>
-          }
-          </>
-          )}
-        </Media>
-      </Fade>
     </Col>
   </Row>
 
@@ -905,13 +812,13 @@ export const Artrendezvous = () => (
           {matches => (
           <>
           {matches.small &&
-            <Image src={Img38} fluid className={styles.centerimage}/>
+            <Image src={Img340} fluid className={styles.centerimage}/>
           }
           {matches.medium &&
-            <Image src={Img38} fluid className={styles.centerimage}/>
+            <Image src={Img340} fluid className={styles.centerimage}/>
           }
           {matches.large &&
-            <Image src={Img38} fluid className={styles.centerimage}/>
+            <Image src={Img340} fluid className={styles.centerimage}/>
           }
           </>
           )}
