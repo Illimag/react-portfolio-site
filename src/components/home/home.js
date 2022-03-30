@@ -467,7 +467,6 @@ const getImageUrls = () => {
         <Card className={styles.backgroundtransparent}>
     <Slide direction="up">
     <p className={styles.subtitlesmallwhitecenter}>Tech Stack</p>
-    <div className={styles.spaceing}></div>
     <p className={styles.descriptionlargewhitebold}>HTML/CSS/JS and JavaScript Front End Frameworks and Libraries such as React.JS</p>
 
     </Slide>
