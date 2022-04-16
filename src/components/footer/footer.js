@@ -92,7 +92,6 @@ const Footer = () => (
             </Row>
       <div className={styles.spaceingblack}></div>
 
-                  </a>
 
       <div className={styles.spaceingblack}></div>
         <p className={styles.description}>
