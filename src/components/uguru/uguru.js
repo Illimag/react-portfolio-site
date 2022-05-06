@@ -50,17 +50,23 @@ export const Uguru = () => (
     <>
     {matches.small &&
       <div>
-        <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
+                      <video autoPlay preload="true" loop playsInline muted className={styles.testgradientbackground}>
+                <source src={video}/>
+              </video>
       </div>
     }
     {matches.medium &&
       <div>
-        <Image src={PreloadUguruBackgroundImageTestMobile} fluid className={styles.testgradientbackground}/>
+                      <video autoPlay preload="true" loop playsInline muted className={styles.testgradientbackground}>
+                <source src={video}/>
+              </video>
       </div>
     }
     {matches.large &&
       <div>
-        <Image src={PreloadUguruBackgroundImageTest} fluid className={styles.testgradientbackground}/>
+       <video autoPlay preload="true" loop playsInline muted className={styles.testgradientbackground}>
+                <source src={video}/>
+              </video>
       </div>
     }
     </>
@@ -172,43 +178,6 @@ export const Uguru = () => (
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
-      <Fade>
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-          }}>
-          {matches => (
-          <>
-          {matches.small &&
-            <div>
-              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
-                <source src={video}/>
-              </video>
-            </div>
-          }
-          {matches.medium &&
-            <div>
-              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
-                <source src={video}/>
-              </video>
-            </div>
-          }
-          {matches.large &&
-            <div>
-              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
-                <source src={video}/>
-              </video>
-            </div>
-          }
-          </>
-          )}
-        </Media>
-      </Fade>
-    </Col>
-  </Row>
 
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>

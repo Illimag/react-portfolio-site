@@ -41,6 +41,8 @@ import PreloadArtBackgroundImageTestMobile5 from '../../assets/img/art/back-16-m
 
 import video from '../../assets/vids/compressed_vid/vid6.mp4';
 
+import FigmaEmbed from 'react-figma-embed';
+
 export const Artrendezvous = () => (
   /* Start of JSX Fragment*/
 <>
@@ -55,17 +57,23 @@ export const Artrendezvous = () => (
     <>
     {matches.small &&
       <div>
-        <Image src={PreloadArt11} fluid className={styles.testgradientbackground}/>
+       <video autoPlay preload="true" loop playsInline muted className={styles.testgradientbackground}>
+                <source src={video}/>
+              </video>
       </div>
     }
     {matches.medium &&
       <div>
-        <Image src={PreloadArt11} fluid className={styles.testgradientbackground}/>
+        <video autoPlay preload="true" loop playsInline muted className={styles.testgradientbackground}>
+                <source src={video}/>
+              </video>
       </div>
     }
     {matches.large &&
       <div>
-        <Image src={PreloadArt} fluid className={styles.testgradientbackground}/>
+           <video autoPlay preload="true" loop playsInline muted className={styles.testgradientbackground}>
+                <source src={video}/>
+              </video>
       </div>
     }
     </>
@@ -175,44 +183,6 @@ export const Artrendezvous = () => (
           <div className={styles.spaceing}></div>
 
 
-    </Col>
-  </Row>
-  <div className={styles.spaceing}></div>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={10}>
-      <Fade>
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-          }}>
-          {matches => (
-          <>
-          {matches.small &&
-            <div>
-              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
-                <source src={video}/>
-              </video>
-            </div>
-          }
-          {matches.medium &&
-            <div>
-              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
-                <source src={video}/>
-              </video>
-            </div>
-          }
-          {matches.large &&
-            <div>
-              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
-                <source src={video}/>
-              </video>
-            </div>
-          }
-          </>
-          )}
-        </Media>
-      </Fade>
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
@@ -495,35 +465,43 @@ export const Artrendezvous = () => (
     <div className={styles.spaceing}></div>
     </Col>
   </Row>
+
+
+
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
-      <CardGroup className={styles.backgroundtransparent}>
-        <Card className={styles.backgroundtransparent}>
-          <Fade>
-            <Media queries={{
-              small: "(max-width: 599px)",
-              medium: "(min-width: 600px) and (max-width: 1199px)",
-              large: "(min-width: 1200px)"
-              }}>
-              {matches => (
-              <>
-              {matches.small &&
-                <Image src={Img336} fluid className={styles.centerimage}/>
-              }
-              {matches.medium &&
-                <Image src={Img336} fluid className={styles.centerimage}/>
-              }
-              {matches.large &&
-                <Image src={Img336} fluid className={styles.centerimage}/>
-              }
-              </>
-              )}
-            </Media>
-          </Fade>
-        </Card>
-      </CardGroup>
+      <Fade>
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+          }}>
+          {matches => (
+          <>
+          {matches.small &&
+            <div>
+             <FigmaEmbed className={styles.testfigmaprototype} url="https://www.figma.com/file/5vhDy1ScQMl6PssrfE91ah/ART%E2%80%A2RENDEZ-VOUS-finalized_app_redesign_figma" />
+            </div>
+          }
+          {matches.medium &&
+            <div>
+             <FigmaEmbed className={styles.testfigmaprototype} url="https://www.figma.com/file/5vhDy1ScQMl6PssrfE91ah/ART%E2%80%A2RENDEZ-VOUS-finalized_app_redesign_figma" />
+            </div>
+          }
+          {matches.large &&
+            <div>
+             <FigmaEmbed className={styles.testfigmaprototype} url="https://www.figma.com/file/5vhDy1ScQMl6PssrfE91ah/ART%E2%80%A2RENDEZ-VOUS-finalized_app_redesign_figma" />
+            </div>
+          }
+          </>
+          )}
+        </Media>
+      </Fade>
     </Col>
   </Row>
+
+
+
 </Container>
 <Container fluid className={styles.test}>
   <div id="test"></div>

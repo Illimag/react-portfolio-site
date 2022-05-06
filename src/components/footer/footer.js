@@ -91,9 +91,6 @@ const Footer = () => (
               </Row>
             </Row>
       <div className={styles.spaceingblack}></div>
-
-
-      <div className={styles.spaceingblack}></div>
         <p className={styles.description}>
             HILLODESIGN 2022
         </p>

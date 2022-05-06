@@ -45,6 +45,8 @@ import Media from 'react-media';
 
 import video from '../../assets/vids/compressed_vid/vid7.mp4';
 
+import FigmaEmbed from 'react-figma-embed';
+
 
 export const Legacypictures = () => (
   /* Start of JSX Fragment*/
@@ -61,17 +63,23 @@ export const Legacypictures = () => (
       <>
       {matches.small &&
         <div>
-          <Image src={PreloadLegacy11} fluid className={styles.testgradientbackground}/>
+                               <video autoPlay preload="true" loop playsInline muted className={styles.testgradientbackground}>
+                <source src={video}/>
+              </video>
         </div>
       }
       {matches.medium &&
         <div>
-          <Image src={PreloadLegacy11} fluid className={styles.testgradientbackground}/>
+                       <video autoPlay preload="true" loop playsInline muted className={styles.testgradientbackground}>
+                <source src={video}/>
+              </video>
         </div>
       }
       {matches.large &&
         <div>
-          <Image src={PreloadLegacy1} fluid className={styles.testgradientbackground}/>
+                        <video autoPlay preload="true" loop playsInline muted className={styles.testgradientbackground}>
+                <source src={video}/>
+              </video>
         </div>
       }
       </>
@@ -331,8 +339,24 @@ export const Legacypictures = () => (
         </Slide>
         <div className={styles.spaceing}></div>
         <div className={styles.spaceing}></div>
+
+
+
+           {/*  <iframe width="100%" height="1000" src="https://xd.adobe.com/embed/6df2c423-463f-4f73-89b0-2247d4c0a449-38a1/?fullscreen" frameborder="0" allowfullscreen></iframe> */}
+    
     </Col>
+
   </Row>
+
+
+
+
+
+
+  <div className={styles.spaceing}></div>
+
+
+
   <Row className={styles.justifycontentcenter}>
     <Col xs={12} md={10}>
       <Fade>
@@ -345,23 +369,17 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
-                <source src={video}/>
-              </video>
+             <FigmaEmbed className={styles.testfigmaprototype} url="https://www.figma.com/file/xkxjnhUFOUTvCaIy6PmEPU/LegacyFilmsRedesignMobile" />
             </div>
           }
           {matches.medium &&
             <div>
-              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
-                <source src={video}/>
-              </video>
+             <FigmaEmbed className={styles.testfigmaprototype} url="https://www.figma.com/file/xkxjnhUFOUTvCaIy6PmEPU/LegacyFilmsRedesignMobile" />
             </div>
           }
           {matches.large &&
             <div>
-              <video autoPlay preload="true" loop playsInline muted className={styles.centerimage}>
-                <source src={video}/>
-              </video>
+             <FigmaEmbed className={styles.testfigmaprototype} url="https://www.figma.com/file/xkxjnhUFOUTvCaIy6PmEPU/LegacyFilmsRedesignMobile" />
             </div>
           }
           </>
@@ -370,7 +388,9 @@ export const Legacypictures = () => (
       </Fade>
     </Col>
   </Row>
-  <div className={styles.spaceing}></div>
+
+
+
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
     <Col xs={10} md={4}>
@@ -495,37 +515,6 @@ export const Legacypictures = () => (
         </Slide>
         <div className={styles.spaceing}></div>
         <div className={styles.spaceing}></div>
-    </Col>
-  </Row>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
-      <Fade>
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-          }}>
-          {matches => (
-          <>
-          {matches.small &&
-            <div>
-              <Image src={Img43} fluid className={styles.centerimage}/>
-            </div>
-          }
-          {matches.medium &&
-            <div>
-              <Image src={Img43} fluid className={styles.centerimage}/>
-            </div>
-          }
-          {matches.large &&
-            <div>
-              <Image src={Img43} fluid className={styles.centerimage}/>
-            </div>
-          }
-          </>
-          )}
-        </Media>
-      </Fade>
     </Col>
   </Row>
   <div className={styles.spaceing}></div>

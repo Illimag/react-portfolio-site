@@ -20,6 +20,7 @@
     "react-bootstrap-icons": "^1.6.1",
     "react-codepen-embed": "^1.0.1",
     "react-dom": "^16.14.0",
+    "react-figma-embed": "^1.0.1",
     "react-gist": "^1.2.2",
     "react-highlight.js": "^1.0.7",
     "react-js-loading-progress-bar": "^0.3.1",
