@@ -94,6 +94,11 @@ const Footer = () => (
         <p className={styles.description}>
             HILLODESIGN 2022
         </p>
+
+        <p className={styles.description}>
+            San Francisco Bay Area & Silicon Valley
+        </p>
+
         <div className={styles.spaceingblack}></div>
         </Container>
       </Container>

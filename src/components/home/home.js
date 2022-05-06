@@ -324,9 +324,8 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>UI/UX Designer local from the San Francisco Bay Area & Silicon Valley</p>
+            <p className={styles.whitetitle}>Thanks for visiting my portfolio website. Click the Portfolio Button to start viewing the portfolio</p>
             </Fade>
-
 
             <Col xs={12} md={8} className={styles.removepadding}>
             <Slide direction="up">
@@ -343,7 +342,7 @@ const getImageUrls = () => {
   <AnchorLink href="/test">
 <p className={styles.clickabletext}>
 <Slide direction="up">
-<Button className={styles.mainbutton}>View Portfolio Now</Button>
+<Button className={styles.mainbutton}>Portfolio</Button>
 </Slide>
 
 </p>
@@ -357,7 +356,7 @@ const getImageUrls = () => {
 <LinkContainer to="/Contact">
 <p className={styles.clickabletext}>
 <Slide direction="up">
-<Button className={styles.secondarybutton}>Contact Now!</Button>
+<Button className={styles.secondarybutton}>Resume</Button>
 </Slide>
 </p>
 </LinkContainer>
