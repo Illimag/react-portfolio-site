@@ -12,6 +12,7 @@ import { Apexvr } from '../apexvr/apexvr'
 import { Uxdesignsumo } from '../uxdesignsumo/uxdesignsumo'
 import { Legacypictures } from '../legacypictures/legacypictures'
 import { Stepsaver } from '../stepsaver/stepsaver'
+import { Experience } from '../experience/experience'
 
 //import { Blog } from '../blog/blog'
 //import { Feed } from '../feed/feed'
@@ -45,6 +46,7 @@ const routes = [
   { path: '/sanchezcoffeeco', name: 'SANCHEZCOFFEE', Component: Sanchezcoffeeco },
   { path: '/apexvr', name: 'APEXVR', Component: Apexvr },
   { path: '/stepsaver', name: 'STEPSAVER', Component: Stepsaver },
+  { path: '/experience', name: 'EXPERIENCE', Component: Experience },
   { path: '/Contact', name: 'RESUME', Component: Contact },
 ]
 

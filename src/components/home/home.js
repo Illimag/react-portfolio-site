@@ -294,19 +294,19 @@ const getImageUrls = () => {
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[6]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[6]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[6]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
@@ -324,7 +324,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>Thanks for visiting my portfolio website. Click the Portfolio Button to start viewing the portfolio</p>
+            <p className={styles.whitetitle}>John Kim is an UI/UX Designer with In-House Experience, Teams, Startups, Businesses & Mid-Sized Enterprises.</p>
             </Fade>
 
             <Col xs={12} md={8} className={styles.removepadding}>
@@ -356,7 +356,7 @@ const getImageUrls = () => {
 <LinkContainer to="/Contact">
 <p className={styles.clickabletext}>
 <Slide direction="up">
-<Button className={styles.secondarybutton}>Resume</Button>
+<Button className={styles.secondarybutton}>Contact Now!</Button>
 </Slide>
 </p>
 </LinkContainer>
@@ -374,6 +374,116 @@ const getImageUrls = () => {
           </Row>
           
         </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Container to="/legacypictures" >
+        <Container className={styles.test2}>
+        
+       
+  
+<Row className="justify-content-md-center">
+
+<Jumbotron className={styles.testfloatbackpieces}>
+    </Jumbotron>
+
+<Fade>
+
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[6]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+</Fade>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+
+  <Fade>
+<p className={styles.whitetitle}>SERVICES</p>
+</Fade>
+
+<Slide direction="up">
+<p className={styles.descriptionlargewhitebold}>User Interface (UI) / User Experience (UX)</p>
+<p className={styles.descriptionlargewhitebold}>An UI/UX Designer with knowledge of User Interface and User Experience methodologies, skillsets, and toolkits.</p>
+
+<p className={styles.descriptionlargewhitebold}>Single Page Web Applications</p>
+<p className={styles.descriptionlargewhitebold}>Web App Design and Prototyping. Knowledge of iOS, Android apps, as well as modern SPA Web Apps.</p>
+
+<p className={styles.descriptionlargewhitebold}>E-Commerce, Tech Start-Ups, Enterprise Sites, Startups</p>
+<p className={styles.descriptionlargewhitebold}>Experience working with industries such as E-Commerce, Tech Start-Ups, and Enterprise Sites.</p>
+
+</Slide>
+
+
+<Slide direction="up">
+  <LinkContainer to="/Contact">
+<p className={styles.clickabletext}>View Resume >
+</p>
+</LinkContainer>
+</Slide>
+
+</div>
+
+
+
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+</Container>
+
+
+
+
+
 
 
 
@@ -622,10 +732,116 @@ large: "(min-width: 1200px)"
 
   
 
+
 </Row>
 
 </Container>
 </LinkContainer>
+
+
+
+
+
+
+
+
+
+<LinkContainer to="/experience" className={styles.clickablecontainer}>
+<Container className={styles.test2}>
+<div id="test2"></div>
+  
+<Row className="justify-content-md-center">
+<Fade>
+     <Jumbotron className={styles.testfloatbackpieces}>
+    </Jumbotron>
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[9]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[9]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <source src={images[9]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+</Fade>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+  <Fade>
+<p className={styles.whitetitle}>Are you Experienced</p>
+      </Fade>
+
+      <Slide direction="up">
+<p className={styles.descriptionlargewhitebold}>View More User Experiences</p>
+</Slide>
+
+
+<Slide direction="up">
+  <LinkContainer to="/experience">
+<p className={styles.clickabletext}>Learn More >
+</p>
+</LinkContainer>
+</Slide>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+
+</Row>
+
+</Container>
+</LinkContainer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
