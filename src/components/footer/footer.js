@@ -18,6 +18,7 @@ import { Contact } from '../contact/contact'
 import { Uguru } from '../uguru/uguru'
 import { Artrendezvous } from '../artrendezvous/artrendezvous'
 import { Legacypictures } from '../legacypictures/legacypictures'
+import { Interface } from '../interface/interface'
 import { Experience } from '../experience/experience'
 
 const routes = [
@@ -25,7 +26,8 @@ const routes = [
   { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
   { path: '/artrendezvous', name: 'ART•RENDEZ-VOUS', Component: Artrendezvous },
   { path: '/uguru', name: 'UGURU, INC.', Component: Uguru },
-  { path: '/experience', name: 'ARE YOU EXPERIENCED', Component: Experience },
+  { path: '/experience', name: 'EXPERIENCE', Component: Experience },
+  { path: '/interface', name: 'INTERFACE', Component: Interface },
   { path: '/Contact', name: 'RESUME', Component: Contact },
 ]
 

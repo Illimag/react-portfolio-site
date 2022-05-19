@@ -294,19 +294,19 @@ const getImageUrls = () => {
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
+                <source src={images[10]}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
+                <source src={images[10]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
+                <source src={images[10]}/>
               </video>
                 }
 
@@ -381,20 +381,14 @@ const getImageUrls = () => {
 
 
 
-
-
-
-
-
-
-        <Container to="/legacypictures" >
+        <LinkContainer to="/Contact" className={styles.clickablecontainer}>
         <Container className={styles.test2}>
         
        
   
 <Row className="justify-content-md-center">
 
-<Jumbotron className={styles.testfloatbackpieces}>
+<Jumbotron className={styles.testfloatback}>
     </Jumbotron>
 
 <Fade>
@@ -459,7 +453,7 @@ large: "(min-width: 1200px)"
 
 <Slide direction="up">
   <LinkContainer to="/Contact">
-<p className={styles.clickabletext}>View Resume >
+<p className={styles.clickabletext}>View Resume 
 </p>
 </LinkContainer>
 </Slide>
@@ -478,8 +472,7 @@ large: "(min-width: 1200px)"
 </Row>
 
 </Container>
-</Container>
-
+</LinkContainer>
 
 
 
@@ -500,7 +493,7 @@ large: "(min-width: 1200px)"
   
 <Row className="justify-content-md-center">
 
-<Jumbotron className={styles.testfloatbackpieces}>
+<Jumbotron className={styles.testfloatback}>
     </Jumbotron>
 
 <Fade>
@@ -557,7 +550,7 @@ large: "(min-width: 1200px)"
 
 <Slide direction="up">
   <LinkContainer to="/legacypictures">
-<p className={styles.clickabletext}>Learn More >
+<p className={styles.clickabletext}>Learn More 
 </p>
 </LinkContainer>
 </Slide>
@@ -582,11 +575,10 @@ large: "(min-width: 1200px)"
 
 <LinkContainer to="/artrendezvous" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
-<div id="test1"></div>
   
 <Row className="justify-content-md-center">
 
-<Jumbotron className={styles.testfloatbackpieces}>
+<Jumbotron className={styles.testfloatback}>
     </Jumbotron>
 
 <Fade>
@@ -641,7 +633,7 @@ large: "(min-width: 1200px)"
 
 <Slide direction="up">
   <LinkContainer to="/artrendezvous">
-<p className={styles.clickabletext}>Learn More >
+<p className={styles.clickabletext}>Learn More 
 </p>
 </LinkContainer>
 </Slide>
@@ -660,14 +652,20 @@ large: "(min-width: 1200px)"
 </LinkContainer>
 
 
+
+
+
+
 <LinkContainer to="/uguru" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
-<div id="test2"></div>
   
 <Row className="justify-content-md-center">
-<Fade>
-     <Jumbotron className={styles.testfloatbackpieces}>
+
+<Jumbotron className={styles.testfloatback}>
     </Jumbotron>
+
+<Fade>
+  
 
 
     <Media queries={{
@@ -710,16 +708,15 @@ large: "(min-width: 1200px)"
 
   <Fade>
 <p className={styles.whitetitle}>UGURU, INC.</p>
-      </Fade>
+</Fade>
 
-      <Slide direction="up">
+<Slide direction="up">
 <p className={styles.descriptionlargewhitebold}>San Francisco SOMA Mobile App Startup</p>
 </Slide>
 
-
 <Slide direction="up">
-  <LinkContainer to="/uguru">
-<p className={styles.clickabletext}>Learn More >
+  <LinkContainer to="/artrendezvous">
+<p className={styles.clickabletext}>Learn More 
 </p>
 </LinkContainer>
 </Slide>
@@ -732,7 +729,6 @@ large: "(min-width: 1200px)"
 
   
 
-
 </Row>
 
 </Container>
@@ -744,16 +740,16 @@ large: "(min-width: 1200px)"
 
 
 
-
-
 <LinkContainer to="/experience" className={styles.clickablecontainer}>
 <Container className={styles.test2}>
-<div id="test2"></div>
   
 <Row className="justify-content-md-center">
-<Fade>
-     <Jumbotron className={styles.testfloatbackpieces}>
+
+<Jumbotron className={styles.testfloatback}>
     </Jumbotron>
+
+<Fade>
+  
 
 
     <Media queries={{
@@ -765,19 +761,19 @@ large: "(min-width: 1200px)"
   <>
 
     {matches.small &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
       <source src={images[9]}/>
     </video>
       }
 
     {matches.medium &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
       <source src={images[9]}/>
     </video>
       }
 
     {matches.large &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
+      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
       <source src={images[9]}/>
     </video>
       }
@@ -795,17 +791,16 @@ large: "(min-width: 1200px)"
   <div className={styles.maincontentwrapperpiece}>
 
   <Fade>
-<p className={styles.whitetitle}>Are you Experienced</p>
-      </Fade>
-
-      <Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>View More User Experiences</p>
-</Slide>
-
+<p className={styles.whitetitle}>Experience</p>
+</Fade>
 
 <Slide direction="up">
-  <LinkContainer to="/experience">
-<p className={styles.clickabletext}>Learn More >
+<p className={styles.descriptionlargewhitebold}>View User Experiences</p>
+</Slide>
+
+<Slide direction="up">
+  <LinkContainer to="/artrendezvous">
+<p className={styles.clickabletext}>Learn More 
 </p>
 </LinkContainer>
 </Slide>
@@ -818,7 +813,6 @@ large: "(min-width: 1200px)"
 
   
 
-
 </Row>
 
 </Container>
@@ -828,6 +822,84 @@ large: "(min-width: 1200px)"
 
 
 
+
+<LinkContainer to="/interface" className={styles.clickablecontainer}>
+<Container className={styles.test2}>
+  
+<Row className="justify-content-md-center">
+
+<Jumbotron className={styles.testfloatback}>
+    </Jumbotron>
+
+<Fade>
+  
+
+
+    <Media queries={{
+small: "(max-width: 599px)",
+medium: "(min-width: 600px) and (max-width: 1199px)",
+large: "(min-width: 1200px)"
+}}>
+{matches => (
+  <>
+
+    {matches.small &&
+      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
+      <source src={images[0]}/>
+    </video>
+      }
+
+    {matches.medium &&
+      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
+      <source src={images[0]}/>
+    </video>
+      }
+
+    {matches.large &&
+      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
+      <source src={images[0]}/>
+    </video>
+      }
+
+  </>
+)}
+</Media>
+</Fade>
+
+  <Col md={6} className={styles.removepadding}>
+
+
+    
+  <Jumbotron className={styles.mainfloatbackpieces}>
+  <div className={styles.maincontentwrapperpiece}>
+
+  <Fade>
+<p className={styles.whitetitle}>Interface</p>
+</Fade>
+
+<Slide direction="up">
+<p className={styles.descriptionlargewhitebold}>View Interface</p>
+</Slide>
+
+<Slide direction="up">
+  <LinkContainer to="/artrendezvous">
+<p className={styles.clickabletext}>Learn More 
+</p>
+</LinkContainer>
+</Slide>
+
+</div>
+    </Jumbotron>
+
+
+  </Col>
+
+  
+
+</Row>
+
+</Container>
+</LinkContainer>
 
 
 

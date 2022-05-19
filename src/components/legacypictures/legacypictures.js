@@ -758,18 +758,13 @@ export const Legacypictures = () => (
           <p className={styles.descriptionlargewhitebold}>Starting the User Interface designs on Adobe XD were started. The user interface screens for Legacy Films was completed on Adobe XD, and the prototypes were completed using Adobe XD. The initial designs were reiterated and there were serval variants to the UI design elements that were offered.</p>
         </Slide>
         <div className={styles.spaceing}></div>
-        <Fade>
-        <p className={styles.subtitlesmallwhitecenter}>Usability testing with Usabilityhub.com</p>
-      </Fade>
-        <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Getting the usability testing done for the various UI Elements variants, as well as the heat map test were useful in understanding the user and what they are seeing on the interface.</p>
-        </Slide>
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
+
   <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={5}>
+    <Col xs={12} md={10}>
       <Fade>
         <Media queries={{
           small: "(max-width: 599px)",
@@ -780,17 +775,20 @@ export const Legacypictures = () => (
           <>
           {matches.small &&
             <div>
-              <Image src={Img42} fluid className={styles.centerimage}/>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSmjH-YloA1mBoMO5gRqZdLAbIc6IaL8ixhj4RafnvmF5PNrK14NBW1-Md8i6FLUI_Yy2nqS_XDkrRu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
           }
           {matches.medium &&
             <div>
-              <Image src={Img42} fluid className={styles.centerimage}/>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSmjH-YloA1mBoMO5gRqZdLAbIc6IaL8ixhj4RafnvmF5PNrK14NBW1-Md8i6FLUI_Yy2nqS_XDkrRu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
           }
           {matches.large &&
             <div>
-              <Image src={Img42} fluid className={styles.centerimage}/>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSmjH-YloA1mBoMO5gRqZdLAbIc6IaL8ixhj4RafnvmF5PNrK14NBW1-Md8i6FLUI_Yy2nqS_XDkrRu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
           }
           </>
@@ -799,6 +797,7 @@ export const Legacypictures = () => (
       </Fade>
     </Col>
   </Row>
+
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>
@@ -821,47 +820,12 @@ export const Legacypictures = () => (
           <p className={styles.descriptionlargewhitebold}>There was a survey, that gained insight on various teammember’s thoughts and feelings about the website. Using the survey was able to get a better understanding of the stakeholder’s emotions.</p>
         </Slide>
         <div className={styles.spaceing}></div>
-        <Fade>
-        <p className={styles.subtitlesmallwhitecenter}>Heat Map Testing</p>
-      </Fade>
-        <Slide direction="up">
-          <p className={styles.descriptionlargewhitebold}>Also created tests related to Usability. Several tests related to various UIs, and generating a heat map based on where the users click on the elements on the interface.</p>
-        </Slide>
+
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
-  <Row className={styles.justifycontentcenter}>
-    <Col xs={12} md={6}>
-      <Fade>
-        <Media queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)"
-          }}>
-          {matches => (
-          <>
-          {matches.small &&
-            <div>
-              <Image src={Img46} fluid className={styles.centerimage}/>
-            </div>
-          }
-          {matches.medium &&
-            <div>
-              <Image src={Img46} fluid className={styles.centerimage}/>
-            </div>
-          }
-          {matches.large &&
-            <div>
-              <Image src={Img46} fluid className={styles.centerimage}/>
-            </div>
-          }
-          </>
-          )}
-        </Media>
-      </Fade>
-    </Col>
-  </Row>
+
   <div className={styles.spaceing}></div>
   <div className={styles.spaceing}></div>
   <Row className={styles.justifycontentcenter}>

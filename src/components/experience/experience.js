@@ -92,6 +92,8 @@ import videomobile from '../../assets/newhomepagevids/1-1.mp4';
 import headshot from '../../assets/IMG-1114.PNG';
 
 
+import FigmaEmbed from 'react-figma-embed';
+
 export const Experience = () => (
   /* Start of JSX Fragment*/
   <>
@@ -103,20 +105,14 @@ export const Experience = () => (
 
 <Container className={styles.test}>
          
+<p className={styles.descriptionlargewhitebold}>Files loading...</p>
 
-         
-
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXjYgiXX1cBjBW_s_izGpGWiSrPVy5DLzZWFNf8q9TgxXDLKsNvaNmZzouE1VkAKJNwipps-uXwxNE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vShs55OTvZpk_-4i8HhBVWCtNuICWmWv4LUy162AFj25xHB2V5PJDYNze18CF7Fm2nMbZmOwE6ntJBE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoHGuLKoXZ4Y4dD_Q8flQLh0jAHye9fenSrl0c994aV8LSUh-0AgXQ6uUvfKAw6wt_xiwZoPnYxrsm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTl5G-0WBD5ELVrjvwbTC3zbTv3Z9voatU-L16IvJSWlA7mpWmLNqVTSeYM7aTTtyaJrWmLkWrRcVOL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT-9cLrwvpl3NnKO92XZVWPCOQmi3Ds7CGaGtJlBy1jmtxrCGZPDYURarqmwjxGrQyGflvTvAxIoECo/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTk5wsgL4qOiNNoJIeCOq1_df0z3xZUlIUoDCsmB3oL3hekbGq_WHQKzPJtL4mfhremOxiMkqcN1dua/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div>
+             <FigmaEmbed className={styles.testfigmaprototype} url="https://www.figma.com/file/B2W3WsVIU8XAATWhpKlVK8/alice_persona" />
+            </div>
+            <div>
+             <FigmaEmbed className={styles.testfigmaprototype} url="https://www.figma.com/file/erBvITvMjzPHKSfRKmy1G4/In-and-Out-Customer-Journey-Map" />
+            </div>
 
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRSgOZQpleIyZhrVc1z-8upVAXLb7JD_x7U0SGcPGyYF393ZtmX_mfHNx6rb4vf_AtHIDlyClSqiYZK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -128,15 +124,11 @@ export const Experience = () => (
 
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT0pMR29oyYU9AzKz55WFyalvXmswu0YgmwrIHK4U2MULgcYjkQOVDWOUIvdqXw27RdIrVciFepZJcp/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSmjH-YloA1mBoMO5gRqZdLAbIc6IaL8ixhj4RafnvmF5PNrK14NBW1-Md8i6FLUI_Yy2nqS_XDkrRu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSSMnI1FIFXPr0q61ISgOsSPiSIri0nG9VXxWWN0NaG-RlY78rZ2k3NoxTjJ-qSdyzHwZkxDURqnX82/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR6aK85nN49NRFN-LvGbSmFlD_qz7v1buvFscr1DNZ2Vs54HG8SlyoQZBtejgL6ESyYBfQtKrH9MZ-0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ3DAPVqHkiRJ_KNeI9VEFnDeImfH4cUMObF3GATwL0R9zXvI1q85MDyS5V4JN_HifFRgDiJum1HXbU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-
 
 
 

@@ -542,11 +542,47 @@ export const Artrendezvous = () => (
           <Slide direction="up">
             <p className={styles.descriptionlargewhitebold}>Started the initial design of the mobile application, created various UIs that had variants of the UIs. Then created multiple variants and then presented them as slides, which allowed the client to select the UI variant for each slide of the application.</p>
           </Slide>
+        
         </Card>
       </CardGroup>
     </Col>
   </Row>
   <div className={styles.spaceing}></div>
+
+  <Row className={styles.justifycontentcenter}>
+    <Col xs={12} md={10}>
+      <Fade>
+        <Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+          }}>
+          {matches => (
+          <>
+          {matches.small &&
+            <div>
+  <iframe className={styles.iframezindex}  src="https://docs.google.com/presentation/d/e/2PACX-1vRXjYgiXX1cBjBW_s_izGpGWiSrPVy5DLzZWFNf8q9TgxXDLKsNvaNmZzouE1VkAKJNwipps-uXwxNE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </div>
+          }
+          {matches.medium &&
+            <div>
+  <iframe className={styles.iframezindex}  src="https://docs.google.com/presentation/d/e/2PACX-1vRXjYgiXX1cBjBW_s_izGpGWiSrPVy5DLzZWFNf8q9TgxXDLKsNvaNmZzouE1VkAKJNwipps-uXwxNE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </div>
+          }
+          {matches.large &&
+            <div>
+  <iframe className={styles.iframezindex}  src="https://docs.google.com/presentation/d/e/2PACX-1vRXjYgiXX1cBjBW_s_izGpGWiSrPVy5DLzZWFNf8q9TgxXDLKsNvaNmZzouE1VkAKJNwipps-uXwxNE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </div>
+          }
+          </>
+          )}
+        </Media>
+      </Fade>
+    </Col>
+  </Row>
+  
+  
+  
 </Container>
 <Container fluid className={styles.test}>
   <Media queries={{
