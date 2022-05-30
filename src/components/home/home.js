@@ -799,7 +799,7 @@ large: "(min-width: 1200px)"
 </Slide>
 
 <Slide direction="up">
-  <LinkContainer to="/artrendezvous">
+  <LinkContainer to="/experience">
 <p className={styles.clickabletext}>Learn More 
 </p>
 </LinkContainer>
@@ -882,7 +882,7 @@ large: "(min-width: 1200px)"
 </Slide>
 
 <Slide direction="up">
-  <LinkContainer to="/artrendezvous">
+  <LinkContainer to="/interface">
 <p className={styles.clickabletext}>Learn More 
 </p>
 </LinkContainer>
