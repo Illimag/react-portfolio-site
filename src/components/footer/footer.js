@@ -26,7 +26,7 @@ const routes = [
   { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
   { path: '/artrendezvous', name: 'ART•RENDEZ-VOUS', Component: Artrendezvous },
   { path: '/uguru', name: 'UGURU, INC.', Component: Uguru },
-  { path: '/Contact', name: 'RESUME', Component: Contact },
+  { path: '/Contact', name: 'Contact', Component: Contact },
 ]
 
 const Footer = () => (
