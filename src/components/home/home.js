@@ -324,7 +324,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>John Kim is an UI/UX Designer with In-House Experience, Teams, Startups, Businesses & Mid-Sized Enterprises.</p>
+            <p className={styles.whitetitle}>Hillodesign is a Design Agency located in San Francisco Bay Area and Silicon Valley.</p>
             </Fade>
 
             <Col xs={12} md={8} className={styles.removepadding}>
@@ -453,7 +453,7 @@ large: "(min-width: 1200px)"
 
 <Slide direction="up">
   <LinkContainer to="/Contact">
-<p className={styles.clickabletext}>View Resume 
+<p className={styles.clickabletext}>Contact Now
 </p>
 </LinkContainer>
 </Slide>
@@ -544,7 +544,7 @@ large: "(min-width: 1200px)"
 </Fade>
 
 <Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>How To Redesign A Web App</p>
+<p className={styles.descriptionlargewhitebold}>Videography Company Identity Website</p>
 </Slide>
 
 
@@ -628,7 +628,7 @@ large: "(min-width: 1200px)"
 </Fade>
 
 <Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>Art Community Mobile App Startup</p>
+<p className={styles.descriptionlargewhitebold}>Art Community Mobile iOS Application</p>
 </Slide>
 
 <Slide direction="up">
@@ -711,7 +711,7 @@ large: "(min-width: 1200px)"
 </Fade>
 
 <Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>San Francisco SOMA Mobile App Startup</p>
+<p className={styles.descriptionlargewhitebold}>San Francisco SOMA Mobile Application</p>
 </Slide>
 
 <Slide direction="up">
@@ -733,177 +733,6 @@ large: "(min-width: 1200px)"
 
 </Container>
 </LinkContainer>
-
-
-
-
-
-
-
-<LinkContainer to="/experience" className={styles.clickablecontainer}>
-<Container className={styles.test2}>
-  
-<Row className="justify-content-md-center">
-
-<Jumbotron className={styles.testfloatback}>
-    </Jumbotron>
-
-<Fade>
-  
-
-
-    <Media queries={{
-small: "(max-width: 599px)",
-medium: "(min-width: 600px) and (max-width: 1199px)",
-large: "(min-width: 1200px)"
-}}>
-{matches => (
-  <>
-
-    {matches.small &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[9]}/>
-    </video>
-      }
-
-    {matches.medium &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[9]}/>
-    </video>
-      }
-
-    {matches.large &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[9]}/>
-    </video>
-      }
-
-  </>
-)}
-</Media>
-</Fade>
-
-  <Col md={6} className={styles.removepadding}>
-
-
-    
-  <Jumbotron className={styles.mainfloatbackpieces}>
-  <div className={styles.maincontentwrapperpiece}>
-
-  <Fade>
-<p className={styles.whitetitle}>Experience</p>
-</Fade>
-
-<Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>View User Experiences</p>
-</Slide>
-
-<Slide direction="up">
-  <LinkContainer to="/experience">
-<p className={styles.clickabletext}>Learn More 
-</p>
-</LinkContainer>
-</Slide>
-
-</div>
-    </Jumbotron>
-
-
-  </Col>
-
-  
-
-</Row>
-
-</Container>
-</LinkContainer>
-
-
-
-
-
-
-<LinkContainer to="/interface" className={styles.clickablecontainer}>
-<Container className={styles.test2}>
-  
-<Row className="justify-content-md-center">
-
-<Jumbotron className={styles.testfloatback}>
-    </Jumbotron>
-
-<Fade>
-  
-
-
-    <Media queries={{
-small: "(max-width: 599px)",
-medium: "(min-width: 600px) and (max-width: 1199px)",
-large: "(min-width: 1200px)"
-}}>
-{matches => (
-  <>
-
-    {matches.small &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[0]}/>
-    </video>
-      }
-
-    {matches.medium &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[0]}/>
-    </video>
-      }
-
-    {matches.large &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[0]}/>
-    </video>
-      }
-
-  </>
-)}
-</Media>
-</Fade>
-
-  <Col md={6} className={styles.removepadding}>
-
-
-    
-  <Jumbotron className={styles.mainfloatbackpieces}>
-  <div className={styles.maincontentwrapperpiece}>
-
-  <Fade>
-<p className={styles.whitetitle}>Interface</p>
-</Fade>
-
-<Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>View Interface</p>
-</Slide>
-
-<Slide direction="up">
-  <LinkContainer to="/interface">
-<p className={styles.clickabletext}>Learn More 
-</p>
-</LinkContainer>
-</Slide>
-
-</div>
-    </Jumbotron>
-
-
-  </Col>
-
-  
-
-</Row>
-
-</Container>
-</LinkContainer>
-
-
-
-
 
 
 
