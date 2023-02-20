@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4c35e9f.chunk.css",
-    "main.js": "/static/js/main.cf66534e.chunk.js",
-    "main.js.map": "/static/js/main.cf66534e.chunk.js.map",
+    "main.css": "/static/css/main.fc58ff41.chunk.css",
+    "main.js": "/static/js/main.cc4a1abe.chunk.js",
+    "main.js.map": "/static/js/main.cc4a1abe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.672f7f98.js",
     "runtime-main.js.map": "/static/js/runtime-main.672f7f98.js.map",
     "static/css/2.1cace5d8.chunk.css": "/static/css/2.1cace5d8.chunk.css",
-    "static/js/2.52b68211.chunk.js": "/static/js/2.52b68211.chunk.js",
-    "static/js/2.52b68211.chunk.js.map": "/static/js/2.52b68211.chunk.js.map",
+    "static/js/2.ac806707.chunk.js": "/static/js/2.ac806707.chunk.js",
+    "static/js/2.ac806707.chunk.js.map": "/static/js/2.ac806707.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4974e0f49b5c274313f7f72aab2570ef.js": "/precache-manifest.4974e0f49b5c274313f7f72aab2570ef.js",
+    "precache-manifest.39fc164aa2fb0ced0fcb4a371cf4de80.js": "/precache-manifest.39fc164aa2fb0ced0fcb4a371cf4de80.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1cace5d8.chunk.css.map": "/static/css/2.1cace5d8.chunk.css.map",
-    "static/css/main.c4c35e9f.chunk.css.map": "/static/css/main.c4c35e9f.chunk.css.map",
-    "static/js/2.52b68211.chunk.js.LICENSE.txt": "/static/js/2.52b68211.chunk.js.LICENSE.txt",
+    "static/css/main.fc58ff41.chunk.css.map": "/static/css/main.fc58ff41.chunk.css.map",
+    "static/js/2.ac806707.chunk.js.LICENSE.txt": "/static/js/2.ac806707.chunk.js.LICENSE.txt",
     "static/media/0-1.mp4": "/static/media/0-1.244d8b49.mp4",
     "static/media/0.mp4": "/static/media/0.e429b41b.mp4",
     "static/media/1-01.2c1b28ca.jpg": "/static/media/1-01.2c1b28ca.jpg",
@@ -183,14 +183,15 @@
     "static/media/vid6.m4v": "/static/media/vid6.80db2340.m4v",
     "static/media/vid6.mp4": "/static/media/vid6.c52cc9dd.mp4",
     "static/media/vid7.mp4": "/static/media/vid7.cbcd5784.mp4",
+    "static/media/vid8.mp4": "/static/media/vid8.40914bb9.mp4",
     "static/media/video-production-concept-operator-working-with-a-c-2JS9M5Q.78665f9b.jpg": "/static/media/video-production-concept-operator-working-with-a-c-2JS9M5Q.78665f9b.jpg",
     "static/media/volumne.PNG": "/static/media/volumne.4723d94b.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.672f7f98.js",
     "static/css/2.1cace5d8.chunk.css",
-    "static/js/2.52b68211.chunk.js",
-    "static/css/main.c4c35e9f.chunk.css",
-    "static/js/main.cf66534e.chunk.js"
+    "static/js/2.ac806707.chunk.js",
+    "static/css/main.fc58ff41.chunk.css",
+    "static/js/main.cc4a1abe.chunk.js"
   ]
 }
