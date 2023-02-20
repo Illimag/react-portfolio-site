@@ -12,7 +12,7 @@
 
 ## Features
 
-6 portfolio pieces in each individual page.
+6 portfolio pieces in each individual page.  
 
 Home page.
 

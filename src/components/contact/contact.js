@@ -103,24 +103,15 @@ export const Contact = () => (
 
 <Container className={styles.test}>
          
-<Row className={styles.justifycontentcenter}>
-    <Col xs={10} md={4}>
-            <p className={styles.titlelargewhitebold}><span className={styles.grey}>Contact Info</span></p>
-      
-            <p className={styles.subtitlesmallwhitecenter}>Location: San Francisco Bay Area & Silicon Valley</p>
-      
-            <p className={styles.subtitlesmallwhitecenter}>Email: contact@hillodesign.com</p>
-          
-            <p className={styles.subtitlesmallwhitecenter}>Phone: (510) 438-1537</p>
 
-          </Col>
-  </Row>
+  <iframe src="https://drive.google.com/file/d/1t4HJJX9LgFqyDIHClHxMke4hvqy7wE9i/preview" width="100%" height="800" allow="autoplay" scrolling="no"></iframe>
+
 
 </Container>
 
 
 
-<div className={styles.spaceing}></div>
+
 
 
 

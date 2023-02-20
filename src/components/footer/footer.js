@@ -26,7 +26,9 @@ const routes = [
   { path: '/legacypictures', name: 'LEGACY PICTURES', Component: Legacypictures },
   { path: '/artrendezvous', name: 'ART•RENDEZ-VOUS', Component: Artrendezvous },
   { path: '/uguru', name: 'UGURU, INC.', Component: Uguru },
-  { path: '/Contact', name: 'Contact', Component: Contact },
+  { path: '/experience', name: 'EXPERIENCE', Component: Experience },
+  { path: '/interface', name: 'INTERFACE', Component: Interface },
+  { path: '/Contact', name: 'RESUME', Component: Contact },
 ]
 
 const Footer = () => (
@@ -36,38 +38,52 @@ const Footer = () => (
   <ScrollToTop>
     <>
     <Container className={styles.footerBackground}>
-        {routes.map(({ path, Component }) => (
-        <Route key={path} exact path={path}>
-          {({ match }) => (
-            <CSSTransition
-              in={match != null}
-              timeout={300}
-              classNames="page"
-              unmountOnExit
-            >
-              <div className="page">
-                <Component />
-              </div>
-            </CSSTransition>
-          )}
-        </Route>
-        ))}
+
         <Container className={styles.navbar}>
           <Container className={styles.paddingtop}>
-              {routes.map(route => (
-                <Nav.Link 
-                eventKey="1" as={Link}
-                className={styles.navtextcss}
-                  key={route.path}
-                  as={NavLink}
-                  to={route.path}
-                  activeClassName="active"
-                  exact
-                >
-                  {route.name}
-                </Nav.Link>
-              ))}
-          <div className={styles.spaceingblack}></div>
+             
+
+          <a href="https://johnkim8867.github.io/portfoliov1/2015-2016_industrialdesign_illustration_user_interface_internship/index.html">
+      <p className={styles.descriptionunderline}>
+      2015-2016 Industrial Design Illustration User Interface Internship
+        </p>
+                  </a>
+
+                  <a href="https://johnkim8867.github.io/portfoliov1/2016-2017__UI_graphic_freelance/index.html">
+      <p className={styles.descriptionunderline}>
+      2016-2017 UI Graphic Freelance
+        </p>
+                  </a>
+
+                  <a href="https://johnkim8867.github.io/portfoliov1/2017-2019_user_interface_freelance/index.html">
+      <p className={styles.descriptionunderline}>
+      2017-2019 User Interface Freelance
+        </p>
+                  </a>
+
+                  <a href="https://johnkim8867.github.io/portfoliov1/2020-2021_cca/index.html">
+      <p className={styles.descriptionunderline}>
+      2020-2021 CCA Interaction Design
+        </p>
+                  </a>
+
+                  <a href="https://johnkim8867.github.io/portfoliov1/2020-2022_user_interface_freelance/index.html">
+      <p className={styles.descriptionunderline}>
+      2020-2022 User Interface Freelance
+        </p>
+                  </a>
+
+
+
+
+            <a href="https://johnkim8867.github.io/ebook">
+      <p className={styles.descriptionunderline}>
+      User Interface and User Experience Design Handbook
+        </p>
+                  </a>
+
+
+                  <div className={styles.spaceingblack}></div>
             <Row className="justify-content-center">
               <Row className={styles.socialrow}>
                 <Col xs={3} md={3} className={styles.centericon}>
@@ -92,9 +108,10 @@ const Footer = () => (
                 </Col>
               </Row>
             </Row>
+
       <div className={styles.spaceingblack}></div>
         <p className={styles.description}>
-            HILLODESIGN 2022
+            John Kim 2022
         </p>
 
         <p className={styles.description}>
