@@ -324,7 +324,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>Welcome to my Portfolio Websitedf</p>
+            <p className={styles.whitetitle}>Welcome to my Portfolio Website</p>
             </Fade>
 
             <Col xs={12} md={8} className={styles.removepadding}>
