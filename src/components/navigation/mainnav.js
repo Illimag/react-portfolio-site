@@ -103,7 +103,7 @@ function MainNav() {
 
             <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>
-                <h5 className={styles.test1title}>JOHNKIM</h5>
+                <h5 className={styles.test1title}>JAEMINKIMDESIGNER.COM</h5>
 
                 </Navbar.Brand>
               </LinkContainer>
@@ -125,7 +125,7 @@ function MainNav() {
                       as={NavLink}
                       to={route.path}
                       activeClassName="active"
-                      exact
+                      exact 
                     >
                       {route.name}
                     </Nav.Link>

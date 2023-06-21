@@ -6,7 +6,13 @@
 
 ## UI/UX Designer Portfolio Website built with React.JS, Bootstrap 4, hosted with Github Pages.
 
+### When installing on fresh system
+
+This application will run on a similar system as the development environment, which is a Windows 11 Pro OS with Windows Subsystem Linux (WSL2). Other similar Unix systems such as Ubuntu or MacOS can run these commands. For Windows systems using CMD or powershell will need to install using similar commands.
+
 # Deploying to Github Pages
+
+Don't run this command unless react is already installed.
 
     npm run deploy
 

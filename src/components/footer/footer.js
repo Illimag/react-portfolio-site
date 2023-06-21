@@ -111,7 +111,7 @@ const Footer = () => (
 
       <div className={styles.spaceingblack}></div>
         <p className={styles.description}>
-            John Kim 2022
+            Jae Min Kim 2023
         </p>
 
         <p className={styles.description}>
