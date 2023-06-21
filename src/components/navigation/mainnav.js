@@ -125,7 +125,7 @@ function MainNav() {
                       as={NavLink}
                       to={route.path}
                       activeClassName="active"
-                      exact 
+                      exact
                     >
                       {route.name}
                     </Nav.Link>
