@@ -294,19 +294,19 @@ const getImageUrls = () => {
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[11]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[11]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[11]}/>
+                <source src={images[0]}/>
               </video>
                 }
 
@@ -324,7 +324,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>Welcome to my Portfolio Website</p>
+            <p className={styles.whitetitle}>Local Bay Area designer with experience working in-house and remote for startups, E-Commerce, Retailers, Enterprises and Corporations. </p>
             </Fade>
 
             <Col xs={12} md={8} className={styles.removepadding}>
@@ -380,92 +380,6 @@ const getImageUrls = () => {
 
 
 
-
-        <LinkContainer to="/about" className={styles.clickablecontainer}>
-        <Container className={styles.test2}>
-        
-       
-  
-<Row className="justify-content-md-center">
-
-<Jumbotron className={styles.testfloatback}>
-    </Jumbotron>
-
-<Fade>
-
-
-
-    <Media queries={{
-small: "(max-width: 599px)",
-medium: "(min-width: 600px) and (max-width: 1199px)",
-large: "(min-width: 1200px)"
-}}>
-{matches => (
-  <>
-
-    {matches.small &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[6]}/>
-    </video>
-      }
-
-    {matches.medium &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[6]}/>
-    </video>
-      }
-
-    {matches.large &&
-      <video autoPlay preload="true" loop playsInline muted className={styles.testvideo}>
-      <source src={images[6]}/>
-    </video>
-      }
-
-  </>
-)}
-</Media>
-</Fade>
-
-  <Col md={6} className={styles.removepadding}>
-
-
-    
-  <Jumbotron className={styles.mainfloatbackpieces}>
-  <div className={styles.maincontentwrapperpiece}>
-
-
-  <Fade>
-<p className={styles.whitetitle}>Bay Area local designer</p>
-</Fade>
-
-<Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>I'm a local designer from the San Francisco Bay Area Silicon Valley</p>
-
-</Slide>
-
-
-<Slide direction="up">
-  <LinkContainer to="/about">
-<p className={styles.clickabletext}>About Me
-</p>
-</LinkContainer>
-</Slide>
-
-</div>
-
-
-
-    </Jumbotron>
-
-
-  </Col>
-
-  
-
-</Row>
-
-</Container>
-</LinkContainer>
 
 
 
@@ -729,168 +643,8 @@ large: "(min-width: 1200px)"
 
 
 
-<LinkContainer to="/experience" className={styles.clickablecontainer}>
-<Container className={styles.test2}>
-  
-<Row className="justify-content-md-center">
-
-<Jumbotron className={styles.testfloatback}>
-    </Jumbotron>
-
-<Fade>
-  
 
 
-    <Media queries={{
-small: "(max-width: 599px)",
-medium: "(min-width: 600px) and (max-width: 1199px)",
-large: "(min-width: 1200px)"
-}}>
-{matches => (
-  <>
-
-    {matches.small &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[9]}/>
-    </video>
-      }
-
-    {matches.medium &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[9]}/>
-    </video>
-      }
-
-    {matches.large &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[9]}/>
-    </video>
-      }
-
-  </>
-)}
-</Media>
-</Fade>
-
-  <Col md={6} className={styles.removepadding}>
-
-
-    
-  <Jumbotron className={styles.mainfloatbackpieces}>
-  <div className={styles.maincontentwrapperpiece}>
-
-  <Fade>
-<p className={styles.whitetitle}>EXPERIENCE</p>
-</Fade>
-
-<Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>User Experience</p>
-</Slide>
-
-<Slide direction="up">
-  <LinkContainer to="/experience">
-<p className={styles.clickabletext}>View User Experience
-</p>
-</LinkContainer>
-</Slide>
-
-</div>
-    </Jumbotron>
-
-
-  </Col>
-
-  
-
-</Row>
-
-</Container>
-</LinkContainer>
-
-
-
-
-
-
-
-
-<LinkContainer to="/interface" className={styles.clickablecontainer}>
-<Container className={styles.test2}>
-  
-<Row className="justify-content-md-center">
-
-<Jumbotron className={styles.testfloatback}>
-    </Jumbotron>
-
-<Fade>
-  
-
-
-    <Media queries={{
-small: "(max-width: 599px)",
-medium: "(min-width: 600px) and (max-width: 1199px)",
-large: "(min-width: 1200px)"
-}}>
-{matches => (
-  <>
-
-    {matches.small &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[12]}/>
-    </video>
-      }
-
-    {matches.medium &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[12]}/>
-    </video>
-      }
-
-    {matches.large &&
-      <video autoPlay preload="true"  playsInline muted className={styles.testvideo}>
-      <source src={images[12]}/>
-    </video>
-      }
-
-  </>
-)}
-</Media>
-</Fade>
-
-  <Col md={6} className={styles.removepadding}>
-
-
-    
-  <Jumbotron className={styles.mainfloatbackpieces}>
-  <div className={styles.maincontentwrapperpiece}>
-
-  <Fade>
-<p className={styles.whitetitle}>INTERFACE</p>
-</Fade>
-
-<Slide direction="up">
-<p className={styles.descriptionlargewhitebold}>User Interface</p>
-</Slide>
-
-<Slide direction="up">
-  <LinkContainer to="/interface">
-<p className={styles.clickabletext}>View User Interface
-</p>
-</LinkContainer>
-</Slide>
-
-</div>
-    </Jumbotron>
-
-
-  </Col>
-
-  
-
-</Row>
-
-</Container>
-</LinkContainer>
 
 
 
