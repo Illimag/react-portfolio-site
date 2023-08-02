@@ -18,7 +18,7 @@ import Img39 from '../../assets/uguruimg2.jpg';
 import Img40 from '../../assets/uguruimg3.png';
 import Img41 from '../../assets/uguruimg4.png';
 
-import pro from '../../assets/IMG-1114.PNG';
+import pro from '../../assets/jmk_logo-01.png';
 
 
 import styles from '../css/style.module.css';
@@ -63,8 +63,8 @@ export const About = () => (
         <Slide direction="up">
             <p className={styles.titlelargewhitebold}><span className={styles.grey}>Professional Profile</span></p>
           </Slide>
-        <p className={styles.subtitlesmallwhitecenter}>John Kim</p>
-        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}></span> San Francisco Bay Area <span className={styles.grey}>UI/UX Designer</span></p>
+        <p className={styles.subtitlesmallwhitecenter}>Jae Min Kim</p>
+        <p className={styles.subtitlesmallwhitecenter}><span className={styles.grey}></span> San Francisco Bay Area <span className={styles.grey}>Silicon Valley</span></p>
     
           <div className={styles.spaceing}></div>
           <div className={styles.spaceing}></div>
@@ -114,10 +114,10 @@ export const About = () => (
             <p className={styles.titlelargewhitebold}><span className={styles.grey}>Warm Regards,</span></p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.subtitlesmallwhitecenter}>My name is John Kim and I am a UI/UX Designer</p>
+            <p className={styles.subtitlesmallwhitecenter}>My name is Jae Min Kim, my friends also call me John</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Thank you for visiting this portfolio website. This portfolio website is built with React.JS and Boostrap, I hope to share my design style and to showcase an online repository of past design works. If you have additional questions feel free to email me at johnkim8867@gmail.com. Thank you.</p>
+            <p className={styles.descriptionlargewhitebold}>Thank you for visiting this portfolio website. This portfolio website is built with React.JS and Boostrap and is hosted with Github Pages, I hope to share my design style and to showcase an online repository of past design works. If you have additional questions feel free to reach out to me. Thank you.</p>
           </Slide>
           </Col>
   </Row>

@@ -100,7 +100,7 @@ function MainNav() {
 
             <LinkContainer to="/">
                 <Navbar.Brand className={styles.logo}>
-                <h5 className={styles.test1title}>JAEMINKIMDESIGNER.COM</h5>
+                <h5 className={styles.test1title}>JAEMINKIMDESIGNER</h5>
 
                 </Navbar.Brand>
               </LinkContainer>
@@ -131,7 +131,7 @@ function MainNav() {
                   <Row className={styles.socialrow}>
 
                   <Col xs={3} md={3} className={styles.centericon}>
-                  <a href="https://www.linkedin.com/in/hillodesign">
+                  <a href="https://www.linkedin.com/in/jaeminkimdesigner">
                     <Image src={Linkedin} roundedCircle className={styles.icons} />
                   </a>
                 </Col>
@@ -143,13 +143,13 @@ function MainNav() {
                 </Col>
 
                 <Col xs={3} md={3} className={styles.centericon}>
-                  <a href="https://dribbble.com/hillodesign">
+                  <a href="https://dribbble.com/jaeminkimdesigner">
                     <Image src={Dribbble} roundedCircle className={styles.icons} />
                   </a>
                 </Col>
 
                 <Col xs={3} md={3} className={styles.centericon}>
-                  <a href="https://github.com/hillodesign">
+                  <a href="https://github.com/jaeminkimdesigner">
                     <Image src={Github} roundedCircle className={styles.icons} />
                   </a>
                 </Col>

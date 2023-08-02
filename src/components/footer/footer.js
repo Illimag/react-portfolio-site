@@ -47,7 +47,7 @@ const Footer = () => (
             <Row className="justify-content-center">
               <Row className={styles.socialrow}>
                 <Col xs={3} md={3} className={styles.centericon}>
-                  <a href="https://www.linkedin.com/in/hillodesign">
+                  <a href="https://www.linkedin.com/in/jaeminkimdesigner">
                     <Image src={Linkedin} roundedCircle className={styles.icons} />
                   </a>
                 </Col>
@@ -57,12 +57,12 @@ const Footer = () => (
                   </a>
                 </Col>
                 <Col xs={3} md={3} className={styles.centericon}>
-                  <a href="https://dribbble.com/hillodesign">
+                  <a href="https://dribbble.com/jaeminkimdesigner">
                     <Image src={Dribbble} roundedCircle className={styles.icons} />
                   </a>
                 </Col>
                 <Col xs={3} md={3} className={styles.centericon}>
-                  <a href="https://github.com/hillodesign">
+                  <a href="https://github.com/jaeminkimdesigner">
                     <Image src={Github} roundedCircle className={styles.icons} />
                   </a>
                 </Col>
@@ -71,7 +71,7 @@ const Footer = () => (
 
       <div className={styles.spaceingblack}></div>
         <p className={styles.description}>
-            Jae Min Kim 2023
+            Jae Min Kim 2024
         </p>
 
         <p className={styles.description}>

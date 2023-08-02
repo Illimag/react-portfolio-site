@@ -294,19 +294,19 @@ const getImageUrls = () => {
 
               {matches.small &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
+                <source src={images[6]}/>
               </video>
                 }
 
               {matches.medium &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
+                <source src={images[6]}/>
               </video>
                 }
 
               {matches.large &&
                 <video autoPlay preload="true" loop playsInline muted className={styles.mainvideo}>
-                <source src={images[0]}/>
+                <source src={images[6]}/>
               </video>
                 }
 
@@ -324,7 +324,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>Local Bay Area designer with experience working in-house and remote for startups, E-Commerce, Retailers, Enterprises and Corporations. </p>
+            <p className={styles.whitetitle}>Bay Area Local In-house and remote for startups, E-Commerce, Retailers, Enterprises and Corporations. Agency UI/UX Designer Contractor Florida Blue Cross Blue Shield, Retail Store Management Skechers.</p>
             </Fade>
 
             <Col xs={12} md={8} className={styles.removepadding}>
@@ -350,17 +350,6 @@ const getImageUrls = () => {
 
 </Col>
 
-<div className={styles.divider}/>
-
-<Col xs={12} md={5} className={styles.removepadding}>
-<LinkContainer to="/Contact">
-<p className={styles.clickabletext}>
-<Slide direction="up">
-<Button className={styles.secondarybutton}>Contact Now!</Button>
-</Slide>
-</p>
-</LinkContainer>
-</Col>
 </Row>
 
 </div>
