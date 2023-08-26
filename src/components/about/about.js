@@ -117,7 +117,7 @@ export const About = () => (
             <p className={styles.subtitlesmallwhitecenter}>My name is Jae Min Kim, my friends also call me John</p>
           </Slide>
           <Slide direction="up">
-            <p className={styles.descriptionlargewhitebold}>Thank you for visiting this portfolio website. This portfolio website is built with React.JS and Boostrap and is hosted with Github Pages, I hope to share my design style and to showcase an online repository of past design works. If you have additional questions feel free to reach out to me. Thank you.</p>
+            <p className={styles.descriptionlargewhitebold}>Thank you for visiting this portfolio website. This portfolio website is built with React.JS and Boostrap and is hosted with Github Pages, I hope to share my design style and to showcase an online repository of past design works. I do have a diverse background and most of my experience is as a freelancer/contract working with startups, small businesses such as Alarm CCTV Distribution, ecommerce companies, mid-sized enterprise Minted, LLC, working for agency for corporate enterprise Mindlance/Guidewell/Florida Blue Cross Blue Shield, also working Retail Management with companies such as Samsonite as a Supervisor and Skechers as an Assistant Store Manager. I have attended colleges mainly to earn credits in art and design for example at California College of the Arts in Downtown San Francisco and Oakland for Industrial Design. I am currently attending De Anza College finishing up my Associates for Graphic Design. If you have additional questions feel free to reach out to me. Thank you.</p>
           </Slide>
           </Col>
   </Row>
