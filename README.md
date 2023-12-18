@@ -552,3 +552,18 @@ https://elements.envato.com/elegant-intro-V6D2Y9H
 
     npm install --save react-awesome-reveal
 
+
+# 12/17/2023
+
+Changed deploy in scripts in package.json 
+
+        "deploy": "./node_modules/gh-pages/bin/gh-pages-clean.js && gh-pages -d build",
+
+to fix error
+
+        error: Your local changes to the following files would be overwritten by checkout:
+            build/asset-manifest.json
+            build/index.html
+            build/service-worker.js
+    Please commit your changes or stash them before you switch branches.
+    Aborting
