@@ -1,8 +1,8 @@
 /**
  * @licstart The following is the entire license notice for the
- * Javascript code in this page
+ * JavaScript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2022 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,71 +17,64 @@
  * limitations under the License.
  *
  * @licend The above is the entire license notice for the
- * Javascript code in this page
+ * JavaScript code in this page
  */
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.NodeCMapReaderFactory = exports.NodeCanvasFactory = void 0;
+exports.NodeStandardFontDataFactory = exports.NodeCanvasFactory = exports.NodeCMapReaderFactory = void 0;
 
-var _display_utils = require("./display_utils.js");
+var _base_factory = require("./base_factory.js");
 
-var _is_node = require("../shared/is_node.js");
+;
 
-var _util = require("../shared/util.js");
+const fetchData = function (url) {
+  return new Promise((resolve, reject) => {
+    const fs = require("fs");
 
-let NodeCanvasFactory = class {
-  constructor() {
-    (0, _util.unreachable)("Not implemented: NodeCanvasFactory");
-  }
-
-};
-exports.NodeCanvasFactory = NodeCanvasFactory;
-let NodeCMapReaderFactory = class {
-  constructor() {
-    (0, _util.unreachable)("Not implemented: NodeCMapReaderFactory");
-  }
-
-};
-exports.NodeCMapReaderFactory = NodeCMapReaderFactory;
-
-if (_is_node.isNodeJS) {
-  exports.NodeCanvasFactory = NodeCanvasFactory = class extends _display_utils.BaseCanvasFactory {
-    create(width, height) {
-      if (width <= 0 || height <= 0) {
-        throw new Error("Invalid canvas size");
+    fs.readFile(url, (error, data) => {
+      if (error || !data) {
+        reject(new Error(error));
+        return;
       }
 
-      const Canvas = require("canvas");
+      resolve(new Uint8Array(data));
+    });
+  });
+};
 
-      const canvas = Canvas.createCanvas(width, height);
-      return {
-        canvas,
-        context: canvas.getContext("2d")
-      };
-    }
+class NodeCanvasFactory extends _base_factory.BaseCanvasFactory {
+  _createCanvas(width, height) {
+    const Canvas = require("canvas");
 
-  };
-  exports.NodeCMapReaderFactory = NodeCMapReaderFactory = class extends _display_utils.BaseCMapReaderFactory {
-    _fetchData(url, compressionType) {
-      return new Promise((resolve, reject) => {
-        const fs = require("fs");
+    return Canvas.createCanvas(width, height);
+  }
 
-        fs.readFile(url, (error, data) => {
-          if (error || !data) {
-            reject(new Error(error));
-            return;
-          }
-
-          resolve({
-            cMapData: new Uint8Array(data),
-            compressionType
-          });
-        });
-      });
-    }
-
-  };
 }
+
+exports.NodeCanvasFactory = NodeCanvasFactory;
+
+class NodeCMapReaderFactory extends _base_factory.BaseCMapReaderFactory {
+  _fetchData(url, compressionType) {
+    return fetchData(url).then(data => {
+      return {
+        cMapData: data,
+        compressionType
+      };
+    });
+  }
+
+}
+
+exports.NodeCMapReaderFactory = NodeCMapReaderFactory;
+
+class NodeStandardFontDataFactory extends _base_factory.BaseStandardFontDataFactory {
+  _fetchData(url) {
+    return fetchData(url);
+  }
+
+}
+
+exports.NodeStandardFontDataFactory = NodeStandardFontDataFactory;

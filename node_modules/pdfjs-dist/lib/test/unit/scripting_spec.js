@@ -1,8 +1,8 @@
 /**
  * @licstart The following is the entire license notice for the
- * Javascript code in this page
+ * JavaScript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2022 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
  * limitations under the License.
  *
  * @licend The above is the entire license notice for the
- * Javascript code in this page
+ * JavaScript code in this page
  */
 "use strict";
 
@@ -108,7 +108,7 @@ describe("Scripting", function () {
       }
 
       const number = 123;
-      const expected = ((number - 1) * number / 2).toString();
+      const expected = (number - 1) * number / 2;
       const refId = getId();
       const data = {
         objects: {
@@ -137,7 +137,9 @@ describe("Scripting", function () {
       expect(send_queue.has(refId)).toEqual(true);
       expect(send_queue.get(refId)).toEqual({
         id: refId,
-        valueAsString: expected
+        siblings: null,
+        value: expected,
+        formattedValue: null
       });
     });
   });
@@ -343,6 +345,7 @@ describe("Scripting", function () {
       expect(send_queue.has(refId)).toEqual(true);
       expect(send_queue.get(refId)).toEqual({
         id: refId,
+        siblings: null,
         value: "hell",
         selRange: [4, 4]
       });
@@ -379,7 +382,9 @@ describe("Scripting", function () {
       expect(send_queue.has(refId)).toEqual(true);
       expect(send_queue.get(refId)).toEqual({
         id: refId,
-        value: "hella"
+        siblings: null,
+        value: "hella",
+        selRange: [5, 5]
       });
     });
     it("should trigger an invalid commit Keystroke event", async () => {
@@ -448,8 +453,9 @@ describe("Scripting", function () {
       expect(send_queue.has(refId1)).toEqual(true);
       expect(send_queue.get(refId1)).toEqual({
         id: refId1,
+        siblings: null,
         value: "world",
-        valueAsString: "world"
+        formattedValue: null
       });
     });
   });
@@ -544,6 +550,18 @@ describe("Scripting", function () {
         objects: {},
         calculationOrder: [],
         dispatchEventName: "_dispatchMe"
+      });
+    });
+    describe("AFParseDateEx", function () {
+      it("should parse a date with a format", async () => {
+        const check = async (date, format, expected) => {
+          const value = await myeval(`AFParseDateEx("${date}", "${format}").toISOString()`);
+          expect(value).toEqual(new Date(expected).toISOString());
+        };
+
+        await check("05", "dd", "2000/01/05");
+        await check("12", "mm", "2000/12/01");
+        await check("2022", "yyyy", "2022/01/01");
       });
     });
     describe("AFExtractNums", function () {
@@ -696,8 +714,9 @@ describe("Scripting", function () {
         expect(send_queue.has(refId)).toEqual(true);
         expect(send_queue.get(refId)).toEqual({
           id: refId,
+          siblings: null,
           value: "123456.789",
-          valueAsString: "123456.789"
+          formattedValue: null
         });
       });
       it("should not validate a number on a keystroke event", async () => {
@@ -858,8 +877,9 @@ describe("Scripting", function () {
         expect(send_queue.has(refId)).toEqual(true);
         expect(send_queue.get(refId)).toEqual({
           id: refId,
+          siblings: null,
           value: "321",
-          valueAsString: "321"
+          formattedValue: null
         });
       });
       it("should invalidate a number out of range [a, b]", async () => {
@@ -923,7 +943,7 @@ describe("Scripting", function () {
               id: refIds[3],
               value: "",
               actions: {
-                Calculate: [`AFSimple_Calculate("SUM", ["field1", "field2", "field3"]);`]
+                Calculate: [`AFSimple_Calculate("SUM", ["field1", "field2", "field3", "unknown"]);`]
               },
               type: "text"
             }]
@@ -945,8 +965,9 @@ describe("Scripting", function () {
         expect(send_queue.has(refIds[3])).toEqual(true);
         expect(send_queue.get(refIds[3])).toEqual({
           id: refIds[3],
+          siblings: null,
           value: 1,
-          valueAsString: "1"
+          formattedValue: null
         });
         await sandbox.dispatchEventInSandbox({
           id: refIds[1],
@@ -957,8 +978,9 @@ describe("Scripting", function () {
         expect(send_queue.has(refIds[3])).toEqual(true);
         expect(send_queue.get(refIds[3])).toEqual({
           id: refIds[3],
+          siblings: null,
           value: 3,
-          valueAsString: "3"
+          formattedValue: null
         });
         await sandbox.dispatchEventInSandbox({
           id: refIds[2],
@@ -969,8 +991,9 @@ describe("Scripting", function () {
         expect(send_queue.has(refIds[3])).toEqual(true);
         expect(send_queue.get(refIds[3])).toEqual({
           id: refIds[3],
+          siblings: null,
           value: 6,
-          valueAsString: "6"
+          formattedValue: null
         });
       });
     });
@@ -1005,7 +1028,8 @@ describe("Scripting", function () {
           selStart: 0,
           selEnd: 0
         });
-        expect(send_queue.has(refId)).toEqual(false);
+        expect(send_queue.has(refId)).toEqual(true);
+        send_queue.delete(refId);
         await sandbox.dispatchEventInSandbox({
           id: refId,
           value: "3",
@@ -1015,7 +1039,8 @@ describe("Scripting", function () {
           selStart: 1,
           selEnd: 1
         });
-        expect(send_queue.has(refId)).toEqual(false);
+        expect(send_queue.has(refId)).toEqual(true);
+        send_queue.delete(refId);
         await sandbox.dispatchEventInSandbox({
           id: refId,
           value: "3F",
@@ -1025,7 +1050,8 @@ describe("Scripting", function () {
           selStart: 2,
           selEnd: 2
         });
-        expect(send_queue.has(refId)).toEqual(false);
+        expect(send_queue.has(refId)).toEqual(true);
+        send_queue.delete(refId);
         await sandbox.dispatchEventInSandbox({
           id: refId,
           value: "3F?",
@@ -1038,6 +1064,7 @@ describe("Scripting", function () {
         expect(send_queue.has(refId)).toEqual(true);
         expect(send_queue.get(refId)).toEqual({
           id: refId,
+          siblings: null,
           value: "3F?",
           selRange: [3, 3]
         });
@@ -1047,11 +1074,206 @@ describe("Scripting", function () {
           value: "3F?",
           change: "0",
           name: "Keystroke",
-          willCommit: true,
+          willCommit: false,
           selStart: 3,
           selEnd: 3
         });
-        expect(send_queue.has(refId)).toEqual(false);
+        expect(send_queue.has(refId)).toEqual(true);
+        send_queue.delete(refId);
+        await sandbox.dispatchEventInSandbox({
+          id: refId,
+          value: "3F?0",
+          name: "Keystroke",
+          willCommit: true,
+          selStart: 4,
+          selEnd: 4
+        });
+        expect(send_queue.has(refId)).toEqual(true);
+        expect(send_queue.get(refId)).toEqual({
+          id: refId,
+          siblings: null,
+          value: "3F?0",
+          formattedValue: null
+        });
+      });
+    });
+    describe("AFSpecial_Keystroke", function () {
+      it("should validate a zip code on a keystroke event", async () => {
+        const refId = getId();
+        const data = {
+          objects: {
+            field: [{
+              id: refId,
+              value: "",
+              actions: {
+                Keystroke: [`AFSpecial_Keystroke(0);`]
+              },
+              type: "text"
+            }]
+          },
+          appInfo: {
+            language: "en-US",
+            platform: "Linux x86_64"
+          },
+          calculationOrder: [],
+          dispatchEventName: "_dispatchMe"
+        };
+        sandbox.createSandbox(data);
+        let value = "";
+        const changes = "12345";
+        let i = 0;
+
+        for (; i < changes.length; i++) {
+          const change = changes.charAt(i);
+          await sandbox.dispatchEventInSandbox({
+            id: refId,
+            value,
+            change,
+            name: "Keystroke",
+            willCommit: false,
+            selStart: i,
+            selEnd: i
+          });
+          expect(send_queue.has(refId)).toEqual(true);
+          send_queue.delete(refId);
+          value += change;
+        }
+
+        await sandbox.dispatchEventInSandbox({
+          id: refId,
+          value,
+          change: "A",
+          name: "Keystroke",
+          willCommit: false,
+          selStart: i,
+          selEnd: i
+        });
+        expect(send_queue.has(refId)).toEqual(true);
+        expect(send_queue.get(refId)).toEqual({
+          id: refId,
+          siblings: null,
+          value,
+          selRange: [i, i]
+        });
+        send_queue.delete(refId);
+      });
+      it("should validate a US phone number (long) on a keystroke event", async () => {
+        const refId = getId();
+        const data = {
+          objects: {
+            field: [{
+              id: refId,
+              value: "",
+              actions: {
+                Keystroke: [`AFSpecial_Keystroke(2);`]
+              },
+              type: "text"
+            }]
+          },
+          appInfo: {
+            language: "en-US",
+            platform: "Linux x86_64"
+          },
+          calculationOrder: [],
+          dispatchEventName: "_dispatchMe"
+        };
+        sandbox.createSandbox(data);
+        let value = "";
+        const changes = "(123) 456-7890";
+        let i = 0;
+
+        for (; i < changes.length; i++) {
+          const change = changes.charAt(i);
+          await sandbox.dispatchEventInSandbox({
+            id: refId,
+            value,
+            change,
+            name: "Keystroke",
+            willCommit: false,
+            selStart: i,
+            selEnd: i
+          });
+          expect(send_queue.has(refId)).toEqual(true);
+          send_queue.delete(refId);
+          value += change;
+        }
+
+        await sandbox.dispatchEventInSandbox({
+          id: refId,
+          value,
+          change: "A",
+          name: "Keystroke",
+          willCommit: false,
+          selStart: i,
+          selEnd: i
+        });
+        expect(send_queue.has(refId)).toEqual(true);
+        expect(send_queue.get(refId)).toEqual({
+          id: refId,
+          siblings: null,
+          value,
+          selRange: [i, i]
+        });
+        send_queue.delete(refId);
+      });
+      it("should validate a US phone number (short) on a keystroke event", async () => {
+        const refId = getId();
+        const data = {
+          objects: {
+            field: [{
+              id: refId,
+              value: "",
+              actions: {
+                Keystroke: [`AFSpecial_Keystroke(2);`]
+              },
+              type: "text"
+            }]
+          },
+          appInfo: {
+            language: "en-US",
+            platform: "Linux x86_64"
+          },
+          calculationOrder: [],
+          dispatchEventName: "_dispatchMe"
+        };
+        sandbox.createSandbox(data);
+        let value = "";
+        const changes = "123-4567";
+        let i = 0;
+
+        for (; i < changes.length; i++) {
+          const change = changes.charAt(i);
+          await sandbox.dispatchEventInSandbox({
+            id: refId,
+            value,
+            change,
+            name: "Keystroke",
+            willCommit: false,
+            selStart: i,
+            selEnd: i
+          });
+          expect(send_queue.has(refId)).toEqual(true);
+          send_queue.delete(refId);
+          value += change;
+        }
+
+        await sandbox.dispatchEventInSandbox({
+          id: refId,
+          value,
+          change: "A",
+          name: "Keystroke",
+          willCommit: false,
+          selStart: i,
+          selEnd: i
+        });
+        expect(send_queue.has(refId)).toEqual(true);
+        expect(send_queue.get(refId)).toEqual({
+          id: refId,
+          siblings: null,
+          value,
+          selRange: [i, i]
+        });
+        send_queue.delete(refId);
       });
     });
     describe("eMailValidate", function () {

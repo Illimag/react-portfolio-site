@@ -1,8 +1,8 @@
 /**
  * @licstart The following is the entire license notice for the
- * Javascript code in this page
+ * JavaScript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2022 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
  * limitations under the License.
  *
  * @licend The above is the entire license notice for the
- * Javascript code in this page
+ * JavaScript code in this page
  */
 "use strict";
 
@@ -37,6 +37,10 @@ class Data extends _xfa_object.XmlObject {
     super(DATASETS_NS_ID, "data", attributes);
   }
 
+  [_xfa_object.$isNsAgnostic]() {
+    return true;
+  }
+
 }
 
 class Datasets extends _xfa_object.XFAObject {
@@ -51,8 +55,6 @@ class Datasets extends _xfa_object.XFAObject {
 
     if (name === "data" && child[_xfa_object.$namespaceId] === DATASETS_NS_ID || name === "Signature" && child[_xfa_object.$namespaceId] === _namespaces.NamespaceIds.signature.id) {
       this[name] = child;
-    } else {
-      child[_xfa_object.$global] = true;
     }
 
     this[_xfa_object.$appendChild](child);

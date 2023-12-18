@@ -1,8 +1,8 @@
 /**
  * @licstart The following is the entire license notice for the
- * Javascript code in this page
+ * JavaScript code in this page
  *
- * Copyright 2021 Mozilla Foundation
+ * Copyright 2022 Mozilla Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,14 +17,14 @@
  * limitations under the License.
  *
  * @licend The above is the entire license notice for the
- * Javascript code in this page
+ * JavaScript code in this page
  */
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.TOKEN = exports.Token = exports.Lexer = void 0;
+exports.Token = exports.TOKEN = exports.Lexer = void 0;
 const KEYWORDS = new Set(["and", "break", "continue", "do", "downto", "else", "elseif", "end", "endfor", "endfunc", "endif", "endwhile", "eq", "exit", "for", "foreach", "func", "ge", "gt", "if", "in", "infinity", "le", "lt", "nan", "ne", "not", "null", "or", "return", "step", "then", "this", "throw", "upto", "var", "while"]);
 const TOKEN = {
   and: 0,
@@ -85,8 +85,8 @@ const TOKEN = {
 };
 exports.TOKEN = TOKEN;
 const hexPattern = /^[uU]([0-9a-fA-F]{4,8})/;
-const numberPattern = /^[0-9]*(?:\.[0-9]*)?(?:[Ee][+-]?[0-9]+)?/;
-const dotNumberPattern = /^[0-9]*(?:[Ee][+-]?[0-9]+)?/;
+const numberPattern = /^\d*(?:\.\d*)?(?:[Ee][+-]?\d+)?/;
+const dotNumberPattern = /^\d*(?:[Ee][+-]?\d+)?/;
 const eolPattern = /[\r\n]+/;
 const identifierPattern = new RegExp("^[\\p{L}_$!][\\p{L}\\p{N}_$]*", "u");
 
