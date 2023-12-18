@@ -324,7 +324,7 @@ const getImageUrls = () => {
             <div className={styles.maincontentwrapper}>
 
             <Fade>
-            <p className={styles.whitetitle}>Hello, welcome my name is Jae Mid Kim. This is my portfolio website.</p>
+            <p className={styles.whitetitle}>Hello, welcome my name is Jae Min Kim. This is my portfolio website.</p>
             </Fade>
 
             <Col xs={12} md={8} className={styles.removepadding}>
